@@ -1,0 +1,10 @@
+{
+  "date": "2026-01-05",
+  "weather_code": 51,
+  "temp_max": 15.3,
+  "temp_min": 10.6,
+  "temp_mean": 12.4,
+  "precipitation": 0.3,
+  "sunshine": 33245.7,
+  "wind_speed_max": 24
+}
