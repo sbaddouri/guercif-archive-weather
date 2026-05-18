@@ -1,10 +1,10 @@
 {
   "date": "2026-05-17",
-  "weather_code": 3,
-  "temp_max": 25.0,
+  "weather_code": 51,
+  "temp_max": 25,
   "temp_min": 11.9,
-  "temp_mean": 18.9,
-  "precipitation": 0,
-  "sunshine": 46809.21,
-  "wind_speed_max": 0
+  "temp_mean": 18.8,
+  "precipitation": 0.2,
+  "sunshine": 46558.05,
+  "wind_speed_max": 16.5
 }
