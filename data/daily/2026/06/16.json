@@ -1,8 +1,8 @@
 {
   "date": "2026-06-16",
   "weather_code": 2,
-  "temp_max": 31,
-  "temp_min": 19.5,
+  "temp_max": 31.1,
+  "temp_min": 19.6,
   "temp_mean": 25,
   "precipitation": 0,
   "sunshine": 46800,
