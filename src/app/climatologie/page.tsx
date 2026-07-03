@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function ClimatologiePage() {
   return (
@@ -29,7 +30,7 @@ export default function ClimatologiePage() {
 
         <Card>
           <CardHeader>
-            <CardTitle>Records Historiques (Exemple)</CardTitle>
+            <CardTitle>Records Historiques</CardTitle>
           </CardHeader>
           <CardContent>
             <Table>
@@ -43,13 +44,13 @@ export default function ClimatologiePage() {
               <TableBody>
                 <TableRow>
                   <TableCell>Température Max</TableCell>
-                  <TableCell className="text-red-500 font-bold">48.2°C</TableCell>
-                  <TableCell>Juillet 2021</TableCell>
+                  <TableCell className="text-red-500 font-bold">46.6°C</TableCell>
+                  <TableCell>10 juillet 2023</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Température Min</TableCell>
-                  <TableCell className="text-blue-500 font-bold">-4.5°C</TableCell>
-                  <TableCell>Janvier 2005</TableCell>
+                  <TableCell className="text-blue-500 font-bold">-8.5°C</TableCell>
+                  <TableCell>8 janvier 1965</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Précipitations (24h)</TableCell>
@@ -70,5 +71,3 @@ export default function ClimatologiePage() {
     </div>
   );
 }
-
-import { Button } from "@/components/ui/button";
