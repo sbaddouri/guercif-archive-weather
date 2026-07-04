@@ -3,14 +3,24 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import temperatureSpectrum from "../../../plage et spectre de température.json";
+import precipitationSpectrum from "../../../plage de précipitation.json";
 
-type SpectrumEntry = {
+type TemperatureEntry = {
   "Température (°C)": number;
   "Température (°F)": number;
   "Hex fond": string;
   "Hex texte": string;
   "Aperçu": string;
   "Style CSS": string;
+};
+
+type PrecipitationEntry = {
+  precipitation_mm: number;
+  precipitation_inches: number;
+  background_hex: string;
+  text_hex: string;
+  preview: string;
+  css_style: string;
 };
 
 const months = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc', 'Année'];
@@ -36,10 +46,10 @@ const climateData = {
 
 const getTempStyle = (temp: number) => {
   // Find the closest temperature entry
-  let closestEntry: SpectrumEntry | undefined;
+  let closestEntry: TemperatureEntry | undefined;
   let minDiff = Infinity;
 
-  for (const entry of temperatureSpectrum as SpectrumEntry[]) {
+  for (const entry of temperatureSpectrum as TemperatureEntry[]) {
     const diff = Math.abs(entry["Température (°C)"] - temp);
     if (diff < minDiff) {
       minDiff = diff;
@@ -51,6 +61,28 @@ const getTempStyle = (temp: number) => {
     return {
       backgroundColor: closestEntry["Hex fond"],
       color: closestEntry["Hex texte"],
+    };
+  }
+  return {};
+};
+
+const getPrecipitationStyle = (mm: number) => {
+  // Find the closest precipitation entry
+  let closestEntry: PrecipitationEntry | undefined;
+  let minDiff = Infinity;
+
+  for (const entry of precipitationSpectrum as PrecipitationEntry[]) {
+    const diff = Math.abs(entry.precipitation_mm - mm);
+    if (diff < minDiff) {
+      minDiff = diff;
+      closestEntry = entry;
+    }
+  }
+
+  if (closestEntry) {
+    return {
+      backgroundColor: closestEntry.background_hex,
+      color: closestEntry.text_hex,
     };
   }
   return {};
@@ -229,7 +261,7 @@ export default function ClimatologiePage() {
                 <TableRow>
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Précipitations moy. mm (pouces)</TableCell>
                   {climateData.avgPrecipitation.map((v, i) => (
-                    <TableCell key={i} className={`text-center ${getColorClass('precipitation', v)}`}>
+                    <TableCell key={i} className="text-center" style={getPrecipitationStyle(v)}>
                       {v} ({(v / 25.4).toFixed(1)}")
                     </TableCell>
                   ))}
