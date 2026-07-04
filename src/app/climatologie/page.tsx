@@ -167,7 +167,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Record haut °C (°F)</TableCell>
                   {climateData.recordHigh.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -176,7 +176,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Moyenne max °C (°F)</TableCell>
                   {climateData.meanMax.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -185,7 +185,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Moyenne quotidienne max °C (°F)</TableCell>
                   {climateData.meanDailyMax.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -194,7 +194,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Moyenne quotidienne °C (°F)</TableCell>
                   {climateData.dailyMean.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -203,7 +203,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Moyenne quotidienne min °C (°F)</TableCell>
                   {climateData.meanDailyMin.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -212,7 +212,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Moyenne min °C (°F)</TableCell>
                   {climateData.meanMin.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -221,7 +221,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Record bas °C (°F)</TableCell>
                   {climateData.recordLow.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
@@ -230,7 +230,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Précipitations moy. mm (pouces)</TableCell>
                   {climateData.avgPrecipitation.map((v, i) => (
                     <TableCell key={i} className={`text-center ${getColorClass('precipitation', v)}`}>
-                      {v}<br /><span className="text-xs">{(v / 25.4).toFixed(1)}"</span>
+                      {v} ({(v / 25.4).toFixed(1)}")
                     </TableCell>
                   ))}
                 </TableRow>
@@ -239,7 +239,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Chute de neige moy. cm (pouces)</TableCell>
                   {climateData.avgSnowfall.map((v, i) => (
                     <TableCell key={i} className="text-center">
-                      {v}<br /><span className="text-xs">{(v / 2.54).toFixed(3)}"</span>
+                      {v} ({(v / 2.54).toFixed(3)}")
                     </TableCell>
                   ))}
                 </TableRow>
@@ -275,7 +275,7 @@ export default function ClimatologiePage() {
                   <TableCell className="bg-gray-50 dark:bg-gray-900 sticky left-0 z-10 font-semibold">Point de rosée moy. °C (°F)</TableCell>
                   {climateData.avgDewPoint.map((v, i) => (
                     <TableCell key={i} className="text-center" style={getTempStyle(v)}>
-                      {v}°<br /><span className="text-xs">{Math.round(v * 9/5 + 32)}°F</span>
+                      {v}° ({Math.round(v * 9/5 + 32)}°F)
                     </TableCell>
                   ))}
                 </TableRow>
