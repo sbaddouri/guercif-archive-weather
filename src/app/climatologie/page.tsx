@@ -16,13 +16,13 @@ type SpectrumEntry = {
 const months = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc', 'Année'];
 
 const climateData = {
-  recordHigh: [27.6, 32.9, 35.6, 39.9, 41.5, 44.6, 46.9, 46.3, 43.8, 38.4, 32.3, 29.8, 46.9],
+  recordHigh: [27.6, 32.9, 35.6, 39.9, 41.5, 44.6, 46.6, 46.3, 43.8, 38.4, 32.3, 29.8, 46.6],
   meanMax: [21.4, 23.7, 28.8, 31.6, 34.9, 38.7, 42.3, 41.5, 36.6, 32.4, 26.3, 21.6, 42.21],
   meanDailyMax: [15.3, 17.4, 20.3, 22.9, 26.8, 31.8, 36.2, 36.0, 30.8, 25.7, 19.6, 15.9, 24.9],
   dailyMean: [10.0, 11.8, 14.4, 16.9, 20.5, 25.0, 28.8, 28.9, 24.7, 20.1, 14.5, 10.9, 18.9],
   meanDailyMin: [4.6, 6.2, 8.5, 10.8, 14.1, 18.1, 21.4, 21.8, 18.6, 14.4, 9.4, 5.9, 12.8],
   meanMin: [-0.5, 1.8, 3.2, 6.4, 9.4, 14.3, 18.0, 17.9, 13.5, 9.4, 3.5, 0.9, -1.07],
-  recordLow: [-5.5, -4.2, -2.0, -0.5, 2.0, 6.0, 10.5, 8.8, 5.3, 0.0, -2.0, -3.5, -5.5],
+  recordLow: [-8.5, -4.2, -2.0, -0.5, 2.0, 6.0, 10.5, 8.8, 5.3, 0.0, -2.0, -3.5, -8.5],
   avgPrecipitation: [20, 24, 30, 27, 23, 8, 3, 6, 16, 27, 30, 19, 233],
   avgSnowfall: [0.11, 0.07, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08, 0.15, 0.42],
   avgPrecipitationDays: [3, 4, 4, 4, 3, 2, 1, 1, 2, 3, 4, 3, 34],
@@ -125,13 +125,13 @@ export default function ClimatologiePage() {
               <TableBody>
                 <TableRow>
                   <TableCell>Température Max</TableCell>
-                  <TableCell className="text-red-500 font-bold">46.9°C</TableCell>
-                  <TableCell>Juin 2023</TableCell>
+                  <TableCell className="text-red-500 font-bold">46.6°C</TableCell>
+                  <TableCell>10 juillet 2023</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Température Min</TableCell>
-                  <TableCell className="text-blue-500 font-bold">-5.5°C</TableCell>
-                  <TableCell>Janvier 1940</TableCell>
+                  <TableCell className="text-blue-500 font-bold">-8.5°C</TableCell>
+                  <TableCell>8 janvier 1965</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>Précipitations (24h)</TableCell>
