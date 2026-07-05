@@ -246,5 +246,2165 @@
     "text_hex": "000000",
     "preview": "Aa",
     "css_style": "background: #D0D0FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 31,
+    "precipitation_inches": 1.220472440944882,
+    "background_hex": "CFCFFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #CFCFFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 32,
+    "precipitation_inches": 1.2598425196850394,
+    "background_hex": "CDCDFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #CDCDFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 33,
+    "precipitation_inches": 1.299212598425197,
+    "background_hex": "CCCCFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #CCCCFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 34,
+    "precipitation_inches": 1.3385826771653544,
+    "background_hex": "CACAFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #CACAFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 35,
+    "precipitation_inches": 1.3779527559055118,
+    "background_hex": "C9C9FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C9C9FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 36,
+    "precipitation_inches": 1.4173228346456694,
+    "background_hex": "C7C7FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C7C7FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 37,
+    "precipitation_inches": 1.4566929133858268,
+    "background_hex": "C6C6FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C6C6FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 38,
+    "precipitation_inches": 1.4960629921259843,
+    "background_hex": "C4C4FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C4C4FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 39,
+    "precipitation_inches": 1.535433070866142,
+    "background_hex": "C3C3FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C3C3FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 40,
+    "precipitation_inches": 1.5748031496062993,
+    "background_hex": "C1C1FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C1C1FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 41,
+    "precipitation_inches": 1.6141732283464567,
+    "background_hex": "C0C0FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #C0C0FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 42,
+    "precipitation_inches": 1.6535433070866143,
+    "background_hex": "BEBEFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #BEBEFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 43,
+    "precipitation_inches": 1.6929133858267718,
+    "background_hex": "BDBDFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #BDBDFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 44,
+    "precipitation_inches": 1.7322834645669292,
+    "background_hex": "BBBBFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #BBBBFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 45,
+    "precipitation_inches": 1.7716535433070868,
+    "background_hex": "BABAFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #BABAFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 46,
+    "precipitation_inches": 1.8110236220472442,
+    "background_hex": "B8B8FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B8B8FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 47,
+    "precipitation_inches": 1.8503937007874016,
+    "background_hex": "B7B7FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B7B7FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 48,
+    "precipitation_inches": 1.8897637795275593,
+    "background_hex": "B5B5FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B5B5FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 49,
+    "precipitation_inches": 1.9291338582677167,
+    "background_hex": "B4B4FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B4B4FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 50,
+    "precipitation_inches": 1.968503937007874,
+    "background_hex": "B2B2FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B2B2FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 51,
+    "precipitation_inches": 2.0078740157480315,
+    "background_hex": "B1B1FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #B1B1FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 52,
+    "precipitation_inches": 2.047244094488189,
+    "background_hex": "AFAFFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #AFAFFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 53,
+    "precipitation_inches": 2.0866141732283467,
+    "background_hex": "AEAEFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #AEAEFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 54,
+    "precipitation_inches": 2.125984251968504,
+    "background_hex": "ACACFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #ACACFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 55,
+    "precipitation_inches": 2.1653543307086616,
+    "background_hex": "ABABFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #ABABFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 56,
+    "precipitation_inches": 2.204724409448819,
+    "background_hex": "A9A9FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A9A9FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 57,
+    "precipitation_inches": 2.2440944881889764,
+    "background_hex": "A8A8FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A8A8FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 58,
+    "precipitation_inches": 2.283464566929134,
+    "background_hex": "A6A6FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A6A6FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 59,
+    "precipitation_inches": 2.3228346456692917,
+    "background_hex": "A5A5FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A5A5FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 60,
+    "precipitation_inches": 2.362204724409449,
+    "background_hex": "A3A3FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A3A3FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 61,
+    "precipitation_inches": 2.4015748031496065,
+    "background_hex": "A2A2FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A2A2FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 62,
+    "precipitation_inches": 2.440944881889764,
+    "background_hex": "A0A0FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #A0A0FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 63,
+    "precipitation_inches": 2.4803149606299213,
+    "background_hex": "9F9FFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9F9FFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 64,
+    "precipitation_inches": 2.5196850393700787,
+    "background_hex": "9D9DFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9D9DFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 65,
+    "precipitation_inches": 2.5590551181102366,
+    "background_hex": "9C9CFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9C9CFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 66,
+    "precipitation_inches": 2.598425196850394,
+    "background_hex": "9A9AFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9A9AFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 67,
+    "precipitation_inches": 2.6377952755905514,
+    "background_hex": "9999FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9999FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 68,
+    "precipitation_inches": 2.677165354330709,
+    "background_hex": "9797FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9797FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 69,
+    "precipitation_inches": 2.716535433070866,
+    "background_hex": "9696FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9696FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 70,
+    "precipitation_inches": 2.7559055118110236,
+    "background_hex": "9494FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9494FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 71,
+    "precipitation_inches": 2.7952755905511815,
+    "background_hex": "9393FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9393FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 72,
+    "precipitation_inches": 2.834645669291339,
+    "background_hex": "9191FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9191FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 73,
+    "precipitation_inches": 2.8740157480314963,
+    "background_hex": "9090FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #9090FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 74,
+    "precipitation_inches": 2.9133858267716537,
+    "background_hex": "8E8EFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8E8EFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 75,
+    "precipitation_inches": 2.952755905511811,
+    "background_hex": "8D8DFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8D8DFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 76,
+    "precipitation_inches": 2.9921259842519685,
+    "background_hex": "8B8BFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8B8BFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 77,
+    "precipitation_inches": 3.0314960629921264,
+    "background_hex": "8A8AFF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8A8AFF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 78,
+    "precipitation_inches": 3.070866141732284,
+    "background_hex": "8888FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8888FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 79,
+    "precipitation_inches": 3.110236220472441,
+    "background_hex": "8787FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8787FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 80,
+    "precipitation_inches": 3.1496062992125986,
+    "background_hex": "8585FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8585FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 81,
+    "precipitation_inches": 3.188976377952756,
+    "background_hex": "8484FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8484FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 82,
+    "precipitation_inches": 3.2283464566929134,
+    "background_hex": "8282FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8282FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 83,
+    "precipitation_inches": 3.267716535433071,
+    "background_hex": "8181FF",
+    "text_hex": "000000",
+    "preview": "Aa",
+    "css_style": "background: #8181FF; color:#000000;"
+  },
+  {
+    "precipitation_mm": 84,
+    "precipitation_inches": 3.3070866141732287,
+    "background_hex": "7F7FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7F7FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 85,
+    "precipitation_inches": 3.346456692913386,
+    "background_hex": "7E7EFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7E7EFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 86,
+    "precipitation_inches": 3.3858267716535435,
+    "background_hex": "7C7CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7C7CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 87,
+    "precipitation_inches": 3.425196850393701,
+    "background_hex": "7B7BFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7B7BFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 88,
+    "precipitation_inches": 3.4645669291338583,
+    "background_hex": "7979FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7979FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 89,
+    "precipitation_inches": 3.5039370078740157,
+    "background_hex": "7878FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7878FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 90,
+    "precipitation_inches": 3.5433070866141736,
+    "background_hex": "7676FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7676FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 91,
+    "precipitation_inches": 3.582677165354331,
+    "background_hex": "7575FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7575FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 92,
+    "precipitation_inches": 3.6220472440944884,
+    "background_hex": "7373FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7373FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 93,
+    "precipitation_inches": 3.661417322834646,
+    "background_hex": "7272FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7272FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 94,
+    "precipitation_inches": 3.7007874015748032,
+    "background_hex": "7070FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #7070FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 95,
+    "precipitation_inches": 3.7401574803149606,
+    "background_hex": "6F6FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6F6FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 96,
+    "precipitation_inches": 3.7795275590551185,
+    "background_hex": "6D6DFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6D6DFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 97,
+    "precipitation_inches": 3.818897637795276,
+    "background_hex": "6C6CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6C6CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 98,
+    "precipitation_inches": 3.8582677165354333,
+    "background_hex": "6A6AFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6A6AFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 99,
+    "precipitation_inches": 3.8976377952755907,
+    "background_hex": "6969FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6969FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 100,
+    "precipitation_inches": 3.937007874015748,
+    "background_hex": "6767FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6767FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 101,
+    "precipitation_inches": 3.9763779527559056,
+    "background_hex": "6666FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6666FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 102,
+    "precipitation_inches": 4.015748031496063,
+    "background_hex": "6464FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6464FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 103,
+    "precipitation_inches": 4.05511811023622,
+    "background_hex": "6363FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6363FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 104,
+    "precipitation_inches": 4.094488188976378,
+    "background_hex": "6161FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6161FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 105,
+    "precipitation_inches": 4.133858267716536,
+    "background_hex": "6060FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #6060FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 106,
+    "precipitation_inches": 4.1732283464566935,
+    "background_hex": "5E5EFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5E5EFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 107,
+    "precipitation_inches": 4.212598425196851,
+    "background_hex": "5D5DFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5D5DFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 108,
+    "precipitation_inches": 4.251968503937008,
+    "background_hex": "5B5BFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5B5BFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 109,
+    "precipitation_inches": 4.291338582677166,
+    "background_hex": "5A5AFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5A5AFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 110,
+    "precipitation_inches": 4.330708661417323,
+    "background_hex": "5858FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5858FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 111,
+    "precipitation_inches": 4.3700787401574805,
+    "background_hex": "5757FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5757FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 112,
+    "precipitation_inches": 4.409448818897638,
+    "background_hex": "5555FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5555FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 113,
+    "precipitation_inches": 4.448818897637795,
+    "background_hex": "5454FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5454FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 114,
+    "precipitation_inches": 4.488188976377953,
+    "background_hex": "5252FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5252FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 115,
+    "precipitation_inches": 4.52755905511811,
+    "background_hex": "5151FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #5151FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 116,
+    "precipitation_inches": 4.566929133858268,
+    "background_hex": "4F4FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4F4FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 117,
+    "precipitation_inches": 4.606299212598426,
+    "background_hex": "4E4EFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4E4EFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 118,
+    "precipitation_inches": 4.645669291338583,
+    "background_hex": "4C4CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4C4CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 119,
+    "precipitation_inches": 4.685039370078741,
+    "background_hex": "4B4BFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4B4BFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 120,
+    "precipitation_inches": 4.724409448818898,
+    "background_hex": "4949FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4949FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 121,
+    "precipitation_inches": 4.7637795275590555,
+    "background_hex": "4848FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4848FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 122,
+    "precipitation_inches": 4.803149606299213,
+    "background_hex": "4646FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4646FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 123,
+    "precipitation_inches": 4.84251968503937,
+    "background_hex": "4545FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4545FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 124,
+    "precipitation_inches": 4.881889763779528,
+    "background_hex": "4343FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4343FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 125,
+    "precipitation_inches": 4.921259842519685,
+    "background_hex": "4242FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4242FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 126,
+    "precipitation_inches": 4.960629921259843,
+    "background_hex": "4040FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #4040FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 127,
+    "precipitation_inches": 5,
+    "background_hex": "3F3FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3F3FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 128,
+    "precipitation_inches": 5.039370078740157,
+    "background_hex": "3D3DFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3D3DFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 129,
+    "precipitation_inches": 5.078740157480315,
+    "background_hex": "3C3CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3C3CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 130,
+    "precipitation_inches": 5.118110236220473,
+    "background_hex": "3A3AFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3A3AFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 131,
+    "precipitation_inches": 5.1574803149606305,
+    "background_hex": "3939FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3939FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 132,
+    "precipitation_inches": 5.196850393700788,
+    "background_hex": "3737FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3737FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 133,
+    "precipitation_inches": 5.236220472440945,
+    "background_hex": "3636FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3636FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 134,
+    "precipitation_inches": 5.275590551181103,
+    "background_hex": "3434FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3434FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 135,
+    "precipitation_inches": 5.31496062992126,
+    "background_hex": "3333FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3333FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 136,
+    "precipitation_inches": 5.354330708661418,
+    "background_hex": "3131FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3131FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 137,
+    "precipitation_inches": 5.393700787401575,
+    "background_hex": "3030FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #3030FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 138,
+    "precipitation_inches": 5.433070866141732,
+    "background_hex": "2E2EFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2E2EFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 139,
+    "precipitation_inches": 5.47244094488189,
+    "background_hex": "2D2DFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2D2DFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 140,
+    "precipitation_inches": 5.511811023622047,
+    "background_hex": "2B2BFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2B2BFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 141,
+    "precipitation_inches": 5.551181102362205,
+    "background_hex": "2A2AFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2A2AFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 142,
+    "precipitation_inches": 5.590551181102363,
+    "background_hex": "2828FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2828FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 143,
+    "precipitation_inches": 5.62992125984252,
+    "background_hex": "2727FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2727FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 144,
+    "precipitation_inches": 5.669291338582678,
+    "background_hex": "2525FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2525FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 145,
+    "precipitation_inches": 5.708661417322835,
+    "background_hex": "2424FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2424FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 146,
+    "precipitation_inches": 5.748031496062993,
+    "background_hex": "2222FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2222FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 147,
+    "precipitation_inches": 5.78740157480315,
+    "background_hex": "2121FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #2121FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 148,
+    "precipitation_inches": 5.826771653543307,
+    "background_hex": "1F1FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1F1FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 149,
+    "precipitation_inches": 5.866141732283465,
+    "background_hex": "1E1EFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1E1EFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 150,
+    "precipitation_inches": 5.905511811023622,
+    "background_hex": "1C1CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1C1CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 151,
+    "precipitation_inches": 5.94488188976378,
+    "background_hex": "1B1BFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1B1BFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 152,
+    "precipitation_inches": 5.984251968503937,
+    "background_hex": "1919FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1919FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 153,
+    "precipitation_inches": 6.0236220472440944,
+    "background_hex": "1818FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1818FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 154,
+    "precipitation_inches": 6.062992125984253,
+    "background_hex": "1616FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1616FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 155,
+    "precipitation_inches": 6.10236220472441,
+    "background_hex": "1515FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1515FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 156,
+    "precipitation_inches": 6.141732283464568,
+    "background_hex": "1313FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1313FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 157,
+    "precipitation_inches": 6.181102362204725,
+    "background_hex": "1212FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1212FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 158,
+    "precipitation_inches": 6.220472440944882,
+    "background_hex": "1010FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #1010FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 159,
+    "precipitation_inches": 6.25984251968504,
+    "background_hex": "0F0FFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0F0FFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 160,
+    "precipitation_inches": 6.299212598425197,
+    "background_hex": "0D0DFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0D0DFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 161,
+    "precipitation_inches": 6.338582677165355,
+    "background_hex": "0C0CFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0C0CFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 162,
+    "precipitation_inches": 6.377952755905512,
+    "background_hex": "0A0AFF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0A0AFF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 163,
+    "precipitation_inches": 6.417322834645669,
+    "background_hex": "0909FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0909FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 164,
+    "precipitation_inches": 6.456692913385827,
+    "background_hex": "0707FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0707FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 165,
+    "precipitation_inches": 6.496062992125984,
+    "background_hex": "0606FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0606FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 166,
+    "precipitation_inches": 6.535433070866142,
+    "background_hex": "0404FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0404FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 167,
+    "precipitation_inches": 6.5748031496063,
+    "background_hex": "0303FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0303FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 168,
+    "precipitation_inches": 6.614173228346457,
+    "background_hex": "0101FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0101FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 169,
+    "precipitation_inches": 6.653543307086615,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 170,
+    "precipitation_inches": 6.692913385826772,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 171,
+    "precipitation_inches": 6.73228346456693,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 172,
+    "precipitation_inches": 6.771653543307087,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 173,
+    "precipitation_inches": 6.811023622047244,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 174,
+    "precipitation_inches": 6.850393700787402,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 175,
+    "precipitation_inches": 6.889763779527559,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 176,
+    "precipitation_inches": 6.929133858267717,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 177,
+    "precipitation_inches": 6.968503937007874,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 178,
+    "precipitation_inches": 7.0078740157480315,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 179,
+    "precipitation_inches": 7.04724409448819,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 180,
+    "precipitation_inches": 7.086614173228347,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 181,
+    "precipitation_inches": 7.125984251968505,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 182,
+    "precipitation_inches": 7.165354330708662,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 183,
+    "precipitation_inches": 7.204724409448819,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 184,
+    "precipitation_inches": 7.244094488188977,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 185,
+    "precipitation_inches": 7.283464566929134,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 186,
+    "precipitation_inches": 7.322834645669292,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 187,
+    "precipitation_inches": 7.362204724409449,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 188,
+    "precipitation_inches": 7.4015748031496065,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 189,
+    "precipitation_inches": 7.440944881889764,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 190,
+    "precipitation_inches": 7.480314960629921,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 191,
+    "precipitation_inches": 7.51968503937008,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 192,
+    "precipitation_inches": 7.559055118110237,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 193,
+    "precipitation_inches": 7.598425196850394,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 194,
+    "precipitation_inches": 7.637795275590552,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 195,
+    "precipitation_inches": 7.677165354330709,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 196,
+    "precipitation_inches": 7.716535433070867,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 197,
+    "precipitation_inches": 7.755905511811024,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 198,
+    "precipitation_inches": 7.7952755905511815,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 199,
+    "precipitation_inches": 7.834645669291339,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 200,
+    "precipitation_inches": 7.874015748031496,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 201,
+    "precipitation_inches": 7.913385826771654,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 202,
+    "precipitation_inches": 7.952755905511811,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 203,
+    "precipitation_inches": 7.9921259842519685,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 204,
+    "precipitation_inches": 8.031496062992126,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 205,
+    "precipitation_inches": 8.070866141732283,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 206,
+    "precipitation_inches": 8.11023622047244,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 207,
+    "precipitation_inches": 8.149606299212598,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 208,
+    "precipitation_inches": 8.188976377952756,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 209,
+    "precipitation_inches": 8.228346456692913,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 210,
+    "precipitation_inches": 8.267716535433072,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 211,
+    "precipitation_inches": 8.30708661417323,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 212,
+    "precipitation_inches": 8.346456692913387,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 213,
+    "precipitation_inches": 8.385826771653544,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 214,
+    "precipitation_inches": 8.425196850393702,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 215,
+    "precipitation_inches": 8.46456692913386,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 216,
+    "precipitation_inches": 8.503937007874017,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 217,
+    "precipitation_inches": 8.543307086614174,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 218,
+    "precipitation_inches": 8.582677165354331,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 219,
+    "precipitation_inches": 8.622047244094489,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 220,
+    "precipitation_inches": 8.661417322834646,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 221,
+    "precipitation_inches": 8.700787401574804,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 222,
+    "precipitation_inches": 8.740157480314961,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 223,
+    "precipitation_inches": 8.779527559055119,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 224,
+    "precipitation_inches": 8.818897637795276,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 225,
+    "precipitation_inches": 8.858267716535433,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 226,
+    "precipitation_inches": 8.89763779527559,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 227,
+    "precipitation_inches": 8.937007874015748,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 228,
+    "precipitation_inches": 8.976377952755906,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 229,
+    "precipitation_inches": 9.015748031496063,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 230,
+    "precipitation_inches": 9.05511811023622,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 231,
+    "precipitation_inches": 9.094488188976378,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 232,
+    "precipitation_inches": 9.133858267716535,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 233,
+    "precipitation_inches": 9.173228346456693,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 234,
+    "precipitation_inches": 9.212598425196852,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 235,
+    "precipitation_inches": 9.25196850393701,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 236,
+    "precipitation_inches": 9.291338582677167,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 237,
+    "precipitation_inches": 9.330708661417324,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 238,
+    "precipitation_inches": 9.370078740157481,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 239,
+    "precipitation_inches": 9.409448818897639,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 240,
+    "precipitation_inches": 9.448818897637796,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 241,
+    "precipitation_inches": 9.488188976377954,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 242,
+    "precipitation_inches": 9.527559055118111,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 243,
+    "precipitation_inches": 9.566929133858268,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 244,
+    "precipitation_inches": 9.606299212598426,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 245,
+    "precipitation_inches": 9.645669291338583,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 246,
+    "precipitation_inches": 9.68503937007874,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 247,
+    "precipitation_inches": 9.724409448818898,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 248,
+    "precipitation_inches": 9.763779527559056,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 249,
+    "precipitation_inches": 9.803149606299213,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 250,
+    "precipitation_inches": 9.84251968503937,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 251,
+    "precipitation_inches": 9.881889763779528,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 252,
+    "precipitation_inches": 9.921259842519685,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 253,
+    "precipitation_inches": 9.960629921259843,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 254,
+    "precipitation_inches": 10,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 255,
+    "precipitation_inches": 10.039370078740157,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 256,
+    "precipitation_inches": 10.078740157480315,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 257,
+    "precipitation_inches": 10.118110236220472,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 258,
+    "precipitation_inches": 10.15748031496063,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 259,
+    "precipitation_inches": 10.196850393700789,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 260,
+    "precipitation_inches": 10.236220472440946,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 261,
+    "precipitation_inches": 10.275590551181104,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 262,
+    "precipitation_inches": 10.314960629921261,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 263,
+    "precipitation_inches": 10.354330708661418,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 264,
+    "precipitation_inches": 10.393700787401576,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 265,
+    "precipitation_inches": 10.433070866141733,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 266,
+    "precipitation_inches": 10.47244094488189,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 267,
+    "precipitation_inches": 10.511811023622048,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 268,
+    "precipitation_inches": 10.551181102362206,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 269,
+    "precipitation_inches": 10.590551181102363,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 270,
+    "precipitation_inches": 10.62992125984252,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 271,
+    "precipitation_inches": 10.669291338582678,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 272,
+    "precipitation_inches": 10.708661417322835,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 273,
+    "precipitation_inches": 10.748031496062993,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 274,
+    "precipitation_inches": 10.78740157480315,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 275,
+    "precipitation_inches": 10.826771653543307,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 276,
+    "precipitation_inches": 10.866141732283465,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 277,
+    "precipitation_inches": 10.905511811023622,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 278,
+    "precipitation_inches": 10.94488188976378,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 279,
+    "precipitation_inches": 10.984251968503937,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 280,
+    "precipitation_inches": 11.023622047244094,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 281,
+    "precipitation_inches": 11.062992125984252,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 282,
+    "precipitation_inches": 11.10236220472441,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 283,
+    "precipitation_inches": 11.141732283464567,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 284,
+    "precipitation_inches": 11.181102362204726,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 285,
+    "precipitation_inches": 11.220472440944883,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 286,
+    "precipitation_inches": 11.25984251968504,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 287,
+    "precipitation_inches": 11.299212598425198,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 288,
+    "precipitation_inches": 11.338582677165356,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 289,
+    "precipitation_inches": 11.377952755905513,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 290,
+    "precipitation_inches": 11.41732283464567,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 291,
+    "precipitation_inches": 11.456692913385828,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 292,
+    "precipitation_inches": 11.496062992125985,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 293,
+    "precipitation_inches": 11.535433070866143,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 294,
+    "precipitation_inches": 11.5748031496063,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 295,
+    "precipitation_inches": 11.614173228346457,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 296,
+    "precipitation_inches": 11.653543307086615,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 297,
+    "precipitation_inches": 11.692913385826772,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 298,
+    "precipitation_inches": 11.73228346456693,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 299,
+    "precipitation_inches": 11.771653543307087,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
+  },
+  {
+    "precipitation_mm": 300,
+    "precipitation_inches": 11.811023622047244,
+    "background_hex": "0000FF",
+    "text_hex": "FFFFFF",
+    "preview": "Aa",
+    "css_style": "background: #0000FF; color:#FFFFFF;"
   }
 ]
