@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
+import WeatherCountdown from "@/components/weather-countdown";
 
 const DATA_DIR = path.join(process.cwd(), 'data', 'daily');
 
@@ -15,6 +16,7 @@ export default function ArchivesPage() {
 
   return (
     <div className="space-y-8">
+      <WeatherCountdown />
       <h1 className="text-3xl font-bold">Archives Climatologiques</h1>
       <p className="text-muted-foreground">Parcourez les données historiques de Guercif par année et par mois.</p>
 

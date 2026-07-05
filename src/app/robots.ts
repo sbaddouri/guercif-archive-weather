@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://guercif-weather.vercel.app/sitemap.xml',
+    sitemap: 'https://guercifarchiveweather.vercel.app/sitemap.xml',
   };
 }

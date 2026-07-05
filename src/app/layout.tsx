@@ -17,12 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Guercif Weather Archive - Climatologie de Guercif, Maroc",
   description: "Archives météorologiques complètes de Guercif, Oriental, Maroc. Températures, précipitations et statistiques climatiques.",
-  keywords: ["Guercif", "Météo", "Climatologie", "Maroc", "Archives Météo", "Oriental", "Températures", "Pluie"],
+  keywords: ["Guercif", "Météo", "Climatologie", "Maroc", "Archives Météo", "Oriental", "Températures", "Pluie", "Radar Météo", "Rapport Scientifique"],
   authors: [{ name: "Guercif Weather" }],
   openGraph: {
     title: "Guercif Weather Archive",
     description: "Climatologie et archives météo de Guercif, Maroc.",
-    url: "https://guercif-weather.vercel.app",
+    url: "https://guercifarchiveweather.vercel.app",
     siteName: "Guercif Weather",
     locale: "fr_FR",
   },
