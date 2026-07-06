@@ -7,6 +7,7 @@ import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
 import { Button } from "@/components/ui/button";
 import HomeClient from "@/components/home-client";
+import WeatherCountdown from "@/components/weather-countdown";
 import fs from "fs";
 import path from "path";
 
@@ -50,6 +51,9 @@ export default async function Home() {
           Archives historiques, graphiques interactifs et statistiques précises.
         </p>
       </section>
+
+      {/* Countdown Section */}
+      <WeatherCountdown />
 
       {/* Latest Weather Summary */}
       {latest && (
