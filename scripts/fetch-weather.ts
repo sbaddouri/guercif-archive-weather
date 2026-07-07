@@ -112,9 +112,9 @@ async function main() {
     endDate = args[1];
   } else {
     const today = new Date();
-    const yesterday = subDays(today, 1);
-    endDate = format(yesterday, 'yyyy-MM-dd');
-    startDate = format(subDays(yesterday, 30), 'yyyy-MM-dd');
+    const threeDaysAgo = subDays(today, 3);
+    endDate = format(threeDaysAgo, 'yyyy-MM-dd');
+    startDate = format(subDays(threeDaysAgo, 30), 'yyyy-MM-dd');
   }
 
   console.log(`Fetching data from ${startDate} to ${endDate}...`);

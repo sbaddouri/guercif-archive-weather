@@ -75,7 +75,8 @@ export async function getRecentDailyData(days = 7): Promise<DailyData[]> {
   const results: DailyData[] = [];
   const today = new Date();
   
-  for (let i = 1; i <= days; i++) {
+  // Start from 3 days ago to ensure complete data
+  for (let i = 3; i < 3 + days; i++) {
     const dateStr = format(subDays(today, i), 'yyyy-MM-dd');
     const data = await getDailyData(dateStr);
     if (data) results.push(data);
