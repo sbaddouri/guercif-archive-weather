@@ -17,21 +17,24 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: 🔍 Checkout repository
+        uses: actions/checkout@v4
       
-      - name: Setup Node.js
+      - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'npm'
           
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm install
         
-      - name: Fetch weather data
+      - name: 🌤️ Fetch weather data
+        id: fetch
         run: npx tsx scripts/fetch-weather.ts
         
-      - name: Commit and push changes
+      - name: 📝 Commit and push changes
+        if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -39,8 +42,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "ℹ️ No changes to commit"
           else
             git commit -m "chore: update weather data [skip ci]"
             git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
           fi
+          
+      - name: 🚨 ALERT: Workflow failed!
+        if: failure()
+        run: echo "❌ The weather data update workflow FAILED! Check the logs above for details."
