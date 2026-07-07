@@ -36,59 +36,71 @@ async function fetchWeatherData(startDate: string, endDate: string) {
 }
 
 async function saveDailyData(daily: any) {
-  const dates = daily.time;
-  for (let i = 0; i < dates.length; i++) {
-    const date = dates[i];
-    const [year, month, day] = date.split('-');
-    const dir = path.join(DATA_DIR, 'daily', year, month);
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  try {
+    const dates = daily.time;
+    for (let i = 0; i < dates.length; i++) {
+      const date = dates[i];
+      const [year, month, day] = date.split('-');
+      const dir = path.join(DATA_DIR, 'daily', year, month);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-    const dayData = {
-      date,
-      weather_code: daily.weather_code[i],
-      temp_max: daily.temperature_2m_max[i],
-      temp_min: daily.temperature_2m_min[i],
-      temp_mean: daily.temperature_2m_mean[i],
-      precipitation: daily.precipitation_sum[i],
-      sunshine: daily.sunshine_duration[i],
-      wind_speed_max: daily.wind_speed_10m_max[i],
-    };
+      const dayData = {
+        date,
+        weather_code: daily.weather_code[i],
+        temp_max: daily.temperature_2m_max[i],
+        temp_min: daily.temperature_2m_min[i],
+        temp_mean: daily.temperature_2m_mean[i],
+        precipitation: daily.precipitation_sum[i],
+        sunshine: daily.sunshine_duration[i],
+        wind_speed_max: daily.wind_speed_10m_max[i],
+      };
 
-    fs.writeFileSync(path.join(dir, `${day}.json`), JSON.stringify(dayData, null, 2));
+      fs.writeFileSync(path.join(dir, `${day}.json`), JSON.stringify(dayData, null, 2));
+    }
+    console.log('Daily data saved.');
+  } catch (error: any) {
+    console.error('ERROR saving daily data:', error.message);
+    throw error;
   }
 }
 
 async function saveHourlyData(hourly: any) {
-  const times = hourly.time;
-  const hourlyByDate: { [key: string]: any[] } = {};
+  try {
+    const times = hourly.time;
+    const hourlyByDate: { [key: string]: any[] } = {};
 
-  for (let i = 0; i < times.length; i++) {
-    const time = times[i];
-    const date = time.split('T')[0];
-    if (!hourlyByDate[date]) hourlyByDate[date] = [];
+    for (let i = 0; i < times.length; i++) {
+      const time = times[i];
+      const date = time.split('T')[0];
+      if (!hourlyByDate[date]) hourlyByDate[date] = [];
 
-    hourlyByDate[date].push({
-      time,
-      temp: hourly.temperature_2m[i],
-      humidity: hourly.relative_humidity_2m[i],
-      dew_point: hourly.dew_point_2m[i],
-      precipitation: hourly.precipitation[i],
-      weather_code: hourly.weather_code[i],
-      pressure: hourly.pressure_msl[i],
-      wind_speed: hourly.wind_speed_10m[i],
-      wind_gusts: hourly.wind_gusts_10m[i],
-      visibility: hourly.visibility[i],
-      uv_index: hourly.uv_index[i],
-      sunshine: hourly.sunshine_duration[i],
-    });
-  }
+      hourlyByDate[date].push({
+        time,
+        temp: hourly.temperature_2m[i],
+        humidity: hourly.relative_humidity_2m[i],
+        dew_point: hourly.dew_point_2m[i],
+        precipitation: hourly.precipitation[i],
+        weather_code: hourly.weather_code[i],
+        pressure: hourly.pressure_msl[i],
+        wind_speed: hourly.wind_speed_10m[i],
+        wind_gusts: hourly.wind_gusts_10m[i],
+        visibility: hourly.visibility[i],
+        uv_index: hourly.uv_index[i],
+        sunshine: hourly.sunshine_duration[i],
+      });
+    }
 
-  for (const date in hourlyByDate) {
-    const [year, month, day] = date.split('-');
-    const dir = path.join(DATA_DIR, 'hourly', year, month);
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    for (const date in hourlyByDate) {
+      const [year, month, day] = date.split('-');
+      const dir = path.join(DATA_DIR, 'hourly', year, month);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-    fs.writeFileSync(path.join(dir, `${day}.json`), JSON.stringify(hourlyByDate[date], null, 2));
+      fs.writeFileSync(path.join(dir, `${day}.json`), JSON.stringify(hourlyByDate[date], null, 2));
+    }
+    console.log('Hourly data saved.');
+  } catch (error: any) {
+    console.error('ERROR saving hourly data:', error.message);
+    throw error;
   }
 }
 
@@ -124,7 +136,13 @@ async function main() {
     await saveDailyData(data.daily);
     await saveHourlyData(data.hourly);
     console.log('Data saved successfully.');
+  } else {
+    console.error('ERROR: Failed to fetch weather data.');
+    process.exit(1); // Fail the workflow on error
   }
 }
 
-main();
+main().catch((error: any) => {
+  console.error('FATAL ERROR:', error.message);
+  process.exit(1);
+});
