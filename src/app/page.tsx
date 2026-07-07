@@ -1,7 +1,7 @@
-import { getRecentDailyData } from "@/lib/data";
+import { getRecentDailyData, getUpdateStatus, type UpdateStatus } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CloudSun, Thermometer, Droplets, Wind, Sun, MapPin, Calendar } from "lucide-react";
+import { CloudSun, Thermometer, Droplets, Wind, Sun, MapPin, Calendar, CheckCircle, AlertCircle, Clock } from "lucide-react";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
@@ -16,6 +16,7 @@ export const dynamic = "force-dynamic";
 export default async function Home() {
   const recentData = await getRecentDailyData(7);
   const latest = recentData[0];
+  const updateStatus = await getUpdateStatus();
 
   // Dynamically get available years from data folder
   const dataPath = path.join(process.cwd(), "data", "daily");
@@ -51,6 +52,33 @@ export default async function Home() {
           Archives historiques, graphiques interactifs et statistiques précises.
         </p>
       </section>
+
+      {/* Update Status Section */}
+      {updateStatus && (
+        <section className="w-full max-w-2xl mx-auto mb-8">
+          <Card className={updateStatus.success ? "border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/20" : "border-red-200 bg-red-50 dark:border-red-800 dark:bg-red-900/20"}>
+            <CardHeader className="flex flex-row items-center gap-3 pb-2">
+              {updateStatus.success ? (
+                <CheckCircle className="w-6 h-6 text-green-600 dark:text-green-400" />
+              ) : (
+                <AlertCircle className="w-6 h-6 text-red-600 dark:text-red-400" />
+              )}
+              <CardTitle className="text-lg">
+                {updateStatus.success ? "✅ Mise à jour réussie" : "⚠️ Échec de la mise à jour"}
+              </CardTitle>
+              <Badge variant="outline" className="ml-auto">
+                <Clock className="w-3 h-3 mr-1" />
+                {format(parseISO(updateStatus.date), "d MMM yyyy HH:mm", { locale: fr })}
+              </Badge>
+            </CardHeader>
+            <CardContent>
+              <p className={updateStatus.success ? "text-green-700 dark:text-green-300" : "text-red-700 dark:text-red-300"}>
+                {updateStatus.message}
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+      )}
 
       {/* Countdown Section */}
       <WeatherCountdown />

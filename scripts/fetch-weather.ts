@@ -8,6 +8,23 @@ const LON = -3.3490744462380326;
 const TIMEZONE = 'Africa/Casablanca';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const STATUS_FILE = path.join(DATA_DIR, 'last-update-status.json');
+
+type UpdateStatus = {
+  success: boolean;
+  date: string;
+  message: string;
+};
+
+async function saveUpdateStatus(status: UpdateStatus) {
+  try {
+    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
+    console.log('Update status saved.');
+  } catch (error: any) {
+    console.error('ERROR saving update status:', error.message);
+  }
+}
 
 async function fetchWeatherData(startDate: string, endDate: string) {
   let currentEndDate = endDate;
@@ -118,27 +135,48 @@ async function main() {
   const args = process.argv.slice(2);
   let startDate: string;
   let endDate: string;
+  const now = new Date().toISOString();
 
-  if (args.length === 2) {
-    startDate = args[0];
-    endDate = args[1];
-  } else {
-    const today = new Date();
-    const threeDaysAgo = subDays(today, 3);
-    endDate = format(threeDaysAgo, 'yyyy-MM-dd');
-    startDate = format(subDays(threeDaysAgo, 30), 'yyyy-MM-dd');
-  }
+  try {
+    if (args.length === 2) {
+      startDate = args[0];
+      endDate = args[1];
+    } else {
+      const today = new Date();
+      const threeDaysAgo = subDays(today, 3);
+      endDate = format(threeDaysAgo, 'yyyy-MM-dd');
+      startDate = format(subDays(threeDaysAgo, 30), 'yyyy-MM-dd');
+    }
 
-  console.log(`Fetching data from ${startDate} to ${endDate}...`);
-  const data = await fetchWeatherData(startDate, endDate);
+    console.log(`Fetching data from ${startDate} to ${endDate}...`);
+    const data = await fetchWeatherData(startDate, endDate);
 
-  if (data) {
-    await saveDailyData(data.daily);
-    await saveHourlyData(data.hourly);
-    console.log('Data saved successfully.');
-  } else {
-    console.error('ERROR: Failed to fetch weather data.');
-    process.exit(1); // Fail the workflow on error
+    if (data) {
+      await saveDailyData(data.daily);
+      await saveHourlyData(data.hourly);
+      console.log('Data saved successfully.');
+      await saveUpdateStatus({
+        success: true,
+        date: now,
+        message: `Données mises à jour avec succès (${startDate} à ${endDate})`,
+      });
+    } else {
+      console.error('ERROR: Failed to fetch weather data.');
+      await saveUpdateStatus({
+        success: false,
+        date: now,
+        message: 'Échec de la récupération des données météo depuis Open-Meteo',
+      });
+      process.exit(1); // Fail the workflow on error
+    }
+  } catch (error: any) {
+    console.error('FATAL ERROR:', error.message);
+    await saveUpdateStatus({
+      success: false,
+      date: now,
+      message: `Erreur inattendue: ${error.message}`,
+    });
+    process.exit(1);
   }
 }
 

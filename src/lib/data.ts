@@ -84,3 +84,20 @@ export async function getRecentDailyData(days = 7): Promise<DailyData[]> {
   
   return results;
 }
+
+export type UpdateStatus = {
+  success: boolean;
+  date: string;
+  message: string;
+};
+
+export async function getUpdateStatus(): Promise<UpdateStatus | null> {
+  const statusFile = path.join(DATA_DIR, 'last-update-status.json');
+  if (!fs.existsSync(statusFile)) return null;
+  try {
+    const content = fs.readFileSync(statusFile, 'utf8');
+    return JSON.parse(content);
+  } catch {
+    return null;
+  }
+}

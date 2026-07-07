@@ -33,18 +33,18 @@ jobs:
         id: fetch
         run: npx tsx scripts/fetch-weather.ts
         
-      - name: 📝 Commit and push changes
-        if: success()
+      - name: 📝 Commit and push changes (including status)
+        if: always() # Always commit the status file, even if it failed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+          git add data/ # Add all data files including the status file
           if git diff --staged --quiet; then
             echo "ℹ️ No changes to commit"
           else
-            git commit -m "chore: update weather data [skip ci]"
+            git commit -m "chore: update weather data and status [skip ci]"
             git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
           fi
           
