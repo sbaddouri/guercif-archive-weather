@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import temperatureSpectrum from "../../../plage et spectre de température.json";
 import WeatherCountdown from "@/components/weather-countdown";
 import AnimatedClimateTable from "@/components/animated-climate-table";
+import ClimateClassificationTable from "@/components/climate-classification-table";
+import WeatherBackgroundEffectsWrapper from "@/components/WeatherBackgroundEffectsWrapper";
 
 type TemperatureEntry = {
   "Température (°C)": number;
@@ -122,7 +124,8 @@ const getColorClass = (type: string, value: number) => {
 
 export default function ClimatologiePage() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 relative">
+      <WeatherBackgroundEffectsWrapper />
       <WeatherCountdown />
       <div className="space-y-2">
         <h1 className="text-3xl font-bold">Climatologie de Guercif</h1>
@@ -354,6 +357,8 @@ export default function ClimatologiePage() {
           </CardContent>
         </Card>
       </div>
+
+      <ClimateClassificationTable />
 
       <Card className="overflow-x-auto">
         <CardHeader>
