@@ -339,10 +339,13 @@ export function getSunshineColor(hours: number): string {
   return "#ffffee";
 }
 
-function getTimeHM(timeStr: string): number {
+function getTimeHM(timeStr?: string | null): number {
   // timeStr is like "2026-07-07T00:00" or "2026-07-07T06:08"
+  if (!timeStr || !timeStr.includes('T')) return 720; // Retourne midi par défaut (sécurité)
   const timePart = timeStr.split('T')[1];
+  if (!timePart || !timePart.includes(':')) return 720;
   const [hour, minute] = timePart.split(':').map(Number);
+  if (isNaN(hour) || isNaN(minute)) return 720;
   return hour * 60 + minute;
 }
 
