@@ -32,6 +32,42 @@ jobs:
         id: fetch
         run: npx tsx scripts/fetch-weather.ts
         
+      # ⚠️ NE PAS MODIFIER NI SUPPRIMER CETTE ÉTAPE !
+      # ⚠️ ELLE EST ESSENTIELLE POUR QUE LE WORKFLOW FONCTIONNE CORRECTEMENT
+      # ⚠️ SI VOUS LA SUPPRIMEZ, LES DONNÉES NE SERONT PLUS MISES À JOUR !
+      - name: Extract status info
+        id: status
+        if: always()
+        run: |
+          if [ -f data/last-update-status.json ]; then
+            STATUS=$(cat data/last-update-status.json)
+            SUCCESS=$(echo "$STATUS" | jq -r '.success')
+            FINAL_END_DATE=$(echo "$STATUS" | jq -r '.finalEndDate')
+            DAYS_UPDATED=$(echo "$STATUS" | jq -r '.daysUpdated | length')
+            MISSING_DAYS=$(echo "$STATUS" | jq -r '.missingDays | length')
+            ATTEMPTS=$(echo "$STATUS" | jq -r '.attempts')
+            
+            echo "success=$SUCCESS" >> $GITHUB_OUTPUT
+            echo "final_end_date=$FINAL_END_DATE" >> $GITHUB_OUTPUT
+            echo "days_updated=$DAYS_UPDATED" >> $GITHUB_OUTPUT
+            echo "missing_days=$MISSING_DAYS" >> $GITHUB_OUTPUT
+            echo "attempts=$ATTEMPTS" >> $GITHUB_OUTPUT
+            
+            # Build commit message
+            if [ "$SUCCESS" = "true" ]; then
+              if [ "$MISSING_DAYS" -gt 0 ]; then
+                COMMIT_MSG="chore: update weather data to $FINAL_END_DATE ($DAYS_UPDATED days updated, $MISSING_DAYS missing) [skip ci]"
+              else
+                COMMIT_MSG="chore: update weather data to $FINAL_END_DATE ($DAYS_UPDATED days updated) [skip ci]"
+              fi
+            else
+              COMMIT_MSG="chore: failed to update weather data [skip ci]"
+            fi
+            echo "commit_msg=$COMMIT_MSG" >> $GITHUB_OUTPUT
+          else
+            echo "commit_msg=chore: update weather data and status [skip ci]" >> $GITHUB_OUTPUT
+          fi
+        
       - name: Commit and push changes (including status)
         if: always() # Always commit the status file, even if it failed
         env:
@@ -43,6 +79,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update weather data and status [skip ci]"
+            git commit -m "${{ steps.status.outputs.commit_msg }}"
             git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
           fi
