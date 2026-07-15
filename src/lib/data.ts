@@ -51,45 +51,72 @@ export interface HourlyData {
 }
 
 async function fillMissingDailyDataFields(data: any): Promise<DailyData> {
-  // Check if fields are missing
-  if (
-    data.sunshine_duration_seconds === undefined ||
-    data.sunshine_duration_minutes === undefined ||
-    data.estimated_daily_sunshine_minutes === undefined ||
-    data.estimated_daily_sunshine === undefined ||
-    data.sunshine_difference_minutes === undefined ||
-    data.sunshine_consistency === undefined
-  ) {
-    // Calculate official values from existing "sunshine" field
-    const sunshineDurationSeconds = data.sunshine;
-    const sunshineDurationMinutes = convertOfficialSunshineToMinutes(sunshineDurationSeconds);
+  try {
+    // Check if fields are missing
+    if (
+      data.sunshine_duration_seconds === undefined ||
+      data.sunshine_duration_minutes === undefined ||
+      data.estimated_daily_sunshine_minutes === undefined ||
+      data.estimated_daily_sunshine === undefined ||
+      data.sunshine_difference_minutes === undefined ||
+      data.sunshine_consistency === undefined
+    ) {
+      // Calculate official values from existing "sunshine" field
+      const sunshineDurationSeconds = data.sunshine ?? null;
+      const sunshineDurationMinutes = convertOfficialSunshineToMinutes(sunshineDurationSeconds);
 
-    // Calculate estimated values from hourly data
-    const hourlyData = await getHourlyData(data.date);
-    const estimatedDailyMinutes = calculateDailySunshine(
-      hourlyData || [], 
-      data.sunrise, 
-      data.sunset
-    );
-    const estimatedDailySunshine = formatSunshineDuration(estimatedDailyMinutes);
+      // Calculate estimated values from hourly data
+      let hourlyData = null;
+      try {
+        hourlyData = await getHourlyData(data.date);
+      } catch (e) {
+        hourlyData = null;
+      }
+      const estimatedDailyMinutes = calculateDailySunshine(
+        hourlyData || [], 
+        data.sunrise, 
+        data.sunset
+      );
+      const estimatedDailySunshine = formatSunshineDuration(estimatedDailyMinutes);
 
-    // Calculate difference and consistency
-    const sunshineDifferenceMinutes = (sunshineDurationMinutes !== null && estimatedDailyMinutes !== null)
-      ? Math.abs(sunshineDurationMinutes - estimatedDailyMinutes)
-      : null;
-    const consistency = calculateSunshineConsistency(sunshineDurationMinutes, estimatedDailyMinutes);
+      // Calculate difference and consistency
+      const sunshineDifferenceMinutes = (sunshineDurationMinutes !== null && estimatedDailyMinutes !== null)
+        ? Math.abs(sunshineDurationMinutes - estimatedDailyMinutes)
+        : null;
+      const consistency = calculateSunshineConsistency(sunshineDurationMinutes, estimatedDailyMinutes);
 
+      return {
+        ...data,
+        sunshine_duration_seconds: sunshineDurationSeconds,
+        sunshine_duration_minutes: sunshineDurationMinutes,
+        estimated_daily_sunshine_minutes: estimatedDailyMinutes,
+        estimated_daily_sunshine: estimatedDailySunshine,
+        sunshine_difference_minutes: sunshineDifferenceMinutes,
+        sunshine_consistency: consistency
+      };
+    }
+    return data as DailyData;
+  } catch (e) {
+    // Si erreur, retourner les données brutes sans les nouveaux champs (éviter crash)
     return {
-      ...data,
-      sunshine_duration_seconds: sunshineDurationSeconds,
-      sunshine_duration_minutes: sunshineDurationMinutes,
-      estimated_daily_sunshine_minutes: estimatedDailyMinutes,
-      estimated_daily_sunshine: estimatedDailySunshine,
-      sunshine_difference_minutes: sunshineDifferenceMinutes,
-      sunshine_consistency: consistency
+      date: data.date,
+      weather_code: data.weather_code ?? 0,
+      temp_max: data.temp_max ?? 0,
+      temp_min: data.temp_min ?? 0,
+      temp_mean: data.temp_mean ?? 0,
+      precipitation: data.precipitation ?? 0,
+      sunshine: data.sunshine ?? 0,
+      wind_speed_max: data.wind_speed_max ?? 0,
+      sunrise: data.sunrise ?? "",
+      sunset: data.sunset ?? "",
+      sunshine_duration_seconds: null,
+      sunshine_duration_minutes: null,
+      estimated_daily_sunshine_minutes: null,
+      estimated_daily_sunshine: null,
+      sunshine_difference_minutes: null,
+      sunshine_consistency: null
     };
   }
-  return data as DailyData;
 }
 
 async function fillMissingHourlyDataFields(data: any[]): Promise<HourlyData[]> {
