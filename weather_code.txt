@@ -1,0 +1,247 @@
+Numéro	Image	Description
+N°4	pictogramme omm	La visibilité dominante est réduite par la fumée, par exemple les incendies de forêt, les fumées industrielles ou les cendres volcaniques.
+N°5	pictogramme omm	Les obstacles à la vue consistent en lithométéores, généralement appelés brume sèche.
+N°6	pictogramme omm	La visibilité dominante est réduite par des poussières en suspension dans l'air, non brassées par le vent.
+N°7	pictogramme omm	Des chasse-poussière ou des chasse-sable élevés sont observés à la station ou aux alentours au moment de l'observation, et la visibilité dominante n'est pas supérieure à six milles, aucun tourbillon de poussière ou de sable bien developpé ni tempête de poussière ou de sable ne sont vus, ou, s'il s'agit de navires, dans le cas d'embruns poussés par le vent à la station.
+N°8	pictogramme omm	Des tourbillons de poussière ou de sable bien développés mais non de tempête de poussière ou de sable, sont observés à la station ou aux alentours au cours de l'heure précédente ou au moment de l'observation.
+N°9	pictogramme omm	Une tempête de poussière ou de sable est en vie au moment de l'observation, ou s'est produite à la station au cours de l'heure précédente, et la visibilité estimée ou observée dans la tempête de poussière ou de sable est ou était de moins de 5/8 de mille.
+N°10	pictogramme omm	Du brouillard ou du brouillard glacé (plus correctement designé sous le nom de brume) est observé et la visibilité n'est ni inférieure à 5/8 de mille ni supérieure à 6 milles.
+N°11	pictogramme omm	Une mince couche de brouillard ou de brouillard glacé en bancs est observé à la station. L'épaisseur du brouillard ne doit pas réduire la visibilité au niveau de l'oeil; le brouillard doit cependant avoir une densité telle que la visibilité apparente dans le brouillard soit inférieure à 5/8 de mille.
+N°12	pictogramme omm	Une mince couche de brouillard ou de brouillard glacé, plus ou moins continue, est observée à la station au moment de l'observation. L'épaisseur du brouillard ne doit pas réduire la visibilité au niveau de l'oeil; cependant, le brouillard doit avoir une densité telle que la visibilité apparente dans le brouillard soit inférieure à 5/8 de mille.
+N°13	pictogramme omm	Des éclairs sont visibles au moment de l'observation, ou au cours des 15 minutes qui précèdent l'observation, mais le tonnerre n'est pas perceptible.
+N°14	pictogramme omm	Virga : des précipitations qui sont en vie, mais qui n'atteignent pas le sol ou la surface de la mer.
+N°15	pictogramme omm	Des précipitations sont en vue et atteignent le sol ou la surface de la mer, à une distance estimée à plus de 3 milles de la station.
+N°16	pictogramme omm	Des précipitations sont en vue et atteignent le sol ou la surface de la mer, à une distance estimée à 3 milles ou moins de la station, mais pas à la station même.
+N°17	pictogramme omm	Du tonnerre est perçu au moment de l'observation, ou au cours des 15 minutes qui précèdent le moment de l'observation, mais il n'y a pas de précipitations à la station au moment de l'observation.
+N°18	pictogramme omm	Des grains se manifestent au moment de l'observation, ou se sont manifestés au cours de l'heure précédente.
+N°19	pictogramme omm	Un entonnoir nuageux, une trombe marine ou une tornade sont en vue de la station au moment de l'observation ou ont été observés au cours de l'heure précédente.
+N°20	pictogramme omm	Il y a eu de la bruine ou de la neige en grains à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°21	pictogramme omm	Il est tombé de la pluie (non sous forme d'averses) à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°22	pictogramme omm	Il y a eu de la neige (pas sous forme d'averses) ou des cristaux de glace à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°23	pictogramme omm	Il y a eu de la pluie et de la neige mêlées ou des granules de glace, (non sous forme d'averses) à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°24	pictogramme omm	Il y a eu de la bruine verglaçante (se congelant) ou de la pluie verglaçante (se congelant) à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°25	pictogramme omm	Il y a eu une averse de pluie à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°26	pictogramme omm	Il y a eu une averse de neige, ou une averse de pluie et de neige mêlées à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°27	pictogramme omm	Il y a eu une averse de grêle, ou de pluie et de grêle, à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°28	pictogramme omm	Il y a eu du brouillard ou du brouillard glacé, associé à une visibilité de moins de 5/8 de mille à la station au cours de l'heure précédente, mais il n'y en a pas au moment de l'observation.
+N°29	pictogramme omm	Il y a eu un orage, avec ou sans précipitations, à la station au cours de l'heure précédente, mais il n'y a ni tonnerre ni précipitations au moment de l'observation. Il faut que le tonnerre ait été perceptible pour la dernière fois 15 minutes ou plus avant l'observation.
+N°30	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, mais l'intensité du phénomène a diminué au cours de la dernière heure et la visibilité est de moins de 5/8 de mille, mais non inférieure à 5/16 de mille.
+N°31	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, et son intensité n'a pas changé sensiblement au cours de la dernière heure et la visibilité est de moins de 5/8 de mille, mais non inférieure à 5/16 de mille.
+N°32	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, et le phénomène a commencé ou augmenté en intensité au cours de la dernière heure et la visibilité est de moins de 5/8 de mille, mais non inférieure à 5/16 de mille.
+N°33	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, mais l'intensité du phénomène a diminué au cours de la dernière heure et la visibilité est inférieure à 5/16 de mille.
+N°34	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, et l'intensité n'a pas changé sensiblement au cours de la dernière heure, tandis que la visibilité est inférieure à 5/16 de mille.
+N°35	pictogramme omm	Il y a une tempête de poussière ou de sable à la station au moment de l'observation, le phénomène a commencé ou s'est intensifié au cours de la dernière heure et la visibilité est inférieure à 5/16 de mille.
+N°36	pictogramme omm	Il y a une poudrerie (chasse-neige) basse, faible ou modérée à la station au moment de l'observation.
+N°37	pictogramme omm	Il y a une poudrerie (chasse-neige) basse, forte à la station au moment de l'observation.
+N°38	pictogramme omm	Il y a une chasse-neige élevée à la station au moment de l'observation, et la visibilité est de 5/16 de mille ou plus.
+N°39	pictogramme omm	Il y a une chasse-neige élevée à la station au moment de l'observation, et la visibilité est réduite à moins de 5/16 de mille.
+N°40	pictogramme omm	Un banc de brouillard ou de brouillard glacé d'une épaisseur estimée à plus de 2m est observé à une certaine distance de la station. La visibilité semble être inférieure à 5/8 de mille à l'intérieur du brouillard.
+N°41	pictogramme omm	Il y a des bancs de brouillard ou de brouillard glacé d'une épaisseur supérieure à 2m au moment de l'observation, et la visibilité dominante est réduite à moins de 5/8 de mille.
+N°42	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, mais le ciel est visible et le brouillard est devenu plus mince au cours de l'heure précédente.
+N°43	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est invisible mais le brouillard est devenu plus mince au cours de l'heure précédente.
+N°44	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, mais le ciel est visible et le brouillard n'a subi aucun changement d'intensité appréciable au cours de la dernière heure.
+N°45	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est invisible et le brouillard n'a subi aucun changement d'intensité appréciable au cours de la dernière heure.
+N°46	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est visible mais le brouillard a commencé ou est devenu plus épais lors de la dernière heure.
+N°47	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est invisible et le brouillard a commencé ou est devenu plus épais lors de la dernière heure.
+N°48	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est visible et le brouillard dépose du givre blanc.
+N°49	pictogramme omm	Il y a du brouillard ou du brouillard glacé à la station au moment de l'observation, la visibilité est inférieure à 5/8 de mille, le ciel est invisible et le brouillard dépose du givre blanc.
+N°50	pictogramme omm	Il y a une bruine faible et intermittente à la station au moment de l'observation.
+N°51	pictogramme omm	Il y a une bruine faible et continue à la station au moment de l'observation.
+N°52	pictogramme omm	Il y a une bruine modérée et intermittente à la station au moment de l'observation.
+N°53	pictogramme omm	Il y a une bruine modérée et continue à la station au moment de l'observation.
+N°54	pictogramme omm	Il y a une bruine forte mais intermittente à la station au moment de l'observation.
+N°55	pictogramme omm	Il y a une bruine forte et continue à la station au moment de l'observation.
+N°56	pictogramme omm	Il y a de la bruine verglaçante faible à la station au moment de l'observation.
+N°57	pictogramme omm	Il y a de la bruine verglaçante modérée ou forte à la station au moment de l'observation.
+N°58	pictogramme omm	Il y a de la bruine et pluie mêlées d'intensité faible à la station au moment de l'observation.
+N°59	pictogramme omm	Il y a de la bruine et pluie mêlées d'intensité modérée ou forte à la station au moment de l'observation.
+N°60	pictogramme omm	Il y a de la pluie faible et intermittente à la station au moment de l'observation.
+N°61	pictogramme omm	Il y a de la pluie faible et continue à la station au moment de l'observation.
+N°62	pictogramme omm	Il y a de la pluie modérée et intermittente à la station au moment de l'observation.
+N°63	pictogramme omm	Il y a de la pluie modérée et continue à la station au moment de l'observation.
+N°64	pictogramme omm	Il y a de la pluie forte mais intermittente à la station au moment de l'observation.
+N°65	pictogramme omm	Il y a de la pluie forte et continue à la station au moment de l'observation.
+N°66	pictogramme omm	Il y a de la pluie verglaçante faible à la station au moment de l'observation.
+N°67	pictogramme omm	Il y a de la pluie verglaçante modérée ou forte à la station au moment de l'observation.
+N°68	pictogramme omm	Il y a de la neige, accompagnée soit de bruine ou bruine verglaçante, soit de pluie ou pluie verglaçante à la station au moment de l'observation, et l'intensité de ces précipitations reste faible.
+N°69	pictogramme omm	Il y a de la neige, accompagnée soit de bruine ou bruine verglaçante, soit de pluie ou pluie verglaçante à la station au moment de l'observation, et l'intensité de ces précipitations est modérée ou forte.
+N°70	pictogramme omm	Il y a une faible chute de neige intermittente à la station au moment de l'observation.
+N°71	pictogramme omm	Il y a une faible chute de neige continue à la station au moment de l'observation.
+N°72	pictogramme omm	Il y a une chute de neige modérée et intermittente à la station au moment de l'observation.
+N°73	pictogramme omm	Il y a une chute de neige modérée et continue à la station au moment de l'observation.
+N°74	pictogramme omm	Il y a une chute de neige forte mais intermittente à la station au moment de l'observation.
+N°75	pictogramme omm	Il y a une chute de neige forte et continue à la station au moment de l'observation.
+N°76	pictogramme omm	Il y a des cristaux de glace ( poudrins de glace ) à la station au moment de l'observation.
+N°77	pictogramme omm	Il y a de la neige en grains à la station au moment de l'observation.
+N°78	pictogramme omm	Il y a des étoiles de neige isolées à la station au moment de l'observation.
+N°79	pictogramme omm	Il y a des granules de glace ( non sous forme d'averses ) à la station au moment de l'observation.
+N°80	pictogramme omm	Il y a des averses de pluie faibles à la station au moment de l'observation.
+N°81	pictogramme omm	Il y a des averses de pluie modérées ou fortes à la station au moment de l'observation.
+N°82	pictogramme omm	Il y a des averses exceptionnellement fortes, tropicales ou torrentielles à la station au moment de l'observation.
+N°83	pictogramme omm	Il y a des averses de pluie et neige mêlées faibles à la station au moment de l'observation.
+N°84	pictogramme omm	Il y a des averses de pluie et neige mêlées modérées ou fortes à la station au moment de l'observation.
+N°85	pictogramme omm	Il y a des averses de neige faibles à la station au moment de l'observation.
+N°86	pictogramme omm	Il y a des averses de neige modérées ou fortes à la station au moment de l'observation.
+N°87	pictogramme omm	Il y a des averses faibles de neige roulée ou de granules de glace, avec ou sans pluie, ou pluie et neige mêlées, à la station au moment de l'observation.
+N°88	pictogramme omm	Il y a des averses modérées ou fortes de neige roulée ou de granules de glace, avec ou sans pluie, ou pluie et neige mêlées, à la station au moment de l'observation.
+N°89	pictogramme omm	Il y a des averses faibles de grêle, avec ou sans pluie, ou pluie et neige mêlées, sans tonnerre, à la station au moment de l'observation.
+N°90	pictogramme omm	Il y a des averses de grêle modérées ou fortes, avec ou sans pluie, ou pluie et neige mêlées, sans tonnerre, à la station au moment de l'observation.
+N°91	pictogramme omm	Il y a de la pluie faible à la station au moment de l'observation, un orage a eu lieu au cours de l'heure précédente mais est terminé au moment de l'observation.
+N°92	pictogramme omm	Il y a de la pluie modérée ou forte à la station au moment de l'observation, un orage a eu lieu au cours de l'heure précédente mais est terminé au moment de l'observation.
+N°93	pictogramme omm	Il y a de la neige, ou de la pluie et neige mêlées, ou de la grêle, ou des granules de glace d'intensité faible à la station au moment de l'observation, un orage a eu lieu au cours de l'heure précédente mais est terminé au moment de l'observation.
+N°94	pictogramme omm	Il y a de la neige, ou de la pluie et neige mêlées, ou de la grêle, ou des granules de glace d'intensité modérée ou forte à la station au moment de l'observation, un orage a eu lieu au cours de l'heure précédente mais est terminé au moment de l'observation.
+N°95	pictogramme omm	Il y a un orage accompagné de pluie ou de neige à la station au moment de l'observation.
+N°96	pictogramme omm	Il y a un orage accompagné de grêle, de neige roulée ou de granules de glace à la station au moment de l'observation.
+N°97	pictogramme omm	Il y a un orage violent accompagné de pluie ou de neige à la station au moment de l'observation.
+N°98	pictogramme omm	Il y a un orage accompagné d'une tempête de poussière ou de sable à la station au moment de l'observation.
+N°99	pictogramme omm	Il y a un orage violent accompagné de grêle, de neige roulée ou de granules de glace à la station au moment de l'observation.
+N°100	 	Pas de temps présent significatif observé.
+N°101	 	Nuages en cours de dispersion, ou devenant moins développés que durant l'heure précédente.
+N°102	 	L'état du ciel n'a globalement pas changé durant l'heure précédente.
+N°103	 	Des nuages se forment ou se développent au cours de l'heure précédente.
+N°104	 	Présence de brume ou fumée, ou poussières en suspension dans l'air, avec visibilité supérieure ou égale à 1km.
+N°105	 	Présence de brume ou fumée, ou poussières en suspension dans l'air, avec visibilité inférieure à 1km.
+N°110	 	Brume.
+N°111	 	Poudrin de glace (diamond dust).
+N°112	 	Eclair au loin.
+N°118	 	Bourrasques / grains.
+N°120	 	Il y a eu du brouillard durant l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°121	 	Il y a eu des précipitations durant l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°122	 	Il y a eu de la bruine (non glacée) ou de la neige en grains durant l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°123	 	Il y a eu de la pluie (non verglaçante) au cours de l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°124	 	Il y a eu de la neige au cours de l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°125	 	Il y a eu de la bruine ou pluie verglaçante au cours de l'heure précédente, mais il n'y en a plus à l'heure de l'observation.
+N°126	 	Il y a eu de l'orage au cours de l'heure précédente (avec ou sans précipitations), mais il n'y en a plus à l'heure de l'observation.
+N°127	 	Tempête de neige ou de sable.
+N°128	 	Tempête de neige ou de sable, avec visibilité supérieure ou égale à 1km.
+N°129	 	Tempête de neige ou de sable, avec visibilité inférieure à 1km.
+N°130	 	Brouillard
+N°131	 	Il y a des plaques de brouillard ou de brouillard givrant.
+N°132	 	Le brouillard ou brouillard givrant est devenu plus mince au cours de l'heure précédente.
+N°133	 	Le brouillard ou brouillard givrant n'a pas évolué significativement au cours de l'heure précédente.
+N°134	 	Le brouillard ou brouillard givrant devient plus épais au cours de l'heure précédente.
+N°135	 	Le brouillard dépose du givre.
+N°140	 	Précipitations en cours
+N°141	 	Précipitations en cours, faibles ou modérées.
+N°142	 	Précipitations intenses en cours.
+N°143	 	Précipitations liquides en cours, faibles ou modérées.
+N°144	 	Précipitations liquides en cours, de forte intensité.
+N°145	 	Précipitations solides en cours, d'intensité faible à modérée.
+N°146	 	Précipitations solides en cours, de forte intensité.
+N°147	 	Précipitations verglaçantes en cours, d'intensité faible à modérée.
+N°148	 	Précipitations verglaçantes en cours, de forte intensité.
+N°150	 	Bruine en cours.
+N°151	 	Bruine non verglaçante, faible intensité.
+N°152	 	Bruine non verglaçante, intensité modérée.
+N°153	 	Bruine non verglaçante, forte intensité.
+N°154	 	Faible bruine verglaçante.
+N°155	 	Bruine verglaçante d'intensité modérée.
+N°156	 	Bruine verglaçante de forte intensité.
+N°157	 	Mélange bruine/pluie faible.
+N°158	 	Mélange bruine/pluie d'intensité modérée à forte.
+N°160	 	Pluie en cours.
+N°161	 	Faible pluie en cours.
+N°162	 	Pluie modérée en cours.
+N°163	 	Pluie forte en cours.
+N°164	 	Faible pluie verglaçante en cours.
+N°165	 	Pluie verglaçante d'intensité modérée en cours.
+N°166	 	Pluie verglaçante de forte intensité en cours.
+N°167	 	Faible pluie/neige mêlées.
+N°168	 	Pluie/neige mêlée d'intensité modérée à forte.
+N°170	 	Chute de neige en cours.
+N°171	 	Chute de neige faible en cours.
+N°172	 	Chute de neige modérée en cours.
+N°173	 	Chute de neige forte en cours.
+N°174	 	Chute de granule de glace de faible intensité.
+N°175	 	Chute de granules de glace d'intensité modérée.
+N°176	 	Chute de granules de glace de forte intensité.
+N°177	 	Chute de neige roulée.
+N°178	 	Chute de cristaux de glace.
+N°180	 	Averses ou précipitations intermittentes en cours.
+N°181	 	Faible averse ou faible pluie intermittente.
+N°182	 	Averse d'intensité modérée, ou pluie intermittente modérée.
+N°183	 	Forte averse de pluie, ou pluie forte intermittente.
+N°184	 	Violentes averses de pluie.
+N°185	 	Faibles averses de neige.
+N°186	 	Averses de neige modérée.
+N°187	 	Fortes averses de neige.
+N°189	 	Chute de grêle.
+N°190	 	Orage
+N°191	 	Orage faible à modéré, sans précipitations.
+N°192	 	Orage, faible à modéré, avec averses de pluie ou de neige.
+N°193	 	Orage, faible à modéré, avec présence de grêle.
+N°194	 	Orage fort, sans précipitations.
+N°195	 	Orage fort, avec averses de pluie ou de neige.
+N°196	 	Orage fort, avec chute de grêle.
+N°199	 	Tornade
+N°204	 	Cendres volcaniques présentes dans l'air en altitude.
+N°206	 	Epais brouillard de poussière, visibilité inférieure à 1km.
+N°207	 	Embruns diminuant la visiblité
+N°208	 	Tempête de poussière/sable.
+N°209	 	Violente tempête de poussière/haboob observé au loin.
+N°210	 	Brume de neige
+N°211	 	Blanc dehors (whiteout)
+N°213	 	Coup de foudre nuage-sol.
+N°217	 	Orage sec
+N°219	 	Tornade observée au cours de l'heure précédente ou en ce moment.
+N°220	 	Dépôts de cendre volcanique.
+N°221	 	Dépôts de poussière ou de sable.
+N°222	 	Dépôts de rosée.
+N°223	 	Dépôts de neige humide.
+N°224	 	Dépôts de givre léger.
+N°225	 	Dépôts de glace.
+N°226	 	Dépôts de gelée blanche.
+N°227	 	Dépôts de verglas.
+N°228	 	Dépôts de verglas.
+N°230	 	Tempête de poussière ou de sable, avec température négative.
+N°239	 	Tempête de neige, impossible de savoir si de la neige tombe ou non.
+N°241	 	Brouillard en mer.
+N°242	 	Brouillard dans les vallées.
+N°243	 	Brouillard de mer arctique/antarctique
+N°244	 	Brouillard d'évaporation (mer, lac ou rivière)
+N°245	 	Brouillard d'évaporation (sur terre)
+N°246	 	Brouillard au-dessus des étendues de glace/neige.
+N°247	 	Brouillard dense, visibilité 60 à 90 mètres.
+N°248	 	Brouillard dense, visibilité 30 à 60 mètres.
+N°249	 	Brouillard dense, visibilité inférieure à 30 mètres.
+N°250	 	Bruine, intensité inférieure à 0.1 mm/h.
+N°251	 	Bruine, intensité comprise entre 0.1 et 0.19 mm/h.
+N°252	 	Bruine, intensité comprise entre 0.2 et 0.39 mm/h.
+N°253	 	Bruine, intensité comprise entre 0.4 et 0.79 mm/h.
+N°254	 	Bruine, intensité comprise entre 0.8 et 1.59 mm/h.
+N°255	 	Bruine, intensité comprise entre 1.6 et 3.19 mm/h.
+N°256	 	Bruine, intensité comprise entre 3.2 et 6.39 mm/h.
+N°257	 	Bruine, intensité supérieure à 6.4 mm/h.
+N°259	 	Bruine et neige mêlées.
+N°260	 	Pluie, intensité inférieure à 1 mm/h.
+N°261	 	Pluie, intensité comprise entre 1 et 1.9 mm/h.
+N°262	 	Pluie, intensité comprise entre 2 et 3.9 mm/h.
+N°263	 	Pluie, intensité comprise entre 4 et 7.9 mm/h.
+N°264	 	Pluie, intensité comprise entre 8 et 15.9 mm/h.
+N°265	 	Pluie, intensité comprise entre 16 et 31.9 mm/h.
+N°266	 	Pluie, intensité comprise entre 32 et 63.9 mm/h.
+N°267	 	Pluie, intensité supérieure à 64 mm/h.
+N°270	 	Chute de neige, intensité inférieure à 1 cm/h.
+N°271	 	Chute de neige, intensité comprise entre 1 et 1.9 cm/h.
+N°272	 	Chute de neige, intensité comprise entre 2 et 3.9 cm/h.
+N°273	 	Chute de neige, intensité comprise entre 4 et 7.9 cm/h.
+N°274	 	Chute de neige, intensité comprise entre 8 et 15.9 cm/h.
+N°275	 	Chute de neige, intensité comprise entre 16 et 31.9 cm/h.
+N°276	 	Chute de neige, intensité comprise entre 32 et 63.9 cm/h.
+N°277	 	Chute de neige, intensité supérieure à 64 cm/h.
+N°278	 	Cristaux de glace et neige présentes, mais ciel clair.
+N°279	 	Neige mouillée, verglaçante en se déposant.
+N°280	 	Chute de pluie.
+N°281	 	Chute de pluie verglaçante.
+N°282	 	Pluie/neige mêlées.
+N°283	 	Chute de neige.
+N°284	 	Chute de neige roulée, ou de petite grêle.
+N°285	 	Chute de neige roulée ou de petite grêle, avec pluie.
+N°286	 	Chute de neige roulée ou de petite grêle, avec pluie/neige mêlées.
+N°287	 	Chute de neige roulée ou de petite grêle, avec neige.
+N°288	 	Chute de grêle.
+N°289	 	Chute de grêle, avec pluie.
+N°290	 	Chute de grêle, avec pluie/neige mêlée.
+N°291	 	Chute de grêle, avec neige.
+N°292	 	Averses ou orage au-dessus de la mer.
+N°293	 	Averses ou orages sur les sommets montagneux.

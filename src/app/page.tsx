@@ -55,13 +55,13 @@ export default async function Home() {
 
       {/* Update Status Section */}
       {updateStatus && (
-        <section className="w-full max-w-2xl mx-auto mb-8">
+        <section className="w-full max-w-3xl mx-auto mb-8">
           <Card className={updateStatus.success ? "border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/20" : "border-red-200 bg-red-50 dark:border-red-800 dark:bg-red-900/20"}>
             <CardHeader className="flex flex-row items-center gap-3 pb-2">
               {updateStatus.success ? (
-                <CheckCircle className="w-6 h-6 text-green-600 dark:text-green-400" />
+                <CheckCircle className="h-6 w-6 text-green-600 dark:text-green-400" />
               ) : (
-                <AlertCircle className="w-6 h-6 text-red-600 dark:text-red-400" />
+                <AlertCircle className="h-6 w-6 text-red-600 dark:text-red-400" />
               )}
               <CardTitle className="text-lg">
                 {updateStatus.success ? "✅ Mise à jour réussie" : "⚠️ Échec de la mise à jour"}
@@ -71,10 +71,71 @@ export default async function Home() {
                 {format(parseISO(updateStatus.date), "d MMM yyyy HH:mm", { locale: fr })}
               </Badge>
             </CardHeader>
-            <CardContent>
+            <CardContent className="space-y-4">
               <p className={updateStatus.success ? "text-green-700 dark:text-green-300" : "text-red-700 dark:text-red-300"}>
                 {updateStatus.message}
               </p>
+
+              {/* Status Details */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
+                <div className="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+                  <span className="text-muted-foreground block">Date initiale</span>
+                  <span className="font-medium">{format(parseISO(updateStatus.initialStartDate), "d MMM", { locale: fr })}</span>
+                </div>
+                <div className="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+                  <span className="text-muted-foreground block">Date finale</span>
+                  <span className="font-medium">{format(parseISO(updateStatus.finalEndDate), "d MMM", { locale: fr })}</span>
+                </div>
+                <div className="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+                  <span className="text-muted-foreground block">Jours mis à jour</span>
+                  <span className="font-medium">{updateStatus.daysUpdated.length}</span>
+                </div>
+                <div className="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+                  <span className="text-muted-foreground block">Tentatives</span>
+                  <span className="font-medium">{updateStatus.attempts + 1}</span>
+                </div>
+              </div>
+
+              {/* Missing Days */}
+              {updateStatus.missingDays && updateStatus.missingDays.length > 0 && (
+                <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-3 rounded-lg">
+                  <h4 className="font-medium text-amber-800 dark:text-amber-200 mb-2">⚠️ Jours manquants ({updateStatus.missingDays.length})</h4>
+                  <div className="text-sm text-amber-700 dark:text-amber-300 flex flex-wrap gap-1">
+                    {updateStatus.missingDays.slice(0, 10).map((day) => (
+                      <Badge key={day} variant="outline" className="bg-white dark:bg-gray-800">
+                        {format(parseISO(day), "d MMM", { locale: fr })}
+                      </Badge>
+                    ))}
+                    {updateStatus.missingDays.length > 10 && (
+                      <span className="text-xs text-muted-foreground">+{updateStatus.missingDays.length - 10} autres</span>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Attempt Details */}
+              {updateStatus.attemptDetails && updateStatus.attemptDetails.length > 0 && (
+                <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-3 rounded-lg">
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Détails des tentatives</h4>
+                  <div className="space-y-2">
+                    {updateStatus.attemptDetails.map((attempt, idx) => (
+                      <div key={idx} className="flex items-start gap-2 text-sm">
+                        {attempt.success ? (
+                          <CheckCircle className="h-4 w-4 text-green-600 dark:text-green-400 mt-0.5" />
+                        ) : (
+                          <AlertCircle className="h-4 w-4 text-red-600 dark:text-red-400 mt-0.5" />
+                        )}
+                        <div>
+                          <span className="font-medium">{format(parseISO(attempt.date), "d MMM yyyy", { locale: fr })}</span>
+                          {!attempt.success && attempt.error && (
+                            <p className="text-red-600 dark:text-red-400 text-xs mt-0.5">{attempt.error}</p>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </CardContent>
           </Card>
         </section>

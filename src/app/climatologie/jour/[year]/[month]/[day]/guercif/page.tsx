@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { notFound } from "next/navigation";
 import ExportData from "@/components/export-data";
 import { Metadata } from "next";
-import { getTemperatureColor, getPrecipitationColor, getTextColor } from "@/lib/weather-colors";
+import { getTemperatureColor, getPrecipitationColor, getTextColor, getWeatherIcon } from "@/lib/weather-colors";
 
 interface PageProps {
   params: Promise<{
@@ -47,11 +47,23 @@ export default async function DayPage({ params }: PageProps) {
     <div className="space-y-8">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div className="flex flex-col space-y-2">
-          <h1 className="text-3xl font-bold">
-            Météo à Guercif le {format(parseISO(dateStr), "d MMMM yyyy", { locale: fr })}
-          </h1>
+          <div className="flex items-center gap-3">
+            {(() => {
+              const weather = getWeatherIcon(dailyData.weather_code);
+              if (weather.imagePath) {
+                return <img src={weather.imagePath} alt={weather.description} className="h-12 w-12" />;
+              }
+              return <span className="text-4xl">{weather.icon}</span>;
+            })()}
+            <h1 className="text-3xl font-bold">
+              Météo à Guercif le {format(parseISO(dateStr), "d MMMM yyyy", { locale: fr })}
+            </h1>
+          </div>
           <p className="text-muted-foreground">
             Archives détaillées heure par heure.
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Lever du soleil: {format(parseISO(dailyData.sunrise), "HH:mm", { locale: fr })} • Coucher du soleil: {format(parseISO(dailyData.sunset), "HH:mm", { locale: fr })}
           </p>
         </div>
         <ExportData data={hourlyData} filename={`guercif_weather_${dateStr}`} />
@@ -121,6 +133,7 @@ export default async function DayPage({ params }: PageProps) {
             <Table className="border-collapse text-[13px] text-center w-full min-w-[800px]">
               <TableHeader>
                 <TableRow className="bg-[#f2f2f2] dark:bg-muted/50 border-b">
+                  <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Météo</TableHead>
                   <TableHead className="border font-bold text-black dark:text-white px-2 py-1 h-auto text-left w-[80px]">Heure</TableHead>
                   <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Temp. (°C)</TableHead>
                   <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Pluie (mm)</TableHead>
@@ -134,8 +147,16 @@ export default async function DayPage({ params }: PageProps) {
                 {hourlyData.map((hour) => {
                   const tColor = getTemperatureColor(hour.temp);
                   const pColor = getPrecipitationColor(hour.precipitation);
+                  const weather = getWeatherIcon(hour.weather_code, hour.time, dailyData.sunrise, dailyData.sunset);
                   return (
                     <TableRow key={hour.time}>
+                      <TableCell className="border bg-white dark:bg-background text-center">
+                        {weather.imagePath ? (
+                          <img src={weather.imagePath} alt={weather.description} className="h-8 w-8 inline-block" />
+                        ) : (
+                          weather.icon
+                        )}
+                      </TableCell>
                       <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">
                         {format(parseISO(hour.time), "HH:mm")}
                       </TableCell>

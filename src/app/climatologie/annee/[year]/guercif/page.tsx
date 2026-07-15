@@ -4,7 +4,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
 import Link from "next/link";
-import { getTemperatureColor, getPrecipitationColor, getTextColor } from "@/lib/weather-colors";
+import { getTemperatureColor, getPrecipitationColor, getTextColor, getSunshineColor, calculateMonthlySunshine, formatSunshineDuration } from "@/lib/weather-colors";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -42,6 +42,12 @@ export default async function YearPage({ params }: PageProps) {
         rainSum: 0,
         absMax: -Infinity,
         absMin: Infinity,
+        maxMinTemp: -Infinity, // Tempé. mini maximale (highest of daily mins)
+        minMaxTemp: Infinity, // Tempé. maxi minimale (lowest of daily maxes)
+        max24hPrecip: -Infinity, // Max en 24h
+        sunshineSumMinutes: 0, // Ensoleillement Estimé total (minutes)
+        sunshineOfficialSumSeconds: 0, // Ensoleillement Officiel total (seconds)
+        precipDaysOver1: [] // Days with >1mm precip
       };
     }
     const s = monthlyStats[month];
@@ -52,6 +58,34 @@ export default async function YearPage({ params }: PageProps) {
     s.rainSum += day.precipitation;
     if (day.temp_max > s.absMax) s.absMax = day.temp_max;
     if (day.temp_min < s.absMin) s.absMin = day.temp_min;
+    if (day.temp_min > s.maxMinTemp) s.maxMinTemp = day.temp_min;
+    if (day.temp_max < s.minMaxTemp) s.minMaxTemp = day.temp_max;
+    if (day.precipitation > s.max24hPrecip) s.max24hPrecip = day.precipitation;
+    if (day.estimated_daily_sunshine_minutes !== null) {
+      s.sunshineSumMinutes += day.estimated_daily_sunshine_minutes;
+    }
+    if (day.sunshine_duration_seconds !== null && day.sunshine_duration_seconds !== undefined) {
+      s.sunshineOfficialSumSeconds += day.sunshine_duration_seconds;
+    }
+    if (day.precipitation > 1) {
+      s.precipDaysOver1.push(day.precipitation);
+    }
+  });
+
+  // For each month, calculate 5-day max precip
+  Object.keys(monthlyStats).forEach(month => {
+    const monthDays = data.filter(day => format(parseISO(day.date), "MM") === month).sort((a, b) => a.date.localeCompare(b.date));
+    let max5DayPrecip = -Infinity;
+    if (monthDays.length >= 5) { // Only calculate if at least 5 days in month
+      for (let i = 0; i <= monthDays.length - 5; i++) { // Adjusted condition to -5 instead of -4
+        let sum = 0;
+        for (let j = 0; j < 5; j++) {
+          sum += monthDays[i + j].precipitation;
+        }
+        if (sum > max5DayPrecip) max5DayPrecip = sum;
+      }
+    }
+    monthlyStats[month].max5DayPrecip = max5DayPrecip === -Infinity ? null : max5DayPrecip;
   });
 
   const sortedMonths = Object.keys(monthlyStats).sort();
@@ -62,11 +96,42 @@ export default async function YearPage({ params }: PageProps) {
   const yearlyTotalRain = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].rainSum, 0);
   const yearlyAvgMax = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMaxSum, 0) / data.length;
   const yearlyAvgMin = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMinSum, 0) / data.length;
+  const yearlyMaxMinTemp = Math.max(...sortedMonths.map(m => monthlyStats[m].maxMinTemp));
+  const yearlyMinMaxTemp = Math.min(...sortedMonths.map(m => monthlyStats[m].minMaxTemp));
+  const yearlySunshineHours = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].sunshineSumMinutes, 0) / 60;
+  const yearlyMax24hPrecip = Math.max(...sortedMonths.map(m => monthlyStats[m].max24hPrecip));
+
+  // Yearly totals for sunshine
+  const yearlySunshineOfficialSumSeconds = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].sunshineOfficialSumSeconds, 0);
+  const yearlySunshineOfficialHours = Math.floor(yearlySunshineOfficialSumSeconds / 3600);
+  const yearlySunshineOfficialMinutes = Math.floor(((yearlySunshineOfficialSumSeconds / 3600) - yearlySunshineOfficialHours) * 60);
+
+  const yearlySunshineEstimatedTotalMinutes = sortedMonths.reduce((acc, m) => acc + monthlyStats[m].sunshineSumMinutes, 0);
+  const yearlySunshineEstimatedFormatted = formatSunshineDuration(yearlySunshineEstimatedTotalMinutes);
+
+  // Yearly max 5-day precip
+  let yearlyMax5DayPrecip = -Infinity;
+  if (data.length >= 5) {
+    for (let i = 0; i <= data.length - 5; i++) {
+      let sum = 0;
+      for (let j = 0; j < 5; j++) {
+        sum += data[i + j].precipitation;
+      }
+      if (sum > yearlyMax5DayPrecip) yearlyMax5DayPrecip = sum;
+    }
+  }
+  // Yearly average for days with >1mm precip
+  const yearlyPrecipDaysOver1 = sortedMonths.reduce((acc, m) => [...acc, ...monthlyStats[m].precipDaysOver1], []);
+  const yearlyAvgPrecipOver1 = yearlyPrecipDaysOver1.length > 0 
+    ? yearlyPrecipDaysOver1.reduce((a: number, b: number) => a + b, 0) / yearlyPrecipDaysOver1.length 
+    : null;
 
   const avgMaxColor = getTemperatureColor(yearlyAvgMax);
   const avgMinColor = getTemperatureColor(yearlyAvgMin);
   const absMaxColor = getTemperatureColor(yearlyAbsMax);
   const absMinColor = getTemperatureColor(yearlyAbsMin);
+  const yearlySunshineOfficialColor = getSunshineColor((yearlySunshineOfficialSumSeconds / 3600) * 30);
+  const yearlySunshineEstimatedColor = getSunshineColor((yearlySunshineEstimatedTotalMinutes / 60) * 30);
 
   return (
     <div className="space-y-8">
@@ -75,7 +140,7 @@ export default async function YearPage({ params }: PageProps) {
         <p className="text-muted-foreground">Tableau climatologique au format Wikipédia.</p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
         <Card className="col-span-1 border-none shadow-sm" style={{ backgroundColor: avgMinColor, color: getTextColor(avgMinColor) }}>
           <CardHeader className="pb-1 p-3">
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Moyenne Min</CardTitle>
@@ -108,12 +173,28 @@ export default async function YearPage({ params }: PageProps) {
             <div className="text-xl font-bold">{yearlyAbsMax.toFixed(1)}°C</div>
           </CardContent>
         </Card>
-        <Card className="col-span-2 md:col-span-1 border-none shadow-sm bg-blue-600 text-white">
+        <Card className="col-span-1 sm:col-span-2 md:col-span-1 border-none shadow-sm bg-blue-600 text-white">
           <CardHeader className="pb-1 p-3">
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Pluie Annuelle</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold">{yearlyTotalRain.toFixed(1)} mm</div>
+          </CardContent>
+        </Card>
+        <Card className="col-span-1 sm:col-span-2 md:col-span-1 border-none shadow-sm" style={{ backgroundColor: yearlySunshineOfficialColor, color: getTextColor(yearlySunshineOfficialColor) }}>
+          <CardHeader className="pb-1 p-3">
+            <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Ensoleillement Officiel</CardTitle>
+          </CardHeader>
+          <CardContent className="p-3 pt-0">
+            <div className="text-xl font-bold">{yearlySunshineOfficialHours}h {yearlySunshineOfficialMinutes}mn</div>
+          </CardContent>
+        </Card>
+        <Card className="col-span-1 sm:col-span-2 md:col-span-1 border-none shadow-sm" style={{ backgroundColor: yearlySunshineEstimatedColor, color: getTextColor(yearlySunshineEstimatedColor) }}>
+          <CardHeader className="pb-1 p-3">
+            <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Ensoleillement Estimé</CardTitle>
+          </CardHeader>
+          <CardContent className="p-3 pt-0">
+            <div className="text-xl font-bold">{yearlySunshineEstimatedFormatted}</div>
           </CardContent>
         </Card>
       </div>
@@ -240,6 +321,127 @@ export default async function YearPage({ params }: PageProps) {
                     {sortedMonths.reduce((acc, m) => acc + monthlyStats[m].rainSum, 0).toFixed(1)}
                   </TableCell>
                 </TableRow>
+
+                {/* Tempé. maxi minimale */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. maxi minimale (°C)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].minMaxTemp;
+                    const bgColor = getTemperatureColor(val);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlyMinMaxTemp.toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Tempé. mini maximale */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. mini maximale (°C)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].maxMinTemp;
+                    const bgColor = getTemperatureColor(val);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlyMaxMinTemp.toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Ensoleillement Officiel */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Ensoleillement Officiel (h)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].sunshineOfficialSumSeconds / 3600;
+                    const bgColor = getSunshineColor(val * 30);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {(yearlySunshineOfficialSumSeconds / 3600).toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Ensoleillement Estimé */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Ensoleillement Estimé (h)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].sunshineSumMinutes / 60;
+                    const bgColor = getSunshineColor(val * 30);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlySunshineHours.toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Max en 24h */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Max en 24h de précips (mm)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].max24hPrecip;
+                    const bgColor = getPrecipitationColor(val);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlyMax24hPrecip.toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Max en 5j */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Max en 5j de précips (mm)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].max5DayPrecip;
+                    const bgColor = val !== null ? getPrecipitationColor(val) : 'transparent';
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val !== null ? val.toFixed(1) : '-'}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlyMax5DayPrecip !== -Infinity ? yearlyMax5DayPrecip.toFixed(1) : '-'}
+                  </TableCell>
+                </TableRow>
+
+                {/* Moyenne ≥ 1 */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Moyenne ≥ 1 de précips (mm)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].precipDaysOver1.length > 0 
+                      ? monthlyStats[m].precipDaysOver1.reduce((a: number, b: number) => a + b, 0) / monthlyStats[m].precipDaysOver1.length 
+                      : null;
+                    const bgColor = val !== null ? getPrecipitationColor(val) : 'transparent';
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val !== null ? val.toFixed(1) : '-'}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {yearlyAvgPrecipOver1 !== null ? yearlyAvgPrecipOver1.toFixed(1) : '-'}
+                  </TableCell>
+                </TableRow>
               </TableBody>
             </Table>
           </div>
@@ -249,7 +451,7 @@ export default async function YearPage({ params }: PageProps) {
         </CardContent>
       </Card>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-2">
         {sortedMonths.map(m => (
           <Link 
             key={m} 

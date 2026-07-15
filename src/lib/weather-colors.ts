@@ -3,6 +3,150 @@
  * Based on the provided JSON scale: -89.2°C to 56.7°C
  */
 
+// Table de correspondance WMO → Durée estimée d'ensoleillement par heure (en minutes)
+const WMO_TO_ESTIMATED_SUNSHINE: Record<number, number> = {
+  0: 60,    // ☀️ - Ciel dégagé
+  1: 45,    // 🌤️ - Principalement dégagé
+  2: 30,    // ⛅ - Partiellement nuageux
+  3: 0,     // ☁️ - Couvert
+  45: 0,    // 🌫️ - Brouillard
+  48: 0,    // 🌫️ - Brouillard givrant
+  51: 15,   // 🌦️ - Bruine faible
+  53: 10,   // 🌦️ - Bruine modérée
+  55: 0,    // 🌧️ - Bruine forte
+  56: 0,    // 🌧️❄️ - Bruine verglaçante faible
+  57: 0,    // 🌧️❄️ - Bruine verglaçante forte
+  61: 5,    // 🌧️ - Pluie faible
+  63: 0,    // 🌧️ - Pluie modérée
+  65: 0,    // 🌧️ - Pluie forte
+  66: 0,    // 🌧️❄️ - Pluie verglaçante faible
+  67: 0,    // 🌧️❄️ - Pluie verglaçante forte
+  71: 5,    // 🌨️ - Neige faible
+  73: 0,    // 🌨️ - Neige modérée
+  75: 0,    // 🌨️ - Neige forte
+  77: 0,    // 🌨️ - Grains de neige
+  80: 20,   // 🌦️ - Averses de pluie faibles
+  81: 5,    // 🌧️ - Averses de pluie modérées
+  82: 5,    // 🌧️ - Averses de pluie violentes
+  85: 5,    // 🌨️ - Averses de neige faibles
+  86: 5,    // 🌨️ - Averses de neige fortes
+  95: 10,   // ⛈️ - Orage faible ou modéré
+  96: 10,   // ⛈️ - Orage avec grêle faible
+  99: 10    // ⛈️ - Orage avec forte grêle
+};
+
+/**
+ * Convertit un code WMO horaire en durée d'ensoleillement estimée en minutes
+ * @param code - Code WMO horaire
+ * @returns Durée estimée en minutes (0 si code inconnu)
+ */
+export function calculateHourlySunshine(code: number): number {
+  return WMO_TO_ESTIMATED_SUNSHINE[code] ?? 0;
+}
+
+function isHourBetweenSunriseAndSunset(timeStr: string, sunriseStr: string | null | undefined, sunsetStr: string | null | undefined): boolean {
+  const getTimeMinutes = (timeStr: string) => {
+    if (!timeStr || !timeStr.includes('T')) return 0;
+    const timePart = timeStr.split('T')[1];
+    if (!timePart || !timePart.includes(':')) return 0;
+    const [hour, minute] = timePart.split(':').map(Number);
+    if (isNaN(hour) || isNaN(minute)) return 0;
+    return hour * 60 + minute;
+  };
+
+  // Si sunrise ou sunset sont manquants, on suppose qu'il fait jour toute la journée (sécurité)
+  if (!sunriseStr || !sunsetStr) return true;
+
+  const timeMinutes = getTimeMinutes(timeStr);
+  const sunriseMinutes = getTimeMinutes(sunriseStr);
+  const sunsetMinutes = getTimeMinutes(sunsetStr);
+
+  // For an hourly period like 07:00-08:00, we consider if the hour starts during daytime
+  return timeMinutes >= sunriseMinutes && timeMinutes < sunsetMinutes;
+}
+
+/**
+ * Agrège les valeurs horaires pour obtenir une durée journalière totale en minutes,
+ * seulement pour les heures entre le lever et le coucher du soleil
+ * @param hourlyData - Tableau des données horaires avec time et weather_code
+ * @param sunrise - Heure du lever du soleil (format ISO)
+ * @param sunset - Heure du coucher du soleil (format ISO)
+ * @returns Durée journalière totale en minutes, ou null si données insuffisantes
+ */
+export function calculateDailySunshine(
+  hourlyData: { time: string; weather_code: number }[],
+  sunrise: string | null | undefined,
+  sunset: string | null | undefined
+): number | null {
+  if (!hourlyData || hourlyData.length === 0) return null;
+  
+  return hourlyData.reduce((total, hour) => {
+    if (isHourBetweenSunriseAndSunset(hour.time, sunrise, sunset)) {
+      return total + calculateHourlySunshine(hour.weather_code);
+    }
+    return total;
+  }, 0);
+}
+
+/**
+ * Agrège les valeurs journalières pour obtenir une durée mensuelle totale en minutes
+ * @param dailyMinutes - Tableau des durées journalières en minutes
+ * @returns Durée mensuelle totale en minutes
+ */
+export function calculateMonthlySunshine(dailyMinutes: (number | null)[]): number | null {
+  const validDays = dailyMinutes.filter((d): d is number => d !== null);
+  if (validDays.length === 0) return null;
+  return validDays.reduce((total, minutes) => total + minutes, 0);
+}
+
+/**
+ * Agrège les valeurs mensuelles pour obtenir une durée annuelle totale en minutes
+ * @param monthlyMinutes - Tableau des durées mensuelles en minutes
+ * @returns Durée annuelle totale en minutes
+ */
+export function calculateYearlySunshine(monthlyMinutes: (number | null)[]): number | null {
+  const validMonths = monthlyMinutes.filter((m): m is number => m !== null);
+  if (validMonths.length === 0) return null;
+  return validMonths.reduce((total, minutes) => total + minutes, 0);
+}
+
+/**
+ * Formate une durée en minutes en chaîne de caractères "X h Y min"
+ * @param totalMinutes - Durée totale en minutes
+ * @returns Chaîne formatée, ou "Données indisponibles" si null
+ */
+export function formatSunshineDuration(totalMinutes: number | null): string {
+  if (totalMinutes === null) return "Données indisponibles";
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  return `${hours} h ${minutes.toString().padStart(2, '0')} min`;
+}
+
+/**
+ * Calcule l'indice de cohérence entre la durée officielle et l'estimation
+ * @param officialMinutes - Durée officielle en minutes
+ * @param estimatedMinutes - Durée estimée en minutes
+ * @returns Indice de cohérence (Excellent/Bon/Moyen/Faible), ou null si données manquantes
+ */
+export function calculateSunshineConsistency(officialMinutes: number | null, estimatedMinutes: number | null): 'Excellent' | 'Bon' | 'Moyen' | 'Faible' | null {
+  if (officialMinutes === null || estimatedMinutes === null) return null;
+  const difference = Math.abs(officialMinutes - estimatedMinutes);
+  if (difference <= 5) return 'Excellent';
+  if (difference <= 15) return 'Bon';
+  if (difference <= 30) return 'Moyen';
+  return 'Faible';
+}
+
+/**
+ * Convertit la durée officielle Open-Meteo (en secondes) en minutes
+ * @param sunshineSeconds - Durée officielle en secondes
+ * @returns Durée en minutes, ou null si valeur invalide
+ */
+export function convertOfficialSunshineToMinutes(sunshineSeconds: number | null | undefined): number | null {
+  if (sunshineSeconds === null || sunshineSeconds === undefined) return null;
+  return Math.round(sunshineSeconds / 60);
+}
+
 const tempScale: Record<number, { b: string; t: string }> = {
   "-89": { b: "#000005", t: "#FFFFFF" },
   "-88": { b: "#00000A", t: "#FFFFFF" },
@@ -124,13 +268,13 @@ const tempScale: Record<number, { b: string; t: string }> = {
   "28": { b: "#FF5D00", t: "#000000" },
   "29": { b: "#FF5600", t: "#000000" },
   "30": { b: "#FF4F00", t: "#000000" },
-  "31": { b: "#FF4800", t: "#000000" },
-  "32": { b: "#FF4100", t: "#000000" },
-  "33": { b: "#FF3A00", t: "#000000" },
-  "34": { b: "#FF3300", t: "#000000" },
-  "35": { b: "#FF2C00", t: "#000000" },
-  "36": { b: "#FF2500", t: "#000000" },
-  "37": { b: "#FF1F00", t: "#000000" },
+  "31": { b: "#FF4800", t: "#FFFFFF" },
+  "32": { b: "#FF4100", t: "#FFFFFF" },
+  "33": { b: "#FF3A00", t: "#FFFFFF" },
+  "34": { b: "#FF3300", t: "#FFFFFF" },
+  "35": { b: "#FF2C00", t: "#FFFFFF" },
+  "36": { b: "#FF2500", t: "#FFFFFF" },
+  "37": { b: "#FF1F00", t: "#FFFFFF" },
   "38": { b: "#FF1800", t: "#FFFFFF" },
   "39": { b: "#FF1100", t: "#FFFFFF" },
   "40": { b: "#FF0A00", t: "#FFFFFF" },
@@ -193,4 +337,93 @@ export function getSunshineColor(hours: number): string {
   if (hours >= 150) return "#ffff99";
   if (hours >= 100) return "#ffffcc";
   return "#ffffee";
+}
+
+function getTimeHM(timeStr: string): number {
+  // timeStr is like "2026-07-07T00:00" or "2026-07-07T06:08"
+  const timePart = timeStr.split('T')[1];
+  const [hour, minute] = timePart.split(':').map(Number);
+  return hour * 60 + minute;
+}
+
+export function getWeatherIcon(
+  code: number, 
+  time?: string, 
+  sunrise?: string, 
+  sunset?: string
+): { icon: string; imagePath: string | null; description: string } {
+  if (code === null || code === undefined) return { icon: "❓", imagePath: null, description: "Inconnu" };
+
+  let isNight = false;
+  if (time && sunrise && sunset) {
+    const hourMinutes = getTimeHM(time);
+    const sunriseMinutes = getTimeHM(sunrise);
+    const sunsetMinutes = getTimeHM(sunset);
+    isNight = hourMinutes < sunriseMinutes || hourMinutes > sunsetMinutes;
+  }
+
+  // Open-Meteo WMO weather code icons, images, and descriptions (from user's mapping)
+  switch (code) {
+    case 0: return { 
+      icon: isNight ? "🌙" : "☀️", 
+      imagePath: isNight ? "/weather-icons/night/ciel dégagé pleine-lune.png" : null, 
+      description: "Ciel dégagé - Aucun nuage significatif" 
+    };
+    case 1: return { 
+      icon: isNight ? "🌥️" : "🌤️", 
+      imagePath: isNight ? "/weather-icons/night/ciel trés voilé - pleine lune.png" : null, 
+      description: "Principalement dégagé - Peu nuageux, majorité de ciel clair" 
+    };
+    case 2: return { 
+      icon: isNight ? "🌦️" : "⛅", 
+      imagePath: isNight ? "/weather-icons/night/Nuages et soleil nuit.png" : null, 
+      description: "Partiellement nuageux - Alternance nuages / éclaircies" 
+    };
+    case 3: return { 
+      icon: "☁️", 
+      imagePath: isNight ? "/weather-icons/night/Très nuageux nuit.png" : null, 
+      description: "Couvert - Ciel très nuageux à totalement couvert" 
+    };
+    case 45: 
+    case 48: return { 
+      icon: "🌫️", 
+      imagePath: isNight ? "/weather-icons/night/brouillard lune.png" : null, 
+      description: code === 45 ? "Brouillard - Brouillard “classique”" : "Brouillard givrant - Brouillard avec dépôt de givre" 
+    };
+    case 51: return { icon: "🌦️", imagePath: null, description: "Bruine faible - Petite pluie fine, faible intensité" };
+    case 53: return { icon: "🌦️", imagePath: null, description: "Bruine modérée - Bruine plus marquée" };
+    case 55: return { icon: "🌧️", imagePath: null, description: "Bruine forte / dense - Bruine intense et persistante" };
+    case 56: return { icon: "🌧️❄️", imagePath: null, description: "Bruine verglaçante faible - Bruine surfondue pouvant geler au contact" };
+    case 57: return { icon: "🌧️❄️", imagePath: null, description: "Bruine verglaçante forte - Version plus intense de la bruine verglaçante" };
+    case 61: return { icon: "🌧️", imagePath: null, description: "Pluie faible - Pluie continue légère" };
+    case 63: return { icon: "🌧️", imagePath: null, description: "Pluie modérée - Pluie “normale” / soutenue" };
+    case 65: return { icon: "🌧️", imagePath: null, description: "Pluie forte - Forte pluie continue" };
+    case 66: return { icon: "🌧️❄️", imagePath: null, description: "Pluie verglaçante faible - Pluie qui gèle au contact, faible intensité" };
+    case 67: return { icon: "🌧️❄️", imagePath: null, description: "Pluie verglaçante forte - Pluie verglaçante plus forte" };
+    case 71: return { icon: "🌨️", imagePath: null, description: "Neige faible - Chute de neige légère" };
+    case 73: return { icon: "🌨️", imagePath: null, description: "Neige modérée - Chute de neige modérée" };
+    case 75: return { icon: "🌨️", imagePath: null, description: "Neige forte - Forte chute de neige" };
+    case 77: return { icon: "🌨️", imagePath: null, description: "Grains de neige - Très petites particules de neige, distinctes des gros flocons" };
+    case 80: 
+    case 81: 
+    case 82: return { 
+      icon: code === 80 ? "🌦️" : "🌧️", 
+      imagePath: isNight ? "/weather-icons/night/Averses ou pluie intermittente nuit.png" : null, 
+      description: code === 80 ? "Averses de pluie faibles - Pluie en averses, faible" : code === 81 ? "Averses de pluie modérées - Averses plus marquées" : "Averses de pluie violentes - Averses très fortes" 
+    };
+    case 85: 
+    case 86: return { 
+      icon: "🌨️", 
+      imagePath: isNight ? "/weather-icons/night/Averses de neige nuit.png" : null, 
+      description: code === 85 ? "Averses de neige faibles - Neige sous forme d’averses, faible" : "Averses de neige fortes - Averses de neige marquées" 
+    };
+    case 95: 
+    case 96: 
+    case 99: return { 
+      icon: "⛈️", 
+      imagePath: isNight ? "/weather-icons/night/Très nuageux, tendance orageuse lune.png" : null, 
+      description: code === 95 ? "Orage faible ou modéré - Présence orageuse" : code === 96 ? "Orage avec grêle faible - Orage avec grêle légère" : "Orage avec forte grêle - Orage avec grêle importante" 
+    };
+    default: return { icon: "❓", imagePath: null, description: "Inconnu" };
+  }
 }
