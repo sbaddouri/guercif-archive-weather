@@ -4,8 +4,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/**' # Ignore data changes to prevent infinite loops
   schedule:
-    - cron: '0 2 * * *' # Every day at 2 AM
+    - cron: '0 8 * * *' # Every day at 8 AM UTC (gives Open-Meteo time to update)
   workflow_dispatch: # Allow manual trigger
 
 env:

@@ -261,9 +261,9 @@ async function main() {
       initialEndDate = args[1];
     } else {
       const today = new Date();
-      const threeDaysAgo = subDays(today, 3);
-      initialEndDate = format(threeDaysAgo, 'yyyy-MM-dd');
-      initialStartDate = format(subDays(threeDaysAgo, 30), 'yyyy-MM-dd');
+      const oneDayAgo = subDays(today, 1);
+      initialEndDate = format(oneDayAgo, 'yyyy-MM-dd');
+      initialStartDate = format(subDays(oneDayAgo, 30), 'yyyy-MM-dd');
     }
     finalStartDate = initialStartDate;
     finalEndDate = initialEndDate;
