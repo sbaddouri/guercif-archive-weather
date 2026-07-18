@@ -13,15 +13,15 @@ const DATA_DIR = path.join(process.cwd(), 'data');
 
 export interface DailyData {
   date: string;
-  weather_code: number;
-  temp_max: number;
-  temp_min: number;
-  temp_mean: number;
-  precipitation: number;
-  sunshine: number; // Valeur officielle Open-Meteo en secondes (conservée pour compatibilité)
-  wind_speed_max: number;
-  sunrise: string;
-  sunset: string;
+  weather_code: number | null;
+  temp_max: number | null;
+  temp_min: number | null;
+  temp_mean: number | null;
+  precipitation: number | null;
+  sunshine: number | null; // Valeur officielle Open-Meteo en secondes (conservée pour compatibilité)
+  wind_speed_max: number | null;
+  sunrise: string | null;
+  sunset: string | null;
   
   // Nouvelles variables pour l'ensoleillement estimé
   sunshine_duration_seconds: number | null; // Valeur officielle Open-Meteo en secondes
@@ -34,20 +34,20 @@ export interface DailyData {
 
 export interface HourlyData {
   time: string;
-  temp: number;
-  humidity: number;
-  dew_point: number;
-  precipitation: number;
-  weather_code: number;
-  pressure: number;
-  wind_speed: number;
-  wind_gusts: number;
-  visibility: number;
-  uv_index: number;
-  sunshine: number; // Valeur officielle Open-Meteo en secondes
+  temp: number | null;
+  humidity: number | null;
+  dew_point: number | null;
+  precipitation: number | null;
+  weather_code: number | null;
+  pressure: number | null;
+  wind_speed: number | null;
+  wind_gusts: number | null;
+  visibility: number | null;
+  uv_index: number | null;
+  sunshine: number | null; // Valeur officielle Open-Meteo en secondes
   
   // Nouvelle variable pour l'ensoleillement estimé horaire
-  estimated_hourly_sunshine_minutes: number; // Estimation basée sur le code WMO horaire
+  estimated_hourly_sunshine_minutes: number | null; // Estimation basée sur le code WMO horaire
 }
 
 async function fillMissingDailyDataFields(data: any): Promise<DailyData> {
@@ -100,15 +100,15 @@ async function fillMissingDailyDataFields(data: any): Promise<DailyData> {
     // Si erreur, retourner les données brutes sans les nouveaux champs (éviter crash)
     return {
       date: data.date,
-      weather_code: data.weather_code ?? 0,
-      temp_max: data.temp_max ?? 0,
-      temp_min: data.temp_min ?? 0,
-      temp_mean: data.temp_mean ?? 0,
-      precipitation: data.precipitation ?? 0,
-      sunshine: data.sunshine ?? 0,
-      wind_speed_max: data.wind_speed_max ?? 0,
-      sunrise: data.sunrise ?? "",
-      sunset: data.sunset ?? "",
+      weather_code: data.weather_code ?? null,
+      temp_max: data.temp_max ?? null,
+      temp_min: data.temp_min ?? null,
+      temp_mean: data.temp_mean ?? null,
+      precipitation: data.precipitation ?? null,
+      sunshine: data.sunshine ?? null,
+      wind_speed_max: data.wind_speed_max ?? null,
+      sunrise: data.sunrise ?? null,
+      sunset: data.sunset ?? null,
       sunshine_duration_seconds: null,
       sunshine_duration_minutes: null,
       estimated_daily_sunshine_minutes: null,

@@ -79,7 +79,7 @@ async function fetchWeatherData(startDate: string, endDate: string) {
     });
 
     try {
-      const response = await axios.get(url);
+      const response = await axios.get(url, { timeout: 30000 });
       
       // Validate response structure
       if (!response.data || !response.data.daily || !response.data.hourly) {
@@ -110,6 +110,21 @@ async function fetchWeatherData(startDate: string, endDate: string) {
         console.log(`[DEBUG] Data not yet available for ${currentEndDate}, retrying with previous day...`);
         const date = parseISO(currentEndDate);
         currentEndDate = format(subDays(date, 1), 'yyyy-MM-dd');
+        attempts++;
+        continue;
+      }
+      
+      if (error.response?.status >= 500 && attempts < maxAttempts - 1) {
+        console.log(`[DEBUG] Server error (status ${error.response.status}), retrying in 10 seconds...`);
+        await new Promise(resolve => setTimeout(resolve, 10000));
+        attempts++;
+        continue;
+      }
+      
+      // Also handle timeout errors (code: ECONNABORTED)
+      if (error.code === 'ECONNABORTED' && attempts < maxAttempts - 1) {
+        console.log(`[DEBUG] Request timeout, retrying in 10 seconds...`);
+        await new Promise(resolve => setTimeout(resolve, 10000));
         attempts++;
         continue;
       }
@@ -183,7 +198,8 @@ async function saveDailyAndHourlyData(daily: any, hourly: any) {
       const missingFields = requiredFields.filter(field => daily[field]?.[i] === undefined || daily[field]?.[i] === null);
       
       if (missingFields.length > 0) {
-        console.error(`[WARNING] Missing fields for ${date}: ${missingFields.join(', ')}`);
+        console.error(`[WARNING] Missing critical fields for ${date}: ${missingFields.join(', ')}. Skipping save for this day.`);
+        continue; // Skip saving this day to prevent corrupted data
       }
 
       // Calculate estimated daily sunshine from hourly data
@@ -260,7 +276,9 @@ async function main() {
       initialStartDate = args[0];
       initialEndDate = args[1];
     } else {
-      const today = new Date();
+      // Force Casablanca timezone to prevent UTC day offset issues in GitHub Actions
+      const casablancaTimeStr = new Date().toLocaleString("en-US", { timeZone: "Africa/Casablanca" });
+      const today = new Date(casablancaTimeStr);
       const oneDayAgo = subDays(today, 1);
       initialEndDate = format(oneDayAgo, 'yyyy-MM-dd');
       initialStartDate = format(subDays(oneDayAgo, 30), 'yyyy-MM-dd');

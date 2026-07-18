@@ -36,25 +36,22 @@ function formatTimeRemaining(date: Date): {
 }
 
 export default function WeatherCountdown() {
-  const [mounted, setMounted] = useState(false);
-  const [nextUpdate, setNextUpdate] = useState<Date>(new Date());
   const [timeRemaining, setTimeRemaining] = useState({
     hours: '00',
     minutes: '00',
     seconds: '00',
   });
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    // Set mounted and initialize time remaining
     const initialNextUpdate = getNextUpdateTime();
-    setNextUpdate(initialNextUpdate);
     setTimeRemaining(formatTimeRemaining(initialNextUpdate));
+    setMounted(true);
 
     const timer = setInterval(() => {
-      const now = new Date();
       // Always recalculate nextUpdate to avoid stale closure
       const currentNextUpdate = getNextUpdateTime();
-      setNextUpdate(currentNextUpdate);
       setTimeRemaining(formatTimeRemaining(currentNextUpdate));
     }, 1000);
 

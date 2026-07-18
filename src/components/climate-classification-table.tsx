@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
-import { ThermometerSun, Droplets, Wind, Sun, Cloud, CloudRain, CloudFog, Sparkles } from "lucide-react";
+import { ThermometerSun, Droplets, Wind, Sun, Cloud, CloudFog, Sparkles } from "lucide-react";
 import TiltCard from "./3d-tilt-card";
 
 const climateData = [

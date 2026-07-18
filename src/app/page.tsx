@@ -1,7 +1,7 @@
-import { getRecentDailyData, getUpdateStatus, type UpdateStatus } from "@/lib/data";
+import { getRecentDailyData, getUpdateStatus } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CloudSun, Thermometer, Droplets, Wind, Sun, MapPin, Calendar, CheckCircle, AlertCircle, Clock } from "lucide-react";
+import { Thermometer, Droplets, Sun, Calendar, CheckCircle, AlertCircle, Clock } from "lucide-react";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
@@ -159,22 +159,22 @@ export default async function Home() {
             <CardContent className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div className="flex flex-col items-center p-4 bg-orange-500/5 rounded-xl">
                 <Thermometer className="h-8 w-8 text-orange-500 mb-2" />
-                <span className="text-2xl font-bold">{latest.temp_min}°C</span>
+                <span className="text-2xl font-bold">{latest.temp_min !== null ? `${latest.temp_min}°C` : '-'}</span>
                 <span className="text-xs text-muted-foreground text-center">Temp. Min</span>
               </div>
               <div className="flex flex-col items-center p-4 bg-blue-500/5 rounded-xl">
                 <Thermometer className="h-8 w-8 text-blue-500 mb-2" />
-                <span className="text-2xl font-bold">{latest.temp_max}°C</span>
+                <span className="text-2xl font-bold">{latest.temp_max !== null ? `${latest.temp_max}°C` : '-'}</span>
                 <span className="text-xs text-muted-foreground text-center">Temp. Max</span>
               </div>
               <div className="flex flex-col items-center p-4 bg-cyan-500/5 rounded-xl">
                 <Droplets className="h-8 w-8 text-cyan-500 mb-2" />
-                <span className="text-2xl font-bold">{latest.precipitation}mm</span>
+                <span className="text-2xl font-bold">{latest.precipitation !== null ? `${latest.precipitation}mm` : '-'}</span>
                 <span className="text-xs text-muted-foreground text-center">Précipitations</span>
               </div>
               <div className="flex flex-col items-center p-4 bg-yellow-500/5 rounded-xl">
                 <Sun className="h-8 w-8 text-yellow-500 mb-2" />
-                <span className="text-2xl font-bold">{(latest.sunshine / 3600).toFixed(1)}h</span>
+                <span className="text-2xl font-bold">{latest.sunshine !== null ? `${(latest.sunshine / 3600).toFixed(1)}h` : '-'}</span>
                 <span className="text-xs text-muted-foreground text-center">Ensoleillement</span>
               </div>
             </CardContent>

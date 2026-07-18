@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -16,13 +15,6 @@ const icon = L.icon({
 export default function WeatherMap() {
   const position: [number, number] = [34.22199159989515, -3.3490744462380326];
 
-  const handleTileError = (e: any) => {
-    // Hide failed tiles and prevent console errors
-    if (e.tile) {
-      e.tile.style.display = "none";
-    }
-  };
-
   return (
     <div className="h-[400px] w-full rounded-xl overflow-hidden border shadow-sm">
       <MapContainer 
@@ -35,8 +27,6 @@ export default function WeatherMap() {
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
           url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-          onError={handleTileError}
-          onTileError={handleTileError}
         />
         <Marker position={position} icon={icon}>
           <Popup>

@@ -4,14 +4,33 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
 import Link from "next/link";
-import { getTemperatureColor, getPrecipitationColor, getTextColor, getSunshineColor, calculateMonthlySunshine, formatSunshineDuration } from "@/lib/weather-colors";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { getTemperatureColor, getPrecipitationColor, getTextColor, getSunshineColor, formatSunshineDuration } from "@/lib/weather-colors";
+import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{
     year: string;
   }>;
+}
+
+interface MonthlyStats {
+  name: string;
+  fullName: string;
+  days: number;
+  tempMaxSum: number;
+  tempMinSum: number;
+  tempMeanSum: number;
+  rainSum: number;
+  absMax: number;
+  absMin: number;
+  maxMinTemp: number;
+  minMaxTemp: number;
+  max24hPrecip: number;
+  sunshineSumMinutes: number;
+  sunshineOfficialSumSeconds: number;
+  precipDaysOver1: number[];
+  max5DayPrecip: number | null;
 }
 
 export default async function YearPage({ params }: PageProps) {
@@ -28,7 +47,7 @@ export default async function YearPage({ params }: PageProps) {
   }
 
   // Group by month
-  const monthlyStats: { [key: string]: any } = {};
+  const monthlyStats: { [key: string]: MonthlyStats } = {};
   data.forEach(day => {
     const month = format(parseISO(day.date), "MM");
     if (!monthlyStats[month]) {
@@ -47,28 +66,37 @@ export default async function YearPage({ params }: PageProps) {
         max24hPrecip: -Infinity, // Max en 24h
         sunshineSumMinutes: 0, // Ensoleillement Estimé total (minutes)
         sunshineOfficialSumSeconds: 0, // Ensoleillement Officiel total (seconds)
-        precipDaysOver1: [] // Days with >1mm precip
+        precipDaysOver1: [], // Days with >1mm precip
+        max5DayPrecip: null
       };
     }
     const s = monthlyStats[month];
     s.days++;
-    s.tempMaxSum += day.temp_max;
-    s.tempMinSum += day.temp_min;
-    s.tempMeanSum += day.temp_mean;
-    s.rainSum += day.precipitation;
-    if (day.temp_max > s.absMax) s.absMax = day.temp_max;
-    if (day.temp_min < s.absMin) s.absMin = day.temp_min;
-    if (day.temp_min > s.maxMinTemp) s.maxMinTemp = day.temp_min;
-    if (day.temp_max < s.minMaxTemp) s.minMaxTemp = day.temp_max;
-    if (day.precipitation > s.max24hPrecip) s.max24hPrecip = day.precipitation;
+    if (day.temp_max !== null) {
+      s.tempMaxSum += day.temp_max;
+      if (day.temp_max > s.absMax) s.absMax = day.temp_max;
+      if (day.temp_max < s.minMaxTemp) s.minMaxTemp = day.temp_max;
+    }
+    if (day.temp_min !== null) {
+      s.tempMinSum += day.temp_min;
+      if (day.temp_min < s.absMin) s.absMin = day.temp_min;
+      if (day.temp_min > s.maxMinTemp) s.maxMinTemp = day.temp_min;
+    }
+    if (day.temp_mean !== null) {
+      s.tempMeanSum += day.temp_mean;
+    }
+    if (day.precipitation !== null) {
+      s.rainSum += day.precipitation;
+      if (day.precipitation > s.max24hPrecip) s.max24hPrecip = day.precipitation;
+      if (day.precipitation > 1) {
+        s.precipDaysOver1.push(day.precipitation);
+      }
+    }
     if (day.estimated_daily_sunshine_minutes !== null) {
       s.sunshineSumMinutes += day.estimated_daily_sunshine_minutes;
     }
     if (day.sunshine_duration_seconds !== null && day.sunshine_duration_seconds !== undefined) {
       s.sunshineOfficialSumSeconds += day.sunshine_duration_seconds;
-    }
-    if (day.precipitation > 1) {
-      s.precipDaysOver1.push(day.precipitation);
     }
   });
 
@@ -121,9 +149,9 @@ export default async function YearPage({ params }: PageProps) {
     }
   }
   // Yearly average for days with >1mm precip
-  const yearlyPrecipDaysOver1 = sortedMonths.reduce((acc, m) => [...acc, ...monthlyStats[m].precipDaysOver1], []);
+  const yearlyPrecipDaysOver1 = sortedMonths.reduce((acc: number[], m) => [...acc, ...monthlyStats[m].precipDaysOver1], []);
   const yearlyAvgPrecipOver1 = yearlyPrecipDaysOver1.length > 0 
-    ? yearlyPrecipDaysOver1.reduce((a: number, b: number) => a + b, 0) / yearlyPrecipDaysOver1.length 
+    ? yearlyPrecipDaysOver1.reduce((a, b) => a + b, 0) / yearlyPrecipDaysOver1.length 
     : null;
 
   const avgMaxColor = getTemperatureColor(yearlyAvgMax);
@@ -146,7 +174,7 @@ export default async function YearPage({ params }: PageProps) {
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Moyenne Min</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-xl font-bold">{yearlyAvgMin.toFixed(1)}°C</div>
+            <div className="text-xl font-bold">{yearlyAvgMin !== null && !isNaN(yearlyAvgMin) ? yearlyAvgMin.toFixed(1) : '-'}°C</div>
           </CardContent>
         </Card>
         <Card className="col-span-1 border-none shadow-sm" style={{ backgroundColor: avgMaxColor, color: getTextColor(avgMaxColor) }}>
@@ -154,7 +182,7 @@ export default async function YearPage({ params }: PageProps) {
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Moyenne Max</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-xl font-bold">{yearlyAvgMax.toFixed(1)}°C</div>
+            <div className="text-xl font-bold">{yearlyAvgMax !== null && !isNaN(yearlyAvgMax) ? yearlyAvgMax.toFixed(1) : '-'}°C</div>
           </CardContent>
         </Card>
         <Card className="col-span-1 border-none shadow-sm" style={{ backgroundColor: absMinColor, color: getTextColor(absMinColor) }}>
@@ -162,7 +190,7 @@ export default async function YearPage({ params }: PageProps) {
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Record Froid</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-xl font-bold">{yearlyAbsMin.toFixed(1)}°C</div>
+            <div className="text-xl font-bold">{yearlyAbsMin !== Infinity ? yearlyAbsMin.toFixed(1) : '-'}°C</div>
           </CardContent>
         </Card>
         <Card className="col-span-1 border-none shadow-sm" style={{ backgroundColor: absMaxColor, color: getTextColor(absMaxColor) }}>
@@ -170,7 +198,7 @@ export default async function YearPage({ params }: PageProps) {
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Record Chaleur</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-xl font-bold">{yearlyAbsMax.toFixed(1)}°C</div>
+            <div className="text-xl font-bold">{yearlyAbsMax !== -Infinity ? yearlyAbsMax.toFixed(1) : '-'}°C</div>
           </CardContent>
         </Card>
         <Card className="col-span-1 sm:col-span-2 md:col-span-1 border-none shadow-sm bg-blue-600 text-white">
@@ -178,7 +206,7 @@ export default async function YearPage({ params }: PageProps) {
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Pluie Annuelle</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-xl font-bold">{yearlyTotalRain.toFixed(1)} mm</div>
+            <div className="text-xl font-bold">{yearlyTotalRain !== null && !isNaN(yearlyTotalRain) ? yearlyTotalRain.toFixed(1) : '-'} mm</div>
           </CardContent>
         </Card>
         <Card className="col-span-1 sm:col-span-2 md:col-span-1 border-none shadow-sm" style={{ backgroundColor: yearlySunshineOfficialColor, color: getTextColor(yearlySunshineOfficialColor) }}>

@@ -51,10 +51,14 @@ export default async function MonthPage({ params }: PageProps) {
     })
   );
 
-  // Moyennes et cumuls
-  const avgMin = dailyData.reduce((acc, d) => acc + d.temp_min, 0) / dailyData.length;
-  const avgMax = dailyData.reduce((acc, d) => acc + d.temp_max, 0) / dailyData.length;
-  const totalRain = dailyData.reduce((acc, d) => acc + d.precipitation, 0);
+  // Moyennes et cumuls (filtering out null values)
+  const daysWithTemp = dailyData.filter(d => d.temp_min !== null && d.temp_max !== null);
+  const avgMin = daysWithTemp.length > 0 ? daysWithTemp.reduce((acc, d) => acc + (d.temp_min as number), 0) / daysWithTemp.length : 0;
+  const avgMax = daysWithTemp.length > 0 ? daysWithTemp.reduce((acc, d) => acc + (d.temp_max as number), 0) / daysWithTemp.length : 0;
+
+  const daysWithPrecip = dailyData.filter(d => d.precipitation !== null);
+  const totalRain = daysWithPrecip.reduce((acc, d) => acc + (d.precipitation as number), 0);
+
   const totalSunshineSeconds = dailyData.reduce((acc, d) => acc + (d.sunshine_duration_seconds || 0), 0);
   const totalSunshineHours = totalSunshineSeconds / 3600;
   
@@ -64,18 +68,20 @@ export default async function MonthPage({ params }: PageProps) {
   const totalEstimatedMonthlySunshine = formatSunshineDuration(totalEstimatedMonthlyMinutes);
   
   // Record (abs min/max) for the top cards
-  const absMin = Math.min(...dailyData.map(d => d.temp_min));
-  const absMax = Math.max(...dailyData.map(d => d.temp_max));
+  const absMin = daysWithTemp.length > 0 ? Math.min(...daysWithTemp.map(d => d.temp_min as number)) : 0;
+  const absMax = daysWithTemp.length > 0 ? Math.max(...daysWithTemp.map(d => d.temp_max as number)) : 0;
   
   // Maxi du mois
-  const maxDailyMinTemp = Math.max(...dailyData.map(d => d.temp_min)); // TNX
-  const maxDailyMaxTemp = Math.max(...dailyData.map(d => d.temp_max)); // TXX
-  const maxDailyRain = Math.max(...dailyData.map(d => d.precipitation));
-  const maxDailyWind = Math.max(...dailyData.map(d => d.wind_speed_max));
+  const maxDailyMinTemp = daysWithTemp.length > 0 ? Math.max(...daysWithTemp.map(d => d.temp_min as number)) : 0; // TNX
+  const maxDailyMaxTemp = daysWithTemp.length > 0 ? Math.max(...daysWithTemp.map(d => d.temp_max as number)) : 0; // TXX
+  const maxDailyRain = daysWithPrecip.length > 0 ? Math.max(...daysWithPrecip.map(d => d.precipitation as number)) : 0;
+  
+  const daysWithWind = dailyData.filter(d => d.wind_speed_max !== null);
+  const maxDailyWind = daysWithWind.length > 0 ? Math.max(...daysWithWind.map(d => d.wind_speed_max as number)) : 0;
   
   // Mini du mois
-  const minDailyMinTemp = Math.min(...dailyData.map(d => d.temp_min)); // TNN
-  const minDailyMaxTemp = Math.min(...dailyData.map(d => d.temp_max)); // TXN
+  const minDailyMinTemp = absMin; // TNN
+  const minDailyMaxTemp = daysWithTemp.length > 0 ? Math.min(...daysWithTemp.map(d => d.temp_max as number)) : 0; // TXN
   
   // Calculate official total sunshine in hours and minutes
   const totalOfficialHours = Math.floor(totalSunshineHours);
@@ -222,19 +228,19 @@ export default async function MonthPage({ params }: PageProps) {
                           {format(parseISO(day.date), "d EEE", { locale: fr })}
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: minColor, color: getTextColor(minColor) }}>
-                          {day.temp_min.toFixed(1)}
+                          {day.temp_min !== null ? day.temp_min.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: maxColor, color: getTextColor(maxColor) }}>
-                          {day.temp_max.toFixed(1)}
+                          {day.temp_max !== null ? day.temp_max.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: meanColor, color: getTextColor(meanColor) }}>
-                          {day.temp_mean.toFixed(1)}
+                          {day.temp_mean !== null ? day.temp_mean.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: rainColor, color: getTextColor(rainColor) }}>
-                          {day.precipitation.toFixed(1)}
+                          {day.precipitation !== null ? day.precipitation.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: sunColor, color: getTextColor(sunColor) }}>
-                          {sunHours.toFixed(1)}
+                          {sunHours !== null ? sunHours.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border bg-white dark:bg-background w-[100px] whitespace-nowrap">
                           {day.estimated_daily_sunshine || "Données indisponibles"}
@@ -246,13 +252,13 @@ export default async function MonthPage({ params }: PageProps) {
                           {day.sunshine_consistency || "Données indisponibles"}
                         </TableCell>
                         <TableCell className="border bg-white dark:bg-background w-[80px] whitespace-nowrap">
-                          {day.wind_speed_max.toFixed(1)}
+                          {day.wind_speed_max !== null ? day.wind_speed_max.toFixed(1) : '-'}
                         </TableCell>
                         <TableCell className="border bg-white dark:bg-background w-[100px] whitespace-nowrap">
-                          {format(parseISO(day.sunrise), "HH:mm", { locale: fr })}
+                          {day.sunrise ? format(parseISO(day.sunrise), "HH:mm", { locale: fr }) : "-"}
                         </TableCell>
                         <TableCell className="border bg-white dark:bg-background w-[100px] whitespace-nowrap">
-                          {format(parseISO(day.sunset), "HH:mm", { locale: fr })}
+                          {day.sunset ? format(parseISO(day.sunset), "HH:mm", { locale: fr }) : "-"}
                         </TableCell>
                         {/* Événements column with internal horizontal scroll */}
                         <TableCell className="border bg-white dark:bg-background w-[450px] p-0">
