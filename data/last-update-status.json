@@ -1,14 +1,13 @@
 {
   "success": true,
-  "date": "2026-07-31T10:33:13.354Z",
-  "message": "Données mises à jour avec succès (2026-06-30 à 2026-07-30), 31 jours mis à jour",
-  "initialStartDate": "2026-06-30",
-  "initialEndDate": "2026-07-30",
-  "finalStartDate": "2026-06-30",
-  "finalEndDate": "2026-07-30",
+  "date": "2026-08-01T09:53:31.881Z",
+  "message": "Données mises à jour avec succès (2026-07-01 à 2026-07-31), 31 jours mis à jour",
+  "initialStartDate": "2026-07-01",
+  "initialEndDate": "2026-07-31",
+  "finalStartDate": "2026-07-01",
+  "finalEndDate": "2026-07-31",
   "attempts": 0,
   "daysUpdated": [
-    "2026-06-30",
     "2026-07-01",
     "2026-07-02",
     "2026-07-03",
@@ -38,12 +37,13 @@
     "2026-07-27",
     "2026-07-28",
     "2026-07-29",
-    "2026-07-30"
+    "2026-07-30",
+    "2026-07-31"
   ],
   "missingDays": [],
   "attemptDetails": [
     {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "success": true
     }
   ]
