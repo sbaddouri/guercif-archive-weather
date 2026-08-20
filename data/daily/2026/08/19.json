@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-19",
+  "weather_code": 53,
+  "temp_max": 37.5,
+  "temp_min": 24.8,
+  "temp_mean": 30.6,
+  "precipitation": 1.5,
+  "sunshine": 33741.45,
+  "wind_speed_max": 26.6,
+  "sunrise": "2026-08-19T06:37",
+  "sunset": "2026-08-19T19:56",
+  "sunshine_duration_seconds": 33741.45,
+  "sunshine_duration_minutes": 562,
+  "estimated_daily_sunshine_minutes": 325,
+  "estimated_daily_sunshine": "5 h 25 min",
+  "sunshine_difference_minutes": 237,
+  "sunshine_consistency": "Faible"
+}
