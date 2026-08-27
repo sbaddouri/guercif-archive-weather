@@ -1,0 +1,18 @@
+{
+  "date": "2024-06-03",
+  "weather_code": 61,
+  "temp_max": 29.7,
+  "temp_min": 16.7,
+  "temp_mean": 21.4,
+  "precipitation": 3.2,
+  "sunshine": 32050.52,
+  "wind_speed_max": 24.2,
+  "sunrise": "2024-06-03T06:02",
+  "sunset": "2024-06-03T20:21",
+  "sunshine_duration_seconds": 32050.52,
+  "sunshine_duration_minutes": 534,
+  "estimated_daily_sunshine_minutes": 115,
+  "estimated_daily_sunshine": "1 h 55 min",
+  "sunshine_difference_minutes": 419,
+  "sunshine_consistency": "Faible"
+}

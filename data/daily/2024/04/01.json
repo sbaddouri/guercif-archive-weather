@@ -1,0 +1,18 @@
+{
+  "date": "2024-04-01",
+  "weather_code": 53,
+  "temp_max": 18.5,
+  "temp_min": 11.2,
+  "temp_mean": 13.8,
+  "precipitation": 1.7,
+  "sunshine": 24831.02,
+  "wind_speed_max": 22.6,
+  "sunrise": "2024-04-01T07:00",
+  "sunset": "2024-04-01T19:34",
+  "sunshine_duration_seconds": 24831.02,
+  "sunshine_duration_minutes": 414,
+  "estimated_daily_sunshine_minutes": 285,
+  "estimated_daily_sunshine": "4 h 45 min",
+  "sunshine_difference_minutes": 129,
+  "sunshine_consistency": "Faible"
+}

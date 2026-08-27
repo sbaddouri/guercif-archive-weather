@@ -1,0 +1,18 @@
+{
+  "date": "2024-11-13",
+  "weather_code": 63,
+  "temp_max": 22.4,
+  "temp_min": 8.9,
+  "temp_mean": 14.8,
+  "precipitation": 2.7,
+  "sunshine": 36000,
+  "wind_speed_max": 15.7,
+  "sunrise": "2024-11-13T07:44",
+  "sunset": "2024-11-13T18:10",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 240,
+  "sunshine_consistency": "Faible"
+}

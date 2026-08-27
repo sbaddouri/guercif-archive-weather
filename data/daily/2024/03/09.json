@@ -1,0 +1,18 @@
+{
+  "date": "2024-03-09",
+  "weather_code": 61,
+  "temp_max": 21.2,
+  "temp_min": 8.7,
+  "temp_mean": 13.7,
+  "precipitation": 3.9,
+  "sunshine": 28648.21,
+  "wind_speed_max": 38.1,
+  "sunrise": "2024-03-09T07:31",
+  "sunset": "2024-03-09T19:16",
+  "sunshine_duration_seconds": 28648.21,
+  "sunshine_duration_minutes": 477,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 387,
+  "sunshine_consistency": "Faible"
+}

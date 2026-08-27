@@ -1,0 +1,18 @@
+{
+  "date": "2024-07-08",
+  "weather_code": 0,
+  "temp_max": 33.6,
+  "temp_min": 19.2,
+  "temp_mean": 25.7,
+  "precipitation": 0,
+  "sunshine": 46945.32,
+  "wind_speed_max": 31.3,
+  "sunrise": "2024-07-08T06:09",
+  "sunset": "2024-07-08T20:28",
+  "sunshine_duration_seconds": 46945.32,
+  "sunshine_duration_minutes": 782,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 58,
+  "sunshine_consistency": "Faible"
+}

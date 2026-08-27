@@ -1,0 +1,18 @@
+{
+  "date": "2024-05-19",
+  "weather_code": 55,
+  "temp_max": 22.4,
+  "temp_min": 14,
+  "temp_mean": 17.9,
+  "precipitation": 2.9,
+  "sunshine": 33989.56,
+  "wind_speed_max": 28.2,
+  "sunrise": "2024-05-19T06:08",
+  "sunset": "2024-05-19T20:11",
+  "sunshine_duration_seconds": 33989.56,
+  "sunshine_duration_minutes": 566,
+  "estimated_daily_sunshine_minutes": 355,
+  "estimated_daily_sunshine": "5 h 55 min",
+  "sunshine_difference_minutes": 211,
+  "sunshine_consistency": "Faible"
+}

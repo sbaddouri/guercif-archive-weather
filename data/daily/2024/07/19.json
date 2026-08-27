@@ -1,0 +1,18 @@
+{
+  "date": "2024-07-19",
+  "weather_code": 51,
+  "temp_max": 40.6,
+  "temp_min": 25.2,
+  "temp_mean": 32.9,
+  "precipitation": 0.1,
+  "sunshine": 44692.14,
+  "wind_speed_max": 22.5,
+  "sunrise": "2024-07-19T06:15",
+  "sunset": "2024-07-19T20:23",
+  "sunshine_duration_seconds": 44692.14,
+  "sunshine_duration_minutes": 745,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 115,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2024-04-28",
+  "weather_code": 55,
+  "temp_max": 15.6,
+  "temp_min": 11.9,
+  "temp_mean": 13.7,
+  "precipitation": 4,
+  "sunshine": 166.13,
+  "wind_speed_max": 21.6,
+  "sunrise": "2024-04-28T06:26",
+  "sunset": "2024-04-28T19:55",
+  "sunshine_duration_seconds": 166.13,
+  "sunshine_duration_minutes": 3,
+  "estimated_daily_sunshine_minutes": 100,
+  "estimated_daily_sunshine": "1 h 40 min",
+  "sunshine_difference_minutes": 97,
+  "sunshine_consistency": "Faible"
+}

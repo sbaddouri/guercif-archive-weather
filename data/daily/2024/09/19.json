@@ -1,0 +1,18 @@
+{
+  "date": "2024-09-19",
+  "weather_code": 63,
+  "temp_max": 25.5,
+  "temp_min": 18.3,
+  "temp_mean": 21.8,
+  "precipitation": 7.7,
+  "sunshine": 32400,
+  "wind_speed_max": 14.5,
+  "sunrise": "2024-09-19T06:59",
+  "sunset": "2024-09-19T19:13",
+  "sunshine_duration_seconds": 32400,
+  "sunshine_duration_minutes": 540,
+  "estimated_daily_sunshine_minutes": 445,
+  "estimated_daily_sunshine": "7 h 25 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

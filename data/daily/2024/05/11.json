@@ -1,0 +1,18 @@
+{
+  "date": "2024-05-11",
+  "weather_code": 51,
+  "temp_max": 31.6,
+  "temp_min": 16.7,
+  "temp_mean": 23.1,
+  "precipitation": 0.8,
+  "sunshine": 24682.9,
+  "wind_speed_max": 17.6,
+  "sunrise": "2024-05-11T06:14",
+  "sunset": "2024-05-11T20:05",
+  "sunshine_duration_seconds": 24682.9,
+  "sunshine_duration_minutes": 411,
+  "estimated_daily_sunshine_minutes": 30,
+  "estimated_daily_sunshine": "0 h 30 min",
+  "sunshine_difference_minutes": 381,
+  "sunshine_consistency": "Faible"
+}

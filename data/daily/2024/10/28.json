@@ -1,0 +1,18 @@
+{
+  "date": "2024-10-28",
+  "weather_code": 63,
+  "temp_max": 13.9,
+  "temp_min": 9.1,
+  "temp_mean": 11.3,
+  "precipitation": 6.2,
+  "sunshine": 4673.66,
+  "wind_speed_max": 16.7,
+  "sunrise": "2024-10-28T07:30",
+  "sunset": "2024-10-28T18:24",
+  "sunshine_duration_seconds": 4673.66,
+  "sunshine_duration_minutes": 78,
+  "estimated_daily_sunshine_minutes": 50,
+  "estimated_daily_sunshine": "0 h 50 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

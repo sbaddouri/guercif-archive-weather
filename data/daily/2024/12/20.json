@@ -1,0 +1,18 @@
+{
+  "date": "2024-12-20",
+  "weather_code": 51,
+  "temp_max": 19.2,
+  "temp_min": 10.5,
+  "temp_mean": 13.9,
+  "precipitation": 0.1,
+  "sunshine": 28215.25,
+  "wind_speed_max": 24.3,
+  "sunrise": "2024-12-20T08:15",
+  "sunset": "2024-12-20T18:07",
+  "sunshine_duration_seconds": 28215.25,
+  "sunshine_duration_minutes": 470,
+  "estimated_daily_sunshine_minutes": 285,
+  "estimated_daily_sunshine": "4 h 45 min",
+  "sunshine_difference_minutes": 185,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2024-09-22",
+  "weather_code": 53,
+  "temp_max": 29.1,
+  "temp_min": 19.7,
+  "temp_mean": 23.4,
+  "precipitation": 2,
+  "sunshine": 35066.2,
+  "wind_speed_max": 24.7,
+  "sunrise": "2024-09-22T07:01",
+  "sunset": "2024-09-22T19:09",
+  "sunshine_duration_seconds": 35066.2,
+  "sunshine_duration_minutes": 584,
+  "estimated_daily_sunshine_minutes": 265,
+  "estimated_daily_sunshine": "4 h 25 min",
+  "sunshine_difference_minutes": 319,
+  "sunshine_consistency": "Faible"
+}
