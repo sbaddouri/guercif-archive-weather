@@ -1,0 +1,18 @@
+{
+  "date": "2023-09-16",
+  "weather_code": 53,
+  "temp_max": 34.1,
+  "temp_min": 19.7,
+  "temp_mean": 25.2,
+  "precipitation": 0.6,
+  "sunshine": 42617.79,
+  "wind_speed_max": 26.8,
+  "sunrise": "2023-09-16T06:57",
+  "sunset": "2023-09-16T19:19",
+  "sunshine_duration_seconds": 42617.79,
+  "sunshine_duration_minutes": 710,
+  "estimated_daily_sunshine_minutes": 235,
+  "estimated_daily_sunshine": "3 h 55 min",
+  "sunshine_difference_minutes": 475,
+  "sunshine_consistency": "Faible"
+}

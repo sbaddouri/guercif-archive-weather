@@ -1,0 +1,18 @@
+{
+  "date": "2023-01-30",
+  "weather_code": 2,
+  "temp_max": 12.3,
+  "temp_min": 0.2,
+  "temp_mean": 6,
+  "precipitation": 0,
+  "sunshine": 36000.18,
+  "wind_speed_max": 21.2,
+  "sunrise": "2023-01-30T08:12",
+  "sunset": "2023-01-30T18:41",
+  "sunshine_duration_seconds": 36000.18,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 60,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2023-10-28",
+  "weather_code": 3,
+  "temp_max": 20.9,
+  "temp_min": 15,
+  "temp_mean": 17.8,
+  "precipitation": 0,
+  "sunshine": 15521.59,
+  "wind_speed_max": 11.4,
+  "sunrise": "2023-10-28T07:29",
+  "sunset": "2023-10-28T18:24",
+  "sunshine_duration_seconds": 15521.59,
+  "sunshine_duration_minutes": 259,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 79,
+  "sunshine_consistency": "Faible"
+}

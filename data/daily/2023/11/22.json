@@ -1,0 +1,18 @@
+{
+  "date": "2023-11-22",
+  "weather_code": 51,
+  "temp_max": 18.6,
+  "temp_min": 12.6,
+  "temp_mean": 15,
+  "precipitation": 0.1,
+  "sunshine": 36000,
+  "wind_speed_max": 28.3,
+  "sunrise": "2023-11-22T07:52",
+  "sunset": "2023-11-22T18:06",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

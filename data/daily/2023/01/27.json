@@ -1,0 +1,18 @@
+{
+  "date": "2023-01-27",
+  "weather_code": 71,
+  "temp_max": 10.6,
+  "temp_min": 3,
+  "temp_mean": 6.4,
+  "precipitation": 4.9,
+  "sunshine": 33368.11,
+  "wind_speed_max": 28.9,
+  "sunrise": "2023-01-27T08:14",
+  "sunset": "2023-01-27T18:38",
+  "sunshine_duration_seconds": 33368.11,
+  "sunshine_duration_minutes": 556,
+  "estimated_daily_sunshine_minutes": 305,
+  "estimated_daily_sunshine": "5 h 05 min",
+  "sunshine_difference_minutes": 251,
+  "sunshine_consistency": "Faible"
+}

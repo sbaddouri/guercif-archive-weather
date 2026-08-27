@@ -1,0 +1,18 @@
+{
+  "date": "2023-10-26",
+  "weather_code": 2,
+  "temp_max": 25.9,
+  "temp_min": 13,
+  "temp_mean": 18.8,
+  "precipitation": 0,
+  "sunshine": 36022.29,
+  "wind_speed_max": 25.1,
+  "sunrise": "2023-10-26T07:27",
+  "sunset": "2023-10-26T18:26",
+  "sunshine_duration_seconds": 36022.29,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

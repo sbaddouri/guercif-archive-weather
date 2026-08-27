@@ -1,0 +1,18 @@
+{
+  "date": "2023-04-30",
+  "weather_code": 53,
+  "temp_max": 29.5,
+  "temp_min": 17.8,
+  "temp_mean": 23.4,
+  "precipitation": 0.8,
+  "sunshine": 28340.15,
+  "wind_speed_max": 18,
+  "sunrise": "2023-04-30T06:25",
+  "sunset": "2023-04-30T19:56",
+  "sunshine_duration_seconds": 28340.15,
+  "sunshine_duration_minutes": 472,
+  "estimated_daily_sunshine_minutes": 40,
+  "estimated_daily_sunshine": "0 h 40 min",
+  "sunshine_difference_minutes": 432,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2023-09-04",
+  "weather_code": 51,
+  "temp_max": 26.6,
+  "temp_min": 17.7,
+  "temp_mean": 21.3,
+  "precipitation": 0.1,
+  "sunshine": 36747.43,
+  "wind_speed_max": 21.6,
+  "sunrise": "2023-09-04T06:48",
+  "sunset": "2023-09-04T19:35",
+  "sunshine_duration_seconds": 36747.43,
+  "sunshine_duration_minutes": 612,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 117,
+  "sunshine_consistency": "Faible"
+}

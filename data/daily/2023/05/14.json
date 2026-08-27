@@ -1,0 +1,18 @@
+{
+  "date": "2023-05-14",
+  "weather_code": 2,
+  "temp_max": 24.2,
+  "temp_min": 10.2,
+  "temp_mean": 17.8,
+  "precipitation": 0,
+  "sunshine": 43544.38,
+  "wind_speed_max": 23.5,
+  "sunrise": "2023-05-14T06:12",
+  "sunset": "2023-05-14T20:07",
+  "sunshine_duration_seconds": 43544.38,
+  "sunshine_duration_minutes": 726,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 21,
+  "sunshine_consistency": "Moyen"
+}

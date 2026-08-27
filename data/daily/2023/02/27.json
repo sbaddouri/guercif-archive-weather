@@ -1,0 +1,18 @@
+{
+  "date": "2023-02-27",
+  "weather_code": 51,
+  "temp_max": 15.5,
+  "temp_min": 7.4,
+  "temp_mean": 11.1,
+  "precipitation": 0.1,
+  "sunshine": 39489.91,
+  "wind_speed_max": 39.2,
+  "sunrise": "2023-02-27T07:45",
+  "sunset": "2023-02-27T19:07",
+  "sunshine_duration_seconds": 39489.91,
+  "sunshine_duration_minutes": 658,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 298,
+  "sunshine_consistency": "Faible"
+}

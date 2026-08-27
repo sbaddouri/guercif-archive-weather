@@ -1,0 +1,18 @@
+{
+  "date": "2023-06-06",
+  "weather_code": 51,
+  "temp_max": 30.1,
+  "temp_min": 16.7,
+  "temp_mean": 21.7,
+  "precipitation": 0.7,
+  "sunshine": 18511.92,
+  "wind_speed_max": 23.2,
+  "sunrise": "2023-06-06T06:01",
+  "sunset": "2023-06-06T20:22",
+  "sunshine_duration_seconds": 18511.92,
+  "sunshine_duration_minutes": 309,
+  "estimated_daily_sunshine_minutes": 30,
+  "estimated_daily_sunshine": "0 h 30 min",
+  "sunshine_difference_minutes": 279,
+  "sunshine_consistency": "Faible"
+}

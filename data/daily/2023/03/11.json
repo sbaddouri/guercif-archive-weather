@@ -1,0 +1,18 @@
+{
+  "date": "2023-03-11",
+  "weather_code": 1,
+  "temp_max": 27.3,
+  "temp_min": 11.6,
+  "temp_mean": 18.8,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 32.7,
+  "sunrise": "2023-03-11T07:29",
+  "sunset": "2023-03-11T19:17",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

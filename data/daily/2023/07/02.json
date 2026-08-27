@@ -1,0 +1,18 @@
+{
+  "date": "2023-07-02",
+  "weather_code": 1,
+  "temp_max": 36.3,
+  "temp_min": 20.1,
+  "temp_mean": 27.2,
+  "precipitation": 0,
+  "sunshine": 46852.65,
+  "wind_speed_max": 29.3,
+  "sunrise": "2023-07-02T06:05",
+  "sunset": "2023-07-02T20:29",
+  "sunshine_duration_seconds": 46852.65,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 44,
+  "sunshine_consistency": "Faible"
+}
