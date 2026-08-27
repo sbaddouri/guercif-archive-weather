@@ -1,0 +1,18 @@
+{
+  "date": "2022-01-26",
+  "weather_code": 61,
+  "temp_max": 13.7,
+  "temp_min": 6.2,
+  "temp_mean": 9.2,
+  "precipitation": 2,
+  "sunshine": 25154.97,
+  "wind_speed_max": 27.9,
+  "sunrise": "2022-01-26T08:14",
+  "sunset": "2022-01-26T18:37",
+  "sunshine_duration_seconds": 25154.97,
+  "sunshine_duration_minutes": 419,
+  "estimated_daily_sunshine_minutes": 30,
+  "estimated_daily_sunshine": "0 h 30 min",
+  "sunshine_difference_minutes": 389,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2022-10-10",
+  "weather_code": 61,
+  "temp_max": 28.2,
+  "temp_min": 18,
+  "temp_mean": 22.2,
+  "precipitation": 1.8,
+  "sunshine": 37101.33,
+  "wind_speed_max": 18.4,
+  "sunrise": "2022-10-10T07:14",
+  "sunset": "2022-10-10T18:45",
+  "sunshine_duration_seconds": 37101.33,
+  "sunshine_duration_minutes": 618,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 258,
+  "sunshine_consistency": "Faible"
+}

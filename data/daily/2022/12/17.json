@@ -1,0 +1,18 @@
+{
+  "date": "2022-12-17",
+  "weather_code": 51,
+  "temp_max": 17.3,
+  "temp_min": 8.4,
+  "temp_mean": 12.8,
+  "precipitation": 0.1,
+  "sunshine": 34937.34,
+  "wind_speed_max": 13.5,
+  "sunrise": "2022-12-17T08:13",
+  "sunset": "2022-12-17T18:06",
+  "sunshine_duration_seconds": 34937.34,
+  "sunshine_duration_minutes": 582,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

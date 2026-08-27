@@ -1,0 +1,18 @@
+{
+  "date": "2022-09-08",
+  "weather_code": 3,
+  "temp_max": 35.2,
+  "temp_min": 20.3,
+  "temp_mean": 27.6,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 26,
+  "sunrise": "2022-09-08T06:51",
+  "sunset": "2022-09-08T19:30",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

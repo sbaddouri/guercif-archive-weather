@@ -1,0 +1,18 @@
+{
+  "date": "2022-03-06",
+  "weather_code": 53,
+  "temp_max": 14.2,
+  "temp_min": 5.4,
+  "temp_mean": 9.3,
+  "precipitation": 2,
+  "sunshine": 37908.33,
+  "wind_speed_max": 22.9,
+  "sunrise": "2022-03-06T07:36",
+  "sunset": "2022-03-06T19:13",
+  "sunshine_duration_seconds": 37908.33,
+  "sunshine_duration_minutes": 632,
+  "estimated_daily_sunshine_minutes": 415,
+  "estimated_daily_sunshine": "6 h 55 min",
+  "sunshine_difference_minutes": 217,
+  "sunshine_consistency": "Faible"
+}

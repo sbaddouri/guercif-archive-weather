@@ -1,0 +1,18 @@
+{
+  "date": "2022-04-05",
+  "weather_code": 61,
+  "temp_max": 16.6,
+  "temp_min": 8.9,
+  "temp_mean": 12,
+  "precipitation": 5.5,
+  "sunshine": 20568.24,
+  "wind_speed_max": 21.2,
+  "sunrise": "2022-04-05T06:55",
+  "sunset": "2022-04-05T19:37",
+  "sunshine_duration_seconds": 20568.24,
+  "sunshine_duration_minutes": 343,
+  "estimated_daily_sunshine_minutes": 280,
+  "estimated_daily_sunshine": "4 h 40 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

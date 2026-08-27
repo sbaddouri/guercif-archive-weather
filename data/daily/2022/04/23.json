@@ -1,0 +1,18 @@
+{
+  "date": "2022-04-23",
+  "weather_code": 53,
+  "temp_max": 19.1,
+  "temp_min": 13.8,
+  "temp_mean": 16,
+  "precipitation": 0.6,
+  "sunshine": 29926.96,
+  "wind_speed_max": 31.1,
+  "sunrise": "2022-04-23T06:33",
+  "sunset": "2022-04-23T19:51",
+  "sunshine_duration_seconds": 29926.96,
+  "sunshine_duration_minutes": 499,
+  "estimated_daily_sunshine_minutes": 10,
+  "estimated_daily_sunshine": "0 h 10 min",
+  "sunshine_difference_minutes": 489,
+  "sunshine_consistency": "Faible"
+}

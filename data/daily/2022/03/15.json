@@ -1,0 +1,18 @@
+{
+  "date": "2022-03-15",
+  "weather_code": 51,
+  "temp_max": 14.9,
+  "temp_min": 8.3,
+  "temp_mean": 11.1,
+  "precipitation": 0.5,
+  "sunshine": 907.9,
+  "wind_speed_max": 25.7,
+  "sunrise": "2022-03-15T07:24",
+  "sunset": "2022-03-15T19:21",
+  "sunshine_duration_seconds": 907.9,
+  "sunshine_duration_minutes": 15,
+  "estimated_daily_sunshine_minutes": 30,
+  "estimated_daily_sunshine": "0 h 30 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

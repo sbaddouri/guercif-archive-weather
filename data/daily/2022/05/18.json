@@ -1,0 +1,18 @@
+{
+  "date": "2022-05-18",
+  "weather_code": 1,
+  "temp_max": 39.2,
+  "temp_min": 16.9,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 45709.67,
+  "wind_speed_max": 26.4,
+  "sunrise": "2022-05-18T06:09",
+  "sunset": "2022-05-18T20:10",
+  "sunshine_duration_seconds": 45709.67,
+  "sunshine_duration_minutes": 762,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

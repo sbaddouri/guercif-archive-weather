@@ -1,0 +1,18 @@
+{
+  "date": "2022-03-13",
+  "weather_code": 55,
+  "temp_max": 21.1,
+  "temp_min": 11.5,
+  "temp_mean": 15,
+  "precipitation": 2.3,
+  "sunshine": 25033,
+  "wind_speed_max": 21.4,
+  "sunrise": "2022-03-13T07:26",
+  "sunset": "2022-03-13T19:19",
+  "sunshine_duration_seconds": 25033,
+  "sunshine_duration_minutes": 417,
+  "estimated_daily_sunshine_minutes": 25,
+  "estimated_daily_sunshine": "0 h 25 min",
+  "sunshine_difference_minutes": 392,
+  "sunshine_consistency": "Faible"
+}

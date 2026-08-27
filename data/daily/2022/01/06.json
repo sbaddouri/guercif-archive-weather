@@ -1,0 +1,18 @@
+{
+  "date": "2022-01-06",
+  "weather_code": 63,
+  "temp_max": 14,
+  "temp_min": 8.2,
+  "temp_mean": 10.5,
+  "precipitation": 7.8,
+  "sunshine": 28800,
+  "wind_speed_max": 32,
+  "sunrise": "2022-01-06T08:20",
+  "sunset": "2022-01-06T18:18",
+  "sunshine_duration_seconds": 28800,
+  "sunshine_duration_minutes": 480,
+  "estimated_daily_sunshine_minutes": 385,
+  "estimated_daily_sunshine": "6 h 25 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

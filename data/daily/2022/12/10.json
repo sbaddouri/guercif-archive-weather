@@ -1,0 +1,18 @@
+{
+  "date": "2022-12-10",
+  "weather_code": 51,
+  "temp_max": 18.6,
+  "temp_min": 14.6,
+  "temp_mean": 15.9,
+  "precipitation": 0.5,
+  "sunshine": 29731.32,
+  "wind_speed_max": 28.9,
+  "sunrise": "2022-12-10T08:08",
+  "sunset": "2022-12-10T18:04",
+  "sunshine_duration_seconds": 29731.32,
+  "sunshine_duration_minutes": 496,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 436,
+  "sunshine_consistency": "Faible"
+}

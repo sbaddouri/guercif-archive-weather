@@ -1,0 +1,18 @@
+{
+  "date": "2022-09-25",
+  "weather_code": 61,
+  "temp_max": 27.8,
+  "temp_min": 19.7,
+  "temp_mean": 22.7,
+  "precipitation": 3.1,
+  "sunshine": 17879.47,
+  "wind_speed_max": 20.3,
+  "sunrise": "2022-09-25T07:03",
+  "sunset": "2022-09-25T19:06",
+  "sunshine_duration_seconds": 17879.47,
+  "sunshine_duration_minutes": 298,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 223,
+  "sunshine_consistency": "Faible"
+}

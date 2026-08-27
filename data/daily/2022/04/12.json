@@ -1,0 +1,18 @@
+{
+  "date": "2022-04-12",
+  "weather_code": 63,
+  "temp_max": 18.7,
+  "temp_min": 12.8,
+  "temp_mean": 15.6,
+  "precipitation": 20.5,
+  "sunshine": 21600,
+  "wind_speed_max": 26.5,
+  "sunrise": "2022-04-12T06:46",
+  "sunset": "2022-04-12T19:42",
+  "sunshine_duration_seconds": 21600,
+  "sunshine_duration_minutes": 360,
+  "estimated_daily_sunshine_minutes": 305,
+  "estimated_daily_sunshine": "5 h 05 min",
+  "sunshine_difference_minutes": 55,
+  "sunshine_consistency": "Faible"
+}

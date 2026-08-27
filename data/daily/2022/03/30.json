@@ -1,0 +1,18 @@
+{
+  "date": "2022-03-30",
+  "weather_code": 51,
+  "temp_max": 17.1,
+  "temp_min": 10.9,
+  "temp_mean": 13.5,
+  "precipitation": 0.6,
+  "sunshine": 40538.54,
+  "wind_speed_max": 38.9,
+  "sunrise": "2022-03-30T07:03",
+  "sunset": "2022-03-30T19:32",
+  "sunshine_duration_seconds": 40538.54,
+  "sunshine_duration_minutes": 676,
+  "estimated_daily_sunshine_minutes": 420,
+  "estimated_daily_sunshine": "7 h 00 min",
+  "sunshine_difference_minutes": 256,
+  "sunshine_consistency": "Faible"
+}

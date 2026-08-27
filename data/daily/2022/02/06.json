@@ -1,0 +1,18 @@
+{
+  "date": "2022-02-06",
+  "weather_code": 51,
+  "temp_max": 17.4,
+  "temp_min": 8.2,
+  "temp_mean": 11.8,
+  "precipitation": 0.2,
+  "sunshine": 21600,
+  "wind_speed_max": 25.5,
+  "sunrise": "2022-02-06T08:06",
+  "sunset": "2022-02-06T18:48",
+  "sunshine_duration_seconds": 21600,
+  "sunshine_duration_minutes": 360,
+  "estimated_daily_sunshine_minutes": 135,
+  "estimated_daily_sunshine": "2 h 15 min",
+  "sunshine_difference_minutes": 225,
+  "sunshine_consistency": "Faible"
+}

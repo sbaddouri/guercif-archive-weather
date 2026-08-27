@@ -1,0 +1,18 @@
+{
+  "date": "2022-05-12",
+  "weather_code": 61,
+  "temp_max": 30.8,
+  "temp_min": 14.5,
+  "temp_mean": 22.5,
+  "precipitation": 3.9,
+  "sunshine": 37216.85,
+  "wind_speed_max": 29.1,
+  "sunrise": "2022-05-12T06:14",
+  "sunset": "2022-05-12T20:06",
+  "sunshine_duration_seconds": 37216.85,
+  "sunshine_duration_minutes": 620,
+  "estimated_daily_sunshine_minutes": 40,
+  "estimated_daily_sunshine": "0 h 40 min",
+  "sunshine_difference_minutes": 580,
+  "sunshine_consistency": "Faible"
+}

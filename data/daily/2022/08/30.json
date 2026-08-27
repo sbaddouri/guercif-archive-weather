@@ -1,0 +1,18 @@
+{
+  "date": "2022-08-30",
+  "weather_code": 53,
+  "temp_max": 39.5,
+  "temp_min": 25.3,
+  "temp_mean": 31.3,
+  "precipitation": 0.7,
+  "sunshine": 42620.17,
+  "wind_speed_max": 23.5,
+  "sunrise": "2022-08-30T06:45",
+  "sunset": "2022-08-30T19:42",
+  "sunshine_duration_seconds": 42620.17,
+  "sunshine_duration_minutes": 710,
+  "estimated_daily_sunshine_minutes": 400,
+  "estimated_daily_sunshine": "6 h 40 min",
+  "sunshine_difference_minutes": 310,
+  "sunshine_consistency": "Faible"
+}

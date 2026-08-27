@@ -1,0 +1,18 @@
+{
+  "date": "2022-05-02",
+  "weather_code": 1,
+  "temp_max": 24.2,
+  "temp_min": 13,
+  "temp_mean": 18.4,
+  "precipitation": 0,
+  "sunshine": 44476.03,
+  "wind_speed_max": 32.7,
+  "sunrise": "2022-05-02T06:23",
+  "sunset": "2022-05-02T19:58",
+  "sunshine_duration_seconds": 44476.03,
+  "sunshine_duration_minutes": 741,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

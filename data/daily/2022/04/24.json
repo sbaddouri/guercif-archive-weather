@@ -1,0 +1,18 @@
+{
+  "date": "2022-04-24",
+  "weather_code": 3,
+  "temp_max": 22.5,
+  "temp_min": 8.1,
+  "temp_mean": 15.2,
+  "precipitation": 0,
+  "sunshine": 42762.37,
+  "wind_speed_max": 29.8,
+  "sunrise": "2022-04-24T06:31",
+  "sunset": "2022-04-24T19:52",
+  "sunshine_duration_seconds": 42762.37,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 653,
+  "sunshine_consistency": "Faible"
+}

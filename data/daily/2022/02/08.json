@@ -1,0 +1,18 @@
+{
+  "date": "2022-02-08",
+  "weather_code": 3,
+  "temp_max": 17.5,
+  "temp_min": 8,
+  "temp_mean": 11.2,
+  "precipitation": 0,
+  "sunshine": 24373.48,
+  "wind_speed_max": 22.5,
+  "sunrise": "2022-02-08T08:05",
+  "sunset": "2022-02-08T18:50",
+  "sunshine_duration_seconds": 24373.48,
+  "sunshine_duration_minutes": 406,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 91,
+  "sunshine_consistency": "Faible"
+}

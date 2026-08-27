@@ -1,0 +1,18 @@
+{
+  "date": "2022-03-02",
+  "weather_code": 1,
+  "temp_max": 19.2,
+  "temp_min": 3.2,
+  "temp_mean": 10.5,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 10.5,
+  "sunrise": "2022-03-02T07:41",
+  "sunset": "2022-03-02T19:10",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

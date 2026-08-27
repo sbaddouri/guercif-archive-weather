@@ -1,0 +1,18 @@
+{
+  "date": "2022-02-24",
+  "weather_code": 51,
+  "temp_max": 24,
+  "temp_min": 9,
+  "temp_mean": 15.4,
+  "precipitation": 0.3,
+  "sunshine": 32400,
+  "wind_speed_max": 27.7,
+  "sunrise": "2022-02-24T07:48",
+  "sunset": "2022-02-24T19:05",
+  "sunshine_duration_seconds": 32400,
+  "sunshine_duration_minutes": 540,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 435,
+  "sunshine_consistency": "Faible"
+}

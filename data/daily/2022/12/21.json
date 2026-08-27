@@ -1,0 +1,18 @@
+{
+  "date": "2022-12-21",
+  "weather_code": 3,
+  "temp_max": 20.1,
+  "temp_min": 7.6,
+  "temp_mean": 12.7,
+  "precipitation": 0,
+  "sunshine": 34798.33,
+  "wind_speed_max": 19.9,
+  "sunrise": "2022-12-21T08:15",
+  "sunset": "2022-12-21T18:07",
+  "sunshine_duration_seconds": 34798.33,
+  "sunshine_duration_minutes": 580,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 220,
+  "sunshine_consistency": "Faible"
+}

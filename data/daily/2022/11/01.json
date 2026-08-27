@@ -1,0 +1,18 @@
+{
+  "date": "2022-11-01",
+  "weather_code": 3,
+  "temp_max": 28.8,
+  "temp_min": 17.3,
+  "temp_mean": 22.7,
+  "precipitation": 0,
+  "sunshine": 25469.66,
+  "wind_speed_max": 26,
+  "sunrise": "2022-11-01T07:33",
+  "sunset": "2022-11-01T18:20",
+  "sunshine_duration_seconds": 25469.66,
+  "sunshine_duration_minutes": 424,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 334,
+  "sunshine_consistency": "Faible"
+}

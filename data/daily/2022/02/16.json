@@ -1,0 +1,18 @@
+{
+  "date": "2022-02-16",
+  "weather_code": 1,
+  "temp_max": 22.4,
+  "temp_min": 3.1,
+  "temp_mean": 12.6,
+  "precipitation": 0,
+  "sunshine": 39127.93,
+  "wind_speed_max": 25.6,
+  "sunrise": "2022-02-16T07:57",
+  "sunset": "2022-02-16T18:58",
+  "sunshine_duration_seconds": 39127.93,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}
