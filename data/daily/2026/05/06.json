@@ -1,10 +1,18 @@
 {
   "date": "2026-05-06",
   "weather_code": 53,
-  "temp_max": 24.5,
+  "temp_max": 24.6,
   "temp_min": 13.1,
   "temp_mean": 18.1,
   "precipitation": 0.9,
   "sunshine": 38822.67,
-  "wind_speed_max": 22.5
+  "wind_speed_max": 22.5,
+  "sunrise": "2026-05-06T06:19",
+  "sunset": "2026-05-06T20:01",
+  "sunshine_duration_seconds": 38822.67,
+  "sunshine_duration_minutes": 647,
+  "estimated_daily_sunshine_minutes": 445,
+  "estimated_daily_sunshine": "7 h 25 min",
+  "sunshine_difference_minutes": 202,
+  "sunshine_consistency": "Faible"
 }

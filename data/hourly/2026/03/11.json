@@ -1,7 +1,7 @@
 [
   {
     "time": "2026-03-11T00:00",
-    "temp": 6.2,
+    "temp": 6.3,
     "humidity": 88,
     "dew_point": 4.4,
     "precipitation": 0,
@@ -11,13 +11,14 @@
     "wind_gusts": 25.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T01:00",
     "temp": 5.8,
     "humidity": 91,
-    "dew_point": 4.3,
+    "dew_point": 4.4,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1022.5,
@@ -25,7 +26,8 @@
     "wind_gusts": 21.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T02:00",
@@ -39,13 +41,14 @@
     "wind_gusts": 13.3,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T03:00",
     "temp": 5.8,
     "humidity": 91,
-    "dew_point": 4.4,
+    "dew_point": 4.5,
     "precipitation": 0,
     "weather_code": 0,
     "pressure": 1022.7,
@@ -53,13 +56,14 @@
     "wind_gusts": 19.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-03-11T04:00",
-    "temp": 4.8,
+    "temp": 4.9,
     "humidity": 93,
-    "dew_point": 3.8,
+    "dew_point": 3.9,
     "precipitation": 0,
     "weather_code": 1,
     "pressure": 1022.6,
@@ -67,13 +71,14 @@
     "wind_gusts": 18.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 45
   },
   {
     "time": "2026-03-11T05:00",
     "temp": 4.6,
     "humidity": 93,
-    "dew_point": 3.5,
+    "dew_point": 3.6,
     "precipitation": 0,
     "weather_code": 1,
     "pressure": 1022.6,
@@ -81,11 +86,12 @@
     "wind_gusts": 7.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 45
   },
   {
     "time": "2026-03-11T06:00",
-    "temp": 4.3,
+    "temp": 4.4,
     "humidity": 94,
     "dew_point": 3.5,
     "precipitation": 0,
@@ -95,7 +101,8 @@
     "wind_gusts": 10.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T07:00",
@@ -109,13 +116,14 @@
     "wind_gusts": 10.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T08:00",
     "temp": 4.1,
     "humidity": 97,
-    "dew_point": 3.5,
+    "dew_point": 3.6,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1024.3,
@@ -123,13 +131,14 @@
     "wind_gusts": 7.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T09:00",
     "temp": 5.6,
     "humidity": 92,
-    "dew_point": 4.4,
+    "dew_point": 4.5,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1024.9,
@@ -137,7 +146,8 @@
     "wind_gusts": 9.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T10:00",
@@ -151,11 +161,12 @@
     "wind_gusts": 12.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T11:00",
-    "temp": 8.6,
+    "temp": 8.7,
     "humidity": 77,
     "dew_point": 4.8,
     "precipitation": 0,
@@ -165,7 +176,8 @@
     "wind_gusts": 18.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 2093.37
+    "sunshine": 2093.37,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T12:00",
@@ -179,11 +191,12 @@
     "wind_gusts": 29.5,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3340.64
+    "sunshine": 3340.64,
+    "estimated_hourly_sunshine_minutes": 15
   },
   {
     "time": "2026-03-11T13:00",
-    "temp": 11.2,
+    "temp": 11.3,
     "humidity": 60,
     "dew_point": 3.7,
     "precipitation": 0,
@@ -193,7 +206,8 @@
     "wind_gusts": 31.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T14:00",
@@ -207,13 +221,14 @@
     "wind_gusts": 30.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 1856.76
+    "sunshine": 1856.76,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T15:00",
     "temp": 12,
     "humidity": 57,
-    "dew_point": 3.8,
+    "dew_point": 3.9,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1023.9,
@@ -221,13 +236,14 @@
     "wind_gusts": 31.3,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 1822.26
+    "sunshine": 1822.26,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T16:00",
     "temp": 11.8,
     "humidity": 60,
-    "dew_point": 4.2,
+    "dew_point": 4.3,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1023.7,
@@ -235,11 +251,12 @@
     "wind_gusts": 32.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T17:00",
-    "temp": 11.6,
+    "temp": 11.7,
     "humidity": 63,
     "dew_point": 4.9,
     "precipitation": 0,
@@ -249,13 +266,14 @@
     "wind_gusts": 32.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T18:00",
-    "temp": 11.2,
+    "temp": 11.3,
     "humidity": 67,
-    "dew_point": 5.3,
+    "dew_point": 5.4,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1024.4,
@@ -263,7 +281,8 @@
     "wind_gusts": 31,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T19:00",
@@ -277,7 +296,8 @@
     "wind_gusts": 30.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T20:00",
@@ -291,7 +311,8 @@
     "wind_gusts": 28.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T21:00",
@@ -305,7 +326,8 @@
     "wind_gusts": 28.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T22:00",
@@ -319,7 +341,8 @@
     "wind_gusts": 25.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-03-11T23:00",
@@ -333,6 +356,7 @@
     "wind_gusts": 19.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   }
 ]

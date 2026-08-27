@@ -1,10 +1,18 @@
 {
   "date": "2026-03-04",
   "weather_code": 63,
-  "temp_max": 15.9,
+  "temp_max": 16,
   "temp_min": 6.4,
   "temp_mean": 10.7,
   "precipitation": 6,
   "sunshine": 34942.11,
-  "wind_speed_max": 21.1
+  "wind_speed_max": 21.1,
+  "sunrise": "2026-03-04T07:38",
+  "sunset": "2026-03-04T19:12",
+  "sunshine_duration_seconds": 34942.11,
+  "sunshine_duration_minutes": 582,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 222,
+  "sunshine_consistency": "Faible"
 }

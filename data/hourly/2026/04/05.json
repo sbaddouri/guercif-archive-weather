@@ -11,7 +11,8 @@
     "wind_gusts": 14,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T01:00",
@@ -25,11 +26,12 @@
     "wind_gusts": 12.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T02:00",
-    "temp": 9.9,
+    "temp": 10,
     "humidity": 66,
     "dew_point": 3.8,
     "precipitation": 0,
@@ -39,7 +41,8 @@
     "wind_gusts": 13.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T03:00",
@@ -53,7 +56,8 @@
     "wind_gusts": 12.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T04:00",
@@ -67,7 +71,8 @@
     "wind_gusts": 10.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T05:00",
@@ -81,11 +86,12 @@
     "wind_gusts": 7.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T06:00",
-    "temp": 8.2,
+    "temp": 8.3,
     "humidity": 64,
     "dew_point": 1.8,
     "precipitation": 0,
@@ -95,7 +101,8 @@
     "wind_gusts": 6.1,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T07:00",
@@ -109,13 +116,14 @@
     "wind_gusts": 6.1,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T08:00",
-    "temp": 9.1,
+    "temp": 9.2,
     "humidity": 59,
-    "dew_point": 1.6,
+    "dew_point": 1.7,
     "precipitation": 0,
     "weather_code": 0,
     "pressure": 1023.7,
@@ -123,13 +131,14 @@
     "wind_gusts": 6.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T09:00",
     "temp": 11.6,
     "humidity": 44,
-    "dew_point": -0.2,
+    "dew_point": -0.3,
     "precipitation": 0,
     "weather_code": 0,
     "pressure": 1023.8,
@@ -137,7 +146,8 @@
     "wind_gusts": 11.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T10:00",
@@ -151,13 +161,14 @@
     "wind_gusts": 12.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T11:00",
     "temp": 18,
     "humidity": 24,
-    "dew_point": -2.8,
+    "dew_point": -2.9,
     "precipitation": 0,
     "weather_code": 0,
     "pressure": 1023.4,
@@ -165,7 +176,8 @@
     "wind_gusts": 15.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T12:00",
@@ -179,7 +191,8 @@
     "wind_gusts": 18.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T13:00",
@@ -193,11 +206,12 @@
     "wind_gusts": 20.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T14:00",
-    "temp": 25.2,
+    "temp": 25.3,
     "humidity": 14,
     "dew_point": -4.1,
     "precipitation": 0,
@@ -207,13 +221,14 @@
     "wind_gusts": 25.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T15:00",
     "temp": 26.3,
     "humidity": 13,
-    "dew_point": -3.8,
+    "dew_point": -3.9,
     "precipitation": 0,
     "weather_code": 0,
     "pressure": 1019.7,
@@ -221,7 +236,8 @@
     "wind_gusts": 29.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T16:00",
@@ -235,7 +251,8 @@
     "wind_gusts": 31.3,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T17:00",
@@ -249,7 +266,8 @@
     "wind_gusts": 31,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T18:00",
@@ -263,7 +281,8 @@
     "wind_gusts": 31,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T19:00",
@@ -277,11 +296,12 @@
     "wind_gusts": 31,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 3600
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T20:00",
-    "temp": 20.2,
+    "temp": 20.3,
     "humidity": 41,
     "dew_point": 6.4,
     "precipitation": 0,
@@ -291,13 +311,14 @@
     "wind_gusts": 31.3,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 60
   },
   {
     "time": "2026-04-05T21:00",
     "temp": 17.9,
     "humidity": 45,
-    "dew_point": 5.8,
+    "dew_point": 5.9,
     "precipitation": 0,
     "weather_code": 1,
     "pressure": 1021,
@@ -305,13 +326,14 @@
     "wind_gusts": 33.5,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 45
   },
   {
     "time": "2026-04-05T22:00",
-    "temp": 16.6,
+    "temp": 16.7,
     "humidity": 46,
-    "dew_point": 4.9,
+    "dew_point": 5,
     "precipitation": 0,
     "weather_code": 3,
     "pressure": 1021.7,
@@ -319,7 +341,8 @@
     "wind_gusts": 32.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-04-05T23:00",
@@ -333,6 +356,7 @@
     "wind_gusts": 28.1,
     "visibility": null,
     "uv_index": null,
-    "sunshine": 0
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 30
   }
 ]

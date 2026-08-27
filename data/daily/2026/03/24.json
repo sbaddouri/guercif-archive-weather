@@ -2,9 +2,17 @@
   "date": "2026-03-24",
   "weather_code": 51,
   "temp_max": 17.9,
-  "temp_min": 10.4,
+  "temp_min": 10.5,
   "temp_mean": 13,
   "precipitation": 0.1,
   "sunshine": 31043.28,
-  "wind_speed_max": 24.8
+  "wind_speed_max": 24.8,
+  "sunrise": "2026-03-24T07:11",
+  "sunset": "2026-03-24T19:28",
+  "sunshine_duration_seconds": 31043.28,
+  "sunshine_duration_minutes": 517,
+  "estimated_daily_sunshine_minutes": 285,
+  "estimated_daily_sunshine": "4 h 45 min",
+  "sunshine_difference_minutes": 232,
+  "sunshine_consistency": "Faible"
 }

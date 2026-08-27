@@ -5,6 +5,14 @@
   "temp_min": 14.3,
   "temp_mean": 19.6,
   "precipitation": 0,
-  "sunshine": 46409.89,
-  "wind_speed_max": 29.2
+  "sunshine": 46409.9,
+  "wind_speed_max": 29.2,
+  "sunrise": "2026-05-12T06:14",
+  "sunset": "2026-05-12T20:06",
+  "sunshine_duration_seconds": 46409.9,
+  "sunshine_duration_minutes": 773,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
 }

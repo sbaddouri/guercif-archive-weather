@@ -1,10 +1,18 @@
 {
   "date": "2026-04-09",
   "weather_code": 2,
-  "temp_max": 31.5,
+  "temp_max": 31.6,
   "temp_min": 10.6,
   "temp_mean": 18.4,
   "precipitation": 0,
-  "sunshine": 40651.14,
-  "wind_speed_max": 46.6
+  "sunshine": 40651.15,
+  "wind_speed_max": 46.6,
+  "sunrise": "2026-04-09T06:50",
+  "sunset": "2026-04-09T19:40",
+  "sunshine_duration_seconds": 40651.15,
+  "sunshine_duration_minutes": 678,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
 }
