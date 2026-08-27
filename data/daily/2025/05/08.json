@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-08",
+  "weather_code": 61,
+  "temp_max": 23.3,
+  "temp_min": 13.4,
+  "temp_mean": 18.3,
+  "precipitation": 2.8,
+  "sunshine": 44080.17,
+  "wind_speed_max": 26.1,
+  "sunrise": "2025-05-08T06:17",
+  "sunset": "2025-05-08T20:03",
+  "sunshine_duration_seconds": 44080.17,
+  "sunshine_duration_minutes": 735,
+  "estimated_daily_sunshine_minutes": 640,
+  "estimated_daily_sunshine": "10 h 40 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

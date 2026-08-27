@@ -1,0 +1,18 @@
+{
+  "date": "2025-07-11",
+  "weather_code": 1,
+  "temp_max": 34.7,
+  "temp_min": 21.9,
+  "temp_mean": 28.8,
+  "precipitation": 0,
+  "sunshine": 46741.73,
+  "wind_speed_max": 33.6,
+  "sunrise": "2025-07-11T06:10",
+  "sunset": "2025-07-11T20:27",
+  "sunshine_duration_seconds": 46741.73,
+  "sunshine_duration_minutes": 779,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 31,
+  "sunshine_consistency": "Faible"
+}

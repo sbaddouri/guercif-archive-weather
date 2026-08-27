@@ -1,0 +1,18 @@
+{
+  "date": "2025-07-03",
+  "weather_code": 2,
+  "temp_max": 38.4,
+  "temp_min": 22,
+  "temp_mean": 29.6,
+  "precipitation": 0,
+  "sunshine": 47182.77,
+  "wind_speed_max": 24.8,
+  "sunrise": "2025-07-03T06:06",
+  "sunset": "2025-07-03T20:29",
+  "sunshine_duration_seconds": 47182.77,
+  "sunshine_duration_minutes": 786,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

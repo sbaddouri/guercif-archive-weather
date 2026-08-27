@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-28",
+  "weather_code": 0,
+  "temp_max": 31.4,
+  "temp_min": 20,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 42745.14,
+  "wind_speed_max": 32.7,
+  "sunrise": "2025-08-28T06:44",
+  "sunset": "2025-08-28T19:44",
+  "sunshine_duration_seconds": 42745.14,
+  "sunshine_duration_minutes": 712,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 68,
+  "sunshine_consistency": "Faible"
+}

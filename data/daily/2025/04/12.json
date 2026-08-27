@@ -1,0 +1,18 @@
+{
+  "date": "2025-04-12",
+  "weather_code": 63,
+  "temp_max": 23.4,
+  "temp_min": 12.6,
+  "temp_mean": 17.3,
+  "precipitation": 10.2,
+  "sunshine": 323.09,
+  "wind_speed_max": 28.4,
+  "sunrise": "2025-04-12T06:46",
+  "sunset": "2025-04-12T19:42",
+  "sunshine_duration_seconds": 323.09,
+  "sunshine_duration_minutes": 5,
+  "estimated_daily_sunshine_minutes": 15,
+  "estimated_daily_sunshine": "0 h 15 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

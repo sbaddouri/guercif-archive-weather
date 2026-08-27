@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-14",
+  "weather_code": 51,
+  "temp_max": 15.7,
+  "temp_min": 8.5,
+  "temp_mean": 11.3,
+  "precipitation": 0.4,
+  "sunshine": 35040.7,
+  "wind_speed_max": 19.2,
+  "sunrise": "2025-12-14T08:11",
+  "sunset": "2025-12-14T18:05",
+  "sunshine_duration_seconds": 35040.7,
+  "sunshine_duration_minutes": 584,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 479,
+  "sunshine_consistency": "Faible"
+}

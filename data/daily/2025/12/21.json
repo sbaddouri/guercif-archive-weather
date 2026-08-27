@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-21",
+  "weather_code": 55,
+  "temp_max": 14.8,
+  "temp_min": 4.1,
+  "temp_mean": 8.5,
+  "precipitation": 2.2,
+  "sunshine": 30219,
+  "wind_speed_max": 25.8,
+  "sunrise": "2025-12-21T08:15",
+  "sunset": "2025-12-21T18:07",
+  "sunshine_duration_seconds": 30219,
+  "sunshine_duration_minutes": 504,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 234,
+  "sunshine_consistency": "Faible"
+}

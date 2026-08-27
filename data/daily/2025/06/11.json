@@ -1,0 +1,18 @@
+{
+  "date": "2025-06-11",
+  "weather_code": 3,
+  "temp_max": 33.9,
+  "temp_min": 20.2,
+  "temp_mean": 25.9,
+  "precipitation": 0,
+  "sunshine": 42355.67,
+  "wind_speed_max": 25.1,
+  "sunrise": "2025-06-11T06:01",
+  "sunset": "2025-06-11T20:25",
+  "sunshine_duration_seconds": 42355.67,
+  "sunshine_duration_minutes": 706,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 376,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-09",
+  "weather_code": 63,
+  "temp_max": 16.5,
+  "temp_min": 8.7,
+  "temp_mean": 11.5,
+  "precipitation": 9,
+  "sunshine": 38762.02,
+  "wind_speed_max": 27.9,
+  "sunrise": "2025-03-09T07:31",
+  "sunset": "2025-03-09T19:16",
+  "sunshine_duration_seconds": 38762.02,
+  "sunshine_duration_minutes": 646,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 286,
+  "sunshine_consistency": "Faible"
+}

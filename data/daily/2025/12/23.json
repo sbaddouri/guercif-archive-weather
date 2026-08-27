@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-23",
+  "weather_code": 61,
+  "temp_max": 13.1,
+  "temp_min": 6.6,
+  "temp_mean": 9.7,
+  "precipitation": 2.6,
+  "sunshine": 29857.81,
+  "wind_speed_max": 26.6,
+  "sunrise": "2025-12-23T08:16",
+  "sunset": "2025-12-23T18:08",
+  "sunshine_duration_seconds": 29857.81,
+  "sunshine_duration_minutes": 498,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 438,
+  "sunshine_consistency": "Faible"
+}

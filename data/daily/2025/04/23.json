@@ -1,0 +1,18 @@
+{
+  "date": "2025-04-23",
+  "weather_code": 0,
+  "temp_max": 27.3,
+  "temp_min": 11.5,
+  "temp_mean": 19,
+  "precipitation": 0,
+  "sunshine": 44065.71,
+  "wind_speed_max": 29.5,
+  "sunrise": "2025-04-23T06:32",
+  "sunset": "2025-04-23T19:51",
+  "sunshine_duration_seconds": 44065.71,
+  "sunshine_duration_minutes": 734,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 46,
+  "sunshine_consistency": "Faible"
+}
