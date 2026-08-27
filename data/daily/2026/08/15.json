@@ -8,11 +8,11 @@
   "sunshine": 43510.55,
   "wind_speed_max": 23.8,
   "sunrise": "2026-08-15T06:34",
-  "sunset": "2026-08-15T20:01",
+  "sunset": "2026-08-15T20:00",
   "sunshine_duration_seconds": 43510.55,
   "sunshine_duration_minutes": 725,
-  "estimated_daily_sunshine_minutes": 615,
-  "estimated_daily_sunshine": "10 h 15 min",
-  "sunshine_difference_minutes": 110,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 140,
   "sunshine_consistency": "Faible"
 }
