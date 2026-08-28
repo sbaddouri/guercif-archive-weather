@@ -1,0 +1,18 @@
+{
+  "date": "2019-12-17",
+  "weather_code": 55,
+  "temp_max": 11.9,
+  "temp_min": 7.6,
+  "temp_mean": 9.7,
+  "precipitation": 4.4,
+  "sunshine": 28344.37,
+  "wind_speed_max": 40.4,
+  "sunrise": "2019-12-17T08:13",
+  "sunset": "2019-12-17T18:05",
+  "sunshine_duration_seconds": 28344.37,
+  "sunshine_duration_minutes": 472,
+  "estimated_daily_sunshine_minutes": 255,
+  "estimated_daily_sunshine": "4 h 15 min",
+  "sunshine_difference_minutes": 217,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2019-11-11",
+  "weather_code": 53,
+  "temp_max": 15.8,
+  "temp_min": 11.6,
+  "temp_mean": 13.5,
+  "precipitation": 1.8,
+  "sunshine": 4957.87,
+  "wind_speed_max": 39.5,
+  "sunrise": "2019-11-11T07:42",
+  "sunset": "2019-11-11T18:12",
+  "sunshine_duration_seconds": 4957.87,
+  "sunshine_duration_minutes": 83,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

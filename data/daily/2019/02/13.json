@@ -1,0 +1,18 @@
+{
+  "date": "2019-02-13",
+  "weather_code": 3,
+  "temp_max": 19.2,
+  "temp_min": 5.4,
+  "temp_mean": 11.6,
+  "precipitation": 0,
+  "sunshine": 38741.38,
+  "wind_speed_max": 19.3,
+  "sunrise": "2019-02-13T08:00",
+  "sunset": "2019-02-13T18:54",
+  "sunshine_duration_seconds": 38741.38,
+  "sunshine_duration_minutes": 646,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 136,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2019-11-06",
+  "weather_code": 2,
+  "temp_max": 18.4,
+  "temp_min": 9.4,
+  "temp_mean": 13.8,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 33.2,
+  "sunrise": "2019-11-06T07:37",
+  "sunset": "2019-11-06T18:16",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

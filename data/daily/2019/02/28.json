@@ -1,0 +1,18 @@
+{
+  "date": "2019-02-28",
+  "weather_code": 1,
+  "temp_max": 22.2,
+  "temp_min": 4.3,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 16.4,
+  "sunrise": "2019-02-28T07:44",
+  "sunset": "2019-02-28T19:08",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2019-04-21",
+  "weather_code": 55,
+  "temp_max": 15,
+  "temp_min": 9.6,
+  "temp_mean": 12.1,
+  "precipitation": 4.4,
+  "sunshine": 14288.87,
+  "wind_speed_max": 23.8,
+  "sunrise": "2019-04-21T06:35",
+  "sunset": "2019-04-21T19:49",
+  "sunshine_duration_seconds": 14288.87,
+  "sunshine_duration_minutes": 238,
+  "estimated_daily_sunshine_minutes": 185,
+  "estimated_daily_sunshine": "3 h 05 min",
+  "sunshine_difference_minutes": 53,
+  "sunshine_consistency": "Faible"
+}

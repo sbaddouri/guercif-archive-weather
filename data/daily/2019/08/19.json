@@ -1,0 +1,18 @@
+{
+  "date": "2019-08-19",
+  "weather_code": 0,
+  "temp_max": 38.5,
+  "temp_min": 21.6,
+  "temp_mean": 29.6,
+  "precipitation": 0,
+  "sunshine": 45055.72,
+  "wind_speed_max": 29.7,
+  "sunrise": "2019-08-19T06:37",
+  "sunset": "2019-08-19T19:56",
+  "sunshine_duration_seconds": 45055.72,
+  "sunshine_duration_minutes": 751,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 29,
+  "sunshine_consistency": "Moyen"
+}

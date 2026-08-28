@@ -1,0 +1,18 @@
+{
+  "date": "2019-06-24",
+  "weather_code": 1,
+  "temp_max": 33.9,
+  "temp_min": 17.6,
+  "temp_mean": 24.6,
+  "precipitation": 0,
+  "sunshine": 48014.52,
+  "wind_speed_max": 26.5,
+  "sunrise": "2019-06-24T06:02",
+  "sunset": "2019-06-24T20:29",
+  "sunshine_duration_seconds": 48014.52,
+  "sunshine_duration_minutes": 800,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

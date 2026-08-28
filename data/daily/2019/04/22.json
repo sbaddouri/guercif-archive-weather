@@ -1,0 +1,18 @@
+{
+  "date": "2019-04-22",
+  "weather_code": 61,
+  "temp_max": 17.5,
+  "temp_min": 10.4,
+  "temp_mean": 13.7,
+  "precipitation": 3.8,
+  "sunshine": 42225.34,
+  "wind_speed_max": 32.7,
+  "sunrise": "2019-04-22T06:34",
+  "sunset": "2019-04-22T19:50",
+  "sunshine_duration_seconds": 42225.34,
+  "sunshine_duration_minutes": 704,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 344,
+  "sunshine_consistency": "Faible"
+}

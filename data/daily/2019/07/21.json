@@ -1,0 +1,18 @@
+{
+  "date": "2019-07-21",
+  "weather_code": 2,
+  "temp_max": 35.3,
+  "temp_min": 21.9,
+  "temp_mean": 27.5,
+  "precipitation": 0,
+  "sunshine": 44915.17,
+  "wind_speed_max": 33.4,
+  "sunrise": "2019-07-21T06:16",
+  "sunset": "2019-07-21T20:22",
+  "sunshine_duration_seconds": 44915.17,
+  "sunshine_duration_minutes": 749,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

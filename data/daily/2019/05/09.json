@@ -1,0 +1,18 @@
+{
+  "date": "2019-05-09",
+  "weather_code": 1,
+  "temp_max": 31.2,
+  "temp_min": 14.3,
+  "temp_mean": 22.3,
+  "precipitation": 0,
+  "sunshine": 45834.59,
+  "wind_speed_max": 27.7,
+  "sunrise": "2019-05-09T06:16",
+  "sunset": "2019-05-09T20:03",
+  "sunshine_duration_seconds": 45834.59,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 46,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2019-03-31",
+  "weather_code": 55,
+  "temp_max": 17.5,
+  "temp_min": 10.7,
+  "temp_mean": 13.7,
+  "precipitation": 3.7,
+  "sunshine": 33002.92,
+  "wind_speed_max": 31.6,
+  "sunrise": "2019-03-31T07:02",
+  "sunset": "2019-03-31T19:33",
+  "sunshine_duration_seconds": 33002.92,
+  "sunshine_duration_minutes": 550,
+  "estimated_daily_sunshine_minutes": 150,
+  "estimated_daily_sunshine": "2 h 30 min",
+  "sunshine_difference_minutes": 400,
+  "sunshine_consistency": "Faible"
+}

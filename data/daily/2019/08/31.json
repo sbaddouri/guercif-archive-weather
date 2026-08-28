@@ -1,0 +1,18 @@
+{
+  "date": "2019-08-31",
+  "weather_code": 1,
+  "temp_max": 34.6,
+  "temp_min": 19.6,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 43203.69,
+  "wind_speed_max": 24.2,
+  "sunrise": "2019-08-31T06:45",
+  "sunset": "2019-08-31T19:41",
+  "sunshine_duration_seconds": 43203.69,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

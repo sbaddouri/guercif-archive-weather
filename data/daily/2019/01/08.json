@@ -1,0 +1,18 @@
+{
+  "date": "2019-01-08",
+  "weather_code": 0,
+  "temp_max": 13.2,
+  "temp_min": 0.2,
+  "temp_mean": 6.8,
+  "precipitation": 0,
+  "sunshine": 34507.1,
+  "wind_speed_max": 9.1,
+  "sunrise": "2019-01-08T08:20",
+  "sunset": "2019-01-08T18:20",
+  "sunshine_duration_seconds": 34507.1,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

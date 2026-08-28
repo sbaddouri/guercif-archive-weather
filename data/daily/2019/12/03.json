@@ -1,0 +1,18 @@
+{
+  "date": "2019-12-03",
+  "weather_code": 63,
+  "temp_max": 12.6,
+  "temp_min": 7.6,
+  "temp_mean": 9.5,
+  "precipitation": 12.4,
+  "sunshine": 14454.36,
+  "wind_speed_max": 32.8,
+  "sunrise": "2019-12-03T08:02",
+  "sunset": "2019-12-03T18:03",
+  "sunshine_duration_seconds": 14454.36,
+  "sunshine_duration_minutes": 241,
+  "estimated_daily_sunshine_minutes": 80,
+  "estimated_daily_sunshine": "1 h 20 min",
+  "sunshine_difference_minutes": 161,
+  "sunshine_consistency": "Faible"
+}

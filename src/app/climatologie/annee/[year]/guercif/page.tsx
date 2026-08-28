@@ -108,7 +108,7 @@ export default async function YearPage({ params }: PageProps) {
       for (let i = 0; i <= monthDays.length - 5; i++) { // Adjusted condition to -5 instead of -4
         let sum = 0;
         for (let j = 0; j < 5; j++) {
-          sum += monthDays[i + j].precipitation;
+          sum += monthDays[i + j].precipitation ?? 0; // 
         }
         if (sum > max5DayPrecip) max5DayPrecip = sum;
       }
@@ -143,7 +143,7 @@ export default async function YearPage({ params }: PageProps) {
     for (let i = 0; i <= data.length - 5; i++) {
       let sum = 0;
       for (let j = 0; j < 5; j++) {
-        sum += data[i + j].precipitation;
+        sum += data[i + j].precipitation ?? 0; //
       }
       if (sum > yearlyMax5DayPrecip) yearlyMax5DayPrecip = sum;
     }

@@ -1,0 +1,18 @@
+{
+  "date": "2019-05-20",
+  "weather_code": 2,
+  "temp_max": 28.2,
+  "temp_min": 14.1,
+  "temp_mean": 20.9,
+  "precipitation": 0,
+  "sunshine": 46041.6,
+  "wind_speed_max": 28.7,
+  "sunrise": "2019-05-20T06:08",
+  "sunset": "2019-05-20T20:11",
+  "sunshine_duration_seconds": 46041.6,
+  "sunshine_duration_minutes": 767,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

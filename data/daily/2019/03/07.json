@@ -1,0 +1,18 @@
+{
+  "date": "2019-03-07",
+  "weather_code": 61,
+  "temp_max": 15,
+  "temp_min": 9.7,
+  "temp_mean": 12,
+  "precipitation": 7.4,
+  "sunshine": 14555.1,
+  "wind_speed_max": 21,
+  "sunrise": "2019-03-07T07:35",
+  "sunset": "2019-03-07T19:14",
+  "sunshine_duration_seconds": 14555.1,
+  "sunshine_duration_minutes": 243,
+  "estimated_daily_sunshine_minutes": 145,
+  "estimated_daily_sunshine": "2 h 25 min",
+  "sunshine_difference_minutes": 98,
+  "sunshine_consistency": "Faible"
+}

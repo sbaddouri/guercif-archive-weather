@@ -1,0 +1,18 @@
+{
+  "date": "2019-07-01",
+  "weather_code": 2,
+  "temp_max": 36.5,
+  "temp_min": 21.2,
+  "temp_mean": 27.9,
+  "precipitation": 0,
+  "sunshine": 47458.34,
+  "wind_speed_max": 31.6,
+  "sunrise": "2019-07-01T06:05",
+  "sunset": "2019-07-01T20:29",
+  "sunshine_duration_seconds": 47458.34,
+  "sunshine_duration_minutes": 791,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 49,
+  "sunshine_consistency": "Faible"
+}

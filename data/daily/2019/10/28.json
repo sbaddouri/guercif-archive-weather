@@ -1,0 +1,18 @@
+{
+  "date": "2019-10-28",
+  "weather_code": 3,
+  "temp_max": 21.8,
+  "temp_min": 11.7,
+  "temp_mean": 16.2,
+  "precipitation": 0,
+  "sunshine": 24843.28,
+  "wind_speed_max": 14.6,
+  "sunrise": "2019-10-28T07:29",
+  "sunset": "2019-10-28T18:24",
+  "sunshine_duration_seconds": 24843.28,
+  "sunshine_duration_minutes": 414,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 234,
+  "sunshine_consistency": "Faible"
+}
