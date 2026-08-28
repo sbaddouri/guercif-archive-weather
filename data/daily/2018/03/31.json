@@ -1,0 +1,18 @@
+{
+  "date": "2018-03-31",
+  "weather_code": 2,
+  "temp_max": 19.5,
+  "temp_min": 9.6,
+  "temp_mean": 13.9,
+  "precipitation": 0,
+  "sunshine": 42448.79,
+  "wind_speed_max": 35.6,
+  "sunrise": "2018-03-31T07:02",
+  "sunset": "2018-03-31T19:33",
+  "sunshine_duration_seconds": 42448.79,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 32,
+  "sunshine_consistency": "Faible"
+}

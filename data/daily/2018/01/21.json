@@ -1,0 +1,18 @@
+{
+  "date": "2018-01-21",
+  "weather_code": 0,
+  "temp_max": 17.8,
+  "temp_min": 6.3,
+  "temp_mean": 11.4,
+  "precipitation": 0,
+  "sunshine": 35386.22,
+  "wind_speed_max": 26.3,
+  "sunrise": "2018-01-21T08:17",
+  "sunset": "2018-01-21T18:32",
+  "sunshine_duration_seconds": 35386.22,
+  "sunshine_duration_minutes": 590,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

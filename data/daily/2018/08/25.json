@@ -1,0 +1,18 @@
+{
+  "date": "2018-08-25",
+  "weather_code": 0,
+  "temp_max": 38,
+  "temp_min": 21.3,
+  "temp_mean": 29.3,
+  "precipitation": 0,
+  "sunshine": 43840.48,
+  "wind_speed_max": 28.1,
+  "sunrise": "2018-08-25T06:41",
+  "sunset": "2018-08-25T19:48",
+  "sunshine_duration_seconds": 43840.48,
+  "sunshine_duration_minutes": 731,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 49,
+  "sunshine_consistency": "Faible"
+}

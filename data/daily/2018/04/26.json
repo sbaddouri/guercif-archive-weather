@@ -1,0 +1,18 @@
+{
+  "date": "2018-04-26",
+  "weather_code": 63,
+  "temp_max": 16.8,
+  "temp_min": 12.6,
+  "temp_mean": 14.3,
+  "precipitation": 8.6,
+  "sunshine": 1420.85,
+  "wind_speed_max": 21.6,
+  "sunrise": "2018-04-26T06:29",
+  "sunset": "2018-04-26T19:53",
+  "sunshine_duration_seconds": 1420.85,
+  "sunshine_duration_minutes": 24,
+  "estimated_daily_sunshine_minutes": 85,
+  "estimated_daily_sunshine": "1 h 25 min",
+  "sunshine_difference_minutes": 61,
+  "sunshine_consistency": "Faible"
+}

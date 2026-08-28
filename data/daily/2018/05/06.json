@@ -1,0 +1,18 @@
+{
+  "date": "2018-05-06",
+  "weather_code": 51,
+  "temp_max": 23.5,
+  "temp_min": 11.8,
+  "temp_mean": 16.7,
+  "precipitation": 0.9,
+  "sunshine": 37826.58,
+  "wind_speed_max": 23.8,
+  "sunrise": "2018-05-06T06:19",
+  "sunset": "2018-05-06T20:01",
+  "sunshine_duration_seconds": 37826.58,
+  "sunshine_duration_minutes": 630,
+  "estimated_daily_sunshine_minutes": 255,
+  "estimated_daily_sunshine": "4 h 15 min",
+  "sunshine_difference_minutes": 375,
+  "sunshine_consistency": "Faible"
+}

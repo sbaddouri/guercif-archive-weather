@@ -1,0 +1,18 @@
+{
+  "date": "2018-07-23",
+  "weather_code": 1,
+  "temp_max": 37.6,
+  "temp_min": 20.4,
+  "temp_mean": 28.2,
+  "precipitation": 0,
+  "sunshine": 46140.55,
+  "wind_speed_max": 23.5,
+  "sunrise": "2018-07-23T06:18",
+  "sunset": "2018-07-23T20:21",
+  "sunshine_duration_seconds": 46140.55,
+  "sunshine_duration_minutes": 769,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 41,
+  "sunshine_consistency": "Faible"
+}

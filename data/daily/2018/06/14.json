@@ -1,0 +1,18 @@
+{
+  "date": "2018-06-14",
+  "weather_code": 0,
+  "temp_max": 31.9,
+  "temp_min": 17.2,
+  "temp_mean": 24.8,
+  "precipitation": 0,
+  "sunshine": 48267.38,
+  "wind_speed_max": 27.1,
+  "sunrise": "2018-06-14T06:01",
+  "sunset": "2018-06-14T20:26",
+  "sunshine_duration_seconds": 48267.38,
+  "sunshine_duration_minutes": 804,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

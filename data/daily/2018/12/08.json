@@ -1,0 +1,18 @@
+{
+  "date": "2018-12-08",
+  "weather_code": 0,
+  "temp_max": 22.8,
+  "temp_min": 8.4,
+  "temp_mean": 14.2,
+  "precipitation": 0,
+  "sunshine": 35265.74,
+  "wind_speed_max": 19,
+  "sunrise": "2018-12-08T08:06",
+  "sunset": "2018-12-08T18:03",
+  "sunshine_duration_seconds": 35265.74,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

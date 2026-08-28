@@ -1,0 +1,18 @@
+{
+  "date": "2018-03-15",
+  "weather_code": 55,
+  "temp_max": 18.7,
+  "temp_min": 10.6,
+  "temp_mean": 13.6,
+  "precipitation": 3,
+  "sunshine": 22955.01,
+  "wind_speed_max": 30.8,
+  "sunrise": "2018-03-15T07:24",
+  "sunset": "2018-03-15T19:21",
+  "sunshine_duration_seconds": 22955.01,
+  "sunshine_duration_minutes": 383,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 323,
+  "sunshine_consistency": "Faible"
+}

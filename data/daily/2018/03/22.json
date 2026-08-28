@@ -1,0 +1,18 @@
+{
+  "date": "2018-03-22",
+  "weather_code": 2,
+  "temp_max": 13.7,
+  "temp_min": 5,
+  "temp_mean": 9.1,
+  "precipitation": 0,
+  "sunshine": 40582.2,
+  "wind_speed_max": 40.8,
+  "sunrise": "2018-03-22T07:14",
+  "sunset": "2018-03-22T19:26",
+  "sunshine_duration_seconds": 40582.2,
+  "sunshine_duration_minutes": 676,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 166,
+  "sunshine_consistency": "Faible"
+}

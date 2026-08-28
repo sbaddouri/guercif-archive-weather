@@ -1,0 +1,18 @@
+{
+  "date": "2018-10-26",
+  "weather_code": 51,
+  "temp_max": 24.6,
+  "temp_min": 11.6,
+  "temp_mean": 18.2,
+  "precipitation": 0.1,
+  "sunshine": 30524.91,
+  "wind_speed_max": 12.3,
+  "sunrise": "2018-10-26T07:27",
+  "sunset": "2018-10-26T18:26",
+  "sunshine_duration_seconds": 30524.91,
+  "sunshine_duration_minutes": 509,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 269,
+  "sunshine_consistency": "Faible"
+}
