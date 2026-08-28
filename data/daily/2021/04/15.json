@@ -1,0 +1,18 @@
+{
+  "date": "2021-04-15",
+  "weather_code": 63,
+  "temp_max": 15,
+  "temp_min": 11.1,
+  "temp_mean": 12.6,
+  "precipitation": 15.1,
+  "sunshine": 1836.42,
+  "wind_speed_max": 24.4,
+  "sunrise": "2021-04-15T06:42",
+  "sunset": "2021-04-15T19:45",
+  "sunshine_duration_seconds": 1836.42,
+  "sunshine_duration_minutes": 31,
+  "estimated_daily_sunshine_minutes": 145,
+  "estimated_daily_sunshine": "2 h 25 min",
+  "sunshine_difference_minutes": 114,
+  "sunshine_consistency": "Faible"
+}

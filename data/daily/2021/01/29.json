@@ -1,0 +1,18 @@
+{
+  "date": "2021-01-29",
+  "weather_code": 0,
+  "temp_max": 26,
+  "temp_min": 12.3,
+  "temp_mean": 18.1,
+  "precipitation": 0,
+  "sunshine": 36895.68,
+  "wind_speed_max": 20.9,
+  "sunrise": "2021-01-29T08:12",
+  "sunset": "2021-01-29T18:40",
+  "sunshine_duration_seconds": 36895.68,
+  "sunshine_duration_minutes": 615,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

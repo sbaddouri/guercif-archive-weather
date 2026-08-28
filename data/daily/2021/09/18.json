@@ -1,0 +1,18 @@
+{
+  "date": "2021-09-18",
+  "weather_code": 0,
+  "temp_max": 33.1,
+  "temp_min": 18.3,
+  "temp_mean": 24.8,
+  "precipitation": 0,
+  "sunshine": 43027.93,
+  "wind_speed_max": 28.6,
+  "sunrise": "2021-09-18T06:58",
+  "sunset": "2021-09-18T19:15",
+  "sunshine_duration_seconds": 43027.93,
+  "sunshine_duration_minutes": 717,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

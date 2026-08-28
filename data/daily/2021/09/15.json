@@ -1,0 +1,18 @@
+{
+  "date": "2021-09-15",
+  "weather_code": 61,
+  "temp_max": 29.6,
+  "temp_min": 19.3,
+  "temp_mean": 23.1,
+  "precipitation": 8.6,
+  "sunshine": 39032.81,
+  "wind_speed_max": 27.8,
+  "sunrise": "2021-09-15T06:56",
+  "sunset": "2021-09-15T19:19",
+  "sunshine_duration_seconds": 39032.81,
+  "sunshine_duration_minutes": 651,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 426,
+  "sunshine_consistency": "Faible"
+}

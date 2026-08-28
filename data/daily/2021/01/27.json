@@ -1,0 +1,18 @@
+{
+  "date": "2021-01-27",
+  "weather_code": 1,
+  "temp_max": 23,
+  "temp_min": 9.6,
+  "temp_mean": 15.9,
+  "precipitation": 0,
+  "sunshine": 36285.7,
+  "wind_speed_max": 14.2,
+  "sunrise": "2021-01-27T08:14",
+  "sunset": "2021-01-27T18:38",
+  "sunshine_duration_seconds": 36285.7,
+  "sunshine_duration_minutes": 605,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

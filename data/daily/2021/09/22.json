@@ -1,0 +1,18 @@
+{
+  "date": "2021-09-22",
+  "weather_code": 55,
+  "temp_max": 26.1,
+  "temp_min": 18,
+  "temp_mean": 21.5,
+  "precipitation": 1.7,
+  "sunshine": 40692.58,
+  "wind_speed_max": 23,
+  "sunrise": "2021-09-22T07:01",
+  "sunset": "2021-09-22T19:10",
+  "sunshine_duration_seconds": 40692.58,
+  "sunshine_duration_minutes": 678,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 348,
+  "sunshine_consistency": "Faible"
+}

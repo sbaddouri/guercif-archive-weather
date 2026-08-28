@@ -1,0 +1,18 @@
+{
+  "date": "2021-02-28",
+  "weather_code": 51,
+  "temp_max": 18.4,
+  "temp_min": 9,
+  "temp_mean": 12.5,
+  "precipitation": 0.4,
+  "sunshine": 33460.2,
+  "wind_speed_max": 30,
+  "sunrise": "2021-02-28T07:43",
+  "sunset": "2021-02-28T19:08",
+  "sunshine_duration_seconds": 33460.2,
+  "sunshine_duration_minutes": 558,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 123,
+  "sunshine_consistency": "Faible"
+}
