@@ -1,0 +1,18 @@
+{
+  "date": "2020-08-31",
+  "weather_code": 3,
+  "temp_max": 31.7,
+  "temp_min": 18.6,
+  "temp_mean": 24,
+  "precipitation": 0,
+  "sunshine": 41468.71,
+  "wind_speed_max": 24.7,
+  "sunrise": "2020-08-31T06:46",
+  "sunset": "2020-08-31T19:40",
+  "sunshine_duration_seconds": 41468.71,
+  "sunshine_duration_minutes": 691,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

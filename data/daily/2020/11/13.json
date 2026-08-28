@@ -1,0 +1,18 @@
+{
+  "date": "2020-11-13",
+  "weather_code": 3,
+  "temp_max": 26.4,
+  "temp_min": 13.7,
+  "temp_mean": 19.5,
+  "precipitation": 0,
+  "sunshine": 22953.65,
+  "wind_speed_max": 34.7,
+  "sunrise": "2020-11-13T07:44",
+  "sunset": "2020-11-13T18:10",
+  "sunshine_duration_seconds": 22953.65,
+  "sunshine_duration_minutes": 383,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 293,
+  "sunshine_consistency": "Faible"
+}

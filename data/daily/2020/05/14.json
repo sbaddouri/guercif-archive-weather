@@ -1,0 +1,18 @@
+{
+  "date": "2020-05-14",
+  "weather_code": 53,
+  "temp_max": 21.3,
+  "temp_min": 10.4,
+  "temp_mean": 14.9,
+  "precipitation": 0.6,
+  "sunshine": 44493.41,
+  "wind_speed_max": 31.4,
+  "sunrise": "2020-05-14T06:12",
+  "sunset": "2020-05-14T20:07",
+  "sunshine_duration_seconds": 44493.41,
+  "sunshine_duration_minutes": 742,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

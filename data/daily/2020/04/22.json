@@ -1,0 +1,18 @@
+{
+  "date": "2020-04-22",
+  "weather_code": 2,
+  "temp_max": 22,
+  "temp_min": 10.7,
+  "temp_mean": 15.5,
+  "precipitation": 0,
+  "sunshine": 44365.82,
+  "wind_speed_max": 24.7,
+  "sunrise": "2020-04-22T06:33",
+  "sunset": "2020-04-22T19:50",
+  "sunshine_duration_seconds": 44365.82,
+  "sunshine_duration_minutes": 739,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 49,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2020-04-07",
+  "weather_code": 3,
+  "temp_max": 24.7,
+  "temp_min": 11.5,
+  "temp_mean": 16.4,
+  "precipitation": 0,
+  "sunshine": 34451.77,
+  "wind_speed_max": 27,
+  "sunrise": "2020-04-07T06:52",
+  "sunset": "2020-04-07T19:39",
+  "sunshine_duration_seconds": 34451.77,
+  "sunshine_duration_minutes": 574,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 139,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2020-06-18",
+  "weather_code": 53,
+  "temp_max": 31.7,
+  "temp_min": 19.1,
+  "temp_mean": 24.9,
+  "precipitation": 0.9,
+  "sunshine": 46036.24,
+  "wind_speed_max": 24.7,
+  "sunrise": "2020-06-18T06:01",
+  "sunset": "2020-06-18T20:27",
+  "sunshine_duration_seconds": 46036.24,
+  "sunshine_duration_minutes": 767,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 122,
+  "sunshine_consistency": "Faible"
+}

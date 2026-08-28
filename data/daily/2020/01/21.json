@@ -1,0 +1,18 @@
+{
+  "date": "2020-01-21",
+  "weather_code": 2,
+  "temp_max": 13.8,
+  "temp_min": 2.5,
+  "temp_mean": 7.8,
+  "precipitation": 0,
+  "sunshine": 35089.13,
+  "wind_speed_max": 17,
+  "sunrise": "2020-01-21T08:17",
+  "sunset": "2020-01-21T18:32",
+  "sunshine_duration_seconds": 35089.13,
+  "sunshine_duration_minutes": 585,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

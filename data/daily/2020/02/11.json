@@ -1,0 +1,18 @@
+{
+  "date": "2020-02-11",
+  "weather_code": 3,
+  "temp_max": 26,
+  "temp_min": 8.5,
+  "temp_mean": 16.3,
+  "precipitation": 0,
+  "sunshine": 38483.66,
+  "wind_speed_max": 23.7,
+  "sunrise": "2020-02-11T08:03",
+  "sunset": "2020-02-11T18:52",
+  "sunshine_duration_seconds": 38483.66,
+  "sunshine_duration_minutes": 641,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 56,
+  "sunshine_consistency": "Faible"
+}

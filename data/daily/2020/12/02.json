@@ -1,0 +1,18 @@
+{
+  "date": "2020-12-02",
+  "weather_code": 0,
+  "temp_max": 20.9,
+  "temp_min": 7.6,
+  "temp_mean": 12.8,
+  "precipitation": 0,
+  "sunshine": 35540.2,
+  "wind_speed_max": 24,
+  "sunrise": "2020-12-02T08:02",
+  "sunset": "2020-12-02T18:03",
+  "sunshine_duration_seconds": 35540.2,
+  "sunshine_duration_minutes": 592,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

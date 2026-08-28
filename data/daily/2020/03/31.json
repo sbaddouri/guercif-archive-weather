@@ -1,0 +1,18 @@
+{
+  "date": "2020-03-31",
+  "weather_code": 63,
+  "temp_max": 21.6,
+  "temp_min": 9.6,
+  "temp_mean": 14.8,
+  "precipitation": 7.5,
+  "sunshine": 42425.48,
+  "wind_speed_max": 22.7,
+  "sunrise": "2020-03-31T07:01",
+  "sunset": "2020-03-31T19:33",
+  "sunshine_duration_seconds": 42425.48,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 227,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2020-11-16",
+  "weather_code": 1,
+  "temp_max": 29.1,
+  "temp_min": 15.6,
+  "temp_mean": 21.4,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 30.9,
+  "sunrise": "2020-11-16T07:47",
+  "sunset": "2020-11-16T18:08",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

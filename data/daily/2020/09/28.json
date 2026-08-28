@@ -1,0 +1,18 @@
+{
+  "date": "2020-09-28",
+  "weather_code": 0,
+  "temp_max": 30.4,
+  "temp_min": 14.1,
+  "temp_mean": 21.8,
+  "precipitation": 0,
+  "sunshine": 42130.01,
+  "wind_speed_max": 25.7,
+  "sunrise": "2020-09-28T07:06",
+  "sunset": "2020-09-28T19:01",
+  "sunshine_duration_seconds": 42130.01,
+  "sunshine_duration_minutes": 702,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 18,
+  "sunshine_consistency": "Moyen"
+}

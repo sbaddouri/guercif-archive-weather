@@ -1,0 +1,18 @@
+{
+  "date": "2020-08-17",
+  "weather_code": 2,
+  "temp_max": 35.7,
+  "temp_min": 19.3,
+  "temp_mean": 27,
+  "precipitation": 0,
+  "sunshine": 45304.22,
+  "wind_speed_max": 29.8,
+  "sunrise": "2020-08-17T06:36",
+  "sunset": "2020-08-17T19:57",
+  "sunshine_duration_seconds": 45304.22,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

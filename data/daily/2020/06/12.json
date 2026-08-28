@@ -1,0 +1,18 @@
+{
+  "date": "2020-06-12",
+  "weather_code": 3,
+  "temp_max": 27.5,
+  "temp_min": 14.8,
+  "temp_mean": 20.5,
+  "precipitation": 0,
+  "sunshine": 46633.85,
+  "wind_speed_max": 31.8,
+  "sunrise": "2020-06-12T06:01",
+  "sunset": "2020-06-12T20:25",
+  "sunshine_duration_seconds": 46633.85,
+  "sunshine_duration_minutes": 777,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

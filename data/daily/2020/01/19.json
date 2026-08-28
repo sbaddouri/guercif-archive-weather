@@ -1,0 +1,18 @@
+{
+  "date": "2020-01-19",
+  "weather_code": 55,
+  "temp_max": 14.5,
+  "temp_min": 8.3,
+  "temp_mean": 11.6,
+  "precipitation": 3.8,
+  "sunshine": 28800,
+  "wind_speed_max": 35.9,
+  "sunrise": "2020-01-19T08:18",
+  "sunset": "2020-01-19T18:30",
+  "sunshine_duration_seconds": 28800,
+  "sunshine_duration_minutes": 480,
+  "estimated_daily_sunshine_minutes": 285,
+  "estimated_daily_sunshine": "4 h 45 min",
+  "sunshine_difference_minutes": 195,
+  "sunshine_consistency": "Faible"
+}

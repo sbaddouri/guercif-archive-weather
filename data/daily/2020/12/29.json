@@ -1,0 +1,18 @@
+{
+  "date": "2020-12-29",
+  "weather_code": 3,
+  "temp_max": 12.3,
+  "temp_min": 5.4,
+  "temp_mean": 9.1,
+  "precipitation": 0,
+  "sunshine": 972.38,
+  "wind_speed_max": 21.5,
+  "sunrise": "2020-12-29T08:18",
+  "sunset": "2020-12-29T18:12",
+  "sunshine_duration_seconds": 972.38,
+  "sunshine_duration_minutes": 16,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

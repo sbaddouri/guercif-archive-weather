@@ -1,0 +1,18 @@
+{
+  "date": "2020-04-28",
+  "weather_code": 51,
+  "temp_max": 23.2,
+  "temp_min": 12.8,
+  "temp_mean": 17.6,
+  "precipitation": 0.4,
+  "sunshine": 43200,
+  "wind_speed_max": 20.8,
+  "sunrise": "2020-04-28T06:26",
+  "sunset": "2020-04-28T19:55",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 270,
+  "sunshine_consistency": "Faible"
+}

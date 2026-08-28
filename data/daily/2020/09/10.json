@@ -1,0 +1,18 @@
+{
+  "date": "2020-09-10",
+  "weather_code": 2,
+  "temp_max": 31.7,
+  "temp_min": 15.9,
+  "temp_mean": 23.3,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 27.2,
+  "sunrise": "2020-09-10T06:53",
+  "sunset": "2020-09-10T19:26",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

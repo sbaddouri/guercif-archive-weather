@@ -1,0 +1,18 @@
+{
+  "date": "2020-05-31",
+  "weather_code": 51,
+  "temp_max": 29.6,
+  "temp_min": 15.7,
+  "temp_mean": 21.6,
+  "precipitation": 0.2,
+  "sunshine": 44110.62,
+  "wind_speed_max": 29.3,
+  "sunrise": "2020-05-31T06:03",
+  "sunset": "2020-05-31T20:19",
+  "sunshine_duration_seconds": 44110.62,
+  "sunshine_duration_minutes": 735,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 165,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2020-01-26",
+  "weather_code": 2,
+  "temp_max": 16.1,
+  "temp_min": 5.3,
+  "temp_mean": 10.6,
+  "precipitation": 0,
+  "sunshine": 35389.93,
+  "wind_speed_max": 24.8,
+  "sunrise": "2020-01-26T08:15",
+  "sunset": "2020-01-26T18:37",
+  "sunshine_duration_seconds": 35389.93,
+  "sunshine_duration_minutes": 590,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

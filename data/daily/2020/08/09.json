@@ -1,0 +1,18 @@
+{
+  "date": "2020-08-09",
+  "weather_code": 2,
+  "temp_max": 40.2,
+  "temp_min": 24.5,
+  "temp_mean": 31.7,
+  "precipitation": 0,
+  "sunshine": 45410.03,
+  "wind_speed_max": 27.6,
+  "sunrise": "2020-08-09T06:30",
+  "sunset": "2020-08-09T20:06",
+  "sunshine_duration_seconds": 45410.03,
+  "sunshine_duration_minutes": 757,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

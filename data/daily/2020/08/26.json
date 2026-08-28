@@ -1,0 +1,18 @@
+{
+  "date": "2020-08-26",
+  "weather_code": 1,
+  "temp_max": 40.9,
+  "temp_min": 22.5,
+  "temp_mean": 30.8,
+  "precipitation": 0,
+  "sunshine": 43890.56,
+  "wind_speed_max": 24.5,
+  "sunrise": "2020-08-26T06:42",
+  "sunset": "2020-08-26T19:46",
+  "sunshine_duration_seconds": 43890.56,
+  "sunshine_duration_minutes": 732,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 33,
+  "sunshine_consistency": "Faible"
+}

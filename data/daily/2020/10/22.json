@@ -1,0 +1,18 @@
+{
+  "date": "2020-10-22",
+  "weather_code": 61,
+  "temp_max": 19.4,
+  "temp_min": 15.2,
+  "temp_mean": 17.4,
+  "precipitation": 12.9,
+  "sunshine": 0,
+  "wind_speed_max": 14.2,
+  "sunrise": "2020-10-22T07:24",
+  "sunset": "2020-10-22T18:30",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 70,
+  "estimated_daily_sunshine": "1 h 10 min",
+  "sunshine_difference_minutes": 70,
+  "sunshine_consistency": "Faible"
+}

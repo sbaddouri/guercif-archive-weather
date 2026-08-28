@@ -1,0 +1,18 @@
+{
+  "date": "2020-11-26",
+  "weather_code": 63,
+  "temp_max": 16.7,
+  "temp_min": 6.8,
+  "temp_mean": 12.3,
+  "precipitation": 9.6,
+  "sunshine": 18569.7,
+  "wind_speed_max": 40,
+  "sunrise": "2020-11-26T07:57",
+  "sunset": "2020-11-26T18:04",
+  "sunshine_duration_seconds": 18569.7,
+  "sunshine_duration_minutes": 309,
+  "estimated_daily_sunshine_minutes": 70,
+  "estimated_daily_sunshine": "1 h 10 min",
+  "sunshine_difference_minutes": 239,
+  "sunshine_consistency": "Faible"
+}

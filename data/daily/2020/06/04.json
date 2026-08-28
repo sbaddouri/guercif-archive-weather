@@ -1,0 +1,18 @@
+{
+  "date": "2020-06-04",
+  "weather_code": 1,
+  "temp_max": 29.5,
+  "temp_min": 17.1,
+  "temp_mean": 23.3,
+  "precipitation": 0,
+  "sunshine": 48265.65,
+  "wind_speed_max": 38.5,
+  "sunrise": "2020-06-04T06:01",
+  "sunset": "2020-06-04T20:22",
+  "sunshine_duration_seconds": 48265.65,
+  "sunshine_duration_minutes": 804,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

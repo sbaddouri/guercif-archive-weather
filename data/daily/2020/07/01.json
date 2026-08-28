@@ -1,0 +1,18 @@
+{
+  "date": "2020-07-01",
+  "weather_code": 1,
+  "temp_max": 43.2,
+  "temp_min": 25,
+  "temp_mean": 32.3,
+  "precipitation": 0,
+  "sunshine": 47158.93,
+  "wind_speed_max": 26,
+  "sunrise": "2020-07-01T06:05",
+  "sunset": "2020-07-01T20:29",
+  "sunshine_duration_seconds": 47158.93,
+  "sunshine_duration_minutes": 786,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 54,
+  "sunshine_consistency": "Faible"
+}

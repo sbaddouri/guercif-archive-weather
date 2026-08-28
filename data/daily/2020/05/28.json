@@ -1,0 +1,18 @@
+{
+  "date": "2020-05-28",
+  "weather_code": 53,
+  "temp_max": 27.8,
+  "temp_min": 16.4,
+  "temp_mean": 21.8,
+  "precipitation": 1.8,
+  "sunshine": 41784.43,
+  "wind_speed_max": 26.6,
+  "sunrise": "2020-05-28T06:04",
+  "sunset": "2020-05-28T20:18",
+  "sunshine_duration_seconds": 41784.43,
+  "sunshine_duration_minutes": 696,
+  "estimated_daily_sunshine_minutes": 470,
+  "estimated_daily_sunshine": "7 h 50 min",
+  "sunshine_difference_minutes": 226,
+  "sunshine_consistency": "Faible"
+}
