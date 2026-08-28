@@ -1,4 +1,4 @@
-import { getDailyData, getHourlyData } from "@/lib/data";
+import { getDailyData, getHourlyData, listAvailableYears, listAvailableMonths, listAvailableDays } from "@/lib/data";
 import WeatherChart from "@/components/weather-chart";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, parseISO } from "date-fns";
@@ -17,11 +17,28 @@ interface PageProps {
   }>;
 }
 
+export async function generateStaticParams() {
+  const years = listAvailableYears();
+  const params: { year: string; month: string; day: string }[] = [];
+  for (const year of years) {
+    const months = listAvailableMonths(year);
+    for (const month of months) {
+      const days = listAvailableDays(year, month);
+      for (const day of days) {
+        params.push({ year, month, day });
+      }
+    }
+  }
+  return params;
+}
+
+export const revalidate = false;
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { year, month, day } = await params;
   const dateStr = `${year}-${month}-${day}`;
   const dateFormatted = format(parseISO(dateStr), "d MMMM yyyy", { locale: fr });
-  
+
   return {
     title: `Météo Guercif - ${dateFormatted} | Archive Climatologique`,
     description: `Découvrez les archives météo détaillées de Guercif pour le ${dateFormatted}. Températures, précipitations, vent et humidité heure par heure.`,

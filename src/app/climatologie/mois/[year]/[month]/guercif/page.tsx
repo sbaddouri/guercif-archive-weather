@@ -1,4 +1,4 @@
-import { getDailyDataForMonth, getHourlyData } from "@/lib/data";
+import { getDailyDataForMonth, getHourlyDataForMonth, hasDailyDataForMonth, listAvailableYears, listAvailableMonths } from "@/lib/data";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, parseISO, addMonths, subMonths, startOfMonth } from "date-fns";
 import { fr } from "date-fns/locale";
@@ -14,6 +14,20 @@ interface PageProps {
   }>;
 }
 
+export async function generateStaticParams() {
+  const years = listAvailableYears();
+  const params: { year: string; month: string }[] = [];
+  for (const year of years) {
+    const months = listAvailableMonths(year);
+    for (const month of months) {
+      params.push({ year, month });
+    }
+  }
+  return params;
+}
+
+export const revalidate = false;
+
 export default async function MonthPage({ params }: PageProps) {
   const { year, month } = await params;
   const dailyData = await getDailyDataForMonth(year, month);
@@ -28,28 +42,25 @@ export default async function MonthPage({ params }: PageProps) {
   }
 
   const currentDate = startOfMonth(parseISO(`${year}-${month}-01`));
-  
-  // Previous month
+
+  // Previous month (lightweight existence check only)
   const prevDate = subMonths(currentDate, 1);
   const prevYear = format(prevDate, "yyyy");
   const prevMonth = format(prevDate, "MM");
-  const prevMonthData = await getDailyDataForMonth(prevYear, prevMonth);
-  const hasPrev = prevMonthData.length > 0;
-  
-  // Next month
+  const hasPrev = hasDailyDataForMonth(prevYear, prevMonth);
+
+  // Next month (lightweight existence check only)
   const nextDate = addMonths(currentDate, 1);
   const nextYear = format(nextDate, "yyyy");
   const nextMonth = format(nextDate, "MM");
-  const nextMonthData = await getDailyDataForMonth(nextYear, nextMonth);
-  const hasNext = nextMonthData.length > 0;
+  const hasNext = hasDailyDataForMonth(nextYear, nextMonth);
 
-  // For each day, get the hourly data
-  const daysWithHourly = await Promise.all(
-    dailyData.map(async (day) => {
-      const hourly = await getHourlyData(day.date);
-      return { daily: day, hourly };
-    })
-  );
+  // Batched hourly loader: 1 folder read instead of ~31 individual reads
+  const hourlyMap = await getHourlyDataForMonth(year, month);
+  const daysWithHourly = dailyData.map(day => ({
+    daily: day,
+    hourly: hourlyMap[day.date] ?? null
+  }));
 
   // Moyennes et cumuls (filtering out null values)
   const daysWithTemp = dailyData.filter(d => d.temp_min !== null && d.temp_max !== null);

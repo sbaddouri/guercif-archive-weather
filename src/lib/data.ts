@@ -147,10 +147,36 @@ export async function getHourlyData(date: string): Promise<HourlyData[] | null> 
   return await fillMissingHourlyDataFields(data);
 }
 
+export function hasDailyDataForMonth(year: string, month: string): boolean {
+  const dir = path.join(DATA_DIR, 'daily', year, month);
+  return fs.existsSync(dir);
+}
+
+export function listAvailableYears(): string[] {
+  const dailyDir = path.join(DATA_DIR, 'daily');
+  if (!fs.existsSync(dailyDir)) return [];
+  return fs.readdirSync(dailyDir).sort((a, b) => b.localeCompare(a));
+}
+
+export function listAvailableMonths(year: string): string[] {
+  const yearDir = path.join(DATA_DIR, 'daily', year);
+  if (!fs.existsSync(yearDir)) return [];
+  return fs.readdirSync(yearDir).sort();
+}
+
+export function listAvailableDays(year: string, month: string): string[] {
+  const monthDir = path.join(DATA_DIR, 'daily', year, month);
+  if (!fs.existsSync(monthDir)) return [];
+  return fs.readdirSync(monthDir)
+    .filter(f => f.endsWith('.json'))
+    .map(f => f.replace('.json', ''))
+    .sort();
+}
+
 export async function getDailyDataForMonth(year: string, month: string): Promise<DailyData[]> {
   const dir = path.join(DATA_DIR, 'daily', year, month);
   if (!fs.existsSync(dir)) return [];
-  
+
   const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
   const results: DailyData[] = [];
   for (const file of files) {
@@ -158,8 +184,27 @@ export async function getDailyDataForMonth(year: string, month: string): Promise
     const filledData = await fillMissingDailyDataFields(data);
     results.push(filledData);
   }
-  
+
   return results.sort((a, b) => a.date.localeCompare(b.date));
+}
+
+export async function getHourlyDataForMonth(year: string, month: string): Promise<Record<string, HourlyData[]>> {
+  const dir = path.join(DATA_DIR, 'hourly', year, month);
+  const result: Record<string, HourlyData[]> = {};
+  if (!fs.existsSync(dir)) return result;
+
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+  for (const file of files) {
+    const day = file.replace('.json', '');
+    const date = `${year}-${month}-${day}`;
+    try {
+      const raw = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      result[date] = await fillMissingHourlyDataFields(raw);
+    } catch {
+      result[date] = [];
+    }
+  }
+  return result;
 }
 
 export async function getDailyDataForYear(year: string): Promise<DailyData[]> {

@@ -1,4 +1,4 @@
-import { getDailyDataForYear } from "@/lib/data";
+import { getDailyDataForYear, listAvailableYears } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, parseISO } from "date-fns";
@@ -13,6 +13,13 @@ interface PageProps {
     year: string;
   }>;
 }
+
+export async function generateStaticParams() {
+  const years = listAvailableYears();
+  return years.map(year => ({ year }));
+}
+
+export const revalidate = false;
 
 interface MonthlyStats {
   name: string;
