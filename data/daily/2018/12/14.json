@@ -1,0 +1,18 @@
+{
+  "date": "2018-12-14",
+  "weather_code": 2,
+  "temp_max": 14,
+  "temp_min": 8.2,
+  "temp_mean": 10.8,
+  "precipitation": 0,
+  "sunshine": 35054.88,
+  "wind_speed_max": 35.1,
+  "sunrise": "2018-12-14T08:11",
+  "sunset": "2018-12-14T18:04",
+  "sunshine_duration_seconds": 35054.88,
+  "sunshine_duration_minutes": 584,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 29,
+  "sunshine_consistency": "Moyen"
+}

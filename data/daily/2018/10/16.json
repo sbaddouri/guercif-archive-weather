@@ -1,0 +1,18 @@
+{
+  "date": "2018-10-16",
+  "weather_code": 63,
+  "temp_max": 21.3,
+  "temp_min": 13.7,
+  "temp_mean": 16.8,
+  "precipitation": 16.4,
+  "sunshine": 21600,
+  "wind_speed_max": 26.6,
+  "sunrise": "2018-10-16T07:19",
+  "sunset": "2018-10-16T18:38",
+  "sunshine_duration_seconds": 21600,
+  "sunshine_duration_minutes": 360,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 240,
+  "sunshine_consistency": "Faible"
+}

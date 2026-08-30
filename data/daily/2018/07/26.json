@@ -1,0 +1,18 @@
+{
+  "date": "2018-07-26",
+  "weather_code": 1,
+  "temp_max": 37.6,
+  "temp_min": 21,
+  "temp_mean": 28.3,
+  "precipitation": 0,
+  "sunshine": 46328.53,
+  "wind_speed_max": 27.2,
+  "sunrise": "2018-07-26T06:20",
+  "sunset": "2018-07-26T20:19",
+  "sunshine_duration_seconds": 46328.53,
+  "sunshine_duration_minutes": 772,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2018-11-27",
+  "weather_code": 2,
+  "temp_max": 18.3,
+  "temp_min": 3.4,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 35881.78,
+  "wind_speed_max": 11.7,
+  "sunrise": "2018-11-27T07:57",
+  "sunset": "2018-11-27T18:04",
+  "sunshine_duration_seconds": 35881.78,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}
