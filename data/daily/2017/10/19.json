@@ -1,0 +1,18 @@
+{
+  "date": "2017-10-19",
+  "weather_code": 61,
+  "temp_max": 21.4,
+  "temp_min": 15,
+  "temp_mean": 17.2,
+  "precipitation": 6.9,
+  "sunshine": 8574.86,
+  "wind_speed_max": 33.1,
+  "sunrise": "2017-10-19T07:22",
+  "sunset": "2017-10-19T18:34",
+  "sunshine_duration_seconds": 8574.86,
+  "sunshine_duration_minutes": 143,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 53,
+  "sunshine_consistency": "Faible"
+}

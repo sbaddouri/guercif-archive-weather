@@ -1,0 +1,18 @@
+{
+  "date": "2017-03-13",
+  "weather_code": 51,
+  "temp_max": 15.4,
+  "temp_min": 9.1,
+  "temp_mean": 12.4,
+  "precipitation": 1,
+  "sunshine": 40114.45,
+  "wind_speed_max": 33,
+  "sunrise": "2017-03-13T07:26",
+  "sunset": "2017-03-13T19:19",
+  "sunshine_duration_seconds": 40114.45,
+  "sunshine_duration_minutes": 669,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 234,
+  "sunshine_consistency": "Faible"
+}

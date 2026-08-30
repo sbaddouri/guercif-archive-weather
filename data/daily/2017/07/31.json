@@ -1,0 +1,18 @@
+{
+  "date": "2017-07-31",
+  "weather_code": 51,
+  "temp_max": 39.7,
+  "temp_min": 24.9,
+  "temp_mean": 31.3,
+  "precipitation": 0.1,
+  "sunshine": 33709.15,
+  "wind_speed_max": 25.2,
+  "sunrise": "2017-07-31T06:23",
+  "sunset": "2017-07-31T20:15",
+  "sunshine_duration_seconds": 33709.15,
+  "sunshine_duration_minutes": 562,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 127,
+  "sunshine_consistency": "Faible"
+}

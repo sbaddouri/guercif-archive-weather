@@ -1,0 +1,18 @@
+{
+  "date": "2017-02-14",
+  "weather_code": 3,
+  "temp_max": 18.6,
+  "temp_min": 6.7,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 38231.83,
+  "wind_speed_max": 24.4,
+  "sunrise": "2017-02-14T07:59",
+  "sunset": "2017-02-14T18:56",
+  "sunshine_duration_seconds": 38231.83,
+  "sunshine_duration_minutes": 637,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 187,
+  "sunshine_consistency": "Faible"
+}

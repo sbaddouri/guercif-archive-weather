@@ -1,0 +1,18 @@
+{
+  "date": "2017-01-20",
+  "weather_code": 53,
+  "temp_max": 9,
+  "temp_min": 1.7,
+  "temp_mean": 4.9,
+  "precipitation": 0.9,
+  "sunshine": 34760.04,
+  "wind_speed_max": 33.6,
+  "sunrise": "2017-01-20T08:17",
+  "sunset": "2017-01-20T18:31",
+  "sunshine_duration_seconds": 34760.04,
+  "sunshine_duration_minutes": 579,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 339,
+  "sunshine_consistency": "Faible"
+}

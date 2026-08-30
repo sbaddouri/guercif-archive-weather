@@ -1,0 +1,18 @@
+{
+  "date": "2017-06-06",
+  "weather_code": 0,
+  "temp_max": 34.1,
+  "temp_min": 17.1,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 50023.74,
+  "wind_speed_max": 29.5,
+  "sunrise": "2017-06-06T06:01",
+  "sunset": "2017-06-06T20:23",
+  "sunshine_duration_seconds": 50023.74,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

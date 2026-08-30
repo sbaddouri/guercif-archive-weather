@@ -1,0 +1,18 @@
+{
+  "date": "2017-07-14",
+  "weather_code": 3,
+  "temp_max": 44.2,
+  "temp_min": 22.9,
+  "temp_mean": 33.4,
+  "precipitation": 0,
+  "sunshine": 43679.96,
+  "wind_speed_max": 38.2,
+  "sunrise": "2017-07-14T06:12",
+  "sunset": "2017-07-14T20:26",
+  "sunshine_duration_seconds": 43679.96,
+  "sunshine_duration_minutes": 728,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2017-12-07",
+  "weather_code": 0,
+  "temp_max": 12.2,
+  "temp_min": -0.7,
+  "temp_mean": 5,
+  "precipitation": 0,
+  "sunshine": 35302.19,
+  "wind_speed_max": 7.9,
+  "sunrise": "2017-12-07T08:06",
+  "sunset": "2017-12-07T18:03",
+  "sunshine_duration_seconds": 35302.19,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

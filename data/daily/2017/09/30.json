@@ -1,0 +1,18 @@
+{
+  "date": "2017-09-30",
+  "weather_code": 3,
+  "temp_max": 27.7,
+  "temp_min": 18.6,
+  "temp_mean": 22,
+  "precipitation": 0,
+  "sunshine": 24903.93,
+  "wind_speed_max": 19,
+  "sunrise": "2017-09-30T07:07",
+  "sunset": "2017-09-30T18:59",
+  "sunshine_duration_seconds": 24903.93,
+  "sunshine_duration_minutes": 415,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 100,
+  "sunshine_consistency": "Faible"
+}

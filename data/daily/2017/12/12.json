@@ -1,0 +1,18 @@
+{
+  "date": "2017-12-12",
+  "weather_code": 51,
+  "temp_max": 12.8,
+  "temp_min": 6.2,
+  "temp_mean": 8.6,
+  "precipitation": 0.1,
+  "sunshine": 27005.01,
+  "wind_speed_max": 17.1,
+  "sunrise": "2017-12-12T08:10",
+  "sunset": "2017-12-12T18:04",
+  "sunshine_duration_seconds": 27005.01,
+  "sunshine_duration_minutes": 450,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 120,
+  "sunshine_consistency": "Faible"
+}

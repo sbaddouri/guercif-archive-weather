@@ -1,0 +1,18 @@
+{
+  "date": "2017-10-20",
+  "weather_code": 2,
+  "temp_max": 25.1,
+  "temp_min": 14.9,
+  "temp_mean": 19.3,
+  "precipitation": 0,
+  "sunshine": 36443.29,
+  "wind_speed_max": 27.3,
+  "sunrise": "2017-10-20T07:22",
+  "sunset": "2017-10-20T18:33",
+  "sunshine_duration_seconds": 36443.29,
+  "sunshine_duration_minutes": 607,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 157,
+  "sunshine_consistency": "Faible"
+}

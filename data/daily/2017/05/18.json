@@ -1,0 +1,18 @@
+{
+  "date": "2017-05-18",
+  "weather_code": 51,
+  "temp_max": 31.5,
+  "temp_min": 15.5,
+  "temp_mean": 23.7,
+  "precipitation": 0.2,
+  "sunshine": 47215.25,
+  "wind_speed_max": 35.8,
+  "sunrise": "2017-05-18T06:09",
+  "sunset": "2017-05-18T20:10",
+  "sunshine_duration_seconds": 47215.25,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 157,
+  "sunshine_consistency": "Faible"
+}
