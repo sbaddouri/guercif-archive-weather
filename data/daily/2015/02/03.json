@@ -1,0 +1,18 @@
+{
+  "date": "2015-02-03",
+  "weather_code": 2,
+  "temp_max": 14.9,
+  "temp_min": 4.9,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 37627.46,
+  "wind_speed_max": 30.3,
+  "sunrise": "2015-02-03T08:09",
+  "sunset": "2015-02-03T18:45",
+  "sunshine_duration_seconds": 37627.46,
+  "sunshine_duration_minutes": 627,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 252,
+  "sunshine_consistency": "Faible"
+}

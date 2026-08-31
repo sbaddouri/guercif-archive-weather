@@ -1,0 +1,18 @@
+{
+  "date": "2014-09-16",
+  "weather_code": 51,
+  "temp_max": 35.8,
+  "temp_min": 22.9,
+  "temp_mean": 28.7,
+  "precipitation": 0.3,
+  "sunshine": 38113.1,
+  "wind_speed_max": 23.2,
+  "sunrise": "2014-09-16T06:57",
+  "sunset": "2014-09-16T19:18",
+  "sunshine_duration_seconds": 38113.1,
+  "sunshine_duration_minutes": 635,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 560,
+  "sunshine_consistency": "Faible"
+}

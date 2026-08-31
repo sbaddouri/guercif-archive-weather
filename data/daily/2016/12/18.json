@@ -1,0 +1,18 @@
+{
+  "date": "2016-12-18",
+  "weather_code": 63,
+  "temp_max": 8.3,
+  "temp_min": 3.3,
+  "temp_mean": 6.4,
+  "precipitation": 25.8,
+  "sunshine": 6499.79,
+  "wind_speed_max": 9.4,
+  "sunrise": "2016-12-18T08:14",
+  "sunset": "2016-12-18T18:06",
+  "sunshine_duration_seconds": 6499.79,
+  "sunshine_duration_minutes": 108,
+  "estimated_daily_sunshine_minutes": 80,
+  "estimated_daily_sunshine": "1 h 20 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2014-08-15",
+  "weather_code": 0,
+  "temp_max": 35.3,
+  "temp_min": 22,
+  "temp_mean": 27.7,
+  "precipitation": 0,
+  "sunshine": 46602.49,
+  "wind_speed_max": 22.9,
+  "sunrise": "2014-08-15T06:34",
+  "sunset": "2014-08-15T20:00",
+  "sunshine_duration_seconds": 46602.49,
+  "sunshine_duration_minutes": 777,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 3,
+  "sunshine_consistency": "Excellent"
+}

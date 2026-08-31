@@ -1,0 +1,18 @@
+{
+  "date": "2014-09-08",
+  "weather_code": 1,
+  "temp_max": 31.6,
+  "temp_min": 20.7,
+  "temp_mean": 25.7,
+  "precipitation": 0,
+  "sunshine": 43250.24,
+  "wind_speed_max": 20.9,
+  "sunrise": "2014-09-08T06:51",
+  "sunset": "2014-09-08T19:30",
+  "sunshine_duration_seconds": 43250.24,
+  "sunshine_duration_minutes": 721,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 46,
+  "sunshine_consistency": "Faible"
+}

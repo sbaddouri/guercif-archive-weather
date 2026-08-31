@@ -1,0 +1,18 @@
+{
+  "date": "2014-04-29",
+  "weather_code": 1,
+  "temp_max": 31.2,
+  "temp_min": 15.2,
+  "temp_mean": 23.8,
+  "precipitation": 0,
+  "sunshine": 46863.76,
+  "wind_speed_max": 19.9,
+  "sunrise": "2014-04-29T06:26",
+  "sunset": "2014-04-29T19:55",
+  "sunshine_duration_seconds": 46863.76,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

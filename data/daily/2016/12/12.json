@@ -1,0 +1,18 @@
+{
+  "date": "2016-12-12",
+  "weather_code": 0,
+  "temp_max": 16.6,
+  "temp_min": 3.9,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 35109.98,
+  "wind_speed_max": 7.6,
+  "sunrise": "2016-12-12T08:10",
+  "sunset": "2016-12-12T18:04",
+  "sunshine_duration_seconds": 35109.98,
+  "sunshine_duration_minutes": 585,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

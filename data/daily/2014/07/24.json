@@ -1,0 +1,18 @@
+{
+  "date": "2014-07-24",
+  "weather_code": 3,
+  "temp_max": 35.6,
+  "temp_min": 22,
+  "temp_mean": 28.6,
+  "precipitation": 0,
+  "sunshine": 39907,
+  "wind_speed_max": 25.3,
+  "sunrise": "2014-07-24T06:18",
+  "sunset": "2014-07-24T20:20",
+  "sunshine_duration_seconds": 39907,
+  "sunshine_duration_minutes": 665,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

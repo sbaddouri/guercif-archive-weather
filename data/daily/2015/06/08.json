@@ -1,0 +1,18 @@
+{
+  "date": "2015-06-08",
+  "weather_code": 51,
+  "temp_max": 30.5,
+  "temp_min": 17.9,
+  "temp_mean": 23.6,
+  "precipitation": 0.2,
+  "sunshine": 47901.86,
+  "wind_speed_max": 25.8,
+  "sunrise": "2015-06-08T06:01",
+  "sunset": "2015-06-08T20:23",
+  "sunshine_duration_seconds": 47901.86,
+  "sunshine_duration_minutes": 798,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 273,
+  "sunshine_consistency": "Faible"
+}

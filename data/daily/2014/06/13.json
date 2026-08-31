@@ -1,0 +1,18 @@
+{
+  "date": "2014-06-13",
+  "weather_code": 2,
+  "temp_max": 33.9,
+  "temp_min": 19.9,
+  "temp_mean": 26.3,
+  "precipitation": 0,
+  "sunshine": 50052.98,
+  "wind_speed_max": 20.8,
+  "sunrise": "2014-06-13T06:01",
+  "sunset": "2014-06-13T20:26",
+  "sunshine_duration_seconds": 50052.98,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

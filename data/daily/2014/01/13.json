@@ -1,0 +1,18 @@
+{
+  "date": "2014-01-13",
+  "weather_code": 53,
+  "temp_max": 16.7,
+  "temp_min": 5,
+  "temp_mean": 10.4,
+  "precipitation": 1.6,
+  "sunshine": 19764.08,
+  "wind_speed_max": 14.7,
+  "sunrise": "2014-01-13T08:19",
+  "sunset": "2014-01-13T18:24",
+  "sunshine_duration_seconds": 19764.08,
+  "sunshine_duration_minutes": 329,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

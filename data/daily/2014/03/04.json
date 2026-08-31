@@ -1,0 +1,18 @@
+{
+  "date": "2014-03-04",
+  "weather_code": 2,
+  "temp_max": 16.2,
+  "temp_min": 8.2,
+  "temp_mean": 11.7,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 28.9,
+  "sunrise": "2014-03-04T07:38",
+  "sunset": "2014-03-04T19:12",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 45,
+  "sunshine_consistency": "Faible"
+}

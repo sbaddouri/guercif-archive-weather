@@ -1,0 +1,18 @@
+{
+  "date": "2014-08-26",
+  "weather_code": 53,
+  "temp_max": 39.7,
+  "temp_min": 25.3,
+  "temp_mean": 31.6,
+  "precipitation": 0.6,
+  "sunshine": 45568.67,
+  "wind_speed_max": 9.6,
+  "sunrise": "2014-08-26T06:42",
+  "sunset": "2014-08-26T19:47",
+  "sunshine_duration_seconds": 45568.67,
+  "sunshine_duration_minutes": 759,
+  "estimated_daily_sunshine_minutes": 685,
+  "estimated_daily_sunshine": "11 h 25 min",
+  "sunshine_difference_minutes": 74,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2014-04-24",
+  "weather_code": 1,
+  "temp_max": 26.4,
+  "temp_min": 12,
+  "temp_mean": 19.5,
+  "precipitation": 0,
+  "sunshine": 46211.79,
+  "wind_speed_max": 25.2,
+  "sunrise": "2014-04-24T06:31",
+  "sunset": "2014-04-24T19:52",
+  "sunshine_duration_seconds": 46211.79,
+  "sunshine_duration_minutes": 770,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 35,
+  "sunshine_consistency": "Faible"
+}

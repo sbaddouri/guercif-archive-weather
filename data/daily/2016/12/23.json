@@ -1,0 +1,18 @@
+{
+  "date": "2016-12-23",
+  "weather_code": 2,
+  "temp_max": 13.9,
+  "temp_min": 2.4,
+  "temp_mean": 7.8,
+  "precipitation": 0,
+  "sunshine": 33812.52,
+  "wind_speed_max": 8.4,
+  "sunrise": "2016-12-23T08:16",
+  "sunset": "2016-12-23T18:08",
+  "sunshine_duration_seconds": 33812.52,
+  "sunshine_duration_minutes": 564,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 69,
+  "sunshine_consistency": "Faible"
+}

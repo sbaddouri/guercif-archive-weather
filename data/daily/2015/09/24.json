@@ -1,0 +1,18 @@
+{
+  "date": "2015-09-24",
+  "weather_code": 53,
+  "temp_max": 29.5,
+  "temp_min": 19.7,
+  "temp_mean": 24.1,
+  "precipitation": 0.7,
+  "sunshine": 42796.4,
+  "wind_speed_max": 18.8,
+  "sunrise": "2015-09-24T07:02",
+  "sunset": "2015-09-24T19:08",
+  "sunshine_duration_seconds": 42796.4,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 475,
+  "estimated_daily_sunshine": "7 h 55 min",
+  "sunshine_difference_minutes": 238,
+  "sunshine_consistency": "Faible"
+}

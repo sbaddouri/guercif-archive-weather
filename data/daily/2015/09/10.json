@@ -1,0 +1,18 @@
+{
+  "date": "2015-09-10",
+  "weather_code": 2,
+  "temp_max": 33.6,
+  "temp_min": 17.3,
+  "temp_mean": 25.9,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 15.1,
+  "sunrise": "2015-09-10T06:52",
+  "sunset": "2015-09-10T19:27",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 45,
+  "sunshine_consistency": "Faible"
+}

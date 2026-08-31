@@ -1,0 +1,18 @@
+{
+  "date": "2014-12-08",
+  "weather_code": 0,
+  "temp_max": 14.2,
+  "temp_min": 0.4,
+  "temp_mean": 7.4,
+  "precipitation": 0,
+  "sunshine": 35267.02,
+  "wind_speed_max": 5.2,
+  "sunrise": "2014-12-08T08:06",
+  "sunset": "2014-12-08T18:03",
+  "sunshine_duration_seconds": 35267.02,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2014-12-03",
+  "weather_code": 55,
+  "temp_max": 16.3,
+  "temp_min": 11.3,
+  "temp_mean": 13.2,
+  "precipitation": 1.8,
+  "sunshine": 34997.54,
+  "wind_speed_max": 19.8,
+  "sunrise": "2014-12-03T08:02",
+  "sunset": "2014-12-03T18:03",
+  "sunshine_duration_seconds": 34997.54,
+  "sunshine_duration_minutes": 583,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 253,
+  "sunshine_consistency": "Faible"
+}

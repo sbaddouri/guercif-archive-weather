@@ -1,0 +1,18 @@
+{
+  "date": "2015-02-04",
+  "weather_code": 61,
+  "temp_max": 10.9,
+  "temp_min": 5.2,
+  "temp_mean": 8.9,
+  "precipitation": 6.4,
+  "sunshine": 21384.96,
+  "wind_speed_max": 31.7,
+  "sunrise": "2015-02-04T08:08",
+  "sunset": "2015-02-04T18:46",
+  "sunshine_duration_seconds": 21384.96,
+  "sunshine_duration_minutes": 356,
+  "estimated_daily_sunshine_minutes": 85,
+  "estimated_daily_sunshine": "1 h 25 min",
+  "sunshine_difference_minutes": 271,
+  "sunshine_consistency": "Faible"
+}

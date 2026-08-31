@@ -1,0 +1,18 @@
+{
+  "date": "2014-06-24",
+  "weather_code": 55,
+  "temp_max": 25.1,
+  "temp_min": 17.3,
+  "temp_mean": 20.8,
+  "precipitation": 3.2,
+  "sunshine": 40009.19,
+  "wind_speed_max": 22.5,
+  "sunrise": "2014-06-24T06:02",
+  "sunset": "2014-06-24T20:28",
+  "sunshine_duration_seconds": 40009.19,
+  "sunshine_duration_minutes": 667,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 127,
+  "sunshine_consistency": "Faible"
+}

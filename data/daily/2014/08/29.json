@@ -1,0 +1,18 @@
+{
+  "date": "2014-08-29",
+  "weather_code": 51,
+  "temp_max": 38.7,
+  "temp_min": 26.1,
+  "temp_mean": 31.9,
+  "precipitation": 0.1,
+  "sunshine": 40888.33,
+  "wind_speed_max": 14.7,
+  "sunrise": "2014-08-29T06:44",
+  "sunset": "2014-08-29T19:43",
+  "sunshine_duration_seconds": 40888.33,
+  "sunshine_duration_minutes": 681,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 156,
+  "sunshine_consistency": "Faible"
+}

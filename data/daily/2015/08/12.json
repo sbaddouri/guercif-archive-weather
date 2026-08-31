@@ -1,0 +1,18 @@
+{
+  "date": "2015-08-12",
+  "weather_code": 53,
+  "temp_max": 39.7,
+  "temp_min": 25.1,
+  "temp_mean": 31.8,
+  "precipitation": 1.4,
+  "sunshine": 39600,
+  "wind_speed_max": 14.6,
+  "sunrise": "2015-08-12T06:32",
+  "sunset": "2015-08-12T20:04",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 680,
+  "estimated_daily_sunshine": "11 h 20 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

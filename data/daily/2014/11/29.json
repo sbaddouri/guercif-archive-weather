@@ -1,0 +1,18 @@
+{
+  "date": "2014-11-29",
+  "weather_code": 61,
+  "temp_max": 13.8,
+  "temp_min": 8,
+  "temp_mean": 10.7,
+  "precipitation": 6.1,
+  "sunshine": 18314.48,
+  "wind_speed_max": 8.4,
+  "sunrise": "2014-11-29T07:59",
+  "sunset": "2014-11-29T18:04",
+  "sunshine_duration_seconds": 18314.48,
+  "sunshine_duration_minutes": 305,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": 110,
+  "sunshine_consistency": "Faible"
+}

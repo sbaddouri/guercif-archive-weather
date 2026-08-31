@@ -1,0 +1,18 @@
+{
+  "date": "2014-09-30",
+  "weather_code": 55,
+  "temp_max": 28.7,
+  "temp_min": 18.3,
+  "temp_mean": 22.4,
+  "precipitation": 3.7,
+  "sunshine": 39095.18,
+  "wind_speed_max": 21.1,
+  "sunrise": "2014-09-30T07:07",
+  "sunset": "2014-09-30T18:59",
+  "sunshine_duration_seconds": 39095.18,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 217,
+  "sunshine_consistency": "Faible"
+}

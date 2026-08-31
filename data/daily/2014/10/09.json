@@ -1,0 +1,18 @@
+{
+  "date": "2014-10-09",
+  "weather_code": 2,
+  "temp_max": 29.7,
+  "temp_min": 16.2,
+  "temp_mean": 23.7,
+  "precipitation": 0,
+  "sunshine": 39926.19,
+  "wind_speed_max": 11.2,
+  "sunrise": "2014-10-09T07:13",
+  "sunset": "2014-10-09T18:47",
+  "sunshine_duration_seconds": 39926.19,
+  "sunshine_duration_minutes": 665,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 50,
+  "sunshine_consistency": "Faible"
+}

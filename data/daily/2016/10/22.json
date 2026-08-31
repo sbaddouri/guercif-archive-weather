@@ -1,0 +1,18 @@
+{
+  "date": "2016-10-22",
+  "weather_code": 53,
+  "temp_max": 26.2,
+  "temp_min": 16.3,
+  "temp_mean": 21.6,
+  "precipitation": 0.6,
+  "sunshine": 35892.32,
+  "wind_speed_max": 14.9,
+  "sunrise": "2016-10-22T07:24",
+  "sunset": "2016-10-22T18:30",
+  "sunshine_duration_seconds": 35892.32,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 355,
+  "estimated_daily_sunshine": "5 h 55 min",
+  "sunshine_difference_minutes": 243,
+  "sunshine_consistency": "Faible"
+}

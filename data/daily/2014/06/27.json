@@ -1,0 +1,18 @@
+{
+  "date": "2014-06-27",
+  "weather_code": 1,
+  "temp_max": 35.7,
+  "temp_min": 19.8,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 49892.66,
+  "wind_speed_max": 24.8,
+  "sunrise": "2014-06-27T06:03",
+  "sunset": "2014-06-27T20:29",
+  "sunshine_duration_seconds": 49892.66,
+  "sunshine_duration_minutes": 832,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

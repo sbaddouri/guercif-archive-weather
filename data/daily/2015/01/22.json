@@ -1,0 +1,18 @@
+{
+  "date": "2015-01-22",
+  "weather_code": 55,
+  "temp_max": 11.2,
+  "temp_min": 6.6,
+  "temp_mean": 8.7,
+  "precipitation": 6.9,
+  "sunshine": 32245.69,
+  "wind_speed_max": 33.2,
+  "sunrise": "2015-01-22T08:16",
+  "sunset": "2015-01-22T18:33",
+  "sunshine_duration_seconds": 32245.69,
+  "sunshine_duration_minutes": 537,
+  "estimated_daily_sunshine_minutes": 165,
+  "estimated_daily_sunshine": "2 h 45 min",
+  "sunshine_difference_minutes": 372,
+  "sunshine_consistency": "Faible"
+}
