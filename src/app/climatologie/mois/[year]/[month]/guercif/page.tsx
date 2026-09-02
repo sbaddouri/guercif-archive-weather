@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { getTemperatureColor, getPrecipitationColor, getTextColor, getSunshineColor, getWeatherIcon, calculateMonthlySunshine, formatSunshineDuration } from "@/lib/weather-colors";
 import { Button } from "@/components/ui/button";
+import { notFound } from "next/navigation";
 
 interface PageProps {
   params: Promise<{
@@ -33,12 +34,7 @@ export default async function MonthPage({ params }: PageProps) {
   const dailyData = await getDailyDataForMonth(year, month);
 
   if (dailyData.length === 0) {
-    return (
-      <div className="text-center py-20">
-        <h1 className="text-2xl font-bold">Aucune donnée pour {month}/{year}</h1>
-        <Link href="/" className="text-primary hover:underline">Retour à l'accueil</Link>
-      </div>
-    );
+    notFound();
   }
 
   const currentDate = startOfMonth(parseISO(`${year}-${month}-01`));

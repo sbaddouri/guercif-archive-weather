@@ -7,6 +7,7 @@ import Link from "next/link";
 import { getTemperatureColor, getPrecipitationColor, getTextColor, getSunshineColor, formatSunshineDuration } from "@/lib/weather-colors";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { notFound } from "next/navigation";
 
 interface PageProps {
   params: Promise<{
@@ -45,12 +46,7 @@ export default async function YearPage({ params }: PageProps) {
   const data = await getDailyDataForYear(year);
 
   if (data.length === 0) {
-    return (
-      <div className="text-center py-20">
-        <h1 className="text-2xl font-bold">Aucune donnée pour l'année {year}</h1>
-        <Link href="/" className="text-primary hover:underline">Retour à l'accueil</Link>
-      </div>
-    );
+    notFound();
   }
 
   // Group by month
