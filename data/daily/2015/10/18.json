@@ -1,0 +1,18 @@
+{
+  "date": "2015-10-18",
+  "weather_code": 2,
+  "temp_max": 26.3,
+  "temp_min": 14.4,
+  "temp_mean": 20.8,
+  "precipitation": 0,
+  "sunshine": 37409.62,
+  "wind_speed_max": 14.3,
+  "sunrise": "2015-10-18T07:20",
+  "sunset": "2015-10-18T18:36",
+  "sunshine_duration_seconds": 37409.62,
+  "sunshine_duration_minutes": 623,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 128,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2015-06-05",
+  "weather_code": 61,
+  "temp_max": 31,
+  "temp_min": 17.7,
+  "temp_mean": 24.2,
+  "precipitation": 1.4,
+  "sunshine": 45231.26,
+  "wind_speed_max": 10.5,
+  "sunrise": "2015-06-05T06:01",
+  "sunset": "2015-06-05T20:22",
+  "sunshine_duration_seconds": 45231.26,
+  "sunshine_duration_minutes": 754,
+  "estimated_daily_sunshine_minutes": 485,
+  "estimated_daily_sunshine": "8 h 05 min",
+  "sunshine_difference_minutes": 269,
+  "sunshine_consistency": "Faible"
+}

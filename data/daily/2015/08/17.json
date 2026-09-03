@@ -1,0 +1,18 @@
+{
+  "date": "2015-08-17",
+  "weather_code": 2,
+  "temp_max": 34.8,
+  "temp_min": 19.2,
+  "temp_mean": 27.2,
+  "precipitation": 0,
+  "sunshine": 46478.2,
+  "wind_speed_max": 21.5,
+  "sunrise": "2015-08-17T06:35",
+  "sunset": "2015-08-17T19:58",
+  "sunshine_duration_seconds": 46478.2,
+  "sunshine_duration_minutes": 775,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

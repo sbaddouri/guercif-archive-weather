@@ -1,0 +1,18 @@
+{
+  "date": "2015-12-24",
+  "weather_code": 3,
+  "temp_max": 18.5,
+  "temp_min": 4.8,
+  "temp_mean": 11.7,
+  "precipitation": 0,
+  "sunshine": 34464.02,
+  "wind_speed_max": 8.4,
+  "sunrise": "2015-12-24T08:16",
+  "sunset": "2015-12-24T18:09",
+  "sunshine_duration_seconds": 34464.02,
+  "sunshine_duration_minutes": 574,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 349,
+  "sunshine_consistency": "Faible"
+}

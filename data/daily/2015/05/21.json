@@ -1,0 +1,18 @@
+{
+  "date": "2015-05-21",
+  "weather_code": 2,
+  "temp_max": 24.9,
+  "temp_min": 14.6,
+  "temp_mean": 19.2,
+  "precipitation": 0,
+  "sunshine": 46464.4,
+  "wind_speed_max": 25.5,
+  "sunrise": "2015-05-21T06:07",
+  "sunset": "2015-05-21T20:12",
+  "sunshine_duration_seconds": 46464.4,
+  "sunshine_duration_minutes": 774,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

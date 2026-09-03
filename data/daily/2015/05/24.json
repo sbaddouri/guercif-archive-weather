@@ -1,0 +1,18 @@
+{
+  "date": "2015-05-24",
+  "weather_code": 63,
+  "temp_max": 16.8,
+  "temp_min": 13.6,
+  "temp_mean": 15,
+  "precipitation": 18.4,
+  "sunshine": 15282.29,
+  "wind_speed_max": 21.6,
+  "sunrise": "2015-05-24T06:06",
+  "sunset": "2015-05-24T20:14",
+  "sunshine_duration_seconds": 15282.29,
+  "sunshine_duration_minutes": 255,
+  "estimated_daily_sunshine_minutes": 95,
+  "estimated_daily_sunshine": "1 h 35 min",
+  "sunshine_difference_minutes": 160,
+  "sunshine_consistency": "Faible"
+}

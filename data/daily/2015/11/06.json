@@ -1,0 +1,18 @@
+{
+  "date": "2015-11-06",
+  "weather_code": 0,
+  "temp_max": 22.3,
+  "temp_min": 10.5,
+  "temp_mean": 17,
+  "precipitation": 0,
+  "sunshine": 36046.2,
+  "wind_speed_max": 10.4,
+  "sunrise": "2015-11-06T07:37",
+  "sunset": "2015-11-06T18:16",
+  "sunshine_duration_seconds": 36046.2,
+  "sunshine_duration_minutes": 601,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 59,
+  "sunshine_consistency": "Faible"
+}

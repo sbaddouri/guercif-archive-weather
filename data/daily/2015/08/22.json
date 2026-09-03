@@ -1,0 +1,18 @@
+{
+  "date": "2015-08-22",
+  "weather_code": 61,
+  "temp_max": 35.1,
+  "temp_min": 22.8,
+  "temp_mean": 28.9,
+  "precipitation": 1.5,
+  "sunshine": 45715.99,
+  "wind_speed_max": 13.9,
+  "sunrise": "2015-08-22T06:39",
+  "sunset": "2015-08-22T19:52",
+  "sunshine_duration_seconds": 45715.99,
+  "sunshine_duration_minutes": 762,
+  "estimated_daily_sunshine_minutes": 515,
+  "estimated_daily_sunshine": "8 h 35 min",
+  "sunshine_difference_minutes": 247,
+  "sunshine_consistency": "Faible"
+}
