@@ -1,9 +1,9 @@
 {
   "date": "2014-02-08",
   "weather_code": 3,
-  "temp_max": 17,
-  "temp_min": 3.8,
-  "temp_mean": 10.4,
+  "temp_max": 17.1,
+  "temp_min": 4.1,
+  "temp_mean": 10.5,
   "precipitation": 0,
   "sunshine": 38201.57,
   "wind_speed_max": 22.7,

@@ -1,9 +1,9 @@
 {
   "date": "2014-12-15",
   "weather_code": 51,
-  "temp_max": 12.5,
-  "temp_min": 5,
-  "temp_mean": 8.7,
+  "temp_max": 12.6,
+  "temp_min": 6,
+  "temp_mean": 9.1,
   "precipitation": 1.3,
   "sunshine": 32968.95,
   "wind_speed_max": 25.6,

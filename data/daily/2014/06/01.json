@@ -1,9 +1,9 @@
 {
   "date": "2014-06-01",
   "weather_code": 55,
-  "temp_max": 20.3,
-  "temp_min": 14.3,
-  "temp_mean": 16.8,
+  "temp_max": 20.4,
+  "temp_min": 14.4,
+  "temp_mean": 16.9,
   "precipitation": 5.9,
   "sunshine": 33221.9,
   "wind_speed_max": 25,

@@ -1,9 +1,9 @@
 {
   "date": "2014-02-23",
   "weather_code": 1,
-  "temp_max": 22.8,
-  "temp_min": 3.3,
-  "temp_mean": 12.3,
+  "temp_max": 22.9,
+  "temp_min": 3.9,
+  "temp_mean": 12.7,
   "precipitation": 0,
   "sunshine": 39600,
   "wind_speed_max": 15,

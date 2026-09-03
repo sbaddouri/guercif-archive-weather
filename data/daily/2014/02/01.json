@@ -1,9 +1,9 @@
 {
   "date": "2014-02-01",
   "weather_code": 51,
-  "temp_max": 14.5,
-  "temp_min": 10.7,
-  "temp_mean": 12,
+  "temp_max": 14.7,
+  "temp_min": 11,
+  "temp_mean": 12.2,
   "precipitation": 1.1,
   "sunshine": 22410.21,
   "wind_speed_max": 32.8,

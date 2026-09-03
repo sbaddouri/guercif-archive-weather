@@ -1,9 +1,9 @@
 {
   "date": "2014-03-18",
   "weather_code": 3,
-  "temp_max": 25,
-  "temp_min": 6.1,
-  "temp_mean": 16.4,
+  "temp_max": 25.3,
+  "temp_min": 6.2,
+  "temp_mean": 16.7,
   "precipitation": 0,
   "sunshine": 40749.19,
   "wind_speed_max": 12.6,

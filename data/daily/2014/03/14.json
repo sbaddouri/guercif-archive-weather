@@ -1,9 +1,9 @@
 {
   "date": "2014-03-14",
   "weather_code": 53,
-  "temp_max": 12.5,
-  "temp_min": 7.9,
-  "temp_mean": 9.9,
+  "temp_max": 12.7,
+  "temp_min": 7.5,
+  "temp_mean": 10.1,
   "precipitation": 2.3,
   "sunshine": 18024.54,
   "wind_speed_max": 16,

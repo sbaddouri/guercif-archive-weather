@@ -1,8 +1,8 @@
 {
   "date": "2014-08-27",
   "weather_code": 51,
-  "temp_max": 40,
-  "temp_min": 23.3,
+  "temp_max": 40.4,
+  "temp_min": 22.6,
   "temp_mean": 32.2,
   "precipitation": 0.4,
   "sunshine": 37556.04,

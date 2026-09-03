@@ -1,8 +1,8 @@
 {
   "date": "2014-05-25",
   "weather_code": 2,
-  "temp_max": 24.6,
-  "temp_min": 11,
+  "temp_max": 24.5,
+  "temp_min": 10.8,
   "temp_mean": 17.8,
   "precipitation": 0,
   "sunshine": 49792.39,

@@ -1,9 +1,9 @@
 {
   "date": "2014-05-08",
   "weather_code": 3,
-  "temp_max": 32.1,
-  "temp_min": 20.6,
-  "temp_mean": 25.5,
+  "temp_max": 32.5,
+  "temp_min": 20.5,
+  "temp_mean": 25.7,
   "precipitation": 0,
   "sunshine": 47276.51,
   "wind_speed_max": 20.4,

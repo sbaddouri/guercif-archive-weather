@@ -1,9 +1,9 @@
 {
   "date": "2014-01-10",
   "weather_code": 3,
-  "temp_max": 17.5,
-  "temp_min": 11.2,
-  "temp_mean": 13.9,
+  "temp_max": 17.2,
+  "temp_min": 11.4,
+  "temp_mean": 14,
   "precipitation": 0,
   "sunshine": 20464.23,
   "wind_speed_max": 21.8,

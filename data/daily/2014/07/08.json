@@ -1,9 +1,9 @@
 {
   "date": "2014-07-08",
   "weather_code": 0,
-  "temp_max": 35.9,
-  "temp_min": 20.8,
-  "temp_mean": 27.2,
+  "temp_max": 35.8,
+  "temp_min": 21,
+  "temp_mean": 27.3,
   "precipitation": 0,
   "sunshine": 49392.64,
   "wind_speed_max": 23.4,

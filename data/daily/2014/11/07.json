@@ -1,9 +1,9 @@
 {
   "date": "2014-11-07",
   "weather_code": 1,
-  "temp_max": 19.7,
-  "temp_min": 8.9,
-  "temp_mean": 14,
+  "temp_max": 20,
+  "temp_min": 9.3,
+  "temp_mean": 14.3,
   "precipitation": 0,
   "sunshine": 36000,
   "wind_speed_max": 12,

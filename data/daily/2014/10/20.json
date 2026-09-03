@@ -1,9 +1,9 @@
 {
   "date": "2014-10-20",
   "weather_code": 3,
-  "temp_max": 34.4,
-  "temp_min": 19.4,
-  "temp_mean": 26.5,
+  "temp_max": 34.1,
+  "temp_min": 19.9,
+  "temp_mean": 26.2,
   "precipitation": 0,
   "sunshine": 38128.95,
   "wind_speed_max": 19.6,

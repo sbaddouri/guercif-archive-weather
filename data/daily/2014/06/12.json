@@ -1,9 +1,9 @@
 {
   "date": "2014-06-12",
   "weather_code": 53,
-  "temp_max": 32.1,
-  "temp_min": 18.9,
-  "temp_mean": 25.4,
+  "temp_max": 32.3,
+  "temp_min": 19.3,
+  "temp_mean": 25.6,
   "precipitation": 1.2,
   "sunshine": 43200,
   "wind_speed_max": 14.1,

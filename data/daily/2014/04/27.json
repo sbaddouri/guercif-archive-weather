@@ -1,9 +1,9 @@
 {
   "date": "2014-04-27",
   "weather_code": 1,
-  "temp_max": 29.7,
-  "temp_min": 12.6,
-  "temp_mean": 21.7,
+  "temp_max": 30,
+  "temp_min": 12.8,
+  "temp_mean": 21.9,
   "precipitation": 0,
   "sunshine": 46542.71,
   "wind_speed_max": 12.6,

@@ -1,8 +1,8 @@
 {
   "date": "2014-10-09",
   "weather_code": 2,
-  "temp_max": 29.7,
-  "temp_min": 16.2,
+  "temp_max": 30,
+  "temp_min": 15.5,
   "temp_mean": 23.7,
   "precipitation": 0,
   "sunshine": 39926.19,

@@ -1,9 +1,9 @@
 {
   "date": "2014-12-31",
   "weather_code": 0,
-  "temp_max": 12.3,
-  "temp_min": -1.9,
-  "temp_mean": 5,
+  "temp_max": 12.5,
+  "temp_min": -1.4,
+  "temp_mean": 5.3,
   "precipitation": 0,
   "sunshine": 34574.04,
   "wind_speed_max": 5.1,

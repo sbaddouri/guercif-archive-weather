@@ -1,9 +1,9 @@
 {
   "date": "2014-12-09",
   "weather_code": 1,
-  "temp_max": 16.1,
-  "temp_min": 3.1,
-  "temp_mean": 9.2,
+  "temp_max": 16.2,
+  "temp_min": 3.4,
+  "temp_mean": 9.3,
   "precipitation": 0,
   "sunshine": 35227.38,
   "wind_speed_max": 13.6,

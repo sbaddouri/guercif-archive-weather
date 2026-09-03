@@ -1,9 +1,9 @@
 {
   "date": "2014-11-21",
   "weather_code": 3,
-  "temp_max": 25.5,
-  "temp_min": 14,
-  "temp_mean": 19.5,
+  "temp_max": 25.4,
+  "temp_min": 15.3,
+  "temp_mean": 20.3,
   "precipitation": 0,
   "sunshine": 25942.98,
   "wind_speed_max": 20.1,

@@ -1,9 +1,9 @@
 {
   "date": "2014-09-24",
   "weather_code": 2,
-  "temp_max": 28,
-  "temp_min": 15.7,
-  "temp_mean": 22.4,
+  "temp_max": 28.4,
+  "temp_min": 15.4,
+  "temp_mean": 22.6,
   "precipitation": 0,
   "sunshine": 42785.74,
   "wind_speed_max": 11.5,

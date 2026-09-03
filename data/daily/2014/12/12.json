@@ -1,8 +1,8 @@
 {
   "date": "2014-12-12",
   "weather_code": 3,
-  "temp_max": 19.1,
-  "temp_min": 1.8,
+  "temp_max": 19,
+  "temp_min": 2.1,
   "temp_mean": 9.8,
   "precipitation": 0,
   "sunshine": 35128.77,
