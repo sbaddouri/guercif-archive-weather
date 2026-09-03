@@ -20,7 +20,8 @@ export async function generateStaticParams() {
   return years.map(year => ({ year }));
 }
 
-export const revalidate = false;
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 interface MonthlyStats {
   name: string;

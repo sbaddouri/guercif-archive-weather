@@ -6,6 +6,8 @@ import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
 import WeatherCountdown from "@/components/weather-countdown";
 
+export const dynamic = "force-dynamic";
+
 const DATA_DIR = path.join(process.cwd(), 'data', 'daily');
 
 export default function ArchivesPage() {

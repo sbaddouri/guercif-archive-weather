@@ -32,7 +32,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export const revalidate = false;
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { year, month, day } = await params;
