@@ -1,0 +1,18 @@
+{
+  "date": "2016-03-21",
+  "weather_code": 53,
+  "temp_max": 12.3,
+  "temp_min": 8.4,
+  "temp_mean": 10.6,
+  "precipitation": 11.2,
+  "sunshine": 6299.19,
+  "wind_speed_max": 12.7,
+  "sunrise": "2016-03-21T07:15",
+  "sunset": "2016-03-21T19:26",
+  "sunshine_duration_seconds": 6299.19,
+  "sunshine_duration_minutes": 105,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2016-05-25",
+  "weather_code": 1,
+  "temp_max": 33.2,
+  "temp_min": 17.7,
+  "temp_mean": 24.8,
+  "precipitation": 0,
+  "sunshine": 49802.51,
+  "wind_speed_max": 29.7,
+  "sunrise": "2016-05-25T06:05",
+  "sunset": "2016-05-25T20:15",
+  "sunshine_duration_seconds": 49802.51,
+  "sunshine_duration_minutes": 830,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

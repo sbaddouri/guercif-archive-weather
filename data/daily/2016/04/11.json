@@ -1,0 +1,18 @@
+{
+  "date": "2016-04-11",
+  "weather_code": 0,
+  "temp_max": 23.4,
+  "temp_min": 10.6,
+  "temp_mean": 16.5,
+  "precipitation": 0,
+  "sunshine": 45423.42,
+  "wind_speed_max": 18.1,
+  "sunrise": "2016-04-11T06:47",
+  "sunset": "2016-04-11T19:42",
+  "sunshine_duration_seconds": 45423.42,
+  "sunshine_duration_minutes": 757,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

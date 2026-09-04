@@ -1,0 +1,18 @@
+{
+  "date": "2016-08-09",
+  "weather_code": 1,
+  "temp_max": 33.4,
+  "temp_min": 19,
+  "temp_mean": 25.5,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 22.6,
+  "sunrise": "2016-08-09T06:30",
+  "sunset": "2016-08-09T20:06",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 30,
+  "sunshine_consistency": "Moyen"
+}

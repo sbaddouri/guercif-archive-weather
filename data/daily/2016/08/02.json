@@ -1,0 +1,18 @@
+{
+  "date": "2016-08-02",
+  "weather_code": 55,
+  "temp_max": 40.3,
+  "temp_min": 25,
+  "temp_mean": 31.9,
+  "precipitation": 1,
+  "sunshine": 36495.6,
+  "wind_speed_max": 12.5,
+  "sunrise": "2016-08-02T06:25",
+  "sunset": "2016-08-02T20:13",
+  "sunshine_duration_seconds": 36495.6,
+  "sunshine_duration_minutes": 608,
+  "estimated_daily_sunshine_minutes": 345,
+  "estimated_daily_sunshine": "5 h 45 min",
+  "sunshine_difference_minutes": 263,
+  "sunshine_consistency": "Faible"
+}

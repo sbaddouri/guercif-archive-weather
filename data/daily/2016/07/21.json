@@ -1,0 +1,18 @@
+{
+  "date": "2016-07-21",
+  "weather_code": 1,
+  "temp_max": 42.3,
+  "temp_min": 22.7,
+  "temp_mean": 33.6,
+  "precipitation": 0,
+  "sunshine": 47755.17,
+  "wind_speed_max": 20.7,
+  "sunrise": "2016-07-21T06:16",
+  "sunset": "2016-07-21T20:22",
+  "sunshine_duration_seconds": 47755.17,
+  "sunshine_duration_minutes": 796,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}
