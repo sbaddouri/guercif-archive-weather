@@ -1,0 +1,18 @@
+{
+  "date": "2013-12-30",
+  "weather_code": 2,
+  "temp_max": 11.9,
+  "temp_min": 0.9,
+  "temp_mean": 6.4,
+  "precipitation": 0,
+  "sunshine": 34583.84,
+  "wind_speed_max": 6.4,
+  "sunrise": "2013-12-30T08:19",
+  "sunset": "2013-12-30T18:13",
+  "sunshine_duration_seconds": 34583.84,
+  "sunshine_duration_minutes": 576,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

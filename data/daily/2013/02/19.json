@@ -1,0 +1,18 @@
+{
+  "date": "2013-02-19",
+  "weather_code": 53,
+  "temp_max": 16.2,
+  "temp_min": 10,
+  "temp_mean": 12.8,
+  "precipitation": 2.1,
+  "sunshine": 22254.94,
+  "wind_speed_max": 11.3,
+  "sunrise": "2013-02-19T07:54",
+  "sunset": "2013-02-19T19:00",
+  "sunshine_duration_seconds": 22254.94,
+  "sunshine_duration_minutes": 371,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 371,
+  "sunshine_consistency": "Faible"
+}

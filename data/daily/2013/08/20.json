@@ -1,0 +1,18 @@
+{
+  "date": "2013-08-20",
+  "weather_code": 0,
+  "temp_max": 37.9,
+  "temp_min": 23.7,
+  "temp_mean": 30.2,
+  "precipitation": 0,
+  "sunshine": 46237.61,
+  "wind_speed_max": 20.1,
+  "sunrise": "2013-08-20T06:38",
+  "sunset": "2013-08-20T19:54",
+  "sunshine_duration_seconds": 46237.61,
+  "sunshine_duration_minutes": 771,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2013-05-25",
+  "weather_code": 0,
+  "temp_max": 27,
+  "temp_min": 11.7,
+  "temp_mean": 20,
+  "precipitation": 0,
+  "sunshine": 49798.43,
+  "wind_speed_max": 16.9,
+  "sunrise": "2013-05-25T06:05",
+  "sunset": "2013-05-25T20:15",
+  "sunshine_duration_seconds": 49798.43,
+  "sunshine_duration_minutes": 830,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

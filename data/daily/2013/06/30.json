@@ -1,0 +1,18 @@
+{
+  "date": "2013-06-30",
+  "weather_code": 3,
+  "temp_max": 36.1,
+  "temp_min": 16.4,
+  "temp_mean": 25.7,
+  "precipitation": 0,
+  "sunshine": 41088.6,
+  "wind_speed_max": 17.1,
+  "sunrise": "2013-06-30T06:05",
+  "sunset": "2013-06-30T20:29",
+  "sunshine_duration_seconds": 41088.6,
+  "sunshine_duration_minutes": 685,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 415,
+  "sunshine_consistency": "Faible"
+}

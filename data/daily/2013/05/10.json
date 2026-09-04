@@ -1,0 +1,18 @@
+{
+  "date": "2013-05-10",
+  "weather_code": 3,
+  "temp_max": 34.1,
+  "temp_min": 16.2,
+  "temp_mean": 25.9,
+  "precipitation": 0,
+  "sunshine": 46334.98,
+  "wind_speed_max": 25.8,
+  "sunrise": "2013-05-10T06:15",
+  "sunset": "2013-05-10T20:04",
+  "sunshine_duration_seconds": 46334.98,
+  "sunshine_duration_minutes": 772,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 772,
+  "sunshine_consistency": "Faible"
+}

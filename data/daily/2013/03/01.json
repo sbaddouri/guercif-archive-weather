@@ -1,0 +1,18 @@
+{
+  "date": "2013-03-01",
+  "weather_code": 1,
+  "temp_max": 14.1,
+  "temp_min": 6,
+  "temp_mean": 9.7,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 26.7,
+  "sunrise": "2013-03-01T07:42",
+  "sunset": "2013-03-01T19:09",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

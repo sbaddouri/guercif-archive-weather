@@ -1,0 +1,18 @@
+{
+  "date": "2013-12-02",
+  "weather_code": 51,
+  "temp_max": 12.6,
+  "temp_min": 5.5,
+  "temp_mean": 8.7,
+  "precipitation": 0.2,
+  "sunshine": 33306.2,
+  "wind_speed_max": 10.8,
+  "sunrise": "2013-12-02T08:02",
+  "sunset": "2013-12-02T18:03",
+  "sunshine_duration_seconds": 33306.2,
+  "sunshine_duration_minutes": 555,
+  "estimated_daily_sunshine_minutes": 420,
+  "estimated_daily_sunshine": "7 h 00 min",
+  "sunshine_difference_minutes": 135,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2013-06-16",
+  "weather_code": 53,
+  "temp_max": 38.9,
+  "temp_min": 22.2,
+  "temp_mean": 30.1,
+  "precipitation": 0.6,
+  "sunshine": 49718.64,
+  "wind_speed_max": 23.8,
+  "sunrise": "2013-06-16T06:01",
+  "sunset": "2013-06-16T20:27",
+  "sunshine_duration_seconds": 49718.64,
+  "sunshine_duration_minutes": 829,
+  "estimated_daily_sunshine_minutes": 475,
+  "estimated_daily_sunshine": "7 h 55 min",
+  "sunshine_difference_minutes": 354,
+  "sunshine_consistency": "Faible"
+}

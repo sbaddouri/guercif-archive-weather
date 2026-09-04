@@ -1,0 +1,18 @@
+{
+  "date": "2013-04-21",
+  "weather_code": 2,
+  "temp_max": 26.9,
+  "temp_min": 12.2,
+  "temp_mean": 18.9,
+  "precipitation": 0,
+  "sunshine": 45939.46,
+  "wind_speed_max": 20.4,
+  "sunrise": "2013-04-21T06:35",
+  "sunset": "2013-04-21T19:49",
+  "sunshine_duration_seconds": 45939.46,
+  "sunshine_duration_minutes": 766,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 136,
+  "sunshine_consistency": "Faible"
+}

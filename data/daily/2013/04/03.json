@@ -1,0 +1,18 @@
+{
+  "date": "2013-04-03",
+  "weather_code": 51,
+  "temp_max": 22.2,
+  "temp_min": 8.9,
+  "temp_mean": 15,
+  "precipitation": 0.2,
+  "sunshine": 43507.16,
+  "wind_speed_max": 34.1,
+  "sunrise": "2013-04-03T06:58",
+  "sunset": "2013-04-03T19:35",
+  "sunshine_duration_seconds": 43507.16,
+  "sunshine_duration_minutes": 725,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 50,
+  "sunshine_consistency": "Faible"
+}

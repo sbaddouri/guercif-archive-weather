@@ -1,0 +1,18 @@
+{
+  "date": "2013-05-21",
+  "weather_code": 63,
+  "temp_max": 15.2,
+  "temp_min": 10.5,
+  "temp_mean": 12.7,
+  "precipitation": 10.6,
+  "sunshine": 33168.9,
+  "wind_speed_max": 30.6,
+  "sunrise": "2013-05-21T06:07",
+  "sunset": "2013-05-21T20:12",
+  "sunshine_duration_seconds": 33168.9,
+  "sunshine_duration_minutes": 553,
+  "estimated_daily_sunshine_minutes": 260,
+  "estimated_daily_sunshine": "4 h 20 min",
+  "sunshine_difference_minutes": 293,
+  "sunshine_consistency": "Faible"
+}

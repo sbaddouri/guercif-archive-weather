@@ -1,0 +1,18 @@
+{
+  "date": "2013-08-06",
+  "weather_code": 51,
+  "temp_max": 41.3,
+  "temp_min": 21.7,
+  "temp_mean": 32.6,
+  "precipitation": 0.1,
+  "sunshine": 46854.73,
+  "wind_speed_max": 15,
+  "sunrise": "2013-08-06T06:28",
+  "sunset": "2013-08-06T20:10",
+  "sunshine_duration_seconds": 46854.73,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 136,
+  "sunshine_consistency": "Faible"
+}

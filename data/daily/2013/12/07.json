@@ -1,0 +1,18 @@
+{
+  "date": "2013-12-07",
+  "weather_code": 1,
+  "temp_max": 14.8,
+  "temp_min": 1,
+  "temp_mean": 8.1,
+  "precipitation": 0,
+  "sunshine": 35304.37,
+  "wind_speed_max": 6.3,
+  "sunrise": "2013-12-07T08:06",
+  "sunset": "2013-12-07T18:03",
+  "sunshine_duration_seconds": 35304.37,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 93,
+  "sunshine_consistency": "Faible"
+}

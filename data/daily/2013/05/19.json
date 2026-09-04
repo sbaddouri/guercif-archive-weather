@@ -1,0 +1,18 @@
+{
+  "date": "2013-05-19",
+  "weather_code": 2,
+  "temp_max": 21.6,
+  "temp_min": 8.8,
+  "temp_mean": 15.1,
+  "precipitation": 0,
+  "sunshine": 49596.12,
+  "wind_speed_max": 16.1,
+  "sunrise": "2013-05-19T06:08",
+  "sunset": "2013-05-19T20:11",
+  "sunshine_duration_seconds": 49596.12,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 92,
+  "sunshine_consistency": "Faible"
+}
