@@ -1,0 +1,18 @@
+{
+  "date": "2010-05-23",
+  "weather_code": 2,
+  "temp_max": 27.8,
+  "temp_min": 14.6,
+  "temp_mean": 20.8,
+  "precipitation": 0,
+  "sunshine": 49557.21,
+  "wind_speed_max": 18.5,
+  "sunrise": "2010-05-23T06:06",
+  "sunset": "2010-05-23T20:14",
+  "sunshine_duration_seconds": 49557.21,
+  "sunshine_duration_minutes": 826,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 61,
+  "sunshine_consistency": "Faible"
+}

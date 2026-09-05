@@ -1,0 +1,18 @@
+{
+  "date": "2010-03-30",
+  "weather_code": 2,
+  "temp_max": 20.3,
+  "temp_min": 11.8,
+  "temp_mean": 15.6,
+  "precipitation": 0,
+  "sunshine": 43252.17,
+  "wind_speed_max": 26.3,
+  "sunrise": "2010-03-30T07:03",
+  "sunset": "2010-03-30T19:32",
+  "sunshine_duration_seconds": 43252.17,
+  "sunshine_duration_minutes": 721,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 76,
+  "sunshine_consistency": "Faible"
+}

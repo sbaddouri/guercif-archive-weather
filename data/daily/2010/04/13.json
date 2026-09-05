@@ -1,0 +1,18 @@
+{
+  "date": "2010-04-13",
+  "weather_code": 51,
+  "temp_max": 23.9,
+  "temp_min": 10.8,
+  "temp_mean": 16.9,
+  "precipitation": 0.2,
+  "sunshine": 43200,
+  "wind_speed_max": 22.6,
+  "sunrise": "2010-04-13T06:45",
+  "sunset": "2010-04-13T19:43",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 390,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2010-12-10",
+  "weather_code": 3,
+  "temp_max": 17.3,
+  "temp_min": 12.4,
+  "temp_mean": 14,
+  "precipitation": 0,
+  "sunshine": 32723.6,
+  "wind_speed_max": 15.7,
+  "sunrise": "2010-12-10T08:08",
+  "sunset": "2010-12-10T18:04",
+  "sunshine_duration_seconds": 32723.6,
+  "sunshine_duration_minutes": 545,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 455,
+  "sunshine_consistency": "Faible"
+}

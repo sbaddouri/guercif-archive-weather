@@ -1,0 +1,18 @@
+{
+  "date": "2010-05-24",
+  "weather_code": 1,
+  "temp_max": 32.5,
+  "temp_min": 16.1,
+  "temp_mean": 23.2,
+  "precipitation": 0,
+  "sunshine": 49761.76,
+  "wind_speed_max": 25.5,
+  "sunrise": "2010-05-24T06:06",
+  "sunset": "2010-05-24T20:14",
+  "sunshine_duration_seconds": 49761.76,
+  "sunshine_duration_minutes": 829,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

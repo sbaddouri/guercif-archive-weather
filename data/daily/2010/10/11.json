@@ -1,0 +1,18 @@
+{
+  "date": "2010-10-11",
+  "weather_code": 65,
+  "temp_max": 19.2,
+  "temp_min": 14.3,
+  "temp_mean": 16.4,
+  "precipitation": 50.6,
+  "sunshine": 25111.39,
+  "wind_speed_max": 19.4,
+  "sunrise": "2010-10-11T07:15",
+  "sunset": "2010-10-11T18:44",
+  "sunshine_duration_seconds": 25111.39,
+  "sunshine_duration_minutes": 419,
+  "estimated_daily_sunshine_minutes": 145,
+  "estimated_daily_sunshine": "2 h 25 min",
+  "sunshine_difference_minutes": 274,
+  "sunshine_consistency": "Faible"
+}

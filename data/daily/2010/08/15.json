@@ -1,0 +1,18 @@
+{
+  "date": "2010-08-15",
+  "weather_code": 51,
+  "temp_max": 37.1,
+  "temp_min": 21.5,
+  "temp_mean": 28.6,
+  "precipitation": 0.5,
+  "sunshine": 43200,
+  "wind_speed_max": 11.2,
+  "sunrise": "2010-08-15T06:34",
+  "sunset": "2010-08-15T20:00",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 240,
+  "sunshine_consistency": "Faible"
+}

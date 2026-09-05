@@ -1,0 +1,18 @@
+{
+  "date": "2010-08-18",
+  "weather_code": 61,
+  "temp_max": 24.4,
+  "temp_min": 20,
+  "temp_mean": 21.7,
+  "precipitation": 13.5,
+  "sunshine": 28435.87,
+  "wind_speed_max": 16.3,
+  "sunrise": "2010-08-18T06:36",
+  "sunset": "2010-08-18T19:57",
+  "sunshine_duration_seconds": 28435.87,
+  "sunshine_duration_minutes": 474,
+  "estimated_daily_sunshine_minutes": 155,
+  "estimated_daily_sunshine": "2 h 35 min",
+  "sunshine_difference_minutes": 319,
+  "sunshine_consistency": "Faible"
+}

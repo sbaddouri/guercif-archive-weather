@@ -1,0 +1,18 @@
+{
+  "date": "2010-01-05",
+  "weather_code": 2,
+  "temp_max": 14.7,
+  "temp_min": 11.8,
+  "temp_mean": 13.1,
+  "precipitation": 0,
+  "sunshine": 33248.5,
+  "wind_speed_max": 40,
+  "sunrise": "2010-01-05T08:20",
+  "sunset": "2010-01-05T18:17",
+  "sunshine_duration_seconds": 33248.5,
+  "sunshine_duration_minutes": 554,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 74,
+  "sunshine_consistency": "Faible"
+}

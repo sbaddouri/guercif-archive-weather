@@ -1,0 +1,18 @@
+{
+  "date": "2010-05-01",
+  "weather_code": 55,
+  "temp_max": 25,
+  "temp_min": 15.7,
+  "temp_mean": 20.7,
+  "precipitation": 2.1,
+  "sunshine": 46608.59,
+  "wind_speed_max": 18.9,
+  "sunrise": "2010-05-01T06:24",
+  "sunset": "2010-05-01T19:57",
+  "sunshine_duration_seconds": 46608.59,
+  "sunshine_duration_minutes": 777,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 177,
+  "sunshine_consistency": "Faible"
+}

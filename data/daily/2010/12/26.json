@@ -1,0 +1,18 @@
+{
+  "date": "2010-12-26",
+  "weather_code": 53,
+  "temp_max": 14.9,
+  "temp_min": 8,
+  "temp_mean": 11.4,
+  "precipitation": 5.1,
+  "sunshine": 26476.71,
+  "wind_speed_max": 15.3,
+  "sunrise": "2010-12-26T08:17",
+  "sunset": "2010-12-26T18:10",
+  "sunshine_duration_seconds": 26476.71,
+  "sunshine_duration_minutes": 441,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 171,
+  "sunshine_consistency": "Faible"
+}

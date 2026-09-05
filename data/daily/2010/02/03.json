@@ -1,0 +1,18 @@
+{
+  "date": "2010-02-03",
+  "weather_code": 51,
+  "temp_max": 20.2,
+  "temp_min": 9.2,
+  "temp_mean": 13.6,
+  "precipitation": 0.3,
+  "sunshine": 27135.12,
+  "wind_speed_max": 11.9,
+  "sunrise": "2010-02-03T08:09",
+  "sunset": "2010-02-03T18:45",
+  "sunshine_duration_seconds": 27135.12,
+  "sunshine_duration_minutes": 452,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 362,
+  "sunshine_consistency": "Faible"
+}

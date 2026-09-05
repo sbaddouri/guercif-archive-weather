@@ -1,0 +1,18 @@
+{
+  "date": "2010-10-06",
+  "weather_code": 2,
+  "temp_max": 30,
+  "temp_min": 16.6,
+  "temp_mean": 22,
+  "precipitation": 0,
+  "sunshine": 41488.02,
+  "wind_speed_max": 19.8,
+  "sunrise": "2010-10-06T07:11",
+  "sunset": "2010-10-06T18:51",
+  "sunshine_duration_seconds": 41488.02,
+  "sunshine_duration_minutes": 691,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 121,
+  "sunshine_consistency": "Faible"
+}

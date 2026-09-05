@@ -1,0 +1,18 @@
+{
+  "date": "2010-10-12",
+  "weather_code": 55,
+  "temp_max": 18.7,
+  "temp_min": 13.1,
+  "temp_mean": 15.9,
+  "precipitation": 2.5,
+  "sunshine": 38437.24,
+  "wind_speed_max": 17.3,
+  "sunrise": "2010-10-12T07:16",
+  "sunset": "2010-10-12T18:43",
+  "sunshine_duration_seconds": 38437.24,
+  "sunshine_duration_minutes": 641,
+  "estimated_daily_sunshine_minutes": 260,
+  "estimated_daily_sunshine": "4 h 20 min",
+  "sunshine_difference_minutes": 381,
+  "sunshine_consistency": "Faible"
+}

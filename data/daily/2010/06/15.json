@@ -1,0 +1,18 @@
+{
+  "date": "2010-06-15",
+  "weather_code": 1,
+  "temp_max": 28.5,
+  "temp_min": 14.3,
+  "temp_mean": 22.1,
+  "precipitation": 0,
+  "sunshine": 50049.23,
+  "wind_speed_max": 10.7,
+  "sunrise": "2010-06-15T06:01",
+  "sunset": "2010-06-15T20:26",
+  "sunshine_duration_seconds": 50049.23,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

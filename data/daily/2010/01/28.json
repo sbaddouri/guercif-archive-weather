@@ -1,0 +1,18 @@
+{
+  "date": "2010-01-28",
+  "weather_code": 51,
+  "temp_max": 11.8,
+  "temp_min": 7,
+  "temp_mean": 9.2,
+  "precipitation": 0.3,
+  "sunshine": 20989.64,
+  "wind_speed_max": 11.2,
+  "sunrise": "2010-01-28T08:13",
+  "sunset": "2010-01-28T18:39",
+  "sunshine_duration_seconds": 20989.64,
+  "sunshine_duration_minutes": 350,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 290,
+  "sunshine_consistency": "Faible"
+}

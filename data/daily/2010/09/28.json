@@ -1,0 +1,18 @@
+{
+  "date": "2010-09-28",
+  "weather_code": 0,
+  "temp_max": 26.1,
+  "temp_min": 14.6,
+  "temp_mean": 20.3,
+  "precipitation": 0,
+  "sunshine": 42509.17,
+  "wind_speed_max": 12,
+  "sunrise": "2010-09-28T07:05",
+  "sunset": "2010-09-28T19:02",
+  "sunshine_duration_seconds": 42509.17,
+  "sunshine_duration_minutes": 708,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}
