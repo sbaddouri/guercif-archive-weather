@@ -1,0 +1,18 @@
+{
+  "date": "2012-10-05",
+  "weather_code": 3,
+  "temp_max": 27.9,
+  "temp_min": 17.8,
+  "temp_mean": 22.8,
+  "precipitation": 0,
+  "sunshine": 32399.57,
+  "wind_speed_max": 7.4,
+  "sunrise": "2012-10-05T07:11",
+  "sunset": "2012-10-05T18:51",
+  "sunshine_duration_seconds": 32399.57,
+  "sunshine_duration_minutes": 540,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 450,
+  "sunshine_consistency": "Faible"
+}

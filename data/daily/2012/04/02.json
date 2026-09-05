@@ -1,0 +1,18 @@
+{
+  "date": "2012-04-02",
+  "weather_code": 53,
+  "temp_max": 17.2,
+  "temp_min": 10.3,
+  "temp_mean": 13.5,
+  "precipitation": 1.8,
+  "sunshine": 43191.77,
+  "wind_speed_max": 17,
+  "sunrise": "2012-04-02T06:59",
+  "sunset": "2012-04-02T19:35",
+  "sunshine_duration_seconds": 43191.77,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 195,
+  "sunshine_consistency": "Faible"
+}

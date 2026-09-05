@@ -1,0 +1,18 @@
+{
+  "date": "2012-09-29",
+  "weather_code": 51,
+  "temp_max": 20.4,
+  "temp_min": 13.6,
+  "temp_mean": 17.1,
+  "precipitation": 0.2,
+  "sunshine": 35547.99,
+  "wind_speed_max": 27.8,
+  "sunrise": "2012-09-29T07:06",
+  "sunset": "2012-09-29T19:00",
+  "sunshine_duration_seconds": 35547.99,
+  "sunshine_duration_minutes": 592,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 217,
+  "sunshine_consistency": "Faible"
+}

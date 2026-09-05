@@ -1,0 +1,18 @@
+{
+  "date": "2012-09-28",
+  "weather_code": 63,
+  "temp_max": 22,
+  "temp_min": 15.7,
+  "temp_mean": 18.7,
+  "precipitation": 16.3,
+  "sunshine": 27124.45,
+  "wind_speed_max": 21.6,
+  "sunrise": "2012-09-28T07:06",
+  "sunset": "2012-09-28T19:01",
+  "sunshine_duration_seconds": 27124.45,
+  "sunshine_duration_minutes": 452,
+  "estimated_daily_sunshine_minutes": 285,
+  "estimated_daily_sunshine": "4 h 45 min",
+  "sunshine_difference_minutes": 167,
+  "sunshine_consistency": "Faible"
+}

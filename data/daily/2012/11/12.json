@@ -1,0 +1,18 @@
+{
+  "date": "2012-11-12",
+  "weather_code": 61,
+  "temp_max": 11.6,
+  "temp_min": 7.9,
+  "temp_mean": 9.6,
+  "precipitation": 13.1,
+  "sunshine": 11942.05,
+  "wind_speed_max": 21.2,
+  "sunrise": "2012-11-12T07:43",
+  "sunset": "2012-11-12T18:11",
+  "sunshine_duration_seconds": 11942.05,
+  "sunshine_duration_minutes": 199,
+  "estimated_daily_sunshine_minutes": 140,
+  "estimated_daily_sunshine": "2 h 20 min",
+  "sunshine_difference_minutes": 59,
+  "sunshine_consistency": "Faible"
+}

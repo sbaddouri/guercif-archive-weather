@@ -1,0 +1,18 @@
+{
+  "date": "2012-05-10",
+  "weather_code": 1,
+  "temp_max": 35.1,
+  "temp_min": 20.1,
+  "temp_mean": 26.3,
+  "precipitation": 0,
+  "sunshine": 48835.71,
+  "wind_speed_max": 22.2,
+  "sunrise": "2012-05-10T06:15",
+  "sunset": "2012-05-10T20:04",
+  "sunshine_duration_seconds": 48835.71,
+  "sunshine_duration_minutes": 814,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

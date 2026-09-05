@@ -1,0 +1,18 @@
+{
+  "date": "2012-03-29",
+  "weather_code": 61,
+  "temp_max": 15.9,
+  "temp_min": 11.7,
+  "temp_mean": 13.3,
+  "precipitation": 6.8,
+  "sunshine": 2478.78,
+  "wind_speed_max": 11.2,
+  "sunrise": "2012-03-29T07:04",
+  "sunset": "2012-03-29T19:32",
+  "sunshine_duration_seconds": 2478.78,
+  "sunshine_duration_minutes": 41,
+  "estimated_daily_sunshine_minutes": 80,
+  "estimated_daily_sunshine": "1 h 20 min",
+  "sunshine_difference_minutes": 39,
+  "sunshine_consistency": "Faible"
+}

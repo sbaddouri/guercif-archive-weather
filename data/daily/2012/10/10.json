@@ -1,0 +1,18 @@
+{
+  "date": "2012-10-10",
+  "weather_code": 51,
+  "temp_max": 32.7,
+  "temp_min": 18.7,
+  "temp_mean": 26.1,
+  "precipitation": 0.1,
+  "sunshine": 32637.05,
+  "wind_speed_max": 14.6,
+  "sunrise": "2012-10-10T07:15",
+  "sunset": "2012-10-10T18:45",
+  "sunshine_duration_seconds": 32637.05,
+  "sunshine_duration_minutes": 544,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 439,
+  "sunshine_consistency": "Faible"
+}

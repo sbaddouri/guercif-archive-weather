@@ -1,0 +1,18 @@
+{
+  "date": "2012-05-22",
+  "weather_code": 2,
+  "temp_max": 29.3,
+  "temp_min": 12.5,
+  "temp_mean": 20.3,
+  "precipitation": 0,
+  "sunshine": 48658.56,
+  "wind_speed_max": 23.4,
+  "sunrise": "2012-05-22T06:07",
+  "sunset": "2012-05-22T20:13",
+  "sunshine_duration_seconds": 48658.56,
+  "sunshine_duration_minutes": 811,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 136,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2012-12-25",
+  "weather_code": 53,
+  "temp_max": 17.1,
+  "temp_min": 9.4,
+  "temp_mean": 11.8,
+  "precipitation": 0.8,
+  "sunshine": 32869.28,
+  "wind_speed_max": 21.6,
+  "sunrise": "2012-12-25T08:17",
+  "sunset": "2012-12-25T18:10",
+  "sunshine_duration_seconds": 32869.28,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 400,
+  "estimated_daily_sunshine": "6 h 40 min",
+  "sunshine_difference_minutes": 148,
+  "sunshine_consistency": "Faible"
+}

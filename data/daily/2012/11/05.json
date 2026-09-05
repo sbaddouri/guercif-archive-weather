@@ -1,0 +1,18 @@
+{
+  "date": "2012-11-05",
+  "weather_code": 53,
+  "temp_max": 24.6,
+  "temp_min": 17.6,
+  "temp_mean": 21,
+  "precipitation": 0.5,
+  "sunshine": 34401.63,
+  "wind_speed_max": 8.9,
+  "sunrise": "2012-11-05T07:37",
+  "sunset": "2012-11-05T18:16",
+  "sunshine_duration_seconds": 34401.63,
+  "sunshine_duration_minutes": 573,
+  "estimated_daily_sunshine_minutes": 255,
+  "estimated_daily_sunshine": "4 h 15 min",
+  "sunshine_difference_minutes": 318,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2012-02-04",
+  "weather_code": 71,
+  "temp_max": 5.1,
+  "temp_min": -2.5,
+  "temp_mean": 2.2,
+  "precipitation": 0.3,
+  "sunshine": 35223.71,
+  "wind_speed_max": 16.4,
+  "sunrise": "2012-02-04T08:09",
+  "sunset": "2012-02-04T18:46",
+  "sunshine_duration_seconds": 35223.71,
+  "sunshine_duration_minutes": 587,
+  "estimated_daily_sunshine_minutes": 275,
+  "estimated_daily_sunshine": "4 h 35 min",
+  "sunshine_difference_minutes": 312,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2012-01-17",
+  "weather_code": 73,
+  "temp_max": 9.7,
+  "temp_min": 4.3,
+  "temp_mean": 6.9,
+  "precipitation": 15.7,
+  "sunshine": 9147.6,
+  "wind_speed_max": 20.1,
+  "sunrise": "2012-01-17T08:18",
+  "sunset": "2012-01-17T18:28",
+  "sunshine_duration_seconds": 9147.6,
+  "sunshine_duration_minutes": 152,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 92,
+  "sunshine_consistency": "Faible"
+}

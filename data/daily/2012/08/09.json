@@ -1,0 +1,18 @@
+{
+  "date": "2012-08-09",
+  "weather_code": 2,
+  "temp_max": 42.4,
+  "temp_min": 22.5,
+  "temp_mean": 33,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 16.7,
+  "sunrise": "2012-08-09T06:30",
+  "sunset": "2012-08-09T20:06",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

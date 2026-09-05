@@ -1,0 +1,18 @@
+{
+  "date": "2012-07-26",
+  "weather_code": 1,
+  "temp_max": 34.3,
+  "temp_min": 20.3,
+  "temp_mean": 26.3,
+  "precipitation": 0,
+  "sunshine": 47241.92,
+  "wind_speed_max": 25.2,
+  "sunrise": "2012-07-26T06:20",
+  "sunset": "2012-07-26T20:19",
+  "sunshine_duration_seconds": 47241.92,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2012-04-07",
+  "weather_code": 1,
+  "temp_max": 17.7,
+  "temp_min": 4.4,
+  "temp_mean": 11.8,
+  "precipitation": 0,
+  "sunshine": 44382.49,
+  "wind_speed_max": 11.2,
+  "sunrise": "2012-04-07T06:52",
+  "sunset": "2012-04-07T19:39",
+  "sunshine_duration_seconds": 44382.49,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 50,
+  "sunshine_consistency": "Faible"
+}

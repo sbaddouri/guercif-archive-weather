@@ -1,0 +1,18 @@
+{
+  "date": "2012-10-16",
+  "weather_code": 0,
+  "temp_max": 26.1,
+  "temp_min": 11.9,
+  "temp_mean": 18.4,
+  "precipitation": 0,
+  "sunshine": 39717.4,
+  "wind_speed_max": 13.8,
+  "sunrise": "2012-10-16T07:19",
+  "sunset": "2012-10-16T18:37",
+  "sunshine_duration_seconds": 39717.4,
+  "sunshine_duration_minutes": 662,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 2,
+  "sunshine_consistency": "Excellent"
+}
