@@ -1,0 +1,18 @@
+{
+  "date": "2011-05-20",
+  "weather_code": 55,
+  "temp_max": 19.2,
+  "temp_min": 14.8,
+  "temp_mean": 16.4,
+  "precipitation": 5.5,
+  "sunshine": 35793.81,
+  "wind_speed_max": 20.4,
+  "sunrise": "2011-05-20T06:08",
+  "sunset": "2011-05-20T20:11",
+  "sunshine_duration_seconds": 35793.81,
+  "sunshine_duration_minutes": 597,
+  "estimated_daily_sunshine_minutes": 170,
+  "estimated_daily_sunshine": "2 h 50 min",
+  "sunshine_difference_minutes": 427,
+  "sunshine_consistency": "Faible"
+}

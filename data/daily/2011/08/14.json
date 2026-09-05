@@ -1,0 +1,18 @@
+{
+  "date": "2011-08-14",
+  "weather_code": 53,
+  "temp_max": 41.3,
+  "temp_min": 25.4,
+  "temp_mean": 32.4,
+  "precipitation": 0.7,
+  "sunshine": 45896.74,
+  "wind_speed_max": 12.6,
+  "sunrise": "2011-08-14T06:33",
+  "sunset": "2011-08-14T20:02",
+  "sunshine_duration_seconds": 45896.74,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 730,
+  "estimated_daily_sunshine": "12 h 10 min",
+  "sunshine_difference_minutes": 35,
+  "sunshine_consistency": "Faible"
+}

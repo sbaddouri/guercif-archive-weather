@@ -1,0 +1,18 @@
+{
+  "date": "2011-04-01",
+  "weather_code": 0,
+  "temp_max": 30.9,
+  "temp_min": 10.1,
+  "temp_mean": 20.8,
+  "precipitation": 0,
+  "sunshine": 43916.75,
+  "wind_speed_max": 9.8,
+  "sunrise": "2011-04-01T07:01",
+  "sunset": "2011-04-01T19:34",
+  "sunshine_duration_seconds": 43916.75,
+  "sunshine_duration_minutes": 732,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

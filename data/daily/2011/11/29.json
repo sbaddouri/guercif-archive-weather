@@ -1,0 +1,18 @@
+{
+  "date": "2011-11-29",
+  "weather_code": 0,
+  "temp_max": 16.2,
+  "temp_min": 5.3,
+  "temp_mean": 11.1,
+  "precipitation": 0,
+  "sunshine": 35769,
+  "wind_speed_max": 6.4,
+  "sunrise": "2011-11-29T07:59",
+  "sunset": "2011-11-29T18:04",
+  "sunshine_duration_seconds": 35769,
+  "sunshine_duration_minutes": 596,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 64,
+  "sunshine_consistency": "Faible"
+}

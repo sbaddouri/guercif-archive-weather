@@ -1,0 +1,18 @@
+{
+  "date": "2011-12-26",
+  "weather_code": 1,
+  "temp_max": 13.4,
+  "temp_min": 4,
+  "temp_mean": 8.1,
+  "precipitation": 0,
+  "sunshine": 34484.74,
+  "wind_speed_max": 14.8,
+  "sunrise": "2011-12-26T08:17",
+  "sunset": "2011-12-26T18:10",
+  "sunshine_duration_seconds": 34484.74,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

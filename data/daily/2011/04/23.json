@@ -1,0 +1,18 @@
+{
+  "date": "2011-04-23",
+  "weather_code": 53,
+  "temp_max": 17.6,
+  "temp_min": 12,
+  "temp_mean": 14.5,
+  "precipitation": 3.2,
+  "sunshine": 26944.27,
+  "wind_speed_max": 11.7,
+  "sunrise": "2011-04-23T06:33",
+  "sunset": "2011-04-23T19:51",
+  "sunshine_duration_seconds": 26944.27,
+  "sunshine_duration_minutes": 449,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

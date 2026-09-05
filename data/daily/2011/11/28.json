@@ -1,0 +1,18 @@
+{
+  "date": "2011-11-28",
+  "weather_code": 53,
+  "temp_max": 15.3,
+  "temp_min": 10.2,
+  "temp_mean": 12.1,
+  "precipitation": 1.9,
+  "sunshine": 22601.55,
+  "wind_speed_max": 8.2,
+  "sunrise": "2011-11-28T07:58",
+  "sunset": "2011-11-28T18:04",
+  "sunshine_duration_seconds": 22601.55,
+  "sunshine_duration_minutes": 377,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 107,
+  "sunshine_consistency": "Faible"
+}

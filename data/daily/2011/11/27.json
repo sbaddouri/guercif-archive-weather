@@ -1,0 +1,18 @@
+{
+  "date": "2011-11-27",
+  "weather_code": 61,
+  "temp_max": 13.4,
+  "temp_min": 11,
+  "temp_mean": 12.1,
+  "precipitation": 16.2,
+  "sunshine": 9951.97,
+  "wind_speed_max": 19.1,
+  "sunrise": "2011-11-27T07:57",
+  "sunset": "2011-11-27T18:04",
+  "sunshine_duration_seconds": 9951.97,
+  "sunshine_duration_minutes": 166,
+  "estimated_daily_sunshine_minutes": 115,
+  "estimated_daily_sunshine": "1 h 55 min",
+  "sunshine_difference_minutes": 51,
+  "sunshine_consistency": "Faible"
+}

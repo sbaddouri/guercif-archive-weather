@@ -1,0 +1,18 @@
+{
+  "date": "2011-01-31",
+  "weather_code": 51,
+  "temp_max": 11.5,
+  "temp_min": 5.4,
+  "temp_mean": 8.2,
+  "precipitation": 0.2,
+  "sunshine": 37207.4,
+  "wind_speed_max": 23.8,
+  "sunrise": "2011-01-31T08:11",
+  "sunset": "2011-01-31T18:42",
+  "sunshine_duration_seconds": 37207.4,
+  "sunshine_duration_minutes": 620,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 185,
+  "sunshine_consistency": "Faible"
+}
