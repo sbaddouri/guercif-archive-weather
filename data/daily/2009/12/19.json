@@ -1,0 +1,18 @@
+{
+  "date": "2009-12-19",
+  "weather_code": 51,
+  "temp_max": 16.4,
+  "temp_min": 12.5,
+  "temp_mean": 13.9,
+  "precipitation": 1.9,
+  "sunshine": 24220.72,
+  "wind_speed_max": 34.5,
+  "sunrise": "2009-12-19T08:14",
+  "sunset": "2009-12-19T18:06",
+  "sunshine_duration_seconds": 24220.72,
+  "sunshine_duration_minutes": 404,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": 209,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2009-02-06",
+  "weather_code": 51,
+  "temp_max": 11.1,
+  "temp_min": 6.3,
+  "temp_mean": 8,
+  "precipitation": 1.2,
+  "sunshine": 25786.22,
+  "wind_speed_max": 30.2,
+  "sunrise": "2009-02-06T08:06",
+  "sunset": "2009-02-06T18:48",
+  "sunshine_duration_seconds": 25786.22,
+  "sunshine_duration_minutes": 430,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": 235,
+  "sunshine_consistency": "Faible"
+}

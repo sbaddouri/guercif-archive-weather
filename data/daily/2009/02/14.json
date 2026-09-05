@@ -1,0 +1,18 @@
+{
+  "date": "2009-02-14",
+  "weather_code": 3,
+  "temp_max": 16.4,
+  "temp_min": 6.4,
+  "temp_mean": 11.3,
+  "precipitation": 0,
+  "sunshine": 38918.97,
+  "wind_speed_max": 9.5,
+  "sunrise": "2009-02-14T07:59",
+  "sunset": "2009-02-14T18:56",
+  "sunshine_duration_seconds": 38918.97,
+  "sunshine_duration_minutes": 649,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 379,
+  "sunshine_consistency": "Faible"
+}

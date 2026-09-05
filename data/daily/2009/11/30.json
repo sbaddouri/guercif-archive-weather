@@ -1,0 +1,18 @@
+{
+  "date": "2009-11-30",
+  "weather_code": 61,
+  "temp_max": 15.1,
+  "temp_min": 9.6,
+  "temp_mean": 12.1,
+  "precipitation": 7.5,
+  "sunshine": 28982.05,
+  "wind_speed_max": 25.3,
+  "sunrise": "2009-11-30T08:00",
+  "sunset": "2009-11-30T18:03",
+  "sunshine_duration_seconds": 28982.05,
+  "sunshine_duration_minutes": 483,
+  "estimated_daily_sunshine_minutes": 395,
+  "estimated_daily_sunshine": "6 h 35 min",
+  "sunshine_difference_minutes": 88,
+  "sunshine_consistency": "Faible"
+}

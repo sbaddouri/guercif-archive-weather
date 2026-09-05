@@ -1,0 +1,18 @@
+{
+  "date": "2009-06-12",
+  "weather_code": 53,
+  "temp_max": 39.8,
+  "temp_min": 22.7,
+  "temp_mean": 30.4,
+  "precipitation": 0.8,
+  "sunshine": 44854.37,
+  "wind_speed_max": 20.9,
+  "sunrise": "2009-06-12T06:01",
+  "sunset": "2009-06-12T20:25",
+  "sunshine_duration_seconds": 44854.37,
+  "sunshine_duration_minutes": 748,
+  "estimated_daily_sunshine_minutes": 535,
+  "estimated_daily_sunshine": "8 h 55 min",
+  "sunshine_difference_minutes": 213,
+  "sunshine_consistency": "Faible"
+}

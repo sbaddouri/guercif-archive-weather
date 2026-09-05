@@ -1,0 +1,18 @@
+{
+  "date": "2009-04-26",
+  "weather_code": 53,
+  "temp_max": 15.9,
+  "temp_min": 10,
+  "temp_mean": 12.3,
+  "precipitation": 0.9,
+  "sunshine": 43577.55,
+  "wind_speed_max": 37.8,
+  "sunrise": "2009-04-26T06:29",
+  "sunset": "2009-04-26T19:53",
+  "sunshine_duration_seconds": 43577.55,
+  "sunshine_duration_minutes": 726,
+  "estimated_daily_sunshine_minutes": 340,
+  "estimated_daily_sunshine": "5 h 40 min",
+  "sunshine_difference_minutes": 386,
+  "sunshine_consistency": "Faible"
+}

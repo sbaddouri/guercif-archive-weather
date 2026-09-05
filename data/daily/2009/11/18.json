@@ -1,0 +1,18 @@
+{
+  "date": "2009-11-18",
+  "weather_code": 3,
+  "temp_max": 24.7,
+  "temp_min": 12.9,
+  "temp_mean": 18.8,
+  "precipitation": 0,
+  "sunshine": 13345.69,
+  "wind_speed_max": 15.3,
+  "sunrise": "2009-11-18T07:49",
+  "sunset": "2009-11-18T18:07",
+  "sunshine_duration_seconds": 13345.69,
+  "sunshine_duration_minutes": 222,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 222,
+  "sunshine_consistency": "Faible"
+}

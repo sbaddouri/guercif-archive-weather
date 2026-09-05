@@ -1,0 +1,18 @@
+{
+  "date": "2009-06-14",
+  "weather_code": 51,
+  "temp_max": 37.2,
+  "temp_min": 20.9,
+  "temp_mean": 29.4,
+  "precipitation": 0.3,
+  "sunshine": 36309.14,
+  "wind_speed_max": 24.5,
+  "sunrise": "2009-06-14T06:01",
+  "sunset": "2009-06-14T20:26",
+  "sunshine_duration_seconds": 36309.14,
+  "sunshine_duration_minutes": 605,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 290,
+  "sunshine_consistency": "Faible"
+}

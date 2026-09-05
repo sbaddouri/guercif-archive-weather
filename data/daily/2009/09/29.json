@@ -1,0 +1,18 @@
+{
+  "date": "2009-09-29",
+  "weather_code": 53,
+  "temp_max": 24.7,
+  "temp_min": 14.9,
+  "temp_mean": 19.1,
+  "precipitation": 1.2,
+  "sunshine": 38144.65,
+  "wind_speed_max": 6.9,
+  "sunrise": "2009-09-29T07:06",
+  "sunset": "2009-09-29T19:00",
+  "sunshine_duration_seconds": 38144.65,
+  "sunshine_duration_minutes": 636,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 276,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2009-08-16",
+  "weather_code": 2,
+  "temp_max": 34.7,
+  "temp_min": 20.9,
+  "temp_mean": 27.5,
+  "precipitation": 0,
+  "sunshine": 45838.88,
+  "wind_speed_max": 19.3,
+  "sunrise": "2009-08-16T06:35",
+  "sunset": "2009-08-16T19:59",
+  "sunshine_duration_seconds": 45838.88,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 104,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2009-07-25",
+  "weather_code": 1,
+  "temp_max": 40.4,
+  "temp_min": 25.5,
+  "temp_mean": 33.2,
+  "precipitation": 0,
+  "sunshine": 47519.87,
+  "wind_speed_max": 23.8,
+  "sunrise": "2009-07-25T06:19",
+  "sunset": "2009-07-25T20:20",
+  "sunshine_duration_seconds": 47519.87,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

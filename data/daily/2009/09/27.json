@@ -1,0 +1,18 @@
+{
+  "date": "2009-09-27",
+  "weather_code": 1,
+  "temp_max": 22.6,
+  "temp_min": 14,
+  "temp_mean": 18.5,
+  "precipitation": 0,
+  "sunshine": 42601.49,
+  "wind_speed_max": 14,
+  "sunrise": "2009-09-27T07:05",
+  "sunset": "2009-09-27T19:03",
+  "sunshine_duration_seconds": 42601.49,
+  "sunshine_duration_minutes": 710,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 95,
+  "sunshine_consistency": "Faible"
+}

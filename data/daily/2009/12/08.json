@@ -1,0 +1,18 @@
+{
+  "date": "2009-12-08",
+  "weather_code": 3,
+  "temp_max": 18.9,
+  "temp_min": 2.8,
+  "temp_mean": 10.6,
+  "precipitation": 0,
+  "sunshine": 35262.27,
+  "wind_speed_max": 6.3,
+  "sunrise": "2009-12-08T08:07",
+  "sunset": "2009-12-08T18:03",
+  "sunshine_duration_seconds": 35262.27,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

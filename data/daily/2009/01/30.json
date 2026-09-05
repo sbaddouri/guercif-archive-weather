@@ -1,0 +1,18 @@
+{
+  "date": "2009-01-30",
+  "weather_code": 1,
+  "temp_max": 18.4,
+  "temp_min": 3.4,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 37254.61,
+  "wind_speed_max": 12.7,
+  "sunrise": "2009-01-30T08:12",
+  "sunset": "2009-01-30T18:41",
+  "sunshine_duration_seconds": 37254.61,
+  "sunshine_duration_minutes": 621,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 21,
+  "sunshine_consistency": "Moyen"
+}
