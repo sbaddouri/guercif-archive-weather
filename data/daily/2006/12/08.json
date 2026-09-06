@@ -1,0 +1,18 @@
+{
+  "date": "2006-12-08",
+  "weather_code": 51,
+  "temp_max": 17.8,
+  "temp_min": 8.1,
+  "temp_mean": 12.2,
+  "precipitation": 0.1,
+  "sunshine": 28110.27,
+  "wind_speed_max": 26,
+  "sunrise": "2006-12-08T08:06",
+  "sunset": "2006-12-08T18:03",
+  "sunshine_duration_seconds": 28110.27,
+  "sunshine_duration_minutes": 469,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 79,
+  "sunshine_consistency": "Faible"
+}

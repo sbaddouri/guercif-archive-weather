@@ -1,0 +1,18 @@
+{
+  "date": "2006-10-01",
+  "weather_code": 1,
+  "temp_max": 34.9,
+  "temp_min": 20.5,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 42131.48,
+  "wind_speed_max": 17.1,
+  "sunrise": "2006-10-01T07:07",
+  "sunset": "2006-10-01T18:58",
+  "sunshine_duration_seconds": 42131.48,
+  "sunshine_duration_minutes": 702,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

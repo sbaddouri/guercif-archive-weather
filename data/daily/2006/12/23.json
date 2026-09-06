@@ -1,0 +1,18 @@
+{
+  "date": "2006-12-23",
+  "weather_code": 2,
+  "temp_max": 12.7,
+  "temp_min": -0.3,
+  "temp_mean": 6,
+  "precipitation": 0,
+  "sunshine": 34742.95,
+  "wind_speed_max": 10.7,
+  "sunrise": "2006-12-23T08:16",
+  "sunset": "2006-12-23T18:08",
+  "sunshine_duration_seconds": 34742.95,
+  "sunshine_duration_minutes": 579,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 54,
+  "sunshine_consistency": "Faible"
+}

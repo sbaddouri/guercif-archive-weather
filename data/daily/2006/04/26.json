@@ -1,0 +1,18 @@
+{
+  "date": "2006-04-26",
+  "weather_code": 2,
+  "temp_max": 19.9,
+  "temp_min": 9.7,
+  "temp_mean": 15.2,
+  "precipitation": 0,
+  "sunshine": 46239.89,
+  "wind_speed_max": 18.9,
+  "sunrise": "2006-04-26T06:29",
+  "sunset": "2006-04-26T19:53",
+  "sunshine_duration_seconds": 46239.89,
+  "sunshine_duration_minutes": 771,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 201,
+  "sunshine_consistency": "Faible"
+}

@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       fullUrl: true,
     },
   },
+  staticPageGenerationTimeout: 300,
   // On peut essayer de désactiver Turbopack si le build bloque
   // Mais Next.js 16 le recommande par défaut.
   typescript: {

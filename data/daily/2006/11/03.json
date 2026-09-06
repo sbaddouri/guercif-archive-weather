@@ -1,0 +1,18 @@
+{
+  "date": "2006-11-03",
+  "weather_code": 53,
+  "temp_max": 25.7,
+  "temp_min": 16.6,
+  "temp_mean": 20.4,
+  "precipitation": 2.4,
+  "sunshine": 25200,
+  "wind_speed_max": 15.5,
+  "sunrise": "2006-11-03T07:34",
+  "sunset": "2006-11-03T18:18",
+  "sunshine_duration_seconds": 25200,
+  "sunshine_duration_minutes": 420,
+  "estimated_daily_sunshine_minutes": 280,
+  "estimated_daily_sunshine": "4 h 40 min",
+  "sunshine_difference_minutes": 140,
+  "sunshine_consistency": "Faible"
+}

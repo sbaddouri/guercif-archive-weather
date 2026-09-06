@@ -1,0 +1,18 @@
+{
+  "date": "2006-02-16",
+  "weather_code": 2,
+  "temp_max": 17.6,
+  "temp_min": 5.1,
+  "temp_mean": 10.8,
+  "precipitation": 0,
+  "sunshine": 39117.99,
+  "wind_speed_max": 22.7,
+  "sunrise": "2006-02-16T07:57",
+  "sunset": "2006-02-16T18:57",
+  "sunshine_duration_seconds": 39117.99,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 82,
+  "sunshine_consistency": "Faible"
+}

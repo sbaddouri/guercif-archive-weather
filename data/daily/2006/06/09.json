@@ -1,0 +1,18 @@
+{
+  "date": "2006-06-09",
+  "weather_code": 55,
+  "temp_max": 37.6,
+  "temp_min": 22.8,
+  "temp_mean": 30,
+  "precipitation": 1.2,
+  "sunshine": 37568.62,
+  "wind_speed_max": 12.6,
+  "sunrise": "2006-06-09T06:01",
+  "sunset": "2006-06-09T20:24",
+  "sunshine_duration_seconds": 37568.62,
+  "sunshine_duration_minutes": 626,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 251,
+  "sunshine_consistency": "Faible"
+}

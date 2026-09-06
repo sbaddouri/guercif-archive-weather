@@ -1,0 +1,18 @@
+{
+  "date": "2006-07-31",
+  "weather_code": 2,
+  "temp_max": 40.3,
+  "temp_min": 21.8,
+  "temp_mean": 32.3,
+  "precipitation": 0,
+  "sunshine": 47322.77,
+  "wind_speed_max": 15.3,
+  "sunrise": "2006-07-31T06:23",
+  "sunset": "2006-07-31T20:15",
+  "sunshine_duration_seconds": 47322.77,
+  "sunshine_duration_minutes": 789,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 84,
+  "sunshine_consistency": "Faible"
+}

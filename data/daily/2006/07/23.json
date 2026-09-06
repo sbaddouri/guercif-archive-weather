@@ -1,0 +1,18 @@
+{
+  "date": "2006-07-23",
+  "weather_code": 51,
+  "temp_max": 38.1,
+  "temp_min": 22,
+  "temp_mean": 31.1,
+  "precipitation": 0.3,
+  "sunshine": 47343.68,
+  "wind_speed_max": 8.7,
+  "sunrise": "2006-07-23T06:17",
+  "sunset": "2006-07-23T20:21",
+  "sunshine_duration_seconds": 47343.68,
+  "sunshine_duration_minutes": 789,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 114,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2006-12-04",
+  "weather_code": 0,
+  "temp_max": 18.6,
+  "temp_min": 5.3,
+  "temp_mean": 11.9,
+  "precipitation": 0,
+  "sunshine": 35460.19,
+  "wind_speed_max": 8.4,
+  "sunrise": "2006-12-04T08:03",
+  "sunset": "2006-12-04T18:03",
+  "sunshine_duration_seconds": 35460.19,
+  "sunshine_duration_minutes": 591,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

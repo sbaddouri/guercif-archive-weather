@@ -1,0 +1,18 @@
+{
+  "date": "2006-01-09",
+  "weather_code": 1,
+  "temp_max": 12,
+  "temp_min": -0.9,
+  "temp_mean": 5.9,
+  "precipitation": 0,
+  "sunshine": 34187.59,
+  "wind_speed_max": 8.9,
+  "sunrise": "2006-01-09T08:20",
+  "sunset": "2006-01-09T18:21",
+  "sunshine_duration_seconds": 34187.59,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

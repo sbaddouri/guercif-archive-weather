@@ -1,0 +1,18 @@
+{
+  "date": "2006-07-29",
+  "weather_code": 1,
+  "temp_max": 38.7,
+  "temp_min": 25.2,
+  "temp_mean": 31.1,
+  "precipitation": 0,
+  "sunshine": 47286,
+  "wind_speed_max": 22.9,
+  "sunrise": "2006-07-29T06:22",
+  "sunset": "2006-07-29T20:17",
+  "sunshine_duration_seconds": 47286,
+  "sunshine_duration_minutes": 788,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2006-12-30",
+  "weather_code": 0,
+  "temp_max": 15.6,
+  "temp_min": 1.9,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 34516.15,
+  "wind_speed_max": 8,
+  "sunrise": "2006-12-30T08:19",
+  "sunset": "2006-12-30T18:13",
+  "sunshine_duration_seconds": 34516.15,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

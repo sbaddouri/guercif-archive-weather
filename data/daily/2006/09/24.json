@@ -1,0 +1,18 @@
+{
+  "date": "2006-09-24",
+  "weather_code": 53,
+  "temp_max": 25.4,
+  "temp_min": 15.9,
+  "temp_mean": 20.7,
+  "precipitation": 2.8,
+  "sunshine": 42789.14,
+  "wind_speed_max": 8,
+  "sunrise": "2006-09-24T07:02",
+  "sunset": "2006-09-24T19:07",
+  "sunshine_duration_seconds": 42789.14,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 53,
+  "sunshine_consistency": "Faible"
+}

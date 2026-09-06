@@ -1,0 +1,18 @@
+{
+  "date": "2006-09-06",
+  "weather_code": 2,
+  "temp_max": 33.6,
+  "temp_min": 21,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 41787.57,
+  "wind_speed_max": 17.7,
+  "sunrise": "2006-09-06T06:50",
+  "sunset": "2006-09-06T19:33",
+  "sunshine_duration_seconds": 41787.57,
+  "sunshine_duration_minutes": 696,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}
