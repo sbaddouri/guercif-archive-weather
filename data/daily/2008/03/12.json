@@ -1,0 +1,18 @@
+{
+  "date": "2008-03-12",
+  "weather_code": 2,
+  "temp_max": 26.5,
+  "temp_min": 7.2,
+  "temp_mean": 17.3,
+  "precipitation": 0,
+  "sunshine": 40422.41,
+  "wind_speed_max": 8.4,
+  "sunrise": "2008-03-12T07:27",
+  "sunset": "2008-03-12T19:19",
+  "sunshine_duration_seconds": 40422.41,
+  "sunshine_duration_minutes": 674,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

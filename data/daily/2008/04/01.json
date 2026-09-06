@@ -1,0 +1,18 @@
+{
+  "date": "2008-04-01",
+  "weather_code": 0,
+  "temp_max": 21.7,
+  "temp_min": 8.4,
+  "temp_mean": 15.1,
+  "precipitation": 0,
+  "sunshine": 43964.12,
+  "wind_speed_max": 24,
+  "sunrise": "2008-04-01T07:00",
+  "sunset": "2008-04-01T19:34",
+  "sunshine_duration_seconds": 43964.12,
+  "sunshine_duration_minutes": 733,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}

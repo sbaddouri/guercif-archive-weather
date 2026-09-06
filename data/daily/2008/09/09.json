@@ -1,0 +1,18 @@
+{
+  "date": "2008-09-09",
+  "weather_code": 53,
+  "temp_max": 32.6,
+  "temp_min": 20.4,
+  "temp_mean": 25.7,
+  "precipitation": 0.6,
+  "sunshine": 42206.68,
+  "wind_speed_max": 19.3,
+  "sunrise": "2008-09-09T06:52",
+  "sunset": "2008-09-09T19:28",
+  "sunshine_duration_seconds": 42206.68,
+  "sunshine_duration_minutes": 703,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 223,
+  "sunshine_consistency": "Faible"
+}

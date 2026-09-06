@@ -1,0 +1,18 @@
+{
+  "date": "2008-02-22",
+  "weather_code": 55,
+  "temp_max": 16.6,
+  "temp_min": 9.9,
+  "temp_mean": 12.9,
+  "precipitation": 6.9,
+  "sunshine": 15728.59,
+  "wind_speed_max": 10.7,
+  "sunrise": "2008-02-22T07:51",
+  "sunset": "2008-02-22T19:03",
+  "sunshine_duration_seconds": 15728.59,
+  "sunshine_duration_minutes": 262,
+  "estimated_daily_sunshine_minutes": 85,
+  "estimated_daily_sunshine": "1 h 25 min",
+  "sunshine_difference_minutes": 177,
+  "sunshine_consistency": "Faible"
+}

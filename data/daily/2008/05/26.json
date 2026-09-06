@@ -1,0 +1,18 @@
+{
+  "date": "2008-05-26",
+  "weather_code": 53,
+  "temp_max": 20.9,
+  "temp_min": 13.9,
+  "temp_mean": 16.3,
+  "precipitation": 4.3,
+  "sunshine": 39090.07,
+  "wind_speed_max": 15.6,
+  "sunrise": "2008-05-26T06:05",
+  "sunset": "2008-05-26T20:16",
+  "sunshine_duration_seconds": 39090.07,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 150,
+  "estimated_daily_sunshine": "2 h 30 min",
+  "sunshine_difference_minutes": 502,
+  "sunshine_consistency": "Faible"
+}

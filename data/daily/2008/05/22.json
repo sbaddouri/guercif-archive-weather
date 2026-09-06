@@ -1,0 +1,18 @@
+{
+  "date": "2008-05-22",
+  "weather_code": 2,
+  "temp_max": 28.7,
+  "temp_min": 13.3,
+  "temp_mean": 21.5,
+  "precipitation": 0,
+  "sunshine": 49710.93,
+  "wind_speed_max": 14.8,
+  "sunrise": "2008-05-22T06:07",
+  "sunset": "2008-05-22T20:13",
+  "sunshine_duration_seconds": 49710.93,
+  "sunshine_duration_minutes": 829,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

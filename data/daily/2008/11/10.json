@@ -1,0 +1,18 @@
+{
+  "date": "2008-11-10",
+  "weather_code": 1,
+  "temp_max": 17.9,
+  "temp_min": 4.9,
+  "temp_mean": 11.2,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 7.6,
+  "sunrise": "2008-11-10T07:41",
+  "sunset": "2008-11-10T18:12",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

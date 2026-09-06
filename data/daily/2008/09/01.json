@@ -1,0 +1,18 @@
+{
+  "date": "2008-09-01",
+  "weather_code": 55,
+  "temp_max": 34.2,
+  "temp_min": 21.1,
+  "temp_mean": 27.5,
+  "precipitation": 1.1,
+  "sunshine": 43269.94,
+  "wind_speed_max": 9.9,
+  "sunrise": "2008-09-01T06:47",
+  "sunset": "2008-09-01T19:39",
+  "sunshine_duration_seconds": 43269.94,
+  "sunshine_duration_minutes": 721,
+  "estimated_daily_sunshine_minutes": 345,
+  "estimated_daily_sunshine": "5 h 45 min",
+  "sunshine_difference_minutes": 376,
+  "sunshine_consistency": "Faible"
+}

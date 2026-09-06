@@ -1,0 +1,18 @@
+{
+  "date": "2008-09-26",
+  "weather_code": 61,
+  "temp_max": 24.6,
+  "temp_min": 17.8,
+  "temp_mean": 20.8,
+  "precipitation": 5,
+  "sunshine": 22895.73,
+  "wind_speed_max": 15.5,
+  "sunrise": "2008-09-26T07:04",
+  "sunset": "2008-09-26T19:04",
+  "sunshine_duration_seconds": 22895.73,
+  "sunshine_duration_minutes": 382,
+  "estimated_daily_sunshine_minutes": 95,
+  "estimated_daily_sunshine": "1 h 35 min",
+  "sunshine_difference_minutes": 287,
+  "sunshine_consistency": "Faible"
+}

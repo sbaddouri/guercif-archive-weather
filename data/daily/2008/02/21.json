@@ -1,0 +1,18 @@
+{
+  "date": "2008-02-21",
+  "weather_code": 53,
+  "temp_max": 14.8,
+  "temp_min": 9.1,
+  "temp_mean": 12.2,
+  "precipitation": 1.5,
+  "sunshine": 7971.94,
+  "wind_speed_max": 7.1,
+  "sunrise": "2008-02-21T07:52",
+  "sunset": "2008-02-21T19:02",
+  "sunshine_duration_seconds": 7971.94,
+  "sunshine_duration_minutes": 133,
+  "estimated_daily_sunshine_minutes": 70,
+  "estimated_daily_sunshine": "1 h 10 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

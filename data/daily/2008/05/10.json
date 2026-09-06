@@ -1,0 +1,18 @@
+{
+  "date": "2008-05-10",
+  "weather_code": 2,
+  "temp_max": 17,
+  "temp_min": 10.9,
+  "temp_mean": 13.9,
+  "precipitation": 0,
+  "sunshine": 47656.89,
+  "wind_speed_max": 28.6,
+  "sunrise": "2008-05-10T06:15",
+  "sunset": "2008-05-10T20:04",
+  "sunshine_duration_seconds": 47656.89,
+  "sunshine_duration_minutes": 794,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 239,
+  "sunshine_consistency": "Faible"
+}

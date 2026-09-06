@@ -1,0 +1,18 @@
+{
+  "date": "2008-01-26",
+  "weather_code": 3,
+  "temp_max": 14.8,
+  "temp_min": 6.2,
+  "temp_mean": 9.6,
+  "precipitation": 0,
+  "sunshine": 36008.24,
+  "wind_speed_max": 9.8,
+  "sunrise": "2008-01-26T08:15",
+  "sunset": "2008-01-26T18:37",
+  "sunshine_duration_seconds": 36008.24,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 60,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2008-03-27",
+  "weather_code": 1,
+  "temp_max": 20.7,
+  "temp_min": 8.5,
+  "temp_mean": 14.3,
+  "precipitation": 0,
+  "sunshine": 42827.22,
+  "wind_speed_max": 24.1,
+  "sunrise": "2008-03-27T07:07",
+  "sunset": "2008-03-27T19:30",
+  "sunshine_duration_seconds": 42827.22,
+  "sunshine_duration_minutes": 714,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

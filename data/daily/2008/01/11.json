@@ -1,0 +1,18 @@
+{
+  "date": "2008-01-11",
+  "weather_code": 0,
+  "temp_max": 16.4,
+  "temp_min": 3.7,
+  "temp_mean": 9.8,
+  "precipitation": 0,
+  "sunshine": 34529.65,
+  "wind_speed_max": 15.8,
+  "sunrise": "2008-01-11T08:20",
+  "sunset": "2008-01-11T18:22",
+  "sunshine_duration_seconds": 34529.65,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}
