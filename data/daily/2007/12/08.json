@@ -1,0 +1,18 @@
+{
+  "date": "2007-12-08",
+  "weather_code": 2,
+  "temp_max": 17.5,
+  "temp_min": 8.4,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 35279.36,
+  "wind_speed_max": 13.9,
+  "sunrise": "2007-12-08T08:06",
+  "sunset": "2007-12-08T18:03",
+  "sunshine_duration_seconds": 35279.36,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 78,
+  "sunshine_consistency": "Faible"
+}

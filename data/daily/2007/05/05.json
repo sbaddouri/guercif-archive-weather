@@ -1,0 +1,18 @@
+{
+  "date": "2007-05-05",
+  "weather_code": 53,
+  "temp_max": 19.7,
+  "temp_min": 12.4,
+  "temp_mean": 15.6,
+  "precipitation": 1.2,
+  "sunshine": 46111.22,
+  "wind_speed_max": 20.5,
+  "sunrise": "2007-05-05T06:20",
+  "sunset": "2007-05-05T20:00",
+  "sunshine_duration_seconds": 46111.22,
+  "sunshine_duration_minutes": 769,
+  "estimated_daily_sunshine_minutes": 430,
+  "estimated_daily_sunshine": "7 h 10 min",
+  "sunshine_difference_minutes": 339,
+  "sunshine_consistency": "Faible"
+}

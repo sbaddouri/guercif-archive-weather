@@ -1,0 +1,18 @@
+{
+  "date": "2007-09-03",
+  "weather_code": 1,
+  "temp_max": 33.7,
+  "temp_min": 20.1,
+  "temp_mean": 26.1,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 20,
+  "sunrise": "2007-09-03T06:47",
+  "sunset": "2007-09-03T19:37",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

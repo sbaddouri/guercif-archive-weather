@@ -1,0 +1,18 @@
+{
+  "date": "2007-02-07",
+  "weather_code": 51,
+  "temp_max": 15.3,
+  "temp_min": 9.3,
+  "temp_mean": 12,
+  "precipitation": 0.1,
+  "sunshine": 38054.87,
+  "wind_speed_max": 24.4,
+  "sunrise": "2007-02-07T08:06",
+  "sunset": "2007-02-07T18:49",
+  "sunshine_duration_seconds": 38054.87,
+  "sunshine_duration_minutes": 634,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 454,
+  "sunshine_consistency": "Faible"
+}

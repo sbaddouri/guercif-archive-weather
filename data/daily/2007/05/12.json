@@ -1,0 +1,18 @@
+{
+  "date": "2007-05-12",
+  "weather_code": 1,
+  "temp_max": 33.1,
+  "temp_min": 12.7,
+  "temp_mean": 24.5,
+  "precipitation": 0,
+  "sunshine": 49110.56,
+  "wind_speed_max": 16.4,
+  "sunrise": "2007-05-12T06:14",
+  "sunset": "2007-05-12T20:05",
+  "sunshine_duration_seconds": 49110.56,
+  "sunshine_duration_minutes": 819,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

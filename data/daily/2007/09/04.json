@@ -1,0 +1,18 @@
+{
+  "date": "2007-09-04",
+  "weather_code": 2,
+  "temp_max": 34.4,
+  "temp_min": 21.1,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 25.8,
+  "sunrise": "2007-09-04T06:48",
+  "sunset": "2007-09-04T19:36",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

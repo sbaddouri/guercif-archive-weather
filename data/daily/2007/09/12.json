@@ -1,0 +1,18 @@
+{
+  "date": "2007-09-12",
+  "weather_code": 51,
+  "temp_max": 26.1,
+  "temp_min": 19.5,
+  "temp_mean": 22.3,
+  "precipitation": 0.4,
+  "sunshine": 34858.97,
+  "wind_speed_max": 19.8,
+  "sunrise": "2007-09-12T06:54",
+  "sunset": "2007-09-12T19:25",
+  "sunshine_duration_seconds": 34858.97,
+  "sunshine_duration_minutes": 581,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 266,
+  "sunshine_consistency": "Faible"
+}

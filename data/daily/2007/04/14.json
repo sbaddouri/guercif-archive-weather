@@ -1,0 +1,18 @@
+{
+  "date": "2007-04-14",
+  "weather_code": 1,
+  "temp_max": 20.5,
+  "temp_min": 8.2,
+  "temp_mean": 14.5,
+  "precipitation": 0,
+  "sunshine": 45592.89,
+  "wind_speed_max": 10.2,
+  "sunrise": "2007-04-14T06:44",
+  "sunset": "2007-04-14T19:43",
+  "sunshine_duration_seconds": 45592.89,
+  "sunshine_duration_minutes": 760,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

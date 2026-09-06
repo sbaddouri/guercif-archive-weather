@@ -1,0 +1,18 @@
+{
+  "date": "2007-10-02",
+  "weather_code": 55,
+  "temp_max": 26.8,
+  "temp_min": 18.7,
+  "temp_mean": 22.2,
+  "precipitation": 1.8,
+  "sunshine": 19736.6,
+  "wind_speed_max": 9.2,
+  "sunrise": "2007-10-02T07:08",
+  "sunset": "2007-10-02T18:56",
+  "sunshine_duration_seconds": 19736.6,
+  "sunshine_duration_minutes": 329,
+  "estimated_daily_sunshine_minutes": 0,
+  "estimated_daily_sunshine": "0 h 00 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2007-10-28",
+  "weather_code": 61,
+  "temp_max": 17.3,
+  "temp_min": 13.4,
+  "temp_mean": 14.8,
+  "precipitation": 7.3,
+  "sunshine": 11217.75,
+  "wind_speed_max": 10,
+  "sunrise": "2007-10-28T07:29",
+  "sunset": "2007-10-28T18:24",
+  "sunshine_duration_seconds": 11217.75,
+  "sunshine_duration_minutes": 187,
+  "estimated_daily_sunshine_minutes": 130,
+  "estimated_daily_sunshine": "2 h 10 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

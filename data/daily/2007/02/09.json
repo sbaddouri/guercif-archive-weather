@@ -1,0 +1,18 @@
+{
+  "date": "2007-02-09",
+  "weather_code": 2,
+  "temp_max": 19.8,
+  "temp_min": 14.2,
+  "temp_mean": 16,
+  "precipitation": 0,
+  "sunshine": 38277.22,
+  "wind_speed_max": 32.8,
+  "sunrise": "2007-02-09T08:04",
+  "sunset": "2007-02-09T18:51",
+  "sunshine_duration_seconds": 38277.22,
+  "sunshine_duration_minutes": 638,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 113,
+  "sunshine_consistency": "Faible"
+}

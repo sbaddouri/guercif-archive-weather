@@ -1,0 +1,18 @@
+{
+  "date": "2007-04-22",
+  "weather_code": 55,
+  "temp_max": 16.2,
+  "temp_min": 12.5,
+  "temp_mean": 14.1,
+  "precipitation": 11.4,
+  "sunshine": 5191.29,
+  "wind_speed_max": 19.4,
+  "sunrise": "2007-04-22T06:34",
+  "sunset": "2007-04-22T19:50",
+  "sunshine_duration_seconds": 5191.29,
+  "sunshine_duration_minutes": 87,
+  "estimated_daily_sunshine_minutes": 145,
+  "estimated_daily_sunshine": "2 h 25 min",
+  "sunshine_difference_minutes": 58,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2007-04-16",
+  "weather_code": 51,
+  "temp_max": 21.3,
+  "temp_min": 9.2,
+  "temp_mean": 14.3,
+  "precipitation": 0.5,
+  "sunshine": 45627.76,
+  "wind_speed_max": 26.1,
+  "sunrise": "2007-04-16T06:41",
+  "sunset": "2007-04-16T19:45",
+  "sunshine_duration_seconds": 45627.76,
+  "sunshine_duration_minutes": 760,
+  "estimated_daily_sunshine_minutes": 405,
+  "estimated_daily_sunshine": "6 h 45 min",
+  "sunshine_difference_minutes": 355,
+  "sunshine_consistency": "Faible"
+}
