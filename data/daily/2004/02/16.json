@@ -1,0 +1,18 @@
+{
+  "date": "2004-02-16",
+  "weather_code": 1,
+  "temp_max": 18,
+  "temp_min": 4.3,
+  "temp_mean": 11.3,
+  "precipitation": 0,
+  "sunshine": 39056.49,
+  "wind_speed_max": 9,
+  "sunrise": "2004-02-16T07:58",
+  "sunset": "2004-02-16T18:57",
+  "sunshine_duration_seconds": 39056.49,
+  "sunshine_duration_minutes": 651,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 21,
+  "sunshine_consistency": "Moyen"
+}

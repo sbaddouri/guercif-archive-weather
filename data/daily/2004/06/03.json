@@ -1,0 +1,18 @@
+{
+  "date": "2004-06-03",
+  "weather_code": 53,
+  "temp_max": 37.6,
+  "temp_min": 18.1,
+  "temp_mean": 28.5,
+  "precipitation": 0.7,
+  "sunshine": 49855.83,
+  "wind_speed_max": 16.9,
+  "sunrise": "2004-06-03T06:02",
+  "sunset": "2004-06-03T20:21",
+  "sunshine_duration_seconds": 49855.83,
+  "sunshine_duration_minutes": 831,
+  "estimated_daily_sunshine_minutes": 700,
+  "estimated_daily_sunshine": "11 h 40 min",
+  "sunshine_difference_minutes": 131,
+  "sunshine_consistency": "Faible"
+}

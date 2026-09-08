@@ -1,0 +1,18 @@
+{
+  "date": "2004-03-02",
+  "weather_code": 71,
+  "temp_max": 10,
+  "temp_min": 2.8,
+  "temp_mean": 6.7,
+  "precipitation": 7.4,
+  "sunshine": 35687.31,
+  "wind_speed_max": 19,
+  "sunrise": "2004-03-02T07:40",
+  "sunset": "2004-03-02T19:10",
+  "sunshine_duration_seconds": 35687.31,
+  "sunshine_duration_minutes": 595,
+  "estimated_daily_sunshine_minutes": 320,
+  "estimated_daily_sunshine": "5 h 20 min",
+  "sunshine_difference_minutes": 275,
+  "sunshine_consistency": "Faible"
+}

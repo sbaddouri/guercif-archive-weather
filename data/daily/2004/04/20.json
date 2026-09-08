@@ -1,0 +1,18 @@
+{
+  "date": "2004-04-20",
+  "weather_code": 0,
+  "temp_max": 25.3,
+  "temp_min": 6.7,
+  "temp_mean": 16.1,
+  "precipitation": 0,
+  "sunshine": 45904.02,
+  "wind_speed_max": 16.4,
+  "sunrise": "2004-04-20T06:36",
+  "sunset": "2004-04-20T19:49",
+  "sunshine_duration_seconds": 45904.02,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2004-07-24",
+  "weather_code": 51,
+  "temp_max": 41.3,
+  "temp_min": 27.1,
+  "temp_mean": 33.6,
+  "precipitation": 0.1,
+  "sunshine": 47502.45,
+  "wind_speed_max": 19.2,
+  "sunrise": "2004-07-24T06:18",
+  "sunset": "2004-07-24T20:20",
+  "sunshine_duration_seconds": 47502.45,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 72,
+  "sunshine_consistency": "Faible"
+}

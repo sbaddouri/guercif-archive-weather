@@ -1,0 +1,18 @@
+{
+  "date": "2004-05-28",
+  "weather_code": 2,
+  "temp_max": 28.9,
+  "temp_min": 13.8,
+  "temp_mean": 21.8,
+  "precipitation": 0,
+  "sunshine": 49879.65,
+  "wind_speed_max": 17.7,
+  "sunrise": "2004-05-28T06:04",
+  "sunset": "2004-05-28T20:17",
+  "sunshine_duration_seconds": 49879.65,
+  "sunshine_duration_minutes": 831,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 51,
+  "sunshine_consistency": "Faible"
+}

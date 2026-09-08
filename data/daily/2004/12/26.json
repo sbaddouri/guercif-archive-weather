@@ -1,0 +1,18 @@
+{
+  "date": "2004-12-26",
+  "weather_code": 53,
+  "temp_max": 9,
+  "temp_min": 5,
+  "temp_mean": 7,
+  "precipitation": 1.1,
+  "sunshine": 33524.35,
+  "wind_speed_max": 36.7,
+  "sunrise": "2004-12-26T08:17",
+  "sunset": "2004-12-26T18:10",
+  "sunshine_duration_seconds": 33524.35,
+  "sunshine_duration_minutes": 559,
+  "estimated_daily_sunshine_minutes": 280,
+  "estimated_daily_sunshine": "4 h 40 min",
+  "sunshine_difference_minutes": 279,
+  "sunshine_consistency": "Faible"
+}

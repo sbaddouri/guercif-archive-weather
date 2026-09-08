@@ -1,0 +1,18 @@
+{
+  "date": "2004-11-05",
+  "weather_code": 55,
+  "temp_max": 16.1,
+  "temp_min": 11.8,
+  "temp_mean": 14.1,
+  "precipitation": 9.2,
+  "sunshine": 16317.13,
+  "wind_speed_max": 11.8,
+  "sunrise": "2004-11-05T07:37",
+  "sunset": "2004-11-05T18:16",
+  "sunshine_duration_seconds": 16317.13,
+  "sunshine_duration_minutes": 272,
+  "estimated_daily_sunshine_minutes": 145,
+  "estimated_daily_sunshine": "2 h 25 min",
+  "sunshine_difference_minutes": 127,
+  "sunshine_consistency": "Faible"
+}
