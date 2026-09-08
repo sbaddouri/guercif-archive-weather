@@ -1,0 +1,18 @@
+{
+  "date": "2005-10-20",
+  "weather_code": 2,
+  "temp_max": 22.9,
+  "temp_min": 11.3,
+  "temp_mean": 17.7,
+  "precipitation": 0,
+  "sunshine": 37281.72,
+  "wind_speed_max": 9.4,
+  "sunrise": "2005-10-20T07:22",
+  "sunset": "2005-10-20T18:33",
+  "sunshine_duration_seconds": 37281.72,
+  "sunshine_duration_minutes": 621,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

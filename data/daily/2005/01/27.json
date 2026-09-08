@@ -1,0 +1,18 @@
+{
+  "date": "2005-01-27",
+  "weather_code": 73,
+  "temp_max": 4.2,
+  "temp_min": -0.1,
+  "temp_mean": 1.8,
+  "precipitation": 8.2,
+  "sunshine": 28639.63,
+  "wind_speed_max": 8.7,
+  "sunrise": "2005-01-27T08:14",
+  "sunset": "2005-01-27T18:38",
+  "sunshine_duration_seconds": 28639.63,
+  "sunshine_duration_minutes": 477,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 387,
+  "sunshine_consistency": "Faible"
+}

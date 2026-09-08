@@ -1,0 +1,18 @@
+{
+  "date": "2005-07-03",
+  "weather_code": 2,
+  "temp_max": 38.7,
+  "temp_min": 21.8,
+  "temp_mean": 29.3,
+  "precipitation": 0,
+  "sunshine": 49648.02,
+  "wind_speed_max": 25.3,
+  "sunrise": "2005-07-03T06:06",
+  "sunset": "2005-07-03T20:29",
+  "sunshine_duration_seconds": 49648.02,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 107,
+  "sunshine_consistency": "Faible"
+}

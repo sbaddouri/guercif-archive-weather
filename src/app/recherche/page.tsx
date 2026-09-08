@@ -48,7 +48,7 @@ export default function SearchPage() {
       </Card>
 
       <div className="grid grid-cols-2 gap-4">
-        {[2026, 2025, 2024, 2023, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006].map(year => (
+        {[2026, 2025, 2024, 2023, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005].map(year => (
           <Button key={year} variant="outline" onClick={() => router.push(`/climatologie/annee/${year}/guercif`)}>
             Année {year}
           </Button>

@@ -1,0 +1,18 @@
+{
+  "date": "2005-11-30",
+  "weather_code": 53,
+  "temp_max": 11.1,
+  "temp_min": 8.2,
+  "temp_mean": 9.3,
+  "precipitation": 5.4,
+  "sunshine": 33708.4,
+  "wind_speed_max": 15.1,
+  "sunrise": "2005-11-30T08:00",
+  "sunset": "2005-11-30T18:03",
+  "sunshine_duration_seconds": 33708.4,
+  "sunshine_duration_minutes": 562,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": 367,
+  "sunshine_consistency": "Faible"
+}

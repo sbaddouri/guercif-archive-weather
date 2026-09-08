@@ -1,0 +1,18 @@
+{
+  "date": "2005-04-09",
+  "weather_code": 61,
+  "temp_max": 16.1,
+  "temp_min": 11,
+  "temp_mean": 13.1,
+  "precipitation": 2.1,
+  "sunshine": 33986.27,
+  "wind_speed_max": 26,
+  "sunrise": "2005-04-09T06:50",
+  "sunset": "2005-04-09T19:40",
+  "sunshine_duration_seconds": 33986.27,
+  "sunshine_duration_minutes": 566,
+  "estimated_daily_sunshine_minutes": 170,
+  "estimated_daily_sunshine": "2 h 50 min",
+  "sunshine_difference_minutes": 396,
+  "sunshine_consistency": "Faible"
+}

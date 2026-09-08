@@ -1,0 +1,18 @@
+{
+  "date": "2005-01-04",
+  "weather_code": 2,
+  "temp_max": 15,
+  "temp_min": 2.5,
+  "temp_mean": 8.5,
+  "precipitation": 0,
+  "sunshine": 34204.13,
+  "wind_speed_max": 10,
+  "sunrise": "2005-01-04T08:19",
+  "sunset": "2005-01-04T18:17",
+  "sunshine_duration_seconds": 34204.13,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

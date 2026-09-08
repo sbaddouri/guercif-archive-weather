@@ -1,0 +1,18 @@
+{
+  "date": "2005-02-06",
+  "weather_code": 51,
+  "temp_max": 12.9,
+  "temp_min": 2.2,
+  "temp_mean": 7.4,
+  "precipitation": 0.1,
+  "sunshine": 37987.46,
+  "wind_speed_max": 14,
+  "sunrise": "2005-02-06T08:07",
+  "sunset": "2005-02-06T18:48",
+  "sunshine_duration_seconds": 37987.46,
+  "sunshine_duration_minutes": 633,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 168,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2005-03-27",
+  "weather_code": 3,
+  "temp_max": 21.6,
+  "temp_min": 10.9,
+  "temp_mean": 16,
+  "precipitation": 0,
+  "sunshine": 39852.42,
+  "wind_speed_max": 10.3,
+  "sunrise": "2005-03-27T07:07",
+  "sunset": "2005-03-27T19:30",
+  "sunshine_duration_seconds": 39852.42,
+  "sunshine_duration_minutes": 664,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 544,
+  "sunshine_consistency": "Faible"
+}

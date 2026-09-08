@@ -1,0 +1,18 @@
+{
+  "date": "2005-09-30",
+  "weather_code": 2,
+  "temp_max": 27.2,
+  "temp_min": 15.4,
+  "temp_mean": 21.4,
+  "precipitation": 0,
+  "sunshine": 42229.35,
+  "wind_speed_max": 13.6,
+  "sunrise": "2005-09-30T07:07",
+  "sunset": "2005-09-30T18:59",
+  "sunshine_duration_seconds": 42229.35,
+  "sunshine_duration_minutes": 704,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 104,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2005-06-12",
+  "weather_code": 2,
+  "temp_max": 31.5,
+  "temp_min": 20.8,
+  "temp_mean": 26.1,
+  "precipitation": 0,
+  "sunshine": 50053.46,
+  "wind_speed_max": 20,
+  "sunrise": "2005-06-12T06:01",
+  "sunset": "2005-06-12T20:25",
+  "sunshine_duration_seconds": 50053.46,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 174,
+  "sunshine_consistency": "Faible"
+}

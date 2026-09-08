@@ -1,0 +1,18 @@
+{
+  "date": "2005-03-02",
+  "weather_code": 51,
+  "temp_max": 13.6,
+  "temp_min": 5.1,
+  "temp_mean": 8.9,
+  "precipitation": 0.1,
+  "sunshine": 39600,
+  "wind_speed_max": 22.3,
+  "sunrise": "2005-03-02T07:41",
+  "sunset": "2005-03-02T19:10",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 120,
+  "sunshine_consistency": "Faible"
+}

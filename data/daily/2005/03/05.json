@@ -1,0 +1,18 @@
+{
+  "date": "2005-03-05",
+  "weather_code": 55,
+  "temp_max": 9.7,
+  "temp_min": 5.1,
+  "temp_mean": 6.7,
+  "precipitation": 8.7,
+  "sunshine": 7444.96,
+  "wind_speed_max": 19.5,
+  "sunrise": "2005-03-05T07:37",
+  "sunset": "2005-03-05T19:13",
+  "sunshine_duration_seconds": 7444.96,
+  "sunshine_duration_minutes": 124,
+  "estimated_daily_sunshine_minutes": 130,
+  "estimated_daily_sunshine": "2 h 10 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

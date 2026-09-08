@@ -1,0 +1,18 @@
+{
+  "date": "2005-10-19",
+  "weather_code": 3,
+  "temp_max": 21.7,
+  "temp_min": 13.9,
+  "temp_mean": 17.4,
+  "precipitation": 0,
+  "sunshine": 36984.57,
+  "wind_speed_max": 10.1,
+  "sunrise": "2005-10-19T07:22",
+  "sunset": "2005-10-19T18:34",
+  "sunshine_duration_seconds": 36984.57,
+  "sunshine_duration_minutes": 616,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 301,
+  "sunshine_consistency": "Faible"
+}

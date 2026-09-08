@@ -1,0 +1,18 @@
+{
+  "date": "2005-02-11",
+  "weather_code": 1,
+  "temp_max": 15.2,
+  "temp_min": 2.4,
+  "temp_mean": 8.1,
+  "precipitation": 0,
+  "sunshine": 38559.41,
+  "wind_speed_max": 10.6,
+  "sunrise": "2005-02-11T08:02",
+  "sunset": "2005-02-11T18:53",
+  "sunshine_duration_seconds": 38559.41,
+  "sunshine_duration_minutes": 643,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 88,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2005-09-24",
+  "weather_code": 1,
+  "temp_max": 27.6,
+  "temp_min": 16.7,
+  "temp_mean": 22,
+  "precipitation": 0,
+  "sunshine": 42780.62,
+  "wind_speed_max": 16.7,
+  "sunrise": "2005-09-24T07:02",
+  "sunset": "2005-09-24T19:07",
+  "sunshine_duration_seconds": 42780.62,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

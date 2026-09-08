@@ -1,0 +1,18 @@
+{
+  "date": "2005-11-15",
+  "weather_code": 2,
+  "temp_max": 14.6,
+  "temp_min": 6.7,
+  "temp_mean": 11,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 18.1,
+  "sunrise": "2005-11-15T07:46",
+  "sunset": "2005-11-15T18:09",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 135,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2005-08-19",
+  "weather_code": 3,
+  "temp_max": 35.5,
+  "temp_min": 22.6,
+  "temp_mean": 28.6,
+  "precipitation": 0,
+  "sunshine": 32555.6,
+  "wind_speed_max": 18.5,
+  "sunrise": "2005-08-19T06:37",
+  "sunset": "2005-08-19T19:56",
+  "sunshine_duration_seconds": 32555.6,
+  "sunshine_duration_minutes": 543,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 483,
+  "sunshine_consistency": "Faible"
+}

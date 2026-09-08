@@ -1,0 +1,18 @@
+{
+  "date": "2005-03-24",
+  "weather_code": 53,
+  "temp_max": 23.1,
+  "temp_min": 12.8,
+  "temp_mean": 17.5,
+  "precipitation": 1.5,
+  "sunshine": 41884.39,
+  "wind_speed_max": 15.3,
+  "sunrise": "2005-03-24T07:11",
+  "sunset": "2005-03-24T19:28",
+  "sunshine_duration_seconds": 41884.39,
+  "sunshine_duration_minutes": 698,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 428,
+  "sunshine_consistency": "Faible"
+}

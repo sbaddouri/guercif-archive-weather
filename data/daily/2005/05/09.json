@@ -1,0 +1,18 @@
+{
+  "date": "2005-05-09",
+  "weather_code": 3,
+  "temp_max": 34.9,
+  "temp_min": 17.5,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 47362.85,
+  "wind_speed_max": 16.9,
+  "sunrise": "2005-05-09T06:16",
+  "sunset": "2005-05-09T20:03",
+  "sunshine_duration_seconds": 47362.85,
+  "sunshine_duration_minutes": 789,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 21,
+  "sunshine_consistency": "Moyen"
+}
