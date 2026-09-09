@@ -1,0 +1,18 @@
+{
+  "date": "2003-10-14",
+  "weather_code": 51,
+  "temp_max": 24.3,
+  "temp_min": 15.9,
+  "temp_mean": 20,
+  "precipitation": 0.1,
+  "sunshine": 39116.95,
+  "wind_speed_max": 14.1,
+  "sunrise": "2003-10-14T07:17",
+  "sunset": "2003-10-14T18:41",
+  "sunshine_duration_seconds": 39116.95,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 37,
+  "sunshine_consistency": "Faible"
+}

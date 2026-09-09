@@ -1,0 +1,18 @@
+{
+  "date": "2003-08-13",
+  "weather_code": 51,
+  "temp_max": 36,
+  "temp_min": 23.2,
+  "temp_mean": 29.4,
+  "precipitation": 0.4,
+  "sunshine": 46756.46,
+  "wind_speed_max": 16.6,
+  "sunrise": "2003-08-13T06:32",
+  "sunset": "2003-08-13T20:03",
+  "sunshine_duration_seconds": 46756.46,
+  "sunshine_duration_minutes": 779,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 104,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2003-02-07",
+  "weather_code": 2,
+  "temp_max": 17.8,
+  "temp_min": 5.3,
+  "temp_mean": 11.5,
+  "precipitation": 0,
+  "sunshine": 38051.91,
+  "wind_speed_max": 10,
+  "sunrise": "2003-02-07T08:06",
+  "sunset": "2003-02-07T18:49",
+  "sunshine_duration_seconds": 38051.91,
+  "sunshine_duration_minutes": 634,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 79,
+  "sunshine_consistency": "Faible"
+}

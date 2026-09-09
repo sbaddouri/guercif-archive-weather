@@ -1,0 +1,18 @@
+{
+  "date": "2003-10-31",
+  "weather_code": 63,
+  "temp_max": 21.1,
+  "temp_min": 10.7,
+  "temp_mean": 15.1,
+  "precipitation": 6,
+  "sunshine": 36160.54,
+  "wind_speed_max": 27.6,
+  "sunrise": "2003-10-31T07:31",
+  "sunset": "2003-10-31T18:22",
+  "sunshine_duration_seconds": 36160.54,
+  "sunshine_duration_minutes": 603,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 423,
+  "sunshine_consistency": "Faible"
+}

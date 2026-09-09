@@ -1,0 +1,18 @@
+{
+  "date": "2003-04-20",
+  "weather_code": 2,
+  "temp_max": 18,
+  "temp_min": 8.3,
+  "temp_mean": 13.9,
+  "precipitation": 0,
+  "sunshine": 45869.15,
+  "wind_speed_max": 17.3,
+  "sunrise": "2003-04-20T06:37",
+  "sunset": "2003-04-20T19:48",
+  "sunshine_duration_seconds": 45869.15,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 209,
+  "sunshine_consistency": "Faible"
+}

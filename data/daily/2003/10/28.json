@@ -1,0 +1,18 @@
+{
+  "date": "2003-10-28",
+  "weather_code": 3,
+  "temp_max": 21.7,
+  "temp_min": 13.2,
+  "temp_mean": 17.3,
+  "precipitation": 0,
+  "sunshine": 34561.27,
+  "wind_speed_max": 13,
+  "sunrise": "2003-10-28T07:29",
+  "sunset": "2003-10-28T18:24",
+  "sunshine_duration_seconds": 34561.27,
+  "sunshine_duration_minutes": 576,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 396,
+  "sunshine_consistency": "Faible"
+}

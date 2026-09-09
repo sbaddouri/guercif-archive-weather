@@ -1,0 +1,18 @@
+{
+  "date": "2003-12-31",
+  "weather_code": 1,
+  "temp_max": 14.1,
+  "temp_min": 6.8,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 34196.51,
+  "wind_speed_max": 26.6,
+  "sunrise": "2003-12-31T08:19",
+  "sunset": "2003-12-31T18:13",
+  "sunshine_duration_seconds": 34196.51,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

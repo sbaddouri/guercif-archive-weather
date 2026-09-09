@@ -1,0 +1,18 @@
+{
+  "date": "2003-12-13",
+  "weather_code": 0,
+  "temp_max": 16,
+  "temp_min": 3.2,
+  "temp_mean": 9.6,
+  "precipitation": 0,
+  "sunshine": 35108.92,
+  "wind_speed_max": 7.3,
+  "sunrise": "2003-12-13T08:10",
+  "sunset": "2003-12-13T18:04",
+  "sunshine_duration_seconds": 35108.92,
+  "sunshine_duration_minutes": 585,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

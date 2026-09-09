@@ -1,0 +1,18 @@
+{
+  "date": "2003-07-11",
+  "weather_code": 53,
+  "temp_max": 41.2,
+  "temp_min": 25,
+  "temp_mean": 33.3,
+  "precipitation": 0.6,
+  "sunshine": 43055.49,
+  "wind_speed_max": 12.2,
+  "sunrise": "2003-07-11T06:10",
+  "sunset": "2003-07-11T20:27",
+  "sunshine_duration_seconds": 43055.49,
+  "sunshine_duration_minutes": 718,
+  "estimated_daily_sunshine_minutes": 490,
+  "estimated_daily_sunshine": "8 h 10 min",
+  "sunshine_difference_minutes": 228,
+  "sunshine_consistency": "Faible"
+}

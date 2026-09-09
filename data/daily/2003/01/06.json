@@ -1,0 +1,18 @@
+{
+  "date": "2003-01-06",
+  "weather_code": 51,
+  "temp_max": 13.7,
+  "temp_min": 10.2,
+  "temp_mean": 11.9,
+  "precipitation": 0.6,
+  "sunshine": 23533.71,
+  "wind_speed_max": 27.4,
+  "sunrise": "2003-01-06T08:20",
+  "sunset": "2003-01-06T18:18",
+  "sunshine_duration_seconds": 23533.71,
+  "sunshine_duration_minutes": 392,
+  "estimated_daily_sunshine_minutes": 255,
+  "estimated_daily_sunshine": "4 h 15 min",
+  "sunshine_difference_minutes": 137,
+  "sunshine_consistency": "Faible"
+}

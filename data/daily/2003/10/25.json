@@ -1,0 +1,18 @@
+{
+  "date": "2003-10-25",
+  "weather_code": 53,
+  "temp_max": 19.1,
+  "temp_min": 11.6,
+  "temp_mean": 15.4,
+  "precipitation": 3.2,
+  "sunshine": 36146.11,
+  "wind_speed_max": 7.1,
+  "sunrise": "2003-10-25T07:26",
+  "sunset": "2003-10-25T18:28",
+  "sunshine_duration_seconds": 36146.11,
+  "sunshine_duration_minutes": 602,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 242,
+  "sunshine_consistency": "Faible"
+}

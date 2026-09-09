@@ -1,0 +1,18 @@
+{
+  "date": "2003-01-11",
+  "weather_code": 1,
+  "temp_max": 10.7,
+  "temp_min": 4.3,
+  "temp_mean": 6.7,
+  "precipitation": 0,
+  "sunshine": 34487.84,
+  "wind_speed_max": 23.4,
+  "sunrise": "2003-01-11T08:19",
+  "sunset": "2003-01-11T18:22",
+  "sunshine_duration_seconds": 34487.84,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

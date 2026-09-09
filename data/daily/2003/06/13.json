@@ -1,0 +1,18 @@
+{
+  "date": "2003-06-13",
+  "weather_code": 55,
+  "temp_max": 40.9,
+  "temp_min": 21.7,
+  "temp_mean": 31.2,
+  "precipitation": 1,
+  "sunshine": 42411.2,
+  "wind_speed_max": 21.9,
+  "sunrise": "2003-06-13T06:01",
+  "sunset": "2003-06-13T20:25",
+  "sunshine_duration_seconds": 42411.2,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 242,
+  "sunshine_consistency": "Faible"
+}

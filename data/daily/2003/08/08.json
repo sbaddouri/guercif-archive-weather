@@ -1,0 +1,18 @@
+{
+  "date": "2003-08-08",
+  "weather_code": 55,
+  "temp_max": 37.6,
+  "temp_min": 22.5,
+  "temp_mean": 29.3,
+  "precipitation": 1.6,
+  "sunshine": 37768.32,
+  "wind_speed_max": 14.2,
+  "sunrise": "2003-08-08T06:29",
+  "sunset": "2003-08-08T20:08",
+  "sunshine_duration_seconds": 37768.32,
+  "sunshine_duration_minutes": 629,
+  "estimated_daily_sunshine_minutes": 220,
+  "estimated_daily_sunshine": "3 h 40 min",
+  "sunshine_difference_minutes": 409,
+  "sunshine_consistency": "Faible"
+}

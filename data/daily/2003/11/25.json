@@ -1,0 +1,18 @@
+{
+  "date": "2003-11-25",
+  "weather_code": 55,
+  "temp_max": 13.2,
+  "temp_min": 7.9,
+  "temp_mean": 10.5,
+  "precipitation": 3.5,
+  "sunshine": 26163.98,
+  "wind_speed_max": 20.8,
+  "sunrise": "2003-11-25T07:55",
+  "sunset": "2003-11-25T18:05",
+  "sunshine_duration_seconds": 26163.98,
+  "sunshine_duration_minutes": 436,
+  "estimated_daily_sunshine_minutes": 175,
+  "estimated_daily_sunshine": "2 h 55 min",
+  "sunshine_difference_minutes": 261,
+  "sunshine_consistency": "Faible"
+}

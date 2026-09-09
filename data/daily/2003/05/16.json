@@ -1,0 +1,18 @@
+{
+  "date": "2003-05-16",
+  "weather_code": 61,
+  "temp_max": 29.3,
+  "temp_min": 16.6,
+  "temp_mean": 22.6,
+  "precipitation": 2,
+  "sunshine": 44379.39,
+  "wind_speed_max": 13.7,
+  "sunrise": "2003-05-16T06:11",
+  "sunset": "2003-05-16T20:08",
+  "sunshine_duration_seconds": 44379.39,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 260,
+  "sunshine_consistency": "Faible"
+}

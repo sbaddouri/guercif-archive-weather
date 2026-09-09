@@ -1,0 +1,18 @@
+{
+  "date": "2003-02-09",
+  "weather_code": 55,
+  "temp_max": 12.3,
+  "temp_min": 6.9,
+  "temp_mean": 9.2,
+  "precipitation": 7.3,
+  "sunshine": 35181.34,
+  "wind_speed_max": 8.6,
+  "sunrise": "2003-02-09T08:04",
+  "sunset": "2003-02-09T18:51",
+  "sunshine_duration_seconds": 35181.34,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 165,
+  "estimated_daily_sunshine": "2 h 45 min",
+  "sunshine_difference_minutes": 421,
+  "sunshine_consistency": "Faible"
+}

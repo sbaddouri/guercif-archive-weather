@@ -1,0 +1,18 @@
+{
+  "date": "2003-11-26",
+  "weather_code": 2,
+  "temp_max": 14.8,
+  "temp_min": 9.4,
+  "temp_mean": 11.4,
+  "precipitation": 0,
+  "sunshine": 35955.87,
+  "wind_speed_max": 21.2,
+  "sunrise": "2003-11-26T07:56",
+  "sunset": "2003-11-26T18:04",
+  "sunshine_duration_seconds": 35955.87,
+  "sunshine_duration_minutes": 599,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

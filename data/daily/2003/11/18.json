@@ -1,0 +1,18 @@
+{
+  "date": "2003-11-18",
+  "weather_code": 61,
+  "temp_max": 13.7,
+  "temp_min": 11.3,
+  "temp_mean": 12.2,
+  "precipitation": 22.8,
+  "sunshine": 609.72,
+  "wind_speed_max": 16,
+  "sunrise": "2003-11-18T07:48",
+  "sunset": "2003-11-18T18:08",
+  "sunshine_duration_seconds": 609.72,
+  "sunshine_duration_minutes": 10,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 65,
+  "sunshine_consistency": "Faible"
+}

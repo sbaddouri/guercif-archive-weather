@@ -1,0 +1,18 @@
+{
+  "date": "2003-09-03",
+  "weather_code": 2,
+  "temp_max": 35.3,
+  "temp_min": 20,
+  "temp_mean": 27.5,
+  "precipitation": 0,
+  "sunshine": 43874.9,
+  "wind_speed_max": 18.2,
+  "sunrise": "2003-09-03T06:47",
+  "sunset": "2003-09-03T19:37",
+  "sunshine_duration_seconds": 43874.9,
+  "sunshine_duration_minutes": 731,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 26,
+  "sunshine_consistency": "Moyen"
+}
