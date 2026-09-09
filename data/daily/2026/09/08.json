@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-08",
+  "weather_code": 51,
+  "temp_max": 38.2,
+  "temp_min": 23.9,
+  "temp_mean": 30.7,
+  "precipitation": 0.1,
+  "sunshine": 41996.16,
+  "wind_speed_max": 20,
+  "sunrise": "2026-09-08T06:51",
+  "sunset": "2026-09-08T19:30",
+  "sunshine_duration_seconds": 41996.16,
+  "sunshine_duration_minutes": 700,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 235,
+  "sunshine_consistency": "Faible"
+}
