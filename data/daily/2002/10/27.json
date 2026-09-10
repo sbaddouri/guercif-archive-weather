@@ -1,0 +1,18 @@
+{
+  "date": "2002-10-27",
+  "weather_code": 1,
+  "temp_max": 28.9,
+  "temp_min": 13,
+  "temp_mean": 21.4,
+  "precipitation": 0,
+  "sunshine": 36923.82,
+  "wind_speed_max": 14.5,
+  "sunrise": "2002-10-27T07:28",
+  "sunset": "2002-10-27T18:25",
+  "sunshine_duration_seconds": 36923.82,
+  "sunshine_duration_minutes": 615,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2002-09-21",
+  "weather_code": 51,
+  "temp_max": 28.6,
+  "temp_min": 18.3,
+  "temp_mean": 24,
+  "precipitation": 0.4,
+  "sunshine": 42918.92,
+  "wind_speed_max": 20,
+  "sunrise": "2002-09-21T07:00",
+  "sunset": "2002-09-21T19:12",
+  "sunshine_duration_seconds": 42918.92,
+  "sunshine_duration_minutes": 715,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

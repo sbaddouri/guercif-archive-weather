@@ -1,0 +1,18 @@
+{
+  "date": "2002-12-14",
+  "weather_code": 53,
+  "temp_max": 17.2,
+  "temp_min": 9.2,
+  "temp_mean": 13.7,
+  "precipitation": 0.7,
+  "sunshine": 33976.21,
+  "wind_speed_max": 17.4,
+  "sunrise": "2002-12-14T08:11",
+  "sunset": "2002-12-14T18:04",
+  "sunshine_duration_seconds": 33976.21,
+  "sunshine_duration_minutes": 566,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 191,
+  "sunshine_consistency": "Faible"
+}

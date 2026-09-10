@@ -1,0 +1,18 @@
+{
+  "date": "2002-12-29",
+  "weather_code": 3,
+  "temp_max": 16.3,
+  "temp_min": 3.2,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 34602.25,
+  "wind_speed_max": 8,
+  "sunrise": "2002-12-29T08:18",
+  "sunset": "2002-12-29T18:12",
+  "sunshine_duration_seconds": 34602.25,
+  "sunshine_duration_minutes": 577,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 187,
+  "sunshine_consistency": "Faible"
+}

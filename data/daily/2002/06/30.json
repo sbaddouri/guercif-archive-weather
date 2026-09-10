@@ -1,0 +1,18 @@
+{
+  "date": "2002-06-30",
+  "weather_code": 55,
+  "temp_max": 29.9,
+  "temp_min": 20.5,
+  "temp_mean": 24.1,
+  "precipitation": 2.3,
+  "sunshine": 43085.5,
+  "wind_speed_max": 18.6,
+  "sunrise": "2002-06-30T06:04",
+  "sunset": "2002-06-30T20:29",
+  "sunshine_duration_seconds": 43085.5,
+  "sunshine_duration_minutes": 718,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 223,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2002-04-16",
+  "weather_code": 2,
+  "temp_max": 19.4,
+  "temp_min": 9,
+  "temp_mean": 13.8,
+  "precipitation": 0,
+  "sunshine": 43648.06,
+  "wind_speed_max": 15.4,
+  "sunrise": "2002-04-16T06:41",
+  "sunset": "2002-04-16T19:45",
+  "sunshine_duration_seconds": 43648.06,
+  "sunshine_duration_minutes": 727,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

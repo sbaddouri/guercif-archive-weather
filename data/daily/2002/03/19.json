@@ -1,0 +1,18 @@
+{
+  "date": "2002-03-19",
+  "weather_code": 0,
+  "temp_max": 25.5,
+  "temp_min": 5.9,
+  "temp_mean": 16.7,
+  "precipitation": 0,
+  "sunshine": 41819,
+  "wind_speed_max": 11.2,
+  "sunrise": "2002-03-19T07:19",
+  "sunset": "2002-03-19T19:24",
+  "sunshine_duration_seconds": 41819,
+  "sunshine_duration_minutes": 697,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

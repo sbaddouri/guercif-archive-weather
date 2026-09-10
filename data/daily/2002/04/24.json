@@ -1,0 +1,18 @@
+{
+  "date": "2002-04-24",
+  "weather_code": 0,
+  "temp_max": 25.9,
+  "temp_min": 11.5,
+  "temp_mean": 18.2,
+  "precipitation": 0,
+  "sunshine": 46208.64,
+  "wind_speed_max": 20.4,
+  "sunrise": "2002-04-24T06:32",
+  "sunset": "2002-04-24T19:51",
+  "sunshine_duration_seconds": 46208.64,
+  "sunshine_duration_minutes": 770,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

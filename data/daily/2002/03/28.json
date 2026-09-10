@@ -1,0 +1,18 @@
+{
+  "date": "2002-03-28",
+  "weather_code": 53,
+  "temp_max": 19.6,
+  "temp_min": 10.4,
+  "temp_mean": 13.6,
+  "precipitation": 1.8,
+  "sunshine": 16911.42,
+  "wind_speed_max": 13.7,
+  "sunrise": "2002-03-28T07:06",
+  "sunset": "2002-03-28T19:31",
+  "sunshine_duration_seconds": 16911.42,
+  "sunshine_duration_minutes": 282,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 207,
+  "sunshine_consistency": "Faible"
+}

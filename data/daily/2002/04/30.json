@@ -1,0 +1,18 @@
+{
+  "date": "2002-04-30",
+  "weather_code": 51,
+  "temp_max": 30.4,
+  "temp_min": 16.7,
+  "temp_mean": 22.9,
+  "precipitation": 0.2,
+  "sunshine": 38003.08,
+  "wind_speed_max": 19.7,
+  "sunrise": "2002-04-30T06:25",
+  "sunset": "2002-04-30T19:56",
+  "sunshine_duration_seconds": 38003.08,
+  "sunshine_duration_minutes": 633,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 138,
+  "sunshine_consistency": "Faible"
+}

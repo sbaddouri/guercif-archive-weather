@@ -1,0 +1,18 @@
+{
+  "date": "2002-09-23",
+  "weather_code": 2,
+  "temp_max": 24.1,
+  "temp_min": 16.8,
+  "temp_mean": 20.3,
+  "precipitation": 0,
+  "sunshine": 42834.05,
+  "wind_speed_max": 24.8,
+  "sunrise": "2002-09-23T07:02",
+  "sunset": "2002-09-23T19:09",
+  "sunshine_duration_seconds": 42834.05,
+  "sunshine_duration_minutes": 714,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 144,
+  "sunshine_consistency": "Faible"
+}

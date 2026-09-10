@@ -1,0 +1,18 @@
+{
+  "date": "2002-06-21",
+  "weather_code": 0,
+  "temp_max": 37.3,
+  "temp_min": 22.8,
+  "temp_mean": 29.6,
+  "precipitation": 0,
+  "sunshine": 50003.52,
+  "wind_speed_max": 15.9,
+  "sunrise": "2002-06-21T06:01",
+  "sunset": "2002-06-21T20:28",
+  "sunshine_duration_seconds": 50003.52,
+  "sunshine_duration_minutes": 833,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

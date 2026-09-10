@@ -1,0 +1,18 @@
+{
+  "date": "2002-09-17",
+  "weather_code": 51,
+  "temp_max": 30.5,
+  "temp_min": 19.2,
+  "temp_mean": 25,
+  "precipitation": 0.3,
+  "sunshine": 43086.58,
+  "wind_speed_max": 12.3,
+  "sunrise": "2002-09-17T06:57",
+  "sunset": "2002-09-17T19:17",
+  "sunshine_duration_seconds": 43086.58,
+  "sunshine_duration_minutes": 718,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

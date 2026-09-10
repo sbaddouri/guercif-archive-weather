@@ -1,0 +1,18 @@
+{
+  "date": "2002-03-16",
+  "weather_code": 55,
+  "temp_max": 13.1,
+  "temp_min": 8.8,
+  "temp_mean": 10.8,
+  "precipitation": 3,
+  "sunshine": 6509.99,
+  "wind_speed_max": 23.5,
+  "sunrise": "2002-03-16T07:23",
+  "sunset": "2002-03-16T19:21",
+  "sunshine_duration_seconds": 6509.99,
+  "sunshine_duration_minutes": 108,
+  "estimated_daily_sunshine_minutes": 50,
+  "estimated_daily_sunshine": "0 h 50 min",
+  "sunshine_difference_minutes": 58,
+  "sunshine_consistency": "Faible"
+}

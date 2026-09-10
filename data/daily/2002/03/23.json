@@ -1,0 +1,18 @@
+{
+  "date": "2002-03-23",
+  "weather_code": 0,
+  "temp_max": 30.2,
+  "temp_min": 9.7,
+  "temp_mean": 21.3,
+  "precipitation": 0,
+  "sunshine": 42286.38,
+  "wind_speed_max": 10.6,
+  "sunrise": "2002-03-23T07:13",
+  "sunset": "2002-03-23T19:27",
+  "sunshine_duration_seconds": 42286.38,
+  "sunshine_duration_minutes": 705,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}
