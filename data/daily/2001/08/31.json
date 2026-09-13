@@ -1,0 +1,18 @@
+{
+  "date": "2001-08-31",
+  "weather_code": 0,
+  "temp_max": 33.2,
+  "temp_min": 17.6,
+  "temp_mean": 25.6,
+  "precipitation": 0,
+  "sunshine": 44623.33,
+  "wind_speed_max": 18.4,
+  "sunrise": "2001-08-31T06:46",
+  "sunset": "2001-08-31T19:40",
+  "sunshine_duration_seconds": 44623.33,
+  "sunshine_duration_minutes": 744,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2001-12-26",
+  "weather_code": 53,
+  "temp_max": 15.6,
+  "temp_min": 9,
+  "temp_mean": 11.9,
+  "precipitation": 2.3,
+  "sunshine": 32876.67,
+  "wind_speed_max": 16.7,
+  "sunrise": "2001-12-26T08:17",
+  "sunset": "2001-12-26T18:10",
+  "sunshine_duration_seconds": 32876.67,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 98,
+  "sunshine_consistency": "Faible"
+}

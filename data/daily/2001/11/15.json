@@ -1,0 +1,18 @@
+{
+  "date": "2001-11-15",
+  "weather_code": 51,
+  "temp_max": 12.9,
+  "temp_min": 1.7,
+  "temp_mean": 8.1,
+  "precipitation": 0.6,
+  "sunshine": 36000,
+  "wind_speed_max": 20.3,
+  "sunrise": "2001-11-15T07:46",
+  "sunset": "2001-11-15T18:09",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

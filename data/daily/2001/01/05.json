@@ -1,0 +1,18 @@
+{
+  "date": "2001-01-05",
+  "weather_code": 3,
+  "temp_max": 21.6,
+  "temp_min": 7.9,
+  "temp_mean": 13.4,
+  "precipitation": 0,
+  "sunshine": 34519.93,
+  "wind_speed_max": 11.5,
+  "sunrise": "2001-01-05T08:20",
+  "sunset": "2001-01-05T18:18",
+  "sunshine_duration_seconds": 34519.93,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 515,
+  "sunshine_consistency": "Faible"
+}

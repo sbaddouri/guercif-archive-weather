@@ -1,0 +1,18 @@
+{
+  "date": "2001-04-09",
+  "weather_code": 0,
+  "temp_max": 27.1,
+  "temp_min": 9.8,
+  "temp_mean": 18.1,
+  "precipitation": 0,
+  "sunshine": 45384.6,
+  "wind_speed_max": 25.9,
+  "sunrise": "2001-04-09T06:50",
+  "sunset": "2001-04-09T19:40",
+  "sunshine_duration_seconds": 45384.6,
+  "sunshine_duration_minutes": 756,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

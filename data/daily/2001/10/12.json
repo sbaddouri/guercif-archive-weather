@@ -1,0 +1,18 @@
+{
+  "date": "2001-10-12",
+  "weather_code": 53,
+  "temp_max": 27.7,
+  "temp_min": 16.2,
+  "temp_mean": 20.5,
+  "precipitation": 1.8,
+  "sunshine": 24925.4,
+  "wind_speed_max": 17.4,
+  "sunrise": "2001-10-12T07:16",
+  "sunset": "2001-10-12T18:43",
+  "sunshine_duration_seconds": 24925.4,
+  "sunshine_duration_minutes": 415,
+  "estimated_daily_sunshine_minutes": 175,
+  "estimated_daily_sunshine": "2 h 55 min",
+  "sunshine_difference_minutes": 240,
+  "sunshine_consistency": "Faible"
+}

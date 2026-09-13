@@ -1,0 +1,18 @@
+{
+  "date": "2001-07-22",
+  "weather_code": 51,
+  "temp_max": 41.9,
+  "temp_min": 22.1,
+  "temp_mean": 32.4,
+  "precipitation": 0.2,
+  "sunshine": 44997.1,
+  "wind_speed_max": 13.6,
+  "sunrise": "2001-07-22T06:17",
+  "sunset": "2001-07-22T20:22",
+  "sunshine_duration_seconds": 44997.1,
+  "sunshine_duration_minutes": 750,
+  "estimated_daily_sunshine_minutes": 405,
+  "estimated_daily_sunshine": "6 h 45 min",
+  "sunshine_difference_minutes": 345,
+  "sunshine_consistency": "Faible"
+}

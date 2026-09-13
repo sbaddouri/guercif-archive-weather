@@ -1,0 +1,18 @@
+{
+  "date": "2001-07-20",
+  "weather_code": 1,
+  "temp_max": 33.9,
+  "temp_min": 19,
+  "temp_mean": 25.4,
+  "precipitation": 0,
+  "sunshine": 48034,
+  "wind_speed_max": 25.1,
+  "sunrise": "2001-07-20T06:15",
+  "sunset": "2001-07-20T20:23",
+  "sunshine_duration_seconds": 48034,
+  "sunshine_duration_minutes": 801,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 39,
+  "sunshine_consistency": "Faible"
+}

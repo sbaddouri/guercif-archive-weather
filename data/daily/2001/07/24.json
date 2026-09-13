@@ -1,0 +1,18 @@
+{
+  "date": "2001-07-24",
+  "weather_code": 53,
+  "temp_max": 39.5,
+  "temp_min": 24.1,
+  "temp_mean": 31.9,
+  "precipitation": 0.9,
+  "sunshine": 47198.76,
+  "wind_speed_max": 11.2,
+  "sunrise": "2001-07-24T06:18",
+  "sunset": "2001-07-24T20:20",
+  "sunshine_duration_seconds": 47198.76,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 700,
+  "estimated_daily_sunshine": "11 h 40 min",
+  "sunshine_difference_minutes": 87,
+  "sunshine_consistency": "Faible"
+}

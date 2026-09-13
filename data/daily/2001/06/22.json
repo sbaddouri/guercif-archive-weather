@@ -1,0 +1,18 @@
+{
+  "date": "2001-06-22",
+  "weather_code": 1,
+  "temp_max": 38.6,
+  "temp_min": 22.8,
+  "temp_mean": 29.6,
+  "precipitation": 0,
+  "sunshine": 49984.96,
+  "wind_speed_max": 21.5,
+  "sunrise": "2001-06-22T06:02",
+  "sunset": "2001-06-22T20:28",
+  "sunshine_duration_seconds": 49984.96,
+  "sunshine_duration_minutes": 833,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

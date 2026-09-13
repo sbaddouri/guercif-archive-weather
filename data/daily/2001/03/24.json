@@ -1,0 +1,18 @@
+{
+  "date": "2001-03-24",
+  "weather_code": 2,
+  "temp_max": 27.9,
+  "temp_min": 15.6,
+  "temp_mean": 21,
+  "precipitation": 0,
+  "sunshine": 42355.29,
+  "wind_speed_max": 21.1,
+  "sunrise": "2001-03-24T07:11",
+  "sunset": "2001-03-24T19:28",
+  "sunshine_duration_seconds": 42355.29,
+  "sunshine_duration_minutes": 706,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 76,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2001-08-19",
+  "weather_code": 0,
+  "temp_max": 34.7,
+  "temp_min": 21.9,
+  "temp_mean": 27.5,
+  "precipitation": 0,
+  "sunshine": 46311.6,
+  "wind_speed_max": 20.4,
+  "sunrise": "2001-08-19T06:37",
+  "sunset": "2001-08-19T19:56",
+  "sunshine_duration_seconds": 46311.6,
+  "sunshine_duration_minutes": 772,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

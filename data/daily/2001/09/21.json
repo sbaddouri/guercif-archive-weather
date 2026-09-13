@@ -1,0 +1,18 @@
+{
+  "date": "2001-09-21",
+  "weather_code": 51,
+  "temp_max": 29.3,
+  "temp_min": 19.5,
+  "temp_mean": 23.9,
+  "precipitation": 0.6,
+  "sunshine": 33883.91,
+  "wind_speed_max": 6,
+  "sunrise": "2001-09-21T07:00",
+  "sunset": "2001-09-21T19:11",
+  "sunshine_duration_seconds": 33883.91,
+  "sunshine_duration_minutes": 565,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 130,
+  "sunshine_consistency": "Faible"
+}
