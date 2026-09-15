@@ -1,0 +1,18 @@
+{
+  "date": "2000-02-23",
+  "weather_code": 0,
+  "temp_max": 20.4,
+  "temp_min": 6.1,
+  "temp_mean": 13.7,
+  "precipitation": 0,
+  "sunshine": 39583.02,
+  "wind_speed_max": 15.9,
+  "sunrise": "2000-02-23T07:50",
+  "sunset": "2000-02-23T19:03",
+  "sunshine_duration_seconds": 39583.02,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 60,
+  "sunshine_consistency": "Faible"
+}

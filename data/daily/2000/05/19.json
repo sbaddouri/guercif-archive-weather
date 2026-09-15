@@ -1,0 +1,18 @@
+{
+  "date": "2000-05-19",
+  "weather_code": 1,
+  "temp_max": 32,
+  "temp_min": 18.6,
+  "temp_mean": 24.5,
+  "precipitation": 0,
+  "sunshine": 49592.84,
+  "wind_speed_max": 19.8,
+  "sunrise": "2000-05-19T06:08",
+  "sunset": "2000-05-19T20:11",
+  "sunshine_duration_seconds": 49592.84,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}

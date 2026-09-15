@@ -1,0 +1,18 @@
+{
+  "date": "2000-04-20",
+  "weather_code": 0,
+  "temp_max": 28.2,
+  "temp_min": 9,
+  "temp_mean": 19.6,
+  "precipitation": 0,
+  "sunshine": 45901.44,
+  "wind_speed_max": 19.3,
+  "sunrise": "2000-04-20T06:36",
+  "sunset": "2000-04-20T19:49",
+  "sunshine_duration_seconds": 45901.44,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

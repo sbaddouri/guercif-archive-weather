@@ -1,0 +1,18 @@
+{
+  "date": "2000-05-31",
+  "weather_code": 63,
+  "temp_max": 36.3,
+  "temp_min": 21.6,
+  "temp_mean": 27.8,
+  "precipitation": 2.9,
+  "sunshine": 48639.22,
+  "wind_speed_max": 19.1,
+  "sunrise": "2000-05-31T06:03",
+  "sunset": "2000-05-31T20:19",
+  "sunshine_duration_seconds": 48639.22,
+  "sunshine_duration_minutes": 811,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 121,
+  "sunshine_consistency": "Faible"
+}

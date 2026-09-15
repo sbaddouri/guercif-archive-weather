@@ -1,0 +1,18 @@
+{
+  "date": "2000-05-29",
+  "weather_code": 1,
+  "temp_max": 33.2,
+  "temp_min": 18.4,
+  "temp_mean": 25.6,
+  "precipitation": 0,
+  "sunshine": 49900.69,
+  "wind_speed_max": 21,
+  "sunrise": "2000-05-29T06:03",
+  "sunset": "2000-05-29T20:18",
+  "sunshine_duration_seconds": 49900.69,
+  "sunshine_duration_minutes": 832,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2000-08-04",
+  "weather_code": 1,
+  "temp_max": 34.2,
+  "temp_min": 21.5,
+  "temp_mean": 27.9,
+  "precipitation": 0,
+  "sunshine": 46818.73,
+  "wind_speed_max": 24.1,
+  "sunrise": "2000-08-04T06:26",
+  "sunset": "2000-08-04T20:11",
+  "sunshine_duration_seconds": 46818.73,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 45,
+  "sunshine_consistency": "Faible"
+}

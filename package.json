@@ -10,7 +10,7 @@
   "homepage": "https://github.com/sbaddouri/guercif-archive-weather#readme",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },

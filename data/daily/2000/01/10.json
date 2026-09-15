@@ -1,0 +1,18 @@
+{
+  "date": "2000-01-10",
+  "weather_code": 55,
+  "temp_max": 10.7,
+  "temp_min": 2.8,
+  "temp_mean": 6.6,
+  "precipitation": 4,
+  "sunshine": 29263.29,
+  "wind_speed_max": 8.7,
+  "sunrise": "2000-01-10T08:20",
+  "sunset": "2000-01-10T18:21",
+  "sunshine_duration_seconds": 29263.29,
+  "sunshine_duration_minutes": 488,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 428,
+  "sunshine_consistency": "Faible"
+}

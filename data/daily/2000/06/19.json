@@ -1,0 +1,18 @@
+{
+  "date": "2000-06-19",
+  "weather_code": 1,
+  "temp_max": 36.4,
+  "temp_min": 20.7,
+  "temp_mean": 27.3,
+  "precipitation": 0,
+  "sunshine": 50014.79,
+  "wind_speed_max": 22.6,
+  "sunrise": "2000-06-19T06:01",
+  "sunset": "2000-06-19T20:28",
+  "sunshine_duration_seconds": 50014.79,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 69,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2000-08-02",
+  "weather_code": 55,
+  "temp_max": 39.7,
+  "temp_min": 24.2,
+  "temp_mean": 32.4,
+  "precipitation": 1.1,
+  "sunshine": 42584.47,
+  "wind_speed_max": 21.5,
+  "sunrise": "2000-08-02T06:25",
+  "sunset": "2000-08-02T20:13",
+  "sunshine_duration_seconds": 42584.47,
+  "sunshine_duration_minutes": 710,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 185,
+  "sunshine_consistency": "Faible"
+}

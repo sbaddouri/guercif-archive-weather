@@ -1,0 +1,18 @@
+{
+  "date": "2000-07-08",
+  "weather_code": 51,
+  "temp_max": 38.3,
+  "temp_min": 25.3,
+  "temp_mean": 32.1,
+  "precipitation": 0.3,
+  "sunshine": 48475.39,
+  "wind_speed_max": 22.9,
+  "sunrise": "2000-07-08T06:08",
+  "sunset": "2000-07-08T20:28",
+  "sunshine_duration_seconds": 48475.39,
+  "sunshine_duration_minutes": 808,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 103,
+  "sunshine_consistency": "Faible"
+}

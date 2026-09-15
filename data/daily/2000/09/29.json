@@ -1,0 +1,18 @@
+{
+  "date": "2000-09-29",
+  "weather_code": 55,
+  "temp_max": 21.2,
+  "temp_min": 16.2,
+  "temp_mean": 18.7,
+  "precipitation": 3.2,
+  "sunshine": 35673.84,
+  "wind_speed_max": 29.9,
+  "sunrise": "2000-09-29T07:06",
+  "sunset": "2000-09-29T19:00",
+  "sunshine_duration_seconds": 35673.84,
+  "sunshine_duration_minutes": 595,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 160,
+  "sunshine_consistency": "Faible"
+}

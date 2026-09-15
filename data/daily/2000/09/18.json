@@ -1,0 +1,18 @@
+{
+  "date": "2000-09-18",
+  "weather_code": 53,
+  "temp_max": 30.4,
+  "temp_min": 20.8,
+  "temp_mean": 25.2,
+  "precipitation": 1.1,
+  "sunshine": 32349.14,
+  "wind_speed_max": 19.4,
+  "sunrise": "2000-09-18T06:58",
+  "sunset": "2000-09-18T19:15",
+  "sunshine_duration_seconds": 32349.14,
+  "sunshine_duration_minutes": 539,
+  "estimated_daily_sunshine_minutes": 325,
+  "estimated_daily_sunshine": "5 h 25 min",
+  "sunshine_difference_minutes": 214,
+  "sunshine_consistency": "Faible"
+}

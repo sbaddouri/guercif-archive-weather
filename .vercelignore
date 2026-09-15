@@ -1,6 +1,31 @@
-.git
-.github
-node_modules
-.next
-.vercel
-.cortex
+﻿# ============================================================
+# Vercel : liste noire (on ignore seulement ce qui est lourd)
+# ============================================================
+
+# Outils locaux et artefacts
+.kilo/
+.cortex/
+.vercel/
+node_modules/
+.next/
+data-backup/
+.git/
+.github/
+
+# Docs et scripts de test
+*.tsbuildinfo
+CLAUDE.md
+CHECKLIST.md
+WORKFLOW_GUIDE.md
+DEPLOYMENT_COMMANDS.md
+test-local-deployment.ps1
+test-local-deployment.sh
+test-*.ts
+README.md
+
+# ============================================================
+# Donnees : on garde TOUTES les annees 2000 -> 2026
+# ============================================================
+!data/
+!data/**
+.vercelignore.backup

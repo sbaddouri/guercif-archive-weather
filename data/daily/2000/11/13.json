@@ -1,0 +1,18 @@
+{
+  "date": "2000-11-13",
+  "weather_code": 51,
+  "temp_max": 22.4,
+  "temp_min": 9.8,
+  "temp_mean": 15.4,
+  "precipitation": 0.6,
+  "sunshine": 28339.63,
+  "wind_speed_max": 16.6,
+  "sunrise": "2000-11-13T07:44",
+  "sunset": "2000-11-13T18:10",
+  "sunshine_duration_seconds": 28339.63,
+  "sunshine_duration_minutes": 472,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 247,
+  "sunshine_consistency": "Faible"
+}
