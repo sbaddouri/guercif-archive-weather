@@ -2,15 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
-import { format, parseISO } from "date-fns";
+import { format } from "date-fns";
 import { fr } from "date-fns/locale";
-import WeatherCountdown from "@/components/weather-countdown";
 
-export const dynamic = "force-dynamic";
-
+// Plus besoin de force-dynamic. On va lire les fichiers au build.
 const DATA_DIR = path.join(process.cwd(), 'data', 'daily');
 
 export default function ArchivesPage() {
+  // Cette lecture se fait UNE SEULE FOIS, pendant le build.
   let years: string[] = [];
   if (fs.existsSync(DATA_DIR)) {
     years = fs.readdirSync(DATA_DIR).sort((a, b) => b.localeCompare(a));
@@ -18,15 +17,16 @@ export default function ArchivesPage() {
 
   return (
     <div className="space-y-8">
-      <WeatherCountdown />
       <h1 className="text-3xl font-bold">Archives Climatologiques</h1>
       <p className="text-muted-foreground">Parcourez les données historiques de Guercif par année et par mois.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {years.map(year => {
           const monthsDir = path.join(DATA_DIR, year);
-          const months = fs.readdirSync(monthsDir).sort((a, b) => b.localeCompare(a));
-          
+          const months = fs.existsSync(monthsDir)
+            ? fs.readdirSync(monthsDir).sort((a, b) => b.localeCompare(a))
+            : [];
+
           return (
             <Card key={year}>
               <CardHeader>

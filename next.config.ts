@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  deploymentId: process.env.VERCEL_DEPLOYMENT_ID,
   /* config options here */
   logging: {
     fetches: {
@@ -8,10 +9,8 @@ const nextConfig: NextConfig = {
     },
   },
   staticPageGenerationTimeout: 300,
-  // On peut essayer de désactiver Turbopack si le build bloque
-  // Mais Next.js 16 le recommande par défaut.
   typescript: {
-    ignoreBuildErrors: true, // Désactivé temporairement pour forcer le build Vercel
+    ignoreBuildErrors: true,
   },
 };
 
