@@ -1,0 +1,18 @@
+{
+  "date": "1999-03-15",
+  "weather_code": 53,
+  "temp_max": 16.7,
+  "temp_min": 10.8,
+  "temp_mean": 12.8,
+  "precipitation": 3.5,
+  "sunshine": 21612.44,
+  "wind_speed_max": 18.2,
+  "sunrise": "1999-03-15T07:24",
+  "sunset": "1999-03-15T19:20",
+  "sunshine_duration_seconds": 21612.44,
+  "sunshine_duration_minutes": 360,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": -180,
+  "sunshine_consistency": "Faible"
+}

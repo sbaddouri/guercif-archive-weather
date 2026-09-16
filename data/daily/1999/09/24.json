@@ -1,0 +1,18 @@
+{
+  "date": "1999-09-24",
+  "weather_code": 2,
+  "temp_max": 32.5,
+  "temp_min": 19.7,
+  "temp_mean": 25.5,
+  "precipitation": 0,
+  "sunshine": 42802.27,
+  "wind_speed_max": 13.6,
+  "sunrise": "1999-09-24T07:02",
+  "sunset": "1999-09-24T19:08",
+  "sunshine_duration_seconds": 42802.27,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 1125,
+  "estimated_daily_sunshine": "18 h 45 min",
+  "sunshine_difference_minutes": 412,
+  "sunshine_consistency": "Faible"
+}

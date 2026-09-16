@@ -1,0 +1,18 @@
+{
+  "date": "1999-10-30",
+  "weather_code": 0,
+  "temp_max": 26.6,
+  "temp_min": 12.5,
+  "temp_mean": 19.7,
+  "precipitation": 0,
+  "sunshine": 36421.99,
+  "wind_speed_max": 11.3,
+  "sunrise": "1999-10-30T07:31",
+  "sunset": "1999-10-30T18:22",
+  "sunshine_duration_seconds": 36421.99,
+  "sunshine_duration_minutes": 607,
+  "estimated_daily_sunshine_minutes": 1440,
+  "estimated_daily_sunshine": "24 h 00 min",
+  "sunshine_difference_minutes": 833,
+  "sunshine_consistency": "Faible"
+}

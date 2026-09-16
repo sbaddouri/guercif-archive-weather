@@ -1,0 +1,18 @@
+{
+  "date": "1999-06-12",
+  "weather_code": 3,
+  "temp_max": 31.7,
+  "temp_min": 16.7,
+  "temp_mean": 23.5,
+  "precipitation": 0,
+  "sunshine": 48323.99,
+  "wind_speed_max": 18.5,
+  "sunrise": "1999-06-12T06:01",
+  "sunset": "1999-06-12T20:25",
+  "sunshine_duration_seconds": 48323.99,
+  "sunshine_duration_minutes": 805,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": -310,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1999-03-16",
+  "weather_code": 63,
+  "temp_max": 14.1,
+  "temp_min": 10.9,
+  "temp_mean": 12.1,
+  "precipitation": 10.8,
+  "sunshine": 1448.42,
+  "wind_speed_max": 13.8,
+  "sunrise": "1999-03-16T07:23",
+  "sunset": "1999-03-16T19:21",
+  "sunshine_duration_seconds": 1448.42,
+  "sunshine_duration_minutes": 24,
+  "estimated_daily_sunshine_minutes": 275,
+  "estimated_daily_sunshine": "4 h 35 min",
+  "sunshine_difference_minutes": 251,
+  "sunshine_consistency": "Faible"
+}

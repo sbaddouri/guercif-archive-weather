@@ -1,0 +1,18 @@
+{
+  "date": "1999-11-20",
+  "weather_code": 61,
+  "temp_max": 15,
+  "temp_min": 9.9,
+  "temp_mean": 11.7,
+  "precipitation": 5.1,
+  "sunshine": 15065.76,
+  "wind_speed_max": 29.1,
+  "sunrise": "1999-11-20T07:50",
+  "sunset": "1999-11-20T18:07",
+  "sunshine_duration_seconds": 15065.76,
+  "sunshine_duration_minutes": 251,
+  "estimated_daily_sunshine_minutes": 210,
+  "estimated_daily_sunshine": "3 h 30 min",
+  "sunshine_difference_minutes": -41,
+  "sunshine_consistency": "Faible"
+}

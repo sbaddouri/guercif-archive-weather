@@ -1,0 +1,18 @@
+{
+  "date": "1999-05-26",
+  "weather_code": 51,
+  "temp_max": 39,
+  "temp_min": 19.3,
+  "temp_mean": 28.5,
+  "precipitation": 0.1,
+  "sunshine": 45279.5,
+  "wind_speed_max": 24.5,
+  "sunrise": "1999-05-26T06:05",
+  "sunset": "1999-05-26T20:15",
+  "sunshine_duration_seconds": 45279.5,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": -560,
+  "sunshine_consistency": "Faible"
+}

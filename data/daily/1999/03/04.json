@@ -1,0 +1,18 @@
+{
+  "date": "1999-03-04",
+  "weather_code": 51,
+  "temp_max": 12.4,
+  "temp_min": 8.9,
+  "temp_mean": 10.6,
+  "precipitation": 0.1,
+  "sunshine": 13317.84,
+  "wind_speed_max": 26,
+  "sunrise": "1999-03-04T07:39",
+  "sunset": "1999-03-04T19:11",
+  "sunshine_duration_seconds": 13317.84,
+  "sunshine_duration_minutes": 222,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 423,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1999-12-18",
+  "weather_code": 2,
+  "temp_max": 9.1,
+  "temp_min": -1.2,
+  "temp_mean": 3.1,
+  "precipitation": 0,
+  "sunshine": 34370.2,
+  "wind_speed_max": 12.5,
+  "sunrise": "1999-12-18T08:13",
+  "sunset": "1999-12-18T18:06",
+  "sunshine_duration_seconds": 34370.2,
+  "sunshine_duration_minutes": 573,
+  "estimated_daily_sunshine_minutes": 1200,
+  "estimated_daily_sunshine": "20 h 00 min",
+  "sunshine_difference_minutes": 627,
+  "sunshine_consistency": "Faible"
+}

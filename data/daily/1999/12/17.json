@@ -1,0 +1,18 @@
+{
+  "date": "1999-12-17",
+  "weather_code": 73,
+  "temp_max": 6,
+  "temp_min": -1.1,
+  "temp_mean": 2.6,
+  "precipitation": 2.7,
+  "sunshine": 34950.3,
+  "wind_speed_max": 15.7,
+  "sunrise": "1999-12-17T08:12",
+  "sunset": "1999-12-17T18:05",
+  "sunshine_duration_seconds": 34950.3,
+  "sunshine_duration_minutes": 583,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 197,
+  "sunshine_consistency": "Faible"
+}

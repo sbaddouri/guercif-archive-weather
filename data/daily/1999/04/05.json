@@ -1,0 +1,18 @@
+{
+  "date": "1999-04-05",
+  "weather_code": 0,
+  "temp_max": 28.9,
+  "temp_min": 12.9,
+  "temp_mean": 20,
+  "precipitation": 0,
+  "sunshine": 44429.24,
+  "wind_speed_max": 24.4,
+  "sunrise": "1999-04-05T06:56",
+  "sunset": "1999-04-05T19:37",
+  "sunshine_duration_seconds": 44429.24,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 1440,
+  "estimated_daily_sunshine": "24 h 00 min",
+  "sunshine_difference_minutes": 700,
+  "sunshine_consistency": "Faible"
+}

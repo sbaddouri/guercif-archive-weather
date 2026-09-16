@@ -1,0 +1,18 @@
+{
+  "date": "1999-03-25",
+  "weather_code": 2,
+  "temp_max": 18.5,
+  "temp_min": 9,
+  "temp_mean": 13.6,
+  "precipitation": 0,
+  "sunshine": 41866.97,
+  "wind_speed_max": 16.9,
+  "sunrise": "1999-03-25T07:11",
+  "sunset": "1999-03-25T19:28",
+  "sunshine_duration_seconds": 41866.97,
+  "sunshine_duration_minutes": 698,
+  "estimated_daily_sunshine_minutes": 1170,
+  "estimated_daily_sunshine": "19 h 30 min",
+  "sunshine_difference_minutes": 472,
+  "sunshine_consistency": "Faible"
+}

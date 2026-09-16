@@ -1,0 +1,18 @@
+{
+  "date": "1999-10-25",
+  "weather_code": 53,
+  "temp_max": 18.5,
+  "temp_min": 14,
+  "temp_mean": 15.9,
+  "precipitation": 2.4,
+  "sunshine": 5476.59,
+  "wind_speed_max": 14.7,
+  "sunrise": "1999-10-25T07:26",
+  "sunset": "1999-10-25T18:28",
+  "sunshine_duration_seconds": 5476.59,
+  "sunshine_duration_minutes": 91,
+  "estimated_daily_sunshine_minutes": 250,
+  "estimated_daily_sunshine": "4 h 10 min",
+  "sunshine_difference_minutes": 159,
+  "sunshine_consistency": "Faible"
+}
