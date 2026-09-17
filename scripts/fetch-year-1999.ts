@@ -98,11 +98,18 @@ async function fetchAndSaveYear1999() {
       const hourlyDataForDate = hourlyByDate[date] || [];
       const estimatedDailyMinutes = calculateDailySunshine(
         hourlyDataForDate,
-        hourlyDataForDate.length === 24
+        daily.sunrise[i],
+        daily.sunset[i]
       );
 
       const officialSunshineSeconds = daily.sunshine_duration[i];
       const officialSunshineMinutes = convertOfficialSunshineToMinutes(officialSunshineSeconds);
+
+      const sunshineDifferenceMinutes = (officialSunshineMinutes !== null && estimatedDailyMinutes !== null)
+        ? Math.abs(officialSunshineMinutes - estimatedDailyMinutes)
+        : null;
+      const consistency = calculateSunshineConsistency(officialSunshineMinutes, estimatedDailyMinutes);
+      const estimatedDailySunshine = formatSunshineDuration(estimatedDailyMinutes);
 
       const dailyData = {
         date,
@@ -118,9 +125,9 @@ async function fetchAndSaveYear1999() {
         sunshine_duration_seconds: officialSunshineSeconds,
         sunshine_duration_minutes: officialSunshineMinutes,
         estimated_daily_sunshine_minutes: estimatedDailyMinutes,
-        estimated_daily_sunshine: formatSunshineDuration(estimatedDailyMinutes),
-        sunshine_difference_minutes: estimatedDailyMinutes - officialSunshineMinutes,
-        sunshine_consistency: calculateSunshineConsistency(estimatedDailyMinutes, officialSunshineMinutes)
+        estimated_daily_sunshine: estimatedDailySunshine,
+        sunshine_difference_minutes: sunshineDifferenceMinutes,
+        sunshine_consistency: consistency
       };
 
       // Sauvegarde des données quotidiennes

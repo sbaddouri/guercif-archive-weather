@@ -365,66 +365,124 @@ export function getWeatherIcon(
     isNight = hourMinutes < sunriseMinutes || hourMinutes > sunsetMinutes;
   }
 
-  // Open-Meteo WMO weather code icons, images, and descriptions (from user's mapping)
+  const period = isNight ? "night" : "day";
+
+  // Open-Meteo WMO weather code icons, images, and descriptions
   switch (code) {
     case 0: return { 
       icon: isNight ? "🌙" : "☀️", 
-      imagePath: isNight ? "/weather-icons/night/ciel dégagé pleine-lune.png" : null, 
+      imagePath: `/weather-icons/${period}/ciel-degage.png`, 
       description: "Ciel dégagé - Aucun nuage significatif" 
     };
     case 1: return { 
       icon: isNight ? "🌥️" : "🌤️", 
-      imagePath: isNight ? "/weather-icons/night/ciel trés voilé - pleine lune.png" : null, 
+      imagePath: `/weather-icons/${period}/ciel-voile.png`, 
       description: "Principalement dégagé - Peu nuageux, majorité de ciel clair" 
     };
     case 2: return { 
       icon: isNight ? "🌦️" : "⛅", 
-      imagePath: isNight ? "/weather-icons/night/Nuages et soleil nuit.png" : null, 
+      imagePath: `/weather-icons/${period}/eclaircies.png`, 
       description: "Partiellement nuageux - Alternance nuages / éclaircies" 
     };
     case 3: return { 
       icon: "☁️", 
-      imagePath: isNight ? "/weather-icons/night/Très nuageux nuit.png" : null, 
+      imagePath: `/weather-icons/${period}/couvert.png`, 
       description: "Couvert - Ciel très nuageux à totalement couvert" 
     };
     case 45: 
     case 48: return { 
       icon: "🌫️", 
-      imagePath: isNight ? "/weather-icons/night/brouillard lune.png" : null, 
+      imagePath: `/weather-icons/${period}/brouillard.png`, 
       description: code === 45 ? "Brouillard - Brouillard “classique”" : "Brouillard givrant - Brouillard avec dépôt de givre" 
     };
-    case 51: return { icon: "🌦️", imagePath: null, description: "Bruine faible - Petite pluie fine, faible intensité" };
-    case 53: return { icon: "🌦️", imagePath: null, description: "Bruine modérée - Bruine plus marquée" };
-    case 55: return { icon: "🌧️", imagePath: null, description: "Bruine forte / dense - Bruine intense et persistante" };
-    case 56: return { icon: "🌧️❄️", imagePath: null, description: "Bruine verglaçante faible - Bruine surfondue pouvant geler au contact" };
-    case 57: return { icon: "🌧️❄️", imagePath: null, description: "Bruine verglaçante forte - Version plus intense de la bruine verglaçante" };
-    case 61: return { icon: "🌧️", imagePath: null, description: "Pluie faible - Pluie continue légère" };
-    case 63: return { icon: "🌧️", imagePath: null, description: "Pluie modérée - Pluie “normale” / soutenue" };
-    case 65: return { icon: "🌧️", imagePath: null, description: "Pluie forte - Forte pluie continue" };
-    case 66: return { icon: "🌧️❄️", imagePath: null, description: "Pluie verglaçante faible - Pluie qui gèle au contact, faible intensité" };
-    case 67: return { icon: "🌧️❄️", imagePath: null, description: "Pluie verglaçante forte - Pluie verglaçante plus forte" };
-    case 71: return { icon: "🌨️", imagePath: null, description: "Neige faible - Chute de neige légère" };
-    case 73: return { icon: "🌨️", imagePath: null, description: "Neige modérée - Chute de neige modérée" };
-    case 75: return { icon: "🌨️", imagePath: null, description: "Neige forte - Forte chute de neige" };
-    case 77: return { icon: "🌨️", imagePath: null, description: "Grains de neige - Très petites particules de neige, distinctes des gros flocons" };
+    case 51: return { 
+      icon: "🌦️", 
+      imagePath: `/weather-icons/${period}/bruine.png`, 
+      description: "Bruine faible - Petite pluie fine, faible intensité" 
+    };
+    case 53: return { 
+      icon: "🌦️", 
+      imagePath: `/weather-icons/${period}/bruine.png`, 
+      description: "Bruine modérée - Bruine plus marquée" 
+    };
+    case 55: return { 
+      icon: "🌧️", 
+      imagePath: `/weather-icons/${period}/bruine.png`, 
+      description: "Bruine forte / dense - Bruine intense et persistante" 
+    };
+    case 56: return { 
+      icon: "🌧️❄️", 
+      imagePath: `/weather-icons/${period}/pluie-verglacante.png`, 
+      description: "Bruine verglaçante faible - Bruine surfondue pouvant geler au contact" 
+    };
+    case 57: return { 
+      icon: "🌧️❄️", 
+      imagePath: `/weather-icons/${period}/pluie-verglacante.png`, 
+      description: "Bruine verglaçante forte - Version plus intense de la bruine verglaçante" 
+    };
+    case 61: return { 
+      icon: "🌧️", 
+      imagePath: `/weather-icons/${period}/pluie-faible.png`, 
+      description: "Pluie faible - Pluie continue légère" 
+    };
+    case 63: return { 
+      icon: "🌧️", 
+      imagePath: `/weather-icons/${period}/pluie.png`, 
+      description: "Pluie modérée - Pluie “normale” / soutenue" 
+    };
+    case 65: return { 
+      icon: "🌧️", 
+      imagePath: `/weather-icons/${period}/pluie.png`, 
+      description: "Pluie forte - Forte pluie continue" 
+    };
+    case 66: return { 
+      icon: "🌧️❄️", 
+      imagePath: `/weather-icons/${period}/pluie-verglacante.png`, 
+      description: "Pluie verglaçante faible - Pluie qui gèle au contact, faible intensité" 
+    };
+    case 67: return { 
+      icon: "🌧️❄️", 
+      imagePath: `/weather-icons/${period}/pluie-verglacante.png`, 
+      description: "Pluie verglaçante forte - Pluie verglaçante plus forte" 
+    };
+    case 71: return { 
+      icon: "🌨️", 
+      imagePath: `/weather-icons/${period}/neige.png`, 
+      description: "Neige faible - Chute de neige légère" 
+    };
+    case 73: return { 
+      icon: "🌨️", 
+      imagePath: `/weather-icons/${period}/neige.png`, 
+      description: "Neige modérée - Chute de neige modérée" 
+    };
+    case 75: return { 
+      icon: "🌨️", 
+      imagePath: `/weather-icons/${period}/neige.png`, 
+      description: "Neige forte - Forte chute de neige" 
+    };
+    case 77: return { 
+      icon: "🌨️", 
+      imagePath: `/weather-icons/${period}/neige.png`, 
+      description: "Grains de neige - Très petites particules de neige, distinctes des gros flocons" 
+    };
     case 80: 
     case 81: 
     case 82: return { 
       icon: code === 80 ? "🌦️" : "🌧️", 
-      imagePath: isNight ? "/weather-icons/night/Averses ou pluie intermittente nuit.png" : null, 
+      imagePath: `/weather-icons/${period}/averses-pluie.png`, 
       description: code === 80 ? "Averses de pluie faibles - Pluie en averses, faible" : code === 81 ? "Averses de pluie modérées - Averses plus marquées" : "Averses de pluie violentes - Averses très fortes" 
     };
     case 85: 
     case 86: return { 
       icon: "🌨️", 
-      imagePath: isNight ? "/weather-icons/night/Averses de neige nuit.png" : null, 
+      imagePath: `/weather-icons/${period}/averses-neige.png`, 
       description: code === 85 ? "Averses de neige faibles - Neige sous forme d’averses, faible" : "Averses de neige fortes - Averses de neige marquées" 
     };
     case 95: 
     case 96: 
     case 99: return { 
       icon: "⛈️", 
-      imagePath: isNight ? "/weather-icons/night/Très nuageux, tendance orageuse lune.png" : null, 
+      imagePath: `/weather-icons/${period}/orage.png`, 
       description: code === 95 ? "Orage faible ou modéré - Présence orageuse" : code === 96 ? "Orage avec grêle faible - Orage avec grêle légère" : "Orage avec forte grêle - Orage avec grêle importante" 
     };
     default: return { icon: "❓", imagePath: null, description: "Inconnu" };

@@ -168,9 +168,15 @@ export default async function DayPage({ params }: PageProps) {
                   const weather = getWeatherIcon(hour.weather_code, hour.time, dailyData.sunrise, dailyData.sunset);
                   return (
                     <TableRow key={hour.time}>
-                      <TableCell className="border bg-white dark:bg-background text-center">
+                      <TableCell className="border bg-white dark:bg-background text-center" title={weather.description}>
                         {weather.imagePath ? (
-                          <img src={weather.imagePath} alt={weather.description} className="h-8 w-8 inline-block" />
+                          <img 
+                            src={weather.imagePath} 
+                            alt={weather.description} 
+                            title={weather.description}
+                            className="h-8 w-8 inline-block object-contain" 
+                            loading="lazy"
+                          />
                         ) : (
                           weather.icon
                         )}

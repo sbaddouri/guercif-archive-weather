@@ -11,8 +11,8 @@
   "sunset": "1999-06-30T20:29",
   "sunshine_duration_seconds": 45604.39,
   "sunshine_duration_minutes": 760,
-  "estimated_daily_sunshine_minutes": 150,
-  "estimated_daily_sunshine": "2 h 30 min",
-  "sunshine_difference_minutes": -610,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 670,
   "sunshine_consistency": "Faible"
 }

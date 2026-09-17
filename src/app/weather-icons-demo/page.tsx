@@ -26,7 +26,7 @@ export default function WeatherIconsDemo() {
           <h2 className="text-2xl font-semibold mb-4">Icônes de jour</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {ALL_WEATHER_CODES.map((code) => {
-              const { icon, description } = getWeatherIcon(
+              const { icon, imagePath, description } = getWeatherIcon(
                 code,
                 DAY_TIME,
                 TEST_SUNRISE,
@@ -35,11 +35,15 @@ export default function WeatherIconsDemo() {
               return (
                 <div
                   key={`day-${code}`}
-                  className="border rounded p-4 flex flex-col items-center gap-2"
+                  className="border rounded p-4 flex flex-col items-center gap-2 bg-card"
                 >
-                  <span className="text-4xl">{icon}</span>
-                  <code className="text-sm">{code}</code>
-                  <p className="text-sm text-center">{description}</p>
+                  {imagePath ? (
+                    <img src={imagePath} alt={description} className="h-12 w-12 object-contain" />
+                  ) : (
+                    <span className="text-4xl">{icon}</span>
+                  )}
+                  <code className="text-sm font-semibold">Code WMO {code}</code>
+                  <p className="text-xs text-center text-muted-foreground">{description}</p>
                 </div>
               );
             })}
@@ -50,7 +54,7 @@ export default function WeatherIconsDemo() {
           <h2 className="text-2xl font-semibold mb-4">Icônes de nuit</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {ALL_WEATHER_CODES.map((code) => {
-              const { icon, description } = getWeatherIcon(
+              const { icon, imagePath, description } = getWeatherIcon(
                 code,
                 NIGHT_TIME,
                 TEST_SUNRISE,
@@ -59,11 +63,15 @@ export default function WeatherIconsDemo() {
               return (
                 <div
                   key={`night-${code}`}
-                  className="border rounded p-4 flex flex-col items-center gap-2"
+                  className="border rounded p-4 flex flex-col items-center gap-2 bg-card"
                 >
-                  <span className="text-4xl">{icon}</span>
-                  <code className="text-sm">{code}</code>
-                  <p className="text-sm text-center">{description}</p>
+                  {imagePath ? (
+                    <img src={imagePath} alt={description} className="h-12 w-12 object-contain" />
+                  ) : (
+                    <span className="text-4xl">{icon}</span>
+                  )}
+                  <code className="text-sm font-semibold">Code WMO {code}</code>
+                  <p className="text-xs text-center text-muted-foreground">{description}</p>
                 </div>
               );
             })}

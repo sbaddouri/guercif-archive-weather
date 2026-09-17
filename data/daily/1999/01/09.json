@@ -13,6 +13,6 @@
   "sunshine_duration_minutes": 104,
   "estimated_daily_sunshine_minutes": 0,
   "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": -104,
+  "sunshine_difference_minutes": 104,
   "sunshine_consistency": "Faible"
 }

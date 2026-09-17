@@ -281,7 +281,12 @@ export default async function MonthPage({ params }: PageProps) {
                                   title={`${hourStr} - ${description}`}
                                 >
                                   {imagePath ? (
-                                    <img src={imagePath} alt={description} className="h-5 w-5 inline-block" />
+                                    <img 
+                                      src={imagePath} 
+                                      alt={description} 
+                                      className="h-5 w-5 inline-block object-contain" 
+                                      loading="lazy" 
+                                    />
                                   ) : (
                                     icon
                                   )}
@@ -302,9 +307,17 @@ export default async function MonthPage({ params }: PageProps) {
                           {(() => {
                             const weather = getWeatherIcon(day.weather_code);
                             if (weather.imagePath) {
-                              return <img src={weather.imagePath} alt={weather.description} className="h-8 w-8 inline-block" />;
+                              return (
+                                <img 
+                                  src={weather.imagePath} 
+                                  alt={weather.description} 
+                                  title={weather.description}
+                                  className="h-8 w-8 inline-block object-contain cursor-help" 
+                                  loading="lazy"
+                                />
+                              );
                             }
-                            return weather.icon;
+                            return <span title={weather.description}>{weather.icon}</span>;
                           })()}
                         </TableCell>
                       </TableRow>
