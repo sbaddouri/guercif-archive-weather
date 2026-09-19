@@ -1,4 +1,5 @@
 import { getDailyDataForMonth, getHourlyDataForMonth, hasDailyDataForMonth, listAvailableYears, listAvailableMonths } from "@/lib/data";
+import { WeatherIcon, DailyWeatherIcon } from "@/components/WeatherIcon";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, parseISO, addMonths, subMonths, startOfMonth } from "date-fns";
 import { fr } from "date-fns/locale";
@@ -272,25 +273,18 @@ export default async function MonthPage({ params }: PageProps) {
                         <TableCell className="border bg-white dark:bg-background w-[450px] p-0">
                           <div className="overflow-x-auto whitespace-nowrap px-1 py-1">
                             {hourly?.map((h) => {
-                              const { icon, imagePath, description } = getWeatherIcon(h.weather_code, h.time, day.sunrise, day.sunset);
                               const hourStr = format(parseISO(h.time), "HH:mm", { locale: fr });
+                              const { description } = getWeatherIcon(h.weather_code, h.time, day.sunrise, day.sunset);
                               return (
-                                <span 
-                                  key={h.time} 
-                                  className="mx-0.5 cursor-help inline-flex items-center justify-center" 
+                                <WeatherIcon
+                                  key={h.time}
+                                  weatherCode={h.weather_code}
+                                  time={h.time}
+                                  sunrise={day.sunrise}
+                                  sunset={day.sunset}
+                                  className="h-5 w-5 inline-block object-contain"
                                   title={`${hourStr} - ${description}`}
-                                >
-                                  {imagePath ? (
-                                    <img 
-                                      src={imagePath} 
-                                      alt={description} 
-                                      className="h-5 w-5 inline-block object-contain" 
-                                      loading="lazy" 
-                                    />
-                                  ) : (
-                                    icon
-                                  )}
-                                </span>
+                                />
                               );
                             })}
                           </div>
@@ -304,21 +298,10 @@ export default async function MonthPage({ params }: PageProps) {
                           </Link>
                         </TableCell>
                         <TableCell className="border bg-white dark:bg-background text-center w-[120px] whitespace-nowrap">
-                          {(() => {
-                            const weather = getWeatherIcon(day.weather_code);
-                            if (weather.imagePath) {
-                              return (
-                                <img 
-                                  src={weather.imagePath} 
-                                  alt={weather.description} 
-                                  title={weather.description}
-                                  className="h-8 w-8 inline-block object-contain cursor-help" 
-                                  loading="lazy"
-                                />
-                              );
-                            }
-                            return <span title={weather.description}>{weather.icon}</span>;
-                          })()}
+                          <DailyWeatherIcon
+                            weatherCode={day.weather_code}
+                            className="h-8 w-8 inline-block object-contain cursor-help"
+                          />
                         </TableCell>
                       </TableRow>
                     );

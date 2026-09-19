@@ -1,5 +1,7 @@
 import { getDailyData, getHourlyData, listAvailableYears, listAvailableMonths, listAvailableDays } from "@/lib/data";
 import WeatherChart from "@/components/weather-chart";
+import fs from 'fs';
+import path from 'path';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, parseISO } from "date-fns";
 import { fr } from "date-fns/locale";
@@ -18,22 +20,13 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  const years = listAvailableYears();
-  const params: { year: string; month: string; day: string }[] = [];
-  for (const year of years) {
-    const months = listAvailableMonths(year);
-    for (const month of months) {
-      const days = listAvailableDays(year, month);
-      for (const day of days) {
-        params.push({ year, month, day });
-      }
-    }
-  }
-  return params;
+  // Retourner un tableau vide pour désactiver le pré-rendu statique
+  // Les pages seront générées dynamiquement à la demande
+  return [];
 }
 
-export const dynamicParams = true;
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { year, month, day } = await params;
@@ -126,14 +119,14 @@ export default async function DayPage({ params }: PageProps) {
       {/* Charts */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <WeatherChart 
-          data={hourlyData} 
+          data={hourlyData || []} 
           title="Température (°C)" 
           dataKey="temp" 
           color="#f97316" 
           unit="°C" 
         />
         <WeatherChart 
-          data={hourlyData} 
+          data={hourlyData || []} 
           title="Précipitations (mm)" 
           dataKey="precipitation" 
           color="#0ea5e9" 
