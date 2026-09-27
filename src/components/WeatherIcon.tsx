@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { getWeatherIcon, calculateHourlySunshine, isHourBetweenSunriseAndSunset } from "@/lib/weather-colors";
+import { getWeatherIcon, calculateHourlySunshineWithDaylight, isHourBetweenSunriseAndSunset } from "@/lib/weather-colors";
 
 interface WeatherIconProps {
   weatherCode: number;
@@ -36,10 +36,11 @@ function WeatherIconTooltip({
   isHovered: boolean;
   mousePosition: { x: number; y: number };
 }) {
-  // Calculate estimated sunshine for this hour
-  const hourlySunshine = time ? calculateHourlySunshine(weatherCode) : 0;
-  const isSunUp = time && sunrise && sunset ? isHourBetweenSunriseAndSunset(time, sunrise, sunset) : false;
-  const sunshineDisplay = isSunUp && hourlySunshine > 0 ? `${hourlySunshine} min` : (isSunUp ? "0 min" : "Nuit");
+  // Calculate estimated sunshine for this hour - uses the accurate function with solar elevation
+  const hasSunData = time && sunrise && sunset;
+  const hourlySunshine = hasSunData ? calculateHourlySunshineWithDaylight(weatherCode, time, sunrise, sunset) : 0;
+  const isSunUp = hasSunData ? isHourBetweenSunriseAndSunset(time, sunrise, sunset) : false;
+  const sunshineDisplay = isSunUp ? `${hourlySunshine} min` : "Nuit";
 
   if (!isHovered) return null;
 
@@ -62,9 +63,11 @@ function WeatherIconTooltip({
             <span className="text-xs font-medium text-gray-700 dark:text-gray-300">
               {isDaytime ? "☀️ Jour" : "🌙 Nuit"}
             </span>
-            <span className="text-xs text-gray-600 dark:text-gray-400">
-              Ensoleillement estimé: {sunshineDisplay}
-            </span>
+            {hasSunData && (
+              <span className="text-xs text-gray-600 dark:text-gray-400">
+                Ensoleillement estimé: {sunshineDisplay}
+              </span>
+            )}
             <span className="text-xs text-gray-500 dark:text-gray-500 whitespace-normal break-words">
               {description}
             </span>
@@ -79,7 +82,7 @@ export function WeatherIcon({ weatherCode, time, sunrise, sunset, className = "h
   const { icon, imagePath, description } = getWeatherIcon(weatherCode, time, sunrise, sunset);
   
   // Determine if it's daytime for this specific hour
-  const isDaytime = time && sunrise && sunset ? isHourBetweenSunriseAndSunset(time, sunrise, sunset) : true;
+  const isDaytime = time && sunrise && sunset ? isHourBetweenSunriseAndSunset(time, sunrise, sunset) : false;
 
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

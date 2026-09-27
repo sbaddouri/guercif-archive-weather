@@ -222,8 +222,9 @@ export function isHourBetweenSunriseAndSunset(timeStr: string, sunriseStr: strin
     return hour * 60 + minute;
   };
 
-  // Si sunrise ou sunset sont manquants, on suppose qu'il fait jour toute la journée (sécurité)
-  if (!sunriseStr || !sunsetStr) return true;
+  // Si sunrise ou sunset sont manquants, on ne peut pas déterminer jour/nuit -> on retourne false (nuit)
+  // Cela évite d'afficher l'ensoleillement sans données de lever/coucher de soleil
+  if (!sunriseStr || !sunsetStr) return false;
 
   const timeMinutes = getTimeMinutes(timeStr);
   const sunriseMinutes = getTimeMinutes(sunriseStr);
