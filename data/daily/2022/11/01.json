@@ -11,8 +11,8 @@
   "sunset": "2022-11-01T18:20",
   "sunshine_duration_seconds": 25469.66,
   "sunshine_duration_minutes": 424,
-  "estimated_daily_sunshine_minutes": 90,
-  "estimated_daily_sunshine": "1 h 30 min",
-  "sunshine_difference_minutes": 334,
+  "estimated_daily_sunshine_minutes": 144,
+  "estimated_daily_sunshine": "2 h 24 min",
+  "sunshine_difference_minutes": 280,
   "sunshine_consistency": "Faible"
 }

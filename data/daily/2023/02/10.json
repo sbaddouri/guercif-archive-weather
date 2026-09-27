@@ -11,8 +11,8 @@
   "sunset": "2023-02-10T18:52",
   "sunshine_duration_seconds": 19081.67,
   "sunshine_duration_minutes": 318,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 318,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 258,
   "sunshine_consistency": "Faible"
 }

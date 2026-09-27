@@ -11,8 +11,8 @@
   "sunset": "2021-09-07T19:31",
   "sunshine_duration_seconds": 34605.02,
   "sunshine_duration_minutes": 577,
-  "estimated_daily_sunshine_minutes": 90,
-  "estimated_daily_sunshine": "1 h 30 min",
-  "sunshine_difference_minutes": 487,
+  "estimated_daily_sunshine_minutes": 150,
+  "estimated_daily_sunshine": "2 h 30 min",
+  "sunshine_difference_minutes": 427,
   "sunshine_consistency": "Faible"
 }

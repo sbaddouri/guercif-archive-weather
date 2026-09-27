@@ -11,8 +11,8 @@
   "sunset": "2011-09-23T19:09",
   "sunshine_duration_seconds": 23882.25,
   "sunshine_duration_minutes": 398,
-  "estimated_daily_sunshine_minutes": 50,
-  "estimated_daily_sunshine": "0 h 50 min",
-  "sunshine_difference_minutes": 348,
+  "estimated_daily_sunshine_minutes": 102,
+  "estimated_daily_sunshine": "1 h 42 min",
+  "sunshine_difference_minutes": 296,
   "sunshine_consistency": "Faible"
 }

@@ -11,8 +11,8 @@
   "sunset": "2021-10-11T18:44",
   "sunshine_duration_seconds": 25484.22,
   "sunshine_duration_minutes": 425,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 425,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 359,
   "sunshine_consistency": "Faible"
 }

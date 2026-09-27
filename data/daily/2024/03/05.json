@@ -11,8 +11,8 @@
   "sunset": "2024-03-05T19:13",
   "sunshine_duration_seconds": 25844.82,
   "sunshine_duration_minutes": 431,
-  "estimated_daily_sunshine_minutes": 60,
-  "estimated_daily_sunshine": "1 h 00 min",
-  "sunshine_difference_minutes": 371,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 311,
   "sunshine_consistency": "Faible"
 }

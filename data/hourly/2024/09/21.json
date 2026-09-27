@@ -102,7 +102,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2024-09-21T07:00",
@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 17
   },
   {
     "time": "2024-09-21T08:00",
@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2808.21,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 15
   },
   {
     "time": "2024-09-21T09:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 29
   },
   {
     "time": "2024-09-21T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 42
   },
   {
     "time": "2024-09-21T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 51
   },
   {
     "time": "2024-09-21T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 43
   },
   {
     "time": "2024-09-21T13:00",
@@ -222,7 +222,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 44
   },
   {
     "time": "2024-09-21T15:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 26
   },
   {
     "time": "2024-09-21T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 11
   },
   {
     "time": "2024-09-21T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2024-09-21T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3501.97,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2024-09-21T19:00",

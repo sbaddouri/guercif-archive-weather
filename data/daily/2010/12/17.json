@@ -11,8 +11,8 @@
   "sunset": "2010-12-17T18:05",
   "sunshine_duration_seconds": 28435.68,
   "sunshine_duration_minutes": 474,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 444,
+  "estimated_daily_sunshine_minutes": 84,
+  "estimated_daily_sunshine": "1 h 24 min",
+  "sunshine_difference_minutes": 390,
   "sunshine_consistency": "Faible"
 }

@@ -4,3 +4,12 @@ node_modules
 .kilo
 .git
 data-backup
+public/weather-icons/day/*.png
+public/weather-icons/night/*.png
+scripts/
+weather_code.txt
+plage\ de\ précipitation.json
+diagnose-icons.js
+create-missing-icons.js
+create-numeric-icons.js
+

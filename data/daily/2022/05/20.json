@@ -11,8 +11,8 @@
   "sunset": "2022-05-20T20:12",
   "sunshine_duration_seconds": 43200,
   "sunshine_duration_minutes": 720,
-  "estimated_daily_sunshine_minutes": 60,
-  "estimated_daily_sunshine": "1 h 00 min",
-  "sunshine_difference_minutes": 660,
+  "estimated_daily_sunshine_minutes": 132,
+  "estimated_daily_sunshine": "2 h 12 min",
+  "sunshine_difference_minutes": 588,
   "sunshine_consistency": "Faible"
 }

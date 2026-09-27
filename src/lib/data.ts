@@ -1,15 +1,39 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { format, subDays } from 'date-fns';
 import {
   calculateHourlySunshine,
+  calculateHourlySunshineWithDaylight,
   calculateDailySunshine,
   formatSunshineDuration,
   calculateSunshineConsistency,
   convertOfficialSunshineToMinutes
 } from './weather-colors';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Try multiple possible paths for data directory (works both locally and on Vercel)
+const possibleDataDirs = [
+  path.join(process.cwd(), 'data'),                    // Local development
+  path.join(__dirname, '..', '..', '..', 'data'),     // Vercel production (from src/lib)
+  path.join(__dirname, '..', '..', 'data'),           // Alternative Vercel path
+  '/var/task/data',                                    // Vercel serverless function root
+];
+
+let DATA_DIR = '';
+for (const dir of possibleDataDirs) {
+  if (fs.existsSync(dir)) {
+    DATA_DIR = dir;
+    break;
+  }
+}
+
+// Fallback to process.cwd() if none found
+if (!DATA_DIR) {
+  DATA_DIR = path.join(process.cwd(), 'data');
+}
 
 export interface DailyData {
   date: string;
@@ -119,12 +143,21 @@ async function fillMissingDailyDataFields(data: any): Promise<DailyData> {
   }
 }
 
-async function fillMissingHourlyDataFields(data: any[]): Promise<HourlyData[]> {
+async function fillMissingHourlyDataFields(
+  data: any[],
+  sunrise: string | null | undefined,
+  sunset: string | null | undefined
+): Promise<HourlyData[]> {
   return data.map(hour => {
     if (hour.estimated_hourly_sunshine_minutes === undefined) {
       return {
         ...hour,
-        estimated_hourly_sunshine_minutes: calculateHourlySunshine(hour.weather_code)
+        estimated_hourly_sunshine_minutes: calculateHourlySunshineWithDaylight(
+          hour.weather_code,
+          hour.time,
+          sunrise,
+          sunset
+        )
       };
     }
     return hour as HourlyData;
@@ -144,7 +177,18 @@ export async function getHourlyData(date: string): Promise<HourlyData[] | null> 
   const filePath = path.join(DATA_DIR, 'hourly', year, month, `${day}.json`);
   if (!fs.existsSync(filePath)) return null;
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  return await fillMissingHourlyDataFields(data);
+  
+  // Récupérer le lever/coucher du soleil depuis les données journalières
+  const dailyFilePath = path.join(DATA_DIR, 'daily', year, month, `${day}.json`);
+  let sunrise: string | null | undefined = null;
+  let sunset: string | null | undefined = null;
+  if (fs.existsSync(dailyFilePath)) {
+    const dailyData = JSON.parse(fs.readFileSync(dailyFilePath, 'utf8'));
+    sunrise = dailyData.sunrise ?? null;
+    sunset = dailyData.sunset ?? null;
+  }
+  
+  return await fillMissingHourlyDataFields(data, sunrise, sunset);
 }
 
 export function hasDailyDataForMonth(year: string, month: string): boolean {
@@ -199,11 +243,23 @@ export async function getHourlyDataForMonth(year: string, month: string): Promis
     const date = `${year}-${month}-${day}`;
     try {
       const raw = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
-      result[date] = await fillMissingHourlyDataFields(raw);
+      
+      // Récupérer lever/coucher depuis données journalières
+      const dailyFilePath = path.join(DATA_DIR, 'daily', year, month, `${day}.json`);
+      let sunrise: string | null | undefined = null;
+      let sunset: string | null | undefined = null;
+      if (fs.existsSync(dailyFilePath)) {
+        const dailyData = JSON.parse(fs.readFileSync(dailyFilePath, 'utf8'));
+        sunrise = dailyData.sunrise ?? null;
+        sunset = dailyData.sunset ?? null;
+      }
+      
+      result[date] = await fillMissingHourlyDataFields(raw, sunrise, sunset);
     } catch {
       result[date] = [];
     }
   }
+
   return result;
 }
 

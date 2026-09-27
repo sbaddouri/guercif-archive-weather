@@ -11,8 +11,8 @@
   "sunset": "2019-10-21T18:32",
   "sunshine_duration_seconds": 24387.66,
   "sunshine_duration_minutes": 406,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 406,
+  "estimated_daily_sunshine_minutes": 63,
+  "estimated_daily_sunshine": "1 h 03 min",
+  "sunshine_difference_minutes": 343,
   "sunshine_consistency": "Faible"
 }

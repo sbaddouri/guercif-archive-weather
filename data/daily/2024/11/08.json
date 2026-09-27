@@ -11,8 +11,8 @@
   "sunset": "2024-11-08T18:14",
   "sunshine_duration_seconds": 28633.92,
   "sunshine_duration_minutes": 477,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 447,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 387,
   "sunshine_consistency": "Faible"
 }

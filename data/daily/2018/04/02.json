@@ -11,8 +11,8 @@
   "sunset": "2018-04-02T19:35",
   "sunshine_duration_seconds": 34871.83,
   "sunshine_duration_minutes": 581,
-  "estimated_daily_sunshine_minutes": 90,
-  "estimated_daily_sunshine": "1 h 30 min",
-  "sunshine_difference_minutes": 491,
+  "estimated_daily_sunshine_minutes": 150,
+  "estimated_daily_sunshine": "2 h 30 min",
+  "sunshine_difference_minutes": 431,
   "sunshine_consistency": "Faible"
 }

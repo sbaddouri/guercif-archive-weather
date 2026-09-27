@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2023-02-15T08:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2094.4,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2023-02-15T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2023-02-15T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 23
   },
   {
     "time": "2023-02-15T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 27
   },
   {
     "time": "2023-02-15T13:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 27
   },
   {
     "time": "2023-02-15T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 22
   },
   {
     "time": "2023-02-15T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2023-02-15T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3597.31,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2023-02-15T19:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 172.29,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2023-02-15T20:00",
@@ -357,6 +357,6 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 0
   }
 ]

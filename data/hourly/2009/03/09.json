@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 1
   },
   {
     "time": "2009-03-09T09:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 562.76,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2009-03-09T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 1690.45,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 4
   },
   {
     "time": "2009-03-09T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2316.97,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 5
   },
   {
     "time": "2009-03-09T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 1772.57,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2009-03-09T13:00",
@@ -207,7 +207,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 616.48,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2009-03-09T14:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 27
   },
   {
     "time": "2009-03-09T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 10
+    "estimated_hourly_sunshine_minutes": 7
   },
   {
     "time": "2009-03-09T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 17
   },
   {
     "time": "2009-03-09T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 10
   },
   {
     "time": "2009-03-09T19:00",

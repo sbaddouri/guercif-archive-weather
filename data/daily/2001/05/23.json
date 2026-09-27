@@ -11,8 +11,8 @@
   "sunset": "2001-05-23T20:14",
   "sunshine_duration_seconds": 48006.72,
   "sunshine_duration_minutes": 800,
-  "estimated_daily_sunshine_minutes": 435,
-  "estimated_daily_sunshine": "7 h 15 min",
-  "sunshine_difference_minutes": 365,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 335,
   "sunshine_consistency": "Faible"
 }

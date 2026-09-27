@@ -11,8 +11,8 @@
   "sunset": "2015-03-23T19:27",
   "sunshine_duration_seconds": 27505.86,
   "sunshine_duration_minutes": 458,
-  "estimated_daily_sunshine_minutes": 55,
-  "estimated_daily_sunshine": "0 h 55 min",
-  "sunshine_difference_minutes": 403,
+  "estimated_daily_sunshine_minutes": 99,
+  "estimated_daily_sunshine": "1 h 39 min",
+  "sunshine_difference_minutes": 359,
   "sunshine_consistency": "Faible"
 }

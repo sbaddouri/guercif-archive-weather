@@ -1,15 +1,16 @@
-import { getDailyData, getHourlyData, listAvailableYears, listAvailableMonths, listAvailableDays } from "@/lib/data";
+import { getDailyData, getHourlyData, listAvailableDays } from "@/lib/data";
 import WeatherChart from "@/components/weather-chart";
-import fs from 'fs';
-import path from 'path';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { format, parseISO } from "date-fns";
+import { format, parseISO, addDays, subDays } from "date-fns";
 import { fr } from "date-fns/locale";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import ExportData from "@/components/export-data";
 import { Metadata } from "next";
-import { getTemperatureColor, getPrecipitationColor, getTextColor, getWeatherIcon } from "@/lib/weather-colors";
+import { getTemperatureColor, getPrecipitationColor, getTextColor, getWeatherIcon, getSunshineColor } from "@/lib/weather-colors";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
 
 interface PageProps {
   params: Promise<{
@@ -50,38 +51,113 @@ export default async function DayPage({ params }: PageProps) {
     notFound();
   }
 
-  const maxColor = getTemperatureColor(dailyData.temp_max);
-  const minColor = getTemperatureColor(dailyData.temp_min);
-  const rainColor = getPrecipitationColor(dailyData.precipitation);
+  // Previous/Next day navigation - normalize day format to match file names
+  const allDays = listAvailableDays(year, month).map(d => d.padStart(2, '0')).sort();
+  const currentDayIndex = allDays.indexOf(day.padStart(2, '0'));
+  const hasPrev = currentDayIndex > 0;
+  const hasNext = currentDayIndex >= 0 && currentDayIndex < allDays.length - 1;
+  const prevDay = hasPrev ? allDays[currentDayIndex - 1] : null;
+  const nextDay = hasNext ? allDays[currentDayIndex + 1] : null;
+  
+  // For cross-month navigation (when at month boundaries)
+  const currentDate = parseISO(dateStr);
+  const prevMonthDate = !hasPrev && currentDayIndex >= 0 ? subDays(currentDate, 1) : null;
+  const nextMonthDate = !hasNext && currentDayIndex >= 0 ? addDays(currentDate, 1) : null;
+  const prevMonthYear = prevMonthDate ? format(prevMonthDate, "yyyy") : null;
+  const prevMonthMonth = prevMonthDate ? format(prevMonthDate, "MM") : null;
+  const prevMonthDay = prevMonthDate ? format(prevMonthDate, "dd") : null;
+  const nextMonthYear = nextMonthDate ? format(nextMonthDate, "yyyy") : null;
+  const nextMonthMonth = nextMonthDate ? format(nextMonthDate, "MM") : null;
+  const nextMonthDay = nextMonthDate ? format(nextMonthDate, "dd") : null;
+
+  const maxColor = getTemperatureColor(dailyData.temp_max ?? 0);
+  const minColor = getTemperatureColor(dailyData.temp_min ?? 0);
+  const rainColor = getPrecipitationColor(dailyData.precipitation ?? 0);
+  const officialSunshineMinutes = dailyData.sunshine_duration_minutes ?? (dailyData.sunshine !== null ? Math.round(dailyData.sunshine / 60) : null);
+  const estimatedSunshineMinutes = dailyData.estimated_daily_sunshine_minutes;
+  const officialSunshineColor = getSunshineColor((officialSunshineMinutes ?? 0) / 60);
+  const estimatedSunshineColor = getSunshineColor((estimatedSunshineMinutes ?? 0) / 60);
 
   return (
     <div className="space-y-8">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div className="flex flex-col space-y-2">
-          <div className="flex items-center gap-3">
-            {(() => {
-              const weather = getWeatherIcon(dailyData.weather_code);
-              if (weather.imagePath) {
-                return <img src={weather.imagePath} alt={weather.description} className="h-12 w-12" />;
-              }
-              return <span className="text-4xl">{weather.icon}</span>;
-            })()}
-            <h1 className="text-3xl font-bold">
-              Météo à Guercif le {format(parseISO(dateStr), "d MMMM yyyy", { locale: fr })}
-            </h1>
+          <div className="flex items-center justify-between gap-3 w-full sm:w-auto">
+            {prevDay && (
+              <Link href={`/climatologie/jour/${year}/${month}/${prevDay}/guercif`}>
+                <button className={cn(buttonVariants({ variant: "ghost" }))}>
+                  ← Jour précédent
+                </button>
+              </Link>
+            )}
+            {prevMonthDate && !prevDay && (
+              <Link href={`/climatologie/jour/${prevMonthYear}/${prevMonthMonth}/${prevMonthDay}/guercif`}>
+                <button className={cn(buttonVariants({ variant: "ghost" }))}>
+                  ← Jour précédent
+                </button>
+              </Link>
+            )}
+            {!prevDay && !prevMonthDate && (
+              <button className={cn(buttonVariants({ variant: "ghost" }), "opacity-50 cursor-not-allowed")} disabled>
+                ← Jour précédent
+              </button>
+            )}
+            <div className="flex items-center gap-3 flex-1 justify-center">
+              {(() => {
+                const weather = getWeatherIcon(dailyData.weather_code ?? 0);
+                if (weather.imagePath) {
+                  return <img src={weather.imagePath} alt={weather.description} className="h-12 w-12" />;
+                }
+                return <span className="text-4xl">{weather.icon}</span>;
+              })()}
+              <h1 className="text-3xl font-bold">
+                Météo à Guercif le {format(parseISO(dateStr), "d MMMM yyyy", { locale: fr })}
+              </h1>
+            </div>
+            {nextDay && (
+              <Link href={`/climatologie/jour/${year}/${month}/${nextDay}/guercif`}>
+                <button className={cn(buttonVariants({ variant: "ghost" }))}>
+                  Jour suivant →
+                </button>
+              </Link>
+            )}
+            {nextMonthDate && !nextDay && (
+              <Link href={`/climatologie/jour/${nextMonthYear}/${nextMonthMonth}/${nextMonthDay}/guercif`}>
+                <button className={cn(buttonVariants({ variant: "ghost" }))}>
+                  Jour suivant →
+                </button>
+              </Link>
+            )}
+            {!nextDay && !nextMonthDate && (
+              <button className={cn(buttonVariants({ variant: "ghost" }), "opacity-50 cursor-not-allowed")} disabled>
+                Jour suivant →
+              </button>
+            )}
           </div>
           <p className="text-muted-foreground">
             Archives détaillées heure par heure.
           </p>
           <p className="text-sm text-muted-foreground">
-            Lever du soleil: {format(parseISO(dailyData.sunrise), "HH:mm", { locale: fr })} • Coucher du soleil: {format(parseISO(dailyData.sunset), "HH:mm", { locale: fr })}
+            Lever du soleil: {dailyData.sunrise ? format(parseISO(dailyData.sunrise), "HH:mm", { locale: fr }) : "--:--"} • Coucher du soleil: {dailyData.sunset ? format(parseISO(dailyData.sunset), "HH:mm", { locale: fr }) : "--:--"}
           </p>
+          <div className="flex items-center justify-center gap-4 flex-wrap mt-2">
+            <Link href={`/climatologie/mois/${year}/${month}/guercif`}>
+              <button className={cn(buttonVariants({ variant: "outline", size: "sm" }))}>
+                Voir le mois {format(parseISO(dateStr), "MMMM yyyy", { locale: fr })}
+              </button>
+            </Link>
+            <Link href="/archives">
+              <button className={cn(buttonVariants({ variant: "outline", size: "sm" }))}>
+                Archives complètes
+              </button>
+            </Link>
+          </div>
         </div>
         <ExportData data={hourlyData} filename={`guercif_weather_${dateStr}`} />
       </div>
 
       {/* Summary Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         <Card className="border-none shadow-sm" style={{ backgroundColor: minColor, color: getTextColor(minColor) }}>
           <CardHeader className="pb-1 p-3">
             <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Température Min</CardTitle>
@@ -106,12 +182,20 @@ export default async function DayPage({ params }: PageProps) {
             <div className="text-2xl font-bold">{dailyData.precipitation} mm</div>
           </CardContent>
         </Card>
-        <Card className="border-none shadow-sm bg-yellow-400 text-black">
+        <Card className="border-none shadow-sm" style={{ backgroundColor: officialSunshineColor, color: getTextColor(officialSunshineColor) }}>
           <CardHeader className="pb-1 p-3">
-            <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Ensoleillement</CardTitle>
+            <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Ensoleillement Officiel</CardTitle>
           </CardHeader>
           <CardContent className="p-3 pt-0">
-            <div className="text-2xl font-bold">{(dailyData.sunshine / 3600).toFixed(1)} h</div>
+            <div className="text-2xl font-bold">{officialSunshineMinutes !== null ? `${Math.floor(officialSunshineMinutes / 60)}h ${officialSunshineMinutes % 60}min` : '–'}</div>
+          </CardContent>
+        </Card>
+        <Card className="border-none shadow-sm" style={{ backgroundColor: estimatedSunshineColor, color: getTextColor(estimatedSunshineColor) }}>
+          <CardHeader className="pb-1 p-3">
+            <CardTitle className="text-[10px] font-bold uppercase tracking-wider opacity-80">Ensoleillement Estimé</CardTitle>
+          </CardHeader>
+          <CardContent className="p-3 pt-0">
+            <div className="text-2xl font-bold">{estimatedSunshineMinutes !== null ? `${Math.floor(estimatedSunshineMinutes / 60)}h ${estimatedSunshineMinutes % 60}min` : '–'}</div>
           </CardContent>
         </Card>
       </div>
@@ -152,13 +236,21 @@ export default async function DayPage({ params }: PageProps) {
                   <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Vent</TableHead>
                   <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Rafales</TableHead>
                   <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Pression</TableHead>
+                  <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Ensoleil. Officiel (min)</TableHead>
+                  <TableHead className="border font-bold text-black dark:text-white px-1 py-1 h-auto">Ensoleil. Estimé (min)</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {hourlyData.map((hour) => {
-                  const tColor = getTemperatureColor(hour.temp);
-                  const pColor = getPrecipitationColor(hour.precipitation);
-                  const weather = getWeatherIcon(hour.weather_code, hour.time, dailyData.sunrise, dailyData.sunset);
+                  const temp = hour.temp ?? 0;
+                  const precip = hour.precipitation ?? 0;
+                  const tColor = getTemperatureColor(temp);
+                  const pColor = getPrecipitationColor(precip);
+                  const officialSunMin = hour.sunshine !== null ? Math.round(hour.sunshine / 60) : null;
+                  const estSunMin = hour.estimated_hourly_sunshine_minutes;
+                  const offColor = getSunshineColor((officialSunMin ?? 0) / 60);
+                  const estColor = getSunshineColor((estSunMin ?? 0) / 60);
+                  const weather = getWeatherIcon(hour.weather_code ?? 0, hour.time ?? '', dailyData.sunrise, dailyData.sunset);
                   return (
                     <TableRow key={hour.time}>
                       <TableCell className="border bg-white dark:bg-background text-center" title={weather.description}>
@@ -178,15 +270,21 @@ export default async function DayPage({ params }: PageProps) {
                         {format(parseISO(hour.time), "HH:mm")}
                       </TableCell>
                       <TableCell className="border p-0" style={{ backgroundColor: tColor, color: getTextColor(tColor) }}>
-                        {hour.temp.toFixed(1)}
+                        {temp.toFixed(1)}
                       </TableCell>
                       <TableCell className="border p-0" style={{ backgroundColor: pColor, color: getTextColor(pColor) }}>
-                        {hour.precipitation.toFixed(1)}
+                        {precip.toFixed(1)}
                       </TableCell>
-                      <TableCell className="border bg-white dark:bg-background">{hour.humidity}%</TableCell>
-                      <TableCell className="border bg-white dark:bg-background">{hour.wind_speed} km/h</TableCell>
-                      <TableCell className="border bg-white dark:bg-background">{hour.wind_gusts} km/h</TableCell>
-                      <TableCell className="border bg-white dark:bg-background">{hour.pressure} hPa</TableCell>
+                      <TableCell className="border bg-white dark:bg-background">{hour.humidity ?? '-'}%</TableCell>
+                      <TableCell className="border bg-white dark:bg-background">{hour.wind_speed ?? '-'} km/h</TableCell>
+                      <TableCell className="border bg-white dark:bg-background">{hour.wind_gusts ?? '-'} km/h</TableCell>
+                      <TableCell className="border bg-white dark:bg-background">{hour.pressure ?? '-'} hPa</TableCell>
+                      <TableCell className="border p-0" style={{ backgroundColor: offColor, color: getTextColor(offColor) }}>
+                        {officialSunMin !== null ? officialSunMin : '-'}
+                      </TableCell>
+                      <TableCell className="border p-0" style={{ backgroundColor: estColor, color: getTextColor(estColor) }}>
+                        {estSunMin !== null ? estSunMin : '-'}
+                      </TableCell>
                     </TableRow>
                   );
                 })}

@@ -50,6 +50,14 @@ export default async function YearPage({ params }: PageProps) {
     notFound();
   }
 
+  // Previous/Next year navigation
+  const allYears = listAvailableYears().sort();
+  const currentYearIndex = allYears.indexOf(year);
+  const hasPrev = currentYearIndex > 0;
+  const hasNext = currentYearIndex < allYears.length - 1;
+  const prevYear = hasPrev ? allYears[currentYearIndex - 1] : null;
+  const nextYear = hasNext ? allYears[currentYearIndex + 1] : null;
+
   // Group by month
   const monthlyStats: { [key: string]: MonthlyStats } = {};
   data.forEach(day => {
@@ -168,8 +176,20 @@ export default async function YearPage({ params }: PageProps) {
   return (
     <div className="space-y-8">
       <div className="flex flex-col space-y-2">
-        <h1 className="text-3xl font-bold">Données climatiques {year} - Guercif, Maroc</h1>
-        <p className="text-muted-foreground">Tableau climatologique au format Wikipédia.</p>
+        <div className="flex items-center justify-between">
+          <Link href={`/climatologie/annee/${prevYear}/guercif`}>
+            <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasPrev}>
+              ← Année précédente
+            </button>
+          </Link>
+          <h1 className="text-3xl font-bold text-center">Données climatiques {year} - Guercif, Maroc</h1>
+          <Link href={`/climatologie/annee/${nextYear}/guercif`}>
+            <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasNext}>
+              Année suivante →
+            </button>
+          </Link>
+        </div>
+        <p className="text-muted-foreground text-center">Tableau climatologique au format Wikipédia.</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
@@ -252,11 +272,11 @@ export default async function YearPage({ params }: PageProps) {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {/* Record Low */}
+                {/* Record High */}
                 <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Record de froid (°C)</TableCell>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Record de chaleur (°C)</TableCell>
                   {sortedMonths.map(m => {
-                    const val = monthlyStats[m].absMin;
+                    const val = monthlyStats[m].absMax;
                     const bgColor = getTemperatureColor(val);
                     return (
                       <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
@@ -265,41 +285,7 @@ export default async function YearPage({ params }: PageProps) {
                     );
                   })}
                   <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
-                    {Math.min(...sortedMonths.map(m => monthlyStats[m].absMin)).toFixed(1)}
-                  </TableCell>
-                </TableRow>
-
-                {/* Avg Low */}
-                <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Moyenne des minimales (°C)</TableCell>
-                  {sortedMonths.map(m => {
-                    const val = monthlyStats[m].tempMinSum / monthlyStats[m].days;
-                    const bgColor = getTemperatureColor(val);
-                    return (
-                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
-                        {val.toFixed(1)}
-                      </TableCell>
-                    );
-                  })}
-                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
-                    {(sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMinSum, 0) / data.length).toFixed(1)}
-                  </TableCell>
-                </TableRow>
-
-                {/* Daily Mean */}
-                <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Moyenne quotidienne (°C)</TableCell>
-                  {sortedMonths.map(m => {
-                    const val = monthlyStats[m].tempMeanSum / monthlyStats[m].days;
-                    const bgColor = getTemperatureColor(val);
-                    return (
-                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
-                        {val.toFixed(1)}
-                      </TableCell>
-                    );
-                  })}
-                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
-                    {(sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMeanSum, 0) / data.length).toFixed(1)}
+                    {Math.max(...sortedMonths.map(m => monthlyStats[m].absMax)).toFixed(1)}
                   </TableCell>
                 </TableRow>
 
@@ -320,11 +306,11 @@ export default async function YearPage({ params }: PageProps) {
                   </TableCell>
                 </TableRow>
 
-                {/* Record High */}
+                {/* Daily Mean */}
                 <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Record de chaleur (°C)</TableCell>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Moyenne quotidienne (°C)</TableCell>
                   {sortedMonths.map(m => {
-                    const val = monthlyStats[m].absMax;
+                    const val = monthlyStats[m].tempMeanSum / monthlyStats[m].days;
                     const bgColor = getTemperatureColor(val);
                     return (
                       <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
@@ -333,16 +319,16 @@ export default async function YearPage({ params }: PageProps) {
                     );
                   })}
                   <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
-                    {Math.max(...sortedMonths.map(m => monthlyStats[m].absMax)).toFixed(1)}
+                    {(sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMeanSum, 0) / data.length).toFixed(1)}
                   </TableCell>
                 </TableRow>
 
-                {/* Precipitation */}
+                {/* Avg Low */}
                 <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Précipitations (mm)</TableCell>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Moyenne des minimales (°C)</TableCell>
                   {sortedMonths.map(m => {
-                    const val = monthlyStats[m].rainSum;
-                    const bgColor = getPrecipitationColor(val);
+                    const val = monthlyStats[m].tempMinSum / monthlyStats[m].days;
+                    const bgColor = getTemperatureColor(val);
                     return (
                       <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         {val.toFixed(1)}
@@ -350,13 +336,30 @@ export default async function YearPage({ params }: PageProps) {
                     );
                   })}
                   <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
-                    {sortedMonths.reduce((acc, m) => acc + monthlyStats[m].rainSum, 0).toFixed(1)}
+                    {(sortedMonths.reduce((acc, m) => acc + monthlyStats[m].tempMinSum, 0) / data.length).toFixed(1)}
                   </TableCell>
                 </TableRow>
 
-                {/* Tempé. maxi minimale */}
+                {/* Record Low */}
                 <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. maxi minimale (°C)</TableCell>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Record de froid (°C)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].absMin;
+                    const bgColor = getTemperatureColor(val);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {Math.min(...sortedMonths.map(m => monthlyStats[m].absMin)).toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Tempé. maxi maximale */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. maxi maximale (°C)</TableCell>
                   {sortedMonths.map(m => {
                     const val = monthlyStats[m].minMaxTemp;
                     const bgColor = getTemperatureColor(val);
@@ -371,9 +374,9 @@ export default async function YearPage({ params }: PageProps) {
                   </TableCell>
                 </TableRow>
 
-                {/* Tempé. mini maximale */}
+                {/* Tempé. mini minimale */}
                 <TableRow>
-                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. mini maximale (°C)</TableCell>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Tempé. mini minimale (°C)</TableCell>
                   {sortedMonths.map(m => {
                     const val = monthlyStats[m].maxMinTemp;
                     const bgColor = getTemperatureColor(val);
@@ -419,6 +422,23 @@ export default async function YearPage({ params }: PageProps) {
                   })}
                   <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
                     {yearlySunshineHours.toFixed(1)}
+                  </TableCell>
+                </TableRow>
+
+                {/* Precipitation */}
+                <TableRow>
+                  <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">Précipitations (mm)</TableCell>
+                  {sortedMonths.map(m => {
+                    const val = monthlyStats[m].rainSum;
+                    const bgColor = getPrecipitationColor(val);
+                    return (
+                      <TableCell key={m} className="border p-0" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        {val.toFixed(1)}
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold bg-[#f2f2f2] dark:bg-muted/30">
+                    {sortedMonths.reduce((acc, m) => acc + monthlyStats[m].rainSum, 0).toFixed(1)}
                   </TableCell>
                 </TableRow>
 

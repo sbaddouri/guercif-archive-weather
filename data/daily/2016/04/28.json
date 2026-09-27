@@ -11,8 +11,8 @@
   "sunset": "2016-04-28T19:55",
   "sunshine_duration_seconds": 44831.21,
   "sunshine_duration_minutes": 747,
-  "estimated_daily_sunshine_minutes": 120,
-  "estimated_daily_sunshine": "2 h 00 min",
-  "sunshine_difference_minutes": 627,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 567,
   "sunshine_consistency": "Faible"
 }

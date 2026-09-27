@@ -11,8 +11,8 @@
   "sunset": "2021-12-21T18:07",
   "sunshine_duration_seconds": 33782.38,
   "sunshine_duration_minutes": 563,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 563,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 503,
   "sunshine_consistency": "Faible"
 }

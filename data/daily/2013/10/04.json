@@ -11,8 +11,8 @@
   "sunset": "2013-10-04T18:53",
   "sunshine_duration_seconds": 38751.87,
   "sunshine_duration_minutes": 646,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 646,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 580,
   "sunshine_consistency": "Faible"
 }

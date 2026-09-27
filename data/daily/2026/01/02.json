@@ -11,8 +11,8 @@
   "sunset": "2026-01-02T18:15",
   "sunshine_duration_seconds": 33244.57,
   "sunshine_duration_minutes": 554,
-  "estimated_daily_sunshine_minutes": 45,
-  "estimated_daily_sunshine": "0 h 45 min",
-  "sunshine_difference_minutes": 509,
+  "estimated_daily_sunshine_minutes": 99,
+  "estimated_daily_sunshine": "1 h 39 min",
+  "sunshine_difference_minutes": 455,
   "sunshine_consistency": "Faible"
 }

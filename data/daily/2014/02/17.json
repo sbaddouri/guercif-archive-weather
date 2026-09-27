@@ -11,8 +11,8 @@
   "sunset": "2014-02-17T18:58",
   "sunshine_duration_seconds": 3086.8,
   "sunshine_duration_minutes": 51,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 51,
-  "sunshine_consistency": "Faible"
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
 }

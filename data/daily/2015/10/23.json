@@ -11,8 +11,8 @@
   "sunset": "2015-10-23T18:30",
   "sunshine_duration_seconds": 36880.05,
   "sunshine_duration_minutes": 615,
-  "estimated_daily_sunshine_minutes": 240,
-  "estimated_daily_sunshine": "4 h 00 min",
-  "sunshine_difference_minutes": 375,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 345,
   "sunshine_consistency": "Faible"
 }

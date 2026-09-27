@@ -11,8 +11,8 @@
   "sunset": "2025-09-05T19:33",
   "sunshine_duration_seconds": 19626.58,
   "sunshine_duration_minutes": 327,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 327,
+  "estimated_daily_sunshine_minutes": 78,
+  "estimated_daily_sunshine": "1 h 18 min",
+  "sunshine_difference_minutes": 249,
   "sunshine_consistency": "Faible"
 }

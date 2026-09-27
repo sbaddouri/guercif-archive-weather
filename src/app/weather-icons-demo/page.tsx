@@ -1,15 +1,8 @@
 
 import { getWeatherIcon } from "@/lib/weather-colors";
 
-const ALL_WEATHER_CODES = [
-  0, 1, 2, 3,
-  45, 48,
-  51, 53, 55, 56, 57,
-  61, 63, 65, 66, 67,
-  71, 73, 75, 77,
-  80, 81, 82, 85, 86,
-  95, 96, 99,
-];
+// Tous les codes WMO 0-99
+const ALL_WEATHER_CODES = Array.from({ length: 100 }, (_, i) => i);
 
 const TEST_SUNRISE = "2026-07-07T06:08";
 const TEST_SUNSET = "2026-07-07T20:28";

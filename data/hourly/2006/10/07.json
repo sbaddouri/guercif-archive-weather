@@ -12,7 +12,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2006-10-07T01:00",
@@ -27,7 +27,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2006-10-07T02:00",
@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 5
   },
   {
     "time": "2006-10-07T08:00",
@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2616.78,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 10
   },
   {
     "time": "2006-10-07T09:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 14
   },
   {
     "time": "2006-10-07T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 31
   },
   {
     "time": "2006-10-07T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 51
   },
   {
     "time": "2006-10-07T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 29
   },
   {
     "time": "2006-10-07T13:00",
@@ -222,7 +222,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2006-10-07T15:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 26
   },
   {
     "time": "2006-10-07T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 21
   },
   {
     "time": "2006-10-07T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 21
   },
   {
     "time": "2006-10-07T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 13
   },
   {
     "time": "2006-10-07T19:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2749.93,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 11
   },
   {
     "time": "2006-10-07T20:00",
@@ -312,7 +312,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2006-10-07T21:00",
@@ -327,7 +327,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2006-10-07T22:00",
@@ -342,7 +342,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2006-10-07T23:00",
@@ -357,6 +357,6 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 0
   }
 ]

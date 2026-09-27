@@ -11,8 +11,8 @@
   "sunset": "2005-11-04T18:17",
   "sunshine_duration_seconds": 21600,
   "sunshine_duration_minutes": 360,
-  "estimated_daily_sunshine_minutes": 45,
-  "estimated_daily_sunshine": "0 h 45 min",
-  "sunshine_difference_minutes": 315,
+  "estimated_daily_sunshine_minutes": 84,
+  "estimated_daily_sunshine": "1 h 24 min",
+  "sunshine_difference_minutes": 276,
   "sunshine_consistency": "Faible"
 }

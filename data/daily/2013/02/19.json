@@ -11,8 +11,8 @@
   "sunset": "2013-02-19T19:00",
   "sunshine_duration_seconds": 22254.94,
   "sunshine_duration_minutes": 371,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 371,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 305,
   "sunshine_consistency": "Faible"
 }

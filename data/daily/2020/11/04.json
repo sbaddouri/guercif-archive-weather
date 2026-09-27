@@ -11,8 +11,8 @@
   "sunset": "2020-11-04T18:17",
   "sunshine_duration_seconds": 24709.21,
   "sunshine_duration_minutes": 412,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 382,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 322,
   "sunshine_consistency": "Faible"
 }

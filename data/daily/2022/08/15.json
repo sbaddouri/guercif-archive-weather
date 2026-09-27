@@ -11,8 +11,8 @@
   "sunset": "2022-08-15T20:00",
   "sunshine_duration_seconds": 33634.58,
   "sunshine_duration_minutes": 561,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 531,
+  "estimated_daily_sunshine_minutes": 102,
+  "estimated_daily_sunshine": "1 h 42 min",
+  "sunshine_difference_minutes": 459,
   "sunshine_consistency": "Faible"
 }

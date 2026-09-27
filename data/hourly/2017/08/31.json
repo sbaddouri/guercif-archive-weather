@@ -12,7 +12,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2017-08-31T01:00",
@@ -27,7 +27,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2017-08-31T02:00",
@@ -42,7 +42,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2017-08-31T03:00",
@@ -57,7 +57,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2017-08-31T04:00",
@@ -87,7 +87,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2017-08-31T06:00",
@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2017-08-31T09:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2017-08-31T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 11
   },
   {
     "time": "2017-08-31T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 13
   },
   {
     "time": "2017-08-31T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 15
+    "estimated_hourly_sunshine_minutes": 14
   },
   {
     "time": "2017-08-31T13:00",
@@ -222,7 +222,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2017-08-31T15:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 5
   },
   {
     "time": "2017-08-31T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 5
   },
   {
     "time": "2017-08-31T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 4
   },
   {
     "time": "2017-08-31T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 2
   },
   {
     "time": "2017-08-31T19:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3406.84,
-    "estimated_hourly_sunshine_minutes": 0
+    "estimated_hourly_sunshine_minutes": 1
   },
   {
     "time": "2017-08-31T20:00",
@@ -312,7 +312,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2017-08-31T21:00",

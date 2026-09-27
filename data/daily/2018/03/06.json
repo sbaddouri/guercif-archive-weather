@@ -11,8 +11,8 @@
   "sunset": "2018-03-06T19:13",
   "sunshine_duration_seconds": 22172.39,
   "sunshine_duration_minutes": 370,
-  "estimated_daily_sunshine_minutes": 50,
-  "estimated_daily_sunshine": "0 h 50 min",
-  "sunshine_difference_minutes": 320,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 265,
   "sunshine_consistency": "Faible"
 }

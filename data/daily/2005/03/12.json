@@ -11,8 +11,8 @@
   "sunset": "2005-03-12T19:18",
   "sunshine_duration_seconds": 2187.18,
   "sunshine_duration_minutes": 36,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
+  "estimated_daily_sunshine_minutes": 72,
+  "estimated_daily_sunshine": "1 h 12 min",
   "sunshine_difference_minutes": 36,
   "sunshine_consistency": "Faible"
 }

@@ -11,8 +11,8 @@
   "sunset": "2018-01-29T18:40",
   "sunshine_duration_seconds": 5001.86,
   "sunshine_duration_minutes": 83,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 53,
-  "sunshine_consistency": "Faible"
+  "estimated_daily_sunshine_minutes": 78,
+  "estimated_daily_sunshine": "1 h 18 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
 }

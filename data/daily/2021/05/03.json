@@ -11,8 +11,8 @@
   "sunset": "2021-05-03T19:59",
   "sunshine_duration_seconds": 27333.18,
   "sunshine_duration_minutes": 456,
-  "estimated_daily_sunshine_minutes": 30,
-  "estimated_daily_sunshine": "0 h 30 min",
-  "sunshine_difference_minutes": 426,
+  "estimated_daily_sunshine_minutes": 102,
+  "estimated_daily_sunshine": "1 h 42 min",
+  "sunshine_difference_minutes": 354,
   "sunshine_consistency": "Faible"
 }

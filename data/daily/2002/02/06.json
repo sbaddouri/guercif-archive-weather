@@ -11,8 +11,8 @@
   "sunset": "2002-02-06T18:48",
   "sunshine_duration_seconds": 31777.41,
   "sunshine_duration_minutes": 530,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 530,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 470,
   "sunshine_consistency": "Faible"
 }

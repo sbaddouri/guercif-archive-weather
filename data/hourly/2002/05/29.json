@@ -12,7 +12,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T01:00",
@@ -27,7 +27,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T02:00",
@@ -42,7 +42,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T03:00",
@@ -57,7 +57,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T04:00",
@@ -72,7 +72,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T05:00",
@@ -87,7 +87,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T06:00",
@@ -102,7 +102,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 8
   },
   {
     "time": "2002-05-29T07:00",
@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2104.36,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 9
   },
   {
     "time": "2002-05-29T08:00",
@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 19
   },
   {
     "time": "2002-05-29T09:00",
@@ -147,7 +147,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 27
   },
   {
     "time": "2002-05-29T10:00",
@@ -162,7 +162,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 34
   },
   {
     "time": "2002-05-29T11:00",
@@ -177,7 +177,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 40
   },
   {
     "time": "2002-05-29T12:00",
@@ -192,7 +192,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 29
   },
   {
     "time": "2002-05-29T13:00",
@@ -237,7 +237,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 28
   },
   {
     "time": "2002-05-29T16:00",
@@ -252,7 +252,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 37
   },
   {
     "time": "2002-05-29T17:00",
@@ -267,7 +267,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 40
   },
   {
     "time": "2002-05-29T18:00",
@@ -282,7 +282,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 29
   },
   {
     "time": "2002-05-29T19:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 60
+    "estimated_hourly_sunshine_minutes": 17
   },
   {
     "time": "2002-05-29T20:00",
@@ -312,7 +312,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 3600,
-    "estimated_hourly_sunshine_minutes": 45
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2002-05-29T21:00",
@@ -327,7 +327,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-05-29T22:00",
@@ -357,6 +357,6 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 30
+    "estimated_hourly_sunshine_minutes": 0
   }
 ]

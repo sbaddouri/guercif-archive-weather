@@ -3,48 +3,216 @@
  * Based on the provided JSON scale: -89.2°C to 56.7°C
  */
 
-// Table de correspondance WMO → Durée estimée d'ensoleillement par heure (en minutes)
-const WMO_TO_ESTIMATED_SUNSHINE: Record<number, number> = {
-  0: 60,    // ☀️ - Ciel dégagé
-  1: 45,    // 🌤️ - Principalement dégagé
-  2: 30,    // ⛅ - Partiellement nuageux
-  3: 0,     // ☁️ - Couvert
-  45: 0,    // 🌫️ - Brouillard
-  48: 0,    // 🌫️ - Brouillard givrant
-  51: 15,   // 🌦️ - Bruine faible
-  53: 10,   // 🌦️ - Bruine modérée
-  55: 0,    // 🌧️ - Bruine forte
-  56: 0,    // 🌧️❄️ - Bruine verglaçante faible
-  57: 0,    // 🌧️❄️ - Bruine verglaçante forte
-  61: 5,    // 🌧️ - Pluie faible
-  63: 0,    // 🌧️ - Pluie modérée
-  65: 0,    // 🌧️ - Pluie forte
-  66: 0,    // 🌧️❄️ - Pluie verglaçante faible
-  67: 0,    // 🌧️❄️ - Pluie verglaçante forte
-  71: 5,    // 🌨️ - Neige faible
-  73: 0,    // 🌨️ - Neige modérée
-  75: 0,    // 🌨️ - Neige forte
-  77: 0,    // 🌨️ - Grains de neige
-  80: 20,   // 🌦️ - Averses de pluie faibles
-  81: 5,    // 🌧️ - Averses de pluie modérées
-  82: 5,    // 🌧️ - Averses de pluie violentes
-  85: 5,    // 🌨️ - Averses de neige faibles
-  86: 5,    // 🌨️ - Averses de neige fortes
-  95: 10,   // ⛈️ - Orage faible ou modéré
-  96: 10,   // ⛈️ - Orage avec grêle faible
-  99: 10    // ⛈️ - Orage avec forte grêle
+/**
+ * Table de correspondance complète WMO 4677 (codes 0-99) → Facteur d'ensoleillement maximal (0-1)
+ * Basé sur la nébulosité et le type de phénomène météorologique
+ * Groupes logiques selon la table OMM 4677 :
+ * 0-3: État du ciel (nébulosité)
+ * 10-19: Précipitations légères / Caractère du temps
+ * 20-29: Précipitations / Neige / Grêle (non utilisées dans Open-Meteo)
+ * 30-39: Tempêtes / Poussière / Sable
+ * 40-49: Brouillard / Brume
+ * 50-59: Bruine
+ * 60-69: Pluie
+ * 70-79: Neige
+ * 80-89: Averses
+ * 90-99: Orages
+ */
+const WMO_SUNSHINE_FACTOR: Record<number, number> = {
+  // 0-3: État du ciel (Nébulosité) - Facteur basé sur l'okta de nébulosité
+  0: 1.00,  // Ciel dégagé (0 oktas)
+  1: 0.75,  // Principalement dégagé (1-2 oktas)
+  2: 0.50,  // Partiellement nuageux (3-4 oktas)
+  3: 0.10,  // Couvert (5-8 oktas)
+
+  // 10-19: Précipitations légères / Caractère du temps (Open-Meteo n'utilise pas tous)
+  10: 0.30, // Brume légère
+  11: 0.20, // Brume
+  12: 0.10, // Brume épaisse
+  13: 0.05, // Brume givrante
+  14: 0.00, // Brouillard (visible < 1km)
+  15: 0.00, // Brouillard givrant
+  16: 0.00, // Brouillard épais
+  17: 0.00, // Brouillard givrant épais
+  18: 0.20, // Précipitations légères intermittentes
+  19: 0.10, // Précipitations légères continues
+
+  // 20-29: Neige / Grêle (codes météo non standard Open-Meteo)
+  20: 0.05, 21: 0.05, 22: 0.05, 23: 0.05, 24: 0.05,
+  25: 0.05, 26: 0.05, 27: 0.05, 28: 0.05, 29: 0.05,
+
+  // 30-39: Tempêtes de poussière/sable
+  30: 0.10, 31: 0.05, 32: 0.00, 33: 0.00, 34: 0.00,
+  35: 0.00, 36: 0.00, 37: 0.00, 38: 0.00, 39: 0.00,
+
+  // 40-49: Brouillard / Brume (Open-Meteo: 45, 48)
+  40: 0.05, 41: 0.00, 42: 0.00, 43: 0.00, 44: 0.00,
+  45: 0.00,  // Brouillard
+  46: 0.00, 47: 0.00,
+  48: 0.00,  // Brouillard givrant (dépôt de givre)
+  49: 0.00,
+
+  // 50-59: Bruine (Open-Meteo: 51, 53, 55, 56, 57)
+  50: 0.20, // Bruine intermittente faible
+  51: 0.25, // Bruine faible
+  52: 0.15, // Bruine modérée
+  53: 0.15, // Bruine modérée
+  54: 0.05, // Bruine forte
+  55: 0.05, // Bruine forte
+  56: 0.00, // Bruine verglaçante faible
+  57: 0.00, // Bruine verglaçante forte
+  58: 0.00, 59: 0.00,
+
+  // 60-69: Pluie (Open-Meteo: 61, 63, 65, 66, 67)
+  60: 0.10, // Pluie intermittente faible
+  61: 0.10, // Pluie faible
+  62: 0.05, // Pluie modérée
+  63: 0.05, // Pluie modérée
+  64: 0.00, // Pluie forte
+  65: 0.00, // Pluie forte
+  66: 0.00, // Pluie verglaçante faible
+  67: 0.00, // Pluie verglaçante forte
+  68: 0.00, 69: 0.00,
+
+  // 70-79: Neige (Open-Meteo: 71, 73, 75, 77)
+  70: 0.10, // Neige intermittente faible
+  71: 0.10, // Neige faible
+  72: 0.05, // Neige modérée
+  73: 0.05, // Neige modérée
+  74: 0.00, // Neige forte
+  75: 0.00, // Neige forte
+  76: 0.00, // Grains de neige (diamond dust)
+  77: 0.00, // Grains de neige
+  78: 0.00, 79: 0.00,
+
+  // 80-89: Averses (Open-Meteo: 80, 81, 82, 85, 86)
+  80: 0.30, // Averses de pluie faibles
+  81: 0.10, // Averses de pluie modérées
+  82: 0.05, // Averses de pluie violentes
+  83: 0.20, // Averses pluie/neige mélangées faibles
+  84: 0.10, // Averses pluie/neige mélangées modérées
+  85: 0.10, // Averses de neige faibles
+  86: 0.05, // Averses de neige fortes
+  87: 0.00, 88: 0.00, 89: 0.00,
+
+  // 90-99: Orages (Open-Meteo: 95, 96, 99)
+  90: 0.05, 91: 0.05, 92: 0.05, 93: 0.05, 94: 0.05,
+  95: 0.05, // Orage faible ou modéré
+  96: 0.05, // Orage avec grêle faible
+  97: 0.00, 98: 0.00,
+  99: 0.00  // Orage avec forte grêle
 };
 
 /**
- * Convertit un code WMO horaire en durée d'ensoleillement estimée en minutes
+ * Calcule le facteur d'élévation solaire pour les transitions lever/coucher
+ * Retourne un facteur 0-1 basé sur la position du soleil
+ * @param minutesFromSunrise - Minutes depuis le lever du soleil (négatif = avant lever)
+ * @param minutesToSunset - Minutes avant le coucher du soleil (négatif = après coucher)
+ * @param dayLengthMinutes - Durée du jour en minutes
+ * @returns Facteur 0-1 pour l'ensoleillement potentiel
+ */
+function getSolarElevationFactor(
+  timeMinutes: number,
+  sunriseMinutes: number,
+  sunsetMinutes: number
+): number {
+  // Nuit complète
+  if (timeMinutes < sunriseMinutes - 30 || timeMinutes > sunsetMinutes + 30) {
+    return 0;
+  }
+
+  // Transition crépusculaire civile (30 min avant lever / après coucher)
+  const civilTwilight = 30;
+
+  // Avant lever du soleil (crépuscule matinal)
+  if (timeMinutes < sunriseMinutes) {
+    const minutesBeforeSunrise = sunriseMinutes - timeMinutes;
+    if (minutesBeforeSunrise <= civilTwilight) {
+      // Facteur croissant linéaire 0 → 0.3 pendant le crépuscule civil
+      return 0.3 * (1 - minutesBeforeSunrise / civilTwilight);
+    }
+    return 0;
+  }
+
+  // Après coucher du soleil (crépuscule vespéral)
+  if (timeMinutes > sunsetMinutes) {
+    const minutesAfterSunset = timeMinutes - sunsetMinutes;
+    if (minutesAfterSunset <= civilTwilight) {
+      // Facteur décroissant linéaire 0.3 → 0 pendant le crépuscule civil
+      return 0.3 * (1 - minutesAfterSunset / civilTwilight);
+    }
+    return 0;
+  }
+
+  // Plein jour - calcul basé sur l'élévation solaire (courbe sinusoïdale)
+  const dayLength = sunsetMinutes - sunriseMinutes;
+  const progress = (timeMinutes - sunriseMinutes) / dayLength; // 0 à 1
+
+  // Courbe sinusoïdale pour l'élévation solaire (max à midi solaire)
+  // sin(π * progress) donne 0 au lever/coucher, 1 au midi
+  return Math.sin(Math.PI * progress);
+}
+
+/**
+ * Calcule l'ensoleillement estimé pour une heure donnée
+ * en tenant compte du code WMO, du lever/coucher du soleil, et de l'élévation solaire
+ * @param code - Code WMO horaire
+ * @param timeStr - Heure ISO (ex: "2025-06-15T14:00")
+ * @param sunriseStr - Lever du soleil ISO
+ * @param sunsetStr - Coucher du soleil ISO
+ * @returns Minutes d'ensoleillement estimées pour cette heure (0-60)
+ */
+export function calculateHourlySunshineWithDaylight(
+  code: number,
+  timeStr: string,
+  sunriseStr: string | null | undefined,
+  sunsetStr: string | null | undefined
+): number {
+  // Pas de données de lever/coucher = on suppose jour complet (fallback)
+  if (!sunriseStr || !sunsetStr) {
+    return Math.round((WMO_SUNSHINE_FACTOR[code] ?? 0) * 60);
+  }
+
+  const getTimeMinutes = (timeStr: string): number => {
+    if (!timeStr || !timeStr.includes('T')) return 0;
+    const timePart = timeStr.split('T')[1];
+    if (!timePart || !timePart.includes(':')) return 0;
+    const [hour, minute] = timePart.split(':').map(Number);
+    if (isNaN(hour) || isNaN(minute)) return 0;
+    return hour * 60 + minute;
+  };
+
+  const timeMinutes = getTimeMinutes(timeStr);
+  const sunriseMinutes = getTimeMinutes(sunriseStr);
+  const sunsetMinutes = getTimeMinutes(sunsetStr);
+
+  // Facteur d'élévation solaire (0-1)
+  const elevationFactor = getSolarElevationFactor(timeMinutes, sunriseMinutes, sunsetMinutes);
+
+  // Si nuit (facteur 0), pas d'ensoleillement possible
+  if (elevationFactor <= 0) {
+    return 0;
+  }
+
+  // Facteur météo (0-1) basé sur le code WMO
+  const weatherFactor = WMO_SUNSHINE_FACTOR[code] ?? 0;
+
+  // Ensoleillement = 60 min * facteur_météo * facteur_élévation
+  // Arrondi à la minute
+  return Math.round(60 * weatherFactor * elevationFactor);
+}
+
+/**
+ * Convertit un code WMO horaire en durée d'ensoleillement estimée en minutes (version legacy)
+ * @deprecated Utiliser calculateHourlySunshineWithDaylight
  * @param code - Code WMO horaire
  * @returns Durée estimée en minutes (0 si code inconnu)
  */
 export function calculateHourlySunshine(code: number): number {
-  return WMO_TO_ESTIMATED_SUNSHINE[code] ?? 0;
+  return Math.round((WMO_SUNSHINE_FACTOR[code] ?? 0) * 60);
 }
 
-function isHourBetweenSunriseAndSunset(timeStr: string, sunriseStr: string | null | undefined, sunsetStr: string | null | undefined): boolean {
+export function isHourBetweenSunriseAndSunset(timeStr: string, sunriseStr: string | null | undefined, sunsetStr: string | null | undefined): boolean {
   const getTimeMinutes = (timeStr: string) => {
     if (!timeStr || !timeStr.includes('T')) return 0;
     const timePart = timeStr.split('T')[1];
@@ -350,67 +518,235 @@ function getTimeHM(timeStr?: string | null): number {
 }
 
 // ============================================================
-// Correspondance code WMO → icône / fichier image / description
-// Fichiers disponibles dans /public/weather-icons/day/ et /night/ :
-//   ciel-degage.png, ciel-voile.png, eclaircies.png, couvert.png,
-//   brouillard.png, bruine.png, pluie-faible.png, pluie.png,
-//   pluie-verglacante.png, neige.png, averses-pluie.png,
-//   averses-neige.png, orage.png
+// Correspondance code WMO → icône / description
+// Les fichiers d'icônes utilisent maintenant des noms numériques (0.png, 1.png, ... 99.png)
+// dans /public/weather-icons/day/ et /night/
+// Pour ajouter une nouvelle icône : ajoutez simplement le fichier {code}.png dans les dossiers day/ et night/
 // ============================================================
 interface WeatherIconInfo {
-  icon: string;         // Emoji de jour
+  icon: string;         // Emoji de jour (fallback)
   nightIcon?: string;   // Emoji de nuit (si différent de celui du jour)
-  imageName: string;    // Nom du fichier SANS extension (commun à day/ et night/)
   description: string;
 }
 
-const WEATHER_ICON_MAP: Record<number, WeatherIconInfo> = {
-  // --- Ciel ---
-  0:  { icon: "☀️", nightIcon: "🌙",  imageName: "ciel-degage",       description: "Ciel dégagé - Aucun nuage significatif" },
-  1:  { icon: "🌤️", nightIcon: "🌥️", imageName: "ciel-voile",        description: "Principalement dégagé - Peu nuageux, majorité de ciel clair" },
-  2:  { icon: "⛅", nightIcon: "🌦️", imageName: "eclaircies",        description: "Partiellement nuageux - Alternance nuages / éclaircies" },
-  3:  { icon: "☁️",                    imageName: "couvert",           description: "Couvert - Ciel très nuageux à totalement couvert" },
-
-  // --- Brouillard ---
-  45: { icon: "🌫️",                   imageName: "brouillard",        description: "Brouillard - Brouillard « classique »" },
-  48: { icon: "🌫️",                   imageName: "brouillard",        description: "Brouillard givrant - Brouillard avec dépôt de givre" },
-
-  // --- Bruine ---
-  51: { icon: "🌦️",                   imageName: "bruine",            description: "Bruine faible - Petite pluie fine, faible intensité" },
-  53: { icon: "🌦️",                   imageName: "bruine",            description: "Bruine modérée - Bruine plus marquée" },
-  55: { icon: "🌧️",                   imageName: "bruine",            description: "Bruine forte / dense - Bruine intense et persistante" },
-
-  // --- Bruine / pluie verglaçante ---
-  56: { icon: "🌧️❄️",                 imageName: "pluie-verglacante", description: "Bruine verglaçante faible - Bruine surfondue pouvant geler au contact" },
-  57: { icon: "🌧️❄️",                 imageName: "pluie-verglacante", description: "Bruine verglaçante forte - Version plus intense de la bruine verglaçante" },
-  66: { icon: "🌧️❄️",                 imageName: "pluie-verglacante", description: "Pluie verglaçante faible - Pluie qui gèle au contact, faible intensité" },
-  67: { icon: "🌧️❄️",                 imageName: "pluie-verglacante", description: "Pluie verglaçante forte - Pluie verglaçante plus forte" },
-
-  // --- Pluie ---
-  61: { icon: "🌧️",                   imageName: "pluie-faible",      description: "Pluie faible - Pluie continue légère" },
-  63: { icon: "🌧️",                   imageName: "pluie",             description: "Pluie modérée - Pluie « normale » / soutenue" },
-  65: { icon: "🌧️",                   imageName: "pluie",             description: "Pluie forte - Forte pluie continue" },
-
-  // --- Neige ---
-  71: { icon: "🌨️",                   imageName: "neige",             description: "Neige faible - Chute de neige légère" },
-  73: { icon: "🌨️",                   imageName: "neige",             description: "Neige modérée - Chute de neige modérée" },
-  75: { icon: "🌨️",                   imageName: "neige",             description: "Neige forte - Forte chute de neige" },
-  77: { icon: "🌨️",                   imageName: "neige",             description: "Grains de neige - Très petites particules de neige, distinctes des gros flocons" },
-
-  // --- Averses de pluie ---
-  80: { icon: "🌦️",                   imageName: "averses-pluie",     description: "Averses de pluie faibles - Pluie en averses, faible" },
-  81: { icon: "🌧️",                   imageName: "averses-pluie",     description: "Averses de pluie modérées - Averses plus marquées" },
-  82: { icon: "🌧️",                   imageName: "averses-pluie",     description: "Averses de pluie violentes - Averses très fortes" },
-
-  // --- Averses de neige ---
-  85: { icon: "🌨️",                   imageName: "averses-neige",     description: "Averses de neige faibles - Neige sous forme d’averses, faible" },
-  86: { icon: "🌨️",                   imageName: "averses-neige",     description: "Averses de neige fortes - Averses de neige marquées" },
-
-  // --- Orage ---
-  95: { icon: "⛈️",                   imageName: "orage",             description: "Orage faible ou modéré - Présence orageuse" },
-  96: { icon: "⛈️",                   imageName: "orage",             description: "Orage avec grêle faible - Orage avec grêle légère" },
-  99: { icon: "⛈️",                   imageName: "orage",             description: "Orage avec forte grêle - Orage avec grêle importante" }
+// Descriptions standards WMO pour les codes 0-99 (Table 4677 - Temps présent)
+// Codes 0-3 : Codes météo Open-Meteo (temps actuel) + WMO temps présent
+// Codes 4-99 : Codes temps présent WMO (table 4677)
+const WMO_DESCRIPTIONS: Record<number, string> = {
+  0:  "Ciel dégagé - Aucun nuage significatif",
+  1:  "Principalement dégagé - Peu nuageux, majorité de ciel clair",
+  2:  "Partiellement nuageux - Alternance nuages / éclaircies",
+  3:  "Couvert - Ciel très nuageux à totalement couvert",
+  4:  "Visibilité réduite par de la fumée (feux de forêts, fumée industrielle, cendres volcaniques)",
+  5:  "Brume sèche (Haze) - Obstacles à la vue consistant en lithométéores",
+  6:  "Poussière généralisée en suspension dans l'air (non soulevée par le vent près de la station)",
+  7:  "Poussière ou sable soulevé par le vent près de la station, mais pas de tourbillon ni de tempête",
+  8:  "Tourbillon de poussière ou de sable (Dust devil) observé pendant l'heure précédente ou au moment de l'observation",
+  9:  "Tempête de poussière ou de sable en vue de la station, ou trombe d'eau (trombe marine) pendant l'heure précédente",
+  10: "Brume humide (Mist) - Brouillard ou brouillard glacé, visibilité ni < 5/8 mille ni > 6 milles",
+  11: "Bancs de brouillard ou de brouillard de glace (épaisseur < 2m au sol)",
+  12: "Brouillard ou brouillard de glace plus ou moins continu (épaisseur < 2m au sol)",
+  13: "Éclairs visibles, mais aucun tonnerre entendu (au moment de l'observation ou 15 min avant)",
+  14: "Virga (précipitations n'atteignant pas le sol)",
+  15: "Précipitations atteignant le sol à distance (à plus de 5 km de la station)",
+  16: "Précipitations proches mais n'atteignant pas la station (à moins de 5 km)",
+  17: "Orage sans précipitations au moment de l'observation",
+  18: "Grains (Squalls) au moment de l'observation ou pendant l'heure précédente",
+  19: "Trombe marine ou terrestre (Tornado / Funnel cloud) observée",
+  20: "Bruine ou neige en grains (non verglaçante) au cours de l'heure précédente, pas au moment de l'observation",
+  21: "Pluie (non verglaçante) au cours de l'heure précédente, pas au moment de l'observation",
+  22: "Neige (pas sous forme d'averses) ou cristaux de glace au cours de l'heure précédente, pas au moment de l'observation",
+  23: "Pluie et neige mêlées ou granules de glace (non sous forme d'averses) au cours de l'heure précédente, pas au moment de l'observation",
+  24: "Bruine verglaçante ou pluie verglaçante au cours de l'heure précédente, pas au moment de l'observation",
+  25: "Averse(s) de pluie au cours de l'heure précédente, pas au moment de l'observation",
+  26: "Averse(s) de neige, ou de pluie et neige mêlées au cours de l'heure précédente, pas au moment de l'observation",
+  27: "Averse(s) de grêle, ou de pluie et de grêle au cours de l'heure précédente, pas au moment de l'observation",
+  28: "Brouillard ou brouillard de glace, visibilité < 5/8 mille au cours de l'heure précédente, pas au moment de l'observation",
+  29: "Orage (avec ou sans précipitations) au cours de l'heure précédente, pas au moment de l'observation",
+  30: "Tempête de poussière ou de sable, intensité diminuée, visibilité < 5/8 mille mais >= 5/16 mille",
+  31: "Tempête de poussière ou de sable, intensité inchangée, visibilité < 5/8 mille mais >= 5/16 mille",
+  32: "Tempête de poussière ou de sable, intensité augmentée, visibilité < 5/8 mille mais >= 5/16 mille",
+  33: "Tempête de poussière ou de sable, intensité diminuée, visibilité < 5/16 mille",
+  34: "Tempête de poussière ou de sable, intensité inchangée, visibilité < 5/16 mille",
+  35: "Tempête de poussière ou de sable, intensité augmentée, visibilité < 5/16 mille",
+  36: "Poudrerie (chasse-neige) basse, faible ou modérée",
+  37: "Poudrerie (chasse-neige) basse, forte",
+  38: "Chasse-neige élevée, visibilité >= 5/16 mille",
+  39: "Chasse-neige élevée, visibilité < 5/16 mille",
+  40: "Banc de brouillard ou de brouillard glacé (épaisseur > 2m) observé à distance de la station",
+  41: "Brouillard par bancs (épaisseur > 2m), visibilité dominante < 5/8 mille",
+  42: "Brouillard devenu plus mince pendant l'heure précédente (ciel visible, visibilité < 5/8 mille)",
+  43: "Brouillard devenu plus mince pendant l'heure précédente (ciel invisible, visibilité < 5/8 mille)",
+  44: "Brouillard sans changement pendant l'heure précédente (ciel visible, visibilité < 5/8 mille)",
+  45: "Brouillard sans changement pendant l'heure précédente (ciel invisible, visibilité < 5/8 mille)",
+  46: "Brouillard commençant ou devenant plus épais pendant l'heure précédente (ciel visible, visibilité < 5/8 mille)",
+  47: "Brouillard commençant ou devenant plus épais pendant l'heure précédente (ciel invisible, visibilité < 5/8 mille)",
+  48: "Brouillard givrant (déposant du givre, ciel visible, visibilité < 5/8 mille)",
+  49: "Brouillard givrant (déposant du givre, ciel invisible, visibilité < 5/8 mille)",
+  50: "Bruine faible et intermittente",
+  51: "Bruine faible et continue",
+  52: "Bruine modérée et intermittente",
+  53: "Bruine modérée et continue",
+  54: "Bruine forte mais intermittente",
+  55: "Bruine forte et continue",
+  56: "Bruine verglaçante faible",
+  57: "Bruine verglaçante modérée ou forte",
+  58: "Bruine et pluie mêlées d'intensité faible",
+  59: "Bruine et pluie mêlées d'intensité modérée ou forte",
+  60: "Pluie faible et intermittente",
+  61: "Pluie faible et continue",
+  62: "Pluie modérée et intermittente",
+  63: "Pluie modérée et continue",
+  64: "Pluie forte mais intermittente",
+  65: "Pluie forte et continue",
+  66: "Pluie verglaçante faible",
+  67: "Pluie verglaçante modérée ou forte",
+  68: "Pluie ou bruine et neige mêlées, intensité faible",
+  69: "Pluie ou bruine et neige mêlées, intensité modérée ou forte",
+  70: "Chute de neige intermittente faible",
+  71: "Chute de neige continue faible",
+  72: "Chute de neige modérée et intermittente",
+  73: "Chute de neige modérée et continue",
+  74: "Chute de neige forte mais intermittente",
+  75: "Chute de neige forte et continue",
+  76: "Cristaux de glace (poudrin de glace)",
+  77: "Neige en grains",
+  78: "Étoiles de neige isolées",
+  79: "Granules de glace (non sous forme d'averses)",
+  80: "Averse de pluie faible",
+  81: "Averse de pluie modérée ou forte",
+  82: "Averse de pluie violente (exceptionnellement forte, tropicale ou torrentielle)",
+  83: "Averse de pluie et neige mêlées faible",
+  84: "Averse de pluie et neige mêlées modérée ou forte",
+  85: "Averse de neige faible",
+  86: "Averse de neige modérée ou forte",
+  87: "Averse de grésil ou neige roulée, faible (avec ou sans pluie, ou pluie et neige mêlées)",
+  88: "Averse de grésil ou neige roulée, modérée ou forte (avec ou sans pluie, ou pluie et neige mêlées)",
+  89: "Averse de grêle faible (sans orage, avec ou sans pluie, ou pluie et neige mêlées)",
+  90: "Averse de grêle modérée ou forte (sans orage, avec ou sans pluie, ou pluie et neige mêlées)",
+  91: "Pluie faible au moment de l'observation, orage pendant l'heure précédente (terminé)",
+  92: "Pluie modérée ou forte au moment de l'observation, orage pendant l'heure précédente (terminé)",
+  93: "Neige, ou pluie et neige mêlées, ou grêle, ou granules de glace (faible), orage heure précédente (terminé)",
+  94: "Neige, ou pluie et neige mêlées, ou grêle, ou granules de glace (modéré/fort), orage heure précédente (terminé)",
+  95: "Orage faible ou modéré, avec pluie ou neige",
+  96: "Orage faible ou modéré, avec grêle, neige roulée ou granules de glace",
+  97: "Orage fort/violent, avec pluie ou neige",
+  98: "Orage combiné avec une tempête de poussière ou de sable",
+  99: "Orage fort/violent, avec grêle, neige roulée ou granules de glace"
 };
+
+// Emojis par défaut pour chaque code WMO (utilisés comme fallback si pas d'image)
+// Chaque code a un emoji jour et un emoji nuit distincts selon la table WMO 4677
+const WMO_EMOJIS: Record<number, { day: string; night: string }> = {
+  0:  { day: "☀️",  night: "🌙"   }, // Ciel dégagé
+  1:  { day: "🌤️", night: "🌥️"  }, // Principalement dégagé
+  2:  { day: "⛅",  night: "🌦️"  }, // Partiellement nuageux
+  3:  { day: "☁️",  night: "☁️"   }, // Couvert
+  4:  { day: "💨",  night: "💨"   }, // Fumée
+  5:  { day: "🌫️", night: "🌫️"  }, // Brume sèche (Haze)
+  6:  { day: "🌪️", night: "🌪️"  }, // Poussière en suspension
+  7:  { day: "🌪️", night: "🌪️"  }, // Poussière/sable soulevé par le vent
+  8:  { day: "🌪️", night: "🌪️"  }, // Tourbillon de poussière/sable
+  9:  { day: "🌪️", night: "🌪️"  }, // Tempête de poussière/sable / Trombe
+  10: { day: "🌫️", night: "🌫️"  }, // Brume humide (Mist)
+  11: { day: "🌫️", night: "🌫️"  }, // Bancs de brouillard
+  12: { day: "🌫️", night: "🌫️"  }, // Brouillard continu
+  13: { day: "🌩️", night: "🌩️"  }, // Éclairs sans tonnerre
+  14: { day: "🌧️", night: "🌧️"  }, // Virga
+  15: { day: "🌧️", night: "🌧️"  }, // Précipitations à distance
+  16: { day: "🌧️", night: "🌧️"  }, // Précipitations proches
+  17: { day: "🌩️", night: "🌩️"  }, // Orage sans précipitations
+  18: { day: "🌬️", night: "🌬️"  }, // Grains (Squalls)
+  19: { day: "🌪️", night: "🌪️"  }, // Trombe marine/terrestre
+  20: { day: "🌨️", night: "🌨️"  }, // Bruine/neige en grains (hier)
+  21: { day: "🌧️", night: "🌧️"  }, // Pluie (hier)
+  22: { day: "🌨️", night: "🌨️"  }, // Neige (hier)
+  23: { day: "🌨️", night: "🌨️"  }, // Pluie/neige mêlées (hier)
+  24: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine/pluie verglaçante (hier)
+  25: { day: "🌦️", night: "🌧️"  }, // Averses de pluie (hier)
+  26: { day: "🌨️", night: "🌨️"  }, // Averses de neige/pluie-neige (hier)
+  27: { day: "🌨️", night: "🌨️"  }, // Averses de grêle (hier)
+  28: { day: "🌫️", night: "🌫️"  }, // Brouillard (hier)
+  29: { day: "🌩️", night: "🌩️"  }, // Orage (hier)
+  30: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité diminuée)
+  31: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité stable)
+  32: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité augmentée)
+  33: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (visibilité < 5/16)
+  34: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité stable, vis < 5/16)
+  35: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité augmentée, vis < 5/16)
+  36: { day: "🌨️", night: "🌨️"  }, // Poudrerie basse faible/modérée
+  37: { day: "🌨️", night: "🌨️"  }, // Poudrerie basse forte
+  38: { day: "🌨️", night: "🌨️"  }, // Chasse-neige élevée (vis >= 5/16)
+  39: { day: "🌨️", night: "🌨️"  }, // Chasse-neige élevée (vis < 5/16)
+  40: { day: "🌫️", night: "🌫️"  }, // Banc de brouillard à distance
+  41: { day: "🌫️", night: "🌫️"  }, // Brouillard par bancs
+  42: { day: "🌫️", night: "🌫️"  }, // Brouillard s'amincissant (ciel visible)
+  43: { day: "🌫️", night: "🌫️"  }, // Brouillard s'amincissant (ciel invisible)
+  44: { day: "🌫️", night: "🌫️"  }, // Brouillard stable (ciel visible)
+  45: { day: "🌫️", night: "🌫️"  }, // Brouillard stable (ciel invisible)
+  46: { day: "🌫️", night: "🌫️"  }, // Brouillard s'épaississant (ciel visible)
+  47: { day: "🌫️", night: "🌫️"  }, // Brouillard s'épaississant (ciel invisible)
+  48: { day: "🌫️❄️", night: "🌫️❄️" }, // Brouillard givrant (ciel visible)
+  49: { day: "🌫️❄️", night: "🌫️❄️" }, // Brouillard givrant (ciel invisible)
+  50: { day: "🌦️", night: "🌧️"  }, // Bruine faible intermittente
+  51: { day: "🌦️", night: "🌧️"  }, // Bruine faible continue
+  52: { day: "🌦️", night: "🌧️"  }, // Bruine modérée intermittente
+  53: { day: "🌦️", night: "🌧️"  }, // Bruine modérée continue
+  54: { day: "🌧️", night: "🌧️"  }, // Bruine forte intermittente
+  55: { day: "🌧️", night: "🌧️"  }, // Bruine forte continue
+  56: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine verglaçante faible
+  57: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine verglaçante modérée/forte
+  58: { day: "🌦️", night: "🌧️"  }, // Bruine et pluie mêlées faibles
+  59: { day: "🌧️", night: "🌧️"  }, // Bruine et pluie mêlées modérées/fortes
+  60: { day: "🌦️", night: "🌧️"  }, // Pluie faible intermittente
+  61: { day: "🌦️", night: "🌧️"  }, // Pluie faible continue
+  62: { day: "🌦️", night: "🌧️"  }, // Pluie modérée intermittente
+  63: { day: "🌧️", night: "🌧️"  }, // Pluie modérée continue
+  64: { day: "🌧️", night: "🌧️"  }, // Pluie forte intermittente
+  65: { day: "🌧️", night: "🌧️"  }, // Pluie forte continue
+  66: { day: "🌧️❄️", night: "🌧️❄️" }, // Pluie verglaçante faible
+  67: { day: "🌧️❄️", night: "🌧️❄️" }, // Pluie verglaçante modérée/forte
+  68: { day: "🌨️", night: "🌨️"  }, // Pluie/bruine et neige mêlées faibles
+  69: { day: "🌨️", night: "🌨️"  }, // Pluie/bruine et neige mêlées modérées/fortes
+  70: { day: "🌨️", night: "🌨️"  }, // Neige intermittente faible
+  71: { day: "🌨️", night: "🌨️"  }, // Neige continue faible
+  72: { day: "🌨️", night: "🌨️"  }, // Neige modérée intermittente
+  73: { day: "🌨️", night: "🌨️"  }, // Neige modérée continue
+  74: { day: "🌨️", night: "🌨️"  }, // Neige forte intermittente
+  75: { day: "🌨️", night: "🌨️"  }, // Neige forte continue
+  76: { day: "🌨️", night: "🌨️"  }, // Cristaux de glace (poudrin)
+  77: { day: "🌨️", night: "🌨️"  }, // Neige en grains
+  78: { day: "❄️",  night: "❄️"   }, // Étoiles de neige isolées
+  79: { day: "🌨️", night: "🌨️"  }, // Granules de glace
+  80: { day: "🌦️", night: "🌧️"  }, // Averse de pluie faible
+  81: { day: "🌧️", night: "🌧️"  }, // Averse de pluie modérée/forte
+  82: { day: "🌧️", night: "🌧️"  }, // Averse de pluie violente
+  83: { day: "🌨️", night: "🌨️"  }, // Averse pluie/neige faible
+  84: { day: "🌨️", night: "🌨️"  }, // Averse pluie/neige modérée/forte
+  85: { day: "🌨️", night: "🌨️"  }, // Averse de neige faible
+  86: { day: "🌨️", night: "🌨️"  }, // Averse de neige modérée/forte
+  87: { day: "🌨️", night: "🌨️"  }, // Averse grésil/neige roulée faible
+  88: { day: "🌨️", night: "🌨️"  }, // Averse grésil/neige roulée modérée/forte
+  89: { day: "🌨️", night: "🌨️"  }, // Averse de grêle faible (sans orage)
+  90: { day: "🌨️", night: "🌨️"  }, // Averse de grêle modérée/forte (sans orage)
+  91: { day: "🌧️⛈️", night: "🌧️⛈️" }, // Pluie faible + orage précédent
+  92: { day: "🌧️⛈️", night: "🌧️⛈️" }, // Pluie modérée/forte + orage précédent
+  93: { day: "🌨️⛈️", night: "🌨️⛈️" }, // Neige/grêle faible + orage précédent
+  94: { day: "🌨️⛈️", night: "🌨️⛈️" }, // Neige/grêle modérée/forte + orage précédent
+  95: { day: "⛈️",  night: "⛈️"   }, // Orage faible/modéré avec pluie/neige
+  96: { day: "⛈️",  night: "⛈️"   }, // Orage faible/modéré avec grêle
+  97: { day: "⛈️",  night: "⛈️"   }, // Orage fort/violent avec pluie/neige
+  98: { day: "⛈️🌪️", night: "⛈️🌪️" }, // Orage + tempête poussière/sable
+  99: { day: "⛈️",  night: "⛈️"   }, // Orage fort/violent avec grêle
+};
+
+// Génère les emojis par défaut pour les codes non définis (fallback de sécurité)
+function getDefaultEmoji(code: number): { day: string; night: string } {
+  // Tous les codes 0-99 sont maintenant couverts dans WMO_EMOJIS
+  // Cette fonction ne sert plus que de fallback ultime pour codes invalides
+  if (code >= 0 && code <= 99) return { day: "❓", night: "❓" };
+  return { day: "❓", night: "❓" };
+}
 
 export function getWeatherIcon(
   code: number,
@@ -418,8 +754,8 @@ export function getWeatherIcon(
   sunrise?: string,
   sunset?: string
 ): { icon: string; imagePath: string | null; description: string } {
-  if (code === null || code === undefined) {
-    return { icon: "❓", imagePath: null, description: "Inconnu" };
+  if (code === null || code === undefined || code < 0 || code > 99) {
+    return { icon: "❓", imagePath: null, description: "Code invalide" };
   }
 
   // Détermination jour / nuit
@@ -437,16 +773,19 @@ export function getWeatherIcon(
     }
   }
 
-  const info = WEATHER_ICON_MAP[code];
-  if (!info) {
-    return { icon: "❓", imagePath: null, description: "Inconnu" };
-  }
-
   const period = isNight ? "night" : "day";
+  const imageName = `${code}.png`;
+  const imagePath = `/weather-icons/${period}/${imageName}`;
+
+  // Vérifier si le fichier existe (côté serveur uniquement)
+  // Côté client, on essaie de charger l'image et on fallback sur l'emoji en cas d'erreur
+
+  const description = WMO_DESCRIPTIONS[code] ?? `Code WMO ${code} - Non défini`;
+  const emoji = WMO_EMOJIS[code] ?? getDefaultEmoji(code);
 
   return {
-    icon: isNight ? (info.nightIcon ?? info.icon) : info.icon,
-    imagePath: `/weather-icons/${period}/${info.imageName}.png`,
-    description: info.description
+    icon: isNight ? emoji.night : emoji.day,
+    imagePath,
+    description
   };
 }

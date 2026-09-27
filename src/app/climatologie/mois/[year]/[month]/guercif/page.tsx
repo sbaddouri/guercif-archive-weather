@@ -135,6 +135,18 @@ export default async function MonthPage({ params }: PageProps) {
             </Button>
           </Link>
         </div>
+        <div className="flex items-center justify-center gap-4 flex-wrap">
+          <Link href={`/climatologie/annee/${year}/guercif`}>
+            <Button variant="outline" size="sm">
+              Voir l'année {year}
+            </Button>
+          </Link>
+          <Link href="/archives">
+            <Button variant="outline" size="sm">
+              Archives complètes
+            </Button>
+          </Link>
+        </div>
         <p className="text-muted-foreground">Tableau quotidien détaillé au format Wikipédia.</p>
       </div>
 
@@ -234,7 +246,9 @@ export default async function MonthPage({ params }: PageProps) {
                     return (
                       <TableRow key={day.date}>
                         <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1 w-[120px] whitespace-nowrap">
-                          {format(parseISO(day.date), "d EEE", { locale: fr })}
+                          <Link href={`/climatologie/jour/${year}/${month}/${format(parseISO(day.date), "dd")}/guercif`} className="hover:underline">
+                            {format(parseISO(day.date), "d EEE", { locale: fr })}
+                          </Link>
                         </TableCell>
                         <TableCell className="border p-0 w-[80px] whitespace-nowrap" style={{ backgroundColor: minColor, color: getTextColor(minColor) }}>
                           {day.temp_min !== null ? day.temp_min.toFixed(1) : '-'}

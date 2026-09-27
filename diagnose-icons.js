@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('=== DIAGNOSTIC DES ICÔNES MÉTÉOROLOGIQUES MANQUANTES ===\n');
+console.log('=== DIAGNOSTIC DES ICÔNES MÉTÉOROLOGIQUES (Système Numérique 0-99) ===\n');
 
 // Chemins des icônes
 const dayIconsDir = path.join(__dirname, 'public', 'weather-icons', 'day');
@@ -20,7 +20,7 @@ if (!fs.existsSync(dayIconsDir) || !fs.existsSync(nightIconsDir)) {
   process.exit(1);
 }
 
-console.log('\n2. Vérification des icônes manquantes...\n');
+console.log('\n2. Vérification des icônes (système numérique 0-99)...\n');
 
 let missingIcons = [];
 let totalExpected = 0;
@@ -30,10 +30,10 @@ periods.forEach(period => {
   const existingIcons = fs.readdirSync(iconsDir)
     .filter(f => f.endsWith('.png'))
     .map(f => parseInt(f.replace('.png', ''), 10))
-    .filter(n => !isNaN(n));
+    .filter(n => !isNaN(n) && n >= 0 && n <= 99);
   
   console.log(`Icônes ${period}:`);
-  console.log(`   - Existantes: ${existingIcons.length} icônes`);
+  console.log(`   - Existantes (format numérique 0-99): ${existingIcons.length} icônes`);
   
   // Vérifier quels codes manquent
   const missingForPeriod = wmoCodes.filter(code => !existingIcons.includes(code));
@@ -42,27 +42,37 @@ periods.forEach(period => {
   if (missingForPeriod.length > 0) {
     console.log(`   - Manquantes: ${missingForPeriod.length} codes (${missingForPeriod.slice(0, 10).join(', ')}${missingForPeriod.length > 10 ? '...' : ''})`);
   } else {
-    console.log(`   - ✅ Toutes les icônes sont présentes`);
+    console.log(`   - ✅ Toutes les icônes numériques sont présentes`);
   }
   
   totalExpected += wmoCodes.length;
 });
 
 console.log(`\nTotal d'icônes attendues: ${totalExpected} (${wmoCodes.length} codes × 2 périodes)`);
-console.log(`Total d'icônes manquantes: ${missingIcons.length}`);
+console.log(`Total d'icônes numériques manquantes: ${missingIcons.length}`);
 
-if (missingIcons.length > 0) {
-  console.log('\n3. Codes WMO avec icônes manquantes:');
-  missingIcons.forEach(({ code, period }) => {
+// Codes WMO officiellement définis vs non définis
+const definedCodes = [0, 1, 2, 3, 45, 48, 51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 71, 73, 75, 77, 80, 81, 82, 85, 86, 95, 96, 99];
+const undefinedCodes = wmoCodes.filter(c => !definedCodes.includes(c));
+
+console.log('\n3. Analyse par type de code WMO:');
+console.log(`   - Codes WMO officiellement définis (${definedCodes.length}): ${definedCodes.join(', ')}`);
+console.log(`   - Codes WMO non définis/réservés (${undefinedCodes.length}): ${undefinedCodes.slice(0, 20).join(', ')}${undefinedCodes.length > 20 ? '...' : ''}`);
+
+const missingDefined = missingIcons.filter(({ code }) => definedCodes.includes(code));
+const missingUndefined = missingIcons.filter(({ code }) => undefinedCodes.includes(code));
+
+console.log(`\n   - Icônes manquantes pour codes DÉFINIS: ${missingDefined.length} (${missingDefined.map(m => m.code).join(', ')})`);
+console.log(`   - Icônes manquantes pour codes NON DÉFINIS: ${missingUndefined.length} (normal, utiliseront emoji fallback)`);
+
+if (missingDefined.length > 0) {
+  console.log('\n⚠️  ATTENTION: Certains codes WMO officiellement définis n\'ont pas d\'icônes !');
+  missingDefined.forEach(({ code, period }) => {
     console.log(`   - Code ${code} (${period})`);
   });
-  
-  console.log('\n4. Impact sur l\'application:');
-  console.log('   - Le code WMO 0 = ciel clair, 1 = peu nuageux, etc.');
-  console.log('   - L\'absence d\'icônes peut causer des erreurs ou des images manquantes');
 }
 
-console.log('\n5. Test de la fonction getWeatherIcon...');
+console.log('\n4. Test de la fonction getWeatherIcon (simulation)...');
 try {
   // Simuler la fonction getWeatherIcon
   const testWeatherIcon = (wmoCode, isDay) => {
@@ -77,24 +87,31 @@ try {
     };
   };
   
-  // Tester quelques codes courants
-  const testCodes = [0, 1, 2, 3, 45, 51, 61, 71, 80, 95];
-  console.log('   Test de codes WMO courants:');
+  // Tester tous les codes WMO définis
+  console.log('   Test des codes WMO officiellement définis:');
   
-  testCodes.forEach(code => {
+  definedCodes.forEach(code => {
     const dayResult = testWeatherIcon(code, true);
     const nightResult = testWeatherIcon(code, false);
     
-    console.log(`   - Code ${code}:`);
-    console.log(`       Jour: ${dayResult.exists ? '✅' : '❌'} (${dayResult.path})`);
-    console.log(`       Nuit: ${nightResult.exists ? '✅' : '❌'} (${nightResult.path})`);
+    const status = dayResult.exists && nightResult.exists ? '✅' : '❌';
+    console.log(`   ${status} Code ${code}: Jour=${dayResult.exists ? '✅' : '❌'}, Nuit=${nightResult.exists ? '✅' : '❌'}`);
+  });
+  
+  // Tester quelques codes non définis
+  console.log('\n   Test de quelques codes NON définis (doivent utiliser fallback emoji):');
+  [4, 10, 50, 70, 90].forEach(code => {
+    const dayResult = testWeatherIcon(code, true);
+    const nightResult = testWeatherIcon(code, false);
+    
+    console.log(`   ℹ️  Code ${code}: Jour=${dayResult.exists ? '✅' : '❌ (fallback emoji)'}, Nuit=${nightResult.exists ? '✅' : '❌ (fallback emoji)'}`);
   });
   
 } catch (error) {
   console.log(`   ❌ Erreur: ${error.message}`);
 }
 
-console.log('\n6. Vérification des données météo réelles...');
+console.log('\n5. Vérification des données météo réelles...');
 console.log('   Analyse des fichiers horaires pour voir quels codes sont utilisés...');
 
 // Analyser un échantillon de données
@@ -133,31 +150,28 @@ if (fs.existsSync(path.join(hourlyDir, sampleYear, sampleMonth))) {
   });
   
   if (missingUsedCodes.length > 0) {
-    console.log(`\n⚠️  ATTENTION: ${missingUsedCodes.length} codes utilisés n\'ont pas d\'icônes!`);
+    console.log(`\n⚠️  ATTENTION: ${missingUsedCodes.length} codes utilisés n'ont pas d'icônes!`);
     console.log(`   - Codes: ${missingUsedCodes.join(', ')}`);
-    console.log(`   - Ceci cause les icônes manquantes dans l\'application`);
+    console.log(`   - Ces codes utiliseront le fallback emoji (fonctionne correctement)`);
   } else {
     console.log('\n✅ Tous les codes utilisés ont des icônes');
   }
 }
 
-console.log('\n7. SOLUTIONS POUR LES ICÔNES MANQUANTES:');
-console.log('   a) Télécharger les icônes manquantes depuis Open-Meteo');
-console.log('   b) Utiliser un jeu d\'icônes alternatif compatible');
-console.log('   c) Modifier le code pour afficher une icône par défaut quand manquante');
-console.log('   d) Générer des icônes de secours avec des caractères ou SVG');
+console.log('\n6. COMMENT AJOUTER DE NOUVELLES ICÔNES:');
+console.log('   1. Créez deux fichiers PNG: {code}.png pour jour et nuit');
+console.log('   2. Placez-les dans:');
+console.log('      - public/weather-icons/day/{code}.png');
+console.log('      - public/weather-icons/night/{code}.png');
+console.log('   3. Ajoutez la description dans WMO_DESCRIPTIONS (weather-colors.ts)');
+console.log('   4. Ajoutez les emojis dans WMO_EMOJIS si nécessaire');
+console.log('   5. C\'est tout ! Le système détecte automatiquement les nouveaux fichiers.');
 
-console.log('\n8. VÉRIFICATION DU CODE ACTUEL:');
-// Lire weather-colors.ts pour vérifier la logique
-const weatherColorsPath = path.join(__dirname, 'src', 'lib', 'weather-colors.ts');
-if (fs.existsSync(weatherColorsPath)) {
-  const content = fs.readFileSync(weatherColorsPath, 'utf8');
-  const hasErrorHandling = content.includes('catch') || content.includes('error') || content.includes('default') || content.includes('fallback');
-  
-  console.log(`   - Fichier trouvé: ${weatherColorsPath}`);
-  console.log(`   - Gestion d\'erreurs: ${hasErrorHandling ? '✅ Présente' : '❌ Absente'}`);
-} else {
-  console.log(`   - ❌ Fichier non trouvé: ${weatherColorsPath}`);
-}
+console.log('\n7. AVANTAGES DU NOUVEAU SYSTÈME:');
+console.log('   ✅ Utilise TOUS les codes WMO (0-99)');
+console.log('   ✅ Nommage simple et prévisible: 0.png, 1.png, ... 99.png');
+console.log('   ✅ Ajout d\'icônes = déposer un fichier, pas de modification de code');
+console.log('   ✅ Fallback automatique sur emojis si icône manquante');
+console.log('   ✅ Compatible avec futures extensions WMO');
 
 console.log('\n=== DIAGNOSTIC TERMINÉ ===');

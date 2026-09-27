@@ -11,8 +11,8 @@
   "sunset": "2018-09-12T19:24",
   "sunshine_duration_seconds": 22625.14,
   "sunshine_duration_minutes": 377,
-  "estimated_daily_sunshine_minutes": 0,
-  "estimated_daily_sunshine": "0 h 00 min",
-  "sunshine_difference_minutes": 377,
+  "estimated_daily_sunshine_minutes": 78,
+  "estimated_daily_sunshine": "1 h 18 min",
+  "sunshine_difference_minutes": 299,
   "sunshine_consistency": "Faible"
 }
