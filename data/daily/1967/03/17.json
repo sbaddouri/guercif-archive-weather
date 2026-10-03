@@ -1,0 +1,18 @@
+{
+  "date": "1967-03-17",
+  "weather_code": 51,
+  "temp_max": 19.5,
+  "temp_min": 6.3,
+  "temp_mean": 11.9,
+  "precipitation": 0.1,
+  "sunshine": 39600,
+  "wind_speed_max": 24.3,
+  "sunrise": "1967-03-17T07:22",
+  "sunset": "1967-03-17T19:22",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 576,
+  "estimated_daily_sunshine": "9 h 36 min",
+  "sunshine_difference_minutes": 84,
+  "sunshine_consistency": "Faible"
+}

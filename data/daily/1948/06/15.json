@@ -1,0 +1,18 @@
+{
+  "date": "1948-06-15",
+  "weather_code": 0,
+  "temp_max": 30.9,
+  "temp_min": 17.7,
+  "temp_mean": 24.1,
+  "precipitation": 0,
+  "sunshine": 50039.95,
+  "wind_speed_max": 25.6,
+  "sunrise": "1948-06-15T06:01",
+  "sunset": "1948-06-15T20:27",
+  "sunshine_duration_seconds": 50039.95,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

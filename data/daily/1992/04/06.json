@@ -1,0 +1,18 @@
+{
+  "date": "1992-04-06",
+  "weather_code": 51,
+  "temp_max": 15.3,
+  "temp_min": 9.4,
+  "temp_mean": 11.7,
+  "precipitation": 0.5,
+  "sunshine": 43112.74,
+  "wind_speed_max": 34.6,
+  "sunrise": "1992-04-06T06:53",
+  "sunset": "1992-04-06T19:38",
+  "sunshine_duration_seconds": 43112.74,
+  "sunshine_duration_minutes": 719,
+  "estimated_daily_sunshine_minutes": 279,
+  "estimated_daily_sunshine": "4 h 39 min",
+  "sunshine_difference_minutes": 440,
+  "sunshine_consistency": "Faible"
+}

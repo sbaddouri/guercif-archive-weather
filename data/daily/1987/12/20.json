@@ -1,0 +1,18 @@
+{
+  "date": "1987-12-20",
+  "weather_code": 2,
+  "temp_max": 18.3,
+  "temp_min": 8.8,
+  "temp_mean": 13.1,
+  "precipitation": 0,
+  "sunshine": 33435.52,
+  "wind_speed_max": 9.4,
+  "sunrise": "1987-12-20T08:14",
+  "sunset": "1987-12-20T18:07",
+  "sunshine_duration_seconds": 33435.52,
+  "sunshine_duration_minutes": 557,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

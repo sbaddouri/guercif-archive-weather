@@ -1,0 +1,18 @@
+{
+  "date": "1981-06-04",
+  "weather_code": 1,
+  "temp_max": 28.9,
+  "temp_min": 14.9,
+  "temp_mean": 21.5,
+  "precipitation": 0,
+  "sunshine": 50004.23,
+  "wind_speed_max": 22.9,
+  "sunrise": "1981-06-04T06:02",
+  "sunset": "1981-06-04T20:21",
+  "sunshine_duration_seconds": 50004.23,
+  "sunshine_duration_minutes": 833,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

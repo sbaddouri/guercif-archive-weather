@@ -1,0 +1,18 @@
+{
+  "date": "1987-11-02",
+  "weather_code": 51,
+  "temp_max": 26.6,
+  "temp_min": 15.2,
+  "temp_mean": 20.5,
+  "precipitation": 0.3,
+  "sunshine": 20033.62,
+  "wind_speed_max": 28.6,
+  "sunrise": "1987-11-02T07:33",
+  "sunset": "1987-11-02T18:20",
+  "sunshine_duration_seconds": 20033.62,
+  "sunshine_duration_minutes": 334,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 259,
+  "sunshine_consistency": "Faible"
+}

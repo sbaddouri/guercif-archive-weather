@@ -1,0 +1,18 @@
+{
+  "date": "1969-08-28",
+  "weather_code": 1,
+  "temp_max": 33.7,
+  "temp_min": 19.2,
+  "temp_mean": 25.4,
+  "precipitation": 0,
+  "sunshine": 44787.26,
+  "wind_speed_max": 23.8,
+  "sunrise": "1969-08-28T06:43",
+  "sunset": "1969-08-28T19:45",
+  "sunshine_duration_seconds": 44787.26,
+  "sunshine_duration_minutes": 746,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

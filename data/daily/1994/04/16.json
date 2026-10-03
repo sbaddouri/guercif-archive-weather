@@ -1,0 +1,18 @@
+{
+  "date": "1994-04-16",
+  "weather_code": 2,
+  "temp_max": 15.7,
+  "temp_min": 8.9,
+  "temp_mean": 12.2,
+  "precipitation": 0,
+  "sunshine": 45060.83,
+  "wind_speed_max": 34.3,
+  "sunrise": "1994-04-16T06:41",
+  "sunset": "1994-04-16T19:45",
+  "sunshine_duration_seconds": 45060.83,
+  "sunshine_duration_minutes": 751,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 196,
+  "sunshine_consistency": "Faible"
+}

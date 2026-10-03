@@ -1,0 +1,18 @@
+{
+  "date": "1943-05-21",
+  "weather_code": 51,
+  "temp_max": 29.1,
+  "temp_min": 18,
+  "temp_mean": 23.2,
+  "precipitation": 0.5,
+  "sunshine": 36186.11,
+  "wind_speed_max": 25.7,
+  "sunrise": "1943-05-21T06:07",
+  "sunset": "1943-05-21T20:12",
+  "sunshine_duration_seconds": 36186.11,
+  "sunshine_duration_minutes": 603,
+  "estimated_daily_sunshine_minutes": 243,
+  "estimated_daily_sunshine": "4 h 03 min",
+  "sunshine_difference_minutes": 360,
+  "sunshine_consistency": "Faible"
+}

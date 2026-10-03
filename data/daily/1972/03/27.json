@@ -1,0 +1,18 @@
+{
+  "date": "1972-03-27",
+  "weather_code": 2,
+  "temp_max": 20.5,
+  "temp_min": 10.4,
+  "temp_mean": 14.9,
+  "precipitation": 0,
+  "sunshine": 42806.99,
+  "wind_speed_max": 14.5,
+  "sunrise": "1972-03-27T07:07",
+  "sunset": "1972-03-27T19:30",
+  "sunshine_duration_seconds": 42806.99,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 38,
+  "sunshine_consistency": "Faible"
+}

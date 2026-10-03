@@ -1,0 +1,18 @@
+{
+  "date": "1951-08-11",
+  "weather_code": 1,
+  "temp_max": 36.2,
+  "temp_min": 16.8,
+  "temp_mean": 25.3,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 29.4,
+  "sunrise": "1951-08-11T06:30",
+  "sunset": "1951-08-11T20:05",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

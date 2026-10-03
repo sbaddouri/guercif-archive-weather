@@ -1,0 +1,18 @@
+{
+  "date": "1961-03-24",
+  "weather_code": 53,
+  "temp_max": 16.2,
+  "temp_min": 10.8,
+  "temp_mean": 12.8,
+  "precipitation": 11,
+  "sunshine": 19212.84,
+  "wind_speed_max": 15,
+  "sunrise": "1961-03-24T07:12",
+  "sunset": "1961-03-24T19:28",
+  "sunshine_duration_seconds": 19212.84,
+  "sunshine_duration_minutes": 320,
+  "estimated_daily_sunshine_minutes": 171,
+  "estimated_daily_sunshine": "2 h 51 min",
+  "sunshine_difference_minutes": 149,
+  "sunshine_consistency": "Faible"
+}

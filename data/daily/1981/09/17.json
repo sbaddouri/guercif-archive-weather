@@ -1,0 +1,18 @@
+{
+  "date": "1981-09-17",
+  "weather_code": 53,
+  "temp_max": 32.2,
+  "temp_min": 20.8,
+  "temp_mean": 25.8,
+  "precipitation": 0.8,
+  "sunshine": 40560.73,
+  "wind_speed_max": 11.2,
+  "sunrise": "1981-09-17T06:57",
+  "sunset": "1981-09-17T19:17",
+  "sunshine_duration_seconds": 40560.73,
+  "sunshine_duration_minutes": 676,
+  "estimated_daily_sunshine_minutes": 327,
+  "estimated_daily_sunshine": "5 h 27 min",
+  "sunshine_difference_minutes": 349,
+  "sunshine_consistency": "Faible"
+}

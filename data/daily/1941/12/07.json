@@ -1,0 +1,18 @@
+{
+  "date": "1941-12-07",
+  "weather_code": 1,
+  "temp_max": 15,
+  "temp_min": 0.4,
+  "temp_mean": 7.4,
+  "precipitation": 0,
+  "sunshine": 35289.87,
+  "wind_speed_max": 17.3,
+  "sunrise": "1941-12-07T08:06",
+  "sunset": "1941-12-07T18:03",
+  "sunshine_duration_seconds": 35289.87,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 3,
+  "sunshine_consistency": "Excellent"
+}

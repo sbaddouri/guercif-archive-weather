@@ -1,0 +1,18 @@
+{
+  "date": "1976-06-07",
+  "weather_code": 53,
+  "temp_max": 27.8,
+  "temp_min": 12.5,
+  "temp_mean": 19.7,
+  "precipitation": 1.2,
+  "sunshine": 45891.27,
+  "wind_speed_max": 20.7,
+  "sunrise": "1976-06-07T06:01",
+  "sunset": "1976-06-07T20:23",
+  "sunshine_duration_seconds": 45891.27,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 597,
+  "estimated_daily_sunshine": "9 h 57 min",
+  "sunshine_difference_minutes": 168,
+  "sunshine_consistency": "Faible"
+}

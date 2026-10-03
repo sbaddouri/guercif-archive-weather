@@ -1,0 +1,18 @@
+{
+  "date": "1943-07-16",
+  "weather_code": 51,
+  "temp_max": 39.1,
+  "temp_min": 23.7,
+  "temp_mean": 31.2,
+  "precipitation": 0.4,
+  "sunshine": 44116.35,
+  "wind_speed_max": 27.1,
+  "sunrise": "1943-07-16T06:13",
+  "sunset": "1943-07-16T20:25",
+  "sunshine_duration_seconds": 44116.35,
+  "sunshine_duration_minutes": 735,
+  "estimated_daily_sunshine_minutes": 582,
+  "estimated_daily_sunshine": "9 h 42 min",
+  "sunshine_difference_minutes": 153,
+  "sunshine_consistency": "Faible"
+}

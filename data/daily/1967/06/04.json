@@ -1,0 +1,18 @@
+{
+  "date": "1967-06-04",
+  "weather_code": 53,
+  "temp_max": 21.5,
+  "temp_min": 14.2,
+  "temp_mean": 17.1,
+  "precipitation": 5,
+  "sunshine": 29458.64,
+  "wind_speed_max": 20.7,
+  "sunrise": "1967-06-04T06:02",
+  "sunset": "1967-06-04T20:21",
+  "sunshine_duration_seconds": 29458.64,
+  "sunshine_duration_minutes": 491,
+  "estimated_daily_sunshine_minutes": 204,
+  "estimated_daily_sunshine": "3 h 24 min",
+  "sunshine_difference_minutes": 287,
+  "sunshine_consistency": "Faible"
+}

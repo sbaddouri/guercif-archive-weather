@@ -1,0 +1,18 @@
+{
+  "date": "1947-10-16",
+  "weather_code": 63,
+  "temp_max": 22.4,
+  "temp_min": 16.1,
+  "temp_mean": 19.2,
+  "precipitation": 4.9,
+  "sunshine": 37748.65,
+  "wind_speed_max": 12.6,
+  "sunrise": "1947-10-16T07:19",
+  "sunset": "1947-10-16T18:38",
+  "sunshine_duration_seconds": 37748.65,
+  "sunshine_duration_minutes": 629,
+  "estimated_daily_sunshine_minutes": 438,
+  "estimated_daily_sunshine": "7 h 18 min",
+  "sunshine_difference_minutes": 191,
+  "sunshine_consistency": "Faible"
+}

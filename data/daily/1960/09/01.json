@@ -1,0 +1,18 @@
+{
+  "date": "1960-09-01",
+  "weather_code": 0,
+  "temp_max": 34.9,
+  "temp_min": 18.8,
+  "temp_mean": 27,
+  "precipitation": 0,
+  "sunshine": 44379.96,
+  "wind_speed_max": 17.2,
+  "sunrise": "1960-09-01T06:46",
+  "sunset": "1960-09-01T19:39",
+  "sunshine_duration_seconds": 44379.96,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 40,
+  "sunshine_consistency": "Faible"
+}

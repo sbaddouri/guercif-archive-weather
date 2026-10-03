@@ -1,0 +1,18 @@
+{
+  "date": "1974-04-14",
+  "weather_code": 51,
+  "temp_max": 14.5,
+  "temp_min": 8.8,
+  "temp_mean": 11.5,
+  "precipitation": 0.1,
+  "sunshine": 41824.78,
+  "wind_speed_max": 31.5,
+  "sunrise": "1974-04-14T06:44",
+  "sunset": "1974-04-14T19:44",
+  "sunshine_duration_seconds": 41824.78,
+  "sunshine_duration_minutes": 697,
+  "estimated_daily_sunshine_minutes": 486,
+  "estimated_daily_sunshine": "8 h 06 min",
+  "sunshine_difference_minutes": 211,
+  "sunshine_consistency": "Faible"
+}

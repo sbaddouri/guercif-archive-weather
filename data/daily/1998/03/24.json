@@ -1,0 +1,18 @@
+{
+  "date": "1998-03-24",
+  "weather_code": 3,
+  "temp_max": 24.5,
+  "temp_min": 10.6,
+  "temp_mean": 17.2,
+  "precipitation": 0,
+  "sunshine": 42341.75,
+  "wind_speed_max": 19.7,
+  "sunrise": "1998-03-24T07:12",
+  "sunset": "1998-03-24T19:28",
+  "sunshine_duration_seconds": 42341.75,
+  "sunshine_duration_minutes": 706,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

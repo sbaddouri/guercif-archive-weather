@@ -1,0 +1,18 @@
+{
+  "date": "1990-07-06",
+  "weather_code": 2,
+  "temp_max": 36.2,
+  "temp_min": 21.6,
+  "temp_mean": 28.8,
+  "precipitation": 0,
+  "sunshine": 49060.44,
+  "wind_speed_max": 26.3,
+  "sunrise": "1990-07-06T06:07",
+  "sunset": "1990-07-06T20:28",
+  "sunshine_duration_seconds": 49060.44,
+  "sunshine_duration_minutes": 818,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 38,
+  "sunshine_consistency": "Faible"
+}

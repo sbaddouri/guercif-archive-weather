@@ -1,0 +1,18 @@
+{
+  "date": "1952-09-26",
+  "weather_code": 1,
+  "temp_max": 29,
+  "temp_min": 13.6,
+  "temp_mean": 21.3,
+  "precipitation": 0,
+  "sunshine": 42702.9,
+  "wind_speed_max": 12.4,
+  "sunrise": "1952-09-26T07:04",
+  "sunset": "1952-09-26T19:04",
+  "sunshine_duration_seconds": 42702.9,
+  "sunshine_duration_minutes": 712,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

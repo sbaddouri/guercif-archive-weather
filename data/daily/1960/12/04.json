@@ -1,0 +1,18 @@
+{
+  "date": "1960-12-04",
+  "weather_code": 55,
+  "temp_max": 11.4,
+  "temp_min": 8.1,
+  "temp_mean": 9.5,
+  "precipitation": 4.1,
+  "sunshine": 9069.31,
+  "wind_speed_max": 18.7,
+  "sunrise": "1960-12-04T08:03",
+  "sunset": "1960-12-04T18:03",
+  "sunshine_duration_seconds": 9069.31,
+  "sunshine_duration_minutes": 151,
+  "estimated_daily_sunshine_minutes": 126,
+  "estimated_daily_sunshine": "2 h 06 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

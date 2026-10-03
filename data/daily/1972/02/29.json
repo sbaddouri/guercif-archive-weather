@@ -1,0 +1,18 @@
+{
+  "date": "1972-02-29",
+  "weather_code": 53,
+  "temp_max": 10.3,
+  "temp_min": 4.1,
+  "temp_mean": 7,
+  "precipitation": 9.7,
+  "sunshine": 19322.98,
+  "wind_speed_max": 11.8,
+  "sunrise": "1972-02-29T07:43",
+  "sunset": "1972-02-29T19:08",
+  "sunshine_duration_seconds": 19322.98,
+  "sunshine_duration_minutes": 322,
+  "estimated_daily_sunshine_minutes": 156,
+  "estimated_daily_sunshine": "2 h 36 min",
+  "sunshine_difference_minutes": 166,
+  "sunshine_consistency": "Faible"
+}

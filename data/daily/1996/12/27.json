@@ -1,0 +1,18 @@
+{
+  "date": "1996-12-27",
+  "weather_code": 3,
+  "temp_max": 14.3,
+  "temp_min": 3.2,
+  "temp_mean": 8.6,
+  "precipitation": 0,
+  "sunshine": 34636.08,
+  "wind_speed_max": 9.5,
+  "sunrise": "1996-12-27T08:18",
+  "sunset": "1996-12-27T18:11",
+  "sunshine_duration_seconds": 34636.08,
+  "sunshine_duration_minutes": 577,
+  "estimated_daily_sunshine_minutes": 426,
+  "estimated_daily_sunshine": "7 h 06 min",
+  "sunshine_difference_minutes": 151,
+  "sunshine_consistency": "Faible"
+}

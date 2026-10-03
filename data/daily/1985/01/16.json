@@ -1,0 +1,18 @@
+{
+  "date": "1985-01-16",
+  "weather_code": 71,
+  "temp_max": 5.8,
+  "temp_min": -1.1,
+  "temp_mean": 1.7,
+  "precipitation": 0.1,
+  "sunshine": 34031.14,
+  "wind_speed_max": 21.7,
+  "sunrise": "1985-01-16T08:19",
+  "sunset": "1985-01-16T18:27",
+  "sunshine_duration_seconds": 34031.14,
+  "sunshine_duration_minutes": 567,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 18,
+  "sunshine_consistency": "Moyen"
+}

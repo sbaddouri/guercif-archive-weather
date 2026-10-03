@@ -1,0 +1,18 @@
+{
+  "date": "1940-03-23",
+  "weather_code": 3,
+  "temp_max": 29.9,
+  "temp_min": 14,
+  "temp_mean": 21.3,
+  "precipitation": 0,
+  "sunshine": 37775.21,
+  "wind_speed_max": 13,
+  "sunrise": "1940-03-23T07:12",
+  "sunset": "1940-03-23T19:27",
+  "sunshine_duration_seconds": 37775.21,
+  "sunshine_duration_minutes": 630,
+  "estimated_daily_sunshine_minutes": 144,
+  "estimated_daily_sunshine": "2 h 24 min",
+  "sunshine_difference_minutes": 486,
+  "sunshine_consistency": "Faible"
+}

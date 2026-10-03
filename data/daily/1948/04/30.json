@@ -1,0 +1,18 @@
+{
+  "date": "1948-04-30",
+  "weather_code": 2,
+  "temp_max": 21.9,
+  "temp_min": 12.7,
+  "temp_mean": 17.2,
+  "precipitation": 0,
+  "sunshine": 46897.89,
+  "wind_speed_max": 24.5,
+  "sunrise": "1948-04-30T06:24",
+  "sunset": "1948-04-30T19:57",
+  "sunshine_duration_seconds": 46897.89,
+  "sunshine_duration_minutes": 782,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 92,
+  "sunshine_consistency": "Faible"
+}

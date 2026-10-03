@@ -1,0 +1,18 @@
+{
+  "date": "1990-01-08",
+  "weather_code": 2,
+  "temp_max": 11.6,
+  "temp_min": 1.5,
+  "temp_mean": 7.4,
+  "precipitation": 0,
+  "sunshine": 33878.26,
+  "wind_speed_max": 14.5,
+  "sunrise": "1990-01-08T08:20",
+  "sunset": "1990-01-08T18:20",
+  "sunshine_duration_seconds": 33878.26,
+  "sunshine_duration_minutes": 565,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 70,
+  "sunshine_consistency": "Faible"
+}

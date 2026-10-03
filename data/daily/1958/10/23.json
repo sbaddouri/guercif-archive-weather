@@ -1,0 +1,18 @@
+{
+  "date": "1958-10-23",
+  "weather_code": 0,
+  "temp_max": 22.7,
+  "temp_min": 10.1,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 37084.18,
+  "wind_speed_max": 20,
+  "sunrise": "1958-10-23T07:24",
+  "sunset": "1958-10-23T18:30",
+  "sunshine_duration_seconds": 37084.18,
+  "sunshine_duration_minutes": 618,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

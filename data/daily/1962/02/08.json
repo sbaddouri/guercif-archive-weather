@@ -1,0 +1,18 @@
+{
+  "date": "1962-02-08",
+  "weather_code": 55,
+  "temp_max": 11.1,
+  "temp_min": 6.4,
+  "temp_mean": 8.9,
+  "precipitation": 4.2,
+  "sunshine": 35153.04,
+  "wind_speed_max": 28.5,
+  "sunrise": "1962-02-08T08:05",
+  "sunset": "1962-02-08T18:50",
+  "sunshine_duration_seconds": 35153.04,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 196,
+  "sunshine_consistency": "Faible"
+}

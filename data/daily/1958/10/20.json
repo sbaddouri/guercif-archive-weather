@@ -1,0 +1,18 @@
+{
+  "date": "1958-10-20",
+  "weather_code": 1,
+  "temp_max": 21.9,
+  "temp_min": 11.2,
+  "temp_mean": 16,
+  "precipitation": 0,
+  "sunshine": 38675.59,
+  "wind_speed_max": 25.2,
+  "sunrise": "1958-10-20T07:22",
+  "sunset": "1958-10-20T18:33",
+  "sunshine_duration_seconds": 38675.59,
+  "sunshine_duration_minutes": 645,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1993-07-11",
+  "weather_code": 0,
+  "temp_max": 31.5,
+  "temp_min": 16.2,
+  "temp_mean": 24.1,
+  "precipitation": 0,
+  "sunshine": 48817.8,
+  "wind_speed_max": 23.6,
+  "sunrise": "1993-07-11T06:10",
+  "sunset": "1993-07-11T20:27",
+  "sunshine_duration_seconds": 48817.8,
+  "sunshine_duration_minutes": 814,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 26,
+  "sunshine_consistency": "Moyen"
+}

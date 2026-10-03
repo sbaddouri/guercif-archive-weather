@@ -1,0 +1,18 @@
+{
+  "date": "1986-08-31",
+  "weather_code": 51,
+  "temp_max": 30.9,
+  "temp_min": 20.9,
+  "temp_mean": 24.6,
+  "precipitation": 0.1,
+  "sunshine": 39818.22,
+  "wind_speed_max": 24.7,
+  "sunrise": "1986-08-31T06:45",
+  "sunset": "1986-08-31T19:41",
+  "sunshine_duration_seconds": 39818.22,
+  "sunshine_duration_minutes": 664,
+  "estimated_daily_sunshine_minutes": 546,
+  "estimated_daily_sunshine": "9 h 06 min",
+  "sunshine_difference_minutes": 118,
+  "sunshine_consistency": "Faible"
+}

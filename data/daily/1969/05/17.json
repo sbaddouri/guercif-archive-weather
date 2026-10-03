@@ -1,0 +1,18 @@
+{
+  "date": "1969-05-17",
+  "weather_code": 51,
+  "temp_max": 30.4,
+  "temp_min": 18,
+  "temp_mean": 22.9,
+  "precipitation": 0.6,
+  "sunshine": 33306.17,
+  "wind_speed_max": 27,
+  "sunrise": "1969-05-17T06:10",
+  "sunset": "1969-05-17T20:09",
+  "sunshine_duration_seconds": 33306.17,
+  "sunshine_duration_minutes": 555,
+  "estimated_daily_sunshine_minutes": 357,
+  "estimated_daily_sunshine": "5 h 57 min",
+  "sunshine_difference_minutes": 198,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1961-06-11",
+  "weather_code": 55,
+  "temp_max": 24.6,
+  "temp_min": 18.2,
+  "temp_mean": 20.9,
+  "precipitation": 3.2,
+  "sunshine": 48822.09,
+  "wind_speed_max": 16.3,
+  "sunrise": "1961-06-11T06:01",
+  "sunset": "1961-06-11T20:25",
+  "sunshine_duration_seconds": 48822.09,
+  "sunshine_duration_minutes": 814,
+  "estimated_daily_sunshine_minutes": 336,
+  "estimated_daily_sunshine": "5 h 36 min",
+  "sunshine_difference_minutes": 478,
+  "sunshine_consistency": "Faible"
+}

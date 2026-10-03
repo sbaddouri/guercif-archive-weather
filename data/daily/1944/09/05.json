@@ -1,0 +1,18 @@
+{
+  "date": "1944-09-05",
+  "weather_code": 55,
+  "temp_max": 29.3,
+  "temp_min": 22.4,
+  "temp_mean": 25.6,
+  "precipitation": 2.1,
+  "sunshine": 30370.23,
+  "wind_speed_max": 10.4,
+  "sunrise": "1944-09-05T06:50",
+  "sunset": "1944-09-05T19:33",
+  "sunshine_duration_seconds": 30370.23,
+  "sunshine_duration_minutes": 506,
+  "estimated_daily_sunshine_minutes": 168,
+  "estimated_daily_sunshine": "2 h 48 min",
+  "sunshine_difference_minutes": 338,
+  "sunshine_consistency": "Faible"
+}

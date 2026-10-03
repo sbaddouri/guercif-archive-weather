@@ -1,0 +1,18 @@
+{
+  "date": "1970-01-17",
+  "weather_code": 3,
+  "temp_max": 17.4,
+  "temp_min": 3.3,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 34802.2,
+  "wind_speed_max": 10.2,
+  "sunrise": "1970-01-17T08:18",
+  "sunset": "1970-01-17T18:28",
+  "sunshine_duration_seconds": 34802.2,
+  "sunshine_duration_minutes": 580,
+  "estimated_daily_sunshine_minutes": 318,
+  "estimated_daily_sunshine": "5 h 18 min",
+  "sunshine_difference_minutes": 262,
+  "sunshine_consistency": "Faible"
+}

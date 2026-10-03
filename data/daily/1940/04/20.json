@@ -1,0 +1,18 @@
+{
+  "date": "1940-04-20",
+  "weather_code": 1,
+  "temp_max": 21.9,
+  "temp_min": 9,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 45916.39,
+  "wind_speed_max": 11.6,
+  "sunrise": "1940-04-20T06:35",
+  "sunset": "1940-04-20T19:49",
+  "sunshine_duration_seconds": 45916.39,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

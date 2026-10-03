@@ -1,0 +1,18 @@
+{
+  "date": "1986-05-05",
+  "weather_code": 2,
+  "temp_max": 24.8,
+  "temp_min": 7,
+  "temp_mean": 16.2,
+  "precipitation": 0,
+  "sunshine": 47557.51,
+  "wind_speed_max": 14.3,
+  "sunrise": "1986-05-05T06:20",
+  "sunset": "1986-05-05T20:00",
+  "sunshine_duration_seconds": 47557.51,
+  "sunshine_duration_minutes": 793,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 58,
+  "sunshine_consistency": "Faible"
+}

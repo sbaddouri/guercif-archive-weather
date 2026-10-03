@@ -1,0 +1,18 @@
+{
+  "date": "1981-07-07",
+  "weather_code": 2,
+  "temp_max": 34.3,
+  "temp_min": 18.2,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 46840.64,
+  "wind_speed_max": 26.8,
+  "sunrise": "1981-07-07T06:08",
+  "sunset": "1981-07-07T20:28",
+  "sunshine_duration_seconds": 46840.64,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 211,
+  "sunshine_consistency": "Faible"
+}

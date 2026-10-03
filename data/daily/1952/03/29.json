@@ -1,0 +1,18 @@
+{
+  "date": "1952-03-29",
+  "weather_code": 61,
+  "temp_max": 17.5,
+  "temp_min": 12.1,
+  "temp_mean": 13.9,
+  "precipitation": 9.5,
+  "sunshine": 13402.58,
+  "wind_speed_max": 23.4,
+  "sunrise": "1952-03-29T07:05",
+  "sunset": "1952-03-29T19:32",
+  "sunshine_duration_seconds": 13402.58,
+  "sunshine_duration_minutes": 223,
+  "estimated_daily_sunshine_minutes": 111,
+  "estimated_daily_sunshine": "1 h 51 min",
+  "sunshine_difference_minutes": 112,
+  "sunshine_consistency": "Faible"
+}

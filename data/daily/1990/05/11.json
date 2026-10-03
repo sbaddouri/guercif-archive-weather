@@ -1,0 +1,18 @@
+{
+  "date": "1990-05-11",
+  "weather_code": 63,
+  "temp_max": 17.6,
+  "temp_min": 14.1,
+  "temp_mean": 15.5,
+  "precipitation": 19.5,
+  "sunshine": 8323.01,
+  "wind_speed_max": 14.1,
+  "sunrise": "1990-05-11T06:15",
+  "sunset": "1990-05-11T20:05",
+  "sunshine_duration_seconds": 8323.01,
+  "sunshine_duration_minutes": 139,
+  "estimated_daily_sunshine_minutes": 126,
+  "estimated_daily_sunshine": "2 h 06 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

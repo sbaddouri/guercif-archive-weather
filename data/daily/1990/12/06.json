@@ -1,0 +1,18 @@
+{
+  "date": "1990-12-06",
+  "weather_code": 53,
+  "temp_max": 13.9,
+  "temp_min": 10.8,
+  "temp_mean": 12.1,
+  "precipitation": 6.8,
+  "sunshine": 19239.23,
+  "wind_speed_max": 13.2,
+  "sunrise": "1990-12-06T08:05",
+  "sunset": "1990-12-06T18:03",
+  "sunshine_duration_seconds": 19239.23,
+  "sunshine_duration_minutes": 321,
+  "estimated_daily_sunshine_minutes": 135,
+  "estimated_daily_sunshine": "2 h 15 min",
+  "sunshine_difference_minutes": 186,
+  "sunshine_consistency": "Faible"
+}

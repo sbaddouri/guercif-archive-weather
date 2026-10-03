@@ -1,0 +1,18 @@
+{
+  "date": "1980-10-23",
+  "weather_code": 3,
+  "temp_max": 25.6,
+  "temp_min": 9.7,
+  "temp_mean": 18.2,
+  "precipitation": 0,
+  "sunshine": 36911.09,
+  "wind_speed_max": 15.1,
+  "sunrise": "1980-10-23T07:25",
+  "sunset": "1980-10-23T18:29",
+  "sunshine_duration_seconds": 36911.09,
+  "sunshine_duration_minutes": 615,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 375,
+  "sunshine_consistency": "Faible"
+}

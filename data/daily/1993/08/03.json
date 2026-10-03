@@ -1,0 +1,18 @@
+{
+  "date": "1993-08-03",
+  "weather_code": 55,
+  "temp_max": 39.3,
+  "temp_min": 24.4,
+  "temp_mean": 30.8,
+  "precipitation": 1.2,
+  "sunshine": 41730.1,
+  "wind_speed_max": 23.4,
+  "sunrise": "1993-08-03T06:25",
+  "sunset": "1993-08-03T20:13",
+  "sunshine_duration_seconds": 41730.1,
+  "sunshine_duration_minutes": 696,
+  "estimated_daily_sunshine_minutes": 558,
+  "estimated_daily_sunshine": "9 h 18 min",
+  "sunshine_difference_minutes": 138,
+  "sunshine_consistency": "Faible"
+}

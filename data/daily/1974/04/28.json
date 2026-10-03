@@ -1,0 +1,18 @@
+{
+  "date": "1974-04-28",
+  "weather_code": 55,
+  "temp_max": 16.6,
+  "temp_min": 8.2,
+  "temp_mean": 12.3,
+  "precipitation": 2.5,
+  "sunshine": 42458.18,
+  "wind_speed_max": 30.3,
+  "sunrise": "1974-04-28T06:27",
+  "sunset": "1974-04-28T19:54",
+  "sunshine_duration_seconds": 42458.18,
+  "sunshine_duration_minutes": 708,
+  "estimated_daily_sunshine_minutes": 297,
+  "estimated_daily_sunshine": "4 h 57 min",
+  "sunshine_difference_minutes": 411,
+  "sunshine_consistency": "Faible"
+}

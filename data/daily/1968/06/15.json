@@ -1,0 +1,18 @@
+{
+  "date": "1968-06-15",
+  "weather_code": 1,
+  "temp_max": 30.9,
+  "temp_min": 17.2,
+  "temp_mean": 23,
+  "precipitation": 0,
+  "sunshine": 50057,
+  "wind_speed_max": 26.6,
+  "sunrise": "1968-06-15T06:01",
+  "sunset": "1968-06-15T20:26",
+  "sunshine_duration_seconds": 50057,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 39,
+  "sunshine_consistency": "Faible"
+}

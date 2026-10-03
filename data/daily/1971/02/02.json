@@ -1,0 +1,18 @@
+{
+  "date": "1971-02-02",
+  "weather_code": 2,
+  "temp_max": 15.8,
+  "temp_min": 4.6,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 37476.69,
+  "wind_speed_max": 7.2,
+  "sunrise": "1971-02-02T08:10",
+  "sunset": "1971-02-02T18:44",
+  "sunshine_duration_seconds": 37476.69,
+  "sunshine_duration_minutes": 625,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 130,
+  "sunshine_consistency": "Faible"
+}

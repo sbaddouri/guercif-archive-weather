@@ -1,0 +1,18 @@
+{
+  "date": "1960-04-11",
+  "weather_code": 1,
+  "temp_max": 23.8,
+  "temp_min": 7.5,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 44870.21,
+  "wind_speed_max": 15.9,
+  "sunrise": "1960-04-11T06:47",
+  "sunset": "1960-04-11T19:41",
+  "sunshine_duration_seconds": 44870.21,
+  "sunshine_duration_minutes": 748,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

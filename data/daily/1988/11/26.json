@@ -1,0 +1,18 @@
+{
+  "date": "1988-11-26",
+  "weather_code": 51,
+  "temp_max": 14.9,
+  "temp_min": 8.8,
+  "temp_mean": 12,
+  "precipitation": 2.9,
+  "sunshine": 25851.64,
+  "wind_speed_max": 8.6,
+  "sunrise": "1988-11-26T07:56",
+  "sunset": "1988-11-26T18:04",
+  "sunshine_duration_seconds": 25851.64,
+  "sunshine_duration_minutes": 431,
+  "estimated_daily_sunshine_minutes": 159,
+  "estimated_daily_sunshine": "2 h 39 min",
+  "sunshine_difference_minutes": 272,
+  "sunshine_consistency": "Faible"
+}

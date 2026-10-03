@@ -1,0 +1,18 @@
+{
+  "date": "1978-03-17",
+  "weather_code": 51,
+  "temp_max": 14.8,
+  "temp_min": 8.3,
+  "temp_mean": 11.4,
+  "precipitation": 0.1,
+  "sunshine": 29574.85,
+  "wind_speed_max": 27.6,
+  "sunrise": "1978-03-17T07:22",
+  "sunset": "1978-03-17T19:22",
+  "sunshine_duration_seconds": 29574.85,
+  "sunshine_duration_minutes": 493,
+  "estimated_daily_sunshine_minutes": 300,
+  "estimated_daily_sunshine": "5 h 00 min",
+  "sunshine_difference_minutes": 193,
+  "sunshine_consistency": "Faible"
+}

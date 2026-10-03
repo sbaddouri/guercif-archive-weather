@@ -1,0 +1,18 @@
+{
+  "date": "1998-04-23",
+  "weather_code": 1,
+  "temp_max": 22.4,
+  "temp_min": 11,
+  "temp_mean": 16.3,
+  "precipitation": 0,
+  "sunshine": 46016,
+  "wind_speed_max": 17.8,
+  "sunrise": "1998-04-23T06:33",
+  "sunset": "1998-04-23T19:51",
+  "sunshine_duration_seconds": 46016,
+  "sunshine_duration_minutes": 767,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

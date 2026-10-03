@@ -1,0 +1,18 @@
+{
+  "date": "1974-08-24",
+  "weather_code": 1,
+  "temp_max": 36.7,
+  "temp_min": 22.7,
+  "temp_mean": 29,
+  "precipitation": 0,
+  "sunshine": 45983.85,
+  "wind_speed_max": 21.2,
+  "sunrise": "1974-08-24T06:40",
+  "sunset": "1974-08-24T19:50",
+  "sunshine_duration_seconds": 45983.85,
+  "sunshine_duration_minutes": 766,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 1,
+  "sunshine_consistency": "Excellent"
+}

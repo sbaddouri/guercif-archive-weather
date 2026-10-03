@@ -1,0 +1,18 @@
+{
+  "date": "1975-01-16",
+  "weather_code": 51,
+  "temp_max": 13,
+  "temp_min": 9.3,
+  "temp_mean": 10.7,
+  "precipitation": 0.2,
+  "sunshine": 33184.83,
+  "wind_speed_max": 26.4,
+  "sunrise": "1975-01-16T08:19",
+  "sunset": "1975-01-16T18:27",
+  "sunshine_duration_seconds": 33184.83,
+  "sunshine_duration_minutes": 553,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

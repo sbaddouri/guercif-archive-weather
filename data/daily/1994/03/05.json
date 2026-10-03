@@ -1,0 +1,18 @@
+{
+  "date": "1994-03-05",
+  "weather_code": 2,
+  "temp_max": 19.7,
+  "temp_min": 6.1,
+  "temp_mean": 12.7,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 9.8,
+  "sunrise": "1994-03-05T07:37",
+  "sunset": "1994-03-05T19:12",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

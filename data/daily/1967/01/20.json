@@ -1,0 +1,18 @@
+{
+  "date": "1967-01-20",
+  "weather_code": 55,
+  "temp_max": 14.8,
+  "temp_min": 8.2,
+  "temp_mean": 11,
+  "precipitation": 2.6,
+  "sunshine": 32524.16,
+  "wind_speed_max": 28.3,
+  "sunrise": "1967-01-20T08:17",
+  "sunset": "1967-01-20T18:31",
+  "sunshine_duration_seconds": 32524.16,
+  "sunshine_duration_minutes": 542,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 212,
+  "sunshine_consistency": "Faible"
+}

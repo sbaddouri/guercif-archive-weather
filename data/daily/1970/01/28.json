@@ -1,0 +1,18 @@
+{
+  "date": "1970-01-28",
+  "weather_code": 51,
+  "temp_max": 13.6,
+  "temp_min": 0.7,
+  "temp_mean": 7.1,
+  "precipitation": 0.1,
+  "sunshine": 34963.48,
+  "wind_speed_max": 7.4,
+  "sunrise": "1970-01-28T08:13",
+  "sunset": "1970-01-28T18:39",
+  "sunshine_duration_seconds": 34963.48,
+  "sunshine_duration_minutes": 583,
+  "estimated_daily_sunshine_minutes": 378,
+  "estimated_daily_sunshine": "6 h 18 min",
+  "sunshine_difference_minutes": 205,
+  "sunshine_consistency": "Faible"
+}

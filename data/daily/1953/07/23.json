@@ -1,0 +1,18 @@
+{
+  "date": "1953-07-23",
+  "weather_code": 1,
+  "temp_max": 39.9,
+  "temp_min": 18.9,
+  "temp_mean": 30,
+  "precipitation": 0,
+  "sunshine": 48074.7,
+  "wind_speed_max": 25.3,
+  "sunrise": "1953-07-23T06:17",
+  "sunset": "1953-07-23T20:21",
+  "sunshine_duration_seconds": 48074.7,
+  "sunshine_duration_minutes": 801,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

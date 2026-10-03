@@ -1,0 +1,18 @@
+{
+  "date": "1952-09-05",
+  "weather_code": 53,
+  "temp_max": 32.6,
+  "temp_min": 23,
+  "temp_mean": 26.7,
+  "precipitation": 1,
+  "sunshine": 43200,
+  "wind_speed_max": 14.8,
+  "sunrise": "1952-09-05T06:49",
+  "sunset": "1952-09-05T19:34",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 291,
+  "estimated_daily_sunshine": "4 h 51 min",
+  "sunshine_difference_minutes": 429,
+  "sunshine_consistency": "Faible"
+}

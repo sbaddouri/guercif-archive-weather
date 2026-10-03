@@ -1,0 +1,18 @@
+{
+  "date": "1970-09-04",
+  "weather_code": 3,
+  "temp_max": 35.6,
+  "temp_min": 23.8,
+  "temp_mean": 28.6,
+  "precipitation": 0,
+  "sunshine": 33764.9,
+  "wind_speed_max": 20.9,
+  "sunrise": "1970-09-04T06:48",
+  "sunset": "1970-09-04T19:36",
+  "sunshine_duration_seconds": 33764.9,
+  "sunshine_duration_minutes": 563,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 293,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1958-01-14",
+  "weather_code": 51,
+  "temp_max": 10.8,
+  "temp_min": 4.7,
+  "temp_mean": 7.4,
+  "precipitation": 0.4,
+  "sunshine": 32893.39,
+  "wind_speed_max": 11.8,
+  "sunrise": "1958-01-14T08:19",
+  "sunset": "1958-01-14T18:25",
+  "sunshine_duration_seconds": 32893.39,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 300,
+  "estimated_daily_sunshine": "5 h 00 min",
+  "sunshine_difference_minutes": 248,
+  "sunshine_consistency": "Faible"
+}

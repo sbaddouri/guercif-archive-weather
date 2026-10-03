@@ -1,0 +1,18 @@
+{
+  "date": "1962-05-05",
+  "weather_code": 0,
+  "temp_max": 30,
+  "temp_min": 11.5,
+  "temp_mean": 21.5,
+  "precipitation": 0,
+  "sunshine": 47841.89,
+  "wind_speed_max": 10.7,
+  "sunrise": "1962-05-05T06:20",
+  "sunset": "1962-05-05T20:00",
+  "sunshine_duration_seconds": 47841.89,
+  "sunshine_duration_minutes": 797,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

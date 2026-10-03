@@ -1,0 +1,18 @@
+{
+  "date": "1978-04-26",
+  "weather_code": 2,
+  "temp_max": 22.5,
+  "temp_min": 10.9,
+  "temp_mean": 16.5,
+  "precipitation": 0,
+  "sunshine": 46230.41,
+  "wind_speed_max": 24.6,
+  "sunrise": "1978-04-26T06:29",
+  "sunset": "1978-04-26T19:53",
+  "sunshine_duration_seconds": 46230.41,
+  "sunshine_duration_minutes": 771,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1975-12-27",
+  "weather_code": 1,
+  "temp_max": 11.9,
+  "temp_min": 2.8,
+  "temp_mean": 7,
+  "precipitation": 0,
+  "sunshine": 34170.56,
+  "wind_speed_max": 11.2,
+  "sunrise": "1975-12-27T08:17",
+  "sunset": "1975-12-27T18:10",
+  "sunshine_duration_seconds": 34170.56,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 30,
+  "sunshine_consistency": "Moyen"
+}

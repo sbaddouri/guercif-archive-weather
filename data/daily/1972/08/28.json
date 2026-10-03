@@ -1,0 +1,18 @@
+{
+  "date": "1972-08-28",
+  "weather_code": 2,
+  "temp_max": 31.3,
+  "temp_min": 18.4,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 44517.52,
+  "wind_speed_max": 11.8,
+  "sunrise": "1972-08-28T06:43",
+  "sunset": "1972-08-28T19:44",
+  "sunshine_duration_seconds": 44517.52,
+  "sunshine_duration_minutes": 742,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

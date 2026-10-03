@@ -1,0 +1,18 @@
+{
+  "date": "1983-01-24",
+  "weather_code": 0,
+  "temp_max": 17.2,
+  "temp_min": 4.2,
+  "temp_mean": 10.7,
+  "precipitation": 0,
+  "sunshine": 35507.05,
+  "wind_speed_max": 11.6,
+  "sunrise": "1983-01-24T08:16",
+  "sunset": "1983-01-24T18:35",
+  "sunshine_duration_seconds": 35507.05,
+  "sunshine_duration_minutes": 592,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

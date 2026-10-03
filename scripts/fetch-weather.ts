@@ -10,9 +10,10 @@ import {
   convertOfficialSunshineToMinutes
 } from '../src/lib/weather-colors';
 
-const LAT = 34.22199159989515;
-const LON = -3.3490744462380326;
+const LAT = 34.2257;
+const LON = -3.3536;
 const TIMEZONE = 'Africa/Casablanca';
+const MODEL = 'best_match';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const STATUS_FILE = path.join(DATA_DIR, 'last-update-status.json');
@@ -66,12 +67,12 @@ async function fetchWeatherData(startDate: string, endDate: string) {
   const maxAttempts = 5;
   const attemptDetails: AttemptDetail[] = [];
 
-  console.log(`[DEBUG] Fetching data for start=${startDate}, end=${currentEndDate}`);
+  console.log(`[INFO] Fetching data for start=${startDate}, end=${currentEndDate}`);
   
   while (attempts < maxAttempts) {
-    const url = `https://archive-api.open-meteo.com/v1/archive?latitude=${LAT}&longitude=${LON}&start_date=${startDate}&end_date=${currentEndDate}&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation,weather_code,pressure_msl,wind_speed_10m,wind_gusts_10m,visibility,uv_index,sunshine_duration&daily=weather_code,temperature_2m_max,temperature_2m_min,temperature_2m_mean,precipitation_sum,sunshine_duration,wind_speed_10m_max,sunrise,sunset&timezone=${TIMEZONE}`;
+    const url = `https://archive-api.open-meteo.com/v1/archive?latitude=${LAT}&longitude=${LON}&start_date=${startDate}&end_date=${currentEndDate}&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation,weather_code,pressure_msl,wind_speed_10m,wind_gusts_10m,visibility,uv_index,sunshine_duration&daily=weather_code,temperature_2m_max,temperature_2m_min,temperature_2m_mean,precipitation_sum,sunshine_duration,wind_speed_10m_max,sunrise,sunset&timezone=${TIMEZONE}&models=${MODEL}`;
     
-    console.log(`[DEBUG] Attempt ${attempts + 1}/${maxAttempts}: Fetching from ${url}`);
+    console.log(`[INFO] Attempt ${attempts + 1}/${maxAttempts}: Fetching ${startDate} to ${currentEndDate}`);
 
     attemptDetails.push({
       date: currentEndDate,
@@ -79,7 +80,7 @@ async function fetchWeatherData(startDate: string, endDate: string) {
     });
 
     try {
-      const response = await axios.get(url, { timeout: 30000 });
+      const response = await axios.get(url, { timeout: 60000 });
       
       // Validate response structure
       if (!response.data || !response.data.daily || !response.data.hourly) {
@@ -90,7 +91,15 @@ async function fetchWeatherData(startDate: string, endDate: string) {
         throw new Error('Réponse invalide d\'Open-Meteo: tableau daily.time vide');
       }
       
-      console.log(`[DEBUG] Successfully fetched data: ${response.data.daily.time.length} days`);
+      // Validate we got the expected number of days
+      const expectedDays = Math.ceil((new Date(currentEndDate).getTime() - new Date(startDate).getTime()) / (1000 * 60 * 60 * 24)) + 1;
+      const actualDays = response.data.daily.time.length;
+      
+      if (actualDays < expectedDays) {
+        console.warn(`[WARNING] Received ${actualDays} days, expected ${expectedDays} days for ${startDate} to ${currentEndDate}`);
+      }
+      
+      console.log(`[INFO] Successfully fetched ${actualDays} days (${startDate} to ${currentEndDate})`);
 
       attemptDetails[attemptDetails.length - 1].success = true;
       
@@ -104,32 +113,42 @@ async function fetchWeatherData(startDate: string, endDate: string) {
       const errorMsg = error.response?.data ? JSON.stringify(error.response.data) : error.message;
       attemptDetails[attemptDetails.length - 1].error = errorMsg;
       
-      console.log(`[DEBUG] Error fetching data (status ${error.response?.status}):`, errorMsg);
+      console.error(`[ERROR] Failed to fetch data (status ${error.response?.status || 'N/A'}):`, errorMsg);
       
+      // Retry on 400 (data not ready) - reduce end date by 1 day
       if (error.response?.status === 400 && attempts < maxAttempts - 1) {
-        console.log(`[DEBUG] Data not yet available for ${currentEndDate}, retrying with previous day...`);
+        console.log(`[INFO] Data not yet available for ${currentEndDate}, retrying with previous day...`);
         const date = parseISO(currentEndDate);
         currentEndDate = format(subDays(date, 1), 'yyyy-MM-dd');
         attempts++;
         continue;
       }
       
-      if (error.response?.status >= 500 && attempts < maxAttempts - 1) {
-        console.log(`[DEBUG] Server error (status ${error.response.status}), retrying in 10 seconds...`);
+      // Retry on server errors
+      if (error.response?.status && error.response.status >= 500 && attempts < maxAttempts - 1) {
+        console.log(`[INFO] Server error (status ${error.response.status}), retrying in 10 seconds...`);
         await new Promise(resolve => setTimeout(resolve, 10000));
         attempts++;
         continue;
       }
       
-      // Also handle timeout errors (code: ECONNABORTED)
+      // Retry on timeout
       if (error.code === 'ECONNABORTED' && attempts < maxAttempts - 1) {
-        console.log(`[DEBUG] Request timeout, retrying in 10 seconds...`);
+        console.log(`[INFO] Request timeout, retrying in 10 seconds...`);
         await new Promise(resolve => setTimeout(resolve, 10000));
         attempts++;
         continue;
       }
       
-      console.error('Error fetching weather data:', error.message);
+      // Network errors - retry
+      if ((error.code === 'ENOTFOUND' || error.code === 'ECONNREFUSED' || error.code === 'ETIMEDOUT') && attempts < maxAttempts - 1) {
+        console.log(`[INFO] Network error (${error.code}), retrying in 10 seconds...`);
+        await new Promise(resolve => setTimeout(resolve, 10000));
+        attempts++;
+        continue;
+      }
+      
+      console.error('[ERROR] Non-retryable error fetching weather data:', error.message);
       return {
         data: null,
         currentEndDate,
@@ -138,6 +157,8 @@ async function fetchWeatherData(startDate: string, endDate: string) {
       };
     }
   }
+  
+  console.error('[ERROR] Max attempts reached, giving up');
   return {
     data: null,
     currentEndDate,
@@ -198,7 +219,8 @@ async function saveDailyAndHourlyData(daily: any, hourly: any) {
       const missingFields = requiredFields.filter(field => daily[field]?.[i] === undefined || daily[field]?.[i] === null);
       
       if (missingFields.length > 0) {
-        console.error(`[WARNING] Missing critical fields for ${date}: ${missingFields.join(', ')}. Skipping save for this day.`);
+        console.warn(`[WARNING] Missing critical fields for ${date}: ${missingFields.join(', ')}. Skipping save for this day.`);
+        missingDays.push(date);
         continue; // Skip saving this day to prevent corrupted data
       }
 

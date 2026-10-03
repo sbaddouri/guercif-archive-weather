@@ -1,0 +1,18 @@
+{
+  "date": "1957-08-26",
+  "weather_code": 0,
+  "temp_max": 37.2,
+  "temp_min": 22.4,
+  "temp_mean": 29.1,
+  "precipitation": 0,
+  "sunshine": 45281.85,
+  "wind_speed_max": 23.2,
+  "sunrise": "1957-08-26T06:42",
+  "sunset": "1957-08-26T19:47",
+  "sunshine_duration_seconds": 45281.85,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

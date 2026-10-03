@@ -1,0 +1,18 @@
+{
+  "date": "1993-01-04",
+  "weather_code": 1,
+  "temp_max": 12,
+  "temp_min": 6,
+  "temp_mean": 8.3,
+  "precipitation": 0,
+  "sunshine": 33884.75,
+  "wind_speed_max": 13.8,
+  "sunrise": "1993-01-04T08:19",
+  "sunset": "1993-01-04T18:17",
+  "sunshine_duration_seconds": 33884.75,
+  "sunshine_duration_minutes": 565,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

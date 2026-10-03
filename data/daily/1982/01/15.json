@@ -1,0 +1,18 @@
+{
+  "date": "1982-01-15",
+  "weather_code": 53,
+  "temp_max": 13.2,
+  "temp_min": 6.9,
+  "temp_mean": 9.7,
+  "precipitation": 3.4,
+  "sunshine": 33820.7,
+  "wind_speed_max": 15.8,
+  "sunrise": "1982-01-15T08:19",
+  "sunset": "1982-01-15T18:26",
+  "sunshine_duration_seconds": 33820.7,
+  "sunshine_duration_minutes": 564,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 204,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1946-07-05",
+  "weather_code": 0,
+  "temp_max": 35.5,
+  "temp_min": 22.2,
+  "temp_mean": 29,
+  "precipitation": 0,
+  "sunshine": 49683.89,
+  "wind_speed_max": 14.4,
+  "sunrise": "1946-07-05T06:07",
+  "sunset": "1946-07-05T20:28",
+  "sunshine_duration_seconds": 49683.89,
+  "sunshine_duration_minutes": 828,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

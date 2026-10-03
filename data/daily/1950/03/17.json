@@ -1,0 +1,18 @@
+{
+  "date": "1950-03-17",
+  "weather_code": 1,
+  "temp_max": 22.3,
+  "temp_min": 8.4,
+  "temp_mean": 15.6,
+  "precipitation": 0,
+  "sunshine": 41090.13,
+  "wind_speed_max": 15.2,
+  "sunrise": "1950-03-17T07:22",
+  "sunset": "1950-03-17T19:22",
+  "sunshine_duration_seconds": 41090.13,
+  "sunshine_duration_minutes": 685,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

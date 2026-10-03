@@ -1,0 +1,18 @@
+{
+  "date": "1967-04-11",
+  "weather_code": 61,
+  "temp_max": 11.1,
+  "temp_min": 8,
+  "temp_mean": 9.4,
+  "precipitation": 19.1,
+  "sunshine": 0,
+  "wind_speed_max": 8.4,
+  "sunrise": "1967-04-11T06:48",
+  "sunset": "1967-04-11T19:41",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 78,
+  "estimated_daily_sunshine": "1 h 18 min",
+  "sunshine_difference_minutes": 78,
+  "sunshine_consistency": "Faible"
+}

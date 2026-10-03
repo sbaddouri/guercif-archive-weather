@@ -1,0 +1,18 @@
+{
+  "date": "1940-03-28",
+  "weather_code": 53,
+  "temp_max": 15.3,
+  "temp_min": 9,
+  "temp_mean": 11.4,
+  "precipitation": 1.9,
+  "sunshine": 37465.59,
+  "wind_speed_max": 24.5,
+  "sunrise": "1940-03-28T07:05",
+  "sunset": "1940-03-28T19:31",
+  "sunshine_duration_seconds": 37465.59,
+  "sunshine_duration_minutes": 624,
+  "estimated_daily_sunshine_minutes": 231,
+  "estimated_daily_sunshine": "3 h 51 min",
+  "sunshine_difference_minutes": 393,
+  "sunshine_consistency": "Faible"
+}

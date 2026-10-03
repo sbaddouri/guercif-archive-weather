@@ -1,0 +1,18 @@
+{
+  "date": "1985-01-12",
+  "weather_code": 2,
+  "temp_max": 9.3,
+  "temp_min": 0.3,
+  "temp_mean": 5.5,
+  "precipitation": 0,
+  "sunshine": 33533.74,
+  "wind_speed_max": 18.7,
+  "sunrise": "1985-01-12T08:19",
+  "sunset": "1985-01-12T18:24",
+  "sunshine_duration_seconds": 33533.74,
+  "sunshine_duration_minutes": 559,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 109,
+  "sunshine_consistency": "Faible"
+}

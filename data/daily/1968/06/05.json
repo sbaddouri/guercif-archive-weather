@@ -1,0 +1,18 @@
+{
+  "date": "1968-06-05",
+  "weather_code": 2,
+  "temp_max": 30.5,
+  "temp_min": 12.9,
+  "temp_mean": 21.1,
+  "precipitation": 0,
+  "sunshine": 50018.95,
+  "wind_speed_max": 25.6,
+  "sunrise": "1968-06-05T06:01",
+  "sunset": "1968-06-05T20:22",
+  "sunshine_duration_seconds": 50018.95,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1974-10-03",
+  "weather_code": 2,
+  "temp_max": 30.4,
+  "temp_min": 15.6,
+  "temp_mean": 22.3,
+  "precipitation": 0,
+  "sunshine": 41910.2,
+  "wind_speed_max": 12.8,
+  "sunrise": "1974-10-03T07:09",
+  "sunset": "1974-10-03T18:55",
+  "sunshine_duration_seconds": 41910.2,
+  "sunshine_duration_minutes": 699,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 174,
+  "sunshine_consistency": "Faible"
+}

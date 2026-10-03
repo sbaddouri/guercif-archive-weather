@@ -1,0 +1,18 @@
+{
+  "date": "1959-02-24",
+  "weather_code": 51,
+  "temp_max": 14.9,
+  "temp_min": 6.5,
+  "temp_mean": 11,
+  "precipitation": 0.3,
+  "sunshine": 33044.2,
+  "wind_speed_max": 13.2,
+  "sunrise": "1959-02-24T07:49",
+  "sunset": "1959-02-24T19:04",
+  "sunshine_duration_seconds": 33044.2,
+  "sunshine_duration_minutes": 551,
+  "estimated_daily_sunshine_minutes": 192,
+  "estimated_daily_sunshine": "3 h 12 min",
+  "sunshine_difference_minutes": 359,
+  "sunshine_consistency": "Faible"
+}

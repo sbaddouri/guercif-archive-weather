@@ -1,0 +1,18 @@
+{
+  "date": "1968-03-20",
+  "weather_code": 55,
+  "temp_max": 16.2,
+  "temp_min": 10.2,
+  "temp_mean": 13.3,
+  "precipitation": 3.4,
+  "sunshine": 39493.78,
+  "wind_speed_max": 16.3,
+  "sunrise": "1968-03-20T07:17",
+  "sunset": "1968-03-20T19:25",
+  "sunshine_duration_seconds": 39493.78,
+  "sunshine_duration_minutes": 658,
+  "estimated_daily_sunshine_minutes": 471,
+  "estimated_daily_sunshine": "7 h 51 min",
+  "sunshine_difference_minutes": 187,
+  "sunshine_consistency": "Faible"
+}

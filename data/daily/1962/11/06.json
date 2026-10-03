@@ -1,0 +1,18 @@
+{
+  "date": "1962-11-06",
+  "weather_code": 61,
+  "temp_max": 13.5,
+  "temp_min": 11.4,
+  "temp_mean": 12.4,
+  "precipitation": 34.2,
+  "sunshine": 3050.43,
+  "wind_speed_max": 19.1,
+  "sunrise": "1962-11-06T07:37",
+  "sunset": "1962-11-06T18:16",
+  "sunshine_duration_seconds": 3050.43,
+  "sunshine_duration_minutes": 51,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

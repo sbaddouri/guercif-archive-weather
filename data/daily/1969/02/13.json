@@ -1,0 +1,18 @@
+{
+  "date": "1969-02-13",
+  "weather_code": 3,
+  "temp_max": 12.4,
+  "temp_min": 8.7,
+  "temp_mean": 9.9,
+  "precipitation": 0,
+  "sunshine": 35458.35,
+  "wind_speed_max": 24.5,
+  "sunrise": "1969-02-13T08:00",
+  "sunset": "1969-02-13T18:55",
+  "sunshine_duration_seconds": 35458.35,
+  "sunshine_duration_minutes": 591,
+  "estimated_daily_sunshine_minutes": 477,
+  "estimated_daily_sunshine": "7 h 57 min",
+  "sunshine_difference_minutes": 114,
+  "sunshine_consistency": "Faible"
+}

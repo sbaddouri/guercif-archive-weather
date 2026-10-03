@@ -1,0 +1,18 @@
+{
+  "date": "1971-11-02",
+  "weather_code": 55,
+  "temp_max": 21.6,
+  "temp_min": 11.6,
+  "temp_mean": 15.9,
+  "precipitation": 2.3,
+  "sunshine": 35102.63,
+  "wind_speed_max": 13.8,
+  "sunrise": "1971-11-02T07:33",
+  "sunset": "1971-11-02T18:20",
+  "sunshine_duration_seconds": 35102.63,
+  "sunshine_duration_minutes": 585,
+  "estimated_daily_sunshine_minutes": 279,
+  "estimated_daily_sunshine": "4 h 39 min",
+  "sunshine_difference_minutes": 306,
+  "sunshine_consistency": "Faible"
+}

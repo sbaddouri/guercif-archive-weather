@@ -1,0 +1,18 @@
+{
+  "date": "1970-12-17",
+  "weather_code": 2,
+  "temp_max": 12.2,
+  "temp_min": 0.5,
+  "temp_mean": 6.7,
+  "precipitation": 0,
+  "sunshine": 34933.84,
+  "wind_speed_max": 14.2,
+  "sunrise": "1970-12-17T08:13",
+  "sunset": "1970-12-17T18:06",
+  "sunshine_duration_seconds": 34933.84,
+  "sunshine_duration_minutes": 582,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 18,
+  "sunshine_consistency": "Moyen"
+}

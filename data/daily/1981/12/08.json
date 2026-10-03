@@ -1,0 +1,18 @@
+{
+  "date": "1981-12-08",
+  "weather_code": 2,
+  "temp_max": 16.3,
+  "temp_min": 9.2,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 35271.76,
+  "wind_speed_max": 22.3,
+  "sunrise": "1981-12-08T08:06",
+  "sunset": "1981-12-08T18:03",
+  "sunshine_duration_seconds": 35271.76,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 48,
+  "sunshine_consistency": "Faible"
+}

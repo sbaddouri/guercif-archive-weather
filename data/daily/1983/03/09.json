@@ -1,0 +1,18 @@
+{
+  "date": "1983-03-09",
+  "weather_code": 53,
+  "temp_max": 27.4,
+  "temp_min": 13,
+  "temp_mean": 19.3,
+  "precipitation": 0.7,
+  "sunshine": 37360.67,
+  "wind_speed_max": 7.7,
+  "sunrise": "1983-03-09T07:33",
+  "sunset": "1983-03-09T19:15",
+  "sunshine_duration_seconds": 37360.67,
+  "sunshine_duration_minutes": 623,
+  "estimated_daily_sunshine_minutes": 342,
+  "estimated_daily_sunshine": "5 h 42 min",
+  "sunshine_difference_minutes": 281,
+  "sunshine_consistency": "Faible"
+}

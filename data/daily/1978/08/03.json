@@ -1,0 +1,18 @@
+{
+  "date": "1978-08-03",
+  "weather_code": 51,
+  "temp_max": 37,
+  "temp_min": 23.3,
+  "temp_mean": 29,
+  "precipitation": 0.4,
+  "sunshine": 46800,
+  "wind_speed_max": 21.6,
+  "sunrise": "1978-08-03T06:25",
+  "sunset": "1978-08-03T20:13",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

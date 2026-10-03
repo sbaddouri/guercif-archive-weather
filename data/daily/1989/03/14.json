@@ -1,0 +1,18 @@
+{
+  "date": "1989-03-14",
+  "weather_code": 2,
+  "temp_max": 20.3,
+  "temp_min": 11.3,
+  "temp_mean": 15.5,
+  "precipitation": 0,
+  "sunshine": 40078.21,
+  "wind_speed_max": 22.9,
+  "sunrise": "1989-03-14T07:25",
+  "sunset": "1989-03-14T19:20",
+  "sunshine_duration_seconds": 40078.21,
+  "sunshine_duration_minutes": 668,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 188,
+  "sunshine_consistency": "Faible"
+}

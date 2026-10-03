@@ -1,0 +1,18 @@
+{
+  "date": "1952-01-22",
+  "weather_code": 71,
+  "temp_max": 7.2,
+  "temp_min": 2.8,
+  "temp_mean": 4.8,
+  "precipitation": 3.1,
+  "sunshine": 27477.33,
+  "wind_speed_max": 31.5,
+  "sunrise": "1952-01-22T08:17",
+  "sunset": "1952-01-22T18:32",
+  "sunshine_duration_seconds": 27477.33,
+  "sunshine_duration_minutes": 458,
+  "estimated_daily_sunshine_minutes": 201,
+  "estimated_daily_sunshine": "3 h 21 min",
+  "sunshine_difference_minutes": 257,
+  "sunshine_consistency": "Faible"
+}

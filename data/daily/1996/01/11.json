@@ -1,0 +1,18 @@
+{
+  "date": "1996-01-11",
+  "weather_code": 55,
+  "temp_max": 16.5,
+  "temp_min": 10,
+  "temp_mean": 13.2,
+  "precipitation": 6.7,
+  "sunshine": 26421.57,
+  "wind_speed_max": 29.9,
+  "sunrise": "1996-01-11T08:19",
+  "sunset": "1996-01-11T18:22",
+  "sunshine_duration_seconds": 26421.57,
+  "sunshine_duration_minutes": 440,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 80,
+  "sunshine_consistency": "Faible"
+}

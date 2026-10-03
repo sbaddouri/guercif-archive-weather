@@ -1,0 +1,18 @@
+{
+  "date": "1988-12-03",
+  "weather_code": 3,
+  "temp_max": 16.9,
+  "temp_min": 9,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 34300.2,
+  "wind_speed_max": 9.2,
+  "sunrise": "1988-12-03T08:03",
+  "sunset": "1988-12-03T18:03",
+  "sunshine_duration_seconds": 34300.2,
+  "sunshine_duration_minutes": 572,
+  "estimated_daily_sunshine_minutes": 447,
+  "estimated_daily_sunshine": "7 h 27 min",
+  "sunshine_difference_minutes": 125,
+  "sunshine_consistency": "Faible"
+}

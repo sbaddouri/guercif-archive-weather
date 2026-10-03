@@ -1,0 +1,18 @@
+{
+  "date": "1946-01-22",
+  "weather_code": 3,
+  "temp_max": 12,
+  "temp_min": 6.2,
+  "temp_mean": 9,
+  "precipitation": 0,
+  "sunshine": 34777.49,
+  "wind_speed_max": 22.8,
+  "sunrise": "1946-01-22T08:16",
+  "sunset": "1946-01-22T18:33",
+  "sunshine_duration_seconds": 34777.49,
+  "sunshine_duration_minutes": 580,
+  "estimated_daily_sunshine_minutes": 426,
+  "estimated_daily_sunshine": "7 h 06 min",
+  "sunshine_difference_minutes": 154,
+  "sunshine_consistency": "Faible"
+}

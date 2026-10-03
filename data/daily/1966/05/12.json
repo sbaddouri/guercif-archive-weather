@@ -1,0 +1,18 @@
+{
+  "date": "1966-05-12",
+  "weather_code": 61,
+  "temp_max": 20.9,
+  "temp_min": 10.9,
+  "temp_mean": 16.3,
+  "precipitation": 8.2,
+  "sunshine": 25150.53,
+  "wind_speed_max": 31.3,
+  "sunrise": "1966-05-12T06:14",
+  "sunset": "1966-05-12T20:05",
+  "sunshine_duration_seconds": 25150.53,
+  "sunshine_duration_minutes": 419,
+  "estimated_daily_sunshine_minutes": 264,
+  "estimated_daily_sunshine": "4 h 24 min",
+  "sunshine_difference_minutes": 155,
+  "sunshine_consistency": "Faible"
+}

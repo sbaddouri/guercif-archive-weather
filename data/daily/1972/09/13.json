@@ -1,0 +1,18 @@
+{
+  "date": "1972-09-13",
+  "weather_code": 2,
+  "temp_max": 30.4,
+  "temp_min": 18.3,
+  "temp_mean": 24.2,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 13.5,
+  "sunrise": "1972-09-13T06:55",
+  "sunset": "1972-09-13T19:22",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 45,
+  "sunshine_consistency": "Faible"
+}

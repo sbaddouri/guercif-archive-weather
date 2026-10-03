@@ -1,0 +1,18 @@
+{
+  "date": "1975-04-10",
+  "weather_code": 51,
+  "temp_max": 19,
+  "temp_min": 11.1,
+  "temp_mean": 14.7,
+  "precipitation": 1.1,
+  "sunshine": 43501.24,
+  "wind_speed_max": 21.1,
+  "sunrise": "1975-04-10T06:49",
+  "sunset": "1975-04-10T19:40",
+  "sunshine_duration_seconds": 43501.24,
+  "sunshine_duration_minutes": 725,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 350,
+  "sunshine_consistency": "Faible"
+}

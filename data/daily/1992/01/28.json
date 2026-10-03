@@ -1,0 +1,18 @@
+{
+  "date": "1992-01-28",
+  "weather_code": 3,
+  "temp_max": 13.7,
+  "temp_min": 1.2,
+  "temp_mean": 7,
+  "precipitation": 0,
+  "sunshine": 35593.6,
+  "wind_speed_max": 14.3,
+  "sunrise": "1992-01-28T08:14",
+  "sunset": "1992-01-28T18:38",
+  "sunshine_duration_seconds": 35593.6,
+  "sunshine_duration_minutes": 593,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

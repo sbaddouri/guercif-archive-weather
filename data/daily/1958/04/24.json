@@ -1,0 +1,18 @@
+{
+  "date": "1958-04-24",
+  "weather_code": 53,
+  "temp_max": 23.1,
+  "temp_min": 8.3,
+  "temp_mean": 15.9,
+  "precipitation": 0.5,
+  "sunshine": 46200.76,
+  "wind_speed_max": 15.3,
+  "sunrise": "1958-04-24T06:32",
+  "sunset": "1958-04-24T19:51",
+  "sunshine_duration_seconds": 46200.76,
+  "sunshine_duration_minutes": 770,
+  "estimated_daily_sunshine_minutes": 489,
+  "estimated_daily_sunshine": "8 h 09 min",
+  "sunshine_difference_minutes": 281,
+  "sunshine_consistency": "Faible"
+}

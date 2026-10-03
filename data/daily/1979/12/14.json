@@ -1,0 +1,18 @@
+{
+  "date": "1979-12-14",
+  "weather_code": 3,
+  "temp_max": 18,
+  "temp_min": 9.5,
+  "temp_mean": 13,
+  "precipitation": 0,
+  "sunshine": 30696.15,
+  "wind_speed_max": 8,
+  "sunrise": "1979-12-14T08:10",
+  "sunset": "1979-12-14T18:04",
+  "sunshine_duration_seconds": 30696.15,
+  "sunshine_duration_minutes": 512,
+  "estimated_daily_sunshine_minutes": 153,
+  "estimated_daily_sunshine": "2 h 33 min",
+  "sunshine_difference_minutes": 359,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1983-11-15",
+  "weather_code": 53,
+  "temp_max": 19.9,
+  "temp_min": 13,
+  "temp_mean": 15.8,
+  "precipitation": 3.4,
+  "sunshine": 20196.15,
+  "wind_speed_max": 8.2,
+  "sunrise": "1983-11-15T07:45",
+  "sunset": "1983-11-15T18:10",
+  "sunshine_duration_seconds": 20196.15,
+  "sunshine_duration_minutes": 337,
+  "estimated_daily_sunshine_minutes": 207,
+  "estimated_daily_sunshine": "3 h 27 min",
+  "sunshine_difference_minutes": 130,
+  "sunshine_consistency": "Faible"
+}

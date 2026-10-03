@@ -1,0 +1,18 @@
+{
+  "date": "1971-02-06",
+  "weather_code": 53,
+  "temp_max": 10.6,
+  "temp_min": 6.6,
+  "temp_mean": 8.6,
+  "precipitation": 5.8,
+  "sunshine": 0,
+  "wind_speed_max": 12.5,
+  "sunrise": "1971-02-06T08:07",
+  "sunset": "1971-02-06T18:47",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 132,
+  "estimated_daily_sunshine": "2 h 12 min",
+  "sunshine_difference_minutes": 132,
+  "sunshine_consistency": "Faible"
+}

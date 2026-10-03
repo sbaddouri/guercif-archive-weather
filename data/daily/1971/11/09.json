@@ -1,0 +1,18 @@
+{
+  "date": "1971-11-09",
+  "weather_code": 61,
+  "temp_max": 15.2,
+  "temp_min": 8.7,
+  "temp_mean": 11.6,
+  "precipitation": 5.9,
+  "sunshine": 36000,
+  "wind_speed_max": 40.2,
+  "sunrise": "1971-11-09T07:40",
+  "sunset": "1971-11-09T18:14",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 90,
+  "sunshine_consistency": "Faible"
+}

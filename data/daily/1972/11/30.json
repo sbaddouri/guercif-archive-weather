@@ -1,0 +1,18 @@
+{
+  "date": "1972-11-30",
+  "weather_code": 61,
+  "temp_max": 13.7,
+  "temp_min": 9.9,
+  "temp_mean": 11.6,
+  "precipitation": 6.7,
+  "sunshine": 35498.47,
+  "wind_speed_max": 31,
+  "sunrise": "1972-11-30T08:00",
+  "sunset": "1972-11-30T18:04",
+  "sunshine_duration_seconds": 35498.47,
+  "sunshine_duration_minutes": 592,
+  "estimated_daily_sunshine_minutes": 357,
+  "estimated_daily_sunshine": "5 h 57 min",
+  "sunshine_difference_minutes": 235,
+  "sunshine_consistency": "Faible"
+}

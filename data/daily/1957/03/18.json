@@ -1,0 +1,18 @@
+{
+  "date": "1957-03-18",
+  "weather_code": 0,
+  "temp_max": 23,
+  "temp_min": 5.8,
+  "temp_mean": 14.2,
+  "precipitation": 0,
+  "sunshine": 41730.41,
+  "wind_speed_max": 7.9,
+  "sunrise": "1957-03-18T07:20",
+  "sunset": "1957-03-18T19:23",
+  "sunshine_duration_seconds": 41730.41,
+  "sunshine_duration_minutes": 696,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

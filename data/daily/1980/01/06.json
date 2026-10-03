@@ -1,0 +1,18 @@
+{
+  "date": "1980-01-06",
+  "weather_code": 1,
+  "temp_max": 17.3,
+  "temp_min": 1.4,
+  "temp_mean": 9.2,
+  "precipitation": 0,
+  "sunshine": 34204.15,
+  "wind_speed_max": 9.4,
+  "sunrise": "1980-01-06T08:20",
+  "sunset": "1980-01-06T18:18",
+  "sunshine_duration_seconds": 34204.15,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

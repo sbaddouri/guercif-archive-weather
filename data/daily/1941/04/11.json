@@ -1,0 +1,18 @@
+{
+  "date": "1941-04-11",
+  "weather_code": 61,
+  "temp_max": 19.1,
+  "temp_min": 10,
+  "temp_mean": 13.5,
+  "precipitation": 5.9,
+  "sunshine": 36000,
+  "wind_speed_max": 33.9,
+  "sunrise": "1941-04-11T06:47",
+  "sunset": "1941-04-11T19:42",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 204,
+  "estimated_daily_sunshine": "3 h 24 min",
+  "sunshine_difference_minutes": 396,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1970-04-15",
+  "weather_code": 2,
+  "temp_max": 26.2,
+  "temp_min": 13.6,
+  "temp_mean": 19.3,
+  "precipitation": 0,
+  "sunshine": 45636.74,
+  "wind_speed_max": 22.5,
+  "sunrise": "1970-04-15T06:43",
+  "sunset": "1970-04-15T19:44",
+  "sunshine_duration_seconds": 45636.74,
+  "sunshine_duration_minutes": 761,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

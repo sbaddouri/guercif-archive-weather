@@ -1,0 +1,18 @@
+{
+  "date": "1962-06-25",
+  "weather_code": 53,
+  "temp_max": 32.8,
+  "temp_min": 17.7,
+  "temp_mean": 25.5,
+  "precipitation": 0.5,
+  "sunshine": 37835.37,
+  "wind_speed_max": 21.6,
+  "sunrise": "1962-06-25T06:02",
+  "sunset": "1962-06-25T20:29",
+  "sunshine_duration_seconds": 37835.37,
+  "sunshine_duration_minutes": 631,
+  "estimated_daily_sunshine_minutes": 291,
+  "estimated_daily_sunshine": "4 h 51 min",
+  "sunshine_difference_minutes": 340,
+  "sunshine_consistency": "Faible"
+}

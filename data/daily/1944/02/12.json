@@ -1,0 +1,18 @@
+{
+  "date": "1944-02-12",
+  "weather_code": 1,
+  "temp_max": 14.5,
+  "temp_min": 3.6,
+  "temp_mean": 9.4,
+  "precipitation": 0,
+  "sunshine": 38627.5,
+  "wind_speed_max": 12.6,
+  "sunrise": "1944-02-12T08:01",
+  "sunset": "1944-02-12T18:53",
+  "sunshine_duration_seconds": 38627.5,
+  "sunshine_duration_minutes": 644,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 44,
+  "sunshine_consistency": "Faible"
+}

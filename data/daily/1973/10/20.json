@@ -1,0 +1,18 @@
+{
+  "date": "1973-10-20",
+  "weather_code": 1,
+  "temp_max": 19.7,
+  "temp_min": 8.1,
+  "temp_mean": 13.9,
+  "precipitation": 0,
+  "sunshine": 37556.19,
+  "wind_speed_max": 11.3,
+  "sunrise": "1973-10-20T07:22",
+  "sunset": "1973-10-20T18:33",
+  "sunshine_duration_seconds": 37556.19,
+  "sunshine_duration_minutes": 626,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

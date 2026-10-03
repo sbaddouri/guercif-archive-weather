@@ -1,0 +1,18 @@
+{
+  "date": "1987-11-06",
+  "weather_code": 61,
+  "temp_max": 20.7,
+  "temp_min": 14.9,
+  "temp_mean": 17.3,
+  "precipitation": 3.4,
+  "sunshine": 15532.06,
+  "wind_speed_max": 11.4,
+  "sunrise": "1987-11-06T07:37",
+  "sunset": "1987-11-06T18:16",
+  "sunshine_duration_seconds": 15532.06,
+  "sunshine_duration_minutes": 259,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 169,
+  "sunshine_consistency": "Faible"
+}

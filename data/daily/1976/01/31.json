@@ -1,0 +1,18 @@
+{
+  "date": "1976-01-31",
+  "weather_code": 63,
+  "temp_max": 14,
+  "temp_min": 7.4,
+  "temp_mean": 9.8,
+  "precipitation": 9.5,
+  "sunshine": 20637.14,
+  "wind_speed_max": 31.4,
+  "sunrise": "1976-01-31T08:12",
+  "sunset": "1976-01-31T18:41",
+  "sunshine_duration_seconds": 20637.14,
+  "sunshine_duration_minutes": 344,
+  "estimated_daily_sunshine_minutes": 132,
+  "estimated_daily_sunshine": "2 h 12 min",
+  "sunshine_difference_minutes": 212,
+  "sunshine_consistency": "Faible"
+}

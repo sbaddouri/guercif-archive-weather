@@ -1,0 +1,18 @@
+{
+  "date": "1943-10-24",
+  "weather_code": 53,
+  "temp_max": 18.1,
+  "temp_min": 15.2,
+  "temp_mean": 16.5,
+  "precipitation": 8,
+  "sunshine": 8613.9,
+  "wind_speed_max": 11.3,
+  "sunrise": "1943-10-24T07:26",
+  "sunset": "1943-10-24T18:29",
+  "sunshine_duration_seconds": 8613.9,
+  "sunshine_duration_minutes": 144,
+  "estimated_daily_sunshine_minutes": 159,
+  "estimated_daily_sunshine": "2 h 39 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

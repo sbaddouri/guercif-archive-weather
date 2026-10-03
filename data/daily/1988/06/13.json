@@ -1,0 +1,18 @@
+{
+  "date": "1988-06-13",
+  "weather_code": 2,
+  "temp_max": 26.5,
+  "temp_min": 15.7,
+  "temp_mean": 21,
+  "precipitation": 0,
+  "sunshine": 50059.31,
+  "wind_speed_max": 18.8,
+  "sunrise": "1988-06-13T06:01",
+  "sunset": "1988-06-13T20:26",
+  "sunshine_duration_seconds": 50059.31,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 159,
+  "sunshine_consistency": "Faible"
+}

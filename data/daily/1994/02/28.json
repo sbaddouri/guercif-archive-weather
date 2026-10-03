@@ -1,0 +1,18 @@
+{
+  "date": "1994-02-28",
+  "weather_code": 51,
+  "temp_max": 14.2,
+  "temp_min": 6.9,
+  "temp_mean": 10.2,
+  "precipitation": 0.9,
+  "sunshine": 39476.3,
+  "wind_speed_max": 34.1,
+  "sunrise": "1994-02-28T07:44",
+  "sunset": "1994-02-28T19:08",
+  "sunshine_duration_seconds": 39476.3,
+  "sunshine_duration_minutes": 658,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 328,
+  "sunshine_consistency": "Faible"
+}

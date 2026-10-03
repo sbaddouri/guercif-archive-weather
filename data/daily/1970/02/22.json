@@ -1,0 +1,18 @@
+{
+  "date": "1970-02-22",
+  "weather_code": 0,
+  "temp_max": 22.3,
+  "temp_min": 2.7,
+  "temp_mean": 13.4,
+  "precipitation": 0,
+  "sunshine": 39547.92,
+  "wind_speed_max": 9.6,
+  "sunrise": "1970-02-22T07:51",
+  "sunset": "1970-02-22T19:03",
+  "sunshine_duration_seconds": 39547.92,
+  "sunshine_duration_minutes": 659,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 61,
+  "sunshine_consistency": "Faible"
+}

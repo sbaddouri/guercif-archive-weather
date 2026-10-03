@@ -1,0 +1,18 @@
+{
+  "date": "1969-10-19",
+  "weather_code": 51,
+  "temp_max": 17.1,
+  "temp_min": 10.5,
+  "temp_mean": 13.7,
+  "precipitation": 2.2,
+  "sunshine": 19944.23,
+  "wind_speed_max": 24.8,
+  "sunrise": "1969-10-19T07:21",
+  "sunset": "1969-10-19T18:34",
+  "sunshine_duration_seconds": 19944.23,
+  "sunshine_duration_minutes": 332,
+  "estimated_daily_sunshine_minutes": 231,
+  "estimated_daily_sunshine": "3 h 51 min",
+  "sunshine_difference_minutes": 101,
+  "sunshine_consistency": "Faible"
+}

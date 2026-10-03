@@ -1,0 +1,18 @@
+{
+  "date": "1996-09-19",
+  "weather_code": 3,
+  "temp_max": 23.6,
+  "temp_min": 17.5,
+  "temp_mean": 20.1,
+  "precipitation": 0,
+  "sunshine": 41247.3,
+  "wind_speed_max": 28.2,
+  "sunrise": "1996-09-19T06:59",
+  "sunset": "1996-09-19T19:14",
+  "sunshine_duration_seconds": 41247.3,
+  "sunshine_duration_minutes": 687,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

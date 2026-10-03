@@ -1,0 +1,18 @@
+{
+  "date": "1955-01-30",
+  "weather_code": 63,
+  "temp_max": 11.7,
+  "temp_min": 8.2,
+  "temp_mean": 10,
+  "precipitation": 7.3,
+  "sunshine": 13849.84,
+  "wind_speed_max": 27.4,
+  "sunrise": "1955-01-30T08:12",
+  "sunset": "1955-01-30T18:41",
+  "sunshine_duration_seconds": 13849.84,
+  "sunshine_duration_minutes": 231,
+  "estimated_daily_sunshine_minutes": 153,
+  "estimated_daily_sunshine": "2 h 33 min",
+  "sunshine_difference_minutes": 78,
+  "sunshine_consistency": "Faible"
+}

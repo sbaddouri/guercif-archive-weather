@@ -1,0 +1,18 @@
+{
+  "date": "1975-04-22",
+  "weather_code": 51,
+  "temp_max": 18.5,
+  "temp_min": 11.8,
+  "temp_mean": 14.7,
+  "precipitation": 0.1,
+  "sunshine": 45811.05,
+  "wind_speed_max": 27.4,
+  "sunrise": "1975-04-22T06:34",
+  "sunset": "1975-04-22T19:49",
+  "sunshine_duration_seconds": 45811.05,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 414,
+  "estimated_daily_sunshine": "6 h 54 min",
+  "sunshine_difference_minutes": 350,
+  "sunshine_consistency": "Faible"
+}

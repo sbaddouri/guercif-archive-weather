@@ -1,0 +1,18 @@
+{
+  "date": "1998-05-22",
+  "weather_code": 53,
+  "temp_max": 21.4,
+  "temp_min": 14.2,
+  "temp_mean": 17.9,
+  "precipitation": 4.2,
+  "sunshine": 39860.56,
+  "wind_speed_max": 14.5,
+  "sunrise": "1998-05-22T06:07",
+  "sunset": "1998-05-22T20:13",
+  "sunshine_duration_seconds": 39860.56,
+  "sunshine_duration_minutes": 664,
+  "estimated_daily_sunshine_minutes": 282,
+  "estimated_daily_sunshine": "4 h 42 min",
+  "sunshine_difference_minutes": 382,
+  "sunshine_consistency": "Faible"
+}

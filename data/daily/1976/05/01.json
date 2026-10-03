@@ -1,0 +1,18 @@
+{
+  "date": "1976-05-01",
+  "weather_code": 63,
+  "temp_max": 11.6,
+  "temp_min": 9.9,
+  "temp_mean": 10.9,
+  "precipitation": 34.6,
+  "sunshine": 0,
+  "wind_speed_max": 24.5,
+  "sunrise": "1976-05-01T06:24",
+  "sunset": "1976-05-01T19:57",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 102,
+  "estimated_daily_sunshine": "1 h 42 min",
+  "sunshine_difference_minutes": 102,
+  "sunshine_consistency": "Faible"
+}

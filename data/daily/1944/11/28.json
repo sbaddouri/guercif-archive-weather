@@ -1,0 +1,18 @@
+{
+  "date": "1944-11-28",
+  "weather_code": 51,
+  "temp_max": 15.8,
+  "temp_min": 10.9,
+  "temp_mean": 13.4,
+  "precipitation": 0.3,
+  "sunshine": 30797.61,
+  "wind_speed_max": 12.5,
+  "sunrise": "1944-11-28T07:58",
+  "sunset": "1944-11-28T18:04",
+  "sunshine_duration_seconds": 30797.61,
+  "sunshine_duration_minutes": 513,
+  "estimated_daily_sunshine_minutes": 354,
+  "estimated_daily_sunshine": "5 h 54 min",
+  "sunshine_difference_minutes": 159,
+  "sunshine_consistency": "Faible"
+}

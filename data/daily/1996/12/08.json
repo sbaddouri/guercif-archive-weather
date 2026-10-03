@@ -1,0 +1,18 @@
+{
+  "date": "1996-12-08",
+  "weather_code": 53,
+  "temp_max": 8.9,
+  "temp_min": 2.9,
+  "temp_mean": 5.9,
+  "precipitation": 2.4,
+  "sunshine": 30396.02,
+  "wind_speed_max": 21.2,
+  "sunrise": "1996-12-08T08:07",
+  "sunset": "1996-12-08T18:03",
+  "sunshine_duration_seconds": 30396.02,
+  "sunshine_duration_minutes": 507,
+  "estimated_daily_sunshine_minutes": 288,
+  "estimated_daily_sunshine": "4 h 48 min",
+  "sunshine_difference_minutes": 219,
+  "sunshine_consistency": "Faible"
+}

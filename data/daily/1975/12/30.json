@@ -1,0 +1,18 @@
+{
+  "date": "1975-12-30",
+  "weather_code": 3,
+  "temp_max": 14.7,
+  "temp_min": 5,
+  "temp_mean": 9.4,
+  "precipitation": 0,
+  "sunshine": 33230.94,
+  "wind_speed_max": 10.4,
+  "sunrise": "1975-12-30T08:18",
+  "sunset": "1975-12-30T18:12",
+  "sunshine_duration_seconds": 33230.94,
+  "sunshine_duration_minutes": 554,
+  "estimated_daily_sunshine_minutes": 351,
+  "estimated_daily_sunshine": "5 h 51 min",
+  "sunshine_difference_minutes": 203,
+  "sunshine_consistency": "Faible"
+}

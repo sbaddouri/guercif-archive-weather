@@ -1,0 +1,18 @@
+{
+  "date": "1950-09-09",
+  "weather_code": 61,
+  "temp_max": 32,
+  "temp_min": 17.5,
+  "temp_mean": 24.5,
+  "precipitation": 2.1,
+  "sunshine": 43200,
+  "wind_speed_max": 22.6,
+  "sunrise": "1950-09-09T06:51",
+  "sunset": "1950-09-09T19:29",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 150,
+  "sunshine_consistency": "Faible"
+}

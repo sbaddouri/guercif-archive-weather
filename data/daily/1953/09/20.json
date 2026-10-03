@@ -1,0 +1,18 @@
+{
+  "date": "1953-09-20",
+  "weather_code": 2,
+  "temp_max": 31.2,
+  "temp_min": 17.2,
+  "temp_mean": 24.4,
+  "precipitation": 0,
+  "sunshine": 42968.18,
+  "wind_speed_max": 11.5,
+  "sunrise": "1953-09-20T06:59",
+  "sunset": "1953-09-20T19:13",
+  "sunshine_duration_seconds": 42968.18,
+  "sunshine_duration_minutes": 716,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 64,
+  "sunshine_consistency": "Faible"
+}

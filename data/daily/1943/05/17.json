@@ -1,0 +1,18 @@
+{
+  "date": "1943-05-17",
+  "weather_code": 1,
+  "temp_max": 31.6,
+  "temp_min": 16.9,
+  "temp_mean": 23.7,
+  "precipitation": 0,
+  "sunshine": 49506.2,
+  "wind_speed_max": 20.2,
+  "sunrise": "1943-05-17T06:10",
+  "sunset": "1943-05-17T20:09",
+  "sunshine_duration_seconds": 49506.2,
+  "sunshine_duration_minutes": 825,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

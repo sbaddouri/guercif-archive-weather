@@ -1,0 +1,18 @@
+{
+  "date": "1942-05-14",
+  "weather_code": 0,
+  "temp_max": 26.8,
+  "temp_min": 14,
+  "temp_mean": 19.9,
+  "precipitation": 0,
+  "sunshine": 49364.93,
+  "wind_speed_max": 15.9,
+  "sunrise": "1942-05-14T06:12",
+  "sunset": "1942-05-14T20:07",
+  "sunshine_duration_seconds": 49364.93,
+  "sunshine_duration_minutes": 823,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

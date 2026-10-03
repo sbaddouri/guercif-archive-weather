@@ -1,0 +1,18 @@
+{
+  "date": "1941-10-16",
+  "weather_code": 0,
+  "temp_max": 28.2,
+  "temp_min": 16.2,
+  "temp_mean": 22.1,
+  "precipitation": 0,
+  "sunshine": 39713.43,
+  "wind_speed_max": 12.4,
+  "sunrise": "1941-10-16T07:19",
+  "sunset": "1941-10-16T18:37",
+  "sunshine_duration_seconds": 39713.43,
+  "sunshine_duration_minutes": 662,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 2,
+  "sunshine_consistency": "Excellent"
+}

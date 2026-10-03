@@ -1,0 +1,18 @@
+{
+  "date": "1962-11-15",
+  "weather_code": 55,
+  "temp_max": 13.6,
+  "temp_min": 9.2,
+  "temp_mean": 11,
+  "precipitation": 3.6,
+  "sunshine": 36000,
+  "wind_speed_max": 8.7,
+  "sunrise": "1962-11-15T07:45",
+  "sunset": "1962-11-15T18:09",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 375,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1955-08-27",
+  "weather_code": 2,
+  "temp_max": 34.4,
+  "temp_min": 19.6,
+  "temp_mean": 25.9,
+  "precipitation": 0,
+  "sunshine": 44165.14,
+  "wind_speed_max": 32,
+  "sunrise": "1955-08-27T06:42",
+  "sunset": "1955-08-27T19:47",
+  "sunshine_duration_seconds": 44165.14,
+  "sunshine_duration_minutes": 736,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 76,
+  "sunshine_consistency": "Faible"
+}

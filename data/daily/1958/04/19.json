@@ -1,0 +1,18 @@
+{
+  "date": "1958-04-19",
+  "weather_code": 0,
+  "temp_max": 21.7,
+  "temp_min": 4.6,
+  "temp_mean": 13.7,
+  "precipitation": 0,
+  "sunshine": 45816.89,
+  "wind_speed_max": 11,
+  "sunrise": "1958-04-19T06:38",
+  "sunset": "1958-04-19T19:47",
+  "sunshine_duration_seconds": 45816.89,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

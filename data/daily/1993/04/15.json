@@ -1,0 +1,18 @@
+{
+  "date": "1993-04-15",
+  "weather_code": 61,
+  "temp_max": 15.7,
+  "temp_min": 10.2,
+  "temp_mean": 12.5,
+  "precipitation": 6.4,
+  "sunshine": 39247.14,
+  "wind_speed_max": 23.1,
+  "sunrise": "1993-04-15T06:42",
+  "sunset": "1993-04-15T19:45",
+  "sunshine_duration_seconds": 39247.14,
+  "sunshine_duration_minutes": 654,
+  "estimated_daily_sunshine_minutes": 312,
+  "estimated_daily_sunshine": "5 h 12 min",
+  "sunshine_difference_minutes": 342,
+  "sunshine_consistency": "Faible"
+}

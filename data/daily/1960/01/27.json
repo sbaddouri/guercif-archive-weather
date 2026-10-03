@@ -1,0 +1,18 @@
+{
+  "date": "1960-01-27",
+  "weather_code": 53,
+  "temp_max": 13.4,
+  "temp_min": 8.9,
+  "temp_mean": 10.8,
+  "precipitation": 4.5,
+  "sunshine": 24380.27,
+  "wind_speed_max": 16.6,
+  "sunrise": "1960-01-27T08:14",
+  "sunset": "1960-01-27T18:37",
+  "sunshine_duration_seconds": 24380.27,
+  "sunshine_duration_minutes": 406,
+  "estimated_daily_sunshine_minutes": 189,
+  "estimated_daily_sunshine": "3 h 09 min",
+  "sunshine_difference_minutes": 217,
+  "sunshine_consistency": "Faible"
+}

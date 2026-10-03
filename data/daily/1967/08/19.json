@@ -1,0 +1,18 @@
+{
+  "date": "1967-08-19",
+  "weather_code": 53,
+  "temp_max": 37.7,
+  "temp_min": 23.5,
+  "temp_mean": 29.8,
+  "precipitation": 0.5,
+  "sunshine": 46365.18,
+  "wind_speed_max": 19.2,
+  "sunrise": "1967-08-19T06:36",
+  "sunset": "1967-08-19T19:56",
+  "sunshine_duration_seconds": 46365.18,
+  "sunshine_duration_minutes": 773,
+  "estimated_daily_sunshine_minutes": 594,
+  "estimated_daily_sunshine": "9 h 54 min",
+  "sunshine_difference_minutes": 179,
+  "sunshine_consistency": "Faible"
+}

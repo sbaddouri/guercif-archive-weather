@@ -1,0 +1,18 @@
+{
+  "date": "1954-03-08",
+  "weather_code": 51,
+  "temp_max": 15.5,
+  "temp_min": 8.3,
+  "temp_mean": 11.2,
+  "precipitation": 0.7,
+  "sunshine": 30300.54,
+  "wind_speed_max": 37.6,
+  "sunrise": "1954-03-08T07:34",
+  "sunset": "1954-03-08T19:15",
+  "sunshine_duration_seconds": 30300.54,
+  "sunshine_duration_minutes": 505,
+  "estimated_daily_sunshine_minutes": 342,
+  "estimated_daily_sunshine": "5 h 42 min",
+  "sunshine_difference_minutes": 163,
+  "sunshine_consistency": "Faible"
+}

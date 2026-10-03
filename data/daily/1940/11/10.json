@@ -1,0 +1,18 @@
+{
+  "date": "1940-11-10",
+  "weather_code": 2,
+  "temp_max": 20.7,
+  "temp_min": 8,
+  "temp_mean": 14.1,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 28.9,
+  "sunrise": "1940-11-10T07:42",
+  "sunset": "1940-11-10T18:12",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 60,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1992-07-15",
+  "weather_code": 53,
+  "temp_max": 38.6,
+  "temp_min": 21.4,
+  "temp_mean": 29.1,
+  "precipitation": 0.6,
+  "sunshine": 46290.21,
+  "wind_speed_max": 17.5,
+  "sunrise": "1992-07-15T06:12",
+  "sunset": "1992-07-15T20:25",
+  "sunshine_duration_seconds": 46290.21,
+  "sunshine_duration_minutes": 772,
+  "estimated_daily_sunshine_minutes": 699,
+  "estimated_daily_sunshine": "11 h 39 min",
+  "sunshine_difference_minutes": 73,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1965-06-20",
+  "weather_code": 55,
+  "temp_max": 36,
+  "temp_min": 23.5,
+  "temp_mean": 29.7,
+  "precipitation": 1.1,
+  "sunshine": 41864.29,
+  "wind_speed_max": 23,
+  "sunrise": "1965-06-20T06:01",
+  "sunset": "1965-06-20T20:28",
+  "sunshine_duration_seconds": 41864.29,
+  "sunshine_duration_minutes": 698,
+  "estimated_daily_sunshine_minutes": 315,
+  "estimated_daily_sunshine": "5 h 15 min",
+  "sunshine_difference_minutes": 383,
+  "sunshine_consistency": "Faible"
+}

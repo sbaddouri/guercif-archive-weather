@@ -1,0 +1,18 @@
+{
+  "date": "1943-01-10",
+  "weather_code": 2,
+  "temp_max": 14.7,
+  "temp_min": 6.5,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 34177.92,
+  "wind_speed_max": 23.4,
+  "sunrise": "1943-01-10T08:19",
+  "sunset": "1943-01-10T18:22",
+  "sunshine_duration_seconds": 34177.92,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 30,
+  "sunshine_consistency": "Moyen"
+}

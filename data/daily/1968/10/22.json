@@ -1,0 +1,18 @@
+{
+  "date": "1968-10-22",
+  "weather_code": 0,
+  "temp_max": 25.8,
+  "temp_min": 12.3,
+  "temp_mean": 18.7,
+  "precipitation": 0,
+  "sunshine": 37125.86,
+  "wind_speed_max": 15.3,
+  "sunrise": "1968-10-22T07:24",
+  "sunset": "1968-10-22T18:31",
+  "sunshine_duration_seconds": 37125.86,
+  "sunshine_duration_minutes": 619,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 41,
+  "sunshine_consistency": "Faible"
+}

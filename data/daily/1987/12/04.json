@@ -1,0 +1,18 @@
+{
+  "date": "1987-12-04",
+  "weather_code": 55,
+  "temp_max": 17.8,
+  "temp_min": 10.3,
+  "temp_mean": 14,
+  "precipitation": 5.1,
+  "sunshine": 26942.63,
+  "wind_speed_max": 16.1,
+  "sunrise": "1987-12-04T08:03",
+  "sunset": "1987-12-04T18:03",
+  "sunshine_duration_seconds": 26942.63,
+  "sunshine_duration_minutes": 449,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 344,
+  "sunshine_consistency": "Faible"
+}

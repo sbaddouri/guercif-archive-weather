@@ -1,0 +1,18 @@
+{
+  "date": "1945-06-21",
+  "weather_code": 2,
+  "temp_max": 31.9,
+  "temp_min": 18.1,
+  "temp_mean": 25.4,
+  "precipitation": 0,
+  "sunshine": 49985,
+  "wind_speed_max": 25.5,
+  "sunrise": "1945-06-21T06:02",
+  "sunset": "1945-06-21T20:28",
+  "sunshine_duration_seconds": 49985,
+  "sunshine_duration_minutes": 833,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

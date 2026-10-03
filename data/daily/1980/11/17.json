@@ -1,0 +1,18 @@
+{
+  "date": "1980-11-17",
+  "weather_code": 51,
+  "temp_max": 15.6,
+  "temp_min": 11.3,
+  "temp_mean": 13.1,
+  "precipitation": 1.9,
+  "sunshine": 11766.62,
+  "wind_speed_max": 7.5,
+  "sunrise": "1980-11-17T07:48",
+  "sunset": "1980-11-17T18:08",
+  "sunshine_duration_seconds": 11766.62,
+  "sunshine_duration_minutes": 196,
+  "estimated_daily_sunshine_minutes": 123,
+  "estimated_daily_sunshine": "2 h 03 min",
+  "sunshine_difference_minutes": 73,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1974-08-13",
+  "weather_code": 61,
+  "temp_max": 38.6,
+  "temp_min": 23.1,
+  "temp_mean": 29.7,
+  "precipitation": 1.7,
+  "sunshine": 29583.83,
+  "wind_speed_max": 15.3,
+  "sunrise": "1974-08-13T06:32",
+  "sunset": "1974-08-13T20:03",
+  "sunshine_duration_seconds": 29583.83,
+  "sunshine_duration_minutes": 493,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 313,
+  "sunshine_consistency": "Faible"
+}

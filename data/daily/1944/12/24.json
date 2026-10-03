@@ -1,0 +1,18 @@
+{
+  "date": "1944-12-24",
+  "weather_code": 2,
+  "temp_max": 11.2,
+  "temp_min": 5.9,
+  "temp_mean": 8.3,
+  "precipitation": 0,
+  "sunshine": 34470.33,
+  "wind_speed_max": 6.5,
+  "sunrise": "1944-12-24T08:17",
+  "sunset": "1944-12-24T18:09",
+  "sunshine_duration_seconds": 34470.33,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 80,
+  "sunshine_consistency": "Faible"
+}

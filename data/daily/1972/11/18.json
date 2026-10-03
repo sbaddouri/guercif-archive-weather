@@ -1,0 +1,18 @@
+{
+  "date": "1972-11-18",
+  "weather_code": 51,
+  "temp_max": 17.4,
+  "temp_min": 12.5,
+  "temp_mean": 14.4,
+  "precipitation": 0.6,
+  "sunshine": 35768.83,
+  "wind_speed_max": 15.2,
+  "sunrise": "1972-11-18T07:49",
+  "sunset": "1972-11-18T18:07",
+  "sunshine_duration_seconds": 35768.83,
+  "sunshine_duration_minutes": 596,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 236,
+  "sunshine_consistency": "Faible"
+}

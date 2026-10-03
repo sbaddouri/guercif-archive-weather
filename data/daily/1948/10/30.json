@@ -1,0 +1,18 @@
+{
+  "date": "1948-10-30",
+  "weather_code": 51,
+  "temp_max": 20,
+  "temp_min": 10.7,
+  "temp_mean": 15.7,
+  "precipitation": 0.1,
+  "sunshine": 17420.32,
+  "wind_speed_max": 28,
+  "sunrise": "1948-10-30T07:32",
+  "sunset": "1948-10-30T18:21",
+  "sunshine_duration_seconds": 17420.32,
+  "sunshine_duration_minutes": 290,
+  "estimated_daily_sunshine_minutes": 162,
+  "estimated_daily_sunshine": "2 h 42 min",
+  "sunshine_difference_minutes": 128,
+  "sunshine_consistency": "Faible"
+}

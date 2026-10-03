@@ -1,0 +1,18 @@
+{
+  "date": "1957-01-02",
+  "weather_code": 53,
+  "temp_max": 14.4,
+  "temp_min": 9.9,
+  "temp_mean": 11.8,
+  "precipitation": 3.1,
+  "sunshine": 24430.2,
+  "wind_speed_max": 17.9,
+  "sunrise": "1957-01-02T08:19",
+  "sunset": "1957-01-02T18:15",
+  "sunshine_duration_seconds": 24430.2,
+  "sunshine_duration_minutes": 407,
+  "estimated_daily_sunshine_minutes": 111,
+  "estimated_daily_sunshine": "1 h 51 min",
+  "sunshine_difference_minutes": 296,
+  "sunshine_consistency": "Faible"
+}

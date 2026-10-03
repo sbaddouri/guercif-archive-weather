@@ -1,0 +1,18 @@
+{
+  "date": "1945-05-23",
+  "weather_code": 2,
+  "temp_max": 32.5,
+  "temp_min": 18.8,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 49743.54,
+  "wind_speed_max": 23.8,
+  "sunrise": "1945-05-23T06:06",
+  "sunset": "1945-05-23T20:14",
+  "sunshine_duration_seconds": 49743.54,
+  "sunshine_duration_minutes": 829,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 199,
+  "sunshine_consistency": "Faible"
+}

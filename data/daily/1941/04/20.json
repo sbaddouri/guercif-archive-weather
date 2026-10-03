@@ -1,0 +1,18 @@
+{
+  "date": "1941-04-20",
+  "weather_code": 3,
+  "temp_max": 27.1,
+  "temp_min": 11.7,
+  "temp_mean": 18.7,
+  "precipitation": 0,
+  "sunshine": 45905.78,
+  "wind_speed_max": 14.8,
+  "sunrise": "1941-04-20T06:36",
+  "sunset": "1941-04-20T19:49",
+  "sunshine_duration_seconds": 45905.78,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 426,
+  "estimated_daily_sunshine": "7 h 06 min",
+  "sunshine_difference_minutes": 339,
+  "sunshine_consistency": "Faible"
+}

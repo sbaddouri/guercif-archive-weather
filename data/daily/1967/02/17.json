@@ -1,0 +1,18 @@
+{
+  "date": "1967-02-17",
+  "weather_code": 61,
+  "temp_max": 16.1,
+  "temp_min": 8.3,
+  "temp_mean": 11.5,
+  "precipitation": 3.5,
+  "sunshine": 39178.41,
+  "wind_speed_max": 37.4,
+  "sunrise": "1967-02-17T07:57",
+  "sunset": "1967-02-17T18:58",
+  "sunshine_duration_seconds": 39178.41,
+  "sunshine_duration_minutes": 653,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

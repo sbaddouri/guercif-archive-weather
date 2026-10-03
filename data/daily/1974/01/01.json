@@ -1,0 +1,18 @@
+{
+  "date": "1974-01-01",
+  "weather_code": 1,
+  "temp_max": 13,
+  "temp_min": 3.5,
+  "temp_mean": 7.3,
+  "precipitation": 0,
+  "sunshine": 34201.52,
+  "wind_speed_max": 11,
+  "sunrise": "1974-01-01T08:19",
+  "sunset": "1974-01-01T18:14",
+  "sunshine_duration_seconds": 34201.52,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

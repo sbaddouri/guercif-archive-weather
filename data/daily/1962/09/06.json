@@ -1,0 +1,18 @@
+{
+  "date": "1962-09-06",
+  "weather_code": 51,
+  "temp_max": 38,
+  "temp_min": 22.2,
+  "temp_mean": 29.5,
+  "precipitation": 0.3,
+  "sunshine": 42474.55,
+  "wind_speed_max": 19.2,
+  "sunrise": "1962-09-06T06:49",
+  "sunset": "1962-09-06T19:33",
+  "sunshine_duration_seconds": 42474.55,
+  "sunshine_duration_minutes": 708,
+  "estimated_daily_sunshine_minutes": 606,
+  "estimated_daily_sunshine": "10 h 06 min",
+  "sunshine_difference_minutes": 102,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1951-05-08",
+  "weather_code": 51,
+  "temp_max": 18.1,
+  "temp_min": 9.3,
+  "temp_mean": 13.6,
+  "precipitation": 0.2,
+  "sunshine": 47944.73,
+  "wind_speed_max": 23.2,
+  "sunrise": "1951-05-08T06:18",
+  "sunset": "1951-05-08T20:02",
+  "sunshine_duration_seconds": 47944.73,
+  "sunshine_duration_minutes": 799,
+  "estimated_daily_sunshine_minutes": 546,
+  "estimated_daily_sunshine": "9 h 06 min",
+  "sunshine_difference_minutes": 253,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1959-10-24",
+  "weather_code": 2,
+  "temp_max": 27.3,
+  "temp_min": 12.6,
+  "temp_mean": 20,
+  "precipitation": 0,
+  "sunshine": 36912.1,
+  "wind_speed_max": 19.4,
+  "sunrise": "1959-10-24T07:25",
+  "sunset": "1959-10-24T18:29",
+  "sunshine_duration_seconds": 36912.1,
+  "sunshine_duration_minutes": 615,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

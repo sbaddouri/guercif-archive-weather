@@ -1,0 +1,18 @@
+{
+  "date": "1941-05-29",
+  "weather_code": 0,
+  "temp_max": 27.6,
+  "temp_min": 14.1,
+  "temp_mean": 20.1,
+  "precipitation": 0,
+  "sunshine": 49900.41,
+  "wind_speed_max": 21,
+  "sunrise": "1941-05-29T06:03",
+  "sunset": "1941-05-29T20:18",
+  "sunshine_duration_seconds": 49900.41,
+  "sunshine_duration_minutes": 832,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

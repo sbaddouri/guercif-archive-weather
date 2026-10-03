@@ -1,0 +1,18 @@
+{
+  "date": "1954-07-31",
+  "weather_code": 0,
+  "temp_max": 33.6,
+  "temp_min": 17.4,
+  "temp_mean": 26.5,
+  "precipitation": 0,
+  "sunshine": 47312.03,
+  "wind_speed_max": 22.4,
+  "sunrise": "1954-07-31T06:23",
+  "sunset": "1954-07-31T20:15",
+  "sunshine_duration_seconds": 47312.03,
+  "sunshine_duration_minutes": 789,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 51,
+  "sunshine_consistency": "Faible"
+}

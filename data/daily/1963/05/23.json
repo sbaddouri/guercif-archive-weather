@@ -1,0 +1,18 @@
+{
+  "date": "1963-05-23",
+  "weather_code": 1,
+  "temp_max": 20.8,
+  "temp_min": 10.8,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 49710.56,
+  "wind_speed_max": 15.7,
+  "sunrise": "1963-05-23T06:07",
+  "sunset": "1963-05-23T20:13",
+  "sunshine_duration_seconds": 49710.56,
+  "sunshine_duration_minutes": 829,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

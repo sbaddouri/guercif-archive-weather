@@ -1,0 +1,18 @@
+{
+  "date": "1967-12-01",
+  "weather_code": 63,
+  "temp_max": 12.5,
+  "temp_min": 8.1,
+  "temp_mean": 10.1,
+  "precipitation": 9.7,
+  "sunshine": 33497.65,
+  "wind_speed_max": 19.1,
+  "sunrise": "1967-12-01T08:00",
+  "sunset": "1967-12-01T18:03",
+  "sunshine_duration_seconds": 33497.65,
+  "sunshine_duration_minutes": 558,
+  "estimated_daily_sunshine_minutes": 309,
+  "estimated_daily_sunshine": "5 h 09 min",
+  "sunshine_difference_minutes": 249,
+  "sunshine_consistency": "Faible"
+}

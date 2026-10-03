@@ -1,0 +1,18 @@
+{
+  "date": "1987-11-10",
+  "weather_code": 3,
+  "temp_max": 18.3,
+  "temp_min": 13,
+  "temp_mean": 15.1,
+  "precipitation": 0,
+  "sunshine": 34932.74,
+  "wind_speed_max": 27.1,
+  "sunrise": "1987-11-10T07:41",
+  "sunset": "1987-11-10T18:13",
+  "sunshine_duration_seconds": 34932.74,
+  "sunshine_duration_minutes": 582,
+  "estimated_daily_sunshine_minutes": 294,
+  "estimated_daily_sunshine": "4 h 54 min",
+  "sunshine_difference_minutes": 288,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1982-03-09",
+  "weather_code": 53,
+  "temp_max": 16.7,
+  "temp_min": 6.2,
+  "temp_mean": 11,
+  "precipitation": 2.1,
+  "sunshine": 30206.62,
+  "wind_speed_max": 20,
+  "sunrise": "1982-03-09T07:32",
+  "sunset": "1982-03-09T19:16",
+  "sunshine_duration_seconds": 30206.62,
+  "sunshine_duration_minutes": 503,
+  "estimated_daily_sunshine_minutes": 252,
+  "estimated_daily_sunshine": "4 h 12 min",
+  "sunshine_difference_minutes": 251,
+  "sunshine_consistency": "Faible"
+}

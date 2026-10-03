@@ -1,0 +1,18 @@
+{
+  "date": "1940-06-12",
+  "weather_code": 1,
+  "temp_max": 26.9,
+  "temp_min": 15.8,
+  "temp_mean": 21.2,
+  "precipitation": 0,
+  "sunshine": 48886.2,
+  "wind_speed_max": 17,
+  "sunrise": "1940-06-12T06:01",
+  "sunset": "1940-06-12T20:26",
+  "sunshine_duration_seconds": 48886.2,
+  "sunshine_duration_minutes": 815,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

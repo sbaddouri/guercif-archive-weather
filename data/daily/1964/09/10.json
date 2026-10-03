@@ -1,0 +1,18 @@
+{
+  "date": "1964-09-10",
+  "weather_code": 1,
+  "temp_max": 36.7,
+  "temp_min": 17.6,
+  "temp_mean": 27.9,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 14.9,
+  "sunrise": "1964-09-10T06:53",
+  "sunset": "1964-09-10T19:27",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

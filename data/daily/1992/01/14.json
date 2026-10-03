@@ -1,0 +1,18 @@
+{
+  "date": "1992-01-14",
+  "weather_code": 3,
+  "temp_max": 14.7,
+  "temp_min": 7.3,
+  "temp_mean": 10.4,
+  "precipitation": 0,
+  "sunshine": 20010.31,
+  "wind_speed_max": 9.6,
+  "sunrise": "1992-01-14T08:19",
+  "sunset": "1992-01-14T18:25",
+  "sunshine_duration_seconds": 20010.31,
+  "sunshine_duration_minutes": 334,
+  "estimated_daily_sunshine_minutes": 84,
+  "estimated_daily_sunshine": "1 h 24 min",
+  "sunshine_difference_minutes": 250,
+  "sunshine_consistency": "Faible"
+}

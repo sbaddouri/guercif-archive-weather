@@ -1,0 +1,18 @@
+{
+  "date": "1951-09-25",
+  "weather_code": 1,
+  "temp_max": 33.9,
+  "temp_min": 17.7,
+  "temp_mean": 25.7,
+  "precipitation": 0,
+  "sunshine": 42777.87,
+  "wind_speed_max": 15.2,
+  "sunrise": "1951-09-25T07:02",
+  "sunset": "1951-09-25T19:07",
+  "sunshine_duration_seconds": 42777.87,
+  "sunshine_duration_minutes": 713,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

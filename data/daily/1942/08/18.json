@@ -1,0 +1,18 @@
+{
+  "date": "1942-08-18",
+  "weather_code": 0,
+  "temp_max": 34.6,
+  "temp_min": 22.1,
+  "temp_mean": 27.7,
+  "precipitation": 0,
+  "sunshine": 46377.2,
+  "wind_speed_max": 19,
+  "sunrise": "1942-08-18T06:37",
+  "sunset": "1942-08-18T19:57",
+  "sunshine_duration_seconds": 46377.2,
+  "sunshine_duration_minutes": 773,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1959-07-13",
+  "weather_code": 53,
+  "temp_max": 40.8,
+  "temp_min": 22.9,
+  "temp_mean": 30.4,
+  "precipitation": 0.6,
+  "sunshine": 48524.96,
+  "wind_speed_max": 21.4,
+  "sunrise": "1959-07-13T06:10",
+  "sunset": "1959-07-13T20:26",
+  "sunshine_duration_seconds": 48524.96,
+  "sunshine_duration_minutes": 809,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 224,
+  "sunshine_consistency": "Faible"
+}

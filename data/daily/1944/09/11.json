@@ -1,0 +1,18 @@
+{
+  "date": "1944-09-11",
+  "weather_code": 63,
+  "temp_max": 35.3,
+  "temp_min": 20.6,
+  "temp_mean": 26.2,
+  "precipitation": 2.9,
+  "sunshine": 37915.01,
+  "wind_speed_max": 24,
+  "sunrise": "1944-09-11T06:54",
+  "sunset": "1944-09-11T19:25",
+  "sunshine_duration_seconds": 37915.01,
+  "sunshine_duration_minutes": 632,
+  "estimated_daily_sunshine_minutes": 273,
+  "estimated_daily_sunshine": "4 h 33 min",
+  "sunshine_difference_minutes": 359,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1941-09-28",
+  "weather_code": 3,
+  "temp_max": 27.6,
+  "temp_min": 17.5,
+  "temp_mean": 22.3,
+  "precipitation": 0,
+  "sunshine": 41605.23,
+  "wind_speed_max": 9.8,
+  "sunrise": "1941-09-28T07:06",
+  "sunset": "1941-09-28T19:01",
+  "sunshine_duration_seconds": 41605.23,
+  "sunshine_duration_minutes": 693,
+  "estimated_daily_sunshine_minutes": 135,
+  "estimated_daily_sunshine": "2 h 15 min",
+  "sunshine_difference_minutes": 558,
+  "sunshine_consistency": "Faible"
+}

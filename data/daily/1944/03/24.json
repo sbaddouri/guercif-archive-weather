@@ -1,0 +1,18 @@
+{
+  "date": "1944-03-24",
+  "weather_code": 53,
+  "temp_max": 15.4,
+  "temp_min": 11.3,
+  "temp_mean": 13.4,
+  "precipitation": 2.7,
+  "sunshine": 7253.98,
+  "wind_speed_max": 25.3,
+  "sunrise": "1944-03-24T07:10",
+  "sunset": "1944-03-24T19:28",
+  "sunshine_duration_seconds": 7253.98,
+  "sunshine_duration_minutes": 121,
+  "estimated_daily_sunshine_minutes": 126,
+  "estimated_daily_sunshine": "2 h 06 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

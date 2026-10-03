@@ -1,0 +1,18 @@
+{
+  "date": "1942-11-23",
+  "weather_code": 53,
+  "temp_max": 16.9,
+  "temp_min": 9.1,
+  "temp_mean": 12.9,
+  "precipitation": 4.6,
+  "sunshine": 31063.5,
+  "wind_speed_max": 16,
+  "sunrise": "1942-11-23T07:53",
+  "sunset": "1942-11-23T18:05",
+  "sunshine_duration_seconds": 31063.5,
+  "sunshine_duration_minutes": 518,
+  "estimated_daily_sunshine_minutes": 216,
+  "estimated_daily_sunshine": "3 h 36 min",
+  "sunshine_difference_minutes": 302,
+  "sunshine_consistency": "Faible"
+}

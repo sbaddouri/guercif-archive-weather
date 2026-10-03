@@ -1,0 +1,18 @@
+{
+  "date": "1965-05-04",
+  "weather_code": 0,
+  "temp_max": 27,
+  "temp_min": 10.8,
+  "temp_mean": 19.4,
+  "precipitation": 0,
+  "sunshine": 47530.89,
+  "wind_speed_max": 12.7,
+  "sunrise": "1965-05-04T06:21",
+  "sunset": "1965-05-04T19:59",
+  "sunshine_duration_seconds": 47530.89,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

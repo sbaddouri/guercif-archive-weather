@@ -1,0 +1,18 @@
+{
+  "date": "1950-10-08",
+  "weather_code": 61,
+  "temp_max": 24.6,
+  "temp_min": 15.5,
+  "temp_mean": 19.1,
+  "precipitation": 10.7,
+  "sunshine": 28852.26,
+  "wind_speed_max": 12.8,
+  "sunrise": "1950-10-08T07:12",
+  "sunset": "1950-10-08T18:49",
+  "sunshine_duration_seconds": 28852.26,
+  "sunshine_duration_minutes": 481,
+  "estimated_daily_sunshine_minutes": 186,
+  "estimated_daily_sunshine": "3 h 06 min",
+  "sunshine_difference_minutes": 295,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1985-08-04",
+  "weather_code": 55,
+  "temp_max": 41.1,
+  "temp_min": 22.5,
+  "temp_mean": 31.6,
+  "precipitation": 1.7,
+  "sunshine": 46809.8,
+  "wind_speed_max": 13.6,
+  "sunrise": "1985-08-04T06:26",
+  "sunset": "1985-08-04T20:12",
+  "sunshine_duration_seconds": 46809.8,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 702,
+  "estimated_daily_sunshine": "11 h 42 min",
+  "sunshine_difference_minutes": 78,
+  "sunshine_consistency": "Faible"
+}

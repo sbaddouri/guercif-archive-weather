@@ -1,0 +1,18 @@
+{
+  "date": "1969-11-06",
+  "weather_code": 3,
+  "temp_max": 20.2,
+  "temp_min": 6.7,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 36052.67,
+  "wind_speed_max": 7.2,
+  "sunrise": "1969-11-06T07:37",
+  "sunset": "1969-11-06T18:16",
+  "sunshine_duration_seconds": 36052.67,
+  "sunshine_duration_minutes": 601,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

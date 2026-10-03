@@ -1,0 +1,18 @@
+{
+  "date": "1961-08-29",
+  "weather_code": 0,
+  "temp_max": 33.1,
+  "temp_min": 17.8,
+  "temp_mean": 24.7,
+  "precipitation": 0,
+  "sunshine": 45384.26,
+  "wind_speed_max": 19.2,
+  "sunrise": "1961-08-29T06:44",
+  "sunset": "1961-08-29T19:43",
+  "sunshine_duration_seconds": 45384.26,
+  "sunshine_duration_minutes": 756,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

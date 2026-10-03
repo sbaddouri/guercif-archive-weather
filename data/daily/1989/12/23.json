@@ -1,0 +1,18 @@
+{
+  "date": "1989-12-23",
+  "weather_code": 51,
+  "temp_max": 15,
+  "temp_min": 9.6,
+  "temp_mean": 12.6,
+  "precipitation": 1.3,
+  "sunshine": 33166.01,
+  "wind_speed_max": 9.4,
+  "sunrise": "1989-12-23T08:16",
+  "sunset": "1989-12-23T18:08",
+  "sunshine_duration_seconds": 33166.01,
+  "sunshine_duration_minutes": 553,
+  "estimated_daily_sunshine_minutes": 345,
+  "estimated_daily_sunshine": "5 h 45 min",
+  "sunshine_difference_minutes": 208,
+  "sunshine_consistency": "Faible"
+}

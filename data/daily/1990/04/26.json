@@ -1,0 +1,18 @@
+{
+  "date": "1990-04-26",
+  "weather_code": 3,
+  "temp_max": 25.7,
+  "temp_min": 8,
+  "temp_mean": 15.8,
+  "precipitation": 0,
+  "sunshine": 41497.35,
+  "wind_speed_max": 28.1,
+  "sunrise": "1990-04-26T06:29",
+  "sunset": "1990-04-26T19:53",
+  "sunshine_duration_seconds": 41497.35,
+  "sunshine_duration_minutes": 692,
+  "estimated_daily_sunshine_minutes": 363,
+  "estimated_daily_sunshine": "6 h 03 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

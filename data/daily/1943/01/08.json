@@ -1,0 +1,18 @@
+{
+  "date": "1943-01-08",
+  "weather_code": 55,
+  "temp_max": 14.1,
+  "temp_min": 4.8,
+  "temp_mean": 9.5,
+  "precipitation": 2.1,
+  "sunshine": 16850.95,
+  "wind_speed_max": 31.3,
+  "sunrise": "1943-01-08T08:20",
+  "sunset": "1943-01-08T18:20",
+  "sunshine_duration_seconds": 16850.95,
+  "sunshine_duration_minutes": 281,
+  "estimated_daily_sunshine_minutes": 150,
+  "estimated_daily_sunshine": "2 h 30 min",
+  "sunshine_difference_minutes": 131,
+  "sunshine_consistency": "Faible"
+}

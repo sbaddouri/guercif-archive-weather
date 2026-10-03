@@ -1,0 +1,18 @@
+{
+  "date": "1953-12-14",
+  "weather_code": 53,
+  "temp_max": 17.4,
+  "temp_min": 6.9,
+  "temp_mean": 11.5,
+  "precipitation": 2.9,
+  "sunshine": 32865.09,
+  "wind_speed_max": 13.1,
+  "sunrise": "1953-12-14T08:11",
+  "sunset": "1953-12-14T18:04",
+  "sunshine_duration_seconds": 32865.09,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 321,
+  "estimated_daily_sunshine": "5 h 21 min",
+  "sunshine_difference_minutes": 227,
+  "sunshine_consistency": "Faible"
+}

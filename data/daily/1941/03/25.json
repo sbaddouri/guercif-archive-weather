@@ -1,0 +1,18 @@
+{
+  "date": "1941-03-25",
+  "weather_code": 53,
+  "temp_max": 19.9,
+  "temp_min": 7.3,
+  "temp_mean": 13.1,
+  "precipitation": 2.3,
+  "sunshine": 38035.49,
+  "wind_speed_max": 18.8,
+  "sunrise": "1941-03-25T07:10",
+  "sunset": "1941-03-25T19:29",
+  "sunshine_duration_seconds": 38035.49,
+  "sunshine_duration_minutes": 634,
+  "estimated_daily_sunshine_minutes": 117,
+  "estimated_daily_sunshine": "1 h 57 min",
+  "sunshine_difference_minutes": 517,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1942-07-23",
+  "weather_code": 2,
+  "temp_max": 35,
+  "temp_min": 21,
+  "temp_mean": 27.8,
+  "precipitation": 0,
+  "sunshine": 47183.87,
+  "wind_speed_max": 15.4,
+  "sunrise": "1942-07-23T06:18",
+  "sunset": "1942-07-23T20:21",
+  "sunshine_duration_seconds": 47183.87,
+  "sunshine_duration_minutes": 786,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

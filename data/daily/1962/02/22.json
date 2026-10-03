@@ -1,0 +1,18 @@
+{
+  "date": "1962-02-22",
+  "weather_code": 2,
+  "temp_max": 17.4,
+  "temp_min": 3,
+  "temp_mean": 10.8,
+  "precipitation": 0,
+  "sunshine": 39544.79,
+  "wind_speed_max": 10.7,
+  "sunrise": "1962-02-22T07:51",
+  "sunset": "1962-02-22T19:03",
+  "sunshine_duration_seconds": 39544.79,
+  "sunshine_duration_minutes": 659,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 74,
+  "sunshine_consistency": "Faible"
+}

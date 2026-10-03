@@ -1,0 +1,18 @@
+{
+  "date": "1993-11-15",
+  "weather_code": 61,
+  "temp_max": 16.3,
+  "temp_min": 12.2,
+  "temp_mean": 14.3,
+  "precipitation": 11.6,
+  "sunshine": 9499.33,
+  "wind_speed_max": 22.7,
+  "sunrise": "1993-11-15T07:46",
+  "sunset": "1993-11-15T18:09",
+  "sunshine_duration_seconds": 9499.33,
+  "sunshine_duration_minutes": 158,
+  "estimated_daily_sunshine_minutes": 141,
+  "estimated_daily_sunshine": "2 h 21 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1997-02-13",
+  "weather_code": 0,
+  "temp_max": 21.7,
+  "temp_min": 6.9,
+  "temp_mean": 13.8,
+  "precipitation": 0,
+  "sunshine": 38786.74,
+  "wind_speed_max": 14.4,
+  "sunrise": "1997-02-13T08:00",
+  "sunset": "1997-02-13T18:55",
+  "sunshine_duration_seconds": 38786.74,
+  "sunshine_duration_minutes": 646,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

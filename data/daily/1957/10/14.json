@@ -1,0 +1,18 @@
+{
+  "date": "1957-10-14",
+  "weather_code": 53,
+  "temp_max": 25.6,
+  "temp_min": 13.2,
+  "temp_mean": 19,
+  "precipitation": 1.4,
+  "sunshine": 39166.86,
+  "wind_speed_max": 18.5,
+  "sunrise": "1957-10-14T07:17",
+  "sunset": "1957-10-14T18:41",
+  "sunshine_duration_seconds": 39166.86,
+  "sunshine_duration_minutes": 653,
+  "estimated_daily_sunshine_minutes": 408,
+  "estimated_daily_sunshine": "6 h 48 min",
+  "sunshine_difference_minutes": 245,
+  "sunshine_consistency": "Faible"
+}

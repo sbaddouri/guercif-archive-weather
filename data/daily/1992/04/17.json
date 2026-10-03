@@ -1,0 +1,18 @@
+{
+  "date": "1992-04-17",
+  "weather_code": 1,
+  "temp_max": 19.3,
+  "temp_min": 9.4,
+  "temp_mean": 13.9,
+  "precipitation": 0,
+  "sunshine": 45761.23,
+  "wind_speed_max": 20.1,
+  "sunrise": "1992-04-17T06:39",
+  "sunset": "1992-04-17T19:46",
+  "sunshine_duration_seconds": 45761.23,
+  "sunshine_duration_minutes": 763,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 2,
+  "sunshine_consistency": "Excellent"
+}

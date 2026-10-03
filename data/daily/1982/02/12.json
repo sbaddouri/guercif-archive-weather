@@ -1,0 +1,18 @@
+{
+  "date": "1982-02-12",
+  "weather_code": 55,
+  "temp_max": 16.9,
+  "temp_min": 9.2,
+  "temp_mean": 12.5,
+  "precipitation": 2.3,
+  "sunshine": 37077.49,
+  "wind_speed_max": 10.2,
+  "sunrise": "1982-02-12T08:01",
+  "sunset": "1982-02-12T18:54",
+  "sunshine_duration_seconds": 37077.49,
+  "sunshine_duration_minutes": 618,
+  "estimated_daily_sunshine_minutes": 342,
+  "estimated_daily_sunshine": "5 h 42 min",
+  "sunshine_difference_minutes": 276,
+  "sunshine_consistency": "Faible"
+}

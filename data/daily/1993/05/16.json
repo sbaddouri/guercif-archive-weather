@@ -1,0 +1,18 @@
+{
+  "date": "1993-05-16",
+  "weather_code": 3,
+  "temp_max": 29.7,
+  "temp_min": 13.3,
+  "temp_mean": 20.4,
+  "precipitation": 0,
+  "sunshine": 48143.39,
+  "wind_speed_max": 22.7,
+  "sunrise": "1993-05-16T06:11",
+  "sunset": "1993-05-16T20:09",
+  "sunshine_duration_seconds": 48143.39,
+  "sunshine_duration_minutes": 802,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 322,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1982-01-29",
+  "weather_code": 0,
+  "temp_max": 13.8,
+  "temp_min": -0.4,
+  "temp_mean": 6.5,
+  "precipitation": 0,
+  "sunshine": 37113.29,
+  "wind_speed_max": 9.1,
+  "sunrise": "1982-01-29T08:13",
+  "sunset": "1982-01-29T18:40",
+  "sunshine_duration_seconds": 37113.29,
+  "sunshine_duration_minutes": 619,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

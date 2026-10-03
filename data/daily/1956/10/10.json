@@ -1,0 +1,18 @@
+{
+  "date": "1956-10-10",
+  "weather_code": 51,
+  "temp_max": 26.9,
+  "temp_min": 15.7,
+  "temp_mean": 20.5,
+  "precipitation": 0.2,
+  "sunshine": 31306.39,
+  "wind_speed_max": 16.7,
+  "sunrise": "1956-10-10T07:14",
+  "sunset": "1956-10-10T18:45",
+  "sunshine_duration_seconds": 31306.39,
+  "sunshine_duration_minutes": 522,
+  "estimated_daily_sunshine_minutes": 297,
+  "estimated_daily_sunshine": "4 h 57 min",
+  "sunshine_difference_minutes": 225,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1988-02-07",
+  "weather_code": 55,
+  "temp_max": 11.4,
+  "temp_min": 5.8,
+  "temp_mean": 8.5,
+  "precipitation": 4.5,
+  "sunshine": 36970.84,
+  "wind_speed_max": 19.3,
+  "sunrise": "1988-02-07T08:06",
+  "sunset": "1988-02-07T18:48",
+  "sunshine_duration_seconds": 36970.84,
+  "sunshine_duration_minutes": 616,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 226,
+  "sunshine_consistency": "Faible"
+}

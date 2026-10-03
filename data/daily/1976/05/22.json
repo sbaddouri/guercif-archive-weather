@@ -1,0 +1,18 @@
+{
+  "date": "1976-05-22",
+  "weather_code": 53,
+  "temp_max": 26.3,
+  "temp_min": 14.3,
+  "temp_mean": 20.2,
+  "precipitation": 1.7,
+  "sunshine": 49261.05,
+  "wind_speed_max": 17.3,
+  "sunrise": "1976-05-22T06:07",
+  "sunset": "1976-05-22T20:13",
+  "sunshine_duration_seconds": 49261.05,
+  "sunshine_duration_minutes": 821,
+  "estimated_daily_sunshine_minutes": 663,
+  "estimated_daily_sunshine": "11 h 03 min",
+  "sunshine_difference_minutes": 158,
+  "sunshine_consistency": "Faible"
+}

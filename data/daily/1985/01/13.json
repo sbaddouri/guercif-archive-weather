@@ -1,0 +1,18 @@
+{
+  "date": "1985-01-13",
+  "weather_code": 53,
+  "temp_max": 10,
+  "temp_min": 3.3,
+  "temp_mean": 6.3,
+  "precipitation": 2.5,
+  "sunshine": 33839.08,
+  "wind_speed_max": 16.2,
+  "sunrise": "1985-01-13T08:19",
+  "sunset": "1985-01-13T18:25",
+  "sunshine_duration_seconds": 33839.08,
+  "sunshine_duration_minutes": 564,
+  "estimated_daily_sunshine_minutes": 108,
+  "estimated_daily_sunshine": "1 h 48 min",
+  "sunshine_difference_minutes": 456,
+  "sunshine_consistency": "Faible"
+}

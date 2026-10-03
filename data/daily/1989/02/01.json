@@ -1,0 +1,18 @@
+{
+  "date": "1989-02-01",
+  "weather_code": 0,
+  "temp_max": 15.3,
+  "temp_min": 3.6,
+  "temp_mean": 9,
+  "precipitation": 0,
+  "sunshine": 37448.25,
+  "wind_speed_max": 11.7,
+  "sunrise": "1989-02-01T08:10",
+  "sunset": "1989-02-01T18:43",
+  "sunshine_duration_seconds": 37448.25,
+  "sunshine_duration_minutes": 624,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

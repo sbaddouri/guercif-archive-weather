@@ -1,0 +1,18 @@
+{
+  "date": "1985-11-14",
+  "weather_code": 55,
+  "temp_max": 17.2,
+  "temp_min": 12.8,
+  "temp_mean": 14.5,
+  "precipitation": 4.7,
+  "sunshine": 15313.68,
+  "wind_speed_max": 10.2,
+  "sunrise": "1985-11-14T07:45",
+  "sunset": "1985-11-14T18:10",
+  "sunshine_duration_seconds": 15313.68,
+  "sunshine_duration_minutes": 255,
+  "estimated_daily_sunshine_minutes": 81,
+  "estimated_daily_sunshine": "1 h 21 min",
+  "sunshine_difference_minutes": 174,
+  "sunshine_consistency": "Faible"
+}

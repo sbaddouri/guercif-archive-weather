@@ -1,0 +1,18 @@
+{
+  "date": "1957-01-27",
+  "weather_code": 1,
+  "temp_max": 15.7,
+  "temp_min": -0.4,
+  "temp_mean": 7.7,
+  "precipitation": 0,
+  "sunshine": 36914.42,
+  "wind_speed_max": 9.7,
+  "sunrise": "1957-01-27T08:14",
+  "sunset": "1957-01-27T18:38",
+  "sunshine_duration_seconds": 36914.42,
+  "sunshine_duration_minutes": 615,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

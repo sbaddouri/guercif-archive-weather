@@ -1,0 +1,18 @@
+{
+  "date": "1965-04-15",
+  "weather_code": 1,
+  "temp_max": 22.2,
+  "temp_min": 9.7,
+  "temp_mean": 16.8,
+  "precipitation": 0,
+  "sunshine": 45643.61,
+  "wind_speed_max": 11.5,
+  "sunrise": "1965-04-15T06:42",
+  "sunset": "1965-04-15T19:44",
+  "sunshine_duration_seconds": 45643.61,
+  "sunshine_duration_minutes": 761,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

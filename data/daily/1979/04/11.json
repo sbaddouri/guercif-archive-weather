@@ -1,0 +1,18 @@
+{
+  "date": "1979-04-11",
+  "weather_code": 51,
+  "temp_max": 17.5,
+  "temp_min": 9.9,
+  "temp_mean": 13.4,
+  "precipitation": 0.1,
+  "sunshine": 44364.24,
+  "wind_speed_max": 26,
+  "sunrise": "1979-04-11T06:48",
+  "sunset": "1979-04-11T19:41",
+  "sunshine_duration_seconds": 44364.24,
+  "sunshine_duration_minutes": 739,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 184,
+  "sunshine_consistency": "Faible"
+}

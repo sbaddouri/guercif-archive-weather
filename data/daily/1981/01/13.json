@@ -1,0 +1,18 @@
+{
+  "date": "1981-01-13",
+  "weather_code": 71,
+  "temp_max": 6.5,
+  "temp_min": 1.4,
+  "temp_mean": 3.7,
+  "precipitation": 4.9,
+  "sunshine": 32158.81,
+  "wind_speed_max": 32,
+  "sunrise": "1981-01-13T08:19",
+  "sunset": "1981-01-13T18:25",
+  "sunshine_duration_seconds": 32158.81,
+  "sunshine_duration_minutes": 536,
+  "estimated_daily_sunshine_minutes": 129,
+  "estimated_daily_sunshine": "2 h 09 min",
+  "sunshine_difference_minutes": 407,
+  "sunshine_consistency": "Faible"
+}

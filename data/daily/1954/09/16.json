@@ -1,0 +1,18 @@
+{
+  "date": "1954-09-16",
+  "weather_code": 61,
+  "temp_max": 22.7,
+  "temp_min": 15.6,
+  "temp_mean": 18.8,
+  "precipitation": 5.4,
+  "sunshine": 32905.67,
+  "wind_speed_max": 17.7,
+  "sunrise": "1954-09-16T06:56",
+  "sunset": "1954-09-16T19:19",
+  "sunshine_duration_seconds": 32905.67,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 204,
+  "estimated_daily_sunshine": "3 h 24 min",
+  "sunshine_difference_minutes": 344,
+  "sunshine_consistency": "Faible"
+}

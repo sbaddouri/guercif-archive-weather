@@ -1,0 +1,18 @@
+{
+  "date": "1970-12-05",
+  "weather_code": 55,
+  "temp_max": 16.1,
+  "temp_min": 10,
+  "temp_mean": 12.7,
+  "precipitation": 5.2,
+  "sunshine": 32674.33,
+  "wind_speed_max": 8.7,
+  "sunrise": "1970-12-05T08:04",
+  "sunset": "1970-12-05T18:03",
+  "sunshine_duration_seconds": 32674.33,
+  "sunshine_duration_minutes": 545,
+  "estimated_daily_sunshine_minutes": 153,
+  "estimated_daily_sunshine": "2 h 33 min",
+  "sunshine_difference_minutes": 392,
+  "sunshine_consistency": "Faible"
+}

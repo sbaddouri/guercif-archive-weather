@@ -1,0 +1,18 @@
+{
+  "date": "1956-09-04",
+  "weather_code": 1,
+  "temp_max": 34.9,
+  "temp_min": 15.6,
+  "temp_mean": 24.2,
+  "precipitation": 0,
+  "sunshine": 43653.57,
+  "wind_speed_max": 21,
+  "sunrise": "1956-09-04T06:48",
+  "sunset": "1956-09-04T19:35",
+  "sunshine_duration_seconds": 43653.57,
+  "sunshine_duration_minutes": 728,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

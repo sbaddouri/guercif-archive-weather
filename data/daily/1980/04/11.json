@@ -1,0 +1,18 @@
+{
+  "date": "1980-04-11",
+  "weather_code": 53,
+  "temp_max": 16.8,
+  "temp_min": 9,
+  "temp_mean": 12.5,
+  "precipitation": 1.6,
+  "sunshine": 26789.83,
+  "wind_speed_max": 15.3,
+  "sunrise": "1980-04-11T06:47",
+  "sunset": "1980-04-11T19:42",
+  "sunshine_duration_seconds": 26789.83,
+  "sunshine_duration_minutes": 446,
+  "estimated_daily_sunshine_minutes": 117,
+  "estimated_daily_sunshine": "1 h 57 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

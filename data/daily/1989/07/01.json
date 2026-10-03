@@ -1,0 +1,18 @@
+{
+  "date": "1989-07-01",
+  "weather_code": 1,
+  "temp_max": 38.3,
+  "temp_min": 21.8,
+  "temp_mean": 30.5,
+  "precipitation": 0,
+  "sunshine": 49313.51,
+  "wind_speed_max": 14.8,
+  "sunrise": "1989-07-01T06:05",
+  "sunset": "1989-07-01T20:29",
+  "sunshine_duration_seconds": 49313.51,
+  "sunshine_duration_minutes": 822,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1957-08-19",
+  "weather_code": 2,
+  "temp_max": 34.3,
+  "temp_min": 22.2,
+  "temp_mean": 27.8,
+  "precipitation": 0,
+  "sunshine": 46334,
+  "wind_speed_max": 24.6,
+  "sunrise": "1957-08-19T06:37",
+  "sunset": "1957-08-19T19:56",
+  "sunshine_duration_seconds": 46334,
+  "sunshine_duration_minutes": 772,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

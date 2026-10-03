@@ -1,0 +1,18 @@
+{
+  "date": "1957-11-09",
+  "weather_code": 55,
+  "temp_max": 15.9,
+  "temp_min": 9.3,
+  "temp_mean": 12.6,
+  "precipitation": 1.9,
+  "sunshine": 36000,
+  "wind_speed_max": 40.3,
+  "sunrise": "1957-11-09T07:40",
+  "sunset": "1957-11-09T18:14",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

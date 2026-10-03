@@ -1,0 +1,18 @@
+{
+  "date": "1957-01-09",
+  "weather_code": 3,
+  "temp_max": 16.9,
+  "temp_min": 2.8,
+  "temp_mean": 9.6,
+  "precipitation": 0,
+  "sunshine": 34517.02,
+  "wind_speed_max": 8.5,
+  "sunrise": "1957-01-09T08:20",
+  "sunset": "1957-01-09T18:21",
+  "sunshine_duration_seconds": 34517.02,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

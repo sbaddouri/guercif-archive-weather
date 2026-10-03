@@ -1,0 +1,18 @@
+{
+  "date": "1955-09-30",
+  "weather_code": 3,
+  "temp_max": 27,
+  "temp_min": 16.6,
+  "temp_mean": 20.6,
+  "precipitation": 0,
+  "sunshine": 34100.02,
+  "wind_speed_max": 18.3,
+  "sunrise": "1955-09-30T07:06",
+  "sunset": "1955-09-30T19:00",
+  "sunshine_duration_seconds": 34100.02,
+  "sunshine_duration_minutes": 568,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 502,
+  "sunshine_consistency": "Faible"
+}

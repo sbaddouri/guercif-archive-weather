@@ -1,0 +1,18 @@
+{
+  "date": "1980-02-13",
+  "weather_code": 3,
+  "temp_max": 21,
+  "temp_min": 3.5,
+  "temp_mean": 12.9,
+  "precipitation": 0,
+  "sunshine": 38681.29,
+  "wind_speed_max": 14.2,
+  "sunrise": "1980-02-13T08:01",
+  "sunset": "1980-02-13T18:54",
+  "sunshine_duration_seconds": 38681.29,
+  "sunshine_duration_minutes": 645,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 60,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1979-01-07",
+  "weather_code": 1,
+  "temp_max": 19.4,
+  "temp_min": 10.4,
+  "temp_mean": 15.5,
+  "precipitation": 0,
+  "sunshine": 34514.04,
+  "wind_speed_max": 44.8,
+  "sunrise": "1979-01-07T08:20",
+  "sunset": "1979-01-07T18:19",
+  "sunshine_duration_seconds": 34514.04,
+  "sunshine_duration_minutes": 575,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

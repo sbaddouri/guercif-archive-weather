@@ -1,0 +1,18 @@
+{
+  "date": "1983-06-23",
+  "weather_code": 51,
+  "temp_max": 28.8,
+  "temp_min": 16.9,
+  "temp_mean": 23,
+  "precipitation": 0.1,
+  "sunshine": 42977.18,
+  "wind_speed_max": 17.7,
+  "sunrise": "1983-06-23T06:02",
+  "sunset": "1983-06-23T20:28",
+  "sunshine_duration_seconds": 42977.18,
+  "sunshine_duration_minutes": 716,
+  "estimated_daily_sunshine_minutes": 504,
+  "estimated_daily_sunshine": "8 h 24 min",
+  "sunshine_difference_minutes": 212,
+  "sunshine_consistency": "Faible"
+}

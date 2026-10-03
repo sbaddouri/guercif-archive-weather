@@ -1,0 +1,18 @@
+{
+  "date": "1975-05-10",
+  "weather_code": 51,
+  "temp_max": 14.3,
+  "temp_min": 11.8,
+  "temp_mean": 13.3,
+  "precipitation": 4.1,
+  "sunshine": 14036.22,
+  "wind_speed_max": 14,
+  "sunrise": "1975-05-10T06:16",
+  "sunset": "1975-05-10T20:04",
+  "sunshine_duration_seconds": 14036.22,
+  "sunshine_duration_minutes": 234,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

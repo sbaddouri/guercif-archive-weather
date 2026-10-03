@@ -1,0 +1,18 @@
+{
+  "date": "1989-03-19",
+  "weather_code": 55,
+  "temp_max": 11.6,
+  "temp_min": 6.7,
+  "temp_mean": 9.1,
+  "precipitation": 8.9,
+  "sunshine": 2028.59,
+  "wind_speed_max": 27.3,
+  "sunrise": "1989-03-19T07:18",
+  "sunset": "1989-03-19T19:24",
+  "sunshine_duration_seconds": 2028.59,
+  "sunshine_duration_minutes": 34,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 71,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1962-04-01",
+  "weather_code": 3,
+  "temp_max": 27.2,
+  "temp_min": 10.5,
+  "temp_mean": 18.8,
+  "precipitation": 0,
+  "sunshine": 43633.02,
+  "wind_speed_max": 15.1,
+  "sunrise": "1962-04-01T07:01",
+  "sunset": "1962-04-01T19:33",
+  "sunshine_duration_seconds": 43633.02,
+  "sunshine_duration_minutes": 727,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

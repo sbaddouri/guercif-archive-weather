@@ -1,0 +1,18 @@
+{
+  "date": "1951-12-23",
+  "weather_code": 53,
+  "temp_max": 11.4,
+  "temp_min": 5.4,
+  "temp_mean": 8.3,
+  "precipitation": 2.6,
+  "sunshine": 23892.2,
+  "wind_speed_max": 23,
+  "sunrise": "1951-12-23T08:16",
+  "sunset": "1951-12-23T18:08",
+  "sunshine_duration_seconds": 23892.2,
+  "sunshine_duration_minutes": 398,
+  "estimated_daily_sunshine_minutes": 114,
+  "estimated_daily_sunshine": "1 h 54 min",
+  "sunshine_difference_minutes": 284,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1989-07-12",
+  "weather_code": 51,
+  "temp_max": 34.2,
+  "temp_min": 22.4,
+  "temp_mean": 28,
+  "precipitation": 0.2,
+  "sunshine": 44618.42,
+  "wind_speed_max": 20.8,
+  "sunrise": "1989-07-12T06:10",
+  "sunset": "1989-07-12T20:27",
+  "sunshine_duration_seconds": 44618.42,
+  "sunshine_duration_minutes": 744,
+  "estimated_daily_sunshine_minutes": 612,
+  "estimated_daily_sunshine": "10 h 12 min",
+  "sunshine_difference_minutes": 132,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1997-05-15",
+  "weather_code": 3,
+  "temp_max": 21.3,
+  "temp_min": 14.2,
+  "temp_mean": 17.4,
+  "precipitation": 0,
+  "sunshine": 39410,
+  "wind_speed_max": 11.3,
+  "sunrise": "1997-05-15T06:11",
+  "sunset": "1997-05-15T20:08",
+  "sunshine_duration_seconds": 39410,
+  "sunshine_duration_minutes": 657,
+  "estimated_daily_sunshine_minutes": 408,
+  "estimated_daily_sunshine": "6 h 48 min",
+  "sunshine_difference_minutes": 249,
+  "sunshine_consistency": "Faible"
+}

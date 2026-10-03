@@ -1,0 +1,18 @@
+{
+  "date": "1979-07-03",
+  "weather_code": 55,
+  "temp_max": 22.5,
+  "temp_min": 16.7,
+  "temp_mean": 19.3,
+  "precipitation": 4.1,
+  "sunshine": 30862.78,
+  "wind_speed_max": 17.2,
+  "sunrise": "1979-07-03T06:05",
+  "sunset": "1979-07-03T20:29",
+  "sunshine_duration_seconds": 30862.78,
+  "sunshine_duration_minutes": 514,
+  "estimated_daily_sunshine_minutes": 318,
+  "estimated_daily_sunshine": "5 h 18 min",
+  "sunshine_difference_minutes": 196,
+  "sunshine_consistency": "Faible"
+}

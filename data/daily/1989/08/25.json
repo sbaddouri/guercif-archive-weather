@@ -1,0 +1,18 @@
+{
+  "date": "1989-08-25",
+  "weather_code": 53,
+  "temp_max": 38.1,
+  "temp_min": 26.2,
+  "temp_mean": 31.3,
+  "precipitation": 0.9,
+  "sunshine": 41413.21,
+  "wind_speed_max": 11.1,
+  "sunrise": "1989-08-25T06:41",
+  "sunset": "1989-08-25T19:48",
+  "sunshine_duration_seconds": 41413.21,
+  "sunshine_duration_minutes": 690,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 585,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1960-03-09",
+  "weather_code": 53,
+  "temp_max": 20,
+  "temp_min": 10.2,
+  "temp_mean": 14.3,
+  "precipitation": 5,
+  "sunshine": 37514.03,
+  "wind_speed_max": 22.1,
+  "sunrise": "1960-03-09T07:32",
+  "sunset": "1960-03-09T19:16",
+  "sunshine_duration_seconds": 37514.03,
+  "sunshine_duration_minutes": 625,
+  "estimated_daily_sunshine_minutes": 234,
+  "estimated_daily_sunshine": "3 h 54 min",
+  "sunshine_difference_minutes": 391,
+  "sunshine_consistency": "Faible"
+}

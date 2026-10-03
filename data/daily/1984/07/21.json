@@ -1,0 +1,18 @@
+{
+  "date": "1984-07-21",
+  "weather_code": 2,
+  "temp_max": 42.4,
+  "temp_min": 24.2,
+  "temp_mean": 32.8,
+  "precipitation": 0,
+  "sunshine": 47445.5,
+  "wind_speed_max": 19.8,
+  "sunrise": "1984-07-21T06:16",
+  "sunset": "1984-07-21T20:22",
+  "sunshine_duration_seconds": 47445.5,
+  "sunshine_duration_minutes": 791,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 131,
+  "sunshine_consistency": "Faible"
+}

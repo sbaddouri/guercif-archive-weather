@@ -1,0 +1,18 @@
+{
+  "date": "1961-05-19",
+  "weather_code": 2,
+  "temp_max": 31.4,
+  "temp_min": 14.1,
+  "temp_mean": 23.8,
+  "precipitation": 0,
+  "sunshine": 49589.44,
+  "wind_speed_max": 23.6,
+  "sunrise": "1961-05-19T06:09",
+  "sunset": "1961-05-19T20:11",
+  "sunshine_duration_seconds": 49589.44,
+  "sunshine_duration_minutes": 826,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 181,
+  "sunshine_consistency": "Faible"
+}

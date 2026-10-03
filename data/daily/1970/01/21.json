@@ -1,0 +1,18 @@
+{
+  "date": "1970-01-21",
+  "weather_code": 2,
+  "temp_max": 16.3,
+  "temp_min": 3.6,
+  "temp_mean": 9.9,
+  "precipitation": 0,
+  "sunshine": 35382.24,
+  "wind_speed_max": 11.5,
+  "sunrise": "1970-01-21T08:17",
+  "sunset": "1970-01-21T18:32",
+  "sunshine_duration_seconds": 35382.24,
+  "sunshine_duration_minutes": 590,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

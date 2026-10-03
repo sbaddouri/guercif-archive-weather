@@ -1,0 +1,18 @@
+{
+  "date": "1970-02-14",
+  "weather_code": 51,
+  "temp_max": 12.3,
+  "temp_min": 8.2,
+  "temp_mean": 10.1,
+  "precipitation": 0.2,
+  "sunshine": 20501.55,
+  "wind_speed_max": 23.9,
+  "sunrise": "1970-02-14T08:00",
+  "sunset": "1970-02-14T18:55",
+  "sunshine_duration_seconds": 20501.55,
+  "sunshine_duration_minutes": 342,
+  "estimated_daily_sunshine_minutes": 258,
+  "estimated_daily_sunshine": "4 h 18 min",
+  "sunshine_difference_minutes": 84,
+  "sunshine_consistency": "Faible"
+}

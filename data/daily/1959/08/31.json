@@ -1,0 +1,18 @@
+{
+  "date": "1959-08-31",
+  "weather_code": 1,
+  "temp_max": 33,
+  "temp_min": 19.9,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 44593.67,
+  "wind_speed_max": 12.6,
+  "sunrise": "1959-08-31T06:45",
+  "sunset": "1959-08-31T19:41",
+  "sunshine_duration_seconds": 44593.67,
+  "sunshine_duration_minutes": 743,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 38,
+  "sunshine_consistency": "Faible"
+}

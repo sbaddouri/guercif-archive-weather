@@ -1,0 +1,18 @@
+{
+  "date": "1966-05-19",
+  "weather_code": 0,
+  "temp_max": 30.1,
+  "temp_min": 13.5,
+  "temp_mean": 22.4,
+  "precipitation": 0,
+  "sunshine": 49581.85,
+  "wind_speed_max": 23.2,
+  "sunrise": "1966-05-19T06:09",
+  "sunset": "1966-05-19T20:10",
+  "sunshine_duration_seconds": 49581.85,
+  "sunshine_duration_minutes": 826,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

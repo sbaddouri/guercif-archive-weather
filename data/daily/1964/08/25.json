@@ -1,0 +1,18 @@
+{
+  "date": "1964-08-25",
+  "weather_code": 0,
+  "temp_max": 33.9,
+  "temp_min": 17.8,
+  "temp_mean": 24.9,
+  "precipitation": 0,
+  "sunshine": 45871.31,
+  "wind_speed_max": 23.7,
+  "sunrise": "1964-08-25T06:41",
+  "sunset": "1964-08-25T19:48",
+  "sunshine_duration_seconds": 45871.31,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

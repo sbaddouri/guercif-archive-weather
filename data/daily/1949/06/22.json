@@ -1,0 +1,18 @@
+{
+  "date": "1949-06-22",
+  "weather_code": 3,
+  "temp_max": 30.7,
+  "temp_min": 20.9,
+  "temp_mean": 25.8,
+  "precipitation": 0,
+  "sunshine": 49836.5,
+  "wind_speed_max": 17.3,
+  "sunrise": "1949-06-22T06:02",
+  "sunset": "1949-06-22T20:28",
+  "sunshine_duration_seconds": 49836.5,
+  "sunshine_duration_minutes": 831,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 126,
+  "sunshine_consistency": "Faible"
+}

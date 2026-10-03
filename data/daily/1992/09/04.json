@@ -1,0 +1,18 @@
+{
+  "date": "1992-09-04",
+  "weather_code": 0,
+  "temp_max": 33.9,
+  "temp_min": 19.5,
+  "temp_mean": 25.8,
+  "precipitation": 0,
+  "sunshine": 43382.83,
+  "wind_speed_max": 23.5,
+  "sunrise": "1992-09-04T06:49",
+  "sunset": "1992-09-04T19:35",
+  "sunshine_duration_seconds": 43382.83,
+  "sunshine_duration_minutes": 723,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1970-08-29",
+  "weather_code": 2,
+  "temp_max": 32.7,
+  "temp_min": 21.2,
+  "temp_mean": 26,
+  "precipitation": 0,
+  "sunshine": 43968.44,
+  "wind_speed_max": 20.7,
+  "sunrise": "1970-08-29T06:44",
+  "sunset": "1970-08-29T19:44",
+  "sunshine_duration_seconds": 43968.44,
+  "sunshine_duration_minutes": 733,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

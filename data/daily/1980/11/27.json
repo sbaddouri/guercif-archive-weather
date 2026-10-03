@@ -1,0 +1,18 @@
+{
+  "date": "1980-11-27",
+  "weather_code": 2,
+  "temp_max": 13.3,
+  "temp_min": 4.6,
+  "temp_mean": 8.8,
+  "precipitation": 0,
+  "sunshine": 35863.04,
+  "wind_speed_max": 23.6,
+  "sunrise": "1980-11-27T07:57",
+  "sunset": "1980-11-27T18:04",
+  "sunshine_duration_seconds": 35863.04,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 103,
+  "sunshine_consistency": "Faible"
+}

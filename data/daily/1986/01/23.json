@@ -1,0 +1,18 @@
+{
+  "date": "1986-01-23",
+  "weather_code": 1,
+  "temp_max": 15.1,
+  "temp_min": 5.7,
+  "temp_mean": 9.9,
+  "precipitation": 0,
+  "sunshine": 35988.83,
+  "wind_speed_max": 18,
+  "sunrise": "1986-01-23T08:16",
+  "sunset": "1986-01-23T18:34",
+  "sunshine_duration_seconds": 35988.83,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

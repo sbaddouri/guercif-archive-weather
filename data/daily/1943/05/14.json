@@ -1,0 +1,18 @@
+{
+  "date": "1943-05-14",
+  "weather_code": 51,
+  "temp_max": 26.7,
+  "temp_min": 15.3,
+  "temp_mean": 20,
+  "precipitation": 0.1,
+  "sunshine": 47885.3,
+  "wind_speed_max": 21.7,
+  "sunrise": "1943-05-14T06:12",
+  "sunset": "1943-05-14T20:07",
+  "sunshine_duration_seconds": 47885.3,
+  "sunshine_duration_minutes": 798,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 198,
+  "sunshine_consistency": "Faible"
+}

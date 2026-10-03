@@ -1,0 +1,18 @@
+{
+  "date": "1976-05-10",
+  "weather_code": 51,
+  "temp_max": 18.4,
+  "temp_min": 12.7,
+  "temp_mean": 15.1,
+  "precipitation": 0.5,
+  "sunshine": 44232.08,
+  "wind_speed_max": 17.1,
+  "sunrise": "1976-05-10T06:15",
+  "sunset": "1976-05-10T20:04",
+  "sunshine_duration_seconds": 44232.08,
+  "sunshine_duration_minutes": 737,
+  "estimated_daily_sunshine_minutes": 501,
+  "estimated_daily_sunshine": "8 h 21 min",
+  "sunshine_difference_minutes": 236,
+  "sunshine_consistency": "Faible"
+}

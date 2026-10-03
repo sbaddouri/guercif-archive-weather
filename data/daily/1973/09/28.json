@@ -1,0 +1,18 @@
+{
+  "date": "1973-09-28",
+  "weather_code": 0,
+  "temp_max": 32.5,
+  "temp_min": 14.8,
+  "temp_mean": 24.5,
+  "precipitation": 0,
+  "sunshine": 42509.32,
+  "wind_speed_max": 20.5,
+  "sunrise": "1973-09-28T07:05",
+  "sunset": "1973-09-28T19:02",
+  "sunshine_duration_seconds": 42509.32,
+  "sunshine_duration_minutes": 708,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

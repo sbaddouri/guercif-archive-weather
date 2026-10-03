@@ -1,0 +1,18 @@
+{
+  "date": "1977-06-25",
+  "weather_code": 0,
+  "temp_max": 32.3,
+  "temp_min": 15,
+  "temp_mean": 23,
+  "precipitation": 0,
+  "sunshine": 49880.15,
+  "wind_speed_max": 26.5,
+  "sunrise": "1977-06-25T06:03",
+  "sunset": "1977-06-25T20:29",
+  "sunshine_duration_seconds": 49880.15,
+  "sunshine_duration_minutes": 831,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

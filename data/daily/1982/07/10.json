@@ -1,0 +1,18 @@
+{
+  "date": "1982-07-10",
+  "weather_code": 55,
+  "temp_max": 40.1,
+  "temp_min": 22.2,
+  "temp_mean": 31.1,
+  "precipitation": 1,
+  "sunshine": 44707.52,
+  "wind_speed_max": 19.4,
+  "sunrise": "1982-07-10T06:09",
+  "sunset": "1982-07-10T20:27",
+  "sunshine_duration_seconds": 44707.52,
+  "sunshine_duration_minutes": 745,
+  "estimated_daily_sunshine_minutes": 576,
+  "estimated_daily_sunshine": "9 h 36 min",
+  "sunshine_difference_minutes": 169,
+  "sunshine_consistency": "Faible"
+}

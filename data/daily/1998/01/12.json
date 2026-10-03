@@ -1,0 +1,18 @@
+{
+  "date": "1998-01-12",
+  "weather_code": 51,
+  "temp_max": 16.4,
+  "temp_min": 9.3,
+  "temp_mean": 12.5,
+  "precipitation": 0.6,
+  "sunshine": 2827.39,
+  "wind_speed_max": 18.1,
+  "sunrise": "1998-01-12T08:19",
+  "sunset": "1998-01-12T18:23",
+  "sunshine_duration_seconds": 2827.39,
+  "sunshine_duration_minutes": 47,
+  "estimated_daily_sunshine_minutes": 108,
+  "estimated_daily_sunshine": "1 h 48 min",
+  "sunshine_difference_minutes": 61,
+  "sunshine_consistency": "Faible"
+}

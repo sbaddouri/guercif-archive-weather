@@ -1,0 +1,18 @@
+{
+  "date": "1949-05-09",
+  "weather_code": 53,
+  "temp_max": 23.5,
+  "temp_min": 13.9,
+  "temp_mean": 18.7,
+  "precipitation": 1,
+  "sunshine": 44633.18,
+  "wind_speed_max": 13.2,
+  "sunrise": "1949-05-09T06:16",
+  "sunset": "1949-05-09T20:04",
+  "sunshine_duration_seconds": 44633.18,
+  "sunshine_duration_minutes": 744,
+  "estimated_daily_sunshine_minutes": 372,
+  "estimated_daily_sunshine": "6 h 12 min",
+  "sunshine_difference_minutes": 372,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1953-04-26",
+  "weather_code": 63,
+  "temp_max": 18.3,
+  "temp_min": 11.7,
+  "temp_mean": 14.7,
+  "precipitation": 5.3,
+  "sunshine": 28026.3,
+  "wind_speed_max": 22,
+  "sunrise": "1953-04-26T06:29",
+  "sunset": "1953-04-26T19:53",
+  "sunshine_duration_seconds": 28026.3,
+  "sunshine_duration_minutes": 467,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 227,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1948-02-27",
+  "weather_code": 51,
+  "temp_max": 14.3,
+  "temp_min": 9.7,
+  "temp_mean": 11.6,
+  "precipitation": 0.2,
+  "sunshine": 27625.01,
+  "wind_speed_max": 37.5,
+  "sunrise": "1948-02-27T07:45",
+  "sunset": "1948-02-27T19:07",
+  "sunshine_duration_seconds": 27625.01,
+  "sunshine_duration_minutes": 460,
+  "estimated_daily_sunshine_minutes": 177,
+  "estimated_daily_sunshine": "2 h 57 min",
+  "sunshine_difference_minutes": 283,
+  "sunshine_consistency": "Faible"
+}

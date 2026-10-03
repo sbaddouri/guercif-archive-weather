@@ -1,0 +1,18 @@
+{
+  "date": "1976-04-22",
+  "weather_code": 51,
+  "temp_max": 18.9,
+  "temp_min": 9.4,
+  "temp_mean": 14.2,
+  "precipitation": 0.1,
+  "sunshine": 43232.39,
+  "wind_speed_max": 24.3,
+  "sunrise": "1976-04-22T06:34",
+  "sunset": "1976-04-22T19:50",
+  "sunshine_duration_seconds": 43232.39,
+  "sunshine_duration_minutes": 721,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 151,
+  "sunshine_consistency": "Faible"
+}

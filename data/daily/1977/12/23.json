@@ -1,0 +1,18 @@
+{
+  "date": "1977-12-23",
+  "weather_code": 2,
+  "temp_max": 19.2,
+  "temp_min": 6.6,
+  "temp_mean": 13.5,
+  "precipitation": 0,
+  "sunshine": 34457.79,
+  "wind_speed_max": 9.3,
+  "sunrise": "1977-12-23T08:16",
+  "sunset": "1977-12-23T18:08",
+  "sunshine_duration_seconds": 34457.79,
+  "sunshine_duration_minutes": 574,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 109,
+  "sunshine_consistency": "Faible"
+}

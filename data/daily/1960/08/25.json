@@ -1,0 +1,18 @@
+{
+  "date": "1960-08-25",
+  "weather_code": 53,
+  "temp_max": 38.3,
+  "temp_min": 22.4,
+  "temp_mean": 30.5,
+  "precipitation": 0.5,
+  "sunshine": 40976.69,
+  "wind_speed_max": 16.4,
+  "sunrise": "1960-08-25T06:41",
+  "sunset": "1960-08-25T19:48",
+  "sunshine_duration_seconds": 40976.69,
+  "sunshine_duration_minutes": 683,
+  "estimated_daily_sunshine_minutes": 606,
+  "estimated_daily_sunshine": "10 h 06 min",
+  "sunshine_difference_minutes": 77,
+  "sunshine_consistency": "Faible"
+}

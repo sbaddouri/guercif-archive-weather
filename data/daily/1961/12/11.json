@@ -1,0 +1,18 @@
+{
+  "date": "1961-12-11",
+  "weather_code": 1,
+  "temp_max": 21.2,
+  "temp_min": 4.9,
+  "temp_mean": 12.4,
+  "precipitation": 0,
+  "sunshine": 35162.93,
+  "wind_speed_max": 7.3,
+  "sunrise": "1961-12-11T08:09",
+  "sunset": "1961-12-11T18:04",
+  "sunshine_duration_seconds": 35162.93,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

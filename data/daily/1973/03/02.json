@@ -1,0 +1,18 @@
+{
+  "date": "1973-03-02",
+  "weather_code": 51,
+  "temp_max": 17.4,
+  "temp_min": 6.8,
+  "temp_mean": 11.4,
+  "precipitation": 0.4,
+  "sunshine": 21345.31,
+  "wind_speed_max": 9,
+  "sunrise": "1973-03-02T07:41",
+  "sunset": "1973-03-02T19:10",
+  "sunshine_duration_seconds": 21345.31,
+  "sunshine_duration_minutes": 356,
+  "estimated_daily_sunshine_minutes": 210,
+  "estimated_daily_sunshine": "3 h 30 min",
+  "sunshine_difference_minutes": 146,
+  "sunshine_consistency": "Faible"
+}

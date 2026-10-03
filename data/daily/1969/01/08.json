@@ -1,0 +1,18 @@
+{
+  "date": "1969-01-08",
+  "weather_code": 51,
+  "temp_max": 15.3,
+  "temp_min": 9.1,
+  "temp_mean": 12.3,
+  "precipitation": 2.4,
+  "sunshine": 20434.1,
+  "wind_speed_max": 7.7,
+  "sunrise": "1969-01-08T08:20",
+  "sunset": "1969-01-08T18:20",
+  "sunshine_duration_seconds": 20434.1,
+  "sunshine_duration_minutes": 341,
+  "estimated_daily_sunshine_minutes": 93,
+  "estimated_daily_sunshine": "1 h 33 min",
+  "sunshine_difference_minutes": 248,
+  "sunshine_consistency": "Faible"
+}

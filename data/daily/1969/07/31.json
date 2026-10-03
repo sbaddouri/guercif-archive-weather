@@ -1,0 +1,18 @@
+{
+  "date": "1969-07-31",
+  "weather_code": 1,
+  "temp_max": 39.2,
+  "temp_min": 22.4,
+  "temp_mean": 30.4,
+  "precipitation": 0,
+  "sunshine": 47022.28,
+  "wind_speed_max": 19,
+  "sunrise": "1969-07-31T06:23",
+  "sunset": "1969-07-31T20:15",
+  "sunshine_duration_seconds": 47022.28,
+  "sunshine_duration_minutes": 784,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1955-03-15",
+  "weather_code": 0,
+  "temp_max": 19,
+  "temp_min": 2.2,
+  "temp_mean": 10.7,
+  "precipitation": 0,
+  "sunshine": 40905.17,
+  "wind_speed_max": 11.9,
+  "sunrise": "1955-03-15T07:25",
+  "sunset": "1955-03-15T19:20",
+  "sunshine_duration_seconds": 40905.17,
+  "sunshine_duration_minutes": 682,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 38,
+  "sunshine_consistency": "Faible"
+}

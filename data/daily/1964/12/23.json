@@ -1,0 +1,18 @@
+{
+  "date": "1964-12-23",
+  "weather_code": 51,
+  "temp_max": 14.2,
+  "temp_min": 6.3,
+  "temp_mean": 9.7,
+  "precipitation": 0.3,
+  "sunshine": 34135.82,
+  "wind_speed_max": 18.8,
+  "sunrise": "1964-12-23T08:16",
+  "sunset": "1964-12-23T18:08",
+  "sunshine_duration_seconds": 34135.82,
+  "sunshine_duration_minutes": 569,
+  "estimated_daily_sunshine_minutes": 387,
+  "estimated_daily_sunshine": "6 h 27 min",
+  "sunshine_difference_minutes": 182,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1963-06-29",
+  "weather_code": 3,
+  "temp_max": 29.3,
+  "temp_min": 19.4,
+  "temp_mean": 23.8,
+  "precipitation": 0,
+  "sunshine": 48858.89,
+  "wind_speed_max": 26.4,
+  "sunrise": "1963-06-29T06:04",
+  "sunset": "1963-06-29T20:29",
+  "sunshine_duration_seconds": 48858.89,
+  "sunshine_duration_minutes": 814,
+  "estimated_daily_sunshine_minutes": 612,
+  "estimated_daily_sunshine": "10 h 12 min",
+  "sunshine_difference_minutes": 202,
+  "sunshine_consistency": "Faible"
+}

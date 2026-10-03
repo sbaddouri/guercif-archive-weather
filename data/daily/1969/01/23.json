@@ -1,0 +1,18 @@
+{
+  "date": "1969-01-23",
+  "weather_code": 3,
+  "temp_max": 17.9,
+  "temp_min": 7.4,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 35979.16,
+  "wind_speed_max": 9.7,
+  "sunrise": "1969-01-23T08:16",
+  "sunset": "1969-01-23T18:34",
+  "sunshine_duration_seconds": 35979.16,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

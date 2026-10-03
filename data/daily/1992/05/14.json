@@ -1,0 +1,18 @@
+{
+  "date": "1992-05-14",
+  "weather_code": 55,
+  "temp_max": 28.9,
+  "temp_min": 16.2,
+  "temp_mean": 22.3,
+  "precipitation": 2.2,
+  "sunshine": 37164.69,
+  "wind_speed_max": 8.5,
+  "sunrise": "1992-05-14T06:12",
+  "sunset": "1992-05-14T20:07",
+  "sunshine_duration_seconds": 37164.69,
+  "sunshine_duration_minutes": 619,
+  "estimated_daily_sunshine_minutes": 528,
+  "estimated_daily_sunshine": "8 h 48 min",
+  "sunshine_difference_minutes": 91,
+  "sunshine_consistency": "Faible"
+}

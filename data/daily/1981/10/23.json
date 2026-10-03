@@ -1,0 +1,18 @@
+{
+  "date": "1981-10-23",
+  "weather_code": 51,
+  "temp_max": 26.3,
+  "temp_min": 16.6,
+  "temp_mean": 20.7,
+  "precipitation": 0.5,
+  "sunshine": 34215.54,
+  "wind_speed_max": 17.6,
+  "sunrise": "1981-10-23T07:25",
+  "sunset": "1981-10-23T18:30",
+  "sunshine_duration_seconds": 34215.54,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 342,
+  "estimated_daily_sunshine": "5 h 42 min",
+  "sunshine_difference_minutes": 228,
+  "sunshine_consistency": "Faible"
+}

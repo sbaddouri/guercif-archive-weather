@@ -1,0 +1,18 @@
+{
+  "date": "1982-06-07",
+  "weather_code": 53,
+  "temp_max": 33.9,
+  "temp_min": 17.5,
+  "temp_mean": 24.4,
+  "precipitation": 2.1,
+  "sunshine": 48571.41,
+  "wind_speed_max": 26.5,
+  "sunrise": "1982-06-07T06:01",
+  "sunset": "1982-06-07T20:23",
+  "sunshine_duration_seconds": 48571.41,
+  "sunshine_duration_minutes": 810,
+  "estimated_daily_sunshine_minutes": 618,
+  "estimated_daily_sunshine": "10 h 18 min",
+  "sunshine_difference_minutes": 192,
+  "sunshine_consistency": "Faible"
+}

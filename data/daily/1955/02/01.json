@@ -1,0 +1,18 @@
+{
+  "date": "1955-02-01",
+  "weather_code": 53,
+  "temp_max": 12.8,
+  "temp_min": 4.2,
+  "temp_mean": 8.8,
+  "precipitation": 3.3,
+  "sunshine": 28519.02,
+  "wind_speed_max": 28.4,
+  "sunrise": "1955-02-01T08:11",
+  "sunset": "1955-02-01T18:43",
+  "sunshine_duration_seconds": 28519.02,
+  "sunshine_duration_minutes": 475,
+  "estimated_daily_sunshine_minutes": 195,
+  "estimated_daily_sunshine": "3 h 15 min",
+  "sunshine_difference_minutes": 280,
+  "sunshine_consistency": "Faible"
+}

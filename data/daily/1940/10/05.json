@@ -1,0 +1,18 @@
+{
+  "date": "1940-10-05",
+  "weather_code": 3,
+  "temp_max": 25.5,
+  "temp_min": 15,
+  "temp_mean": 19.4,
+  "precipitation": 0,
+  "sunshine": 41525.87,
+  "wind_speed_max": 22.2,
+  "sunrise": "1940-10-05T07:11",
+  "sunset": "1940-10-05T18:51",
+  "sunshine_duration_seconds": 41525.87,
+  "sunshine_duration_minutes": 692,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 77,
+  "sunshine_consistency": "Faible"
+}

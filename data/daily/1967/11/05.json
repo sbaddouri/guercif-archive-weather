@@ -1,0 +1,18 @@
+{
+  "date": "1967-11-05",
+  "weather_code": 51,
+  "temp_max": 17.5,
+  "temp_min": 12.7,
+  "temp_mean": 15,
+  "precipitation": 0.8,
+  "sunshine": 2928.42,
+  "wind_speed_max": 21.6,
+  "sunrise": "1967-11-05T07:36",
+  "sunset": "1967-11-05T18:17",
+  "sunshine_duration_seconds": 2928.42,
+  "sunshine_duration_minutes": 49,
+  "estimated_daily_sunshine_minutes": 75,
+  "estimated_daily_sunshine": "1 h 15 min",
+  "sunshine_difference_minutes": 26,
+  "sunshine_consistency": "Moyen"
+}

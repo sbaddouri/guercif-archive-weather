@@ -1,0 +1,18 @@
+{
+  "date": "1976-05-04",
+  "weather_code": 0,
+  "temp_max": 20.4,
+  "temp_min": 5,
+  "temp_mean": 13.8,
+  "precipitation": 0,
+  "sunshine": 47541.17,
+  "wind_speed_max": 12.2,
+  "sunrise": "1976-05-04T06:21",
+  "sunset": "1976-05-04T19:59",
+  "sunshine_duration_seconds": 47541.17,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

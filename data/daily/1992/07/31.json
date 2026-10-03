@@ -1,0 +1,18 @@
+{
+  "date": "1992-07-31",
+  "weather_code": 51,
+  "temp_max": 37.1,
+  "temp_min": 21.1,
+  "temp_mean": 29.1,
+  "precipitation": 0.5,
+  "sunshine": 45061.26,
+  "wind_speed_max": 13.2,
+  "sunrise": "1992-07-31T06:23",
+  "sunset": "1992-07-31T20:15",
+  "sunshine_duration_seconds": 45061.26,
+  "sunshine_duration_minutes": 751,
+  "estimated_daily_sunshine_minutes": 546,
+  "estimated_daily_sunshine": "9 h 06 min",
+  "sunshine_difference_minutes": 205,
+  "sunshine_consistency": "Faible"
+}

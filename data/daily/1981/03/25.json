@@ -1,0 +1,18 @@
+{
+  "date": "1981-03-25",
+  "weather_code": 1,
+  "temp_max": 30.2,
+  "temp_min": 10.4,
+  "temp_mean": 20.9,
+  "precipitation": 0,
+  "sunshine": 42399.14,
+  "wind_speed_max": 10.5,
+  "sunrise": "1981-03-25T07:10",
+  "sunset": "1981-03-25T19:28",
+  "sunshine_duration_seconds": 42399.14,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 2,
+  "sunshine_consistency": "Excellent"
+}

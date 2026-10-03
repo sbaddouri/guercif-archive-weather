@@ -1,0 +1,18 @@
+{
+  "date": "1967-09-23",
+  "weather_code": 0,
+  "temp_max": 33.7,
+  "temp_min": 17.2,
+  "temp_mean": 25,
+  "precipitation": 0,
+  "sunshine": 42858.22,
+  "wind_speed_max": 22.9,
+  "sunrise": "1967-09-23T07:01",
+  "sunset": "1967-09-23T19:09",
+  "sunshine_duration_seconds": 42858.22,
+  "sunshine_duration_minutes": 714,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

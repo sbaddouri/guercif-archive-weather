@@ -1,0 +1,18 @@
+{
+  "date": "1998-12-19",
+  "weather_code": 2,
+  "temp_max": 17.4,
+  "temp_min": 1,
+  "temp_mean": 9.7,
+  "precipitation": 0,
+  "sunshine": 34872.75,
+  "wind_speed_max": 5.4,
+  "sunrise": "1998-12-19T08:14",
+  "sunset": "1998-12-19T18:06",
+  "sunshine_duration_seconds": 34872.75,
+  "sunshine_duration_minutes": 581,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 86,
+  "sunshine_consistency": "Faible"
+}

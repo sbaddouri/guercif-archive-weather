@@ -1,0 +1,18 @@
+{
+  "date": "1976-02-20",
+  "weather_code": 1,
+  "temp_max": 18,
+  "temp_min": 6.8,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 39411.97,
+  "wind_speed_max": 8.9,
+  "sunrise": "1976-02-20T07:54",
+  "sunset": "1976-02-20T19:01",
+  "sunshine_duration_seconds": 39411.97,
+  "sunshine_duration_minutes": 657,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

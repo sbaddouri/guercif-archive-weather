@@ -1,0 +1,18 @@
+{
+  "date": "1942-11-30",
+  "weather_code": 51,
+  "temp_max": 17.3,
+  "temp_min": 8.7,
+  "temp_mean": 12.6,
+  "precipitation": 0.2,
+  "sunshine": 35671.13,
+  "wind_speed_max": 16.2,
+  "sunrise": "1942-11-30T08:00",
+  "sunset": "1942-11-30T18:03",
+  "sunshine_duration_seconds": 35671.13,
+  "sunshine_duration_minutes": 595,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 205,
+  "sunshine_consistency": "Faible"
+}

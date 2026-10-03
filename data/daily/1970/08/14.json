@@ -1,0 +1,18 @@
+{
+  "date": "1970-08-14",
+  "weather_code": 3,
+  "temp_max": 37.8,
+  "temp_min": 24.5,
+  "temp_mean": 30.4,
+  "precipitation": 0,
+  "sunshine": 43759.37,
+  "wind_speed_max": 17,
+  "sunrise": "1970-08-14T06:33",
+  "sunset": "1970-08-14T20:02",
+  "sunshine_duration_seconds": 43759.37,
+  "sunshine_duration_minutes": 729,
+  "estimated_daily_sunshine_minutes": 627,
+  "estimated_daily_sunshine": "10 h 27 min",
+  "sunshine_difference_minutes": 102,
+  "sunshine_consistency": "Faible"
+}

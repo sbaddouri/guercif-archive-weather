@@ -1,0 +1,18 @@
+{
+  "date": "1960-10-14",
+  "weather_code": 0,
+  "temp_max": 25,
+  "temp_min": 14.2,
+  "temp_mean": 19.4,
+  "precipitation": 0,
+  "sunshine": 40020.52,
+  "wind_speed_max": 20.7,
+  "sunrise": "1960-10-14T07:17",
+  "sunset": "1960-10-14T18:40",
+  "sunshine_duration_seconds": 40020.52,
+  "sunshine_duration_minutes": 667,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

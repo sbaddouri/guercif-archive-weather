@@ -1,0 +1,18 @@
+{
+  "date": "1966-08-04",
+  "weather_code": 2,
+  "temp_max": 39.7,
+  "temp_min": 21.5,
+  "temp_mean": 30.6,
+  "precipitation": 0,
+  "sunshine": 46800.75,
+  "wind_speed_max": 25.4,
+  "sunrise": "1966-08-04T06:26",
+  "sunset": "1966-08-04T20:12",
+  "sunshine_duration_seconds": 46800.75,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

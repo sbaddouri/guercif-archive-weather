@@ -1,0 +1,18 @@
+{
+  "date": "1947-04-18",
+  "weather_code": 51,
+  "temp_max": 25.7,
+  "temp_min": 14.3,
+  "temp_mean": 19.4,
+  "precipitation": 0.1,
+  "sunshine": 25953.18,
+  "wind_speed_max": 8.7,
+  "sunrise": "1947-04-18T06:38",
+  "sunset": "1947-04-18T19:47",
+  "sunshine_duration_seconds": 25953.18,
+  "sunshine_duration_minutes": 433,
+  "estimated_daily_sunshine_minutes": 87,
+  "estimated_daily_sunshine": "1 h 27 min",
+  "sunshine_difference_minutes": 346,
+  "sunshine_consistency": "Faible"
+}

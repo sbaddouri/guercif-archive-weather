@@ -1,0 +1,18 @@
+{
+  "date": "1952-01-15",
+  "weather_code": 51,
+  "temp_max": 8.5,
+  "temp_min": 5.5,
+  "temp_mean": 6.7,
+  "precipitation": 0.3,
+  "sunshine": 29384.52,
+  "wind_speed_max": 17.8,
+  "sunrise": "1952-01-15T08:19",
+  "sunset": "1952-01-15T18:25",
+  "sunshine_duration_seconds": 29384.52,
+  "sunshine_duration_minutes": 490,
+  "estimated_daily_sunshine_minutes": 342,
+  "estimated_daily_sunshine": "5 h 42 min",
+  "sunshine_difference_minutes": 148,
+  "sunshine_consistency": "Faible"
+}

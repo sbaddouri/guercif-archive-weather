@@ -1,0 +1,18 @@
+{
+  "date": "1946-07-18",
+  "weather_code": 0,
+  "temp_max": 38.5,
+  "temp_min": 22.7,
+  "temp_mean": 30.9,
+  "precipitation": 0,
+  "sunshine": 48312.4,
+  "wind_speed_max": 25,
+  "sunrise": "1946-07-18T06:14",
+  "sunset": "1946-07-18T20:24",
+  "sunshine_duration_seconds": 48312.4,
+  "sunshine_duration_minutes": 805,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 35,
+  "sunshine_consistency": "Faible"
+}

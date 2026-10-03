@@ -1,0 +1,18 @@
+{
+  "date": "1979-03-22",
+  "weather_code": 2,
+  "temp_max": 19.7,
+  "temp_min": 3.3,
+  "temp_mean": 12.5,
+  "precipitation": 0,
+  "sunshine": 42031.07,
+  "wind_speed_max": 5.8,
+  "sunrise": "1979-03-22T07:15",
+  "sunset": "1979-03-22T19:26",
+  "sunshine_duration_seconds": 42031.07,
+  "sunshine_duration_minutes": 701,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

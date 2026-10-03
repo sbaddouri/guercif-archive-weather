@@ -1,0 +1,18 @@
+{
+  "date": "1985-12-16",
+  "weather_code": 0,
+  "temp_max": 12.8,
+  "temp_min": -0.6,
+  "temp_mean": 6.5,
+  "precipitation": 0,
+  "sunshine": 34962.49,
+  "wind_speed_max": 6.8,
+  "sunrise": "1985-12-16T08:12",
+  "sunset": "1985-12-16T18:05",
+  "sunshine_duration_seconds": 34962.49,
+  "sunshine_duration_minutes": 583,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 17,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1970-09-27",
+  "weather_code": 61,
+  "temp_max": 28.8,
+  "temp_min": 19.7,
+  "temp_mean": 23.2,
+  "precipitation": 3.2,
+  "sunshine": 35206.92,
+  "wind_speed_max": 16.6,
+  "sunrise": "1970-09-27T07:04",
+  "sunset": "1970-09-27T19:03",
+  "sunshine_duration_seconds": 35206.92,
+  "sunshine_duration_minutes": 587,
+  "estimated_daily_sunshine_minutes": 273,
+  "estimated_daily_sunshine": "4 h 33 min",
+  "sunshine_difference_minutes": 314,
+  "sunshine_consistency": "Faible"
+}

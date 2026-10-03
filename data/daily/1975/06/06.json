@@ -1,0 +1,18 @@
+{
+  "date": "1975-06-06",
+  "weather_code": 51,
+  "temp_max": 30.2,
+  "temp_min": 19.2,
+  "temp_mean": 23.4,
+  "precipitation": 0.1,
+  "sunshine": 50020.46,
+  "wind_speed_max": 18.3,
+  "sunrise": "1975-06-06T06:01",
+  "sunset": "1975-06-06T20:22",
+  "sunshine_duration_seconds": 50020.46,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 114,
+  "sunshine_consistency": "Faible"
+}

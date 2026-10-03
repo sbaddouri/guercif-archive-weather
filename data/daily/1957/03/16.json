@@ -1,0 +1,18 @@
+{
+  "date": "1957-03-16",
+  "weather_code": 2,
+  "temp_max": 16.1,
+  "temp_min": 5.7,
+  "temp_mean": 10.9,
+  "precipitation": 0,
+  "sunshine": 40007.97,
+  "wind_speed_max": 10,
+  "sunrise": "1957-03-16T07:23",
+  "sunset": "1957-03-16T19:21",
+  "sunshine_duration_seconds": 40007.97,
+  "sunshine_duration_minutes": 667,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 82,
+  "sunshine_consistency": "Faible"
+}

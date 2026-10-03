@@ -1,0 +1,18 @@
+{
+  "date": "1998-08-28",
+  "weather_code": 0,
+  "temp_max": 34.8,
+  "temp_min": 19.9,
+  "temp_mean": 27.6,
+  "precipitation": 0,
+  "sunshine": 45350.28,
+  "wind_speed_max": 14.6,
+  "sunrise": "1998-08-28T06:43",
+  "sunset": "1998-08-28T19:45",
+  "sunshine_duration_seconds": 45350.28,
+  "sunshine_duration_minutes": 756,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1978-01-15",
+  "weather_code": 1,
+  "temp_max": 11.9,
+  "temp_min": -0.7,
+  "temp_mean": 4.8,
+  "precipitation": 0,
+  "sunshine": 34833.81,
+  "wind_speed_max": 11.4,
+  "sunrise": "1978-01-15T08:19",
+  "sunset": "1978-01-15T18:26",
+  "sunshine_duration_seconds": 34833.81,
+  "sunshine_duration_minutes": 581,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

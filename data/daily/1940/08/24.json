@@ -1,0 +1,18 @@
+{
+  "date": "1940-08-24",
+  "weather_code": 0,
+  "temp_max": 37.6,
+  "temp_min": 22.2,
+  "temp_mean": 29.8,
+  "precipitation": 0,
+  "sunshine": 45907.53,
+  "wind_speed_max": 21.4,
+  "sunrise": "1940-08-24T06:41",
+  "sunset": "1940-08-24T19:49",
+  "sunshine_duration_seconds": 45907.53,
+  "sunshine_duration_minutes": 765,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

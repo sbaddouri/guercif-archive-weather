@@ -1,0 +1,18 @@
+{
+  "date": "1940-09-19",
+  "weather_code": 2,
+  "temp_max": 24.9,
+  "temp_min": 15.5,
+  "temp_mean": 20.1,
+  "precipitation": 0,
+  "sunshine": 42968.91,
+  "wind_speed_max": 9.7,
+  "sunrise": "1940-09-19T06:59",
+  "sunset": "1940-09-19T19:13",
+  "sunshine_duration_seconds": 42968.91,
+  "sunshine_duration_minutes": 716,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 86,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1978-11-10",
+  "weather_code": 51,
+  "temp_max": 21.6,
+  "temp_min": 8.1,
+  "temp_mean": 15.4,
+  "precipitation": 0.2,
+  "sunshine": 34833.15,
+  "wind_speed_max": 13,
+  "sunrise": "1978-11-10T07:41",
+  "sunset": "1978-11-10T18:13",
+  "sunshine_duration_seconds": 34833.15,
+  "sunshine_duration_minutes": 581,
+  "estimated_daily_sunshine_minutes": 279,
+  "estimated_daily_sunshine": "4 h 39 min",
+  "sunshine_difference_minutes": 302,
+  "sunshine_consistency": "Faible"
+}

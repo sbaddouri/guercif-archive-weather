@@ -1,0 +1,18 @@
+{
+  "date": "1981-07-02",
+  "weather_code": 53,
+  "temp_max": 24,
+  "temp_min": 18.5,
+  "temp_mean": 20.6,
+  "precipitation": 3.6,
+  "sunshine": 32766.83,
+  "wind_speed_max": 10.3,
+  "sunrise": "1981-07-02T06:05",
+  "sunset": "1981-07-02T20:29",
+  "sunshine_duration_seconds": 32766.83,
+  "sunshine_duration_minutes": 546,
+  "estimated_daily_sunshine_minutes": 543,
+  "estimated_daily_sunshine": "9 h 03 min",
+  "sunshine_difference_minutes": 3,
+  "sunshine_consistency": "Excellent"
+}

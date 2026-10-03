@@ -1,0 +1,18 @@
+{
+  "date": "1958-08-20",
+  "weather_code": 1,
+  "temp_max": 33.7,
+  "temp_min": 18.1,
+  "temp_mean": 26.2,
+  "precipitation": 0,
+  "sunshine": 46276.53,
+  "wind_speed_max": 12.6,
+  "sunrise": "1958-08-20T06:37",
+  "sunset": "1958-08-20T19:55",
+  "sunshine_duration_seconds": 46276.53,
+  "sunshine_duration_minutes": 771,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

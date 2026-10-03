@@ -1,0 +1,18 @@
+{
+  "date": "1992-08-22",
+  "weather_code": 3,
+  "temp_max": 33.1,
+  "temp_min": 23.9,
+  "temp_mean": 28.1,
+  "precipitation": 0,
+  "sunshine": 33991.92,
+  "wind_speed_max": 21,
+  "sunrise": "1992-08-22T06:39",
+  "sunset": "1992-08-22T19:52",
+  "sunshine_duration_seconds": 33991.92,
+  "sunshine_duration_minutes": 567,
+  "estimated_daily_sunshine_minutes": 336,
+  "estimated_daily_sunshine": "5 h 36 min",
+  "sunshine_difference_minutes": 231,
+  "sunshine_consistency": "Faible"
+}

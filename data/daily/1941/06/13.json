@@ -1,0 +1,18 @@
+{
+  "date": "1941-06-13",
+  "weather_code": 51,
+  "temp_max": 32,
+  "temp_min": 19.8,
+  "temp_mean": 24.7,
+  "precipitation": 0.1,
+  "sunshine": 42415.43,
+  "wind_speed_max": 25.3,
+  "sunrise": "1941-06-13T06:01",
+  "sunset": "1941-06-13T20:26",
+  "sunshine_duration_seconds": 42415.43,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 267,
+  "estimated_daily_sunshine": "4 h 27 min",
+  "sunshine_difference_minutes": 440,
+  "sunshine_consistency": "Faible"
+}

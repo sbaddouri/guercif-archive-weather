@@ -1,0 +1,18 @@
+{
+  "date": "1959-12-16",
+  "weather_code": 61,
+  "temp_max": 9.5,
+  "temp_min": 5.4,
+  "temp_mean": 7.2,
+  "precipitation": 5.3,
+  "sunshine": 24634.67,
+  "wind_speed_max": 17.9,
+  "sunrise": "1959-12-16T08:12",
+  "sunset": "1959-12-16T18:05",
+  "sunshine_duration_seconds": 24634.67,
+  "sunshine_duration_minutes": 411,
+  "estimated_daily_sunshine_minutes": 141,
+  "estimated_daily_sunshine": "2 h 21 min",
+  "sunshine_difference_minutes": 270,
+  "sunshine_consistency": "Faible"
+}

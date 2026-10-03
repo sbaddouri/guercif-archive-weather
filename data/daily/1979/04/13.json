@@ -1,0 +1,18 @@
+{
+  "date": "1979-04-13",
+  "weather_code": 53,
+  "temp_max": 22.9,
+  "temp_min": 8,
+  "temp_mean": 15.1,
+  "precipitation": 2.4,
+  "sunshine": 43200,
+  "wind_speed_max": 28.9,
+  "sunrise": "1979-04-13T06:45",
+  "sunset": "1979-04-13T19:43",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 195,
+  "sunshine_consistency": "Faible"
+}

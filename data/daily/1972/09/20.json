@@ -1,0 +1,18 @@
+{
+  "date": "1972-09-20",
+  "weather_code": 55,
+  "temp_max": 24.1,
+  "temp_min": 14.9,
+  "temp_mean": 19.9,
+  "precipitation": 7.7,
+  "sunshine": 39538.85,
+  "wind_speed_max": 5.9,
+  "sunrise": "1972-09-20T07:00",
+  "sunset": "1972-09-20T19:13",
+  "sunshine_duration_seconds": 39538.85,
+  "sunshine_duration_minutes": 659,
+  "estimated_daily_sunshine_minutes": 186,
+  "estimated_daily_sunshine": "3 h 06 min",
+  "sunshine_difference_minutes": 473,
+  "sunshine_consistency": "Faible"
+}

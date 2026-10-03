@@ -1,0 +1,18 @@
+{
+  "date": "1957-04-20",
+  "weather_code": 55,
+  "temp_max": 18,
+  "temp_min": 11.3,
+  "temp_mean": 13.6,
+  "precipitation": 12.5,
+  "sunshine": 18734.06,
+  "wind_speed_max": 16.4,
+  "sunrise": "1957-04-20T06:36",
+  "sunset": "1957-04-20T19:48",
+  "sunshine_duration_seconds": 18734.06,
+  "sunshine_duration_minutes": 312,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 132,
+  "sunshine_consistency": "Faible"
+}

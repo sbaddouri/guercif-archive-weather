@@ -1,0 +1,18 @@
+{
+  "date": "1966-01-20",
+  "weather_code": 3,
+  "temp_max": 20.9,
+  "temp_min": 12.8,
+  "temp_mean": 16.4,
+  "precipitation": 0,
+  "sunshine": 33751.43,
+  "wind_speed_max": 26.1,
+  "sunrise": "1966-01-20T08:17",
+  "sunset": "1966-01-20T18:31",
+  "sunshine_duration_seconds": 33751.43,
+  "sunshine_duration_minutes": 563,
+  "estimated_daily_sunshine_minutes": 273,
+  "estimated_daily_sunshine": "4 h 33 min",
+  "sunshine_difference_minutes": 290,
+  "sunshine_consistency": "Faible"
+}

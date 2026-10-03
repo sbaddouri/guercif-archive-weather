@@ -1,0 +1,18 @@
+{
+  "date": "1962-01-16",
+  "weather_code": 2,
+  "temp_max": 19.8,
+  "temp_min": 2.1,
+  "temp_mean": 11,
+  "precipitation": 0,
+  "sunshine": 34983.18,
+  "wind_speed_max": 5.8,
+  "sunrise": "1962-01-16T08:19",
+  "sunset": "1962-01-16T18:27",
+  "sunshine_duration_seconds": 34983.18,
+  "sunshine_duration_minutes": 583,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

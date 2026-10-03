@@ -1,0 +1,18 @@
+{
+  "date": "1979-10-12",
+  "weather_code": 55,
+  "temp_max": 21.8,
+  "temp_min": 14,
+  "temp_mean": 17.3,
+  "precipitation": 2.1,
+  "sunshine": 38405.22,
+  "wind_speed_max": 23.8,
+  "sunrise": "1979-10-12T07:15",
+  "sunset": "1979-10-12T18:43",
+  "sunshine_duration_seconds": 38405.22,
+  "sunshine_duration_minutes": 640,
+  "estimated_daily_sunshine_minutes": 246,
+  "estimated_daily_sunshine": "4 h 06 min",
+  "sunshine_difference_minutes": 394,
+  "sunshine_consistency": "Faible"
+}

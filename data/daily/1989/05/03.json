@@ -1,0 +1,18 @@
+{
+  "date": "1989-05-03",
+  "weather_code": 0,
+  "temp_max": 26.6,
+  "temp_min": 11.8,
+  "temp_mean": 18,
+  "precipitation": 0,
+  "sunshine": 47519.28,
+  "wind_speed_max": 21.2,
+  "sunrise": "1989-05-03T06:22",
+  "sunset": "1989-05-03T19:59",
+  "sunshine_duration_seconds": 47519.28,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

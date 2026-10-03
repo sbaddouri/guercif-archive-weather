@@ -1,0 +1,18 @@
+{
+  "date": "1970-12-14",
+  "weather_code": 1,
+  "temp_max": 15.7,
+  "temp_min": 1,
+  "temp_mean": 7.9,
+  "precipitation": 0,
+  "sunshine": 35053.08,
+  "wind_speed_max": 11.9,
+  "sunrise": "1970-12-14T08:11",
+  "sunset": "1970-12-14T18:05",
+  "sunshine_duration_seconds": 35053.08,
+  "sunshine_duration_minutes": 584,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

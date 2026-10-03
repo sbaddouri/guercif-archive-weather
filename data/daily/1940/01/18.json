@@ -1,0 +1,18 @@
+{
+  "date": "1940-01-18",
+  "weather_code": 3,
+  "temp_max": 12.4,
+  "temp_min": 4.5,
+  "temp_mean": 8.8,
+  "precipitation": 0,
+  "sunshine": 23536.86,
+  "wind_speed_max": 17,
+  "sunrise": "1940-01-18T08:18",
+  "sunset": "1940-01-18T18:29",
+  "sunshine_duration_seconds": 23536.86,
+  "sunshine_duration_minutes": 392,
+  "estimated_daily_sunshine_minutes": 402,
+  "estimated_daily_sunshine": "6 h 42 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

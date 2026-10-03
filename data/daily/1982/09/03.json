@@ -1,0 +1,18 @@
+{
+  "date": "1982-09-03",
+  "weather_code": 0,
+  "temp_max": 30.6,
+  "temp_min": 15.5,
+  "temp_mean": 21.9,
+  "precipitation": 0,
+  "sunshine": 43603.07,
+  "wind_speed_max": 29.8,
+  "sunrise": "1982-09-03T06:47",
+  "sunset": "1982-09-03T19:37",
+  "sunshine_duration_seconds": 43603.07,
+  "sunshine_duration_minutes": 727,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 53,
+  "sunshine_consistency": "Faible"
+}

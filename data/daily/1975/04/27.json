@@ -1,0 +1,18 @@
+{
+  "date": "1975-04-27",
+  "weather_code": 63,
+  "temp_max": 16.4,
+  "temp_min": 11.6,
+  "temp_mean": 13.5,
+  "precipitation": 11.8,
+  "sunshine": 510.44,
+  "wind_speed_max": 17.3,
+  "sunrise": "1975-04-27T06:29",
+  "sunset": "1975-04-27T19:53",
+  "sunshine_duration_seconds": 510.44,
+  "sunshine_duration_minutes": 9,
+  "estimated_daily_sunshine_minutes": 174,
+  "estimated_daily_sunshine": "2 h 54 min",
+  "sunshine_difference_minutes": 165,
+  "sunshine_consistency": "Faible"
+}

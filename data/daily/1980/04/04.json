@@ -1,0 +1,18 @@
+{
+  "date": "1980-04-04",
+  "weather_code": 55,
+  "temp_max": 18.9,
+  "temp_min": 12.8,
+  "temp_mean": 15.4,
+  "precipitation": 2,
+  "sunshine": 16538.25,
+  "wind_speed_max": 23.7,
+  "sunrise": "1980-04-04T06:56",
+  "sunset": "1980-04-04T19:36",
+  "sunshine_duration_seconds": 16538.25,
+  "sunshine_duration_minutes": 276,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 156,
+  "sunshine_consistency": "Faible"
+}

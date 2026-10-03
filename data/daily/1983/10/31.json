@@ -1,0 +1,18 @@
+{
+  "date": "1983-10-31",
+  "weather_code": 61,
+  "temp_max": 23.8,
+  "temp_min": 11.8,
+  "temp_mean": 17.9,
+  "precipitation": 3.4,
+  "sunshine": 35610.54,
+  "wind_speed_max": 14.3,
+  "sunrise": "1983-10-31T07:31",
+  "sunset": "1983-10-31T18:22",
+  "sunshine_duration_seconds": 35610.54,
+  "sunshine_duration_minutes": 594,
+  "estimated_daily_sunshine_minutes": 420,
+  "estimated_daily_sunshine": "7 h 00 min",
+  "sunshine_difference_minutes": 174,
+  "sunshine_consistency": "Faible"
+}

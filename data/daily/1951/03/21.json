@@ -1,0 +1,18 @@
+{
+  "date": "1951-03-21",
+  "weather_code": 1,
+  "temp_max": 25.5,
+  "temp_min": 12.5,
+  "temp_mean": 18.4,
+  "precipitation": 0,
+  "sunshine": 41923.08,
+  "wind_speed_max": 17.1,
+  "sunrise": "1951-03-21T07:17",
+  "sunset": "1951-03-21T19:25",
+  "sunshine_duration_seconds": 41923.08,
+  "sunshine_duration_minutes": 699,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

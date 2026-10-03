@@ -1,0 +1,18 @@
+{
+  "date": "1960-08-29",
+  "weather_code": 1,
+  "temp_max": 39.7,
+  "temp_min": 21.8,
+  "temp_mean": 30.5,
+  "precipitation": 0,
+  "sunshine": 44269.02,
+  "wind_speed_max": 23.4,
+  "sunrise": "1960-08-29T06:44",
+  "sunset": "1960-08-29T19:43",
+  "sunshine_duration_seconds": 44269.02,
+  "sunshine_duration_minutes": 738,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

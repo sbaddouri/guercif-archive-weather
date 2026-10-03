@@ -1,0 +1,18 @@
+{
+  "date": "1942-11-18",
+  "weather_code": 55,
+  "temp_max": 18,
+  "temp_min": 12.8,
+  "temp_mean": 15,
+  "precipitation": 2.3,
+  "sunshine": 33112.85,
+  "wind_speed_max": 9.5,
+  "sunrise": "1942-11-18T07:49",
+  "sunset": "1942-11-18T18:07",
+  "sunshine_duration_seconds": 33112.85,
+  "sunshine_duration_minutes": 552,
+  "estimated_daily_sunshine_minutes": 108,
+  "estimated_daily_sunshine": "1 h 48 min",
+  "sunshine_difference_minutes": 444,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1962-12-14",
+  "weather_code": 53,
+  "temp_max": 7.5,
+  "temp_min": 2.4,
+  "temp_mean": 4.7,
+  "precipitation": 1.6,
+  "sunshine": 35058.74,
+  "wind_speed_max": 24.1,
+  "sunrise": "1962-12-14T08:11",
+  "sunset": "1962-12-14T18:05",
+  "sunshine_duration_seconds": 35058.74,
+  "sunshine_duration_minutes": 584,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 209,
+  "sunshine_consistency": "Faible"
+}

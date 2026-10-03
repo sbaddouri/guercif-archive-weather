@@ -1,0 +1,18 @@
+{
+  "date": "1940-05-13",
+  "weather_code": 51,
+  "temp_max": 28.4,
+  "temp_min": 15.6,
+  "temp_mean": 20,
+  "precipitation": 0.2,
+  "sunshine": 41235.73,
+  "wind_speed_max": 21.6,
+  "sunrise": "1940-05-13T06:12",
+  "sunset": "1940-05-13T20:07",
+  "sunshine_duration_seconds": 41235.73,
+  "sunshine_duration_minutes": 687,
+  "estimated_daily_sunshine_minutes": 375,
+  "estimated_daily_sunshine": "6 h 15 min",
+  "sunshine_difference_minutes": 312,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1966-03-13",
+  "weather_code": 51,
+  "temp_max": 19.6,
+  "temp_min": 9.8,
+  "temp_mean": 14.3,
+  "precipitation": 0.7,
+  "sunshine": 39219.18,
+  "wind_speed_max": 28.6,
+  "sunrise": "1966-03-13T07:27",
+  "sunset": "1966-03-13T19:19",
+  "sunshine_duration_seconds": 39219.18,
+  "sunshine_duration_minutes": 654,
+  "estimated_daily_sunshine_minutes": 486,
+  "estimated_daily_sunshine": "8 h 06 min",
+  "sunshine_difference_minutes": 168,
+  "sunshine_consistency": "Faible"
+}

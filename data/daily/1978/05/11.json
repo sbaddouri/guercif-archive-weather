@@ -1,0 +1,18 @@
+{
+  "date": "1978-05-11",
+  "weather_code": 53,
+  "temp_max": 20.3,
+  "temp_min": 9.8,
+  "temp_mean": 14.7,
+  "precipitation": 2.3,
+  "sunshine": 42107.18,
+  "wind_speed_max": 29.4,
+  "sunrise": "1978-05-11T06:15",
+  "sunset": "1978-05-11T20:05",
+  "sunshine_duration_seconds": 42107.18,
+  "sunshine_duration_minutes": 702,
+  "estimated_daily_sunshine_minutes": 414,
+  "estimated_daily_sunshine": "6 h 54 min",
+  "sunshine_difference_minutes": 288,
+  "sunshine_consistency": "Faible"
+}

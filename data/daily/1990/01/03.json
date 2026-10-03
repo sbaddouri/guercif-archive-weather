@@ -1,0 +1,18 @@
+{
+  "date": "1990-01-03",
+  "weather_code": 61,
+  "temp_max": 12.8,
+  "temp_min": 6.5,
+  "temp_mean": 9,
+  "precipitation": 6.4,
+  "sunshine": 289.2,
+  "wind_speed_max": 25.6,
+  "sunrise": "1990-01-03T08:19",
+  "sunset": "1990-01-03T18:16",
+  "sunshine_duration_seconds": 289.2,
+  "sunshine_duration_minutes": 5,
+  "estimated_daily_sunshine_minutes": 87,
+  "estimated_daily_sunshine": "1 h 27 min",
+  "sunshine_difference_minutes": 82,
+  "sunshine_consistency": "Faible"
+}

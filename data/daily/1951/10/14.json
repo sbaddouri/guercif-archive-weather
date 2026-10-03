@@ -1,0 +1,18 @@
+{
+  "date": "1951-10-14",
+  "weather_code": 2,
+  "temp_max": 22.3,
+  "temp_min": 14.9,
+  "temp_mean": 17.9,
+  "precipitation": 0,
+  "sunshine": 39079.08,
+  "wind_speed_max": 23.4,
+  "sunrise": "1951-10-14T07:17",
+  "sunset": "1951-10-14T18:41",
+  "sunshine_duration_seconds": 39079.08,
+  "sunshine_duration_minutes": 651,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

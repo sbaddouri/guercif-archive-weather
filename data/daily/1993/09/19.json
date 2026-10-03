@@ -1,0 +1,18 @@
+{
+  "date": "1993-09-19",
+  "weather_code": 2,
+  "temp_max": 25.7,
+  "temp_min": 15.3,
+  "temp_mean": 20,
+  "precipitation": 0,
+  "sunshine": 42994.48,
+  "wind_speed_max": 11.2,
+  "sunrise": "1993-09-19T06:59",
+  "sunset": "1993-09-19T19:14",
+  "sunshine_duration_seconds": 42994.48,
+  "sunshine_duration_minutes": 717,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 3,
+  "sunshine_consistency": "Excellent"
+}

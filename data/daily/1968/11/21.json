@@ -1,0 +1,18 @@
+{
+  "date": "1968-11-21",
+  "weather_code": 3,
+  "temp_max": 24.5,
+  "temp_min": 8.3,
+  "temp_mean": 15.8,
+  "precipitation": 0,
+  "sunshine": 35954.58,
+  "wind_speed_max": 11,
+  "sunrise": "1968-11-21T07:52",
+  "sunset": "1968-11-21T18:06",
+  "sunshine_duration_seconds": 35954.58,
+  "sunshine_duration_minutes": 599,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 533,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1942-05-09",
+  "weather_code": 2,
+  "temp_max": 27,
+  "temp_min": 15.7,
+  "temp_mean": 20.6,
+  "precipitation": 0,
+  "sunshine": 47958.78,
+  "wind_speed_max": 15,
+  "sunrise": "1942-05-09T06:16",
+  "sunset": "1942-05-09T20:03",
+  "sunshine_duration_seconds": 47958.78,
+  "sunshine_duration_minutes": 799,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 169,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1995-08-14",
+  "weather_code": 51,
+  "temp_max": 38.3,
+  "temp_min": 24.2,
+  "temp_mean": 30.3,
+  "precipitation": 0.6,
+  "sunshine": 42260.62,
+  "wind_speed_max": 15.1,
+  "sunrise": "1995-08-14T06:33",
+  "sunset": "1995-08-14T20:02",
+  "sunshine_duration_seconds": 42260.62,
+  "sunshine_duration_minutes": 704,
+  "estimated_daily_sunshine_minutes": 627,
+  "estimated_daily_sunshine": "10 h 27 min",
+  "sunshine_difference_minutes": 77,
+  "sunshine_consistency": "Faible"
+}

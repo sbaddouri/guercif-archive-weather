@@ -1,0 +1,18 @@
+{
+  "date": "1997-01-22",
+  "weather_code": 3,
+  "temp_max": 18.8,
+  "temp_min": 7.4,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 32490.61,
+  "wind_speed_max": 26.7,
+  "sunrise": "1997-01-22T08:16",
+  "sunset": "1997-01-22T18:33",
+  "sunshine_duration_seconds": 32490.61,
+  "sunshine_duration_minutes": 542,
+  "estimated_daily_sunshine_minutes": 258,
+  "estimated_daily_sunshine": "4 h 18 min",
+  "sunshine_difference_minutes": 284,
+  "sunshine_consistency": "Faible"
+}

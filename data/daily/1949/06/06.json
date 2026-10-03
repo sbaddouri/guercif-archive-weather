@@ -1,0 +1,18 @@
+{
+  "date": "1949-06-06",
+  "weather_code": 51,
+  "temp_max": 39.5,
+  "temp_min": 21.8,
+  "temp_mean": 28,
+  "precipitation": 0.1,
+  "sunshine": 49125.84,
+  "wind_speed_max": 20.2,
+  "sunrise": "1949-06-06T06:01",
+  "sunset": "1949-06-06T20:23",
+  "sunshine_duration_seconds": 49125.84,
+  "sunshine_duration_minutes": 819,
+  "estimated_daily_sunshine_minutes": 543,
+  "estimated_daily_sunshine": "9 h 03 min",
+  "sunshine_difference_minutes": 276,
+  "sunshine_consistency": "Faible"
+}

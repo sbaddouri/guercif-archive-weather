@@ -1,0 +1,18 @@
+{
+  "date": "1951-02-10",
+  "weather_code": 53,
+  "temp_max": 14.4,
+  "temp_min": 5.3,
+  "temp_mean": 8.5,
+  "precipitation": 2.4,
+  "sunshine": 36719.06,
+  "wind_speed_max": 24.1,
+  "sunrise": "1951-02-10T08:04",
+  "sunset": "1951-02-10T18:51",
+  "sunshine_duration_seconds": 36719.06,
+  "sunshine_duration_minutes": 612,
+  "estimated_daily_sunshine_minutes": 345,
+  "estimated_daily_sunshine": "5 h 45 min",
+  "sunshine_difference_minutes": 267,
+  "sunshine_consistency": "Faible"
+}

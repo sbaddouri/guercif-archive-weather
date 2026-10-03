@@ -1,0 +1,18 @@
+{
+  "date": "1970-03-17",
+  "weather_code": 51,
+  "temp_max": 11.9,
+  "temp_min": 1.9,
+  "temp_mean": 7.3,
+  "precipitation": 0.1,
+  "sunshine": 41085.69,
+  "wind_speed_max": 11,
+  "sunrise": "1970-03-17T07:22",
+  "sunset": "1970-03-17T19:22",
+  "sunshine_duration_seconds": 41085.69,
+  "sunshine_duration_minutes": 685,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

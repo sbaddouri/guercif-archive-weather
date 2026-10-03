@@ -1,0 +1,18 @@
+{
+  "date": "1967-09-27",
+  "weather_code": 3,
+  "temp_max": 32.9,
+  "temp_min": 19.2,
+  "temp_mean": 25.2,
+  "precipitation": 0,
+  "sunshine": 42535.23,
+  "wind_speed_max": 19.8,
+  "sunrise": "1967-09-27T07:04",
+  "sunset": "1967-09-27T19:04",
+  "sunshine_duration_seconds": 42535.23,
+  "sunshine_duration_minutes": 709,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 124,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1959-12-22",
+  "weather_code": 1,
+  "temp_max": 16.2,
+  "temp_min": 5.2,
+  "temp_mean": 9.7,
+  "precipitation": 0,
+  "sunshine": 34783.62,
+  "wind_speed_max": 15,
+  "sunrise": "1959-12-22T08:15",
+  "sunset": "1959-12-22T18:07",
+  "sunshine_duration_seconds": 34783.62,
+  "sunshine_duration_minutes": 580,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

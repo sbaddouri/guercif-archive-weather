@@ -1,0 +1,18 @@
+{
+  "date": "1963-01-06",
+  "weather_code": 55,
+  "temp_max": 15,
+  "temp_min": 11.7,
+  "temp_mean": 13.1,
+  "precipitation": 4.8,
+  "sunshine": 4841.84,
+  "wind_speed_max": 25.6,
+  "sunrise": "1963-01-06T08:20",
+  "sunset": "1963-01-06T18:18",
+  "sunshine_duration_seconds": 4841.84,
+  "sunshine_duration_minutes": 81,
+  "estimated_daily_sunshine_minutes": 117,
+  "estimated_daily_sunshine": "1 h 57 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

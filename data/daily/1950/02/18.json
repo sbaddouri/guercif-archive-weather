@@ -1,0 +1,18 @@
+{
+  "date": "1950-02-18",
+  "weather_code": 1,
+  "temp_max": 21.2,
+  "temp_min": 2.2,
+  "temp_mean": 10.7,
+  "precipitation": 0,
+  "sunshine": 39306.39,
+  "wind_speed_max": 9.2,
+  "sunrise": "1950-02-18T07:56",
+  "sunset": "1950-02-18T18:59",
+  "sunshine_duration_seconds": 39306.39,
+  "sunshine_duration_minutes": 655,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

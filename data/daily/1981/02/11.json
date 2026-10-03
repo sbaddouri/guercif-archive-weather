@@ -1,0 +1,18 @@
+{
+  "date": "1981-02-11",
+  "weather_code": 53,
+  "temp_max": 13.5,
+  "temp_min": 6.5,
+  "temp_mean": 9.3,
+  "precipitation": 3.3,
+  "sunshine": 35765.61,
+  "wind_speed_max": 13.4,
+  "sunrise": "1981-02-11T08:02",
+  "sunset": "1981-02-11T18:53",
+  "sunshine_duration_seconds": 35765.61,
+  "sunshine_duration_minutes": 596,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 476,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1987-08-18",
+  "weather_code": 2,
+  "temp_max": 38,
+  "temp_min": 23.8,
+  "temp_mean": 30.6,
+  "precipitation": 0,
+  "sunshine": 46428.18,
+  "wind_speed_max": 21.4,
+  "sunrise": "1987-08-18T06:36",
+  "sunset": "1987-08-18T19:58",
+  "sunshine_duration_seconds": 46428.18,
+  "sunshine_duration_minutes": 774,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1943-04-23",
+  "weather_code": 53,
+  "temp_max": 19.2,
+  "temp_min": 13.8,
+  "temp_mean": 16.3,
+  "precipitation": 2.7,
+  "sunshine": 27953.01,
+  "wind_speed_max": 13.2,
+  "sunrise": "1943-04-23T06:33",
+  "sunset": "1943-04-23T19:51",
+  "sunshine_duration_seconds": 27953.01,
+  "sunshine_duration_minutes": 466,
+  "estimated_daily_sunshine_minutes": 162,
+  "estimated_daily_sunshine": "2 h 42 min",
+  "sunshine_difference_minutes": 304,
+  "sunshine_consistency": "Faible"
+}

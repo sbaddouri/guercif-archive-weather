@@ -1,0 +1,18 @@
+{
+  "date": "1990-09-25",
+  "weather_code": 53,
+  "temp_max": 29.4,
+  "temp_min": 20.3,
+  "temp_mean": 23.6,
+  "precipitation": 0.7,
+  "sunshine": 28762.36,
+  "wind_speed_max": 16.7,
+  "sunrise": "1990-09-25T07:03",
+  "sunset": "1990-09-25T19:06",
+  "sunshine_duration_seconds": 28762.36,
+  "sunshine_duration_minutes": 479,
+  "estimated_daily_sunshine_minutes": 186,
+  "estimated_daily_sunshine": "3 h 06 min",
+  "sunshine_difference_minutes": 293,
+  "sunshine_consistency": "Faible"
+}

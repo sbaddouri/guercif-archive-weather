@@ -1,0 +1,18 @@
+{
+  "date": "1975-12-01",
+  "weather_code": 1,
+  "temp_max": 12.9,
+  "temp_min": 3.5,
+  "temp_mean": 8.1,
+  "precipitation": 0,
+  "sunshine": 35662.75,
+  "wind_speed_max": 8,
+  "sunrise": "1975-12-01T08:00",
+  "sunset": "1975-12-01T18:03",
+  "sunshine_duration_seconds": 35662.75,
+  "sunshine_duration_minutes": 594,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

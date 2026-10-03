@@ -1,0 +1,18 @@
+{
+  "date": "1990-05-05",
+  "weather_code": 51,
+  "temp_max": 20.7,
+  "temp_min": 13.6,
+  "temp_mean": 16.2,
+  "precipitation": 0.5,
+  "sunshine": 26677.57,
+  "wind_speed_max": 16.9,
+  "sunrise": "1990-05-05T06:20",
+  "sunset": "1990-05-05T20:00",
+  "sunshine_duration_seconds": 26677.57,
+  "sunshine_duration_minutes": 445,
+  "estimated_daily_sunshine_minutes": 267,
+  "estimated_daily_sunshine": "4 h 27 min",
+  "sunshine_difference_minutes": 178,
+  "sunshine_consistency": "Faible"
+}

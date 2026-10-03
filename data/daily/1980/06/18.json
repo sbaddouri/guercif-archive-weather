@@ -1,0 +1,18 @@
+{
+  "date": "1980-06-18",
+  "weather_code": 3,
+  "temp_max": 33.5,
+  "temp_min": 20.8,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 50034.37,
+  "wind_speed_max": 23.8,
+  "sunrise": "1980-06-18T06:01",
+  "sunset": "1980-06-18T20:27",
+  "sunshine_duration_seconds": 50034.37,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 219,
+  "sunshine_consistency": "Faible"
+}

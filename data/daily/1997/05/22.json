@@ -1,0 +1,18 @@
+{
+  "date": "1997-05-22",
+  "weather_code": 53,
+  "temp_max": 25,
+  "temp_min": 16.2,
+  "temp_mean": 20.4,
+  "precipitation": 1,
+  "sunshine": 38098.18,
+  "wind_speed_max": 5.4,
+  "sunrise": "1997-05-22T06:07",
+  "sunset": "1997-05-22T20:13",
+  "sunshine_duration_seconds": 38098.18,
+  "sunshine_duration_minutes": 635,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 515,
+  "sunshine_consistency": "Faible"
+}

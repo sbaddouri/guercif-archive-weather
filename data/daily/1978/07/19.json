@@ -1,0 +1,18 @@
+{
+  "date": "1978-07-19",
+  "weather_code": 1,
+  "temp_max": 37.6,
+  "temp_min": 22.6,
+  "temp_mean": 29.9,
+  "precipitation": 0,
+  "sunshine": 47706.42,
+  "wind_speed_max": 24.1,
+  "sunrise": "1978-07-19T06:14",
+  "sunset": "1978-07-19T20:24",
+  "sunshine_duration_seconds": 47706.42,
+  "sunshine_duration_minutes": 795,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

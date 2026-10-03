@@ -1,0 +1,18 @@
+{
+  "date": "1971-03-28",
+  "weather_code": 1,
+  "temp_max": 20.9,
+  "temp_min": 9.8,
+  "temp_mean": 14.5,
+  "precipitation": 0,
+  "sunshine": 42828.5,
+  "wind_speed_max": 22.7,
+  "sunrise": "1971-03-28T07:07",
+  "sunset": "1971-03-28T19:30",
+  "sunshine_duration_seconds": 42828.5,
+  "sunshine_duration_minutes": 714,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 39,
+  "sunshine_consistency": "Faible"
+}

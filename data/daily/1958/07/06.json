@@ -1,0 +1,18 @@
+{
+  "date": "1958-07-06",
+  "weather_code": 0,
+  "temp_max": 31.7,
+  "temp_min": 17.7,
+  "temp_mean": 25,
+  "precipitation": 0,
+  "sunshine": 49668.93,
+  "wind_speed_max": 21.9,
+  "sunrise": "1958-07-06T06:07",
+  "sunset": "1958-07-06T20:28",
+  "sunshine_duration_seconds": 49668.93,
+  "sunshine_duration_minutes": 828,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

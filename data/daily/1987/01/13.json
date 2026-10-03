@@ -1,0 +1,18 @@
+{
+  "date": "1987-01-13",
+  "weather_code": 53,
+  "temp_max": 15.2,
+  "temp_min": 11.1,
+  "temp_mean": 13.1,
+  "precipitation": 2.5,
+  "sunshine": 33213.63,
+  "wind_speed_max": 38.2,
+  "sunrise": "1987-01-13T08:19",
+  "sunset": "1987-01-13T18:24",
+  "sunshine_duration_seconds": 33213.63,
+  "sunshine_duration_minutes": 554,
+  "estimated_daily_sunshine_minutes": 267,
+  "estimated_daily_sunshine": "4 h 27 min",
+  "sunshine_difference_minutes": 287,
+  "sunshine_consistency": "Faible"
+}

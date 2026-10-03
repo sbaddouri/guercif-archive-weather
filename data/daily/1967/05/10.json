@@ -1,0 +1,18 @@
+{
+  "date": "1967-05-10",
+  "weather_code": 2,
+  "temp_max": 24.8,
+  "temp_min": 9.9,
+  "temp_mean": 16.9,
+  "precipitation": 0,
+  "sunshine": 47067.84,
+  "wind_speed_max": 16.9,
+  "sunrise": "1967-05-10T06:16",
+  "sunset": "1967-05-10T20:04",
+  "sunshine_duration_seconds": 47067.84,
+  "sunshine_duration_minutes": 784,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

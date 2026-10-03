@@ -1,0 +1,18 @@
+{
+  "date": "1943-04-24",
+  "weather_code": 0,
+  "temp_max": 21,
+  "temp_min": 12.7,
+  "temp_mean": 16.6,
+  "precipitation": 0,
+  "sunshine": 46212.88,
+  "wind_speed_max": 19.2,
+  "sunrise": "1943-04-24T06:31",
+  "sunset": "1943-04-24T19:52",
+  "sunshine_duration_seconds": 46212.88,
+  "sunshine_duration_minutes": 770,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

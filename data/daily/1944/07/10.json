@@ -1,0 +1,18 @@
+{
+  "date": "1944-07-10",
+  "weather_code": 1,
+  "temp_max": 33.1,
+  "temp_min": 20.9,
+  "temp_mean": 26.6,
+  "precipitation": 0,
+  "sunshine": 48814.71,
+  "wind_speed_max": 17.9,
+  "sunrise": "1944-07-10T06:10",
+  "sunset": "1944-07-10T20:27",
+  "sunshine_duration_seconds": 48814.71,
+  "sunshine_duration_minutes": 814,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

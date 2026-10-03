@@ -1,0 +1,18 @@
+{
+  "date": "1966-05-28",
+  "weather_code": 55,
+  "temp_max": 31.9,
+  "temp_min": 17.7,
+  "temp_mean": 24.2,
+  "precipitation": 1.5,
+  "sunshine": 39481.7,
+  "wind_speed_max": 21.1,
+  "sunrise": "1966-05-28T06:04",
+  "sunset": "1966-05-28T20:17",
+  "sunshine_duration_seconds": 39481.7,
+  "sunshine_duration_minutes": 658,
+  "estimated_daily_sunshine_minutes": 201,
+  "estimated_daily_sunshine": "3 h 21 min",
+  "sunshine_difference_minutes": 457,
+  "sunshine_consistency": "Faible"
+}

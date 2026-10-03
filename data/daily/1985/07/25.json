@@ -1,0 +1,18 @@
+{
+  "date": "1985-07-25",
+  "weather_code": 53,
+  "temp_max": 38.3,
+  "temp_min": 23.3,
+  "temp_mean": 29.8,
+  "precipitation": 0.9,
+  "sunshine": 45709.62,
+  "wind_speed_max": 12.3,
+  "sunrise": "1985-07-25T06:19",
+  "sunset": "1985-07-25T20:20",
+  "sunshine_duration_seconds": 45709.62,
+  "sunshine_duration_minutes": 762,
+  "estimated_daily_sunshine_minutes": 654,
+  "estimated_daily_sunshine": "10 h 54 min",
+  "sunshine_difference_minutes": 108,
+  "sunshine_consistency": "Faible"
+}

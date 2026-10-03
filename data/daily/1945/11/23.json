@@ -1,0 +1,18 @@
+{
+  "date": "1945-11-23",
+  "weather_code": 3,
+  "temp_max": 16.3,
+  "temp_min": 8.5,
+  "temp_mean": 12.3,
+  "precipitation": 0,
+  "sunshine": 34541.22,
+  "wind_speed_max": 10.2,
+  "sunrise": "1945-11-23T07:54",
+  "sunset": "1945-11-23T18:05",
+  "sunshine_duration_seconds": 34541.22,
+  "sunshine_duration_minutes": 576,
+  "estimated_daily_sunshine_minutes": 393,
+  "estimated_daily_sunshine": "6 h 33 min",
+  "sunshine_difference_minutes": 183,
+  "sunshine_consistency": "Faible"
+}

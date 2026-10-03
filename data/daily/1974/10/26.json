@@ -1,0 +1,18 @@
+{
+  "date": "1974-10-26",
+  "weather_code": 51,
+  "temp_max": 16.4,
+  "temp_min": 3.8,
+  "temp_mean": 11.3,
+  "precipitation": 0.1,
+  "sunshine": 36598.43,
+  "wind_speed_max": 11.8,
+  "sunrise": "1974-10-26T07:27",
+  "sunset": "1974-10-26T18:27",
+  "sunshine_duration_seconds": 36598.43,
+  "sunshine_duration_minutes": 610,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 55,
+  "sunshine_consistency": "Faible"
+}

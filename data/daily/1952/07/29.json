@@ -1,0 +1,18 @@
+{
+  "date": "1952-07-29",
+  "weather_code": 1,
+  "temp_max": 32.4,
+  "temp_min": 18.4,
+  "temp_mean": 25.1,
+  "precipitation": 0,
+  "sunshine": 47284.14,
+  "wind_speed_max": 24.3,
+  "sunrise": "1952-07-29T06:22",
+  "sunset": "1952-07-29T20:17",
+  "sunshine_duration_seconds": 47284.14,
+  "sunshine_duration_minutes": 788,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 37,
+  "sunshine_consistency": "Faible"
+}

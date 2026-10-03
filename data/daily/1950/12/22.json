@@ -1,0 +1,18 @@
+{
+  "date": "1950-12-22",
+  "weather_code": 53,
+  "temp_max": 15.5,
+  "temp_min": 9.1,
+  "temp_mean": 12.1,
+  "precipitation": 2.2,
+  "sunshine": 32248.7,
+  "wind_speed_max": 34.9,
+  "sunrise": "1950-12-22T08:15",
+  "sunset": "1950-12-22T18:08",
+  "sunshine_duration_seconds": 32248.7,
+  "sunshine_duration_minutes": 537,
+  "estimated_daily_sunshine_minutes": 258,
+  "estimated_daily_sunshine": "4 h 18 min",
+  "sunshine_difference_minutes": 279,
+  "sunshine_consistency": "Faible"
+}

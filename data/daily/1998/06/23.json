@@ -1,0 +1,18 @@
+{
+  "date": "1998-06-23",
+  "weather_code": 55,
+  "temp_max": 39.2,
+  "temp_min": 21.6,
+  "temp_mean": 30.9,
+  "precipitation": 1.2,
+  "sunshine": 49173.36,
+  "wind_speed_max": 22.5,
+  "sunrise": "1998-06-23T06:02",
+  "sunset": "1998-06-23T20:28",
+  "sunshine_duration_seconds": 49173.36,
+  "sunshine_duration_minutes": 820,
+  "estimated_daily_sunshine_minutes": 207,
+  "estimated_daily_sunshine": "3 h 27 min",
+  "sunshine_difference_minutes": 613,
+  "sunshine_consistency": "Faible"
+}

@@ -53,7 +53,8 @@ export default async function YearPage({ params }: PageProps) {
   // Previous/Next year navigation
   const allYears = listAvailableYears().sort();
   const currentYearIndex = allYears.indexOf(year);
-  const hasPrev = currentYearIndex > 0;
+  const isEarliestYear = year === '1940';
+  const hasPrev = currentYearIndex > 0 && !isEarliestYear;
   const hasNext = currentYearIndex < allYears.length - 1;
   const prevYear = hasPrev ? allYears[currentYearIndex - 1] : null;
   const nextYear = hasNext ? allYears[currentYearIndex + 1] : null;
@@ -177,11 +178,13 @@ export default async function YearPage({ params }: PageProps) {
     <div className="space-y-8">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center justify-between">
-          <Link href={`/climatologie/annee/${prevYear}/guercif`}>
-            <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasPrev}>
-              ← Année précédente
-            </button>
-          </Link>
+          {!isEarliestYear && (
+            <Link href={`/climatologie/annee/${prevYear}/guercif`}>
+              <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasPrev}>
+                ← Année précédente
+              </button>
+            </Link>
+          )}
           <h1 className="text-3xl font-bold text-center">Données climatiques {year} - Guercif, Maroc</h1>
           <Link href={`/climatologie/annee/${nextYear}/guercif`}>
             <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasNext}>
@@ -189,6 +192,11 @@ export default async function YearPage({ params }: PageProps) {
             </button>
           </Link>
         </div>
+        {isEarliestYear && (
+          <div className="text-center text-sm text-muted-foreground">
+            📅 1940 est la première année disponible dans les données Open-Meteo (données limitées à partir de 1940).
+          </div>
+        )}
         <p className="text-muted-foreground text-center">Tableau climatologique au format Wikipédia.</p>
       </div>
 

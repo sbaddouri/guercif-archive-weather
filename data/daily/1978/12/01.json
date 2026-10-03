@@ -1,0 +1,18 @@
+{
+  "date": "1978-12-01",
+  "weather_code": 2,
+  "temp_max": 19.2,
+  "temp_min": 8,
+  "temp_mean": 13.3,
+  "precipitation": 0,
+  "sunshine": 35642.72,
+  "wind_speed_max": 12.6,
+  "sunrise": "1978-12-01T08:00",
+  "sunset": "1978-12-01T18:03",
+  "sunshine_duration_seconds": 35642.72,
+  "sunshine_duration_minutes": 594,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

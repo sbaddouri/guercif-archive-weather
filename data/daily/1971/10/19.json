@@ -1,0 +1,18 @@
+{
+  "date": "1971-10-19",
+  "weather_code": 55,
+  "temp_max": 26.2,
+  "temp_min": 15.8,
+  "temp_mean": 20.3,
+  "precipitation": 1.4,
+  "sunshine": 36963.02,
+  "wind_speed_max": 10.8,
+  "sunrise": "1971-10-19T07:21",
+  "sunset": "1971-10-19T18:35",
+  "sunshine_duration_seconds": 36963.02,
+  "sunshine_duration_minutes": 616,
+  "estimated_daily_sunshine_minutes": 468,
+  "estimated_daily_sunshine": "7 h 48 min",
+  "sunshine_difference_minutes": 148,
+  "sunshine_consistency": "Faible"
+}

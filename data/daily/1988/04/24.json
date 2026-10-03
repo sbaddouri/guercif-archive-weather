@@ -1,0 +1,18 @@
+{
+  "date": "1988-04-24",
+  "weather_code": 51,
+  "temp_max": 22.5,
+  "temp_min": 9.7,
+  "temp_mean": 16.7,
+  "precipitation": 0.4,
+  "sunshine": 44748.79,
+  "wind_speed_max": 16.6,
+  "sunrise": "1988-04-24T06:31",
+  "sunset": "1988-04-24T19:52",
+  "sunshine_duration_seconds": 44748.79,
+  "sunshine_duration_minutes": 746,
+  "estimated_daily_sunshine_minutes": 234,
+  "estimated_daily_sunshine": "3 h 54 min",
+  "sunshine_difference_minutes": 512,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1979-04-17",
+  "weather_code": 1,
+  "temp_max": 22.8,
+  "temp_min": 8,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 45614.7,
+  "wind_speed_max": 7.6,
+  "sunrise": "1979-04-17T06:40",
+  "sunset": "1979-04-17T19:46",
+  "sunshine_duration_seconds": 45614.7,
+  "sunshine_duration_minutes": 760,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

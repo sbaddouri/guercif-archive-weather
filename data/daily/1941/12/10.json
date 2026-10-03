@@ -1,0 +1,18 @@
+{
+  "date": "1941-12-10",
+  "weather_code": 0,
+  "temp_max": 16.6,
+  "temp_min": 3.2,
+  "temp_mean": 10.4,
+  "precipitation": 0,
+  "sunshine": 35177.91,
+  "wind_speed_max": 6.6,
+  "sunrise": "1941-12-10T08:08",
+  "sunset": "1941-12-10T18:04",
+  "sunshine_duration_seconds": 35177.91,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

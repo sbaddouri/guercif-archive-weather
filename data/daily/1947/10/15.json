@@ -1,0 +1,18 @@
+{
+  "date": "1947-10-15",
+  "weather_code": 55,
+  "temp_max": 23.2,
+  "temp_min": 16.2,
+  "temp_mean": 19.4,
+  "precipitation": 3,
+  "sunshine": 36844.49,
+  "wind_speed_max": 13.7,
+  "sunrise": "1947-10-15T07:18",
+  "sunset": "1947-10-15T18:39",
+  "sunshine_duration_seconds": 36844.49,
+  "sunshine_duration_minutes": 614,
+  "estimated_daily_sunshine_minutes": 348,
+  "estimated_daily_sunshine": "5 h 48 min",
+  "sunshine_difference_minutes": 266,
+  "sunshine_consistency": "Faible"
+}

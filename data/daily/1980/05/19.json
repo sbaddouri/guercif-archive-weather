@@ -1,0 +1,18 @@
+{
+  "date": "1980-05-19",
+  "weather_code": 63,
+  "temp_max": 22.6,
+  "temp_min": 14.1,
+  "temp_mean": 17.6,
+  "precipitation": 4.3,
+  "sunshine": 48994.67,
+  "wind_speed_max": 21.4,
+  "sunrise": "1980-05-19T06:08",
+  "sunset": "1980-05-19T20:11",
+  "sunshine_duration_seconds": 48994.67,
+  "sunshine_duration_minutes": 817,
+  "estimated_daily_sunshine_minutes": 492,
+  "estimated_daily_sunshine": "8 h 12 min",
+  "sunshine_difference_minutes": 325,
+  "sunshine_consistency": "Faible"
+}

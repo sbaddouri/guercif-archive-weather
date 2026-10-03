@@ -1,0 +1,18 @@
+{
+  "date": "1986-07-05",
+  "weather_code": 2,
+  "temp_max": 34.9,
+  "temp_min": 19.5,
+  "temp_mean": 26.1,
+  "precipitation": 0,
+  "sunshine": 47506.13,
+  "wind_speed_max": 23.2,
+  "sunrise": "1986-07-05T06:06",
+  "sunset": "1986-07-05T20:28",
+  "sunshine_duration_seconds": 47506.13,
+  "sunshine_duration_minutes": 792,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

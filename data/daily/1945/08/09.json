@@ -1,0 +1,18 @@
+{
+  "date": "1945-08-09",
+  "weather_code": 0,
+  "temp_max": 34.2,
+  "temp_min": 19,
+  "temp_mean": 26.2,
+  "precipitation": 0,
+  "sunshine": 46923.49,
+  "wind_speed_max": 27.1,
+  "sunrise": "1945-08-09T06:30",
+  "sunset": "1945-08-09T20:06",
+  "sunshine_duration_seconds": 46923.49,
+  "sunshine_duration_minutes": 782,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 58,
+  "sunshine_consistency": "Faible"
+}

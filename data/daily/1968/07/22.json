@@ -1,0 +1,18 @@
+{
+  "date": "1968-07-22",
+  "weather_code": 3,
+  "temp_max": 38,
+  "temp_min": 22.6,
+  "temp_mean": 29.5,
+  "precipitation": 0,
+  "sunshine": 44735.65,
+  "wind_speed_max": 22.8,
+  "sunrise": "1968-07-22T06:17",
+  "sunset": "1968-07-22T20:22",
+  "sunshine_duration_seconds": 44735.65,
+  "sunshine_duration_minutes": 746,
+  "estimated_daily_sunshine_minutes": 417,
+  "estimated_daily_sunshine": "6 h 57 min",
+  "sunshine_difference_minutes": 329,
+  "sunshine_consistency": "Faible"
+}

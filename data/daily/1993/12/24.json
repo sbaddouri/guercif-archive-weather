@@ -1,0 +1,18 @@
+{
+  "date": "1993-12-24",
+  "weather_code": 2,
+  "temp_max": 14.5,
+  "temp_min": 5,
+  "temp_mean": 9.4,
+  "precipitation": 0,
+  "sunshine": 32855.66,
+  "wind_speed_max": 26.3,
+  "sunrise": "1993-12-24T08:16",
+  "sunset": "1993-12-24T18:09",
+  "sunshine_duration_seconds": 32855.66,
+  "sunshine_duration_minutes": 548,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 23,
+  "sunshine_consistency": "Moyen"
+}

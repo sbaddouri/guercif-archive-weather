@@ -1,0 +1,18 @@
+{
+  "date": "1949-11-22",
+  "weather_code": 51,
+  "temp_max": 19.7,
+  "temp_min": 8.5,
+  "temp_mean": 13.9,
+  "precipitation": 0.1,
+  "sunshine": 32400,
+  "wind_speed_max": 27.4,
+  "sunrise": "1949-11-22T07:53",
+  "sunset": "1949-11-22T18:05",
+  "sunshine_duration_seconds": 32400,
+  "sunshine_duration_minutes": 540,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1945-11-02",
+  "weather_code": 2,
+  "temp_max": 22.2,
+  "temp_min": 11,
+  "temp_mean": 16.1,
+  "precipitation": 0,
+  "sunshine": 36241.52,
+  "wind_speed_max": 7.2,
+  "sunrise": "1945-11-02T07:34",
+  "sunset": "1945-11-02T18:19",
+  "sunshine_duration_seconds": 36241.52,
+  "sunshine_duration_minutes": 604,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

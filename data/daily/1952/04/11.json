@@ -1,0 +1,18 @@
+{
+  "date": "1952-04-11",
+  "weather_code": 53,
+  "temp_max": 18.7,
+  "temp_min": 12.8,
+  "temp_mean": 15.5,
+  "precipitation": 2.2,
+  "sunshine": 20352.98,
+  "wind_speed_max": 12.4,
+  "sunrise": "1952-04-11T06:47",
+  "sunset": "1952-04-11T19:41",
+  "sunshine_duration_seconds": 20352.98,
+  "sunshine_duration_minutes": 339,
+  "estimated_daily_sunshine_minutes": 207,
+  "estimated_daily_sunshine": "3 h 27 min",
+  "sunshine_difference_minutes": 132,
+  "sunshine_consistency": "Faible"
+}

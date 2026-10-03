@@ -1,0 +1,18 @@
+{
+  "date": "1971-10-22",
+  "weather_code": 2,
+  "temp_max": 24.7,
+  "temp_min": 13.8,
+  "temp_mean": 18.3,
+  "precipitation": 0,
+  "sunshine": 37076,
+  "wind_speed_max": 20.9,
+  "sunrise": "1971-10-22T07:23",
+  "sunset": "1971-10-22T18:31",
+  "sunshine_duration_seconds": 37076,
+  "sunshine_duration_minutes": 618,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 3,
+  "sunshine_consistency": "Excellent"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1976-12-17",
+  "weather_code": 51,
+  "temp_max": 15,
+  "temp_min": 8.3,
+  "temp_mean": 11.2,
+  "precipitation": 0.1,
+  "sunshine": 31629.35,
+  "wind_speed_max": 21.1,
+  "sunrise": "1976-12-17T08:13",
+  "sunset": "1976-12-17T18:06",
+  "sunshine_duration_seconds": 31629.35,
+  "sunshine_duration_minutes": 527,
+  "estimated_daily_sunshine_minutes": 480,
+  "estimated_daily_sunshine": "8 h 00 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}

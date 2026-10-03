@@ -1,0 +1,18 @@
+{
+  "date": "1944-12-01",
+  "weather_code": 51,
+  "temp_max": 16.4,
+  "temp_min": 9.9,
+  "temp_mean": 12.7,
+  "precipitation": 0.3,
+  "sunshine": 35315.32,
+  "wind_speed_max": 18,
+  "sunrise": "1944-12-01T08:01",
+  "sunset": "1944-12-01T18:03",
+  "sunshine_duration_seconds": 35315.32,
+  "sunshine_duration_minutes": 589,
+  "estimated_daily_sunshine_minutes": 123,
+  "estimated_daily_sunshine": "2 h 03 min",
+  "sunshine_difference_minutes": 466,
+  "sunshine_consistency": "Faible"
+}

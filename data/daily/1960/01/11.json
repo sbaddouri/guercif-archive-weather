@@ -1,0 +1,18 @@
+{
+  "date": "1960-01-11",
+  "weather_code": 51,
+  "temp_max": 13,
+  "temp_min": 5.1,
+  "temp_mean": 9.5,
+  "precipitation": 0.5,
+  "sunshine": 28379.98,
+  "wind_speed_max": 45.2,
+  "sunrise": "1960-01-11T08:20",
+  "sunset": "1960-01-11T18:22",
+  "sunshine_duration_seconds": 28379.98,
+  "sunshine_duration_minutes": 473,
+  "estimated_daily_sunshine_minutes": 129,
+  "estimated_daily_sunshine": "2 h 09 min",
+  "sunshine_difference_minutes": 344,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1975-10-25",
+  "weather_code": 53,
+  "temp_max": 22.2,
+  "temp_min": 15.7,
+  "temp_mean": 17.8,
+  "precipitation": 1.5,
+  "sunshine": 28800,
+  "wind_speed_max": 17.1,
+  "sunrise": "1975-10-25T07:26",
+  "sunset": "1975-10-25T18:28",
+  "sunshine_duration_seconds": 28800,
+  "sunshine_duration_minutes": 480,
+  "estimated_daily_sunshine_minutes": 144,
+  "estimated_daily_sunshine": "2 h 24 min",
+  "sunshine_difference_minutes": 336,
+  "sunshine_consistency": "Faible"
+}

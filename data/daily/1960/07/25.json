@@ -1,0 +1,18 @@
+{
+  "date": "1960-07-25",
+  "weather_code": 3,
+  "temp_max": 35.8,
+  "temp_min": 22.3,
+  "temp_mean": 28.8,
+  "precipitation": 0,
+  "sunshine": 41276.9,
+  "wind_speed_max": 19.5,
+  "sunrise": "1960-07-25T06:19",
+  "sunset": "1960-07-25T20:20",
+  "sunshine_duration_seconds": 41276.9,
+  "sunshine_duration_minutes": 688,
+  "estimated_daily_sunshine_minutes": 588,
+  "estimated_daily_sunshine": "9 h 48 min",
+  "sunshine_difference_minutes": 100,
+  "sunshine_consistency": "Faible"
+}

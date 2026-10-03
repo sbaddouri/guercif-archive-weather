@@ -1,0 +1,18 @@
+{
+  "date": "1964-10-21",
+  "weather_code": 51,
+  "temp_max": 29.3,
+  "temp_min": 13.1,
+  "temp_mean": 21.3,
+  "precipitation": 0.2,
+  "sunshine": 25344.83,
+  "wind_speed_max": 20.4,
+  "sunrise": "1964-10-21T07:23",
+  "sunset": "1964-10-21T18:32",
+  "sunshine_duration_seconds": 25344.83,
+  "sunshine_duration_minutes": 422,
+  "estimated_daily_sunshine_minutes": 402,
+  "estimated_daily_sunshine": "6 h 42 min",
+  "sunshine_difference_minutes": 20,
+  "sunshine_consistency": "Moyen"
+}

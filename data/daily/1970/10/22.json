@@ -1,0 +1,18 @@
+{
+  "date": "1970-10-22",
+  "weather_code": 53,
+  "temp_max": 16.2,
+  "temp_min": 9.3,
+  "temp_mean": 12.9,
+  "precipitation": 2.1,
+  "sunshine": 33688.07,
+  "wind_speed_max": 25.2,
+  "sunrise": "1970-10-22T07:24",
+  "sunset": "1970-10-22T18:31",
+  "sunshine_duration_seconds": 33688.07,
+  "sunshine_duration_minutes": 561,
+  "estimated_daily_sunshine_minutes": 369,
+  "estimated_daily_sunshine": "6 h 09 min",
+  "sunshine_difference_minutes": 192,
+  "sunshine_consistency": "Faible"
+}

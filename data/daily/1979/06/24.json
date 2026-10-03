@@ -1,0 +1,18 @@
+{
+  "date": "1979-06-24",
+  "weather_code": 61,
+  "temp_max": 30.3,
+  "temp_min": 20.4,
+  "temp_mean": 24.8,
+  "precipitation": 3.4,
+  "sunshine": 31734.67,
+  "wind_speed_max": 25.8,
+  "sunrise": "1979-06-24T06:02",
+  "sunset": "1979-06-24T20:28",
+  "sunshine_duration_seconds": 31734.67,
+  "sunshine_duration_minutes": 529,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 409,
+  "sunshine_consistency": "Faible"
+}

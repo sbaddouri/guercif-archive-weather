@@ -1,0 +1,18 @@
+{
+  "date": "1965-08-25",
+  "weather_code": 51,
+  "temp_max": 30.4,
+  "temp_min": 17.8,
+  "temp_mean": 23.1,
+  "precipitation": 0.3,
+  "sunshine": 44401.44,
+  "wind_speed_max": 25.8,
+  "sunrise": "1965-08-25T06:41",
+  "sunset": "1965-08-25T19:48",
+  "sunshine_duration_seconds": 44401.44,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 582,
+  "estimated_daily_sunshine": "9 h 42 min",
+  "sunshine_difference_minutes": 158,
+  "sunshine_consistency": "Faible"
+}

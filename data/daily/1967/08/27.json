@@ -1,0 +1,18 @@
+{
+  "date": "1967-08-27",
+  "weather_code": 1,
+  "temp_max": 32.9,
+  "temp_min": 19.3,
+  "temp_mean": 24.7,
+  "precipitation": 0,
+  "sunshine": 45297.96,
+  "wind_speed_max": 25.3,
+  "sunrise": "1967-08-27T06:42",
+  "sunset": "1967-08-27T19:47",
+  "sunshine_duration_seconds": 45297.96,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

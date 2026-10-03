@@ -1,0 +1,18 @@
+{
+  "date": "1967-12-13",
+  "weather_code": 73,
+  "temp_max": 6.9,
+  "temp_min": 0,
+  "temp_mean": 2.6,
+  "precipitation": 4.1,
+  "sunshine": 34914.9,
+  "wind_speed_max": 18,
+  "sunrise": "1967-12-13T08:10",
+  "sunset": "1967-12-13T18:04",
+  "sunshine_duration_seconds": 34914.9,
+  "sunshine_duration_minutes": 582,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

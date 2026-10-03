@@ -1,0 +1,18 @@
+{
+  "date": "1944-03-30",
+  "weather_code": 61,
+  "temp_max": 18.3,
+  "temp_min": 12,
+  "temp_mean": 14.9,
+  "precipitation": 1.7,
+  "sunshine": 34132.31,
+  "wind_speed_max": 27,
+  "sunrise": "1944-03-30T07:02",
+  "sunset": "1944-03-30T19:33",
+  "sunshine_duration_seconds": 34132.31,
+  "sunshine_duration_minutes": 569,
+  "estimated_daily_sunshine_minutes": 270,
+  "estimated_daily_sunshine": "4 h 30 min",
+  "sunshine_difference_minutes": 299,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1975-08-22",
+  "weather_code": 0,
+  "temp_max": 32.5,
+  "temp_min": 21.2,
+  "temp_mean": 26.6,
+  "precipitation": 0,
+  "sunshine": 46149.28,
+  "wind_speed_max": 25.5,
+  "sunrise": "1975-08-22T06:39",
+  "sunset": "1975-08-22T19:53",
+  "sunshine_duration_seconds": 46149.28,
+  "sunshine_duration_minutes": 769,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

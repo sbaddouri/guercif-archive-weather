@@ -1,0 +1,18 @@
+{
+  "date": "1989-04-02",
+  "weather_code": 55,
+  "temp_max": 22.6,
+  "temp_min": 10.2,
+  "temp_mean": 16.1,
+  "precipitation": 3.1,
+  "sunshine": 35893.48,
+  "wind_speed_max": 16.3,
+  "sunrise": "1989-04-02T06:59",
+  "sunset": "1989-04-02T19:35",
+  "sunshine_duration_seconds": 35893.48,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 273,
+  "estimated_daily_sunshine": "4 h 33 min",
+  "sunshine_difference_minutes": 325,
+  "sunshine_consistency": "Faible"
+}

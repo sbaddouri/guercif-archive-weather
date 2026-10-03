@@ -1,0 +1,18 @@
+{
+  "date": "1946-04-20",
+  "weather_code": 51,
+  "temp_max": 16.1,
+  "temp_min": 6.8,
+  "temp_mean": 11.3,
+  "precipitation": 0.2,
+  "sunshine": 45830.27,
+  "wind_speed_max": 16.2,
+  "sunrise": "1946-04-20T06:36",
+  "sunset": "1946-04-20T19:49",
+  "sunshine_duration_seconds": 45830.27,
+  "sunshine_duration_minutes": 764,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 149,
+  "sunshine_consistency": "Faible"
+}

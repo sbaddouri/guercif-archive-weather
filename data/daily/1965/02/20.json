@@ -1,0 +1,18 @@
+{
+  "date": "1965-02-20",
+  "weather_code": 51,
+  "temp_max": 10.7,
+  "temp_min": 4.3,
+  "temp_mean": 7.1,
+  "precipitation": 0.1,
+  "sunshine": 32249.1,
+  "wind_speed_max": 7.9,
+  "sunrise": "1965-02-20T07:53",
+  "sunset": "1965-02-20T19:01",
+  "sunshine_duration_seconds": 32249.1,
+  "sunshine_duration_minutes": 537,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 102,
+  "sunshine_consistency": "Faible"
+}

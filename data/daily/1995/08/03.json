@@ -1,0 +1,18 @@
+{
+  "date": "1995-08-03",
+  "weather_code": 2,
+  "temp_max": 38.2,
+  "temp_min": 24.1,
+  "temp_mean": 31.2,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 15.2,
+  "sunrise": "1995-08-03T06:25",
+  "sunset": "1995-08-03T20:13",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

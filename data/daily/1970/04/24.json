@@ -1,0 +1,18 @@
+{
+  "date": "1970-04-24",
+  "weather_code": 0,
+  "temp_max": 29.6,
+  "temp_min": 9.7,
+  "temp_mean": 20.7,
+  "precipitation": 0,
+  "sunshine": 46199.87,
+  "wind_speed_max": 17.6,
+  "sunrise": "1970-04-24T06:32",
+  "sunset": "1970-04-24T19:51",
+  "sunshine_duration_seconds": 46199.87,
+  "sunshine_duration_minutes": 770,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

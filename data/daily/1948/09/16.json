@@ -1,0 +1,18 @@
+{
+  "date": "1948-09-16",
+  "weather_code": 0,
+  "temp_max": 32.6,
+  "temp_min": 18.6,
+  "temp_mean": 24.5,
+  "precipitation": 0,
+  "sunshine": 43090.55,
+  "wind_speed_max": 26.6,
+  "sunrise": "1948-09-16T06:57",
+  "sunset": "1948-09-16T19:17",
+  "sunshine_duration_seconds": 43090.55,
+  "sunshine_duration_minutes": 718,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 62,
+  "sunshine_consistency": "Faible"
+}

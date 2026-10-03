@@ -1,0 +1,18 @@
+{
+  "date": "1971-04-08",
+  "weather_code": 55,
+  "temp_max": 12.7,
+  "temp_min": 7.9,
+  "temp_mean": 10.1,
+  "precipitation": 3.1,
+  "sunshine": 41523.33,
+  "wind_speed_max": 23.4,
+  "sunrise": "1971-04-08T06:52",
+  "sunset": "1971-04-08T19:39",
+  "sunshine_duration_seconds": 41523.33,
+  "sunshine_duration_minutes": 692,
+  "estimated_daily_sunshine_minutes": 414,
+  "estimated_daily_sunshine": "6 h 54 min",
+  "sunshine_difference_minutes": 278,
+  "sunshine_consistency": "Faible"
+}

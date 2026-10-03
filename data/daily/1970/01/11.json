@@ -1,0 +1,18 @@
+{
+  "date": "1970-01-11",
+  "weather_code": 51,
+  "temp_max": 15.3,
+  "temp_min": 10.3,
+  "temp_mean": 12.5,
+  "precipitation": 0.4,
+  "sunshine": 32915.38,
+  "wind_speed_max": 29.7,
+  "sunrise": "1970-01-11T08:20",
+  "sunset": "1970-01-11T18:23",
+  "sunshine_duration_seconds": 32915.38,
+  "sunshine_duration_minutes": 549,
+  "estimated_daily_sunshine_minutes": 132,
+  "estimated_daily_sunshine": "2 h 12 min",
+  "sunshine_difference_minutes": 417,
+  "sunshine_consistency": "Faible"
+}

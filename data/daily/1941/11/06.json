@@ -1,0 +1,18 @@
+{
+  "date": "1941-11-06",
+  "weather_code": 1,
+  "temp_max": 18.3,
+  "temp_min": 9.1,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 10.6,
+  "sunrise": "1941-11-06T07:38",
+  "sunset": "1941-11-06T18:15",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

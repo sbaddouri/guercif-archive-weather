@@ -1,0 +1,18 @@
+{
+  "date": "1998-09-17",
+  "weather_code": 51,
+  "temp_max": 28.1,
+  "temp_min": 21.2,
+  "temp_mean": 24.4,
+  "precipitation": 0.3,
+  "sunshine": 35174.46,
+  "wind_speed_max": 22.4,
+  "sunrise": "1998-09-17T06:57",
+  "sunset": "1998-09-17T19:17",
+  "sunshine_duration_seconds": 35174.46,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 111,
+  "estimated_daily_sunshine": "1 h 51 min",
+  "sunshine_difference_minutes": 475,
+  "sunshine_consistency": "Faible"
+}

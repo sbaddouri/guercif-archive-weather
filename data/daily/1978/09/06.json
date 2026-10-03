@@ -1,0 +1,18 @@
+{
+  "date": "1978-09-06",
+  "weather_code": 1,
+  "temp_max": 28.6,
+  "temp_min": 14,
+  "temp_mean": 21.8,
+  "precipitation": 0,
+  "sunshine": 43440.98,
+  "wind_speed_max": 10.6,
+  "sunrise": "1978-09-06T06:50",
+  "sunset": "1978-09-06T19:33",
+  "sunshine_duration_seconds": 43440.98,
+  "sunshine_duration_minutes": 724,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 41,
+  "sunshine_consistency": "Faible"
+}

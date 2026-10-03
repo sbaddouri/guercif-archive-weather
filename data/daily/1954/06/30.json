@@ -1,0 +1,18 @@
+{
+  "date": "1954-06-30",
+  "weather_code": 0,
+  "temp_max": 33.2,
+  "temp_min": 16.5,
+  "temp_mean": 25.5,
+  "precipitation": 0,
+  "sunshine": 49854.14,
+  "wind_speed_max": 13.7,
+  "sunrise": "1954-06-30T06:04",
+  "sunset": "1954-06-30T20:29",
+  "sunshine_duration_seconds": 49854.14,
+  "sunshine_duration_minutes": 831,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

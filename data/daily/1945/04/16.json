@@ -1,0 +1,18 @@
+{
+  "date": "1945-04-16",
+  "weather_code": 53,
+  "temp_max": 31.5,
+  "temp_min": 13.8,
+  "temp_mean": 21.2,
+  "precipitation": 0.8,
+  "sunshine": 43828.92,
+  "wind_speed_max": 19,
+  "sunrise": "1945-04-16T06:40",
+  "sunset": "1945-04-16T19:46",
+  "sunshine_duration_seconds": 43828.92,
+  "sunshine_duration_minutes": 730,
+  "estimated_daily_sunshine_minutes": 519,
+  "estimated_daily_sunshine": "8 h 39 min",
+  "sunshine_difference_minutes": 211,
+  "sunshine_consistency": "Faible"
+}

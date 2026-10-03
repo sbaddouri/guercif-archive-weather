@@ -1,0 +1,18 @@
+{
+  "date": "1967-08-04",
+  "weather_code": 3,
+  "temp_max": 38.4,
+  "temp_min": 22.9,
+  "temp_mean": 30.6,
+  "precipitation": 0,
+  "sunshine": 44110.76,
+  "wind_speed_max": 21.2,
+  "sunrise": "1967-08-04T06:25",
+  "sunset": "1967-08-04T20:12",
+  "sunshine_duration_seconds": 44110.76,
+  "sunshine_duration_minutes": 735,
+  "estimated_daily_sunshine_minutes": 396,
+  "estimated_daily_sunshine": "6 h 36 min",
+  "sunshine_difference_minutes": 339,
+  "sunshine_consistency": "Faible"
+}

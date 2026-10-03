@@ -1,0 +1,18 @@
+{
+  "date": "1992-12-21",
+  "weather_code": 51,
+  "temp_max": 16.3,
+  "temp_min": 11.2,
+  "temp_mean": 13.6,
+  "precipitation": 0.1,
+  "sunshine": 3591.1,
+  "wind_speed_max": 13.4,
+  "sunrise": "1992-12-21T08:15",
+  "sunset": "1992-12-21T18:08",
+  "sunshine_duration_seconds": 3591.1,
+  "sunshine_duration_minutes": 60,
+  "estimated_daily_sunshine_minutes": 69,
+  "estimated_daily_sunshine": "1 h 09 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

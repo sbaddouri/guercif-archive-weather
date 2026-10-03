@@ -1,0 +1,18 @@
+{
+  "date": "1990-12-28",
+  "weather_code": 1,
+  "temp_max": 16.5,
+  "temp_min": 8.6,
+  "temp_mean": 11.9,
+  "precipitation": 0,
+  "sunshine": 33537.36,
+  "wind_speed_max": 8.7,
+  "sunrise": "1990-12-28T08:18",
+  "sunset": "1990-12-28T18:11",
+  "sunshine_duration_seconds": 33537.36,
+  "sunshine_duration_minutes": 559,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

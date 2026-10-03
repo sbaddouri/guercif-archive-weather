@@ -1,0 +1,18 @@
+{
+  "date": "1945-02-12",
+  "weather_code": 0,
+  "temp_max": 20.8,
+  "temp_min": 6.5,
+  "temp_mean": 13.6,
+  "precipitation": 0,
+  "sunshine": 38707.26,
+  "wind_speed_max": 8,
+  "sunrise": "1945-02-12T08:01",
+  "sunset": "1945-02-12T18:54",
+  "sunshine_duration_seconds": 38707.26,
+  "sunshine_duration_minutes": 645,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 45,
+  "sunshine_consistency": "Faible"
+}

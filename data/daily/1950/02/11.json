@@ -1,0 +1,18 @@
+{
+  "date": "1950-02-11",
+  "weather_code": 2,
+  "temp_max": 20.7,
+  "temp_min": 4.9,
+  "temp_mean": 12,
+  "precipitation": 0,
+  "sunshine": 38478.2,
+  "wind_speed_max": 10.8,
+  "sunrise": "1950-02-11T08:03",
+  "sunset": "1950-02-11T18:52",
+  "sunshine_duration_seconds": 38478.2,
+  "sunshine_duration_minutes": 641,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 131,
+  "sunshine_consistency": "Faible"
+}

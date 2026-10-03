@@ -1,0 +1,18 @@
+{
+  "date": "1965-01-02",
+  "weather_code": 61,
+  "temp_max": 13.4,
+  "temp_min": 8.1,
+  "temp_mean": 10.4,
+  "precipitation": 6.9,
+  "sunshine": 14924.36,
+  "wind_speed_max": 18.8,
+  "sunrise": "1965-01-02T08:19",
+  "sunset": "1965-01-02T18:15",
+  "sunshine_duration_seconds": 14924.36,
+  "sunshine_duration_minutes": 249,
+  "estimated_daily_sunshine_minutes": 99,
+  "estimated_daily_sunshine": "1 h 39 min",
+  "sunshine_difference_minutes": 150,
+  "sunshine_consistency": "Faible"
+}

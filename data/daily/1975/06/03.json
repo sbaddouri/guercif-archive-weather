@@ -1,0 +1,18 @@
+{
+  "date": "1975-06-03",
+  "weather_code": 0,
+  "temp_max": 25.2,
+  "temp_min": 9.9,
+  "temp_mean": 17.8,
+  "precipitation": 0,
+  "sunshine": 49982.78,
+  "wind_speed_max": 20,
+  "sunrise": "1975-06-03T06:02",
+  "sunset": "1975-06-03T20:20",
+  "sunshine_duration_seconds": 49982.78,
+  "sunshine_duration_minutes": 833,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

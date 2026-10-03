@@ -1,0 +1,18 @@
+{
+  "date": "1951-12-22",
+  "weather_code": 53,
+  "temp_max": 11.9,
+  "temp_min": 6.1,
+  "temp_mean": 9.1,
+  "precipitation": 2.9,
+  "sunshine": 9053.92,
+  "wind_speed_max": 10,
+  "sunrise": "1951-12-22T08:15",
+  "sunset": "1951-12-22T18:07",
+  "sunshine_duration_seconds": 9053.92,
+  "sunshine_duration_minutes": 151,
+  "estimated_daily_sunshine_minutes": 144,
+  "estimated_daily_sunshine": "2 h 24 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

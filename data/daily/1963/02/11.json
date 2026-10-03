@@ -1,0 +1,18 @@
+{
+  "date": "1963-02-11",
+  "weather_code": 2,
+  "temp_max": 16.4,
+  "temp_min": 11,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 38463.88,
+  "wind_speed_max": 30,
+  "sunrise": "1963-02-11T08:03",
+  "sunset": "1963-02-11T18:52",
+  "sunshine_duration_seconds": 38463.88,
+  "sunshine_duration_minutes": 641,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 56,
+  "sunshine_consistency": "Faible"
+}

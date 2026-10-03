@@ -1,0 +1,18 @@
+{
+  "date": "1983-05-10",
+  "weather_code": 63,
+  "temp_max": 19.9,
+  "temp_min": 14.7,
+  "temp_mean": 17.5,
+  "precipitation": 8.6,
+  "sunshine": 3095.87,
+  "wind_speed_max": 24.5,
+  "sunrise": "1983-05-10T06:16",
+  "sunset": "1983-05-10T20:04",
+  "sunshine_duration_seconds": 3095.87,
+  "sunshine_duration_minutes": 52,
+  "estimated_daily_sunshine_minutes": 117,
+  "estimated_daily_sunshine": "1 h 57 min",
+  "sunshine_difference_minutes": 65,
+  "sunshine_consistency": "Faible"
+}

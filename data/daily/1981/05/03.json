@@ -1,0 +1,18 @@
+{
+  "date": "1981-05-03",
+  "weather_code": 0,
+  "temp_max": 21.7,
+  "temp_min": 9.8,
+  "temp_mean": 15.6,
+  "precipitation": 0,
+  "sunshine": 47224.9,
+  "wind_speed_max": 28.1,
+  "sunrise": "1981-05-03T06:22",
+  "sunset": "1981-05-03T19:58",
+  "sunshine_duration_seconds": 47224.9,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

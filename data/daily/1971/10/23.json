@@ -1,0 +1,18 @@
+{
+  "date": "1971-10-23",
+  "weather_code": 53,
+  "temp_max": 22.2,
+  "temp_min": 12.1,
+  "temp_mean": 17.3,
+  "precipitation": 1.7,
+  "sunshine": 36791.1,
+  "wind_speed_max": 11.9,
+  "sunrise": "1971-10-23T07:24",
+  "sunset": "1971-10-23T18:30",
+  "sunshine_duration_seconds": 36791.1,
+  "sunshine_duration_minutes": 613,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 163,
+  "sunshine_consistency": "Faible"
+}

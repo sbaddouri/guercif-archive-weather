@@ -1,0 +1,18 @@
+{
+  "date": "1940-08-10",
+  "weather_code": 51,
+  "temp_max": 42.5,
+  "temp_min": 25.1,
+  "temp_mean": 33.6,
+  "precipitation": 0.1,
+  "sunshine": 44208.65,
+  "wind_speed_max": 13.5,
+  "sunrise": "1940-08-10T06:31",
+  "sunset": "1940-08-10T20:05",
+  "sunshine_duration_seconds": 44208.65,
+  "sunshine_duration_minutes": 737,
+  "estimated_daily_sunshine_minutes": 228,
+  "estimated_daily_sunshine": "3 h 48 min",
+  "sunshine_difference_minutes": 509,
+  "sunshine_consistency": "Faible"
+}

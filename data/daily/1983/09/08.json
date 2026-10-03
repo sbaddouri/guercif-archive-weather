@@ -1,0 +1,18 @@
+{
+  "date": "1983-09-08",
+  "weather_code": 3,
+  "temp_max": 35.9,
+  "temp_min": 19.3,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 39110.22,
+  "wind_speed_max": 18.8,
+  "sunrise": "1983-09-08T06:51",
+  "sunset": "1983-09-08T19:30",
+  "sunshine_duration_seconds": 39110.22,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

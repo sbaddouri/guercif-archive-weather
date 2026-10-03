@@ -1,0 +1,18 @@
+{
+  "date": "1986-07-30",
+  "weather_code": 2,
+  "temp_max": 41.7,
+  "temp_min": 20.1,
+  "temp_mean": 31.2,
+  "precipitation": 0,
+  "sunshine": 47003.55,
+  "wind_speed_max": 24.5,
+  "sunrise": "1986-07-30T06:22",
+  "sunset": "1986-07-30T20:16",
+  "sunshine_duration_seconds": 47003.55,
+  "sunshine_duration_minutes": 783,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 78,
+  "sunshine_consistency": "Faible"
+}

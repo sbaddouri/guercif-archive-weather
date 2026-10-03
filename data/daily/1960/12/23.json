@@ -1,0 +1,18 @@
+{
+  "date": "1960-12-23",
+  "weather_code": 1,
+  "temp_max": 12.2,
+  "temp_min": -0.4,
+  "temp_mean": 5.9,
+  "precipitation": 0,
+  "sunshine": 34733.5,
+  "wind_speed_max": 17.4,
+  "sunrise": "1960-12-23T08:16",
+  "sunset": "1960-12-23T18:08",
+  "sunshine_duration_seconds": 34733.5,
+  "sunshine_duration_minutes": 579,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1966-12-20",
+  "weather_code": 2,
+  "temp_max": 17.9,
+  "temp_min": 2.9,
+  "temp_mean": 10.2,
+  "precipitation": 0,
+  "sunshine": 34830.52,
+  "wind_speed_max": 9.8,
+  "sunrise": "1966-12-20T08:14",
+  "sunset": "1966-12-20T18:07",
+  "sunshine_duration_seconds": 34830.52,
+  "sunshine_duration_minutes": 581,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 71,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1985-04-11",
+  "weather_code": 53,
+  "temp_max": 20.8,
+  "temp_min": 8.8,
+  "temp_mean": 13.9,
+  "precipitation": 1.3,
+  "sunshine": 43200,
+  "wind_speed_max": 28.9,
+  "sunrise": "1985-04-11T06:47",
+  "sunset": "1985-04-11T19:41",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 552,
+  "estimated_daily_sunshine": "9 h 12 min",
+  "sunshine_difference_minutes": 168,
+  "sunshine_consistency": "Faible"
+}

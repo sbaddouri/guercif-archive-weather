@@ -1,0 +1,18 @@
+{
+  "date": "1943-01-01",
+  "weather_code": 51,
+  "temp_max": 8.3,
+  "temp_min": 3.9,
+  "temp_mean": 6.1,
+  "precipitation": 1.7,
+  "sunshine": 19275.3,
+  "wind_speed_max": 17.8,
+  "sunrise": "1943-01-01T08:19",
+  "sunset": "1943-01-01T18:14",
+  "sunshine_duration_seconds": 19275.3,
+  "sunshine_duration_minutes": 321,
+  "estimated_daily_sunshine_minutes": 240,
+  "estimated_daily_sunshine": "4 h 00 min",
+  "sunshine_difference_minutes": 81,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1973-02-27",
+  "weather_code": 2,
+  "temp_max": 17.8,
+  "temp_min": 8.5,
+  "temp_mean": 12.5,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 10.1,
+  "sunrise": "1973-02-27T07:45",
+  "sunset": "1973-02-27T19:07",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

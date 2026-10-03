@@ -1,0 +1,18 @@
+{
+  "date": "1973-02-01",
+  "weather_code": 61,
+  "temp_max": 10.7,
+  "temp_min": 6.4,
+  "temp_mean": 8.7,
+  "precipitation": 5.4,
+  "sunshine": 0,
+  "wind_speed_max": 34.1,
+  "sunrise": "1973-02-01T08:11",
+  "sunset": "1973-02-01T18:43",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 99,
+  "estimated_daily_sunshine": "1 h 39 min",
+  "sunshine_difference_minutes": 99,
+  "sunshine_consistency": "Faible"
+}

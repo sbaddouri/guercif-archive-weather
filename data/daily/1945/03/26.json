@@ -1,0 +1,18 @@
+{
+  "date": "1945-03-26",
+  "weather_code": 51,
+  "temp_max": 16.1,
+  "temp_min": 10.5,
+  "temp_mean": 13.3,
+  "precipitation": 1.2,
+  "sunshine": 42490.1,
+  "wind_speed_max": 20,
+  "sunrise": "1945-03-26T07:08",
+  "sunset": "1945-03-26T19:30",
+  "sunshine_duration_seconds": 42490.1,
+  "sunshine_duration_minutes": 708,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 318,
+  "sunshine_consistency": "Faible"
+}

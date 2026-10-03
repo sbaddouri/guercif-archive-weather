@@ -1,0 +1,18 @@
+{
+  "date": "1976-08-21",
+  "weather_code": 2,
+  "temp_max": 32.8,
+  "temp_min": 20.1,
+  "temp_mean": 26.8,
+  "precipitation": 0,
+  "sunshine": 45414.46,
+  "wind_speed_max": 16.6,
+  "sunrise": "1976-08-21T06:39",
+  "sunset": "1976-08-21T19:53",
+  "sunshine_duration_seconds": 45414.46,
+  "sunshine_duration_minutes": 757,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

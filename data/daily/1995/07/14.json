@@ -1,0 +1,18 @@
+{
+  "date": "1995-07-14",
+  "weather_code": 0,
+  "temp_max": 33.5,
+  "temp_min": 18.2,
+  "temp_mean": 26,
+  "precipitation": 0,
+  "sunshine": 48239.59,
+  "wind_speed_max": 17.9,
+  "sunrise": "1995-07-14T06:11",
+  "sunset": "1995-07-14T20:26",
+  "sunshine_duration_seconds": 48239.59,
+  "sunshine_duration_minutes": 804,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1986-10-04",
+  "weather_code": 51,
+  "temp_max": 24,
+  "temp_min": 14.8,
+  "temp_mean": 18.9,
+  "precipitation": 1.8,
+  "sunshine": 35159.72,
+  "wind_speed_max": 13,
+  "sunrise": "1986-10-04T07:09",
+  "sunset": "1986-10-04T18:54",
+  "sunshine_duration_seconds": 35159.72,
+  "sunshine_duration_minutes": 586,
+  "estimated_daily_sunshine_minutes": 84,
+  "estimated_daily_sunshine": "1 h 24 min",
+  "sunshine_difference_minutes": 502,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1967-09-30",
+  "weather_code": 51,
+  "temp_max": 31.5,
+  "temp_min": 18.7,
+  "temp_mean": 25.3,
+  "precipitation": 0.1,
+  "sunshine": 42330.8,
+  "wind_speed_max": 15,
+  "sunrise": "1967-09-30T07:06",
+  "sunset": "1967-09-30T19:00",
+  "sunshine_duration_seconds": 42330.8,
+  "sunshine_duration_minutes": 706,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 166,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1969-02-18",
+  "weather_code": 53,
+  "temp_max": 21.2,
+  "temp_min": 9.2,
+  "temp_mean": 14.2,
+  "precipitation": 1.4,
+  "sunshine": 29584.81,
+  "wind_speed_max": 22.7,
+  "sunrise": "1969-02-18T07:55",
+  "sunset": "1969-02-18T18:59",
+  "sunshine_duration_seconds": 29584.81,
+  "sunshine_duration_minutes": 493,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 313,
+  "sunshine_consistency": "Faible"
+}

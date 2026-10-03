@@ -1,0 +1,18 @@
+{
+  "date": "1978-07-20",
+  "weather_code": 2,
+  "temp_max": 37.1,
+  "temp_min": 20.7,
+  "temp_mean": 27.9,
+  "precipitation": 0,
+  "sunshine": 47420.14,
+  "wind_speed_max": 20.4,
+  "sunrise": "1978-07-20T06:15",
+  "sunset": "1978-07-20T20:23",
+  "sunshine_duration_seconds": 47420.14,
+  "sunshine_duration_minutes": 790,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

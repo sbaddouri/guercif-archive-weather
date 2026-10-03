@@ -1,0 +1,18 @@
+{
+  "date": "1947-12-10",
+  "weather_code": 53,
+  "temp_max": 13.9,
+  "temp_min": 6.2,
+  "temp_mean": 9.7,
+  "precipitation": 2.4,
+  "sunshine": 29243.08,
+  "wind_speed_max": 17.1,
+  "sunrise": "1947-12-10T08:08",
+  "sunset": "1947-12-10T18:04",
+  "sunshine_duration_seconds": 29243.08,
+  "sunshine_duration_minutes": 487,
+  "estimated_daily_sunshine_minutes": 267,
+  "estimated_daily_sunshine": "4 h 27 min",
+  "sunshine_difference_minutes": 220,
+  "sunshine_consistency": "Faible"
+}

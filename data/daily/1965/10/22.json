@@ -1,0 +1,18 @@
+{
+  "date": "1965-10-22",
+  "weather_code": 2,
+  "temp_max": 24.4,
+  "temp_min": 11.4,
+  "temp_mean": 17.9,
+  "precipitation": 0,
+  "sunshine": 37684.22,
+  "wind_speed_max": 14.5,
+  "sunrise": "1965-10-22T07:24",
+  "sunset": "1965-10-22T18:31",
+  "sunshine_duration_seconds": 37684.22,
+  "sunshine_duration_minutes": 628,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1989-03-24",
+  "weather_code": 0,
+  "temp_max": 23.1,
+  "temp_min": 4.8,
+  "temp_mean": 14.7,
+  "precipitation": 0,
+  "sunshine": 42345.28,
+  "wind_speed_max": 12.8,
+  "sunrise": "1989-03-24T07:12",
+  "sunset": "1989-03-24T19:28",
+  "sunshine_duration_seconds": 42345.28,
+  "sunshine_duration_minutes": 706,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

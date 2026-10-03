@@ -1,0 +1,18 @@
+{
+  "date": "1984-09-27",
+  "weather_code": 53,
+  "temp_max": 29.5,
+  "temp_min": 17.6,
+  "temp_mean": 22.3,
+  "precipitation": 1.3,
+  "sunshine": 18194.27,
+  "wind_speed_max": 12.9,
+  "sunrise": "1984-09-27T07:05",
+  "sunset": "1984-09-27T19:03",
+  "sunshine_duration_seconds": 18194.27,
+  "sunshine_duration_minutes": 303,
+  "estimated_daily_sunshine_minutes": 81,
+  "estimated_daily_sunshine": "1 h 21 min",
+  "sunshine_difference_minutes": 222,
+  "sunshine_consistency": "Faible"
+}

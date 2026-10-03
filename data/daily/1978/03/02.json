@@ -1,0 +1,18 @@
+{
+  "date": "1978-03-02",
+  "weather_code": 3,
+  "temp_max": 16.9,
+  "temp_min": 6.2,
+  "temp_mean": 12.1,
+  "precipitation": 0,
+  "sunshine": 25895.11,
+  "wind_speed_max": 15.5,
+  "sunrise": "1978-03-02T07:41",
+  "sunset": "1978-03-02T19:10",
+  "sunshine_duration_seconds": 25895.11,
+  "sunshine_duration_minutes": 432,
+  "estimated_daily_sunshine_minutes": 174,
+  "estimated_daily_sunshine": "2 h 54 min",
+  "sunshine_difference_minutes": 258,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1955-12-22",
+  "weather_code": 2,
+  "temp_max": 16,
+  "temp_min": 9,
+  "temp_mean": 12.4,
+  "precipitation": 0,
+  "sunshine": 33789.77,
+  "wind_speed_max": 16.4,
+  "sunrise": "1955-12-22T08:15",
+  "sunset": "1955-12-22T18:07",
+  "sunshine_duration_seconds": 33789.77,
+  "sunshine_duration_minutes": 563,
+  "estimated_daily_sunshine_minutes": 495,
+  "estimated_daily_sunshine": "8 h 15 min",
+  "sunshine_difference_minutes": 68,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1993-04-19",
+  "weather_code": 51,
+  "temp_max": 24,
+  "temp_min": 11.2,
+  "temp_mean": 17.1,
+  "precipitation": 0.1,
+  "sunshine": 45283.85,
+  "wind_speed_max": 12.1,
+  "sunrise": "1993-04-19T06:37",
+  "sunset": "1993-04-19T19:48",
+  "sunshine_duration_seconds": 45283.85,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 65,
+  "sunshine_consistency": "Faible"
+}

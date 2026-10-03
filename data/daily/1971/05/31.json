@@ -1,0 +1,18 @@
+{
+  "date": "1971-05-31",
+  "weather_code": 1,
+  "temp_max": 28.4,
+  "temp_min": 14.9,
+  "temp_mean": 21,
+  "precipitation": 0,
+  "sunshine": 49929.64,
+  "wind_speed_max": 21.3,
+  "sunrise": "1971-05-31T06:03",
+  "sunset": "1971-05-31T20:19",
+  "sunshine_duration_seconds": 49929.64,
+  "sunshine_duration_minutes": 832,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1960-05-20",
+  "weather_code": 3,
+  "temp_max": 23.9,
+  "temp_min": 12.4,
+  "temp_mean": 17.5,
+  "precipitation": 0,
+  "sunshine": 49632.91,
+  "wind_speed_max": 21.6,
+  "sunrise": "1960-05-20T06:08",
+  "sunset": "1960-05-20T20:12",
+  "sunshine_duration_seconds": 49632.91,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 32,
+  "sunshine_consistency": "Faible"
+}

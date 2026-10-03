@@ -1,0 +1,18 @@
+{
+  "date": "1985-11-26",
+  "weather_code": 51,
+  "temp_max": 17.9,
+  "temp_min": 12.6,
+  "temp_mean": 15,
+  "precipitation": 0.3,
+  "sunshine": 31065.72,
+  "wind_speed_max": 30.3,
+  "sunrise": "1985-11-26T07:56",
+  "sunset": "1985-11-26T18:04",
+  "sunshine_duration_seconds": 31065.72,
+  "sunshine_duration_minutes": 518,
+  "estimated_daily_sunshine_minutes": 402,
+  "estimated_daily_sunshine": "6 h 42 min",
+  "sunshine_difference_minutes": 116,
+  "sunshine_consistency": "Faible"
+}

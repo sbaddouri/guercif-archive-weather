@@ -1,0 +1,18 @@
+{
+  "date": "1965-08-03",
+  "weather_code": 2,
+  "temp_max": 38.2,
+  "temp_min": 22.7,
+  "temp_mean": 30,
+  "precipitation": 0,
+  "sunshine": 47079.65,
+  "wind_speed_max": 20.3,
+  "sunrise": "1965-08-03T06:25",
+  "sunset": "1965-08-03T20:13",
+  "sunshine_duration_seconds": 47079.65,
+  "sunshine_duration_minutes": 785,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

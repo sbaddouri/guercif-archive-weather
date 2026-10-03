@@ -1,0 +1,18 @@
+{
+  "date": "1965-07-24",
+  "weather_code": 2,
+  "temp_max": 36.5,
+  "temp_min": 22.4,
+  "temp_mean": 29.8,
+  "precipitation": 0,
+  "sunshine": 46888.87,
+  "wind_speed_max": 30.5,
+  "sunrise": "1965-07-24T06:18",
+  "sunset": "1965-07-24T20:20",
+  "sunshine_duration_seconds": 46888.87,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 121,
+  "sunshine_consistency": "Faible"
+}

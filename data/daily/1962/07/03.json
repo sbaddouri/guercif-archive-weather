@@ -1,0 +1,18 @@
+{
+  "date": "1962-07-03",
+  "weather_code": 3,
+  "temp_max": 36.8,
+  "temp_min": 19.1,
+  "temp_mean": 28,
+  "precipitation": 0,
+  "sunshine": 46427.44,
+  "wind_speed_max": 16.2,
+  "sunrise": "1962-07-03T06:05",
+  "sunset": "1962-07-03T20:29",
+  "sunshine_duration_seconds": 46427.44,
+  "sunshine_duration_minutes": 774,
+  "estimated_daily_sunshine_minutes": 555,
+  "estimated_daily_sunshine": "9 h 15 min",
+  "sunshine_difference_minutes": 219,
+  "sunshine_consistency": "Faible"
+}

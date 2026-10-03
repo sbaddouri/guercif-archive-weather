@@ -1,0 +1,18 @@
+{
+  "date": "1991-07-05",
+  "weather_code": 1,
+  "temp_max": 32,
+  "temp_min": 19.9,
+  "temp_mean": 25.7,
+  "precipitation": 0,
+  "sunshine": 48735.87,
+  "wind_speed_max": 14.8,
+  "sunrise": "1991-07-05T06:06",
+  "sunset": "1991-07-05T20:28",
+  "sunshine_duration_seconds": 48735.87,
+  "sunshine_duration_minutes": 812,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

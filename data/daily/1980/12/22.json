@@ -1,0 +1,18 @@
+{
+  "date": "1980-12-22",
+  "weather_code": 2,
+  "temp_max": 17.2,
+  "temp_min": 9.3,
+  "temp_mean": 13.1,
+  "precipitation": 0,
+  "sunshine": 33479.85,
+  "wind_speed_max": 8.2,
+  "sunrise": "1980-12-22T08:16",
+  "sunset": "1980-12-22T18:08",
+  "sunshine_duration_seconds": 33479.85,
+  "sunshine_duration_minutes": 558,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

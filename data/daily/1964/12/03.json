@@ -1,0 +1,18 @@
+{
+  "date": "1964-12-03",
+  "weather_code": 2,
+  "temp_max": 14.7,
+  "temp_min": 8.3,
+  "temp_mean": 11.1,
+  "precipitation": 0,
+  "sunshine": 35258.84,
+  "wind_speed_max": 11,
+  "sunrise": "1964-12-03T08:03",
+  "sunset": "1964-12-03T18:03",
+  "sunshine_duration_seconds": 35258.84,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 63,
+  "sunshine_consistency": "Faible"
+}

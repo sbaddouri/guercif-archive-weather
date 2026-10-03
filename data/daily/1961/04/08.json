@@ -1,0 +1,18 @@
+{
+  "date": "1961-04-08",
+  "weather_code": 51,
+  "temp_max": 17.1,
+  "temp_min": 9.8,
+  "temp_mean": 13,
+  "precipitation": 1.5,
+  "sunshine": 44095.42,
+  "wind_speed_max": 22.8,
+  "sunrise": "1961-04-08T06:51",
+  "sunset": "1961-04-08T19:39",
+  "sunshine_duration_seconds": 44095.42,
+  "sunshine_duration_minutes": 735,
+  "estimated_daily_sunshine_minutes": 255,
+  "estimated_daily_sunshine": "4 h 15 min",
+  "sunshine_difference_minutes": 480,
+  "sunshine_consistency": "Faible"
+}

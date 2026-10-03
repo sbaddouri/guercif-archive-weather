@@ -1,0 +1,18 @@
+{
+  "date": "1968-08-05",
+  "weather_code": 2,
+  "temp_max": 33.2,
+  "temp_min": 21.2,
+  "temp_mean": 26.1,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 21.7,
+  "sunrise": "1968-08-05T06:27",
+  "sunset": "1968-08-05T20:11",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1974-09-12",
+  "weather_code": 1,
+  "temp_max": 32.9,
+  "temp_min": 20.2,
+  "temp_mean": 25.4,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 20.7,
+  "sunrise": "1974-09-12T06:54",
+  "sunset": "1974-09-12T19:25",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1940-10-07",
+  "weather_code": 1,
+  "temp_max": 30.4,
+  "temp_min": 16.3,
+  "temp_mean": 22.5,
+  "precipitation": 0,
+  "sunshine": 41271.82,
+  "wind_speed_max": 12.2,
+  "sunrise": "1940-10-07T07:12",
+  "sunset": "1940-10-07T18:48",
+  "sunshine_duration_seconds": 41271.82,
+  "sunshine_duration_minutes": 688,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

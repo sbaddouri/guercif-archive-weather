@@ -1,0 +1,18 @@
+{
+  "date": "1984-08-08",
+  "weather_code": 53,
+  "temp_max": 40.1,
+  "temp_min": 21.5,
+  "temp_mean": 31.3,
+  "precipitation": 0.8,
+  "sunshine": 41983.37,
+  "wind_speed_max": 17.7,
+  "sunrise": "1984-08-08T06:29",
+  "sunset": "1984-08-08T20:08",
+  "sunshine_duration_seconds": 41983.37,
+  "sunshine_duration_minutes": 700,
+  "estimated_daily_sunshine_minutes": 576,
+  "estimated_daily_sunshine": "9 h 36 min",
+  "sunshine_difference_minutes": 124,
+  "sunshine_consistency": "Faible"
+}

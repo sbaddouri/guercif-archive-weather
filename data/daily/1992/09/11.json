@@ -1,0 +1,18 @@
+{
+  "date": "1992-09-11",
+  "weather_code": 1,
+  "temp_max": 37.3,
+  "temp_min": 21.1,
+  "temp_mean": 28.2,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 16.6,
+  "sunrise": "1992-09-11T06:53",
+  "sunset": "1992-09-11T19:25",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

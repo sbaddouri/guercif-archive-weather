@@ -1,0 +1,18 @@
+{
+  "date": "1963-11-11",
+  "weather_code": 2,
+  "temp_max": 24.7,
+  "temp_min": 10,
+  "temp_mean": 17.4,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 8.3,
+  "sunrise": "1963-11-11T07:41",
+  "sunset": "1963-11-11T18:12",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1970-02-26",
+  "weather_code": 2,
+  "temp_max": 19.7,
+  "temp_min": 3.6,
+  "temp_mean": 12.4,
+  "precipitation": 0,
+  "sunshine": 39600,
+  "wind_speed_max": 13.2,
+  "sunrise": "1970-02-26T07:46",
+  "sunset": "1970-02-26T19:06",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 675,
+  "estimated_daily_sunshine": "11 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

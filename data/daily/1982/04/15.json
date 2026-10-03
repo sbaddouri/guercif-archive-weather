@@ -1,0 +1,18 @@
+{
+  "date": "1982-04-15",
+  "weather_code": 61,
+  "temp_max": 17.3,
+  "temp_min": 10.5,
+  "temp_mean": 13.5,
+  "precipitation": 9.3,
+  "sunshine": 32046.1,
+  "wind_speed_max": 17.6,
+  "sunrise": "1982-04-15T06:43",
+  "sunset": "1982-04-15T19:44",
+  "sunshine_duration_seconds": 32046.1,
+  "sunshine_duration_minutes": 534,
+  "estimated_daily_sunshine_minutes": 129,
+  "estimated_daily_sunshine": "2 h 09 min",
+  "sunshine_difference_minutes": 405,
+  "sunshine_consistency": "Faible"
+}

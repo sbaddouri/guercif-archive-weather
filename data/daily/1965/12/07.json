@@ -1,0 +1,18 @@
+{
+  "date": "1965-12-07",
+  "weather_code": 3,
+  "temp_max": 21.6,
+  "temp_min": 6.8,
+  "temp_mean": 13.5,
+  "precipitation": 0,
+  "sunshine": 34828.78,
+  "wind_speed_max": 13.3,
+  "sunrise": "1965-12-07T08:06",
+  "sunset": "1965-12-07T18:03",
+  "sunshine_duration_seconds": 34828.78,
+  "sunshine_duration_minutes": 580,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 355,
+  "sunshine_consistency": "Faible"
+}

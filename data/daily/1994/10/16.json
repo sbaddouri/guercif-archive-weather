@@ -1,0 +1,18 @@
+{
+  "date": "1994-10-16",
+  "weather_code": 3,
+  "temp_max": 23.5,
+  "temp_min": 15.5,
+  "temp_mean": 19.3,
+  "precipitation": 0,
+  "sunshine": 33129.65,
+  "wind_speed_max": 15.5,
+  "sunrise": "1994-10-16T07:19",
+  "sunset": "1994-10-16T18:38",
+  "sunshine_duration_seconds": 33129.65,
+  "sunshine_duration_minutes": 552,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 486,
+  "sunshine_consistency": "Faible"
+}

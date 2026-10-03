@@ -1,0 +1,18 @@
+{
+  "date": "1941-08-11",
+  "weather_code": 3,
+  "temp_max": 39.4,
+  "temp_min": 21.6,
+  "temp_mean": 28.3,
+  "precipitation": 0,
+  "sunshine": 44232.41,
+  "wind_speed_max": 25,
+  "sunrise": "1941-08-11T06:32",
+  "sunset": "1941-08-11T20:04",
+  "sunshine_duration_seconds": 44232.41,
+  "sunshine_duration_minutes": 737,
+  "estimated_daily_sunshine_minutes": 558,
+  "estimated_daily_sunshine": "9 h 18 min",
+  "sunshine_difference_minutes": 179,
+  "sunshine_consistency": "Faible"
+}

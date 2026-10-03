@@ -1,0 +1,18 @@
+{
+  "date": "1949-03-13",
+  "weather_code": 1,
+  "temp_max": 18.4,
+  "temp_min": 8.1,
+  "temp_mean": 13.2,
+  "precipitation": 0,
+  "sunshine": 40099.78,
+  "wind_speed_max": 15,
+  "sunrise": "1949-03-13T07:26",
+  "sunset": "1949-03-13T19:19",
+  "sunshine_duration_seconds": 40099.78,
+  "sunshine_duration_minutes": 668,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

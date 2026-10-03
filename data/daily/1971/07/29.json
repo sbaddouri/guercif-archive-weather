@@ -1,0 +1,18 @@
+{
+  "date": "1971-07-29",
+  "weather_code": 55,
+  "temp_max": 35.8,
+  "temp_min": 23,
+  "temp_mean": 28.5,
+  "precipitation": 1.7,
+  "sunshine": 45490.85,
+  "wind_speed_max": 16.5,
+  "sunrise": "1971-07-29T06:21",
+  "sunset": "1971-07-29T20:17",
+  "sunshine_duration_seconds": 45490.85,
+  "sunshine_duration_minutes": 758,
+  "estimated_daily_sunshine_minutes": 474,
+  "estimated_daily_sunshine": "7 h 54 min",
+  "sunshine_difference_minutes": 284,
+  "sunshine_consistency": "Faible"
+}

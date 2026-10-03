@@ -1,0 +1,18 @@
+{
+  "date": "1940-08-15",
+  "weather_code": 51,
+  "temp_max": 39.9,
+  "temp_min": 23.4,
+  "temp_mean": 31.1,
+  "precipitation": 0.1,
+  "sunshine": 35755.18,
+  "wind_speed_max": 18.5,
+  "sunrise": "1940-08-15T06:35",
+  "sunset": "1940-08-15T20:00",
+  "sunshine_duration_seconds": 35755.18,
+  "sunshine_duration_minutes": 596,
+  "estimated_daily_sunshine_minutes": 522,
+  "estimated_daily_sunshine": "8 h 42 min",
+  "sunshine_difference_minutes": 74,
+  "sunshine_consistency": "Faible"
+}

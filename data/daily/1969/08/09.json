@@ -1,0 +1,18 @@
+{
+  "date": "1969-08-09",
+  "weather_code": 63,
+  "temp_max": 38.1,
+  "temp_min": 22.7,
+  "temp_mean": 29.5,
+  "precipitation": 2.8,
+  "sunshine": 41804.91,
+  "wind_speed_max": 12.4,
+  "sunrise": "1969-08-09T06:30",
+  "sunset": "1969-08-09T20:07",
+  "sunshine_duration_seconds": 41804.91,
+  "sunshine_duration_minutes": 697,
+  "estimated_daily_sunshine_minutes": 693,
+  "estimated_daily_sunshine": "11 h 33 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

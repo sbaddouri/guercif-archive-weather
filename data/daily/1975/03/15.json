@@ -1,0 +1,18 @@
+{
+  "date": "1975-03-15",
+  "weather_code": 2,
+  "temp_max": 14.9,
+  "temp_min": 5.5,
+  "temp_mean": 10.1,
+  "precipitation": 0,
+  "sunshine": 37386.22,
+  "wind_speed_max": 24.5,
+  "sunrise": "1975-03-15T07:25",
+  "sunset": "1975-03-15T19:20",
+  "sunshine_duration_seconds": 37386.22,
+  "sunshine_duration_minutes": 623,
+  "estimated_daily_sunshine_minutes": 435,
+  "estimated_daily_sunshine": "7 h 15 min",
+  "sunshine_difference_minutes": 188,
+  "sunshine_consistency": "Faible"
+}

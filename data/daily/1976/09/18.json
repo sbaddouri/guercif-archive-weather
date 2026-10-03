@@ -1,0 +1,18 @@
+{
+  "date": "1976-09-18",
+  "weather_code": 53,
+  "temp_max": 27.2,
+  "temp_min": 17,
+  "temp_mean": 21.4,
+  "precipitation": 2.1,
+  "sunshine": 28835.84,
+  "wind_speed_max": 16.4,
+  "sunrise": "1976-09-18T06:58",
+  "sunset": "1976-09-18T19:15",
+  "sunshine_duration_seconds": 28835.84,
+  "sunshine_duration_minutes": 481,
+  "estimated_daily_sunshine_minutes": 345,
+  "estimated_daily_sunshine": "5 h 45 min",
+  "sunshine_difference_minutes": 136,
+  "sunshine_consistency": "Faible"
+}

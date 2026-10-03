@@ -1,0 +1,18 @@
+{
+  "date": "1982-02-02",
+  "weather_code": 2,
+  "temp_max": 16.9,
+  "temp_min": 2.8,
+  "temp_mean": 9.3,
+  "precipitation": 0,
+  "sunshine": 37514.37,
+  "wind_speed_max": 9.8,
+  "sunrise": "1982-02-02T08:10",
+  "sunset": "1982-02-02T18:44",
+  "sunshine_duration_seconds": 37514.37,
+  "sunshine_duration_minutes": 625,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 175,
+  "sunshine_consistency": "Faible"
+}

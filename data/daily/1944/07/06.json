@@ -1,0 +1,18 @@
+{
+  "date": "1944-07-06",
+  "weather_code": 1,
+  "temp_max": 31.8,
+  "temp_min": 22.2,
+  "temp_mean": 26.7,
+  "precipitation": 0,
+  "sunshine": 49640.15,
+  "wind_speed_max": 19.4,
+  "sunrise": "1944-07-06T06:08",
+  "sunset": "1944-07-06T20:28",
+  "sunshine_duration_seconds": 49640.15,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}

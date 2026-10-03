@@ -1,0 +1,18 @@
+{
+  "date": "1987-02-10",
+  "weather_code": 51,
+  "temp_max": 13.1,
+  "temp_min": 8.3,
+  "temp_mean": 10.5,
+  "precipitation": 0.3,
+  "sunshine": 29360.87,
+  "wind_speed_max": 24.9,
+  "sunrise": "1987-02-10T08:03",
+  "sunset": "1987-02-10T18:51",
+  "sunshine_duration_seconds": 29360.87,
+  "sunshine_duration_minutes": 489,
+  "estimated_daily_sunshine_minutes": 60,
+  "estimated_daily_sunshine": "1 h 00 min",
+  "sunshine_difference_minutes": 429,
+  "sunshine_consistency": "Faible"
+}

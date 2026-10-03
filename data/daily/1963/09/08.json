@@ -1,0 +1,18 @@
+{
+  "date": "1963-09-08",
+  "weather_code": 1,
+  "temp_max": 31.6,
+  "temp_min": 16.1,
+  "temp_mean": 23.3,
+  "precipitation": 0,
+  "sunshine": 43227.29,
+  "wind_speed_max": 19.2,
+  "sunrise": "1963-09-08T06:51",
+  "sunset": "1963-09-08T19:31",
+  "sunshine_duration_seconds": 43227.29,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 0,
+  "sunshine_consistency": "Excellent"
+}

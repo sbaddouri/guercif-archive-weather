@@ -1,0 +1,18 @@
+{
+  "date": "1943-04-27",
+  "weather_code": 51,
+  "temp_max": 25.3,
+  "temp_min": 13.8,
+  "temp_mean": 18.9,
+  "precipitation": 0.2,
+  "sunshine": 45485.87,
+  "wind_speed_max": 16.1,
+  "sunrise": "1943-04-27T06:28",
+  "sunset": "1943-04-27T19:54",
+  "sunshine_duration_seconds": 45485.87,
+  "sunshine_duration_minutes": 758,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 308,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1970-08-25",
+  "weather_code": 51,
+  "temp_max": 32.9,
+  "temp_min": 20.9,
+  "temp_mean": 25.2,
+  "precipitation": 0.9,
+  "sunshine": 41123.81,
+  "wind_speed_max": 20.3,
+  "sunrise": "1970-08-25T06:41",
+  "sunset": "1970-08-25T19:49",
+  "sunshine_duration_seconds": 41123.81,
+  "sunshine_duration_minutes": 685,
+  "estimated_daily_sunshine_minutes": 552,
+  "estimated_daily_sunshine": "9 h 12 min",
+  "sunshine_difference_minutes": 133,
+  "sunshine_consistency": "Faible"
+}

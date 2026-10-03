@@ -1,0 +1,18 @@
+{
+  "date": "1972-07-06",
+  "weather_code": 1,
+  "temp_max": 29.6,
+  "temp_min": 16.2,
+  "temp_mean": 22.8,
+  "precipitation": 0,
+  "sunshine": 48751.98,
+  "wind_speed_max": 24.6,
+  "sunrise": "1972-07-06T06:07",
+  "sunset": "1972-07-06T20:28",
+  "sunshine_duration_seconds": 48751.98,
+  "sunshine_duration_minutes": 813,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

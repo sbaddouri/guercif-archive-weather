@@ -1,0 +1,18 @@
+{
+  "date": "1959-08-22",
+  "weather_code": 0,
+  "temp_max": 35.3,
+  "temp_min": 20.9,
+  "temp_mean": 28.4,
+  "precipitation": 0,
+  "sunshine": 46155.31,
+  "wind_speed_max": 23.8,
+  "sunrise": "1959-08-22T06:39",
+  "sunset": "1959-08-22T19:53",
+  "sunshine_duration_seconds": 46155.31,
+  "sunshine_duration_minutes": 769,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

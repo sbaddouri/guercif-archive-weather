@@ -1,0 +1,18 @@
+{
+  "date": "1960-07-27",
+  "weather_code": 55,
+  "temp_max": 38,
+  "temp_min": 24.3,
+  "temp_mean": 30.3,
+  "precipitation": 1,
+  "sunshine": 42040.67,
+  "wind_speed_max": 15.8,
+  "sunrise": "1960-07-27T06:20",
+  "sunset": "1960-07-27T20:18",
+  "sunshine_duration_seconds": 42040.67,
+  "sunshine_duration_minutes": 701,
+  "estimated_daily_sunshine_minutes": 609,
+  "estimated_daily_sunshine": "10 h 09 min",
+  "sunshine_difference_minutes": 92,
+  "sunshine_consistency": "Faible"
+}

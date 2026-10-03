@@ -1,0 +1,18 @@
+{
+  "date": "1979-09-22",
+  "weather_code": 2,
+  "temp_max": 23.7,
+  "temp_min": 15.1,
+  "temp_mean": 19,
+  "precipitation": 0,
+  "sunshine": 41570.32,
+  "wind_speed_max": 20.5,
+  "sunrise": "1979-09-22T07:01",
+  "sunset": "1979-09-22T19:11",
+  "sunshine_duration_seconds": 41570.32,
+  "sunshine_duration_minutes": 693,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

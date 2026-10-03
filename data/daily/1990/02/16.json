@@ -1,0 +1,18 @@
+{
+  "date": "1990-02-16",
+  "weather_code": 0,
+  "temp_max": 24,
+  "temp_min": 5.2,
+  "temp_mean": 14.8,
+  "precipitation": 0,
+  "sunshine": 39109.84,
+  "wind_speed_max": 9.6,
+  "sunrise": "1990-02-16T07:57",
+  "sunset": "1990-02-16T18:57",
+  "sunshine_duration_seconds": 39109.84,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

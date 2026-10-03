@@ -1,0 +1,18 @@
+{
+  "date": "1941-02-19",
+  "weather_code": 51,
+  "temp_max": 19,
+  "temp_min": 12.9,
+  "temp_mean": 15.1,
+  "precipitation": 1.2,
+  "sunshine": 30641.95,
+  "wind_speed_max": 28.9,
+  "sunrise": "1941-02-19T07:53",
+  "sunset": "1941-02-19T19:01",
+  "sunshine_duration_seconds": 30641.95,
+  "sunshine_duration_minutes": 511,
+  "estimated_daily_sunshine_minutes": 339,
+  "estimated_daily_sunshine": "5 h 39 min",
+  "sunshine_difference_minutes": 172,
+  "sunshine_consistency": "Faible"
+}

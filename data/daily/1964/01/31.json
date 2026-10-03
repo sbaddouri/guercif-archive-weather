@@ -1,0 +1,18 @@
+{
+  "date": "1964-01-31",
+  "weather_code": 0,
+  "temp_max": 16,
+  "temp_min": 0.9,
+  "temp_mean": 8.2,
+  "precipitation": 0,
+  "sunshine": 37238.44,
+  "wind_speed_max": 6.7,
+  "sunrise": "1964-01-31T08:12",
+  "sunset": "1964-01-31T18:41",
+  "sunshine_duration_seconds": 37238.44,
+  "sunshine_duration_minutes": 621,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 21,
+  "sunshine_consistency": "Moyen"
+}

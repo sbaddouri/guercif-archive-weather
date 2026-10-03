@@ -1,0 +1,18 @@
+{
+  "date": "1944-03-14",
+  "weather_code": 1,
+  "temp_max": 17.8,
+  "temp_min": 5.8,
+  "temp_mean": 11.8,
+  "precipitation": 0,
+  "sunshine": 40888.34,
+  "wind_speed_max": 10.2,
+  "sunrise": "1944-03-14T07:24",
+  "sunset": "1944-03-14T19:20",
+  "sunshine_duration_seconds": 40888.34,
+  "sunshine_duration_minutes": 681,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

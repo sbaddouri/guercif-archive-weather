@@ -1,0 +1,18 @@
+{
+  "date": "1963-12-08",
+  "weather_code": 55,
+  "temp_max": 14.6,
+  "temp_min": 5.4,
+  "temp_mean": 10.1,
+  "precipitation": 2.5,
+  "sunshine": 28062.4,
+  "wind_speed_max": 8.8,
+  "sunrise": "1963-12-08T08:06",
+  "sunset": "1963-12-08T18:03",
+  "sunshine_duration_seconds": 28062.4,
+  "sunshine_duration_minutes": 468,
+  "estimated_daily_sunshine_minutes": 120,
+  "estimated_daily_sunshine": "2 h 00 min",
+  "sunshine_difference_minutes": 348,
+  "sunshine_consistency": "Faible"
+}

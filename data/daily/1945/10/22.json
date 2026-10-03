@@ -1,0 +1,18 @@
+{
+  "date": "1945-10-22",
+  "weather_code": 3,
+  "temp_max": 24.8,
+  "temp_min": 13.9,
+  "temp_mean": 19.2,
+  "precipitation": 0,
+  "sunshine": 37437.22,
+  "wind_speed_max": 5.5,
+  "sunrise": "1945-10-22T07:24",
+  "sunset": "1945-10-22T18:30",
+  "sunshine_duration_seconds": 37437.22,
+  "sunshine_duration_minutes": 624,
+  "estimated_daily_sunshine_minutes": 279,
+  "estimated_daily_sunshine": "4 h 39 min",
+  "sunshine_difference_minutes": 345,
+  "sunshine_consistency": "Faible"
+}

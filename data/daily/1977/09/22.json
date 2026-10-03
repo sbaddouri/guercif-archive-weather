@@ -1,0 +1,18 @@
+{
+  "date": "1977-09-22",
+  "weather_code": 1,
+  "temp_max": 27.4,
+  "temp_min": 14.8,
+  "temp_mean": 21,
+  "precipitation": 0,
+  "sunshine": 42873.12,
+  "wind_speed_max": 17.7,
+  "sunrise": "1977-09-22T07:01",
+  "sunset": "1977-09-22T19:10",
+  "sunshine_duration_seconds": 42873.12,
+  "sunshine_duration_minutes": 715,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 5,
+  "sunshine_consistency": "Excellent"
+}

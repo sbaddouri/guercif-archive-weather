@@ -1,0 +1,18 @@
+{
+  "date": "1995-12-29",
+  "weather_code": 51,
+  "temp_max": 19.1,
+  "temp_min": 6.2,
+  "temp_mean": 12.5,
+  "precipitation": 0.3,
+  "sunshine": 26024.38,
+  "wind_speed_max": 16,
+  "sunrise": "1995-12-29T08:18",
+  "sunset": "1995-12-29T18:12",
+  "sunshine_duration_seconds": 26024.38,
+  "sunshine_duration_minutes": 434,
+  "estimated_daily_sunshine_minutes": 69,
+  "estimated_daily_sunshine": "1 h 09 min",
+  "sunshine_difference_minutes": 365,
+  "sunshine_consistency": "Faible"
+}

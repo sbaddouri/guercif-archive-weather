@@ -1,0 +1,18 @@
+{
+  "date": "1994-01-06",
+  "weather_code": 61,
+  "temp_max": 17.5,
+  "temp_min": 4.3,
+  "temp_mean": 8.5,
+  "precipitation": 5.1,
+  "sunshine": 12420.04,
+  "wind_speed_max": 34.7,
+  "sunrise": "1994-01-06T08:20",
+  "sunset": "1994-01-06T18:18",
+  "sunshine_duration_seconds": 12420.04,
+  "sunshine_duration_minutes": 207,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 141,
+  "sunshine_consistency": "Faible"
+}

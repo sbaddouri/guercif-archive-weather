@@ -1,0 +1,18 @@
+{
+  "date": "1982-08-26",
+  "weather_code": 61,
+  "temp_max": 31.2,
+  "temp_min": 20.7,
+  "temp_mean": 25.1,
+  "precipitation": 1.9,
+  "sunshine": 1082.65,
+  "wind_speed_max": 18.8,
+  "sunrise": "1982-08-26T06:42",
+  "sunset": "1982-08-26T19:47",
+  "sunshine_duration_seconds": 1082.65,
+  "sunshine_duration_minutes": 18,
+  "estimated_daily_sunshine_minutes": 111,
+  "estimated_daily_sunshine": "1 h 51 min",
+  "sunshine_difference_minutes": 93,
+  "sunshine_consistency": "Faible"
+}

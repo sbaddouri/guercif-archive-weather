@@ -1,0 +1,18 @@
+{
+  "date": "1998-12-07",
+  "weather_code": 0,
+  "temp_max": 13.9,
+  "temp_min": -0.8,
+  "temp_mean": 7.2,
+  "precipitation": 0,
+  "sunshine": 35318.52,
+  "wind_speed_max": 8.3,
+  "sunrise": "1998-12-07T08:06",
+  "sunset": "1998-12-07T18:03",
+  "sunshine_duration_seconds": 35318.52,
+  "sunshine_duration_minutes": 589,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

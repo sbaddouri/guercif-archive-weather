@@ -1,0 +1,18 @@
+{
+  "date": "1965-10-07",
+  "weather_code": 53,
+  "temp_max": 21.8,
+  "temp_min": 14,
+  "temp_mean": 18,
+  "precipitation": 3.1,
+  "sunshine": 31556.7,
+  "wind_speed_max": 8.7,
+  "sunrise": "1965-10-07T07:12",
+  "sunset": "1965-10-07T18:50",
+  "sunshine_duration_seconds": 31556.7,
+  "sunshine_duration_minutes": 526,
+  "estimated_daily_sunshine_minutes": 243,
+  "estimated_daily_sunshine": "4 h 03 min",
+  "sunshine_difference_minutes": 283,
+  "sunshine_consistency": "Faible"
+}

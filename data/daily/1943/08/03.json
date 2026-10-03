@@ -1,0 +1,18 @@
+{
+  "date": "1943-08-03",
+  "weather_code": 2,
+  "temp_max": 32.8,
+  "temp_min": 22.1,
+  "temp_mean": 27.6,
+  "precipitation": 0,
+  "sunshine": 46800,
+  "wind_speed_max": 17.1,
+  "sunrise": "1943-08-03T06:25",
+  "sunset": "1943-08-03T20:13",
+  "sunshine_duration_seconds": 46800,
+  "sunshine_duration_minutes": 780,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

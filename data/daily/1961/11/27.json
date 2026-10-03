@@ -1,0 +1,18 @@
+{
+  "date": "1961-11-27",
+  "weather_code": 55,
+  "temp_max": 17.2,
+  "temp_min": 9.1,
+  "temp_mean": 13.3,
+  "precipitation": 2.3,
+  "sunshine": 35883.08,
+  "wind_speed_max": 8.5,
+  "sunrise": "1961-11-27T07:57",
+  "sunset": "1961-11-27T18:04",
+  "sunshine_duration_seconds": 35883.08,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 133,
+  "sunshine_consistency": "Faible"
+}

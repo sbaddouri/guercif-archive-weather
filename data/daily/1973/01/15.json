@@ -1,0 +1,18 @@
+{
+  "date": "1973-01-15",
+  "weather_code": 51,
+  "temp_max": 13.6,
+  "temp_min": 4.9,
+  "temp_mean": 9.1,
+  "precipitation": 0.7,
+  "sunshine": 16150.4,
+  "wind_speed_max": 16.8,
+  "sunrise": "1973-01-15T08:19",
+  "sunset": "1973-01-15T18:26",
+  "sunshine_duration_seconds": 16150.4,
+  "sunshine_duration_minutes": 269,
+  "estimated_daily_sunshine_minutes": 69,
+  "estimated_daily_sunshine": "1 h 09 min",
+  "sunshine_difference_minutes": 200,
+  "sunshine_consistency": "Faible"
+}

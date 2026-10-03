@@ -1,0 +1,18 @@
+{
+  "date": "1987-04-22",
+  "weather_code": 53,
+  "temp_max": 34,
+  "temp_min": 15.1,
+  "temp_mean": 25,
+  "precipitation": 0.5,
+  "sunshine": 28800,
+  "wind_speed_max": 20.9,
+  "sunrise": "1987-04-22T06:34",
+  "sunset": "1987-04-22T19:50",
+  "sunshine_duration_seconds": 28800,
+  "sunshine_duration_minutes": 480,
+  "estimated_daily_sunshine_minutes": 183,
+  "estimated_daily_sunshine": "3 h 03 min",
+  "sunshine_difference_minutes": 297,
+  "sunshine_consistency": "Faible"
+}

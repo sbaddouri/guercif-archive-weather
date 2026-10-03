@@ -1,0 +1,18 @@
+{
+  "date": "1977-09-15",
+  "weather_code": 55,
+  "temp_max": 27.4,
+  "temp_min": 18.3,
+  "temp_mean": 21.9,
+  "precipitation": 2.5,
+  "sunshine": 23282.21,
+  "wind_speed_max": 9.4,
+  "sunrise": "1977-09-15T06:56",
+  "sunset": "1977-09-15T19:20",
+  "sunshine_duration_seconds": 23282.21,
+  "sunshine_duration_minutes": 388,
+  "estimated_daily_sunshine_minutes": 108,
+  "estimated_daily_sunshine": "1 h 48 min",
+  "sunshine_difference_minutes": 280,
+  "sunshine_consistency": "Faible"
+}

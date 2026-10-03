@@ -1,0 +1,18 @@
+{
+  "date": "1996-07-29",
+  "weather_code": 2,
+  "temp_max": 37,
+  "temp_min": 19.1,
+  "temp_mean": 27.2,
+  "precipitation": 0,
+  "sunshine": 45768.18,
+  "wind_speed_max": 17.7,
+  "sunrise": "1996-07-29T06:22",
+  "sunset": "1996-07-29T20:16",
+  "sunshine_duration_seconds": 45768.18,
+  "sunshine_duration_minutes": 763,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 103,
+  "sunshine_consistency": "Faible"
+}

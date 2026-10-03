@@ -1,0 +1,18 @@
+{
+  "date": "1971-05-08",
+  "weather_code": 53,
+  "temp_max": 14.3,
+  "temp_min": 9.7,
+  "temp_mean": 11.5,
+  "precipitation": 7.3,
+  "sunshine": 1016.19,
+  "wind_speed_max": 34,
+  "sunrise": "1971-05-08T06:17",
+  "sunset": "1971-05-08T20:02",
+  "sunshine_duration_seconds": 1016.19,
+  "sunshine_duration_minutes": 17,
+  "estimated_daily_sunshine_minutes": 183,
+  "estimated_daily_sunshine": "3 h 03 min",
+  "sunshine_difference_minutes": 166,
+  "sunshine_consistency": "Faible"
+}

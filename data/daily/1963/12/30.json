@@ -1,0 +1,18 @@
+{
+  "date": "1963-12-30",
+  "weather_code": 51,
+  "temp_max": 10.7,
+  "temp_min": 6.7,
+  "temp_mean": 9,
+  "precipitation": 0.6,
+  "sunshine": 3373.38,
+  "wind_speed_max": 6.1,
+  "sunrise": "1963-12-30T08:18",
+  "sunset": "1963-12-30T18:12",
+  "sunshine_duration_seconds": 3373.38,
+  "sunshine_duration_minutes": 56,
+  "estimated_daily_sunshine_minutes": 96,
+  "estimated_daily_sunshine": "1 h 36 min",
+  "sunshine_difference_minutes": 40,
+  "sunshine_consistency": "Faible"
+}

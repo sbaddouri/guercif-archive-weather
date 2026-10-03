@@ -1,0 +1,18 @@
+{
+  "date": "1955-12-10",
+  "weather_code": 0,
+  "temp_max": 15.7,
+  "temp_min": 3.6,
+  "temp_mean": 9.1,
+  "precipitation": 0,
+  "sunshine": 35219.11,
+  "wind_speed_max": 8.9,
+  "sunrise": "1955-12-10T08:08",
+  "sunset": "1955-12-10T18:04",
+  "sunshine_duration_seconds": 35219.11,
+  "sunshine_duration_minutes": 587,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 13,
+  "sunshine_consistency": "Bon"
+}

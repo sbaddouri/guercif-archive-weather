@@ -1,0 +1,18 @@
+{
+  "date": "1943-11-30",
+  "weather_code": 1,
+  "temp_max": 15.3,
+  "temp_min": 8,
+  "temp_mean": 12.1,
+  "precipitation": 0,
+  "sunshine": 35691.93,
+  "wind_speed_max": 14.3,
+  "sunrise": "1943-11-30T08:00",
+  "sunset": "1943-11-30T18:03",
+  "sunshine_duration_seconds": 35691.93,
+  "sunshine_duration_minutes": 595,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 35,
+  "sunshine_consistency": "Faible"
+}

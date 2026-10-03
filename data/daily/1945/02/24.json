@@ -1,0 +1,18 @@
+{
+  "date": "1945-02-24",
+  "weather_code": 51,
+  "temp_max": 13.4,
+  "temp_min": 7.1,
+  "temp_mean": 9.9,
+  "precipitation": 0.1,
+  "sunshine": 37383.75,
+  "wind_speed_max": 18.2,
+  "sunrise": "1945-02-24T07:47",
+  "sunset": "1945-02-24T19:05",
+  "sunshine_duration_seconds": 37383.75,
+  "sunshine_duration_minutes": 623,
+  "estimated_daily_sunshine_minutes": 336,
+  "estimated_daily_sunshine": "5 h 36 min",
+  "sunshine_difference_minutes": 287,
+  "sunshine_consistency": "Faible"
+}

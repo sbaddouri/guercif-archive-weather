@@ -1,0 +1,18 @@
+{
+  "date": "1978-04-08",
+  "weather_code": 55,
+  "temp_max": 14.2,
+  "temp_min": 8.4,
+  "temp_mean": 11.1,
+  "precipitation": 2.8,
+  "sunshine": 44378.37,
+  "wind_speed_max": 28.5,
+  "sunrise": "1978-04-08T06:52",
+  "sunset": "1978-04-08T19:39",
+  "sunshine_duration_seconds": 44378.37,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 273,
+  "estimated_daily_sunshine": "4 h 33 min",
+  "sunshine_difference_minutes": 467,
+  "sunshine_consistency": "Faible"
+}

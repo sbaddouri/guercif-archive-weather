@@ -1,0 +1,18 @@
+{
+  "date": "1955-04-26",
+  "weather_code": 53,
+  "temp_max": 14.8,
+  "temp_min": 11.2,
+  "temp_mean": 12.7,
+  "precipitation": 8.4,
+  "sunshine": 10169.24,
+  "wind_speed_max": 20.6,
+  "sunrise": "1955-04-26T06:30",
+  "sunset": "1955-04-26T19:52",
+  "sunshine_duration_seconds": 10169.24,
+  "sunshine_duration_minutes": 169,
+  "estimated_daily_sunshine_minutes": 177,
+  "estimated_daily_sunshine": "2 h 57 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

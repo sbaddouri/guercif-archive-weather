@@ -1,0 +1,18 @@
+{
+  "date": "1953-03-21",
+  "weather_code": 53,
+  "temp_max": 13.1,
+  "temp_min": 8.9,
+  "temp_mean": 10.6,
+  "precipitation": 5.7,
+  "sunshine": 33028.4,
+  "wind_speed_max": 16.9,
+  "sunrise": "1953-03-21T07:16",
+  "sunset": "1953-03-21T19:25",
+  "sunshine_duration_seconds": 33028.4,
+  "sunshine_duration_minutes": 550,
+  "estimated_daily_sunshine_minutes": 162,
+  "estimated_daily_sunshine": "2 h 42 min",
+  "sunshine_difference_minutes": 388,
+  "sunshine_consistency": "Faible"
+}

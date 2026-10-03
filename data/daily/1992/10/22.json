@@ -1,0 +1,18 @@
+{
+  "date": "1992-10-22",
+  "weather_code": 53,
+  "temp_max": 17.2,
+  "temp_min": 11.2,
+  "temp_mean": 14.1,
+  "precipitation": 2.1,
+  "sunshine": 31355.53,
+  "wind_speed_max": 17.6,
+  "sunrise": "1992-10-22T07:24",
+  "sunset": "1992-10-22T18:30",
+  "sunshine_duration_seconds": 31355.53,
+  "sunshine_duration_minutes": 523,
+  "estimated_daily_sunshine_minutes": 321,
+  "estimated_daily_sunshine": "5 h 21 min",
+  "sunshine_difference_minutes": 202,
+  "sunshine_consistency": "Faible"
+}

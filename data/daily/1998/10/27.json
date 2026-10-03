@@ -1,0 +1,18 @@
+{
+  "date": "1998-10-27",
+  "weather_code": 2,
+  "temp_max": 25.6,
+  "temp_min": 14.6,
+  "temp_mean": 19.2,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 19.7,
+  "sunrise": "1998-10-27T07:28",
+  "sunset": "1998-10-27T18:25",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 30,
+  "sunshine_consistency": "Moyen"
+}

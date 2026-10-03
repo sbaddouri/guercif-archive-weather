@@ -1,0 +1,18 @@
+{
+  "date": "1940-06-15",
+  "weather_code": 53,
+  "temp_max": 30.7,
+  "temp_min": 17.5,
+  "temp_mean": 23.1,
+  "precipitation": 0.9,
+  "sunshine": 49514.98,
+  "wind_speed_max": 26.7,
+  "sunrise": "1940-06-15T06:01",
+  "sunset": "1940-06-15T20:27",
+  "sunshine_duration_seconds": 49514.98,
+  "sunshine_duration_minutes": 825,
+  "estimated_daily_sunshine_minutes": 450,
+  "estimated_daily_sunshine": "7 h 30 min",
+  "sunshine_difference_minutes": 375,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1991-03-13",
+  "weather_code": 55,
+  "temp_max": 12.6,
+  "temp_min": 8.3,
+  "temp_mean": 10.6,
+  "precipitation": 4.3,
+  "sunshine": 38687.48,
+  "wind_speed_max": 20.5,
+  "sunrise": "1991-03-13T07:27",
+  "sunset": "1991-03-13T19:19",
+  "sunshine_duration_seconds": 38687.48,
+  "sunshine_duration_minutes": 645,
+  "estimated_daily_sunshine_minutes": 192,
+  "estimated_daily_sunshine": "3 h 12 min",
+  "sunshine_difference_minutes": 453,
+  "sunshine_consistency": "Faible"
+}

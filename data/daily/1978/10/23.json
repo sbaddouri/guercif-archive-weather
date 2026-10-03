@@ -1,0 +1,18 @@
+{
+  "date": "1978-10-23",
+  "weather_code": 0,
+  "temp_max": 23.6,
+  "temp_min": 10.9,
+  "temp_mean": 17.2,
+  "precipitation": 0,
+  "sunshine": 37448.09,
+  "wind_speed_max": 12.8,
+  "sunrise": "1978-10-23T07:25",
+  "sunset": "1978-10-23T18:30",
+  "sunshine_duration_seconds": 37448.09,
+  "sunshine_duration_minutes": 624,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

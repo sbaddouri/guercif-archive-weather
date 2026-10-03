@@ -1,0 +1,18 @@
+{
+  "date": "1995-08-01",
+  "weather_code": 1,
+  "temp_max": 38.6,
+  "temp_min": 22.8,
+  "temp_mean": 30.6,
+  "precipitation": 0,
+  "sunshine": 47037.78,
+  "wind_speed_max": 10.5,
+  "sunrise": "1995-08-01T06:24",
+  "sunset": "1995-08-01T20:15",
+  "sunshine_duration_seconds": 47037.78,
+  "sunshine_duration_minutes": 784,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 4,
+  "sunshine_consistency": "Excellent"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1971-11-15",
+  "weather_code": 53,
+  "temp_max": 15.8,
+  "temp_min": 5.1,
+  "temp_mean": 10.2,
+  "precipitation": 1.2,
+  "sunshine": 36000,
+  "wind_speed_max": 9.4,
+  "sunrise": "1971-11-15T07:45",
+  "sunset": "1971-11-15T18:10",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 420,
+  "estimated_daily_sunshine": "7 h 00 min",
+  "sunshine_difference_minutes": 180,
+  "sunshine_consistency": "Faible"
+}

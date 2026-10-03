@@ -1,0 +1,18 @@
+{
+  "date": "1944-03-05",
+  "weather_code": 51,
+  "temp_max": 18.7,
+  "temp_min": 12,
+  "temp_mean": 15.1,
+  "precipitation": 1.7,
+  "sunshine": 31947.82,
+  "wind_speed_max": 26.6,
+  "sunrise": "1944-03-05T07:36",
+  "sunset": "1944-03-05T19:13",
+  "sunshine_duration_seconds": 31947.82,
+  "sunshine_duration_minutes": 532,
+  "estimated_daily_sunshine_minutes": 225,
+  "estimated_daily_sunshine": "3 h 45 min",
+  "sunshine_difference_minutes": 307,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1941-09-24",
+  "weather_code": 51,
+  "temp_max": 27.5,
+  "temp_min": 19.1,
+  "temp_mean": 23,
+  "precipitation": 0.1,
+  "sunshine": 41415.54,
+  "wind_speed_max": 16.1,
+  "sunrise": "1941-09-24T07:03",
+  "sunset": "1941-09-24T19:07",
+  "sunshine_duration_seconds": 41415.54,
+  "sunshine_duration_minutes": 690,
+  "estimated_daily_sunshine_minutes": 303,
+  "estimated_daily_sunshine": "5 h 03 min",
+  "sunshine_difference_minutes": 387,
+  "sunshine_consistency": "Faible"
+}

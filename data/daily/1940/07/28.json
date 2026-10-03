@@ -1,0 +1,18 @@
+{
+  "date": "1940-07-28",
+  "weather_code": 1,
+  "temp_max": 41.7,
+  "temp_min": 24.1,
+  "temp_mean": 33.2,
+  "precipitation": 0,
+  "sunshine": 47581.98,
+  "wind_speed_max": 25.5,
+  "sunrise": "1940-07-28T06:22",
+  "sunset": "1940-07-28T20:17",
+  "sunshine_duration_seconds": 47581.98,
+  "sunshine_duration_minutes": 793,
+  "estimated_daily_sunshine_minutes": 750,
+  "estimated_daily_sunshine": "12 h 30 min",
+  "sunshine_difference_minutes": 43,
+  "sunshine_consistency": "Faible"
+}

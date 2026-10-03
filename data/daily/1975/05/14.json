@@ -1,0 +1,18 @@
+{
+  "date": "1975-05-14",
+  "weather_code": 1,
+  "temp_max": 21.4,
+  "temp_min": 10,
+  "temp_mean": 15.7,
+  "precipitation": 0,
+  "sunshine": 48486.22,
+  "wind_speed_max": 12.7,
+  "sunrise": "1975-05-14T06:13",
+  "sunset": "1975-05-14T20:07",
+  "sunshine_duration_seconds": 48486.22,
+  "sunshine_duration_minutes": 808,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 2,
+  "sunshine_consistency": "Excellent"
+}

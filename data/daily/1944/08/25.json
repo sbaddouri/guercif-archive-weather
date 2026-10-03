@@ -1,0 +1,18 @@
+{
+  "date": "1944-08-25",
+  "weather_code": 1,
+  "temp_max": 32.5,
+  "temp_min": 20.3,
+  "temp_mean": 25.4,
+  "precipitation": 0,
+  "sunshine": 45275.78,
+  "wind_speed_max": 20.2,
+  "sunrise": "1944-08-25T06:42",
+  "sunset": "1944-08-25T19:47",
+  "sunshine_duration_seconds": 45275.78,
+  "sunshine_duration_minutes": 755,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

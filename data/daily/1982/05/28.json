@@ -1,0 +1,18 @@
+{
+  "date": "1982-05-28",
+  "weather_code": 63,
+  "temp_max": 29.1,
+  "temp_min": 18.3,
+  "temp_mean": 22.7,
+  "precipitation": 6.1,
+  "sunshine": 27110.35,
+  "wind_speed_max": 13.8,
+  "sunrise": "1982-05-28T06:04",
+  "sunset": "1982-05-28T20:17",
+  "sunshine_duration_seconds": 27110.35,
+  "sunshine_duration_minutes": 452,
+  "estimated_daily_sunshine_minutes": 90,
+  "estimated_daily_sunshine": "1 h 30 min",
+  "sunshine_difference_minutes": 362,
+  "sunshine_consistency": "Faible"
+}

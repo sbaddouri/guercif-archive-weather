@@ -1,0 +1,18 @@
+{
+  "date": "1952-04-23",
+  "weather_code": 51,
+  "temp_max": 15.8,
+  "temp_min": 10.6,
+  "temp_mean": 13,
+  "precipitation": 1.1,
+  "sunshine": 44643.75,
+  "wind_speed_max": 24.6,
+  "sunrise": "1952-04-23T06:33",
+  "sunset": "1952-04-23T19:51",
+  "sunshine_duration_seconds": 44643.75,
+  "sunshine_duration_minutes": 744,
+  "estimated_daily_sunshine_minutes": 465,
+  "estimated_daily_sunshine": "7 h 45 min",
+  "sunshine_difference_minutes": 279,
+  "sunshine_consistency": "Faible"
+}

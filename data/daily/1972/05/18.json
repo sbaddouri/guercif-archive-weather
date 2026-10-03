@@ -1,0 +1,18 @@
+{
+  "date": "1972-05-18",
+  "weather_code": 51,
+  "temp_max": 18.2,
+  "temp_min": 9.7,
+  "temp_mean": 13.7,
+  "precipitation": 0.1,
+  "sunshine": 47809.13,
+  "wind_speed_max": 26.3,
+  "sunrise": "1972-05-18T06:09",
+  "sunset": "1972-05-18T20:10",
+  "sunshine_duration_seconds": 47809.13,
+  "sunshine_duration_minutes": 797,
+  "estimated_daily_sunshine_minutes": 390,
+  "estimated_daily_sunshine": "6 h 30 min",
+  "sunshine_difference_minutes": 407,
+  "sunshine_consistency": "Faible"
+}

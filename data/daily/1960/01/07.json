@@ -1,0 +1,18 @@
+{
+  "date": "1960-01-07",
+  "weather_code": 3,
+  "temp_max": 15.1,
+  "temp_min": 2.6,
+  "temp_mean": 10,
+  "precipitation": 0,
+  "sunshine": 34205.46,
+  "wind_speed_max": 9,
+  "sunrise": "1960-01-07T08:20",
+  "sunset": "1960-01-07T18:19",
+  "sunshine_duration_seconds": 34205.46,
+  "sunshine_duration_minutes": 570,
+  "estimated_daily_sunshine_minutes": 456,
+  "estimated_daily_sunshine": "7 h 36 min",
+  "sunshine_difference_minutes": 114,
+  "sunshine_consistency": "Faible"
+}

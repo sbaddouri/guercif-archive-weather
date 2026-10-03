@@ -1,0 +1,18 @@
+{
+  "date": "1975-10-16",
+  "weather_code": 2,
+  "temp_max": 21.5,
+  "temp_min": 12.9,
+  "temp_mean": 17,
+  "precipitation": 0,
+  "sunshine": 39528.12,
+  "wind_speed_max": 22.7,
+  "sunrise": "1975-10-16T07:18",
+  "sunset": "1975-10-16T18:38",
+  "sunshine_duration_seconds": 39528.12,
+  "sunshine_duration_minutes": 659,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 149,
+  "sunshine_consistency": "Faible"
+}

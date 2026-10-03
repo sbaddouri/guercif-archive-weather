@@ -1,0 +1,18 @@
+{
+  "date": "1962-07-04",
+  "weather_code": 55,
+  "temp_max": 38,
+  "temp_min": 21.8,
+  "temp_mean": 30.6,
+  "precipitation": 1.5,
+  "sunshine": 49647.1,
+  "wind_speed_max": 29.4,
+  "sunrise": "1962-07-04T06:06",
+  "sunset": "1962-07-04T20:28",
+  "sunshine_duration_seconds": 49647.1,
+  "sunshine_duration_minutes": 827,
+  "estimated_daily_sunshine_minutes": 693,
+  "estimated_daily_sunshine": "11 h 33 min",
+  "sunshine_difference_minutes": 134,
+  "sunshine_consistency": "Faible"
+}

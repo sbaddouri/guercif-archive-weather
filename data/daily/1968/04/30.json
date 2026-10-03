@@ -1,0 +1,18 @@
+{
+  "date": "1968-04-30",
+  "weather_code": 3,
+  "temp_max": 23.7,
+  "temp_min": 8.8,
+  "temp_mean": 16.2,
+  "precipitation": 0,
+  "sunshine": 46591.76,
+  "wind_speed_max": 9.4,
+  "sunrise": "1968-04-30T06:25",
+  "sunset": "1968-04-30T19:56",
+  "sunshine_duration_seconds": 46591.76,
+  "sunshine_duration_minutes": 777,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

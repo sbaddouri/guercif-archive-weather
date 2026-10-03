@@ -1,0 +1,18 @@
+{
+  "date": "1975-08-03",
+  "weather_code": 53,
+  "temp_max": 38.5,
+  "temp_min": 23.8,
+  "temp_mean": 30.3,
+  "precipitation": 1.1,
+  "sunshine": 43250.95,
+  "wind_speed_max": 17.4,
+  "sunrise": "1975-08-03T06:25",
+  "sunset": "1975-08-03T20:13",
+  "sunshine_duration_seconds": 43250.95,
+  "sunshine_duration_minutes": 721,
+  "estimated_daily_sunshine_minutes": 186,
+  "estimated_daily_sunshine": "3 h 06 min",
+  "sunshine_difference_minutes": 535,
+  "sunshine_consistency": "Faible"
+}

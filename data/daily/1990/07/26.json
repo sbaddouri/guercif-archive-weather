@@ -1,0 +1,18 @@
+{
+  "date": "1990-07-26",
+  "weather_code": 2,
+  "temp_max": 36.2,
+  "temp_min": 22.6,
+  "temp_mean": 29.4,
+  "precipitation": 0,
+  "sunshine": 47229.87,
+  "wind_speed_max": 14.8,
+  "sunrise": "1990-07-26T06:19",
+  "sunset": "1990-07-26T20:19",
+  "sunshine_duration_seconds": 47229.87,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

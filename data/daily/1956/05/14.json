@@ -1,0 +1,18 @@
+{
+  "date": "1956-05-14",
+  "weather_code": 1,
+  "temp_max": 26.9,
+  "temp_min": 11.9,
+  "temp_mean": 18.8,
+  "precipitation": 0,
+  "sunshine": 48177.98,
+  "wind_speed_max": 29.6,
+  "sunrise": "1956-05-14T06:12",
+  "sunset": "1956-05-14T20:07",
+  "sunshine_duration_seconds": 48177.98,
+  "sunshine_duration_minutes": 803,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

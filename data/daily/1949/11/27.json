@@ -1,0 +1,18 @@
+{
+  "date": "1949-11-27",
+  "weather_code": 51,
+  "temp_max": 13.6,
+  "temp_min": 8.5,
+  "temp_mean": 11.9,
+  "precipitation": 0.1,
+  "sunshine": 35855.54,
+  "wind_speed_max": 23.4,
+  "sunrise": "1949-11-27T07:57",
+  "sunset": "1949-11-27T18:04",
+  "sunshine_duration_seconds": 35855.54,
+  "sunshine_duration_minutes": 598,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 73,
+  "sunshine_consistency": "Faible"
+}

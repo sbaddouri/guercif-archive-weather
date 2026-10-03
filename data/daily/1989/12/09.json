@@ -1,0 +1,18 @@
+{
+  "date": "1989-12-09",
+  "weather_code": 3,
+  "temp_max": 17.5,
+  "temp_min": 10.3,
+  "temp_mean": 13.1,
+  "precipitation": 0,
+  "sunshine": 35229.92,
+  "wind_speed_max": 20.5,
+  "sunrise": "1989-12-09T08:07",
+  "sunset": "1989-12-09T18:03",
+  "sunshine_duration_seconds": 35229.92,
+  "sunshine_duration_minutes": 587,
+  "estimated_daily_sunshine_minutes": 411,
+  "estimated_daily_sunshine": "6 h 51 min",
+  "sunshine_difference_minutes": 176,
+  "sunshine_consistency": "Faible"
+}

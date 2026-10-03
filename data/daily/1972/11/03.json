@@ -1,0 +1,18 @@
+{
+  "date": "1972-11-03",
+  "weather_code": 53,
+  "temp_max": 15.7,
+  "temp_min": 10.4,
+  "temp_mean": 12.8,
+  "precipitation": 5.9,
+  "sunshine": 18977.43,
+  "wind_speed_max": 5.9,
+  "sunrise": "1972-11-03T07:35",
+  "sunset": "1972-11-03T18:18",
+  "sunshine_duration_seconds": 18977.43,
+  "sunshine_duration_minutes": 316,
+  "estimated_daily_sunshine_minutes": 153,
+  "estimated_daily_sunshine": "2 h 33 min",
+  "sunshine_difference_minutes": 163,
+  "sunshine_consistency": "Faible"
+}

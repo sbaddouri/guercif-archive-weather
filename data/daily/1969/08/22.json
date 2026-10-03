@@ -1,0 +1,18 @@
+{
+  "date": "1969-08-22",
+  "weather_code": 0,
+  "temp_max": 36.4,
+  "temp_min": 21.5,
+  "temp_mean": 28.5,
+  "precipitation": 0,
+  "sunshine": 46108.15,
+  "wind_speed_max": 15,
+  "sunrise": "1969-08-22T06:39",
+  "sunset": "1969-08-22T19:52",
+  "sunshine_duration_seconds": 46108.15,
+  "sunshine_duration_minutes": 768,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 12,
+  "sunshine_consistency": "Bon"
+}

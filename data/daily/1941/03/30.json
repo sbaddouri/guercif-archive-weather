@@ -1,0 +1,18 @@
+{
+  "date": "1941-03-30",
+  "weather_code": 3,
+  "temp_max": 20.2,
+  "temp_min": 11.6,
+  "temp_mean": 15.2,
+  "precipitation": 0,
+  "sunshine": 36304.45,
+  "wind_speed_max": 31,
+  "sunrise": "1941-03-30T07:03",
+  "sunset": "1941-03-30T19:33",
+  "sunshine_duration_seconds": 36304.45,
+  "sunshine_duration_minutes": 605,
+  "estimated_daily_sunshine_minutes": 402,
+  "estimated_daily_sunshine": "6 h 42 min",
+  "sunshine_difference_minutes": 203,
+  "sunshine_consistency": "Faible"
+}

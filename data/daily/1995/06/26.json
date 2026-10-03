@@ -1,0 +1,18 @@
+{
+  "date": "1995-06-26",
+  "weather_code": 53,
+  "temp_max": 21.8,
+  "temp_min": 17.4,
+  "temp_mean": 19.3,
+  "precipitation": 3.6,
+  "sunshine": 9610.49,
+  "wind_speed_max": 10.4,
+  "sunrise": "1995-06-26T06:03",
+  "sunset": "1995-06-26T20:29",
+  "sunshine_duration_seconds": 9610.49,
+  "sunshine_duration_minutes": 160,
+  "estimated_daily_sunshine_minutes": 153,
+  "estimated_daily_sunshine": "2 h 33 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

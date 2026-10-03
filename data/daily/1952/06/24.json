@@ -1,0 +1,18 @@
+{
+  "date": "1952-06-24",
+  "weather_code": 3,
+  "temp_max": 39.7,
+  "temp_min": 21.9,
+  "temp_mean": 29.8,
+  "precipitation": 0,
+  "sunshine": 45154.35,
+  "wind_speed_max": 27.8,
+  "sunrise": "1952-06-24T06:02",
+  "sunset": "1952-06-24T20:28",
+  "sunshine_duration_seconds": 45154.35,
+  "sunshine_duration_minutes": 753,
+  "estimated_daily_sunshine_minutes": 549,
+  "estimated_daily_sunshine": "9 h 09 min",
+  "sunshine_difference_minutes": 204,
+  "sunshine_consistency": "Faible"
+}

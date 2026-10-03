@@ -1,0 +1,18 @@
+{
+  "date": "1963-09-28",
+  "weather_code": 0,
+  "temp_max": 31.6,
+  "temp_min": 16.8,
+  "temp_mean": 23.5,
+  "precipitation": 0,
+  "sunshine": 42584.05,
+  "wind_speed_max": 16.5,
+  "sunrise": "1963-09-28T07:05",
+  "sunset": "1963-09-28T19:03",
+  "sunshine_duration_seconds": 42584.05,
+  "sunshine_duration_minutes": 710,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

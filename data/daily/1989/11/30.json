@@ -1,0 +1,18 @@
+{
+  "date": "1989-11-30",
+  "weather_code": 63,
+  "temp_max": 17.4,
+  "temp_min": 11.1,
+  "temp_mean": 13.7,
+  "precipitation": 9.6,
+  "sunshine": 35677.63,
+  "wind_speed_max": 10.5,
+  "sunrise": "1989-11-30T08:00",
+  "sunset": "1989-11-30T18:03",
+  "sunshine_duration_seconds": 35677.63,
+  "sunshine_duration_minutes": 595,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

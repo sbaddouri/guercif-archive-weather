@@ -1,0 +1,18 @@
+{
+  "date": "1965-01-08",
+  "weather_code": 2,
+  "temp_max": 6.5,
+  "temp_min": -6.7,
+  "temp_mean": -0.9,
+  "precipitation": 0,
+  "sunshine": 33877.45,
+  "wind_speed_max": 10.4,
+  "sunrise": "1965-01-08T08:20",
+  "sunset": "1965-01-08T18:20",
+  "sunshine_duration_seconds": 33877.45,
+  "sunshine_duration_minutes": 565,
+  "estimated_daily_sunshine_minutes": 540,
+  "estimated_daily_sunshine": "9 h 00 min",
+  "sunshine_difference_minutes": 25,
+  "sunshine_consistency": "Moyen"
+}

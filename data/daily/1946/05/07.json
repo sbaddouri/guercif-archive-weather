@@ -1,0 +1,18 @@
+{
+  "date": "1946-05-07",
+  "weather_code": 3,
+  "temp_max": 22.1,
+  "temp_min": 11.7,
+  "temp_mean": 17.1,
+  "precipitation": 0,
+  "sunshine": 45665.47,
+  "wind_speed_max": 28.1,
+  "sunrise": "1946-05-07T06:18",
+  "sunset": "1946-05-07T20:02",
+  "sunshine_duration_seconds": 45665.47,
+  "sunshine_duration_minutes": 761,
+  "estimated_daily_sunshine_minutes": 618,
+  "estimated_daily_sunshine": "10 h 18 min",
+  "sunshine_difference_minutes": 143,
+  "sunshine_consistency": "Faible"
+}

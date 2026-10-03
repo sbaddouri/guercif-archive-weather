@@ -1,0 +1,18 @@
+{
+  "date": "1991-02-16",
+  "weather_code": 53,
+  "temp_max": 11.4,
+  "temp_min": 2.3,
+  "temp_mean": 6.5,
+  "precipitation": 0.9,
+  "sunshine": 26092.03,
+  "wind_speed_max": 24.1,
+  "sunrise": "1991-02-16T07:58",
+  "sunset": "1991-02-16T18:57",
+  "sunshine_duration_seconds": 26092.03,
+  "sunshine_duration_minutes": 435,
+  "estimated_daily_sunshine_minutes": 147,
+  "estimated_daily_sunshine": "2 h 27 min",
+  "sunshine_difference_minutes": 288,
+  "sunshine_consistency": "Faible"
+}

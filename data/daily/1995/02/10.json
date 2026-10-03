@@ -1,0 +1,18 @@
+{
+  "date": "1995-02-10",
+  "weather_code": 51,
+  "temp_max": 13.5,
+  "temp_min": 4.8,
+  "temp_mean": 9,
+  "precipitation": 0.3,
+  "sunshine": 22965.55,
+  "wind_speed_max": 33.6,
+  "sunrise": "1995-02-10T08:03",
+  "sunset": "1995-02-10T18:52",
+  "sunshine_duration_seconds": 22965.55,
+  "sunshine_duration_minutes": 383,
+  "estimated_daily_sunshine_minutes": 147,
+  "estimated_daily_sunshine": "2 h 27 min",
+  "sunshine_difference_minutes": 236,
+  "sunshine_consistency": "Faible"
+}

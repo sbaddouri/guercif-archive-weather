@@ -1,0 +1,18 @@
+{
+  "date": "1996-05-31",
+  "weather_code": 0,
+  "temp_max": 33.2,
+  "temp_min": 15.7,
+  "temp_mean": 24,
+  "precipitation": 0,
+  "sunshine": 49941.39,
+  "wind_speed_max": 21.6,
+  "sunrise": "1996-05-31T06:03",
+  "sunset": "1996-05-31T20:19",
+  "sunshine_duration_seconds": 49941.39,
+  "sunshine_duration_minutes": 832,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

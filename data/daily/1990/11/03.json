@@ -1,0 +1,18 @@
+{
+  "date": "1990-11-03",
+  "weather_code": 3,
+  "temp_max": 22.5,
+  "temp_min": 14,
+  "temp_mean": 17.7,
+  "precipitation": 0,
+  "sunshine": 30921.89,
+  "wind_speed_max": 10.7,
+  "sunrise": "1990-11-03T07:34",
+  "sunset": "1990-11-03T18:18",
+  "sunshine_duration_seconds": 30921.89,
+  "sunshine_duration_minutes": 515,
+  "estimated_daily_sunshine_minutes": 279,
+  "estimated_daily_sunshine": "4 h 39 min",
+  "sunshine_difference_minutes": 236,
+  "sunshine_consistency": "Faible"
+}

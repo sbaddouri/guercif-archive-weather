@@ -1,0 +1,18 @@
+{
+  "date": "1941-09-01",
+  "weather_code": 1,
+  "temp_max": 36.9,
+  "temp_min": 20.9,
+  "temp_mean": 28.1,
+  "precipitation": 0,
+  "sunshine": 44668.79,
+  "wind_speed_max": 25.8,
+  "sunrise": "1941-09-01T06:47",
+  "sunset": "1941-09-01T19:39",
+  "sunshine_duration_seconds": 44668.79,
+  "sunshine_duration_minutes": 744,
+  "estimated_daily_sunshine_minutes": 735,
+  "estimated_daily_sunshine": "12 h 15 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

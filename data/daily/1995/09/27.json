@@ -1,0 +1,18 @@
+{
+  "date": "1995-09-27",
+  "weather_code": 0,
+  "temp_max": 25.6,
+  "temp_min": 9.8,
+  "temp_mean": 17.2,
+  "precipitation": 0,
+  "sunshine": 42676,
+  "wind_speed_max": 17.7,
+  "sunrise": "1995-09-27T07:04",
+  "sunset": "1995-09-27T19:04",
+  "sunshine_duration_seconds": 42676,
+  "sunshine_duration_minutes": 711,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 9,
+  "sunshine_consistency": "Bon"
+}

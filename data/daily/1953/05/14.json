@@ -1,0 +1,18 @@
+{
+  "date": "1953-05-14",
+  "weather_code": 1,
+  "temp_max": 27.7,
+  "temp_min": 11.3,
+  "temp_mean": 19.8,
+  "precipitation": 0,
+  "sunshine": 49072.7,
+  "wind_speed_max": 20.2,
+  "sunrise": "1953-05-14T06:12",
+  "sunset": "1953-05-14T20:07",
+  "sunshine_duration_seconds": 49072.7,
+  "sunshine_duration_minutes": 818,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

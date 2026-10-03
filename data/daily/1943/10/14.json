@@ -1,0 +1,18 @@
+{
+  "date": "1943-10-14",
+  "weather_code": 51,
+  "temp_max": 26.8,
+  "temp_min": 15.9,
+  "temp_mean": 20.7,
+  "precipitation": 0.1,
+  "sunshine": 36680.13,
+  "wind_speed_max": 8,
+  "sunrise": "1943-10-14T07:17",
+  "sunset": "1943-10-14T18:40",
+  "sunshine_duration_seconds": 36680.13,
+  "sunshine_duration_minutes": 611,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 26,
+  "sunshine_consistency": "Moyen"
+}

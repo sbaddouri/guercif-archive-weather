@@ -1,0 +1,18 @@
+{
+  "date": "1945-03-31",
+  "weather_code": 0,
+  "temp_max": 26.5,
+  "temp_min": 10.1,
+  "temp_mean": 18.9,
+  "precipitation": 0,
+  "sunshine": 43623.04,
+  "wind_speed_max": 15.8,
+  "sunrise": "1945-03-31T07:01",
+  "sunset": "1945-03-31T19:33",
+  "sunshine_duration_seconds": 43623.04,
+  "sunshine_duration_minutes": 727,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

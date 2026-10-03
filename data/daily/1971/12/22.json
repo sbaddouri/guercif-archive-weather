@@ -1,0 +1,18 @@
+{
+  "date": "1971-12-22",
+  "weather_code": 51,
+  "temp_max": 13.6,
+  "temp_min": 4,
+  "temp_mean": 8.6,
+  "precipitation": 0.5,
+  "sunshine": 24947.09,
+  "wind_speed_max": 12.3,
+  "sunrise": "1971-12-22T08:15",
+  "sunset": "1971-12-22T18:07",
+  "sunshine_duration_seconds": 24947.09,
+  "sunshine_duration_minutes": 416,
+  "estimated_daily_sunshine_minutes": 213,
+  "estimated_daily_sunshine": "3 h 33 min",
+  "sunshine_difference_minutes": 203,
+  "sunshine_consistency": "Faible"
+}

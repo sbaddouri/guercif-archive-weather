@@ -1,0 +1,18 @@
+{
+  "date": "1997-03-07",
+  "weather_code": 0,
+  "temp_max": 23.7,
+  "temp_min": 6.7,
+  "temp_mean": 16.5,
+  "precipitation": 0,
+  "sunshine": 39803.56,
+  "wind_speed_max": 13.2,
+  "sunrise": "1997-03-07T07:34",
+  "sunset": "1997-03-07T19:14",
+  "sunshine_duration_seconds": 39803.56,
+  "sunshine_duration_minutes": 663,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 57,
+  "sunshine_consistency": "Faible"
+}

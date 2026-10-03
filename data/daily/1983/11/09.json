@@ -1,0 +1,18 @@
+{
+  "date": "1983-11-09",
+  "weather_code": 55,
+  "temp_max": 23.7,
+  "temp_min": 11,
+  "temp_mean": 17.5,
+  "precipitation": 1.6,
+  "sunshine": 33789.01,
+  "wind_speed_max": 16.6,
+  "sunrise": "1983-11-09T07:40",
+  "sunset": "1983-11-09T18:14",
+  "sunshine_duration_seconds": 33789.01,
+  "sunshine_duration_minutes": 563,
+  "estimated_daily_sunshine_minutes": 264,
+  "estimated_daily_sunshine": "4 h 24 min",
+  "sunshine_difference_minutes": 299,
+  "sunshine_consistency": "Faible"
+}

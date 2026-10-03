@@ -1,0 +1,18 @@
+{
+  "date": "1955-10-16",
+  "weather_code": 51,
+  "temp_max": 22.1,
+  "temp_min": 14.4,
+  "temp_mean": 18.1,
+  "precipitation": 0.8,
+  "sunshine": 22979.36,
+  "wind_speed_max": 13,
+  "sunrise": "1955-10-16T07:18",
+  "sunset": "1955-10-16T18:39",
+  "sunshine_duration_seconds": 22979.36,
+  "sunshine_duration_minutes": 383,
+  "estimated_daily_sunshine_minutes": 102,
+  "estimated_daily_sunshine": "1 h 42 min",
+  "sunshine_difference_minutes": 281,
+  "sunshine_consistency": "Faible"
+}

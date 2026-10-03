@@ -1,0 +1,18 @@
+{
+  "date": "1949-01-28",
+  "weather_code": 2,
+  "temp_max": 13.2,
+  "temp_min": 3.7,
+  "temp_mean": 8.2,
+  "precipitation": 0,
+  "sunshine": 37082.48,
+  "wind_speed_max": 10.3,
+  "sunrise": "1949-01-28T08:13",
+  "sunset": "1949-01-28T18:39",
+  "sunshine_duration_seconds": 37082.48,
+  "sunshine_duration_minutes": 618,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 48,
+  "sunshine_consistency": "Faible"
+}

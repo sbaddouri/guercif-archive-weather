@@ -1,0 +1,18 @@
+{
+  "date": "1978-05-18",
+  "weather_code": 2,
+  "temp_max": 27.7,
+  "temp_min": 13.5,
+  "temp_mean": 20.7,
+  "precipitation": 0,
+  "sunshine": 49014.62,
+  "wind_speed_max": 18.2,
+  "sunrise": "1978-05-18T06:09",
+  "sunset": "1978-05-18T20:10",
+  "sunshine_duration_seconds": 49014.62,
+  "sunshine_duration_minutes": 817,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 97,
+  "sunshine_consistency": "Faible"
+}

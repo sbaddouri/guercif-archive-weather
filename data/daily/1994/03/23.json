@@ -1,0 +1,18 @@
+{
+  "date": "1994-03-23",
+  "weather_code": 53,
+  "temp_max": 17.9,
+  "temp_min": 11.3,
+  "temp_mean": 13.3,
+  "precipitation": 2.5,
+  "sunshine": 17943.95,
+  "wind_speed_max": 27.1,
+  "sunrise": "1994-03-23T07:13",
+  "sunset": "1994-03-23T19:27",
+  "sunshine_duration_seconds": 17943.95,
+  "sunshine_duration_minutes": 299,
+  "estimated_daily_sunshine_minutes": 306,
+  "estimated_daily_sunshine": "5 h 06 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

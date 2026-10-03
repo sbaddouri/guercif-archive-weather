@@ -1,0 +1,18 @@
+{
+  "date": "1964-07-27",
+  "weather_code": 55,
+  "temp_max": 39.8,
+  "temp_min": 23.8,
+  "temp_mean": 31.5,
+  "precipitation": 1.2,
+  "sunshine": 47249.17,
+  "wind_speed_max": 22.5,
+  "sunrise": "1964-07-27T06:20",
+  "sunset": "1964-07-27T20:18",
+  "sunshine_duration_seconds": 47249.17,
+  "sunshine_duration_minutes": 787,
+  "estimated_daily_sunshine_minutes": 678,
+  "estimated_daily_sunshine": "11 h 18 min",
+  "sunshine_difference_minutes": 109,
+  "sunshine_consistency": "Faible"
+}

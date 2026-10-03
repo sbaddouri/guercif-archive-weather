@@ -1,0 +1,18 @@
+{
+  "date": "1972-09-03",
+  "weather_code": 51,
+  "temp_max": 26.7,
+  "temp_min": 19.2,
+  "temp_mean": 22.8,
+  "precipitation": 0.2,
+  "sunshine": 43200,
+  "wind_speed_max": 19.5,
+  "sunrise": "1972-09-03T06:48",
+  "sunset": "1972-09-03T19:36",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 615,
+  "estimated_daily_sunshine": "10 h 15 min",
+  "sunshine_difference_minutes": 105,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1943-06-06",
+  "weather_code": 53,
+  "temp_max": 35,
+  "temp_min": 19.1,
+  "temp_mean": 26.7,
+  "precipitation": 0.7,
+  "sunshine": 43966.8,
+  "wind_speed_max": 25.6,
+  "sunrise": "1943-06-06T06:01",
+  "sunset": "1943-06-06T20:22",
+  "sunshine_duration_seconds": 43966.8,
+  "sunshine_duration_minutes": 733,
+  "estimated_daily_sunshine_minutes": 441,
+  "estimated_daily_sunshine": "7 h 21 min",
+  "sunshine_difference_minutes": 292,
+  "sunshine_consistency": "Faible"
+}

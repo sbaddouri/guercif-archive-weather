@@ -1,0 +1,18 @@
+{
+  "date": "1998-04-02",
+  "weather_code": 1,
+  "temp_max": 24.9,
+  "temp_min": 12.7,
+  "temp_mean": 18,
+  "precipitation": 0,
+  "sunshine": 43702.3,
+  "wind_speed_max": 14.9,
+  "sunrise": "1998-04-02T07:00",
+  "sunset": "1998-04-02T19:34",
+  "sunshine_duration_seconds": 43702.3,
+  "sunshine_duration_minutes": 728,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

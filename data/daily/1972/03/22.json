@@ -1,0 +1,18 @@
+{
+  "date": "1972-03-22",
+  "weather_code": 51,
+  "temp_max": 18.7,
+  "temp_min": 9.2,
+  "temp_mean": 13.1,
+  "precipitation": 0.1,
+  "sunshine": 33792.93,
+  "wind_speed_max": 13.2,
+  "sunrise": "1972-03-22T07:14",
+  "sunset": "1972-03-22T19:26",
+  "sunshine_duration_seconds": 33792.93,
+  "sunshine_duration_minutes": 563,
+  "estimated_daily_sunshine_minutes": 135,
+  "estimated_daily_sunshine": "2 h 15 min",
+  "sunshine_difference_minutes": 428,
+  "sunshine_consistency": "Faible"
+}

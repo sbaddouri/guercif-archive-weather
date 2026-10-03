@@ -1,0 +1,18 @@
+{
+  "date": "1994-10-05",
+  "weather_code": 61,
+  "temp_max": 25.4,
+  "temp_min": 12.7,
+  "temp_mean": 19.4,
+  "precipitation": 2.4,
+  "sunshine": 35111.18,
+  "wind_speed_max": 11.8,
+  "sunrise": "1994-10-05T07:10",
+  "sunset": "1994-10-05T18:52",
+  "sunshine_duration_seconds": 35111.18,
+  "sunshine_duration_minutes": 585,
+  "estimated_daily_sunshine_minutes": 492,
+  "estimated_daily_sunshine": "8 h 12 min",
+  "sunshine_difference_minutes": 93,
+  "sunshine_consistency": "Faible"
+}

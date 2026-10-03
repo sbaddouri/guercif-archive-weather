@@ -1,0 +1,18 @@
+{
+  "date": "1984-07-07",
+  "weather_code": 55,
+  "temp_max": 39.7,
+  "temp_min": 20.8,
+  "temp_mean": 29.3,
+  "precipitation": 1.2,
+  "sunshine": 46625.36,
+  "wind_speed_max": 17.7,
+  "sunrise": "1984-07-07T06:08",
+  "sunset": "1984-07-07T20:28",
+  "sunshine_duration_seconds": 46625.36,
+  "sunshine_duration_minutes": 777,
+  "estimated_daily_sunshine_minutes": 591,
+  "estimated_daily_sunshine": "9 h 51 min",
+  "sunshine_difference_minutes": 186,
+  "sunshine_consistency": "Faible"
+}

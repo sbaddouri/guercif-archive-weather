@@ -1,0 +1,18 @@
+{
+  "date": "1992-12-30",
+  "weather_code": 1,
+  "temp_max": 10.7,
+  "temp_min": 3,
+  "temp_mean": 6.8,
+  "precipitation": 0,
+  "sunshine": 33553.35,
+  "wind_speed_max": 9.2,
+  "sunrise": "1992-12-30T08:19",
+  "sunset": "1992-12-30T18:13",
+  "sunshine_duration_seconds": 33553.35,
+  "sunshine_duration_minutes": 559,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 34,
+  "sunshine_consistency": "Faible"
+}

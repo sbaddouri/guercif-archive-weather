@@ -1,0 +1,18 @@
+{
+  "date": "1947-12-26",
+  "weather_code": 1,
+  "temp_max": 13,
+  "temp_min": 4.3,
+  "temp_mean": 8.3,
+  "precipitation": 0,
+  "sunshine": 34675.49,
+  "wind_speed_max": 7.8,
+  "sunrise": "1947-12-26T08:17",
+  "sunset": "1947-12-26T18:10",
+  "sunshine_duration_seconds": 34675.49,
+  "sunshine_duration_minutes": 578,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

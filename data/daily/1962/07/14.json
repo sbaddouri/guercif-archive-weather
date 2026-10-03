@@ -1,0 +1,18 @@
+{
+  "date": "1962-07-14",
+  "weather_code": 2,
+  "temp_max": 39.5,
+  "temp_min": 20.3,
+  "temp_mean": 31.1,
+  "precipitation": 0,
+  "sunshine": 48543.56,
+  "wind_speed_max": 22.5,
+  "sunrise": "1962-07-14T06:11",
+  "sunset": "1962-07-14T20:26",
+  "sunshine_duration_seconds": 48543.56,
+  "sunshine_duration_minutes": 809,
+  "estimated_daily_sunshine_minutes": 825,
+  "estimated_daily_sunshine": "13 h 45 min",
+  "sunshine_difference_minutes": 16,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1995-10-19",
+  "weather_code": 3,
+  "temp_max": 22.8,
+  "temp_min": 13.3,
+  "temp_mean": 17.2,
+  "precipitation": 0,
+  "sunshine": 37463.4,
+  "wind_speed_max": 16,
+  "sunrise": "1995-10-19T07:21",
+  "sunset": "1995-10-19T18:35",
+  "sunshine_duration_seconds": 37463.4,
+  "sunshine_duration_minutes": 624,
+  "estimated_daily_sunshine_minutes": 600,
+  "estimated_daily_sunshine": "10 h 00 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

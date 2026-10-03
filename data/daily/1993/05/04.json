@@ -1,0 +1,18 @@
+{
+  "date": "1993-05-04",
+  "weather_code": 53,
+  "temp_max": 22.9,
+  "temp_min": 10.5,
+  "temp_mean": 16.1,
+  "precipitation": 0.7,
+  "sunshine": 37733.32,
+  "wind_speed_max": 20.3,
+  "sunrise": "1993-05-04T06:21",
+  "sunset": "1993-05-04T19:59",
+  "sunshine_duration_seconds": 37733.32,
+  "sunshine_duration_minutes": 629,
+  "estimated_daily_sunshine_minutes": 369,
+  "estimated_daily_sunshine": "6 h 09 min",
+  "sunshine_difference_minutes": 260,
+  "sunshine_consistency": "Faible"
+}

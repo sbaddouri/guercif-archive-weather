@@ -1,0 +1,18 @@
+{
+  "date": "1971-07-23",
+  "weather_code": 2,
+  "temp_max": 33.4,
+  "temp_min": 20.3,
+  "temp_mean": 27,
+  "precipitation": 0,
+  "sunshine": 47467.56,
+  "wind_speed_max": 20.1,
+  "sunrise": "1971-07-23T06:17",
+  "sunset": "1971-07-23T20:21",
+  "sunshine_duration_seconds": 47467.56,
+  "sunshine_duration_minutes": 791,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 26,
+  "sunshine_consistency": "Moyen"
+}

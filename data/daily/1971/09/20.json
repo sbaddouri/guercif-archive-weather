@@ -1,0 +1,18 @@
+{
+  "date": "1971-09-20",
+  "weather_code": 51,
+  "temp_max": 28.4,
+  "temp_min": 14.3,
+  "temp_mean": 21.4,
+  "precipitation": 0.1,
+  "sunshine": 36380.59,
+  "wind_speed_max": 11.7,
+  "sunrise": "1971-09-20T06:59",
+  "sunset": "1971-09-20T19:14",
+  "sunshine_duration_seconds": 36380.59,
+  "sunshine_duration_minutes": 606,
+  "estimated_daily_sunshine_minutes": 339,
+  "estimated_daily_sunshine": "5 h 39 min",
+  "sunshine_difference_minutes": 267,
+  "sunshine_consistency": "Faible"
+}

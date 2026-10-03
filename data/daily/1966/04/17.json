@@ -1,0 +1,18 @@
+{
+  "date": "1966-04-17",
+  "weather_code": 51,
+  "temp_max": 23,
+  "temp_min": 9.9,
+  "temp_mean": 16.7,
+  "precipitation": 0.1,
+  "sunshine": 45726.8,
+  "wind_speed_max": 12.5,
+  "sunrise": "1966-04-17T06:40",
+  "sunset": "1966-04-17T19:46",
+  "sunshine_duration_seconds": 45726.8,
+  "sunshine_duration_minutes": 762,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 18,
+  "sunshine_consistency": "Moyen"
+}

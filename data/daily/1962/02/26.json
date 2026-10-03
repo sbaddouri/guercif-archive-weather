@@ -1,0 +1,18 @@
+{
+  "date": "1962-02-26",
+  "weather_code": 3,
+  "temp_max": 17.4,
+  "temp_min": 5.1,
+  "temp_mean": 11.8,
+  "precipitation": 0,
+  "sunshine": 38734.1,
+  "wind_speed_max": 14.8,
+  "sunrise": "1962-02-26T07:46",
+  "sunset": "1962-02-26T19:06",
+  "sunshine_duration_seconds": 38734.1,
+  "sunshine_duration_minutes": 646,
+  "estimated_daily_sunshine_minutes": 399,
+  "estimated_daily_sunshine": "6 h 39 min",
+  "sunshine_difference_minutes": 247,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1951-08-08",
+  "weather_code": 1,
+  "temp_max": 32.7,
+  "temp_min": 16.7,
+  "temp_mean": 24.5,
+  "precipitation": 0,
+  "sunshine": 46871.19,
+  "wind_speed_max": 18,
+  "sunrise": "1951-08-08T06:28",
+  "sunset": "1951-08-08T20:09",
+  "sunshine_duration_seconds": 46871.19,
+  "sunshine_duration_minutes": 781,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 1,
+  "sunshine_consistency": "Excellent"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1991-12-16",
+  "weather_code": 53,
+  "temp_max": 15.2,
+  "temp_min": 10,
+  "temp_mean": 12,
+  "precipitation": 4.4,
+  "sunshine": 31959.55,
+  "wind_speed_max": 7.2,
+  "sunrise": "1991-12-16T08:12",
+  "sunset": "1991-12-16T18:05",
+  "sunshine_duration_seconds": 31959.55,
+  "sunshine_duration_minutes": 533,
+  "estimated_daily_sunshine_minutes": 243,
+  "estimated_daily_sunshine": "4 h 03 min",
+  "sunshine_difference_minutes": 290,
+  "sunshine_consistency": "Faible"
+}

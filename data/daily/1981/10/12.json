@@ -1,0 +1,18 @@
+{
+  "date": "1981-10-12",
+  "weather_code": 0,
+  "temp_max": 30.5,
+  "temp_min": 14.7,
+  "temp_mean": 23.2,
+  "precipitation": 0,
+  "sunshine": 40739.18,
+  "wind_speed_max": 11.4,
+  "sunrise": "1981-10-12T07:16",
+  "sunset": "1981-10-12T18:43",
+  "sunshine_duration_seconds": 40739.18,
+  "sunshine_duration_minutes": 679,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 19,
+  "sunshine_consistency": "Moyen"
+}

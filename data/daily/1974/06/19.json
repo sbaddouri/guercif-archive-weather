@@ -1,0 +1,18 @@
+{
+  "date": "1974-06-19",
+  "weather_code": 55,
+  "temp_max": 33.2,
+  "temp_min": 18.2,
+  "temp_mean": 24.3,
+  "precipitation": 3.1,
+  "sunshine": 42513.5,
+  "wind_speed_max": 21.3,
+  "sunrise": "1974-06-19T06:01",
+  "sunset": "1974-06-19T20:27",
+  "sunshine_duration_seconds": 42513.5,
+  "sunshine_duration_minutes": 709,
+  "estimated_daily_sunshine_minutes": 372,
+  "estimated_daily_sunshine": "6 h 12 min",
+  "sunshine_difference_minutes": 337,
+  "sunshine_consistency": "Faible"
+}

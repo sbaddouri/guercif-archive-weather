@@ -1,0 +1,18 @@
+{
+  "date": "1987-06-24",
+  "weather_code": 51,
+  "temp_max": 23.9,
+  "temp_min": 16.8,
+  "temp_mean": 19.4,
+  "precipitation": 0.7,
+  "sunshine": 13003.62,
+  "wind_speed_max": 19.2,
+  "sunrise": "1987-06-24T06:02",
+  "sunset": "1987-06-24T20:28",
+  "sunshine_duration_seconds": 13003.62,
+  "sunshine_duration_minutes": 217,
+  "estimated_daily_sunshine_minutes": 93,
+  "estimated_daily_sunshine": "1 h 33 min",
+  "sunshine_difference_minutes": 124,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1983-04-07",
+  "weather_code": 2,
+  "temp_max": 23.8,
+  "temp_min": 7.1,
+  "temp_mean": 15.8,
+  "precipitation": 0,
+  "sunshine": 44402.38,
+  "wind_speed_max": 9.4,
+  "sunrise": "1983-04-07T06:53",
+  "sunset": "1983-04-07T19:38",
+  "sunshine_duration_seconds": 44402.38,
+  "sunshine_duration_minutes": 740,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 40,
+  "sunshine_consistency": "Faible"
+}

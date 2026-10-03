@@ -1,0 +1,18 @@
+{
+  "date": "1959-04-07",
+  "weather_code": 51,
+  "temp_max": 21,
+  "temp_min": 8.5,
+  "temp_mean": 14.4,
+  "precipitation": 0.4,
+  "sunshine": 42924.78,
+  "wind_speed_max": 19.1,
+  "sunrise": "1959-04-07T06:54",
+  "sunset": "1959-04-07T19:38",
+  "sunshine_duration_seconds": 42924.78,
+  "sunshine_duration_minutes": 715,
+  "estimated_daily_sunshine_minutes": 510,
+  "estimated_daily_sunshine": "8 h 30 min",
+  "sunshine_difference_minutes": 205,
+  "sunshine_consistency": "Faible"
+}

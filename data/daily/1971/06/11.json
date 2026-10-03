@@ -1,0 +1,18 @@
+{
+  "date": "1971-06-11",
+  "weather_code": 0,
+  "temp_max": 25.1,
+  "temp_min": 9.8,
+  "temp_mean": 17.6,
+  "precipitation": 0,
+  "sunshine": 50053.68,
+  "wind_speed_max": 11.5,
+  "sunrise": "1971-06-11T06:01",
+  "sunset": "1971-06-11T20:24",
+  "sunshine_duration_seconds": 50053.68,
+  "sunshine_duration_minutes": 834,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 6,
+  "sunshine_consistency": "Bon"
+}

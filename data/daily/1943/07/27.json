@@ -1,0 +1,18 @@
+{
+  "date": "1943-07-27",
+  "weather_code": 2,
+  "temp_max": 32,
+  "temp_min": 19.4,
+  "temp_mean": 26.2,
+  "precipitation": 0,
+  "sunshine": 47553.13,
+  "wind_speed_max": 24.3,
+  "sunrise": "1943-07-27T06:20",
+  "sunset": "1943-07-27T20:18",
+  "sunshine_duration_seconds": 47553.13,
+  "sunshine_duration_minutes": 793,
+  "estimated_daily_sunshine_minutes": 840,
+  "estimated_daily_sunshine": "14 h 00 min",
+  "sunshine_difference_minutes": 47,
+  "sunshine_consistency": "Faible"
+}

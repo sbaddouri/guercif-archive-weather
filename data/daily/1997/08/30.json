@@ -1,0 +1,18 @@
+{
+  "date": "1997-08-30",
+  "weather_code": 2,
+  "temp_max": 38,
+  "temp_min": 18.1,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 43742.18,
+  "wind_speed_max": 20.2,
+  "sunrise": "1997-08-30T06:45",
+  "sunset": "1997-08-30T19:42",
+  "sunshine_duration_seconds": 43742.18,
+  "sunshine_duration_minutes": 729,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 36,
+  "sunshine_consistency": "Faible"
+}

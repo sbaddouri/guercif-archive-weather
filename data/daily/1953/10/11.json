@@ -1,0 +1,18 @@
+{
+  "date": "1953-10-11",
+  "weather_code": 53,
+  "temp_max": 30,
+  "temp_min": 15.5,
+  "temp_mean": 22.9,
+  "precipitation": 1.4,
+  "sunshine": 29556.05,
+  "wind_speed_max": 14.7,
+  "sunrise": "1953-10-11T07:15",
+  "sunset": "1953-10-11T18:44",
+  "sunshine_duration_seconds": 29556.05,
+  "sunshine_duration_minutes": 493,
+  "estimated_daily_sunshine_minutes": 261,
+  "estimated_daily_sunshine": "4 h 21 min",
+  "sunshine_difference_minutes": 232,
+  "sunshine_consistency": "Faible"
+}

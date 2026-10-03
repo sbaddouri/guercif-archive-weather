@@ -1,0 +1,18 @@
+{
+  "date": "1975-04-06",
+  "weather_code": 53,
+  "temp_max": 20.6,
+  "temp_min": 11.9,
+  "temp_mean": 15.8,
+  "precipitation": 1.6,
+  "sunshine": 29023.81,
+  "wind_speed_max": 14.3,
+  "sunrise": "1975-04-06T06:55",
+  "sunset": "1975-04-06T19:37",
+  "sunshine_duration_seconds": 29023.81,
+  "sunshine_duration_minutes": 484,
+  "estimated_daily_sunshine_minutes": 174,
+  "estimated_daily_sunshine": "2 h 54 min",
+  "sunshine_difference_minutes": 310,
+  "sunshine_consistency": "Faible"
+}

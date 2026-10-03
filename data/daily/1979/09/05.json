@@ -1,0 +1,18 @@
+{
+  "date": "1979-09-05",
+  "weather_code": 63,
+  "temp_max": 31,
+  "temp_min": 20.6,
+  "temp_mean": 24.5,
+  "precipitation": 5.1,
+  "sunshine": 39000.15,
+  "wind_speed_max": 17.3,
+  "sunrise": "1979-09-05T06:49",
+  "sunset": "1979-09-05T19:35",
+  "sunshine_duration_seconds": 39000.15,
+  "sunshine_duration_minutes": 650,
+  "estimated_daily_sunshine_minutes": 387,
+  "estimated_daily_sunshine": "6 h 27 min",
+  "sunshine_difference_minutes": 263,
+  "sunshine_consistency": "Faible"
+}

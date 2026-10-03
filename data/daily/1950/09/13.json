@@ -1,0 +1,18 @@
+{
+  "date": "1950-09-13",
+  "weather_code": 2,
+  "temp_max": 32.7,
+  "temp_min": 19.4,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 43200,
+  "wind_speed_max": 17.2,
+  "sunrise": "1950-09-13T06:54",
+  "sunset": "1950-09-13T19:23",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 705,
+  "estimated_daily_sunshine": "11 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

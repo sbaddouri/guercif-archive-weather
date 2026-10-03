@@ -1,0 +1,18 @@
+{
+  "date": "1955-07-30",
+  "weather_code": 2,
+  "temp_max": 33.1,
+  "temp_min": 20.5,
+  "temp_mean": 26.4,
+  "precipitation": 0,
+  "sunshine": 47290.2,
+  "wind_speed_max": 19.5,
+  "sunrise": "1955-07-30T06:22",
+  "sunset": "1955-07-30T20:16",
+  "sunshine_duration_seconds": 47290.2,
+  "sunshine_duration_minutes": 788,
+  "estimated_daily_sunshine_minutes": 795,
+  "estimated_daily_sunshine": "13 h 15 min",
+  "sunshine_difference_minutes": 7,
+  "sunshine_consistency": "Bon"
+}

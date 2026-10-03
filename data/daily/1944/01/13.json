@@ -1,0 +1,18 @@
+{
+  "date": "1944-01-13",
+  "weather_code": 2,
+  "temp_max": 14,
+  "temp_min": 4.2,
+  "temp_mean": 9,
+  "precipitation": 0,
+  "sunshine": 33542.68,
+  "wind_speed_max": 10.5,
+  "sunrise": "1944-01-13T08:19",
+  "sunset": "1944-01-13T18:24",
+  "sunshine_duration_seconds": 33542.68,
+  "sunshine_duration_minutes": 559,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

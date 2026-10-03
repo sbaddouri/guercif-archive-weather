@@ -1,0 +1,18 @@
+{
+  "date": "1942-08-05",
+  "weather_code": 1,
+  "temp_max": 35.2,
+  "temp_min": 22.3,
+  "temp_mean": 28.8,
+  "precipitation": 0,
+  "sunshine": 47131.85,
+  "wind_speed_max": 28.3,
+  "sunrise": "1942-08-05T06:27",
+  "sunset": "1942-08-05T20:11",
+  "sunshine_duration_seconds": 47131.85,
+  "sunshine_duration_minutes": 786,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 24,
+  "sunshine_consistency": "Moyen"
+}

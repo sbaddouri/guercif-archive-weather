@@ -1,0 +1,18 @@
+{
+  "date": "1998-07-17",
+  "weather_code": 1,
+  "temp_max": 39.7,
+  "temp_min": 24,
+  "temp_mean": 30.4,
+  "precipitation": 0,
+  "sunshine": 47983.68,
+  "wind_speed_max": 21.1,
+  "sunrise": "1998-07-17T06:13",
+  "sunset": "1998-07-17T20:25",
+  "sunshine_duration_seconds": 47983.68,
+  "sunshine_duration_minutes": 800,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 10,
+  "sunshine_consistency": "Bon"
+}

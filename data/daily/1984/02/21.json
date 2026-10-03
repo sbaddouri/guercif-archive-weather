@@ -1,0 +1,18 @@
+{
+  "date": "1984-02-21",
+  "weather_code": 2,
+  "temp_max": 18.1,
+  "temp_min": 5.5,
+  "temp_mean": 11.9,
+  "precipitation": 0,
+  "sunshine": 39470.59,
+  "wind_speed_max": 11.6,
+  "sunrise": "1984-02-21T07:53",
+  "sunset": "1984-02-21T19:01",
+  "sunshine_duration_seconds": 39470.59,
+  "sunshine_duration_minutes": 658,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1968-05-06",
+  "weather_code": 2,
+  "temp_max": 18.7,
+  "temp_min": 9.8,
+  "temp_mean": 13.6,
+  "precipitation": 0,
+  "sunshine": 47581.95,
+  "wind_speed_max": 15.3,
+  "sunrise": "1968-05-06T06:19",
+  "sunset": "1968-05-06T20:01",
+  "sunshine_duration_seconds": 47581.95,
+  "sunshine_duration_minutes": 793,
+  "estimated_daily_sunshine_minutes": 765,
+  "estimated_daily_sunshine": "12 h 45 min",
+  "sunshine_difference_minutes": 28,
+  "sunshine_consistency": "Moyen"
+}

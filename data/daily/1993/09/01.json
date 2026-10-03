@@ -1,0 +1,18 @@
+{
+  "date": "1993-09-01",
+  "weather_code": 2,
+  "temp_max": 32.6,
+  "temp_min": 18.4,
+  "temp_mean": 24.9,
+  "precipitation": 0,
+  "sunshine": 41981.28,
+  "wind_speed_max": 21.1,
+  "sunrise": "1993-09-01T06:46",
+  "sunset": "1993-09-01T19:39",
+  "sunshine_duration_seconds": 41981.28,
+  "sunshine_duration_minutes": 700,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 70,
+  "sunshine_consistency": "Faible"
+}

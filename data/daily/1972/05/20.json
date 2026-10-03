@@ -1,0 +1,18 @@
+{
+  "date": "1972-05-20",
+  "weather_code": 3,
+  "temp_max": 24.9,
+  "temp_min": 11,
+  "temp_mean": 16.9,
+  "precipitation": 0,
+  "sunshine": 39218.58,
+  "wind_speed_max": 28.5,
+  "sunrise": "1972-05-20T06:08",
+  "sunset": "1972-05-20T20:12",
+  "sunshine_duration_seconds": 39218.58,
+  "sunshine_duration_minutes": 654,
+  "estimated_daily_sunshine_minutes": 219,
+  "estimated_daily_sunshine": "3 h 39 min",
+  "sunshine_difference_minutes": 435,
+  "sunshine_consistency": "Faible"
+}

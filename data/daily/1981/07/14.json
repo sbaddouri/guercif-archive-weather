@@ -1,0 +1,18 @@
+{
+  "date": "1981-07-14",
+  "weather_code": 2,
+  "temp_max": 34.1,
+  "temp_min": 20.6,
+  "temp_mean": 26.2,
+  "precipitation": 0,
+  "sunshine": 47939.22,
+  "wind_speed_max": 25.6,
+  "sunrise": "1981-07-14T06:12",
+  "sunset": "1981-07-14T20:26",
+  "sunshine_duration_seconds": 47939.22,
+  "sunshine_duration_minutes": 799,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 11,
+  "sunshine_consistency": "Bon"
+}

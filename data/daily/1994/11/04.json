@@ -1,0 +1,18 @@
+{
+  "date": "1994-11-04",
+  "weather_code": 53,
+  "temp_max": 19.9,
+  "temp_min": 12.4,
+  "temp_mean": 15.3,
+  "precipitation": 5.1,
+  "sunshine": 25200,
+  "wind_speed_max": 24.2,
+  "sunrise": "1994-11-04T07:35",
+  "sunset": "1994-11-04T18:18",
+  "sunshine_duration_seconds": 25200,
+  "sunshine_duration_minutes": 420,
+  "estimated_daily_sunshine_minutes": 276,
+  "estimated_daily_sunshine": "4 h 36 min",
+  "sunshine_difference_minutes": 144,
+  "sunshine_consistency": "Faible"
+}

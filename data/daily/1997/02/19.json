@@ -1,0 +1,18 @@
+{
+  "date": "1997-02-19",
+  "weather_code": 1,
+  "temp_max": 22.2,
+  "temp_min": 5.7,
+  "temp_mean": 14.1,
+  "precipitation": 0,
+  "sunshine": 39407.38,
+  "wind_speed_max": 13.9,
+  "sunrise": "1997-02-19T07:54",
+  "sunset": "1997-02-19T19:00",
+  "sunshine_duration_seconds": 39407.38,
+  "sunshine_duration_minutes": 657,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 27,
+  "sunshine_consistency": "Moyen"
+}

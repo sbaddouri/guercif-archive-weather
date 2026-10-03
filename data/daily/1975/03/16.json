@@ -1,0 +1,18 @@
+{
+  "date": "1975-03-16",
+  "weather_code": 1,
+  "temp_max": 20.3,
+  "temp_min": 4.3,
+  "temp_mean": 12.4,
+  "precipitation": 0,
+  "sunshine": 40581.5,
+  "wind_speed_max": 9.9,
+  "sunrise": "1975-03-16T07:23",
+  "sunset": "1975-03-16T19:21",
+  "sunshine_duration_seconds": 40581.5,
+  "sunshine_duration_minutes": 676,
+  "estimated_daily_sunshine_minutes": 690,
+  "estimated_daily_sunshine": "11 h 30 min",
+  "sunshine_difference_minutes": 14,
+  "sunshine_consistency": "Bon"
+}

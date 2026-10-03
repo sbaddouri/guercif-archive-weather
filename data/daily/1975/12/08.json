@@ -1,0 +1,18 @@
+{
+  "date": "1975-12-08",
+  "weather_code": 2,
+  "temp_max": 15.8,
+  "temp_min": 4.1,
+  "temp_mean": 9.5,
+  "precipitation": 0,
+  "sunshine": 35291.61,
+  "wind_speed_max": 11.3,
+  "sunrise": "1975-12-08T08:06",
+  "sunset": "1975-12-08T18:03",
+  "sunshine_duration_seconds": 35291.61,
+  "sunshine_duration_minutes": 588,
+  "estimated_daily_sunshine_minutes": 420,
+  "estimated_daily_sunshine": "7 h 00 min",
+  "sunshine_difference_minutes": 168,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1988-09-11",
+  "weather_code": 51,
+  "temp_max": 33.9,
+  "temp_min": 19.3,
+  "temp_mean": 25.7,
+  "precipitation": 0.5,
+  "sunshine": 43200,
+  "wind_speed_max": 24.3,
+  "sunrise": "1988-09-11T06:53",
+  "sunset": "1988-09-11T19:25",
+  "sunshine_duration_seconds": 43200,
+  "sunshine_duration_minutes": 720,
+  "estimated_daily_sunshine_minutes": 645,
+  "estimated_daily_sunshine": "10 h 45 min",
+  "sunshine_difference_minutes": 75,
+  "sunshine_consistency": "Faible"
+}

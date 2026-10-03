@@ -1,0 +1,18 @@
+{
+  "date": "1941-10-13",
+  "weather_code": 3,
+  "temp_max": 29.3,
+  "temp_min": 13.9,
+  "temp_mean": 21.4,
+  "precipitation": 0,
+  "sunshine": 38602.93,
+  "wind_speed_max": 12.1,
+  "sunrise": "1941-10-13T07:17",
+  "sunset": "1941-10-13T18:41",
+  "sunshine_duration_seconds": 38602.93,
+  "sunshine_duration_minutes": 643,
+  "estimated_daily_sunshine_minutes": 330,
+  "estimated_daily_sunshine": "5 h 30 min",
+  "sunshine_difference_minutes": 313,
+  "sunshine_consistency": "Faible"
+}

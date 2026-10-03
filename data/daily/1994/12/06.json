@@ -1,0 +1,18 @@
+{
+  "date": "1994-12-06",
+  "weather_code": 2,
+  "temp_max": 21.3,
+  "temp_min": 5.5,
+  "temp_mean": 13.5,
+  "precipitation": 0,
+  "sunshine": 35367.09,
+  "wind_speed_max": 9.2,
+  "sunrise": "1994-12-06T08:05",
+  "sunset": "1994-12-06T18:03",
+  "sunshine_duration_seconds": 35367.09,
+  "sunshine_duration_minutes": 589,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 64,
+  "sunshine_consistency": "Faible"
+}

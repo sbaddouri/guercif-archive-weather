@@ -1,0 +1,18 @@
+{
+  "date": "1990-03-25",
+  "weather_code": 2,
+  "temp_max": 20.5,
+  "temp_min": 11.3,
+  "temp_mean": 14.9,
+  "precipitation": 0,
+  "sunshine": 42397.5,
+  "wind_speed_max": 23.3,
+  "sunrise": "1990-03-25T07:10",
+  "sunset": "1990-03-25T19:28",
+  "sunshine_duration_seconds": 42397.5,
+  "sunshine_duration_minutes": 707,
+  "estimated_daily_sunshine_minutes": 630,
+  "estimated_daily_sunshine": "10 h 30 min",
+  "sunshine_difference_minutes": 77,
+  "sunshine_consistency": "Faible"
+}

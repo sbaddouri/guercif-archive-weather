@@ -1,0 +1,18 @@
+{
+  "date": "1988-12-14",
+  "weather_code": 55,
+  "temp_max": 11.8,
+  "temp_min": 5.5,
+  "temp_mean": 8.6,
+  "precipitation": 1.7,
+  "sunshine": 30168.27,
+  "wind_speed_max": 7.3,
+  "sunrise": "1988-12-14T08:11",
+  "sunset": "1988-12-14T18:05",
+  "sunshine_duration_seconds": 30168.27,
+  "sunshine_duration_minutes": 503,
+  "estimated_daily_sunshine_minutes": 417,
+  "estimated_daily_sunshine": "6 h 57 min",
+  "sunshine_difference_minutes": 86,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1981-11-06",
+  "weather_code": 2,
+  "temp_max": 22.9,
+  "temp_min": 13.3,
+  "temp_mean": 17.3,
+  "precipitation": 0,
+  "sunshine": 36000,
+  "wind_speed_max": 13.7,
+  "sunrise": "1981-11-06T07:37",
+  "sunset": "1981-11-06T18:16",
+  "sunshine_duration_seconds": 36000,
+  "sunshine_duration_minutes": 600,
+  "estimated_daily_sunshine_minutes": 585,
+  "estimated_daily_sunshine": "9 h 45 min",
+  "sunshine_difference_minutes": 15,
+  "sunshine_consistency": "Bon"
+}

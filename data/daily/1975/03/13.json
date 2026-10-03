@@ -1,0 +1,18 @@
+{
+  "date": "1975-03-13",
+  "weather_code": 51,
+  "temp_max": 12,
+  "temp_min": 4.2,
+  "temp_mean": 8,
+  "precipitation": 0.2,
+  "sunshine": 40148.52,
+  "wind_speed_max": 25.6,
+  "sunrise": "1975-03-13T07:27",
+  "sunset": "1975-03-13T19:19",
+  "sunshine_duration_seconds": 40148.52,
+  "sunshine_duration_minutes": 669,
+  "estimated_daily_sunshine_minutes": 570,
+  "estimated_daily_sunshine": "9 h 30 min",
+  "sunshine_difference_minutes": 99,
+  "sunshine_consistency": "Faible"
+}

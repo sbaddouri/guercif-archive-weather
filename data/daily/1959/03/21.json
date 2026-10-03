@@ -1,0 +1,18 @@
+{
+  "date": "1959-03-21",
+  "weather_code": 61,
+  "temp_max": 17.8,
+  "temp_min": 11.9,
+  "temp_mean": 14.3,
+  "precipitation": 9.7,
+  "sunshine": 25983.62,
+  "wind_speed_max": 12.6,
+  "sunrise": "1959-03-21T07:17",
+  "sunset": "1959-03-21T19:25",
+  "sunshine_duration_seconds": 25983.62,
+  "sunshine_duration_minutes": 433,
+  "estimated_daily_sunshine_minutes": 135,
+  "estimated_daily_sunshine": "2 h 15 min",
+  "sunshine_difference_minutes": 298,
+  "sunshine_consistency": "Faible"
+}

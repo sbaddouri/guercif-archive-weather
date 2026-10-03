@@ -1,0 +1,18 @@
+{
+  "date": "1992-03-02",
+  "weather_code": 51,
+  "temp_max": 15,
+  "temp_min": 9.2,
+  "temp_mean": 12.1,
+  "precipitation": 0.2,
+  "sunshine": 23690.87,
+  "wind_speed_max": 19.3,
+  "sunrise": "1992-03-02T07:41",
+  "sunset": "1992-03-02T19:10",
+  "sunshine_duration_seconds": 23690.87,
+  "sunshine_duration_minutes": 395,
+  "estimated_daily_sunshine_minutes": 81,
+  "estimated_daily_sunshine": "1 h 21 min",
+  "sunshine_difference_minutes": 314,
+  "sunshine_consistency": "Faible"
+}

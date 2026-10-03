@@ -1,0 +1,18 @@
+{
+  "date": "1971-04-10",
+  "weather_code": 0,
+  "temp_max": 16.9,
+  "temp_min": 6.8,
+  "temp_mean": 11.8,
+  "precipitation": 0,
+  "sunshine": 45182.49,
+  "wind_speed_max": 13.3,
+  "sunrise": "1971-04-10T06:49",
+  "sunset": "1971-04-10T19:40",
+  "sunshine_duration_seconds": 45182.49,
+  "sunshine_duration_minutes": 753,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 27,
+  "sunshine_consistency": "Moyen"
+}

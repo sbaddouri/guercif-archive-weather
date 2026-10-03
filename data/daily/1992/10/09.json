@@ -1,0 +1,18 @@
+{
+  "date": "1992-10-09",
+  "weather_code": 53,
+  "temp_max": 18.9,
+  "temp_min": 13.7,
+  "temp_mean": 15.9,
+  "precipitation": 1.8,
+  "sunshine": 20796.41,
+  "wind_speed_max": 12,
+  "sunrise": "1992-10-09T07:14",
+  "sunset": "1992-10-09T18:46",
+  "sunshine_duration_seconds": 20796.41,
+  "sunshine_duration_minutes": 347,
+  "estimated_daily_sunshine_minutes": 114,
+  "estimated_daily_sunshine": "1 h 54 min",
+  "sunshine_difference_minutes": 233,
+  "sunshine_consistency": "Faible"
+}

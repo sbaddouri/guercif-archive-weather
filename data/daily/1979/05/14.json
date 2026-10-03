@@ -1,0 +1,18 @@
+{
+  "date": "1979-05-14",
+  "weather_code": 1,
+  "temp_max": 29.3,
+  "temp_min": 16.5,
+  "temp_mean": 22.3,
+  "precipitation": 0,
+  "sunshine": 49079.33,
+  "wind_speed_max": 25.9,
+  "sunrise": "1979-05-14T06:13",
+  "sunset": "1979-05-14T20:07",
+  "sunshine_duration_seconds": 49079.33,
+  "sunshine_duration_minutes": 818,
+  "estimated_daily_sunshine_minutes": 810,
+  "estimated_daily_sunshine": "13 h 30 min",
+  "sunshine_difference_minutes": 8,
+  "sunshine_consistency": "Bon"
+}

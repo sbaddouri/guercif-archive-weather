@@ -1,0 +1,18 @@
+{
+  "date": "1960-04-25",
+  "weather_code": 61,
+  "temp_max": 22.7,
+  "temp_min": 8.6,
+  "temp_mean": 16.3,
+  "precipitation": 1.7,
+  "sunshine": 44998.24,
+  "wind_speed_max": 17.3,
+  "sunrise": "1960-04-25T06:30",
+  "sunset": "1960-04-25T19:52",
+  "sunshine_duration_seconds": 44998.24,
+  "sunshine_duration_minutes": 750,
+  "estimated_daily_sunshine_minutes": 552,
+  "estimated_daily_sunshine": "9 h 12 min",
+  "sunshine_difference_minutes": 198,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1975-04-19",
+  "weather_code": 61,
+  "temp_max": 15.2,
+  "temp_min": 10.3,
+  "temp_mean": 12.5,
+  "precipitation": 11.6,
+  "sunshine": 0,
+  "wind_speed_max": 22.2,
+  "sunrise": "1975-04-19T06:38",
+  "sunset": "1975-04-19T19:47",
+  "sunshine_duration_seconds": 0,
+  "sunshine_duration_minutes": 0,
+  "estimated_daily_sunshine_minutes": 147,
+  "estimated_daily_sunshine": "2 h 27 min",
+  "sunshine_difference_minutes": 147,
+  "sunshine_consistency": "Faible"
+}

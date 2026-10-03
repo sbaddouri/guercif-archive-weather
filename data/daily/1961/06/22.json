@@ -1,0 +1,18 @@
+{
+  "date": "1961-06-22",
+  "weather_code": 53,
+  "temp_max": 32.8,
+  "temp_min": 18.7,
+  "temp_mean": 25,
+  "precipitation": 1.2,
+  "sunshine": 49243.39,
+  "wind_speed_max": 29.4,
+  "sunrise": "1961-06-22T06:02",
+  "sunset": "1961-06-22T20:28",
+  "sunshine_duration_seconds": 49243.39,
+  "sunshine_duration_minutes": 821,
+  "estimated_daily_sunshine_minutes": 381,
+  "estimated_daily_sunshine": "6 h 21 min",
+  "sunshine_difference_minutes": 440,
+  "sunshine_consistency": "Faible"
+}

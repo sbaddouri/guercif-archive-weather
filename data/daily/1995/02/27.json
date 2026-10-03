@@ -1,0 +1,18 @@
+{
+  "date": "1995-02-27",
+  "weather_code": 71,
+  "temp_max": 9.2,
+  "temp_min": 3.6,
+  "temp_mean": 5.9,
+  "precipitation": 8.2,
+  "sunshine": 28263.58,
+  "wind_speed_max": 24.5,
+  "sunrise": "1995-02-27T07:45",
+  "sunset": "1995-02-27T19:07",
+  "sunshine_duration_seconds": 28263.58,
+  "sunshine_duration_minutes": 471,
+  "estimated_daily_sunshine_minutes": 180,
+  "estimated_daily_sunshine": "3 h 00 min",
+  "sunshine_difference_minutes": 291,
+  "sunshine_consistency": "Faible"
+}

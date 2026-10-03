@@ -1,0 +1,18 @@
+{
+  "date": "1945-06-02",
+  "weather_code": 61,
+  "temp_max": 31.2,
+  "temp_min": 17.4,
+  "temp_mean": 23.4,
+  "precipitation": 4,
+  "sunshine": 39097.43,
+  "wind_speed_max": 15,
+  "sunrise": "1945-06-02T06:02",
+  "sunset": "1945-06-02T20:21",
+  "sunshine_duration_seconds": 39097.43,
+  "sunshine_duration_minutes": 652,
+  "estimated_daily_sunshine_minutes": 453,
+  "estimated_daily_sunshine": "7 h 33 min",
+  "sunshine_difference_minutes": 199,
+  "sunshine_consistency": "Faible"
+}

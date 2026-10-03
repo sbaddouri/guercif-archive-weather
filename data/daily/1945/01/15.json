@@ -1,0 +1,18 @@
+{
+  "date": "1945-01-15",
+  "weather_code": 51,
+  "temp_max": 9.1,
+  "temp_min": 5.2,
+  "temp_mean": 6.9,
+  "precipitation": 3.4,
+  "sunshine": 9567.87,
+  "wind_speed_max": 7.2,
+  "sunrise": "1945-01-15T08:19",
+  "sunset": "1945-01-15T18:27",
+  "sunshine_duration_seconds": 9567.87,
+  "sunshine_duration_minutes": 159,
+  "estimated_daily_sunshine_minutes": 141,
+  "estimated_daily_sunshine": "2 h 21 min",
+  "sunshine_difference_minutes": 18,
+  "sunshine_consistency": "Moyen"
+}

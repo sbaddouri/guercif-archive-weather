@@ -1,0 +1,18 @@
+{
+  "date": "1982-09-30",
+  "weather_code": 51,
+  "temp_max": 26,
+  "temp_min": 18.6,
+  "temp_mean": 21.7,
+  "precipitation": 0.4,
+  "sunshine": 33424.5,
+  "wind_speed_max": 16.3,
+  "sunrise": "1982-09-30T07:06",
+  "sunset": "1982-09-30T18:59",
+  "sunshine_duration_seconds": 33424.5,
+  "sunshine_duration_minutes": 557,
+  "estimated_daily_sunshine_minutes": 348,
+  "estimated_daily_sunshine": "5 h 48 min",
+  "sunshine_difference_minutes": 209,
+  "sunshine_consistency": "Faible"
+}

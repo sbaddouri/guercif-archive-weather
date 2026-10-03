@@ -1,0 +1,18 @@
+{
+  "date": "1945-10-18",
+  "weather_code": 53,
+  "temp_max": 28.6,
+  "temp_min": 19.6,
+  "temp_mean": 22.8,
+  "precipitation": 2.5,
+  "sunshine": 30050.64,
+  "wind_speed_max": 16,
+  "sunrise": "1945-10-18T07:21",
+  "sunset": "1945-10-18T18:35",
+  "sunshine_duration_seconds": 30050.64,
+  "sunshine_duration_minutes": 501,
+  "estimated_daily_sunshine_minutes": 66,
+  "estimated_daily_sunshine": "1 h 06 min",
+  "sunshine_difference_minutes": 435,
+  "sunshine_consistency": "Faible"
+}

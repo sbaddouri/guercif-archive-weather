@@ -1,0 +1,18 @@
+{
+  "date": "1970-04-20",
+  "weather_code": 53,
+  "temp_max": 15.3,
+  "temp_min": 10.5,
+  "temp_mean": 12.8,
+  "precipitation": 2,
+  "sunshine": 45558.29,
+  "wind_speed_max": 34.2,
+  "sunrise": "1970-04-20T06:36",
+  "sunset": "1970-04-20T19:48",
+  "sunshine_duration_seconds": 45558.29,
+  "sunshine_duration_minutes": 759,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 399,
+  "sunshine_consistency": "Faible"
+}

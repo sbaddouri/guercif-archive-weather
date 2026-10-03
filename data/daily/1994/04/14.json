@@ -1,0 +1,18 @@
+{
+  "date": "1994-04-14",
+  "weather_code": 55,
+  "temp_max": 21.1,
+  "temp_min": 11.9,
+  "temp_mean": 15.2,
+  "precipitation": 4.8,
+  "sunshine": 36341.63,
+  "wind_speed_max": 25,
+  "sunrise": "1994-04-14T06:44",
+  "sunset": "1994-04-14T19:44",
+  "sunshine_duration_seconds": 36341.63,
+  "sunshine_duration_minutes": 606,
+  "estimated_daily_sunshine_minutes": 444,
+  "estimated_daily_sunshine": "7 h 24 min",
+  "sunshine_difference_minutes": 162,
+  "sunshine_consistency": "Faible"
+}

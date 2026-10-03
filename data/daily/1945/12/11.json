@@ -1,0 +1,18 @@
+{
+  "date": "1945-12-11",
+  "weather_code": 55,
+  "temp_max": 12.4,
+  "temp_min": 9.4,
+  "temp_mean": 11.6,
+  "precipitation": 7.3,
+  "sunshine": 13921.38,
+  "wind_speed_max": 8.4,
+  "sunrise": "1945-12-11T08:09",
+  "sunset": "1945-12-11T18:04",
+  "sunshine_duration_seconds": 13921.38,
+  "sunshine_duration_minutes": 232,
+  "estimated_daily_sunshine_minutes": 114,
+  "estimated_daily_sunshine": "1 h 54 min",
+  "sunshine_difference_minutes": 118,
+  "sunshine_consistency": "Faible"
+}

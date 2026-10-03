@@ -1,0 +1,18 @@
+{
+  "date": "1982-03-19",
+  "weather_code": 1,
+  "temp_max": 21,
+  "temp_min": 11,
+  "temp_mean": 15.4,
+  "precipitation": 0,
+  "sunshine": 41278.27,
+  "wind_speed_max": 11.7,
+  "sunrise": "1982-03-19T07:19",
+  "sunset": "1982-03-19T19:24",
+  "sunshine_duration_seconds": 41278.27,
+  "sunshine_duration_minutes": 688,
+  "estimated_daily_sunshine_minutes": 720,
+  "estimated_daily_sunshine": "12 h 00 min",
+  "sunshine_difference_minutes": 32,
+  "sunshine_consistency": "Faible"
+}

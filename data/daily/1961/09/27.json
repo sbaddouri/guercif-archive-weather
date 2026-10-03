@@ -1,0 +1,18 @@
+{
+  "date": "1961-09-27",
+  "weather_code": 63,
+  "temp_max": 29.9,
+  "temp_min": 19.5,
+  "temp_mean": 23.7,
+  "precipitation": 6.5,
+  "sunshine": 32818.84,
+  "wind_speed_max": 7.9,
+  "sunrise": "1961-09-27T07:04",
+  "sunset": "1961-09-27T19:03",
+  "sunshine_duration_seconds": 32818.84,
+  "sunshine_duration_minutes": 547,
+  "estimated_daily_sunshine_minutes": 360,
+  "estimated_daily_sunshine": "6 h 00 min",
+  "sunshine_difference_minutes": 187,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1979-10-16",
+  "weather_code": 53,
+  "temp_max": 18.8,
+  "temp_min": 14.5,
+  "temp_mean": 16.7,
+  "precipitation": 3.3,
+  "sunshine": 28778.45,
+  "wind_speed_max": 14.4,
+  "sunrise": "1979-10-16T07:18",
+  "sunset": "1979-10-16T18:38",
+  "sunshine_duration_seconds": 28778.45,
+  "sunshine_duration_minutes": 480,
+  "estimated_daily_sunshine_minutes": 105,
+  "estimated_daily_sunshine": "1 h 45 min",
+  "sunshine_difference_minutes": 375,
+  "sunshine_consistency": "Faible"
+}

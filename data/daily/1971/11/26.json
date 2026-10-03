@@ -1,0 +1,18 @@
+{
+  "date": "1971-11-26",
+  "weather_code": 63,
+  "temp_max": 10.1,
+  "temp_min": 3.2,
+  "temp_mean": 6.3,
+  "precipitation": 10.3,
+  "sunshine": 31621.55,
+  "wind_speed_max": 20.2,
+  "sunrise": "1971-11-26T07:56",
+  "sunset": "1971-11-26T18:05",
+  "sunshine_duration_seconds": 31621.55,
+  "sunshine_duration_minutes": 527,
+  "estimated_daily_sunshine_minutes": 354,
+  "estimated_daily_sunshine": "5 h 54 min",
+  "sunshine_difference_minutes": 173,
+  "sunshine_consistency": "Faible"
+}

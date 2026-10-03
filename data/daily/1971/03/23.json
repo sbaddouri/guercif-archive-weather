@@ -1,0 +1,18 @@
+{
+  "date": "1971-03-23",
+  "weather_code": 2,
+  "temp_max": 15.4,
+  "temp_min": 4.1,
+  "temp_mean": 9.6,
+  "precipitation": 0,
+  "sunshine": 42106.64,
+  "wind_speed_max": 11.5,
+  "sunrise": "1971-03-23T07:14",
+  "sunset": "1971-03-23T19:26",
+  "sunshine_duration_seconds": 42106.64,
+  "sunshine_duration_minutes": 702,
+  "estimated_daily_sunshine_minutes": 660,
+  "estimated_daily_sunshine": "11 h 00 min",
+  "sunshine_difference_minutes": 42,
+  "sunshine_consistency": "Faible"
+}

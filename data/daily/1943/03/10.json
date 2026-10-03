@@ -1,0 +1,18 @@
+{
+  "date": "1943-03-10",
+  "weather_code": 51,
+  "temp_max": 15.4,
+  "temp_min": 5.6,
+  "temp_mean": 10.6,
+  "precipitation": 0.3,
+  "sunshine": 39600,
+  "wind_speed_max": 14.9,
+  "sunrise": "1943-03-10T07:30",
+  "sunset": "1943-03-10T19:17",
+  "sunshine_duration_seconds": 39600,
+  "sunshine_duration_minutes": 660,
+  "estimated_daily_sunshine_minutes": 417,
+  "estimated_daily_sunshine": "6 h 57 min",
+  "sunshine_difference_minutes": 243,
+  "sunshine_consistency": "Faible"
+}

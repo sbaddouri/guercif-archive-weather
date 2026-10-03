@@ -1,0 +1,18 @@
+{
+  "date": "1965-12-26",
+  "weather_code": 2,
+  "temp_max": 21.3,
+  "temp_min": 6.3,
+  "temp_mean": 12.7,
+  "precipitation": 0,
+  "sunshine": 34169.05,
+  "wind_speed_max": 15.8,
+  "sunrise": "1965-12-26T08:17",
+  "sunset": "1965-12-26T18:10",
+  "sunshine_duration_seconds": 34169.05,
+  "sunshine_duration_minutes": 569,
+  "estimated_daily_sunshine_minutes": 525,
+  "estimated_daily_sunshine": "8 h 45 min",
+  "sunshine_difference_minutes": 44,
+  "sunshine_consistency": "Faible"
+}

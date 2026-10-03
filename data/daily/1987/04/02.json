@@ -1,0 +1,18 @@
+{
+  "date": "1987-04-02",
+  "weather_code": 1,
+  "temp_max": 20.7,
+  "temp_min": 7.4,
+  "temp_mean": 14.3,
+  "precipitation": 0,
+  "sunshine": 43681.92,
+  "wind_speed_max": 23.4,
+  "sunrise": "1987-04-02T07:00",
+  "sunset": "1987-04-02T19:34",
+  "sunshine_duration_seconds": 43681.92,
+  "sunshine_duration_minutes": 728,
+  "estimated_daily_sunshine_minutes": 780,
+  "estimated_daily_sunshine": "13 h 00 min",
+  "sunshine_difference_minutes": 52,
+  "sunshine_consistency": "Faible"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "1985-04-28",
+  "weather_code": 61,
+  "temp_max": 17.9,
+  "temp_min": 10.6,
+  "temp_mean": 14.1,
+  "precipitation": 6.9,
+  "sunshine": 33691.19,
+  "wind_speed_max": 20.6,
+  "sunrise": "1985-04-28T06:27",
+  "sunset": "1985-04-28T19:55",
+  "sunshine_duration_seconds": 33691.19,
+  "sunshine_duration_minutes": 562,
+  "estimated_daily_sunshine_minutes": 291,
+  "estimated_daily_sunshine": "4 h 51 min",
+  "sunshine_difference_minutes": 271,
+  "sunshine_consistency": "Faible"
+}
