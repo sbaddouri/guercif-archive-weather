@@ -11,8 +11,8 @@
     "wind_gusts": 18,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T01:00",
@@ -26,8 +26,8 @@
     "wind_gusts": 13.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T02:00",
@@ -41,8 +41,8 @@
     "wind_gusts": 31.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T03:00",
@@ -56,8 +56,8 @@
     "wind_gusts": 43.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T04:00",
@@ -71,8 +71,8 @@
     "wind_gusts": 44.3,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T05:00",
@@ -86,8 +86,8 @@
     "wind_gusts": 35.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T06:00",
@@ -101,8 +101,8 @@
     "wind_gusts": 32,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T07:00",
@@ -116,8 +116,8 @@
     "wind_gusts": 32,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T08:00",
@@ -131,8 +131,8 @@
     "wind_gusts": 41,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 1
   },
   {
     "time": "2026-10-02T09:00",
@@ -146,8 +146,8 @@
     "wind_gusts": 59.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 3
   },
   {
     "time": "2026-10-02T10:00",
@@ -161,8 +161,8 @@
     "wind_gusts": 75.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 4
   },
   {
     "time": "2026-10-02T11:00",
@@ -176,8 +176,8 @@
     "wind_gusts": 76.7,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 1835.52,
+    "estimated_hourly_sunshine_minutes": 5
   },
   {
     "time": "2026-10-02T12:00",
@@ -191,8 +191,8 @@
     "wind_gusts": 73.1,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3364.98,
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2026-10-02T13:00",
@@ -206,8 +206,8 @@
     "wind_gusts": 68.8,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3365.39,
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2026-10-02T14:00",
@@ -221,8 +221,8 @@
     "wind_gusts": 64.1,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 6
   },
   {
     "time": "2026-10-02T15:00",
@@ -236,8 +236,8 @@
     "wind_gusts": 63.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 26
   },
   {
     "time": "2026-10-02T16:00",
@@ -251,8 +251,8 @@
     "wind_gusts": 48.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 4
   },
   {
     "time": "2026-10-02T17:00",
@@ -266,8 +266,8 @@
     "wind_gusts": 48.6,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3600,
+    "estimated_hourly_sunshine_minutes": 7
   },
   {
     "time": "2026-10-02T18:00",
@@ -281,8 +281,8 @@
     "wind_gusts": 27.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 3217.39,
+    "estimated_hourly_sunshine_minutes": 4
   },
   {
     "time": "2026-10-02T19:00",
@@ -296,8 +296,8 @@
     "wind_gusts": 18.4,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T20:00",
@@ -311,8 +311,8 @@
     "wind_gusts": 20.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T21:00",
@@ -326,8 +326,8 @@
     "wind_gusts": 16.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T22:00",
@@ -341,8 +341,8 @@
     "wind_gusts": 20.2,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2026-10-02T23:00",
@@ -356,7 +356,7 @@
     "wind_gusts": 11.9,
     "visibility": null,
     "uv_index": null,
-    "sunshine": null,
-    "estimated_hourly_sunshine_minutes": 60
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
   }
 ]
