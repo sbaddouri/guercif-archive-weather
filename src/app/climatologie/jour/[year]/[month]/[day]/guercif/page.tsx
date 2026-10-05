@@ -108,7 +108,7 @@ export default async function DayPage({ params }: PageProps) {
                 if (weather.imagePath) {
                   return <img src={weather.imagePath} alt={weather.description} className="h-12 w-12" />;
                 }
-                return <span className="text-4xl">{weather.icon}</span>;
+                return <span className="h-12 w-12 inline-block" aria-hidden="true"></span>;
               })()}
               <h1 className="text-3xl font-bold">
                 Météo à Guercif le {format(parseISO(dateStr), "d MMMM yyyy", { locale: fr })}
@@ -263,7 +263,7 @@ export default async function DayPage({ params }: PageProps) {
                             loading="lazy"
                           />
                         ) : (
-                          weather.icon
+                          <span className="h-8 w-8 inline-block" aria-hidden="true"></span>
                         )}
                       </TableCell>
                       <TableCell className="border bg-[#f2f2f2] dark:bg-muted/30 font-bold text-left px-2 py-1">

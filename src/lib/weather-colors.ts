@@ -616,127 +616,14 @@ const WMO_DESCRIPTIONS: Record<number, string> = {
   99: "Orage fort/violent, avec grêle, neige roulée ou granules de glace"
 };
 
-// Emojis par défaut pour chaque code WMO (utilisés comme fallback si pas d'image)
-// Chaque code a un emoji jour et un emoji nuit distincts selon la table WMO 4677
-const WMO_EMOJIS: Record<number, { day: string; night: string }> = {
-  0:  { day: "☀️",  night: "🌙"   }, // Ciel dégagé
-  1:  { day: "🌤️", night: "🌥️"  }, // Principalement dégagé
-  2:  { day: "⛅",  night: "🌦️"  }, // Partiellement nuageux
-  3:  { day: "☁️",  night: "☁️"   }, // Couvert
-  4:  { day: "💨",  night: "💨"   }, // Fumée
-  5:  { day: "🌫️", night: "🌫️"  }, // Brume sèche (Haze)
-  6:  { day: "🌪️", night: "🌪️"  }, // Poussière en suspension
-  7:  { day: "🌪️", night: "🌪️"  }, // Poussière/sable soulevé par le vent
-  8:  { day: "🌪️", night: "🌪️"  }, // Tourbillon de poussière/sable
-  9:  { day: "🌪️", night: "🌪️"  }, // Tempête de poussière/sable / Trombe
-  10: { day: "🌫️", night: "🌫️"  }, // Brume humide (Mist)
-  11: { day: "🌫️", night: "🌫️"  }, // Bancs de brouillard
-  12: { day: "🌫️", night: "🌫️"  }, // Brouillard continu
-  13: { day: "🌩️", night: "🌩️"  }, // Éclairs sans tonnerre
-  14: { day: "🌧️", night: "🌧️"  }, // Virga
-  15: { day: "🌧️", night: "🌧️"  }, // Précipitations à distance
-  16: { day: "🌧️", night: "🌧️"  }, // Précipitations proches
-  17: { day: "🌩️", night: "🌩️"  }, // Orage sans précipitations
-  18: { day: "🌬️", night: "🌬️"  }, // Grains (Squalls)
-  19: { day: "🌪️", night: "🌪️"  }, // Trombe marine/terrestre
-  20: { day: "🌨️", night: "🌨️"  }, // Bruine/neige en grains (hier)
-  21: { day: "🌧️", night: "🌧️"  }, // Pluie (hier)
-  22: { day: "🌨️", night: "🌨️"  }, // Neige (hier)
-  23: { day: "🌨️", night: "🌨️"  }, // Pluie/neige mêlées (hier)
-  24: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine/pluie verglaçante (hier)
-  25: { day: "🌦️", night: "🌧️"  }, // Averses de pluie (hier)
-  26: { day: "🌨️", night: "🌨️"  }, // Averses de neige/pluie-neige (hier)
-  27: { day: "🌨️", night: "🌨️"  }, // Averses de grêle (hier)
-  28: { day: "🌫️", night: "🌫️"  }, // Brouillard (hier)
-  29: { day: "🌩️", night: "🌩️"  }, // Orage (hier)
-  30: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité diminuée)
-  31: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité stable)
-  32: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité augmentée)
-  33: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (visibilité < 5/16)
-  34: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité stable, vis < 5/16)
-  35: { day: "🌪️", night: "🌪️"  }, // Tempête poussière/sable (intensité augmentée, vis < 5/16)
-  36: { day: "🌨️", night: "🌨️"  }, // Poudrerie basse faible/modérée
-  37: { day: "🌨️", night: "🌨️"  }, // Poudrerie basse forte
-  38: { day: "🌨️", night: "🌨️"  }, // Chasse-neige élevée (vis >= 5/16)
-  39: { day: "🌨️", night: "🌨️"  }, // Chasse-neige élevée (vis < 5/16)
-  40: { day: "🌫️", night: "🌫️"  }, // Banc de brouillard à distance
-  41: { day: "🌫️", night: "🌫️"  }, // Brouillard par bancs
-  42: { day: "🌫️", night: "🌫️"  }, // Brouillard s'amincissant (ciel visible)
-  43: { day: "🌫️", night: "🌫️"  }, // Brouillard s'amincissant (ciel invisible)
-  44: { day: "🌫️", night: "🌫️"  }, // Brouillard stable (ciel visible)
-  45: { day: "🌫️", night: "🌫️"  }, // Brouillard stable (ciel invisible)
-  46: { day: "🌫️", night: "🌫️"  }, // Brouillard s'épaississant (ciel visible)
-  47: { day: "🌫️", night: "🌫️"  }, // Brouillard s'épaississant (ciel invisible)
-  48: { day: "🌫️❄️", night: "🌫️❄️" }, // Brouillard givrant (ciel visible)
-  49: { day: "🌫️❄️", night: "🌫️❄️" }, // Brouillard givrant (ciel invisible)
-  50: { day: "🌦️", night: "🌧️"  }, // Bruine faible intermittente
-  51: { day: "🌦️", night: "🌧️"  }, // Bruine faible continue
-  52: { day: "🌦️", night: "🌧️"  }, // Bruine modérée intermittente
-  53: { day: "🌦️", night: "🌧️"  }, // Bruine modérée continue
-  54: { day: "🌧️", night: "🌧️"  }, // Bruine forte intermittente
-  55: { day: "🌧️", night: "🌧️"  }, // Bruine forte continue
-  56: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine verglaçante faible
-  57: { day: "🌧️❄️", night: "🌧️❄️" }, // Bruine verglaçante modérée/forte
-  58: { day: "🌦️", night: "🌧️"  }, // Bruine et pluie mêlées faibles
-  59: { day: "🌧️", night: "🌧️"  }, // Bruine et pluie mêlées modérées/fortes
-  60: { day: "🌦️", night: "🌧️"  }, // Pluie faible intermittente
-  61: { day: "🌦️", night: "🌧️"  }, // Pluie faible continue
-  62: { day: "🌦️", night: "🌧️"  }, // Pluie modérée intermittente
-  63: { day: "🌧️", night: "🌧️"  }, // Pluie modérée continue
-  64: { day: "🌧️", night: "🌧️"  }, // Pluie forte intermittente
-  65: { day: "🌧️", night: "🌧️"  }, // Pluie forte continue
-  66: { day: "🌧️❄️", night: "🌧️❄️" }, // Pluie verglaçante faible
-  67: { day: "🌧️❄️", night: "🌧️❄️" }, // Pluie verglaçante modérée/forte
-  68: { day: "🌨️", night: "🌨️"  }, // Pluie/bruine et neige mêlées faibles
-  69: { day: "🌨️", night: "🌨️"  }, // Pluie/bruine et neige mêlées modérées/fortes
-  70: { day: "🌨️", night: "🌨️"  }, // Neige intermittente faible
-  71: { day: "🌨️", night: "🌨️"  }, // Neige continue faible
-  72: { day: "🌨️", night: "🌨️"  }, // Neige modérée intermittente
-  73: { day: "🌨️", night: "🌨️"  }, // Neige modérée continue
-  74: { day: "🌨️", night: "🌨️"  }, // Neige forte intermittente
-  75: { day: "🌨️", night: "🌨️"  }, // Neige forte continue
-  76: { day: "🌨️", night: "🌨️"  }, // Cristaux de glace (poudrin)
-  77: { day: "🌨️", night: "🌨️"  }, // Neige en grains
-  78: { day: "❄️",  night: "❄️"   }, // Étoiles de neige isolées
-  79: { day: "🌨️", night: "🌨️"  }, // Granules de glace
-  80: { day: "🌦️", night: "🌧️"  }, // Averse de pluie faible
-  81: { day: "🌧️", night: "🌧️"  }, // Averse de pluie modérée/forte
-  82: { day: "🌧️", night: "🌧️"  }, // Averse de pluie violente
-  83: { day: "🌨️", night: "🌨️"  }, // Averse pluie/neige faible
-  84: { day: "🌨️", night: "🌨️"  }, // Averse pluie/neige modérée/forte
-  85: { day: "🌨️", night: "🌨️"  }, // Averse de neige faible
-  86: { day: "🌨️", night: "🌨️"  }, // Averse de neige modérée/forte
-  87: { day: "🌨️", night: "🌨️"  }, // Averse grésil/neige roulée faible
-  88: { day: "🌨️", night: "🌨️"  }, // Averse grésil/neige roulée modérée/forte
-  89: { day: "🌨️", night: "🌨️"  }, // Averse de grêle faible (sans orage)
-  90: { day: "🌨️", night: "🌨️"  }, // Averse de grêle modérée/forte (sans orage)
-  91: { day: "🌧️⛈️", night: "🌧️⛈️" }, // Pluie faible + orage précédent
-  92: { day: "🌧️⛈️", night: "🌧️⛈️" }, // Pluie modérée/forte + orage précédent
-  93: { day: "🌨️⛈️", night: "🌨️⛈️" }, // Neige/grêle faible + orage précédent
-  94: { day: "🌨️⛈️", night: "🌨️⛈️" }, // Neige/grêle modérée/forte + orage précédent
-  95: { day: "⛈️",  night: "⛈️"   }, // Orage faible/modéré avec pluie/neige
-  96: { day: "⛈️",  night: "⛈️"   }, // Orage faible/modéré avec grêle
-  97: { day: "⛈️",  night: "⛈️"   }, // Orage fort/violent avec pluie/neige
-  98: { day: "⛈️🌪️", night: "⛈️🌪️" }, // Orage + tempête poussière/sable
-  99: { day: "⛈️",  night: "⛈️"   }, // Orage fort/violent avec grêle
-};
-
-// Génère les emojis par défaut pour les codes non définis (fallback de sécurité)
-function getDefaultEmoji(code: number): { day: string; night: string } {
-  // Tous les codes 0-99 sont maintenant couverts dans WMO_EMOJIS
-  // Cette fonction ne sert plus que de fallback ultime pour codes invalides
-  if (code >= 0 && code <= 99) return { day: "❓", night: "❓" };
-  return { day: "❓", night: "❓" };
-}
-
 export function getWeatherIcon(
   code: number,
   time?: string,
   sunrise?: string,
   sunset?: string
-): { icon: string; imagePath: string | null; description: string } {
+): { imagePath: string | null; description: string } {
   if (code === null || code === undefined || code < 0 || code > 99) {
-    return { icon: "❓", imagePath: null, description: "Code invalide" };
+    return { imagePath: null, description: "Code invalide" };
   }
 
   // Détermination jour / nuit
@@ -758,14 +645,9 @@ export function getWeatherIcon(
   const imageName = `${code}.png`;
   const imagePath = `/weather-icons/${period}/${imageName}`;
 
-  // Vérifier si le fichier existe (côté serveur uniquement)
-  // Côté client, on essaie de charger l'image et on fallback sur l'emoji en cas d'erreur
-
   const description = WMO_DESCRIPTIONS[code] ?? `Code WMO ${code} - Non défini`;
-  const emoji = WMO_EMOJIS[code] ?? getDefaultEmoji(code);
 
   return {
-    icon: isNight ? emoji.night : emoji.day,
     imagePath,
     description
   };

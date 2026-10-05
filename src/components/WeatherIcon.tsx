@@ -19,7 +19,6 @@ function WeatherIconTooltip({
   sunrise, 
   sunset, 
   imagePath, 
-  icon, 
   description,
   isDaytime,
   isHovered,
@@ -30,7 +29,6 @@ function WeatherIconTooltip({
   sunrise?: string | null;
   sunset?: string | null;
   imagePath: string | null;
-  icon: string;
   description: string;
   isDaytime: boolean;
   isHovered: boolean;
@@ -57,7 +55,7 @@ function WeatherIconTooltip({
           {imagePath ? (
             <img src={imagePath} alt={description} className="h-10 w-10 object-contain" />
           ) : (
-            <span className="text-3xl">{icon}</span>
+            <span className="h-10 w-10 inline-block" aria-hidden="true"></span>
           )}
           <div className="flex flex-col">
             <span className="text-xs font-medium text-gray-700 dark:text-gray-300">
@@ -79,7 +77,7 @@ function WeatherIconTooltip({
 }
 
 export function WeatherIcon({ weatherCode, time, sunrise, sunset, className = "h-5 w-5", alt = "", title = "" }: WeatherIconProps) {
-  const { icon, imagePath, description } = getWeatherIcon(weatherCode, time, sunrise, sunset);
+  const { imagePath, description } = getWeatherIcon(weatherCode, time, sunrise, sunset);
   
   // Determine if it's daytime for this specific hour
   const isDaytime = time && sunrise && sunset ? isHourBetweenSunriseAndSunset(time, sunrise, sunset) : false;
@@ -110,8 +108,8 @@ export function WeatherIcon({ weatherCode, time, sunrise, sunset, className = "h
             const parent = e.currentTarget.parentElement;
             if (parent) {
               const fallback = document.createElement("span");
-              fallback.textContent = icon;
-              fallback.title = description;
+              fallback.className = className;
+              fallback.setAttribute("aria-hidden", "true");
               parent.appendChild(fallback);
             }
           }}
@@ -122,7 +120,6 @@ export function WeatherIcon({ weatherCode, time, sunrise, sunset, className = "h
           sunrise={sunrise}
           sunset={sunset}
           imagePath={imagePath}
-          icon={icon}
           description={description}
           isDaytime={isDaytime}
           isHovered={isHovered}
@@ -139,14 +136,13 @@ export function WeatherIcon({ weatherCode, time, sunrise, sunset, className = "h
       onMouseLeave={() => setIsHovered(false)}
       onMouseMove={handleMouseMove}
     >
-      <span className={className} title={title || description}>{icon}</span>
+      <span className={className} title={title || description} aria-hidden="true"></span>
       <WeatherIconTooltip
         weatherCode={weatherCode}
         time={time}
         sunrise={sunrise}
         sunset={sunset}
         imagePath={null}
-        icon={icon}
         description={description}
         isDaytime={isDaytime}
         isHovered={isHovered}
@@ -164,7 +160,7 @@ interface DailyWeatherIconProps {
 }
 
 export function DailyWeatherIcon({ weatherCode, className = "h-8 w-8", alt = "", title = "" }: DailyWeatherIconProps) {
-  const { icon, imagePath, description } = getWeatherIcon(weatherCode);
+  const { imagePath, description } = getWeatherIcon(weatherCode);
 
   if (imagePath) {
     return (
@@ -179,8 +175,8 @@ export function DailyWeatherIcon({ weatherCode, className = "h-8 w-8", alt = "",
           const parent = e.currentTarget.parentElement;
           if (parent) {
             const fallback = document.createElement("span");
-            fallback.textContent = icon;
-            fallback.title = description;
+            fallback.className = className;
+            fallback.setAttribute("aria-hidden", "true");
             parent.appendChild(fallback);
           }
         }}
@@ -188,5 +184,5 @@ export function DailyWeatherIcon({ weatherCode, className = "h-8 w-8", alt = "",
     );
   }
 
-  return <span className={className} title={title || description}>{icon}</span>;
+  return <span className={className} title={title || description} aria-hidden="true"></span>;
 }

@@ -19,7 +19,7 @@ export default function WeatherIconsDemo() {
           <h2 className="text-2xl font-semibold mb-4">Icônes de jour</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {ALL_WEATHER_CODES.map((code) => {
-              const { icon, imagePath, description } = getWeatherIcon(
+              const { imagePath, description } = getWeatherIcon(
                 code,
                 DAY_TIME,
                 TEST_SUNRISE,
@@ -33,7 +33,7 @@ export default function WeatherIconsDemo() {
                   {imagePath ? (
                     <img src={imagePath} alt={description} className="h-12 w-12 object-contain" />
                   ) : (
-                    <span className="text-4xl">{icon}</span>
+                    <span className="h-12 w-12 inline-block" aria-hidden="true"></span>
                   )}
                   <code className="text-sm font-semibold">Code WMO {code}</code>
                   <p className="text-xs text-center text-muted-foreground">{description}</p>
@@ -47,7 +47,7 @@ export default function WeatherIconsDemo() {
           <h2 className="text-2xl font-semibold mb-4">Icônes de nuit</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {ALL_WEATHER_CODES.map((code) => {
-              const { icon, imagePath, description } = getWeatherIcon(
+              const { imagePath, description } = getWeatherIcon(
                 code,
                 NIGHT_TIME,
                 TEST_SUNRISE,
@@ -61,7 +61,7 @@ export default function WeatherIconsDemo() {
                   {imagePath ? (
                     <img src={imagePath} alt={description} className="h-12 w-12 object-contain" />
                   ) : (
-                    <span className="text-4xl">{icon}</span>
+                    <span className="h-12 w-12 inline-block" aria-hidden="true"></span>
                   )}
                   <code className="text-sm font-semibold">Code WMO {code}</code>
                   <p className="text-xs text-center text-muted-foreground">{description}</p>

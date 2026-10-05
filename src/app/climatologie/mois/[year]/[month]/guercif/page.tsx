@@ -241,7 +241,6 @@ export default async function MonthPage({ params }: PageProps) {
                     const rainColor = getPrecipitationColor(day.precipitation);
                     const sunHours = (day.sunshine_duration_seconds || 0) / 3600;
                     const sunColor = getSunshineColor(sunHours * 30); // Multiplied by 30 to match monthly scale logic in colors.ts
-                    const { icon: weatherIconDaily } = getWeatherIcon(day.weather_code);
 
                     return (
                       <TableRow key={day.date}>
