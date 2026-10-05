@@ -44,6 +44,7 @@
     "@types/suncalc": "^1.9.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "tsx": "^4.22.0",
     "typescript": "^5"
