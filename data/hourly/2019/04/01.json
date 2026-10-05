@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 17
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2019-04-01T08:00",
@@ -312,7 +312,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 2
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2019-04-01T21:00",

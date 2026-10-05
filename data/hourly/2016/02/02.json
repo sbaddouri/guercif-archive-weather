@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 12
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2016-02-02T09:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2387.03,
-    "estimated_hourly_sunshine_minutes": 8
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2016-02-02T20:00",

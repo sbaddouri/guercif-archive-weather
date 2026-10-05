@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 5
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2016-10-18T08:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 780.43,
-    "estimated_hourly_sunshine_minutes": 3
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2016-10-18T20:00",

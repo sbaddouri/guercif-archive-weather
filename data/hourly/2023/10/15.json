@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 7
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2023-10-15T08:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 633.21,
-    "estimated_hourly_sunshine_minutes": 5
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2023-10-15T20:00",

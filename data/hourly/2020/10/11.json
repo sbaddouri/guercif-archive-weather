@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 1
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2020-10-11T08:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 1349.65,
-    "estimated_hourly_sunshine_minutes": 8
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2020-10-11T20:00",

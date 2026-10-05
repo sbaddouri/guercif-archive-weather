@@ -102,7 +102,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 1
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2011-04-27T07:00",
@@ -312,7 +312,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 1373.35,
-    "estimated_hourly_sunshine_minutes": 11
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2011-04-27T21:00",

@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { format, subDays, parseISO, addDays, isBefore, isAfter } from 'date-fns';
 import {
-  calculateHourlySunshine,
+  calculateHourlySunshineWithDaylight,
   calculateDailySunshine,
   formatSunshineDuration,
   calculateSunshineConsistency,
@@ -174,13 +174,23 @@ async function saveDailyAndHourlyData(daily: any, hourly: any) {
     const hourlyByDate: { [key: string]: any[] } = {};
 
     // Step 1: Organize hourly data by date
+    // Get sunrise/sunset for each date from daily data
+    const sunriseByDate: { [key: string]: string } = {};
+    const sunsetByDate: { [key: string]: string } = {};
+    for (let i = 0; i < daily.time.length; i++) {
+      sunriseByDate[daily.time[i]] = daily.sunrise[i];
+      sunsetByDate[daily.time[i]] = daily.sunset[i];
+    }
+
     for (let i = 0; i < hourly.time.length; i++) {
       const time = hourly.time[i];
       const date = time.split('T')[0];
       if (!hourlyByDate[date]) hourlyByDate[date] = [];
 
       const hourlyWeatherCode = hourly.weather_code[i];
-      const estimatedHourly = calculateHourlySunshine(hourlyWeatherCode);
+      const sunrise = sunriseByDate[date];
+      const sunset = sunsetByDate[date];
+      const estimatedHourly = calculateHourlySunshineWithDaylight(hourlyWeatherCode, time, sunrise, sunset);
 
       hourlyByDate[date].push({
         time,

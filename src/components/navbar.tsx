@@ -24,6 +24,7 @@ export default function Navbar() {
           <Link href="/recherche" className="transition-colors hover:text-primary">Recherche</Link>
           <Link href="/radar" className="transition-colors hover:text-primary">Radar</Link>
           <Link href="/rapport-scientifique" className="transition-colors hover:text-primary">Rapport scientifique</Link>
+          <Link href="/records-absolus" className="transition-colors hover:text-primary">Records absolus</Link>
           <ThemeToggle />
         </nav>
 
@@ -44,6 +45,7 @@ export default function Navbar() {
           <Link href="/recherche" onClick={() => setIsOpen(false)}>Recherche</Link>
           <Link href="/radar" onClick={() => setIsOpen(false)}>Radar</Link>
           <Link href="/rapport-scientifique" onClick={() => setIsOpen(false)}>Rapport scientifique</Link>
+          <Link href="/records-absolus" onClick={() => setIsOpen(false)}>Records absolus</Link>
         </div>
       )}
     </header>

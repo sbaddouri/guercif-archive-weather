@@ -1,146 +1,84 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import {
-  calculateHourlySunshineWithDaylight,
-  calculateDailySunshine,
-  formatSunshineDuration,
-  calculateSunshineConsistency,
-  convertOfficialSunshineToMinutes
-} from '../src/lib/weather-colors';
+import { calculateHourlySunshineWithDaylight } from '../src/lib/weather-colors';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const DATA_DIR = path.join(process.cwd(), 'data');
+const HOURLY_DIR = path.join(DATA_DIR, 'hourly');
+const DAILY_DIR = path.join(DATA_DIR, 'daily');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
-
-interface HourlyDataRaw {
-  time: string;
-  temp: number | null;
-  humidity: number | null;
-  dew_point: number | null;
-  precipitation: number | null;
-  weather_code: number | null;
-  pressure: number | null;
-  wind_speed: number | null;
-  wind_gusts: number | null;
-  visibility: number | null;
-  uv_index: number | null;
-  sunshine: number | null;
-  estimated_hourly_sunshine_minutes?: number;
+function getTimeMinutes(timeStr: string): number {
+  if (!timeStr || !timeStr.includes('T')) return 0;
+  const timePart = timeStr.split('T')[1];
+  if (!timePart || !timePart.includes(':')) return 0;
+  const [hour, minute] = timePart.split(':').map(Number);
+  if (isNaN(hour) || isNaN(minute)) return 0;
+  return hour * 60 + minute;
 }
 
-interface DailyDataRaw {
-  date: string;
-  weather_code: number | null;
-  temp_max: number | null;
-  temp_min: number | null;
-  temp_mean: number | null;
-  precipitation: number | null;
-  sunshine: number | null;
-  wind_speed_max: number | null;
-  sunrise: string | null;
-  sunset: string | null;
-  sunshine_duration_seconds: number | null;
-  sunshine_duration_minutes: number | null;
-  estimated_daily_sunshine_minutes: number | null;
-  estimated_daily_sunshine: string | null;
-  sunshine_difference_minutes: number | null;
-  sunshine_consistency: 'Excellent' | 'Bon' | 'Moyen' | 'Faible' | null;
-}
+async function regenerateHourlyFile(year: string, month: string, day: string) {
+  const hourlyFilePath = path.join(HOURLY_DIR, year, month, `${day}.json`);
+  const dailyFilePath = path.join(DAILY_DIR, year, month, `${day}.json`);
 
-async function processHourlyFile(
-  hourlyFilePath: string,
-  dailyFilePath: string
-): Promise<boolean> {
-  try {
-    const hourlyRaw = JSON.parse(fs.readFileSync(hourlyFilePath, 'utf8')) as HourlyDataRaw[];
-    
-    let sunrise: string | null = null;
-    let sunset: string | null = null;
-    
-    if (fs.existsSync(dailyFilePath)) {
-      const dailyRaw = JSON.parse(fs.readFileSync(dailyFilePath, 'utf8')) as DailyDataRaw;
-      sunrise = dailyRaw.sunrise ?? null;
-      sunset = dailyRaw.sunset ?? null;
-    }
+  if (!fs.existsSync(hourlyFilePath)) return;
 
-    if (!sunrise || !sunset) {
-      console.log(`  ⚠️ Pas de lever/coucher pour ${hourlyFilePath}`);
-      return false;
-    }
-
-    let updated = false;
-    const updatedHourly = hourlyRaw.map(hour => {
-      const newEstimated = calculateHourlySunshineWithDaylight(
-        hour.weather_code ?? 0,
-        hour.time,
-        sunrise,
-        sunset
-      );
-      
-      if (hour.estimated_hourly_sunshine_minutes !== newEstimated) {
-        updated = true;
-        return {
-          ...hour,
-          estimated_hourly_sunshine_minutes: newEstimated
-        };
-      }
-      return hour;
-    });
-
-    if (updated) {
-      fs.writeFileSync(hourlyFilePath, JSON.stringify(updatedHourly, null, 2));
-      console.log(`  ✅ Mis à jour: ${path.basename(hourlyFilePath)}`);
-    } else {
-      console.log(`  ⏭️ Déjà à jour: ${path.basename(hourlyFilePath)}`);
-    }
-    return updated;
-  } catch (error) {
-    console.error(`  ❌ Erreur ${hourlyFilePath}:`, error);
-    return false;
+  const hourlyData = JSON.parse(fs.readFileSync(hourlyFilePath, 'utf8'));
+  
+  let sunrise: string | null | undefined = null;
+  let sunset: string | null | undefined = null;
+  
+  if (fs.existsSync(dailyFilePath)) {
+    const dailyData = JSON.parse(fs.readFileSync(dailyFilePath, 'utf8'));
+    sunrise = dailyData.sunrise ?? null;
+    sunset = dailyData.sunset ?? null;
   }
+
+  // Recalculate estimated_hourly_sunshine_minutes for each hour
+  const updatedData = hourlyData.map((hour: any) => {
+    const weatherCode = hour.weather_code ?? 0;
+    const timeStr = hour.time;
+    
+    const estimatedMinutes = calculateHourlySunshineWithDaylight(
+      weatherCode,
+      timeStr,
+      sunrise,
+      sunset
+    );
+
+    return {
+      ...hour,
+      estimated_hourly_sunshine_minutes: estimatedMinutes
+    };
+  });
+
+  fs.writeFileSync(hourlyFilePath, JSON.stringify(updatedData, null, 2));
+  console.log(`Regenerated: ${year}/${month}/${day}.json`);
 }
 
 async function main() {
-  console.log('🔄 Régénération des valeurs d\'ensoleillement horaire...\n');
+  const years = fs.readdirSync(HOURLY_DIR).filter(f => !f.startsWith('.')).sort();
   
-  const hourlyDir = path.join(DATA_DIR, 'hourly');
-  if (!fs.existsSync(hourlyDir)) {
-    console.error('❌ Dossier hourly non trouvé');
-    return;
-  }
-
-  const years = fs.readdirSync(hourlyDir).filter(f => fs.statSync(path.join(hourlyDir, f)).isDirectory()).sort();
-  let totalFiles = 0;
-  let updatedFiles = 0;
-
   for (const year of years) {
-    const yearDir = path.join(hourlyDir, year);
-    const months = fs.readdirSync(yearDir).filter(f => fs.statSync(path.join(yearDir, f)).isDirectory()).sort();
+    const yearPath = path.join(HOURLY_DIR, year);
+    if (!fs.statSync(yearPath).isDirectory()) continue;
     
-    console.log(`\n📅 Année ${year}:`);
+    const months = fs.readdirSync(yearPath).filter(f => !f.startsWith('.')).sort();
     
     for (const month of months) {
-      const monthDir = path.join(yearDir, month);
-      const files = fs.readdirSync(monthDir).filter(f => f.endsWith('.json')).sort();
+      const monthPath = path.join(yearPath, month);
+      if (!fs.statSync(monthPath).isDirectory()) continue;
       
-      for (const file of files) {
-        const hourlyFilePath = path.join(monthDir, file);
-        const day = file.replace('.json', '');
-        const dailyFilePath = path.join(DATA_DIR, 'daily', year, month, `${day}.json`);
-        
-        totalFiles++;
-        const updated = await processHourlyFile(hourlyFilePath, dailyFilePath);
-        if (updated) updatedFiles++;
+      const days = fs.readdirSync(monthPath)
+        .filter(f => f.endsWith('.json'))
+        .map(f => f.replace('.json', ''))
+        .sort();
+      
+      for (const day of days) {
+        await regenerateHourlyFile(year, month, day);
       }
     }
   }
-
-  console.log(`\n✨ Terminé !`);
-  console.log(`   Fichiers traités: ${totalFiles}`);
-  console.log(`   Fichiers mis à jour: ${updatedFiles}`);
-  console.log(`   Fichiers inchangés: ${totalFiles - updatedFiles}`);
+  
+  console.log('All hourly files regenerated!');
 }
 
 main().catch(console.error);

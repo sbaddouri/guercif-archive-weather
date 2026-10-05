@@ -132,7 +132,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 8
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2003-02-11T09:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 2928.32,
-    "estimated_hourly_sunshine_minutes": 14
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2003-02-11T20:00",

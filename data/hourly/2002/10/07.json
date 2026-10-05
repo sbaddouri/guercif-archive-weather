@@ -117,7 +117,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 11
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-10-07T08:00",
@@ -297,7 +297,7 @@
     "visibility": null,
     "uv_index": null,
     "sunshine": 1435.7,
-    "estimated_hourly_sunshine_minutes": 11
+    "estimated_hourly_sunshine_minutes": 0
   },
   {
     "time": "2002-10-07T20:00",

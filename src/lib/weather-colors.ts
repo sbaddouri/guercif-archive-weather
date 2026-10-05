@@ -106,41 +106,19 @@ const WMO_SUNSHINE_FACTOR: Record<number, number> = {
 /**
  * Calcule le facteur d'élévation solaire pour les transitions lever/coucher
  * Retourne un facteur 0-1 basé sur la position du soleil
- * @param minutesFromSunrise - Minutes depuis le lever du soleil (négatif = avant lever)
- * @param minutesToSunset - Minutes avant le coucher du soleil (négatif = après coucher)
- * @param dayLengthMinutes - Durée du jour en minutes
- * @returns Facteur 0-1 pour l'ensoleillement potentiel
+ * AUCUN ensoleillement en dehors des heures de jour strictes (lever à coucher)
+ * @param timeMinutes - Minutes depuis minuit
+ * @param sunriseMinutes - Lever du soleil en minutes depuis minuit
+ * @param sunsetMinutes - Coucher du soleil en minutes depuis minuit
+ * @returns Facteur 0-1 pour l'ensoleillement potentiel (0 la nuit, sinusoïdal le jour)
  */
 function getSolarElevationFactor(
   timeMinutes: number,
   sunriseMinutes: number,
   sunsetMinutes: number
 ): number {
-  // Nuit complète
-  if (timeMinutes < sunriseMinutes - 30 || timeMinutes > sunsetMinutes + 30) {
-    return 0;
-  }
-
-  // Transition crépusculaire civile (30 min avant lever / après coucher)
-  const civilTwilight = 30;
-
-  // Avant lever du soleil (crépuscule matinal)
-  if (timeMinutes < sunriseMinutes) {
-    const minutesBeforeSunrise = sunriseMinutes - timeMinutes;
-    if (minutesBeforeSunrise <= civilTwilight) {
-      // Facteur croissant linéaire 0 → 0.3 pendant le crépuscule civil
-      return 0.3 * (1 - minutesBeforeSunrise / civilTwilight);
-    }
-    return 0;
-  }
-
-  // Après coucher du soleil (crépuscule vespéral)
-  if (timeMinutes > sunsetMinutes) {
-    const minutesAfterSunset = timeMinutes - sunsetMinutes;
-    if (minutesAfterSunset <= civilTwilight) {
-      // Facteur décroissant linéaire 0.3 → 0 pendant le crépuscule civil
-      return 0.3 * (1 - minutesAfterSunset / civilTwilight);
-    }
+  // Nuit complète - AUCUN ensoleillement avant lever ou après coucher
+  if (timeMinutes < sunriseMinutes || timeMinutes >= sunsetMinutes) {
     return 0;
   }
 
@@ -230,7 +208,9 @@ export function isHourBetweenSunriseAndSunset(timeStr: string, sunriseStr: strin
   const sunriseMinutes = getTimeMinutes(sunriseStr);
   const sunsetMinutes = getTimeMinutes(sunsetStr);
 
-  // For an hourly period like 07:00-08:00, we consider if the hour starts during daytime
+  // Une heure (ex: 07:00 = période 07:00-08:00) est considérée "jour" 
+  // SEULEMENT si elle commence APRÈS le lever du soleil ET AVANT le coucher du soleil
+  // Cela garantit AUCUN ensoleillement pendant les heures de nuit
   return timeMinutes >= sunriseMinutes && timeMinutes < sunsetMinutes;
 }
 
