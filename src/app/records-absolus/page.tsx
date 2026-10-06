@@ -1473,7 +1473,7 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne ensoleillement estimÃ© (h)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne ensoleillement estimÃ© le plus faible (h)</TableCell>
                   {avgLeastSunnyMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
