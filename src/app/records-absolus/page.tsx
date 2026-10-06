@@ -4,6 +4,8 @@ import { getDailyDataForMonth, listAvailableYears } from "@/lib/data";
 import { format, parseISO } from "date-fns";
 import { getTemperatureColor, getTextColor } from "@/lib/weather-colors";
 
+export const dynamic = 'force-dynamic';
+
 const months = [
   { num: "01", name: "Janvier", short: "Jan" },
   { num: "02", name: "FÃ©vrier", short: "FÃ©v" },
