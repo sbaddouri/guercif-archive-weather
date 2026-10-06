@@ -502,6 +502,151 @@ async function getAverageSunniestYearOverall(): Promise<{ value: number } | null
   return { value: avg };
 }
 
+async function getLeastSunnyMonthForMonth(monthNum: string): Promise<{ value: number; date: string; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let leastSunnyMonth: { value: number; date: string; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let monthTotal = 0;
+    let validDays = 0;
+    for (const day of data) {
+      if (day.estimated_daily_sunshine_minutes !== null && day.estimated_daily_sunshine_minutes !== undefined) {
+        monthTotal += day.estimated_daily_sunshine_minutes;
+        validDays++;
+      }
+    }
+    if (validDays === 0) continue;
+
+    const monthTotalHours = monthTotal / 60;
+    if (leastSunnyMonth === null || monthTotalHours < leastSunnyMonth.value) {
+      leastSunnyMonth = {
+        value: monthTotalHours,
+        date: `${year}-${monthNum}`,
+        year: year
+      };
+    }
+  }
+
+  return leastSunnyMonth;
+}
+
+async function getLeastSunnyYearOverall(): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let leastSunnyYear: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+
+    let yearTotal = 0;
+    let validMonths = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      let monthTotal = 0;
+      let validDays = 0;
+      for (const day of data) {
+        if (day.estimated_daily_sunshine_minutes !== null && day.estimated_daily_sunshine_minutes !== undefined) {
+          monthTotal += day.estimated_daily_sunshine_minutes;
+          validDays++;
+        }
+      }
+      if (validDays > 0) {
+        yearTotal += monthTotal;
+        validMonths++;
+      }
+    }
+
+    if (validMonths === 0) continue;
+
+    const yearTotalHours = yearTotal / 60;
+    if (leastSunnyYear === null || yearTotalHours < leastSunnyYear.value) {
+      leastSunnyYear = {
+        value: yearTotalHours,
+        year: year
+      };
+    }
+  }
+
+  return leastSunnyYear;
+}
+
+async function getAverageLeastSunnyMonthPerMonth(monthNum: string): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let monthlySunshineRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let monthTotal = 0;
+    let validDays = 0;
+    for (const day of data) {
+      if (day.estimated_daily_sunshine_minutes !== null && day.estimated_daily_sunshine_minutes !== undefined) {
+        monthTotal += day.estimated_daily_sunshine_minutes;
+        validDays++;
+      }
+    }
+    if (validDays === 0) continue;
+
+    monthlySunshineRecords.push(monthTotal / 60);
+  }
+
+  if (monthlySunshineRecords.length === 0) return null;
+  
+  const avg = monthlySunshineRecords.reduce((sum, v) => sum + v, 0) / monthlySunshineRecords.length;
+  return { value: avg };
+}
+
+async function getAverageLeastSunnyYearOverall(): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let annualSunshineRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+
+    let yearTotal = 0;
+    let validMonths = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      let monthTotal = 0;
+      let validDays = 0;
+      for (const day of data) {
+        if (day.estimated_daily_sunshine_minutes !== null && day.estimated_daily_sunshine_minutes !== undefined) {
+          monthTotal += day.estimated_daily_sunshine_minutes;
+          validDays++;
+        }
+      }
+      if (validDays > 0) {
+        yearTotal += monthTotal;
+        validMonths++;
+      }
+    }
+
+    if (validMonths === 0) continue;
+
+    annualSunshineRecords.push(yearTotal / 60);
+  }
+
+  if (annualSunshineRecords.length === 0) return null;
+  
+  const avg = annualSunshineRecords.reduce((sum, v) => sum + v, 0) / annualSunshineRecords.length;
+  return { value: avg };
+}
+
 export default async function RecordsAbsolusPage() {
   // Fetch all records in parallel
   const maxTempPromises = months.map(m => getAbsoluteMaxTempForMonth(m.num));
@@ -520,8 +665,12 @@ export default async function RecordsAbsolusPage() {
   const sunniestYearPromise = getSunniestYearOverall();
   const avgSunniestMonthPromises = months.map(m => getAverageSunniestMonthPerMonth(m.num));
   const avgSunniestYearPromise = getAverageSunniestYearOverall();
+  const leastSunnyMonthPromises = months.map(m => getLeastSunnyMonthForMonth(m.num));
+  const leastSunnyYearPromise = getLeastSunnyYearOverall();
+  const avgLeastSunnyMonthPromises = months.map(m => getAverageLeastSunnyMonthPerMonth(m.num));
+  const avgLeastSunnyYearPromise = getAverageLeastSunnyYearOverall();
 
-  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear] = await Promise.all([
+  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, avgLeastSunnyMonths, avgLeastSunnyYear] = await Promise.all([
     Promise.all(maxTempPromises),
     Promise.all(minTempPromises),
     Promise.all(minOfMaxPromises),
@@ -537,7 +686,11 @@ export default async function RecordsAbsolusPage() {
     Promise.all(sunniestMonthPromises),
     sunniestYearPromise,
     Promise.all(avgSunniestMonthPromises),
-    avgSunniestYearPromise
+    avgSunniestYearPromise,
+    Promise.all(leastSunnyMonthPromises),
+    leastSunnyYearPromise,
+    Promise.all(avgLeastSunnyMonthPromises),
+    avgLeastSunnyYearPromise
   ]);
 
   // Ensure all arrays are defined (fallback to empty arrays)
@@ -553,6 +706,8 @@ export default async function RecordsAbsolusPage() {
   const avgAbsMaxTempsSafe = avgAbsMaxTemps ?? [];
   const sunniestMonthsSafe = sunniestMonths ?? [];
   const avgSunniestMonthsSafe = avgSunniestMonths ?? [];
+  const leastSunnyMonthsSafe = leastSunnyMonths ?? [];
+  const avgLeastSunnyMonthsSafe = avgLeastSunnyMonths ?? [];
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
@@ -1201,6 +1356,98 @@ export default async function RecordsAbsolusPage() {
         </CardContent>
       </Card>
 
+      {/* Least Sunny Month Records (Estimated Sunshine) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Mois le moins ensoleillÃ© (EstimÃ©) - Total mensuel (h)</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total ensoleillement estimÃ© (h)</TableCell>
+                  {leastSunnyMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                      );
+                    }
+                    const bgColor = getTemperatureColor(record.value / 15 * 50);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                    {leastSunnyYear?.value?.toFixed(1) ?? 'â€”'}
+                    <div className="text-[10px] text-muted-foreground/80">{leastSunnyYear?.year ?? ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Average of Least Sunny Month per Month (Estimated Sunshine) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Moyenne mensuelle d'ensoleillement estimÃ© le plus faible (h)</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne ensoleillement estimÃ© (h)</TableCell>
+                  {avgLeastSunnyMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                      );
+                    }
+                    const bgColor = getTemperatureColor(record.value / 15 * 50);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                    {avgLeastSunnyYear?.value?.toFixed(1) ?? 'â€”'}
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
       <Card className="text-sm text-muted-foreground">
         <CardHeader>
           <CardTitle>Sources & MÃ©thodologie</CardTitle>
@@ -1218,6 +1465,8 @@ export default async function RecordsAbsolusPage() {
             <li>Moyenne des records de froid absolu : moyenne des tempÃ©ratures minimales absolues pour chaque mois sur toute la pÃ©riode, avec moyenne annuelle en 13Ã¨me colonne.</li>
             <li>Mois le plus ensoleillÃ© (estimÃ©) : mois ayant le total d'ensoleillement estimÃ© le plus Ã©levÃ© pour chaque mois sur la pÃ©riode 1940-2026, basÃ© sur les codes WMO horaires (estimation). La 13Ã¨me colonne affiche l'annÃ©e la plus ensoleillÃ©e globalement.</li>
             <li>Moyenne mensuelle d'ensoleillement estimÃ© : moyenne des totaux mensuels d'ensoleillement estimÃ© pour chaque mois sur la pÃ©riode, avec moyenne annuelle en 13Ã¨me colonne.</li>
+            <li>Mois le moins ensoleillÃ© (estimÃ©) : mois ayant le total d'ensoleillement estimÃ© le plus faible pour chaque mois sur la pÃ©riode 1940-2026, basÃ© sur les codes WMO horaires (estimation). La 13Ã¨me colonne affiche l'annÃ©e la moins ensoleillÃ©e globalement.</li>
+            <li>Moyenne mensuelle d'ensoleillement estimÃ© le plus faible : moyenne des totaux mensuels d'ensoleillement estimÃ© les plus faibles pour chaque mois sur la pÃ©riode, avec moyenne annuelle en 13Ã¨me colonne.</li>
             <li>ModÃ¨le utilisÃ© : ERA5-Land / best_match Open-Meteo.</li>
             <li>Les donnÃ©es horaires ont Ã©tÃ© utilisÃ©es pour complÃ©ter les valeurs journaliÃ¨res manquantes quand nÃ©cessaire</li>
           </ol>
