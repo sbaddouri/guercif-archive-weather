@@ -6,6 +6,21 @@ import { getTemperatureColor, getTextColor } from "@/lib/weather-colors";
 
 export const dynamic = 'force-dynamic';
 
+const CURRENT_YEAR = 2026;
+const CURRENT_MONTH = 10; // October
+
+function isIncompletePeriod(year: number, monthNum: string): boolean {
+  const month = parseInt(monthNum);
+  // Exclude current incomplete month
+  if (year === CURRENT_YEAR && month === CURRENT_MONTH) return true;
+  return false;
+}
+
+function isIncompleteYear(year: number): boolean {
+  // Exclude current incomplete year
+  return year === CURRENT_YEAR;
+}
+
 const months = [
   { num: "01", name: "Janvier", short: "Jan" },
   { num: "02", name: "FÃ©vrier", short: "FÃ©v" },
@@ -28,6 +43,7 @@ async function getAbsoluteMaxTempForMonth(monthNum: string): Promise<{ value: nu
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -55,6 +71,7 @@ async function getAbsoluteMinTempForMonth(monthNum: string): Promise<{ value: nu
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -82,6 +99,7 @@ async function getMinOfMaxTempForMonth(monthNum: string): Promise<{ value: numbe
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -109,6 +127,7 @@ async function getMaxOfMinTempForMonth(monthNum: string): Promise<{ value: numbe
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -136,6 +155,7 @@ async function getHighestMonthlyAvgMaxTempForMonth(monthNum: string): Promise<{ 
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -164,6 +184,7 @@ async function getLowestMonthlyAvgMaxTempForMonth(monthNum: string): Promise<{ v
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -192,6 +213,7 @@ async function getLowestMonthlyAvgMinTempForMonth(monthNum: string): Promise<{ v
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -220,6 +242,7 @@ async function getHighestMonthlyAvgMinTempForMonth(monthNum: string): Promise<{ 
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -248,6 +271,7 @@ async function getAverageAbsoluteMinTempForMonth(monthNum: string): Promise<{ va
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -272,12 +296,15 @@ async function getAverageAbsoluteMinTempOverall(): Promise<{ value: number } | n
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearMin: number | null = null;
 
     // Check all 12 months for this year
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       const validDays = data.filter(d => d.temp_min !== null && d.temp_min !== undefined);
@@ -307,6 +334,7 @@ async function getAverageAbsoluteMaxTempForMonth(monthNum: string): Promise<{ va
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -331,12 +359,15 @@ async function getAverageAbsoluteMaxTempOverall(): Promise<{ value: number } | n
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearMax: number | null = null;
 
     // Check all 12 months for this year
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       const validDays = data.filter(d => d.temp_max !== null && d.temp_max !== undefined);
@@ -353,7 +384,7 @@ async function getAverageAbsoluteMaxTempOverall(): Promise<{ value: number } | n
     }
   }
 
-if (annualMaxRecords.length === 0) return null;
+  if (annualMaxRecords.length === 0) return null;
   
   const avg = annualMaxRecords.reduce((sum, v) => sum + v, 0) / annualMaxRecords.length;
   return { value: avg };
@@ -366,6 +397,7 @@ async function getSunniestMonthForMonth(monthNum: string): Promise<{ value: numb
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -399,12 +431,15 @@ async function getSunniestYearOverall(): Promise<{ value: number; year: string }
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearTotal = 0;
     let validMonths = 0;
 
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       let monthTotal = 0;
@@ -442,6 +477,7 @@ async function getAverageSunniestMonthPerMonth(monthNum: string): Promise<{ valu
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -471,12 +507,15 @@ async function getAverageSunniestYearOverall(): Promise<{ value: number } | null
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearTotal = 0;
     let validMonths = 0;
 
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       let monthTotal = 0;
@@ -511,6 +550,7 @@ async function getLeastSunnyMonthForMonth(monthNum: string): Promise<{ value: nu
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -544,12 +584,15 @@ async function getLeastSunnyYearOverall(): Promise<{ value: number; year: string
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearTotal = 0;
     let validMonths = 0;
 
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       let monthTotal = 0;
@@ -587,6 +630,7 @@ async function getAverageLeastSunnyMonthPerMonth(monthNum: string): Promise<{ va
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
 
     const data = await getDailyDataForMonth(year, monthNum);
     
@@ -616,12 +660,15 @@ async function getAverageLeastSunnyYearOverall(): Promise<{ value: number } | nu
   for (const year of years) {
     const yearNum = parseInt(year);
     if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
 
     let yearTotal = 0;
     let validMonths = 0;
 
     for (let month = 1; month <= 12; month++) {
       const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
       const data = await getDailyDataForMonth(year, monthNum);
       
       let monthTotal = 0;
