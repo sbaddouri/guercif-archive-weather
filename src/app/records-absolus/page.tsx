@@ -696,6 +696,235 @@ async function getAverageLeastSunnyYearOverall(): Promise<{ value: number } | nu
   return { value: avg };
 }
 
+async function getWettestMonthForMonth(monthNum: string): Promise<{ value: number; date: string; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let wettestMonth: { value: number; date: string; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let monthTotal = 0;
+    let validDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined) {
+        monthTotal += day.precipitation;
+        validDays++;
+      }
+    }
+    if (validDays === 0) continue;
+
+    if (wettestMonth === null || monthTotal > wettestMonth.value) {
+      wettestMonth = {
+        value: monthTotal,
+        date: `${year}-${monthNum}`,
+        year: year
+      };
+    }
+  }
+
+  return wettestMonth;
+}
+
+async function getWettestYearOverall(): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let wettestYear: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearTotal = 0;
+    let validMonths = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      let monthTotal = 0;
+      let validDays = 0;
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined) {
+          monthTotal += day.precipitation;
+          validDays++;
+        }
+      }
+      if (validDays > 0) {
+        yearTotal += monthTotal;
+        validMonths++;
+      }
+    }
+
+    if (validMonths === 0) continue;
+
+    if (wettestYear === null || yearTotal > wettestYear.value) {
+      wettestYear = {
+        value: yearTotal,
+        year: year
+      };
+    }
+  }
+
+  return wettestYear;
+}
+
+async function getDriestMonthForMonth(monthNum: string): Promise<{ value: number; date: string; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let driestMonth: { value: number; date: string; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let monthTotal = 0;
+    let validDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined) {
+        monthTotal += day.precipitation;
+        validDays++;
+      }
+    }
+    if (validDays === 0) continue;
+
+    if (driestMonth === null || monthTotal < driestMonth.value) {
+      driestMonth = {
+        value: monthTotal,
+        date: `${year}-${monthNum}`,
+        year: year
+      };
+    }
+  }
+
+  return driestMonth;
+}
+
+async function getDriestYearOverall(): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let driestYear: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearTotal = 0;
+    let validMonths = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      let monthTotal = 0;
+      let validDays = 0;
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined) {
+          monthTotal += day.precipitation;
+          validDays++;
+        }
+      }
+      if (validDays > 0) {
+        yearTotal += monthTotal;
+        validMonths++;
+      }
+    }
+
+    if (validMonths === 0) continue;
+
+    if (driestYear === null || yearTotal < driestYear.value) {
+      driestYear = {
+        value: yearTotal,
+        year: year
+      };
+    }
+  }
+
+  return driestYear;
+}
+
+async function getAveragePrecipitationPerMonth(monthNum: string): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let monthlyPrecipRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let monthTotal = 0;
+    let validDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined) {
+        monthTotal += day.precipitation;
+        validDays++;
+      }
+    }
+    if (validDays === 0) continue;
+
+    monthlyPrecipRecords.push(monthTotal);
+  }
+
+  if (monthlyPrecipRecords.length === 0) return null;
+  
+  const avg = monthlyPrecipRecords.reduce((sum, v) => sum + v, 0) / monthlyPrecipRecords.length;
+  return { value: avg };
+}
+
+async function getAveragePrecipitationYearOverall(): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let annualPrecipRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearTotal = 0;
+    let validMonths = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      let monthTotal = 0;
+      let validDays = 0;
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined) {
+          monthTotal += day.precipitation;
+          validDays++;
+        }
+      }
+      if (validDays > 0) {
+        yearTotal += monthTotal;
+        validMonths++;
+      }
+    }
+
+    if (validMonths === 0) continue;
+
+    annualPrecipRecords.push(yearTotal);
+  }
+
+  if (annualPrecipRecords.length === 0) return null;
+  
+  const avg = annualPrecipRecords.reduce((sum, v) => sum + v, 0) / annualPrecipRecords.length;
+  return { value: avg };
+}
+
 export default async function RecordsAbsolusPage() {
   // Fetch all records in parallel
   const maxTempPromises = months.map(m => getAbsoluteMaxTempForMonth(m.num));
@@ -716,8 +945,14 @@ export default async function RecordsAbsolusPage() {
   const avgSunniestYearPromise = getAverageSunniestYearOverall();
   const leastSunnyMonthPromises = months.map(m => getLeastSunnyMonthForMonth(m.num));
   const leastSunnyYearPromise = getLeastSunnyYearOverall();
+  const wettestMonthPromises = months.map(m => getWettestMonthForMonth(m.num));
+  const wettestYearPromise = getWettestYearOverall();
+  const driestMonthPromises = months.map(m => getDriestMonthForMonth(m.num));
+  const driestYearPromise = getDriestYearOverall();
+  const avgPrecipMonthPromises = months.map(m => getAveragePrecipitationPerMonth(m.num));
+  const avgPrecipYearPromise = getAveragePrecipitationYearOverall();
 
-  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear] = await Promise.all([
+  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, wettestMonths, wettestYear, driestMonths, driestYear, avgPrecipMonths, avgPrecipYear] = await Promise.all([
     Promise.all(maxTempPromises),
     Promise.all(minTempPromises),
     Promise.all(minOfMaxPromises),
@@ -735,7 +970,13 @@ export default async function RecordsAbsolusPage() {
     Promise.all(avgSunniestMonthPromises),
     avgSunniestYearPromise,
     Promise.all(leastSunnyMonthPromises),
-    leastSunnyYearPromise
+    leastSunnyYearPromise,
+    Promise.all(wettestMonthPromises),
+    wettestYearPromise,
+    Promise.all(driestMonthPromises),
+    driestYearPromise,
+    Promise.all(avgPrecipMonthPromises),
+    avgPrecipYearPromise
   ]);
 
   // Ensure all arrays are defined (fallback to empty arrays)
@@ -752,6 +993,9 @@ export default async function RecordsAbsolusPage() {
   const sunniestMonthsSafe = sunniestMonths ?? [];
   const avgSunniestMonthsSafe = avgSunniestMonths ?? [];
   const leastSunnyMonthsSafe = leastSunnyMonths ?? [];
+  const wettestMonthsSafe = wettestMonths ?? [];
+  const driestMonthsSafe = driestMonths ?? [];
+  const avgPrecipMonthsSafe = avgPrecipMonths ?? [];
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
@@ -1447,6 +1691,145 @@ export default async function RecordsAbsolusPage() {
         </CardContent>
       </Card>
 
+      {/* Wettest Month Records (Precipitation) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Mois le plus humide (Précipitations) - Total mensuel (mm)</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total prÃ©cipitations (mm)</TableCell>
+                  {wettestMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                      );
+                    }
+                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                    {wettestYear?.value?.toFixed(1) ?? 'â€”'}
+                    <div className="text-[10px] text-muted-foreground/80">{wettestYear?.year ?? ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Driest Month Records (Precipitation) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Mois le plus sec (Précipitations) - Total mensuel (mm)</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total prÃ©cipitations (mm)</TableCell>
+                  {driestMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                      );
+                    }
+                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                    {driestYear?.value?.toFixed(1) ?? 'â€”'}
+                    <div className="text-[10px] text-muted-foreground/80">{driestYear?.year ?? ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Average Precipitation per Month */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Moyenne mensuelle de prÃ©cipitations (mm)</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne prÃ©cipitations (mm)</TableCell>
+                  {avgPrecipMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                      );
+                    }
+                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                    {avgPrecipYear?.value?.toFixed(1) ?? 'â€”'}
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
       <Card className="text-sm text-muted-foreground">
         <CardHeader>
           <CardTitle>Sources & MÃ©thodologie</CardTitle>
@@ -1465,6 +1848,9 @@ export default async function RecordsAbsolusPage() {
             <li>Mois le plus ensoleillé (estimé) : mois ayant le total d'ensoleillement estimé le plus élevé pour chaque mois sur la période 1940-2026, basé sur les codes WMO horaires (estimation). La 13ème colonne affiche l'année la plus ensoleillée globalement.</li>
             <li>Moyenne mensuelle d'ensoleillement estimé : moyenne des totaux mensuels d'ensoleillement estimé pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
             <li>Mois le moins ensoleillé (estimé) : mois ayant le total d'ensoleillement estimé le plus faible pour chaque mois sur la période 1940-2026, basé sur les codes WMO horaires (estimation). La 13ème colonne affiche l'année la moins ensoleillée globalement.</li>
+            <li>Mois le plus humide (précipitations) : mois ayant le total de précipitations le plus élevé pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année la plus humide globalement.</li>
+            <li>Mois le plus sec (précipitations) : mois ayant le total de précipitations le plus faible pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année la plus sèche globalement.</li>
+            <li>Moyenne mensuelle de précipitations : moyenne des totaux mensuels de précipitations pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
             <li>Modèle utilisé : ERA5-Land / best_match Open-Meteo.</li>
             <li>Les données horaires ont été utilisées pour compléter les valeurs journalières manquantes quand nécessaire</li>
           </ol>
