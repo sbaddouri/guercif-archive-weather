@@ -1271,7 +1271,7 @@ export default async function RecordsAbsolusPage() {
                   })}
                 </TableRow>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">AnnÃ©e</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Année</TableCell>
                   {highestAvgMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1328,7 +1328,7 @@ export default async function RecordsAbsolusPage() {
                   })}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">AnnÃ©e</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Année</TableCell>
                   {lowestAvgMaxTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1385,7 +1385,7 @@ export default async function RecordsAbsolusPage() {
                   })}
                 </TableRow>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">AnnÃ©e</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Année</TableCell>
                   {lowestAvgMinTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1442,7 +1442,7 @@ export default async function RecordsAbsolusPage() {
                   })}
                 </TableRow>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">AnnÃ©e</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Année</TableCell>
                   {highestAvgMinTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1478,7 +1478,7 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -1523,7 +1523,7 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -1568,7 +1568,7 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -1615,7 +1615,7 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -1660,7 +1660,7 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -1707,12 +1707,12 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total prÃ©cipitations (mm)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total précipitations (mm)</TableCell>
                   {wettestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1754,12 +1754,12 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total prÃ©cipitations (mm)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total précipitations (mm)</TableCell>
                   {driestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1788,7 +1788,7 @@ export default async function RecordsAbsolusPage() {
       {/* Average Precipitation per Month */}
       <Card>
         <CardHeader>
-          <CardTitle>Moyenne mensuelle de prÃ©cipitations (mm)</CardTitle>
+          <CardTitle>Moyenne mensuelle de précipitations (mm)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1801,12 +1801,12 @@ export default async function RecordsAbsolusPage() {
                       {m.short}
                     </TableHead>
                   ))}
-                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">AnnÃ©e</TableHead>
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Année</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne prÃ©cipitations (mm)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne précipitations (mm)</TableCell>
                   {avgPrecipMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
@@ -1832,14 +1832,14 @@ export default async function RecordsAbsolusPage() {
 
       <Card className="text-sm text-muted-foreground">
         <CardHeader>
-          <CardTitle>Sources & MÃ©thodologie</CardTitle>
+          <CardTitle>Sources & Méthodologie</CardTitle>
         </CardHeader>
         <CardContent>
           <ol className="list-decimal pl-5 space-y-1">
-            <li>DonnÃ©es basÃ©es sur les relevÃ©s journaliers Open-Meteo (ERA5 reanalysis) pour Guercif (34.2257Â°N, -3.3536Â°W).</li>
-            <li>PÃ©riode couverte : janvier 1940 Ã  janvier 2026 (87 annÃ©es).</li>
-            <li>TempÃ©. maxi extrÃªme : valeur maximale de temp_max journaliÃ¨re pour chaque mois sur toute la pÃ©riode.</li>
-            <li>TempÃ©. mini maximale : valeur maximale de temp_min journaliÃ¨re pour chaque mois sur toute la pÃ©riode (nuit la plus chaude).</li>
+            <li>Données basées sur les relevés journaliers Open-Meteo (ERA5 reanalysis) pour Guercif (34.2257°N, -3.3536°W).</li>
+            <li>Période couverte : janvier 1940 à janvier 2026 (87 années).</li>
+            <li>Tempé. maxi extrême : valeur maximale de temp_max journalière pour chaque mois sur toute la période.</li>
+            <li>Tempé. mini maximale : valeur maximale de temp_min journalière pour chaque mois sur toute la période (nuit la plus chaude).</li>
             <li>Tempé. maxi moyenne la plus haute : moyenne mensuelle des maximales la plus élevée pour chaque mois sur toute la période (mois le plus chaud en moyenne).</li>
             <li>Tempé. maxi moyenne la plus basse : moyenne mensuelle des maximales la plus basse pour chaque mois sur toute la période (mois le plus froid en moyenne).</li>
             <li>Tempé. mini moyenne la plus haute : moyenne mensuelle des minimales la plus élevée pour chaque mois sur toute la période (mois le plus chaud en moyenne des minimales).</li>
