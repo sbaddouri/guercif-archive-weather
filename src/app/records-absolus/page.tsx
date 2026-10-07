@@ -23,17 +23,17 @@ function isIncompleteYear(year: number): boolean {
 
 const months = [
   { num: "01", name: "Janvier", short: "Jan" },
-  { num: "02", name: "FÃ©vrier", short: "FÃ©v" },
+  { num: "02", name: "Février", short: "Fév" },
   { num: "03", name: "Mars", short: "Mar" },
   { num: "04", name: "Avril", short: "Avr" },
   { num: "05", name: "Mai", short: "Mai" },
   { num: "06", name: "Juin", short: "Juin" },
   { num: "07", name: "Juillet", short: "Juil" },
-  { num: "08", name: "AoÃ»t", short: "AoÃ»t" },
+  { num: "08", name: "Août", short: "Août" },
   { num: "09", name: "Septembre", short: "Sep" },
   { num: "10", name: "Octobre", short: "Oct" },
   { num: "11", name: "Novembre", short: "Nov" },
-  { num: "12", name: "DÃ©cembre", short: "DÃ©c" },
+  { num: "12", name: "Décembre", short: "Déc" },
 ];
 
 async function getAbsoluteMaxTempForMonth(monthNum: string): Promise<{ value: number; date: string; year: string } | null> {
@@ -758,14 +758,14 @@ export default async function RecordsAbsolusPage() {
       <div className="space-y-2">
         <h1 className="text-3xl font-bold">Records Absolus - Guercif</h1>
         <p className="text-muted-foreground">
-          Records absolus de tempÃ©rature (1940-2026) basÃ©s sur les donnÃ©es journaliÃ¨res Open-Meteo.
+          Records absolus de température (1940-2026) basés sur les données journalières Open-Meteo.
         </p>
       </div>
 
       {/* Max Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. maxi extrÃªme (Â°C)</CardTitle>
+          <CardTitle>Tempé. maxi extrême (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -782,11 +782,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. maxi extrÃªme (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. maxi extrême (°C)</TableCell>
                   {maxTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -803,7 +803,7 @@ export default async function RecordsAbsolusPage() {
                   {maxTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -822,7 +822,7 @@ export default async function RecordsAbsolusPage() {
       {/* Min Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. mini extrÃªme (Â°C)</CardTitle>
+          <CardTitle>Tempé. mini extrême (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -839,11 +839,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. mini extrÃªme (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. mini extrême (°C)</TableCell>
                   {minTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -860,7 +860,7 @@ export default async function RecordsAbsolusPage() {
                   {minTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -879,7 +879,7 @@ export default async function RecordsAbsolusPage() {
       {/* Min of Max Temperature Records (TXN) */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. maxi minimale (Â°C)</CardTitle>
+          <CardTitle>Tempé. maxi minimale (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -896,11 +896,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. maxi minimale (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. maxi minimale (°C)</TableCell>
 {minOfMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -917,7 +917,7 @@ export default async function RecordsAbsolusPage() {
                   {minOfMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -936,7 +936,7 @@ export default async function RecordsAbsolusPage() {
       {/* Max of Min Temperature Records (TNX) */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. mini maximale (Â°C)</CardTitle>
+          <CardTitle>Tempé. mini maximale (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -953,11 +953,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. mini maximale (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. mini maximale (°C)</TableCell>
                   {maxOfMinTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -974,7 +974,7 @@ export default async function RecordsAbsolusPage() {
                   {maxOfMinTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -993,7 +993,7 @@ export default async function RecordsAbsolusPage() {
       {/* Highest Monthly Average Max Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. maxi moyenne la plus haute (Â°C)</CardTitle>
+          <CardTitle>Tempé. maxi moyenne la plus haute (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1010,11 +1010,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. maxi moyenne la plus haute (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. maxi moyenne la plus haute (°C)</TableCell>
                   {highestAvgMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -1031,7 +1031,7 @@ export default async function RecordsAbsolusPage() {
                   {highestAvgMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -1050,7 +1050,7 @@ export default async function RecordsAbsolusPage() {
       {/* Lowest Monthly Average Max Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. maxi moyenne la plus basse (Â°C)</CardTitle>
+          <CardTitle>Tempé. maxi moyenne la plus basse (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1067,11 +1067,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. maxi moyenne la plus basse (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. maxi moyenne la plus basse (°C)</TableCell>
                   {lowestAvgMaxTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -1088,7 +1088,7 @@ export default async function RecordsAbsolusPage() {
                   {lowestAvgMaxTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -1107,7 +1107,7 @@ export default async function RecordsAbsolusPage() {
       {/* Lowest Monthly Average Min Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. mini moyenne la plus basse (Â°C)</CardTitle>
+          <CardTitle>Tempé. mini moyenne la plus basse (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1124,11 +1124,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. mini moyenne la plus basse (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. mini moyenne la plus basse (°C)</TableCell>
                   {lowestAvgMinTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -1145,7 +1145,7 @@ export default async function RecordsAbsolusPage() {
                   {lowestAvgMinTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -1164,7 +1164,7 @@ export default async function RecordsAbsolusPage() {
       {/* Highest Monthly Average Min Temperature Records */}
       <Card>
         <CardHeader>
-          <CardTitle>TempÃ©. mini moyenne la plus haute (Â°C)</CardTitle>
+          <CardTitle>Tempé. mini moyenne la plus haute (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1181,11 +1181,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">TempÃ©. mini moyenne la plus haute (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Tempé. mini moyenne la plus haute (°C)</TableCell>
                   {highestAvgMinTempsSafe?.map((record, idx) => {
                       if (!record) {
                         return (
-                          <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                          <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                         );
                       }
                     const bgColor = getTemperatureColor(record.value);
@@ -1202,7 +1202,7 @@ export default async function RecordsAbsolusPage() {
                   {highestAvgMinTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     return (
@@ -1221,7 +1221,7 @@ export default async function RecordsAbsolusPage() {
       {/* Average of Absolute Minimum Records per Month */}
       <Card>
         <CardHeader>
-          <CardTitle>Moyenne des records de froid absolu (Â°C)</CardTitle>
+          <CardTitle>Moyenne des records de froid absolu (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1239,11 +1239,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne records froid absolu (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne records froid absolu (°C)</TableCell>
                   {avgAbsMinTempsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -1254,7 +1254,7 @@ export default async function RecordsAbsolusPage() {
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {avgAbsMinOverall?.value?.toFixed(1) ?? 'â€”'}
+                    {avgAbsMinOverall?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -1266,7 +1266,7 @@ export default async function RecordsAbsolusPage() {
       {/* Average of Absolute Maximum Records per Month */}
       <Card>
         <CardHeader>
-          <CardTitle>Moyenne des records de chaleur absolu (Â°C)</CardTitle>
+          <CardTitle>Moyenne des records de chaleur absolu (°C)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1284,11 +1284,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne records chaleur absolu (Â°C)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne records chaleur absolu (°C)</TableCell>
                   {avgAbsMaxTempsSafe?.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value);
@@ -1299,7 +1299,7 @@ export default async function RecordsAbsolusPage() {
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {avgAbsMaxOverall?.value?.toFixed(1) ?? 'â€”'}
+                    {avgAbsMaxOverall?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -1311,7 +1311,7 @@ export default async function RecordsAbsolusPage() {
       {/* Sunniest Month Records (Estimated Sunshine) */}
       <Card>
         <CardHeader>
-          <CardTitle>Mois le plus ensoleillÃ© (EstimÃ©) - Total mensuel (h)</CardTitle>
+          <CardTitle>Mois le plus ensoleillé (Estimé) - Total mensuel (h)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1329,11 +1329,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total ensoleillement estimÃ© (h)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total ensoleillement estimé (h)</TableCell>
                   {sunniestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value / 15 * 50);
@@ -1345,7 +1345,7 @@ export default async function RecordsAbsolusPage() {
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {sunniestYear?.value?.toFixed(1) ?? 'â€”'}
+                    {sunniestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{sunniestYear?.year ?? ''}</div>
                   </TableCell>
                 </TableRow>
@@ -1358,7 +1358,7 @@ export default async function RecordsAbsolusPage() {
       {/* Average of Sunniest Month per Month (Estimated Sunshine) */}
       <Card>
         <CardHeader>
-          <CardTitle>Moyenne mensuelle d'ensoleillement estimÃ© (h)</CardTitle>
+          <CardTitle>Moyenne mensuelle d'ensoleillement estimé (h)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1376,11 +1376,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne ensoleillement estimÃ© (h)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Moyenne ensoleillement estimé (h)</TableCell>
                   {avgSunniestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value / 15 * 50);
@@ -1391,7 +1391,7 @@ export default async function RecordsAbsolusPage() {
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {avgSunniestYear?.value?.toFixed(1) ?? 'â€”'}
+                    {avgSunniestYear?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -1403,7 +1403,7 @@ export default async function RecordsAbsolusPage() {
       {/* Least Sunny Month Records (Estimated Sunshine) */}
       <Card>
         <CardHeader>
-          <CardTitle>Mois le moins ensoleillÃ© (EstimÃ©) - Total mensuel (h)</CardTitle>
+          <CardTitle>Mois le moins ensoleillé (Estimé) - Total mensuel (h)</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
@@ -1421,11 +1421,11 @@ export default async function RecordsAbsolusPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total ensoleillement estimÃ© (h)</TableCell>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Total ensoleillement estimé (h)</TableCell>
                   {leastSunnyMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
                     const bgColor = getTemperatureColor(record.value / 15 * 50);
@@ -1437,7 +1437,7 @@ export default async function RecordsAbsolusPage() {
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {leastSunnyYear?.value?.toFixed(1) ?? 'â€”'}
+                    {leastSunnyYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{leastSunnyYear?.year ?? ''}</div>
                   </TableCell>
                 </TableRow>
@@ -1457,16 +1457,16 @@ export default async function RecordsAbsolusPage() {
             <li>PÃ©riode couverte : janvier 1940 Ã  janvier 2026 (87 annÃ©es).</li>
             <li>TempÃ©. maxi extrÃªme : valeur maximale de temp_max journaliÃ¨re pour chaque mois sur toute la pÃ©riode.</li>
             <li>TempÃ©. mini maximale : valeur maximale de temp_min journaliÃ¨re pour chaque mois sur toute la pÃ©riode (nuit la plus chaude).</li>
-            <li>TempÃ©. maxi moyenne la plus haute : moyenne mensuelle des maximales la plus Ã©levÃ©e pour chaque mois sur toute la pÃ©riode (mois le plus chaud en moyenne).</li>
-            <li>TempÃ©. maxi moyenne la plus basse : moyenne mensuelle des maximales la plus basse pour chaque mois sur toute la pÃ©riode (mois le plus froid en moyenne).</li>
-            <li>TempÃ©. mini moyenne la plus haute : moyenne mensuelle des minimales la plus Ã©levÃ©e pour chaque mois sur toute la pÃ©riode (mois le plus chaud en moyenne des minimales).</li>
-            <li>TempÃ©. mini moyenne la plus basse : moyenne mensuelle des minimales la plus basse pour chaque mois sur toute la pÃ©riode (mois le plus froid en moyenne des minimales).</li>
-            <li>Moyenne des records de froid absolu : moyenne des tempÃ©ratures minimales absolues pour chaque mois sur toute la pÃ©riode, avec moyenne annuelle en 13Ã¨me colonne.</li>
-            <li>Mois le plus ensoleillÃ© (estimÃ©) : mois ayant le total d'ensoleillement estimÃ© le plus Ã©levÃ© pour chaque mois sur la pÃ©riode 1940-2026, basÃ© sur les codes WMO horaires (estimation). La 13Ã¨me colonne affiche l'annÃ©e la plus ensoleillÃ©e globalement.</li>
-            <li>Moyenne mensuelle d'ensoleillement estimÃ© : moyenne des totaux mensuels d'ensoleillement estimÃ© pour chaque mois sur la pÃ©riode, avec moyenne annuelle en 13Ã¨me colonne.</li>
-            <li>Mois le moins ensoleillÃ© (estimÃ©) : mois ayant le total d'ensoleillement estimÃ© le plus faible pour chaque mois sur la pÃ©riode 1940-2026, basÃ© sur les codes WMO horaires (estimation). La 13Ã¨me colonne affiche l'annÃ©e la moins ensoleillÃ©e globalement.</li>
-            <li>ModÃ¨le utilisÃ© : ERA5-Land / best_match Open-Meteo.</li>
-            <li>Les donnÃ©es horaires ont Ã©tÃ© utilisÃ©es pour complÃ©ter les valeurs journaliÃ¨res manquantes quand nÃ©cessaire</li>
+            <li>Tempé. maxi moyenne la plus haute : moyenne mensuelle des maximales la plus élevée pour chaque mois sur toute la période (mois le plus chaud en moyenne).</li>
+            <li>Tempé. maxi moyenne la plus basse : moyenne mensuelle des maximales la plus basse pour chaque mois sur toute la période (mois le plus froid en moyenne).</li>
+            <li>Tempé. mini moyenne la plus haute : moyenne mensuelle des minimales la plus élevée pour chaque mois sur toute la période (mois le plus chaud en moyenne des minimales).</li>
+            <li>Tempé. mini moyenne la plus basse : moyenne mensuelle des minimales la plus basse pour chaque mois sur toute la période (mois le plus froid en moyenne des minimales).</li>
+            <li>Moyenne des records de froid absolu : moyenne des températures minimales absolues pour chaque mois sur toute la période, avec moyenne annuelle en 13ème colonne.</li>
+            <li>Mois le plus ensoleillé (estimé) : mois ayant le total d'ensoleillement estimé le plus élevé pour chaque mois sur la période 1940-2026, basé sur les codes WMO horaires (estimation). La 13ème colonne affiche l'année la plus ensoleillée globalement.</li>
+            <li>Moyenne mensuelle d'ensoleillement estimé : moyenne des totaux mensuels d'ensoleillement estimé pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
+            <li>Mois le moins ensoleillé (estimé) : mois ayant le total d'ensoleillement estimé le plus faible pour chaque mois sur la période 1940-2026, basé sur les codes WMO horaires (estimation). La 13ème colonne affiche l'année la moins ensoleillée globalement.</li>
+            <li>Modèle utilisé : ERA5-Land / best_match Open-Meteo.</li>
+            <li>Les données horaires ont été utilisées pour compléter les valeurs journalières manquantes quand nécessaire</li>
           </ol>
         </CardContent>
       </Card>
