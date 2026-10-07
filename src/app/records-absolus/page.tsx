@@ -2,9 +2,19 @@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { getDailyDataForMonth, listAvailableYears } from "@/lib/data";
 import { format, parseISO } from "date-fns";
-import { getTemperatureColor, getTextColor } from "@/lib/weather-colors";
+import { getTemperatureColor, getPrecipitationColor, getSunshineColor, getTextColor } from "@/lib/weather-colors";
 
 export const dynamic = 'force-dynamic';
+
+function getContrastTextColor(bgColor: string): string {
+  if (!bgColor || bgColor === 'transparent') return '#000000';
+  const hex = bgColor.replace('#', '');
+  const r = parseInt(hex.substring(0, 2), 16);
+  const g = parseInt(hex.substring(2, 4), 16);
+  const b = parseInt(hex.substring(4, 6), 16);
+  const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+  return luminance > 0.5 ? '#000000' : '#FFFFFF';
+}
 
 const CURRENT_YEAR = 2026;
 const CURRENT_MONTH = 10; // October
@@ -1580,9 +1590,9 @@ export default async function RecordsAbsolusPage() {
                         <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 15 * 50);
+                    const bgColor = getSunshineColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
                       </TableCell>
@@ -1627,9 +1637,9 @@ export default async function RecordsAbsolusPage() {
                         <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 15 * 50);
+                    const bgColor = getSunshineColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                       </TableCell>
                     );
@@ -1672,9 +1682,9 @@ export default async function RecordsAbsolusPage() {
                         <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 15 * 50);
+                    const bgColor = getSunshineColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
                       </TableCell>
@@ -1716,19 +1726,19 @@ export default async function RecordsAbsolusPage() {
                   {wettestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    const bgColor = getPrecipitationColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {wettestYear?.value?.toFixed(1) ?? 'â€”'}
+                    {wettestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{wettestYear?.year ?? ''}</div>
                   </TableCell>
                 </TableRow>
@@ -1763,19 +1773,19 @@ export default async function RecordsAbsolusPage() {
                   {driestMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    const bgColor = getPrecipitationColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {driestYear?.value?.toFixed(1) ?? 'â€”'}
+                    {driestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{driestYear?.year ?? ''}</div>
                   </TableCell>
                 </TableRow>
@@ -1810,18 +1820,18 @@ export default async function RecordsAbsolusPage() {
                   {avgPrecipMonthsSafe.map((record, idx) => {
                     if (!record) {
                       return (
-                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">â€”</TableCell>
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
                       );
                     }
-                    const bgColor = getTemperatureColor(record.value / 500 * 50);
+                    const bgColor = getPrecipitationColor(record.value);
                     return (
-                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
-                    {avgPrecipYear?.value?.toFixed(1) ?? 'â€”'}
+                    {avgPrecipYear?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
               </TableBody>
