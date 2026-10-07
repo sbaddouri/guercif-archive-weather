@@ -1507,7 +1507,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getTemperatureColor(avgAbsMinOverall?.value ?? 0), color: getTextColor(getTemperatureColor(avgAbsMinOverall?.value ?? 0)) }}>
                     {avgAbsMinOverall?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
@@ -1552,7 +1552,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getTemperatureColor(avgAbsMaxOverall?.value ?? 0), color: getTextColor(getTemperatureColor(avgAbsMaxOverall?.value ?? 0)) }}>
                     {avgAbsMaxOverall?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
@@ -1598,7 +1598,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getSunshineColor(sunniestYear?.value ?? 0), color: getContrastTextColor(getSunshineColor(sunniestYear?.value ?? 0)) }}>
                     {sunniestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{sunniestYear?.year ?? ''}</div>
                   </TableCell>
@@ -1644,7 +1644,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getSunshineColor(avgSunniestYear?.value ?? 0), color: getContrastTextColor(getSunshineColor(avgSunniestYear?.value ?? 0)) }}>
                     {avgSunniestYear?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
@@ -1690,7 +1690,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getSunshineColor(leastSunnyYear?.value ?? 0), color: getContrastTextColor(getSunshineColor(leastSunnyYear?.value ?? 0)) }}>
                     {leastSunnyYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{leastSunnyYear?.year ?? ''}</div>
                   </TableCell>
@@ -1737,7 +1737,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(wettestYear?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(wettestYear?.value ?? 0)) }}>
                     {wettestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{wettestYear?.year ?? ''}</div>
                   </TableCell>
@@ -1784,7 +1784,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(driestYear?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(driestYear?.value ?? 0)) }}>
                     {driestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{driestYear?.year ?? ''}</div>
                   </TableCell>
@@ -1830,7 +1830,7 @@ export default async function RecordsAbsolusPage() {
                       </TableCell>
                     );
                   })}
-                  <TableCell className="border font-bold px-3 py-2 text-center bg-primary/10" style={{ backgroundColor: 'var(--primary)', color: 'var(--primary-foreground)' }}>
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(avgPrecipYear?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(avgPrecipYear?.value ?? 0)) }}>
                     {avgPrecipYear?.value?.toFixed(1) ?? '—'}
                   </TableCell>
                 </TableRow>
