@@ -935,6 +935,66 @@ async function getAveragePrecipitationYearOverall(): Promise<{ value: number } |
   return { value: avg };
 }
 
+async function getMaxDailyPrecipPerMonth(monthNum: string): Promise<{ value: number; date: string; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let maxDailyPrecip: { value: number; date: string; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined) {
+        const precip = day.precipitation;
+        if (maxDailyPrecip === null || precip > maxDailyPrecip.value) {
+          maxDailyPrecip = {
+            value: precip,
+            date: day.date,
+            year: year
+          };
+        }
+      }
+    }
+  }
+
+  return maxDailyPrecip;
+}
+
+async function getMaxDailyPrecipOverall(): Promise<{ value: number; date: string; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let maxDailyPrecip: { value: number; date: string; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (yearNum === CURRENT_YEAR && month === CURRENT_MONTH) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined) {
+          const precip = day.precipitation;
+          if (maxDailyPrecip === null || precip > maxDailyPrecip.value) {
+            maxDailyPrecip = {
+              value: precip,
+              date: day.date,
+              year: year
+            };
+          }
+        }
+      }
+    }
+  }
+
+  return maxDailyPrecip;
+}
+
 export default async function RecordsAbsolusPage() {
   // Fetch all records in parallel
   const maxTempPromises = months.map(m => getAbsoluteMaxTempForMonth(m.num));
@@ -961,8 +1021,10 @@ export default async function RecordsAbsolusPage() {
   const driestYearPromise = getDriestYearOverall();
   const avgPrecipMonthPromises = months.map(m => getAveragePrecipitationPerMonth(m.num));
   const avgPrecipYearPromise = getAveragePrecipitationYearOverall();
+  const maxDailyPrecipMonthPromises = months.map(m => getMaxDailyPrecipPerMonth(m.num));
+  const maxDailyPrecipOverallPromise = getMaxDailyPrecipOverall();
 
-  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, wettestMonths, wettestYear, driestMonths, driestYear, avgPrecipMonths, avgPrecipYear] = await Promise.all([
+  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, wettestMonths, wettestYear, driestMonths, driestYear, avgPrecipMonths, avgPrecipYear, maxDailyPrecipMonths, maxDailyPrecipOverall] = await Promise.all([
     Promise.all(maxTempPromises),
     Promise.all(minTempPromises),
     Promise.all(minOfMaxPromises),
@@ -986,7 +1048,9 @@ export default async function RecordsAbsolusPage() {
     Promise.all(driestMonthPromises),
     driestYearPromise,
     Promise.all(avgPrecipMonthPromises),
-    avgPrecipYearPromise
+    avgPrecipYearPromise,
+    Promise.all(maxDailyPrecipMonthPromises),
+    maxDailyPrecipOverallPromise
   ]);
 
   // Ensure all arrays are defined (fallback to empty arrays)
@@ -1006,6 +1070,7 @@ export default async function RecordsAbsolusPage() {
   const wettestMonthsSafe = wettestMonths ?? [];
   const driestMonthsSafe = driestMonths ?? [];
   const avgPrecipMonthsSafe = avgPrecipMonths ?? [];
+  const maxDailyPrecipMonthsSafe = maxDailyPrecipMonths ?? [];
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
@@ -1840,6 +1905,53 @@ export default async function RecordsAbsolusPage() {
         </CardContent>
       </Card>
 
+      {/* Max Daily Precipitation Records */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Hauteur quotidienne maximale de précipitations (mm) - Mensuel</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Record absolu</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Max quotidien (mm)</TableCell>
+                  {maxDailyPrecipMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
+                      );
+                    }
+                    const bgColor = getPrecipitationColor(record.value);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{format(parseISO(record.date), 'dd/MM/yyyy')}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(maxDailyPrecipOverall?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(maxDailyPrecipOverall?.value ?? 0)) }}>
+                    {maxDailyPrecipOverall?.value?.toFixed(1) ?? '—'}
+                    <div className="text-[10px] text-muted-foreground/80">{maxDailyPrecipOverall ? format(parseISO(maxDailyPrecipOverall.date), 'dd/MM/yyyy') : ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
       <Card className="text-sm text-muted-foreground">
         <CardHeader>
           <CardTitle>Sources & Méthodologie</CardTitle>
@@ -1861,6 +1973,7 @@ export default async function RecordsAbsolusPage() {
             <li>Mois le plus humide (précipitations) : mois ayant le total de précipitations le plus élevé pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année la plus humide globalement.</li>
             <li>Mois le plus sec (précipitations) : mois ayant le total de précipitations le plus faible pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année la plus sèche globalement.</li>
             <li>Moyenne mensuelle de précipitations : moyenne des totaux mensuels de précipitations pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
+            <li>Hauteur quotidienne maximale de précipitations : valeur maximale de précipitation journalière pour chaque mois sur la période 1940-2026. La 13ème colonne affiche le record absolu (valeur + date) sur toute la période.</li>
             <li>Modèle utilisé : ERA5-Land / best_match Open-Meteo.</li>
             <li>Les données horaires ont été utilisées pour compléter les valeurs journalières manquantes quand nécessaire</li>
           </ol>
