@@ -995,6 +995,194 @@ async function getMaxDailyPrecipOverall(): Promise<{ value: number; date: string
   return maxDailyPrecip;
 }
 
+async function getMostPrecipDaysPerMonth(monthNum: string): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let mostDays: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let precipDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+        precipDays++;
+      }
+    }
+    
+    if (mostDays === null || precipDays > mostDays.value) {
+      mostDays = {
+        value: precipDays,
+        year: year
+      };
+    }
+  }
+
+  return mostDays;
+}
+
+async function getMostPrecipDaysYearOverall(): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let mostDaysYear: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearPrecipDays = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+          yearPrecipDays++;
+        }
+      }
+    }
+
+    if (mostDaysYear === null || yearPrecipDays > mostDaysYear.value) {
+      mostDaysYear = {
+        value: yearPrecipDays,
+        year: year
+      };
+    }
+  }
+
+  return mostDaysYear;
+}
+
+async function getFewestPrecipDaysPerMonth(monthNum: string): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let fewestDays: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let precipDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+        precipDays++;
+      }
+    }
+    
+    if (fewestDays === null || precipDays < fewestDays.value) {
+      fewestDays = {
+        value: precipDays,
+        year: year
+      };
+    }
+  }
+
+  return fewestDays;
+}
+
+async function getFewestPrecipDaysYearOverall(): Promise<{ value: number; year: string } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let fewestDaysYear: { value: number; year: string } | null = null;
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearPrecipDays = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+          yearPrecipDays++;
+        }
+      }
+    }
+
+    if (fewestDaysYear === null || yearPrecipDays < fewestDaysYear.value) {
+      fewestDaysYear = {
+        value: yearPrecipDays,
+        year: year
+      };
+    }
+  }
+
+  return fewestDaysYear;
+}
+
+async function getAveragePrecipDaysPerMonth(monthNum: string): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let monthlyPrecipDaysRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompletePeriod(yearNum, monthNum)) continue;
+
+    const data = await getDailyDataForMonth(year, monthNum);
+    
+    let precipDays = 0;
+    for (const day of data) {
+      if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+        precipDays++;
+      }
+    }
+    
+    monthlyPrecipDaysRecords.push(precipDays);
+  }
+
+  if (monthlyPrecipDaysRecords.length === 0) return null;
+  
+  const avg = monthlyPrecipDaysRecords.reduce((sum, v) => sum + v, 0) / monthlyPrecipDaysRecords.length;
+  return { value: avg };
+}
+
+async function getAveragePrecipDaysYearOverall(): Promise<{ value: number } | null> {
+  const years = listAvailableYears().sort((a, b) => parseInt(a) - parseInt(b));
+  let annualPrecipDaysRecords: number[] = [];
+
+  for (const year of years) {
+    const yearNum = parseInt(year);
+    if (yearNum < 1940 || yearNum > 2026) continue;
+    if (isIncompleteYear(yearNum)) continue;
+
+    let yearPrecipDays = 0;
+
+    for (let month = 1; month <= 12; month++) {
+      const monthNum = month.toString().padStart(2, '0');
+      if (isIncompletePeriod(yearNum, monthNum)) continue;
+      
+      const data = await getDailyDataForMonth(year, monthNum);
+      
+      for (const day of data) {
+        if (day.precipitation !== null && day.precipitation !== undefined && day.precipitation >= 1) {
+          yearPrecipDays++;
+        }
+      }
+    }
+
+    annualPrecipDaysRecords.push(yearPrecipDays);
+  }
+
+  if (annualPrecipDaysRecords.length === 0) return null;
+  
+  const avg = annualPrecipDaysRecords.reduce((sum, v) => sum + v, 0) / annualPrecipDaysRecords.length;
+  return { value: avg };
+}
+
 export default async function RecordsAbsolusPage() {
   // Fetch all records in parallel
   const maxTempPromises = months.map(m => getAbsoluteMaxTempForMonth(m.num));
@@ -1023,8 +1211,14 @@ export default async function RecordsAbsolusPage() {
   const avgPrecipYearPromise = getAveragePrecipitationYearOverall();
   const maxDailyPrecipMonthPromises = months.map(m => getMaxDailyPrecipPerMonth(m.num));
   const maxDailyPrecipOverallPromise = getMaxDailyPrecipOverall();
+  const mostPrecipDaysMonthPromises = months.map(m => getMostPrecipDaysPerMonth(m.num));
+  const mostPrecipDaysYearPromise = getMostPrecipDaysYearOverall();
+  const fewestPrecipDaysMonthPromises = months.map(m => getFewestPrecipDaysPerMonth(m.num));
+  const fewestPrecipDaysYearPromise = getFewestPrecipDaysYearOverall();
+  const avgPrecipDaysMonthPromises = months.map(m => getAveragePrecipDaysPerMonth(m.num));
+  const avgPrecipDaysYearPromise = getAveragePrecipDaysYearOverall();
 
-  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, wettestMonths, wettestYear, driestMonths, driestYear, avgPrecipMonths, avgPrecipYear, maxDailyPrecipMonths, maxDailyPrecipOverall] = await Promise.all([
+  const [maxTemps, minTemps, minOfMaxTemps, maxOfMinTemps, highestAvgMaxTemps, lowestAvgMaxTemps, lowestAvgMinTemps, highestAvgMinTemps, avgAbsMinTemps, avgAbsMinOverall, avgAbsMaxTemps, avgAbsMaxOverall, sunniestMonths, sunniestYear, avgSunniestMonths, avgSunniestYear, leastSunnyMonths, leastSunnyYear, wettestMonths, wettestYear, driestMonths, driestYear, avgPrecipMonths, avgPrecipYear, maxDailyPrecipMonths, maxDailyPrecipOverall, mostPrecipDaysMonths, mostPrecipDaysYear, fewestPrecipDaysMonths, fewestPrecipDaysYear, avgPrecipDaysMonths, avgPrecipDaysYear] = await Promise.all([
     Promise.all(maxTempPromises),
     Promise.all(minTempPromises),
     Promise.all(minOfMaxPromises),
@@ -1050,7 +1244,13 @@ export default async function RecordsAbsolusPage() {
     Promise.all(avgPrecipMonthPromises),
     avgPrecipYearPromise,
     Promise.all(maxDailyPrecipMonthPromises),
-    maxDailyPrecipOverallPromise
+    maxDailyPrecipOverallPromise,
+    Promise.all(mostPrecipDaysMonthPromises),
+    mostPrecipDaysYearPromise,
+    Promise.all(fewestPrecipDaysMonthPromises),
+    fewestPrecipDaysYearPromise,
+    Promise.all(avgPrecipDaysMonthPromises),
+    avgPrecipDaysYearPromise
   ]);
 
   // Ensure all arrays are defined (fallback to empty arrays)
@@ -1071,6 +1271,9 @@ export default async function RecordsAbsolusPage() {
   const driestMonthsSafe = driestMonths ?? [];
   const avgPrecipMonthsSafe = avgPrecipMonths ?? [];
   const maxDailyPrecipMonthsSafe = maxDailyPrecipMonths ?? [];
+  const mostPrecipDaysMonthsSafe = mostPrecipDaysMonths ?? [];
+  const fewestPrecipDaysMonthsSafe = fewestPrecipDaysMonths ?? [];
+  const avgPrecipDaysMonthsSafe = avgPrecipDaysMonths ?? [];
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
@@ -1952,6 +2155,145 @@ export default async function RecordsAbsolusPage() {
         </CardContent>
       </Card>
 
+      {/* Most Precipitation Days Per Month */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Nombre de jours de précipitations record élevé (≥1mm) - Mensuel</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Record absolu</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Jours ≥ 1mm</TableCell>
+                  {mostPrecipDaysMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
+                      );
+                    }
+                    const bgColor = getPrecipitationColor(record.value * 10);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor((mostPrecipDaysYear?.value ?? 0) * 10), color: getContrastTextColor(getPrecipitationColor((mostPrecipDaysYear?.value ?? 0) * 10)) }}>
+                    {mostPrecipDaysYear?.value ?? '—'}
+                    <div className="text-[10px] text-muted-foreground/80">{mostPrecipDaysYear?.year ?? ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Fewest Precipitation Days Per Month */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Nombre de jours de précipitations record bas (≥1mm) - Mensuel</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Record absolu</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Jours ≥ 1mm</TableCell>
+                  {fewestPrecipDaysMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
+                      );
+                    }
+                    const bgColor = getPrecipitationColor(record.value * 10);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value}</div>
+                        <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor((fewestPrecipDaysYear?.value ?? 0) * 10), color: getContrastTextColor(getPrecipitationColor((fewestPrecipDaysYear?.value ?? 0) * 10)) }}>
+                    {fewestPrecipDaysYear?.value ?? '—'}
+                    <div className="text-[10px] text-muted-foreground/80">{fewestPrecipDaysYear?.year ?? ''}</div>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Average Precipitation Days Per Month */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Nombre de jours de précipitations moyen (≥1mm) - Mensuel</CardTitle>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="overflow-x-auto">
+            <Table className="w-full">
+              <TableHeader>
+                <TableRow className="bg-muted/50 border-b">
+                  <TableHead className="border px-3 py-2 font-bold text-left sticky left-0 z-10">Record</TableHead>
+                  {months.map(m => (
+                    <TableHead key={m.num} className="border px-2 py-2 font-bold text-center text-sm capitalize">
+                      {m.short}
+                    </TableHead>
+                  ))}
+                  <TableHead className="border px-3 py-2 font-bold text-center text-sm capitalize bg-primary/10">Moyenne annuelle</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="border font-bold px-3 py-2 text-left bg-muted/50">Jours ≥ 1mm (moyenne)</TableCell>
+                  {avgPrecipDaysMonthsSafe.map((record, idx) => {
+                    if (!record) {
+                      return (
+                        <TableCell key={idx} className="border px-2 py-2 text-center text-muted-foreground">—</TableCell>
+                      );
+                    }
+                    const bgColor = getPrecipitationColor(record.value * 10);
+                    return (
+                      <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
+                        <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
+                      </TableCell>
+                    );
+                  })}
+                  <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor((avgPrecipDaysYear?.value ?? 0) * 10), color: getContrastTextColor(getPrecipitationColor((avgPrecipDaysYear?.value ?? 0) * 10)) }}>
+                    {avgPrecipDaysYear?.value?.toFixed(1) ?? '—'}
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </CardContent>
+      </Card>
+
       <Card className="text-sm text-muted-foreground">
         <CardHeader>
           <CardTitle>Sources & Méthodologie</CardTitle>
@@ -1974,6 +2316,9 @@ export default async function RecordsAbsolusPage() {
             <li>Mois le plus sec (précipitations) : mois ayant le total de précipitations le plus faible pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année la plus sèche globalement.</li>
             <li>Moyenne mensuelle de précipitations : moyenne des totaux mensuels de précipitations pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
             <li>Hauteur quotidienne maximale de précipitations : valeur maximale de précipitation journalière pour chaque mois sur la période 1940-2026. La 13ème colonne affiche le record absolu (valeur + date) sur toute la période.</li>
+            <li>Nombre de jours de précipitations record élevé : mois ayant le plus grand nombre de jours avec précipitations ≥ 1mm pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année avec le plus grand nombre de jours de précipitations sur toute la période.</li>
+            <li>Nombre de jours de précipitations record bas : mois ayant le plus petit nombre de jours avec précipitations ≥ 1mm pour chaque mois sur la période 1940-2026. La 13ème colonne affiche l'année avec le plus petit nombre de jours de précipitations sur toute la période.</li>
+            <li>Nombre de jours de précipitations moyen : moyenne du nombre de jours avec précipitations ≥ 1mm pour chaque mois sur la période, avec moyenne annuelle en 13ème colonne.</li>
             <li>Modèle utilisé : ERA5-Land / best_match Open-Meteo.</li>
             <li>Les données horaires ont été utilisées pour compléter les valeurs journalières manquantes quand nécessaire</li>
           </ol>
