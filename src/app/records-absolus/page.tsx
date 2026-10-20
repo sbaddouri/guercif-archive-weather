@@ -3,6 +3,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { getDailyDataForMonth, listAvailableYears } from "@/lib/data";
 import { format, parseISO } from "date-fns";
 import { getTemperatureColor, getPrecipitationColor, getSunshineColor, getTextColor } from "@/lib/weather-colors";
+import { RecordNavLinks, getDayHref, getYearHref } from "@/components/record-nav-links";
+import Link from "next/link";
 
 export const dynamic = 'force-dynamic';
 
@@ -1282,6 +1284,10 @@ export default async function RecordsAbsolusPage() {
         <p className="text-muted-foreground">
           Records absolus de température (1940-2026) basés sur les données journalières Open-Meteo.
         </p>
+        <p className="text-sm text-muted-foreground">
+          Chaque record dispose d&apos;un bouton <span className="font-semibold">Jour</span> (le cas échéant) et d&apos;un bouton{' '}
+          <span className="font-semibold">Mois</span> qui mènent directement à la page du jour ou du mois concerné.
+        </p>
       </div>
 
       {/* Max Temperature Records */}
@@ -1316,6 +1322,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks date={record.date} year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1330,7 +1337,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        <Link
+                          href={getDayHref(record.date) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de ce jour"
+                        >
+                          {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1373,6 +1386,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks date={record.date} year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1387,7 +1401,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        <Link
+                          href={getDayHref(record.date) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de ce jour"
+                        >
+                          {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1430,6 +1450,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks date={record.date} year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1444,7 +1465,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        <Link
+                          href={getDayHref(record.date) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de ce jour"
+                        >
+                          {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1487,6 +1514,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks date={record.date} year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1501,7 +1529,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        <Link
+                          href={getDayHref(record.date) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de ce jour"
+                        >
+                          {format(parseISO(record.date), 'dd/MM/yyyy')}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1544,6 +1578,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1558,7 +1593,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {record.year}
+                        <Link
+                          href={getYearHref(record.year) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de cette année"
+                        >
+                          {record.year}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1601,6 +1642,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1615,7 +1657,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {record.year}
+                        <Link
+                          href={getYearHref(record.year) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de cette année"
+                        >
+                          {record.year}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1658,6 +1706,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1672,7 +1721,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {record.year}
+                        <Link
+                          href={getYearHref(record.year) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de cette année"
+                        >
+                          {record.year}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1715,6 +1770,7 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
@@ -1729,7 +1785,13 @@ export default async function RecordsAbsolusPage() {
                     }
                     return (
                       <TableCell key={idx} className="border px-2 py-2 text-center text-[11px] text-muted-foreground">
-                        {record.year}
+                        <Link
+                          href={getYearHref(record.year) ?? "#"}
+                          className="underline-offset-2 hover:underline"
+                          title="Voir la page de cette année"
+                        >
+                          {record.year}
+                        </Link>
                       </TableCell>
                     );
                   })}
@@ -1863,12 +1925,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getSunshineColor(sunniestYear?.value ?? 0), color: getContrastTextColor(getSunshineColor(sunniestYear?.value ?? 0)) }}>
                     {sunniestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{sunniestYear?.year ?? ''}</div>
+                    <RecordNavLinks year={sunniestYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -1955,12 +2019,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getSunshineColor(leastSunnyYear?.value ?? 0), color: getContrastTextColor(getSunshineColor(leastSunnyYear?.value ?? 0)) }}>
                     {leastSunnyYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{leastSunnyYear?.year ?? ''}</div>
+                    <RecordNavLinks year={leastSunnyYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -2002,12 +2068,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(wettestYear?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(wettestYear?.value ?? 0)) }}>
                     {wettestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{wettestYear?.year ?? ''}</div>
+                    <RecordNavLinks year={wettestYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -2049,12 +2117,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(driestYear?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(driestYear?.value ?? 0)) }}>
                     {driestYear?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{driestYear?.year ?? ''}</div>
+                    <RecordNavLinks year={driestYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -2141,12 +2211,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value?.toFixed(1) ?? '-'}</div>
                         <div className="text-[10px] text-muted-foreground/80">{format(parseISO(record.date), 'dd/MM/yyyy')}</div>
+                        <RecordNavLinks date={record.date} year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor(maxDailyPrecipOverall?.value ?? 0), color: getContrastTextColor(getPrecipitationColor(maxDailyPrecipOverall?.value ?? 0)) }}>
                     {maxDailyPrecipOverall?.value?.toFixed(1) ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{maxDailyPrecipOverall ? format(parseISO(maxDailyPrecipOverall.date), 'dd/MM/yyyy') : ''}</div>
+                    <RecordNavLinks date={maxDailyPrecipOverall?.date} year={maxDailyPrecipOverall?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -2188,12 +2260,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor((mostPrecipDaysYear?.value ?? 0) * 10), color: getContrastTextColor(getPrecipitationColor((mostPrecipDaysYear?.value ?? 0) * 10)) }}>
                     {mostPrecipDaysYear?.value ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{mostPrecipDaysYear?.year ?? ''}</div>
+                    <RecordNavLinks year={mostPrecipDaysYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -2235,12 +2309,14 @@ export default async function RecordsAbsolusPage() {
                       <TableCell key={idx} className="border px-2 py-2 text-center" style={{ backgroundColor: bgColor, color: getContrastTextColor(bgColor) }}>
                         <div className="font-bold">{record.value}</div>
                         <div className="text-[10px] text-muted-foreground/80">{record.year}</div>
+                        <RecordNavLinks year={record.year} month={months[idx]?.num} />
                       </TableCell>
                     );
                   })}
                   <TableCell className="border font-bold px-3 py-2 text-center" style={{ backgroundColor: getPrecipitationColor((fewestPrecipDaysYear?.value ?? 0) * 10), color: getContrastTextColor(getPrecipitationColor((fewestPrecipDaysYear?.value ?? 0) * 10)) }}>
                     {fewestPrecipDaysYear?.value ?? '—'}
                     <div className="text-[10px] text-muted-foreground/80">{fewestPrecipDaysYear?.year ?? ''}</div>
+                    <RecordNavLinks year={fewestPrecipDaysYear?.year} />
                   </TableCell>
                 </TableRow>
               </TableBody>
