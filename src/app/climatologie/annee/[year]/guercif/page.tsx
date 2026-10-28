@@ -191,6 +191,11 @@ export default async function YearPage({ params }: PageProps) {
               Année suivante →
             </button>
           </Link>
+          <Link href={`/climatologie/annee/${year}/occurrences`}>
+            <button className={cn(buttonVariants({ variant: "outline" }))}>
+              Occurrences de phénomènes
+            </button>
+          </Link>
         </div>
         {isEarliestYear && (
           <div className="text-center text-sm text-muted-foreground">
