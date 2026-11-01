@@ -2,7 +2,8 @@ import { getOccurrencesDataForYear, listAvailableYears } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { notFound } from "next/navigation";
 
 const MONTH_NAMES: Record<string, string> = {
@@ -80,13 +81,36 @@ export default async function YearOccurrencesPage({ params }: PageProps) {
     notFound();
   }
 
+  // Previous/Next year navigation
+  const allYears = listAvailableYears().sort();
+  const currentYearIndex = allYears.indexOf(year);
+  const isEarliestYear = year === '1940';
+  const hasPrev = currentYearIndex > 0 && !isEarliestYear;
+  const hasNext = currentYearIndex < allYears.length - 1;
+  const prevYear = hasPrev ? allYears[currentYearIndex - 1] : null;
+  const nextYear = hasNext ? allYears[currentYearIndex + 1] : null;
+
   const { byMonth, months } = data;
 
   return (
     <div className="space-y-8">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold">Occurrences de phénomènes - {year}</h1>
-        <p className="text-muted-foreground">
+        <div className="flex items-center justify-between">
+          {!isEarliestYear && (
+            <Link href={`/climatologie/annee/${prevYear}/occurrences`}>
+              <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasPrev}>
+                ← Année précédente
+              </button>
+            </Link>
+          )}
+          <h1 className="text-3xl font-bold text-center">Occurrences de phénomènes - {year}</h1>
+          <Link href={`/climatologie/annee/${nextYear}/occurrences`}>
+            <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasNext}>
+              Année suivante →
+            </button>
+          </Link>
+        </div>
+        <p className="text-muted-foreground text-center">
           Nombre de jours par mois pour l'année {year} à Guercif.
         </p>
       </div>

@@ -50,7 +50,14 @@ export default async function YearPage({ params }: PageProps) {
     notFound();
   }
 
+  // Previous/Next year navigation
+  const allYears = listAvailableYears().sort();
+  const currentYearIndex = allYears.indexOf(year);
   const isEarliestYear = year === '1940';
+  const hasPrev = currentYearIndex > 0 && !isEarliestYear;
+  const hasNext = currentYearIndex < allYears.length - 1;
+  const prevYear = hasPrev ? allYears[currentYearIndex - 1] : null;
+  const nextYear = hasNext ? allYears[currentYearIndex + 1] : null;
 
   // Group by month
   const monthlyStats: { [key: string]: MonthlyStats } = {};
@@ -171,7 +178,19 @@ export default async function YearPage({ params }: PageProps) {
     <div className="space-y-8">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center justify-between">
+          {!isEarliestYear && (
+            <Link href={`/climatologie/annee/${prevYear}/guercif`}>
+              <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasPrev}>
+                ← Année précédente
+              </button>
+            </Link>
+          )}
           <h1 className="text-3xl font-bold text-center">Données climatiques {year} - Guercif, Maroc</h1>
+          <Link href={`/climatologie/annee/${nextYear}/guercif`}>
+            <button className={cn(buttonVariants({ variant: "ghost" }), "disabled:opacity-50")} disabled={!hasNext}>
+              Année suivante →
+            </button>
+          </Link>
           <Link href={`/climatologie/annee/${year}/occurrences`}>
             <button className={cn(buttonVariants({ variant: "outline" }))}>
               Occurrences de phénomènes
