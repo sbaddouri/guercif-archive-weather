@@ -1,21 +1,6 @@
 [
   {
     "time": "2026-10-30T00:00",
-    "temp": 16.2,
-    "humidity": 74,
-    "dew_point": 11.7,
-    "precipitation": 0,
-    "weather_code": 0,
-    "pressure": 1020.6,
-    "wind_speed": 6.5,
-    "wind_gusts": 11.9,
-    "visibility": null,
-    "uv_index": null,
-    "sunshine": 0,
-    "estimated_hourly_sunshine_minutes": 0
-  },
-  {
-    "time": "2026-10-30T01:00",
     "temp": 15.9,
     "humidity": 78,
     "dew_point": 12,
@@ -30,7 +15,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T02:00",
+    "time": "2026-10-30T01:00",
     "temp": 15.2,
     "humidity": 81,
     "dew_point": 11.9,
@@ -45,7 +30,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T03:00",
+    "time": "2026-10-30T02:00",
     "temp": 14.5,
     "humidity": 83,
     "dew_point": 11.7,
@@ -60,7 +45,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T04:00",
+    "time": "2026-10-30T03:00",
     "temp": 14.1,
     "humidity": 85,
     "dew_point": 11.6,
@@ -75,7 +60,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T05:00",
+    "time": "2026-10-30T04:00",
     "temp": 13.6,
     "humidity": 87,
     "dew_point": 11.4,
@@ -90,7 +75,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T06:00",
+    "time": "2026-10-30T05:00",
     "temp": 13.1,
     "humidity": 89,
     "dew_point": 11.3,
@@ -105,7 +90,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T07:00",
+    "time": "2026-10-30T06:00",
     "temp": 12.7,
     "humidity": 93,
     "dew_point": 11.5,
@@ -120,7 +105,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T08:00",
+    "time": "2026-10-30T07:00",
     "temp": 12.4,
     "humidity": 94,
     "dew_point": 11.4,
@@ -135,7 +120,7 @@
     "estimated_hourly_sunshine_minutes": 8
   },
   {
-    "time": "2026-10-30T09:00",
+    "time": "2026-10-30T08:00",
     "temp": 14.8,
     "humidity": 81,
     "dew_point": 11.5,
@@ -150,7 +135,7 @@
     "estimated_hourly_sunshine_minutes": 25
   },
   {
-    "time": "2026-10-30T10:00",
+    "time": "2026-10-30T09:00",
     "temp": 17.5,
     "humidity": 67,
     "dew_point": 11.3,
@@ -165,7 +150,7 @@
     "estimated_hourly_sunshine_minutes": 40
   },
   {
-    "time": "2026-10-30T11:00",
+    "time": "2026-10-30T10:00",
     "temp": 20.2,
     "humidity": 55,
     "dew_point": 10.8,
@@ -180,7 +165,7 @@
     "estimated_hourly_sunshine_minutes": 38
   },
   {
-    "time": "2026-10-30T12:00",
+    "time": "2026-10-30T11:00",
     "temp": 22.7,
     "humidity": 41,
     "dew_point": 8.9,
@@ -195,7 +180,7 @@
     "estimated_hourly_sunshine_minutes": 43
   },
   {
-    "time": "2026-10-30T13:00",
+    "time": "2026-10-30T12:00",
     "temp": 24.6,
     "humidity": 36,
     "dew_point": 8.5,
@@ -210,7 +195,7 @@
     "estimated_hourly_sunshine_minutes": 30
   },
   {
-    "time": "2026-10-30T14:00",
+    "time": "2026-10-30T13:00",
     "temp": 26.1,
     "humidity": 34,
     "dew_point": 8.9,
@@ -225,7 +210,7 @@
     "estimated_hourly_sunshine_minutes": 6
   },
   {
-    "time": "2026-10-30T15:00",
+    "time": "2026-10-30T14:00",
     "temp": 27,
     "humidity": 32,
     "dew_point": 9,
@@ -240,7 +225,7 @@
     "estimated_hourly_sunshine_minutes": 5
   },
   {
-    "time": "2026-10-30T16:00",
+    "time": "2026-10-30T15:00",
     "temp": 27.3,
     "humidity": 30,
     "dew_point": 8.5,
@@ -255,7 +240,7 @@
     "estimated_hourly_sunshine_minutes": 28
   },
   {
-    "time": "2026-10-30T17:00",
+    "time": "2026-10-30T16:00",
     "temp": 26.9,
     "humidity": 29,
     "dew_point": 7.6,
@@ -270,7 +255,7 @@
     "estimated_hourly_sunshine_minutes": 17
   },
   {
-    "time": "2026-10-30T18:00",
+    "time": "2026-10-30T17:00",
     "temp": 25.5,
     "humidity": 31,
     "dew_point": 7.1,
@@ -285,7 +270,7 @@
     "estimated_hourly_sunshine_minutes": 3
   },
   {
-    "time": "2026-10-30T19:00",
+    "time": "2026-10-30T18:00",
     "temp": 23.7,
     "humidity": 40,
     "dew_point": 9.2,
@@ -300,7 +285,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T20:00",
+    "time": "2026-10-30T19:00",
     "temp": 21.8,
     "humidity": 56,
     "dew_point": 12.7,
@@ -315,7 +300,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T21:00",
+    "time": "2026-10-30T20:00",
     "temp": 21,
     "humidity": 58,
     "dew_point": 12.3,
@@ -330,7 +315,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T22:00",
+    "time": "2026-10-30T21:00",
     "temp": 20.3,
     "humidity": 58,
     "dew_point": 11.8,
@@ -345,7 +330,7 @@
     "estimated_hourly_sunshine_minutes": 0
   },
   {
-    "time": "2026-10-30T23:00",
+    "time": "2026-10-30T22:00",
     "temp": 19.4,
     "humidity": 62,
     "dew_point": 11.9,
@@ -354,6 +339,21 @@
     "pressure": 1018.6,
     "wind_speed": 9.3,
     "wind_gusts": 21.2,
+    "visibility": null,
+    "uv_index": null,
+    "sunshine": 0,
+    "estimated_hourly_sunshine_minutes": 0
+  },
+  {
+    "time": "2026-10-30T23:00",
+    "temp": 18.6,
+    "humidity": 67,
+    "dew_point": 12.3,
+    "precipitation": 0,
+    "weather_code": 2,
+    "pressure": 1018.6,
+    "wind_speed": 4.5,
+    "wind_gusts": 14.8,
     "visibility": null,
     "uv_index": null,
     "sunshine": 0,
